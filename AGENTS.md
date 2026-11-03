@@ -25,6 +25,7 @@
 
 ## Trạng thái nghiên cứu 5G hiện tại
 
-- Đọc docs/07-nr5g-investigation.md và fresh_analysis/nr5g_research/runtime/vina_outdoor_setup.json.
-- Người dùng đã cho phép thử chế độ mạng, sau đó yêu cầu giữ VinaPhone bật 5G để thử ngoài đường. Đang để ro.vendor.radio.5g=2 (gốc), Settings.System 5g_sa_mode_disabled=0, modem SA true/mode3; chưa chứng minh NR registration.
-- Không tự rollback thiết lập này trong lúc user field test. Các trial trước đã rollback; không coi ERROR là thành công. Không flash/NVRAM để tiếp tục nếu chưa có mục tiêu/điều kiện được chứng minh.
+- Đọc docs/07-nr5g-investigation.md và fresh_analysis/nr5g_research/crash_review/rollback_and_current_state.json. vina_outdoor_setup.json chỉ là lịch sử, không còn là trạng thái cuối.
+- Sau hai lần sọc màu/đen màn, người dùng yêu cầu hoàn nguyên. Đã xác nhận ro.vendor.radio.5g=2, Settings.System 5g_sa_mode_disabled absent/null, preferred_network_mode=33,33. Nguyên nhân treo chưa xác định; không tự bật lại thử nghiệm SA/NSA.
+- Yêu cầu mới là bộ thử ro.vendor.radio.build_region=global tách riêng. experiments/radio_region_global_v1 chứa LK nguyên byte đã boot + module property-only; chưa cài lên máy, chưa chứng minh sửa được NR. Không mô tả LK sao chép là LK patch 5G.
+- Không coi ERROR là thành công. Không flash/NVRAM để tiếp tục nếu chưa có mục tiêu/điều kiện được chứng minh.

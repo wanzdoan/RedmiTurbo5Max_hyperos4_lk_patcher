@@ -1,6 +1,6 @@
 # Nghiên cứu 5G/NR trên Redmi Turbo 5 Max
 
-Cập nhật 2026-11-03. **Chưa có bằng chứng đăng ký NR thành công.** Theo yêu cầu cuối của người dùng, hiện để **5G độc lập bật cho VinaPhone** để họ mang máy ra ngoài thử. Không tự hoàn nguyên thiết lập này trong lúc chờ field test.
+Cập nhật 2026-11-03. **Chưa có bằng chứng đăng ký NR thành công.** Sau hai lần sọc màu/đen màn, người dùng yêu cầu hoàn nguyên; các thay đổi thử SA/NSA đã được trả về cấu hình trước thử. Bộ thử vùng radio mới được đóng gói riêng, chưa cài lên máy.
 
 ## Trạng thái hiện tại được để lại
 
@@ -10,15 +10,23 @@ Cập nhật 2026-11-03. **Chưa có bằng chứng đăng ký NR thành công.*
 | SIM slot 0 | Viettel, PLMN 45204 |
 | SIM slot 1, đang dùng dữ liệu | VinaPhone, PLMN 45202 |
 | `ro.vendor.radio.5g` | `2`, giá trị gốc đã khôi phục |
-| `Settings.System:5g_sa_mode_disabled` | `0`, người dùng yêu cầu giữ bật cho thử ngoài đường |
+| `Settings.System:5g_sa_mode_disabled` | Không tồn tại; `settings get` trả `null`, đã hoàn nguyên |
 | `preferred_network_mode` | `33,33`, không đổi |
-| Phản hồi modem slot Vina | `+E5GOPT: 3` |
-| Trạng thái trong ứng dụng Phone | `mSaStatus[1]=true`, `mNsaStatus[1]=false` |
-| Đăng ký 5G ngoài thực địa | Chờ người dùng xác nhận |
+| Radio log khi hoàn nguyên | Phone gửi `AT+E5GOPT=1` cho hai slot; không suy thành NR registration |
+| Network type tại snapshot sau hoàn nguyên | `LTE,Unknown`; không xác nhận cả hai SIM đã ổn định |
+| Đăng ký 5G ngoài thực địa | Chưa có xác nhận thành công |
 
-`mode 3` ở đây là phản hồi cấu hình vận hành từ modem, không phải mã xác nhận đang đăng ký mạng NR. Tại snapshot đặt cấu hình, network type Vina còn Unknown/tìm mạng. Không tuyên bố đã mở 5G thành công chỉ từ biểu tượng hoặc một giá trị cấu hình.
+`mode 3` trong thử nghiệm trước chỉ là cấu hình vận hành của modem, không phải xác nhận đang đăng ký NR. Không tuyên bố đã mở 5G thành công chỉ từ biểu tượng hoặc một giá trị cấu hình.
 
-Bản ghi cấu hình để đi thử: [vina_outdoor_setup.json](../fresh_analysis/nr5g_research/runtime/vina_outdoor_setup.json). LK đã boot vẫn SHA256 `f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171`, không đổi byte.
+Bản ghi cuối: [rollback_and_current_state.json](../fresh_analysis/nr5g_research/crash_review/rollback_and_current_state.json). [vina_outdoor_setup.json](../fresh_analysis/nr5g_research/runtime/vina_outdoor_setup.json) là trạng thái lịch sử đã được hoàn nguyên. LK đã boot vẫn SHA256 `f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171`, không đổi byte.
+
+## Sự cố màn hình và bộ thử vùng radio riêng
+
+Người dùng báo hai lần sọc màu/đen màn và phải giữ nguồn, có mở MBBank. Lịch sử ghi forced-longkey lúc 22:17:17 và 22:19:04. Log cũ hỏng hoặc chứa nhiều byte zero; dấu vết còn lại không đủ quy nguyên nhân cho ứng dụng, module root, radio hay phần cứng. Chưa có bằng chứng kết luận thay đổi 5G gây lỗi hoặc hoàn toàn vô can. Evidence chọn lọc ở `fresh_analysis/nr5g_research/crash_review`; log thô riêng tư không đưa vào Git. Không tự tái hiện lỗi hoặc bật lại SA/NSA.
+
+Yêu cầu mới: thử đổi `ro.vendor.radio.build_region=cn`. Thuộc tính được khai báo trong vendor_boot ramdisk và `/vendor/build.prop`; LK xuất `androidboot.ptcountrycode`, chưa có đường đã chứng minh để patch LK thay trực tiếp thuộc tính này. Native radio còn đọc `ro.miui.build.region` (`ril/pseudocode/005a28e0.c`) và `persist.vendor.radio.build_region` (`005a2b00.c`, `005a2b70.c`). Chưa chứng minh `cn` là nguyên nhân chặn NR.
+
+[Bộ thử global v1](../experiments/radio_region_global_v1/README_VI.md) chứa bản sao LK nguyên byte và module KernelSU Next chỉ override `ro.vendor.radio.build_region=global`; giữ các vùng khác và cấu hình SA/NSA. `global` là giả thuyết thử, chưa được chứng minh mở NR. Chỉ kiểm tra host, chưa cài module/flash. Không gọi đây là LK patch fix 5G. Tắt/gỡ module và reboot để quay lại thuộc tính gốc.
 
 ## Kết luận về LK
 
@@ -58,7 +66,7 @@ Trước khi thử đã lưu/push checkpoint và backup. Không flash, không s�
 |---|---|---|
 | Bật override SA qua receiver mã ẩn7282583 | Key0, Phone nhận SA=true; modem nhận mode3; Vina chưa đăng ký NR, có OUT_OF_SERVICE | Hoàn nguyên key về absent; sau đó đã quan sát LTE,LTE |
 | Tạm đổi runtime property2→3, bật override SA | Phone chọn nhánh NSA/SA; `AT+E5GOPT=5` và `AT+E5GOPT=7,2` trả ERROR; query vẫn1 | Trả property2 và key absent, lưu kết quả thất bại |
-| Người dùng yêu cầu để Vina 5G đi thử ngoài đường | Giữ property gốc2, bật lại SA key0; query3 và SA status true | Đang để bật theo yêu cầu, chờ field test |
+| Người dùng yêu cầu để Vina 5G đi thử ngoài đường | Giữ property gốc2, bật lại SA key0; query3 và SA status true | Sau đó đã hoàn nguyên theo yêu cầu vì gặp lỗi màn hình |
 
 Điểm sửa lại so với giả định ban đầu: kỳ vọng generic enableSA sẽ giữ NSA không áp dụng cho máy này vì Phone đi nhánh SA-only. Không dùng kết quả “EVENT_SET...configuration is done” làm thành công: RIL log vẫn có GENERIC_FAILURE/ERROR. Parser transaction ghép đúng reader/slot để đối chiếu status thực tế.
 
@@ -74,15 +82,15 @@ MCF có tên các mạng Việt Nam không chứng minh các mạng đó đượ
 
 ## Khôi phục sau field test
 
-Khi người dùng muốn trả về cấu hình trước thử:
+Đã chạy hoàn nguyên theo yêu cầu người dùng; lệnh dùng trong quy trình:
 
 ```powershell
 python fresh_analysis/nr5g_research/sa_mode_trial.py --rollback
 ```
 
-Lệnh dùng backup `runtime/sa_trial_backup.json`, đưa setting về trạng thái mặc định rồi xóa key nếu ban đầu không tồn tại. Nó có thể đổi trạng thái đăng ký mạng ngắn. Không chạy tự động khi người dùng đang thử ngoài đường. Property hiện đã là2; thử dual-mode đã rollback xong.
+Lệnh dùng backup `runtime/sa_trial_backup.json`, đưa setting về trạng thái mặc định rồi xóa key nếu ban đầu không tồn tại. Property đã là2; thử dual-mode cũng rollback xong. Không tự chạy lại các trial để kiểm tra docs.
 
-Không chạy lại `setup_vina_outdoor.py` như một module tự khởi động; đây là bản ghi thao tác có guard cho initial state, không phải bản fix persistent đã chứng minh. Cần kết quả field test trước khi đóng gói giải pháp lâu dài.
+Không chạy lại `setup_vina_outdoor.py` như một module tự khởi động; đây là bản ghi thao tác có guard cho initial state, không phải bản fix persistent đã chứng minh. Bộ region mới cũng chưa phải giải pháp đã kiểm chứng.
 
 ## Bằng chứng và tái tạo
 
@@ -90,7 +98,7 @@ Không chạy lại `setup_vina_outdoor.py` như một module tự khởi độn
 - `runtime/sa_only_trial_result.json`, `dual_mode_trial_result.json`: kết quả và rollback.
 - `runtime/e5gopt_transactions.json`: command/status gắn cùng slot/reader.
 - `runtime/carrier_sa_policy.json`, `android/xiaomi_carrier_sa_policy.json`: policy và source APK.
-- `runtime/vina_outdoor_setup.json`: trạng thái cuối theo yêu cầu user.
+- `runtime/vina_outdoor_setup.json`: trạng thái lịch sử trước hoàn nguyên; xem `crash_review/rollback_and_current_state.json` để biết trạng thái mới.
 - `ril/pseudocode`, `ril/inventory.json`: focused native exports, có warnings/EXTERNAL boundaries, không toàn source.
 - `modem/at_nr_handler_symbols.json`: handler targets, chưa có instruction mapping/proof.
 

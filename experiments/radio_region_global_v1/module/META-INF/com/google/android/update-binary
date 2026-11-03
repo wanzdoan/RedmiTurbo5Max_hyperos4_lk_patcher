@@ -1,0 +1,12 @@
+#!/sbin/sh
+# KernelSU Next uses its manager installer. Magisk delegates to its own installer.
+umask 022
+OUTFD=$2
+ZIPFILE=$3
+if [ -f /data/adb/magisk/util_functions.sh ]; then
+  . /data/adb/magisk/util_functions.sh
+  install_module
+else
+  echo "Install with KernelSU Next Manager while Android is running."
+  exit 1
+fi

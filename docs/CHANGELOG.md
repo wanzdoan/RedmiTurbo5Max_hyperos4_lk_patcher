@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-03 — Hoàn nguyên radio và bộ thử region riêng
+
+- Người dùng báo hai lần sọc màu/đen màn, có mở MBBank; evidence còn lại không đủ xác định nguyên nhân. Lưu log thô riêng tư ngoài Git và metadata chọn lọc trong crash_review.
+- Hoàn nguyên thử nghiệm mạng theo yêu cầu: property 5g=2, key SA absent/null, preferred mode 33,33. Checkpoint đã push: `0d74255`, tag `radio-restored-before-region-research-20261103`.
+- Tạo `experiments/radio_region_global_v1`: LK đã boot giữ nguyên byte, kèm module chỉ đổi `ro.vendor.radio.build_region=global`. Chưa cài, chưa xác nhận sửa được 5G; không tuyên bố đây là LK patch 5G.
+- Kiểm tra ZIP/source, LF, hash LK, syntax shell và các guard installer bằng mock trên máy tính. Không flash hoặc thay cấu hình máy trong bước này.
+
 ## 2026-11-03 — Versioning và cập nhật kết quả
 
 - Dừng kiểm tra preloader theo yêu cầu người dùng sau khi họ báo tự test được.

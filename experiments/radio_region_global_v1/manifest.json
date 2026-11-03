@@ -1,0 +1,33 @@
+{
+  "experiment": "dash_radio_region_global_test_v1",
+  "status": "host-validated; not installed or tested for NR on device",
+  "lk_changed": false,
+  "lk_composition": "H4 patched main LK + intact signed H3 BL2 + H4 AEE/DTBs",
+  "property_override": {
+    "ro.vendor.radio.build_region": {
+      "from": "cn",
+      "to": "global"
+    }
+  },
+  "target_value_proven_to_enable_nr": false,
+  "sa_nsa_settings_changed": false,
+  "persistent_properties_written": false,
+  "device_flashed_or_module_installed": false,
+  "checks": [
+    "original and copy LK SHA256",
+    "module builder validation",
+    "LF source files",
+    "exact single property override",
+    "ZIP CRC and exact source contents"
+  ],
+  "files": {
+    "lk_unlock_known_working.img": {
+      "size": 4083424,
+      "sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171"
+    },
+    "dash_radio_region_global_test_v1.zip": {
+      "size": 1763,
+      "sha256": "eb5feaea4c5a4240d5ee441ce5f1027d381542953623480c37d7814dd5acd2e5"
+    }
+  }
+}

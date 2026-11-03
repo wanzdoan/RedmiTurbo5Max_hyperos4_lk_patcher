@@ -1,0 +1,6 @@
+id=dash_radio_region_global_test
+name=Dash radio region global - experimental
+version=v1.0
+versionCode=1
+author=wanzdoan
+description=Property-only cn to global experiment for dash OS4.0.3.0.XPLCNXM. Does not prove or enable NR by itself. LK unchanged.
