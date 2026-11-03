@@ -24,3 +24,5 @@ Nghiên cứu tiếp theo: [5G/NR và biên bản hoàn nguyên](docs/07-nr5g-in
 Bộ thử tách riêng: [radio region global v1](experiments/radio_region_global_v1/README_VI.md), gồm LK đã boot giữ nguyên byte và module đổi một thuộc tính Android `ro.vendor.radio.build_region=global`. Chưa cài hoặc kiểm thử NR trên máy thật; không phải LK có thêm patch 5G.
 
 Theo yêu cầu tiếp theo chỉ sửa LK: [bản thử bỏ chốt ROM CN/Global](experiments/lk_global_region_v1/README_VI.md) đã qua mô phỏng logic vùng, giữ unlock cũ, chưa flash hoặc boot test. [Docs 08](docs/08-lk-rom-region.md) giải thích ba chốt đã sửa và bằng chứng mới: descriptor modem LK truyền xuống đã chứa bit hỗ trợ NR. Chưa chứng minh bản thử này mở được 5G.
+
+Biến thể theo file H3 của người dùng: [H3 đã patch unlock + CN/Global](experiments/lk_h3_global_region_v1/README_VI.md), tạo trực tiếp từ `lk_hyperos3_patched_unlockBL/dash.img`, không ghép H4. Đã kiểm thử mô phỏng, chưa xác nhận boot bản mới.

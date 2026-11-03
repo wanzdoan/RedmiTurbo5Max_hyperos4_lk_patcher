@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-03 — Thêm CN/Global trên H3 đã patch
+
+- Checkpoint đã push trước sửa: `before-h3-patched-global-region-20261103`.
+- Dùng đúng `lk_hyperos3_patched_unlockBL/dash.img` input e164..., định vị lại ba chốt vùng trên binary H3 patched; không dùng offset hoặc thành phần H4.
+- Tạo artifact riêng SHA256 `dbabb26989e9270a1b2ebd747820dca7f3630779bb5b5f54b21c30209a4b00b8`, giữ unlock và các thay đổi cũ, cập nhật prefix main cert2.
+- 532 ca CPU,10 chữ ký DER và6 ca parser đạt; chưa flash hoặc boot test, không tuyên bố fix5G.
+
 ## 2026-11-03 — LK-only: modem handoff và chốt vùng ROM
 
 - Giữ checkpoint nghiên cứu `363ee37`, tag `before-lk-global-region-patch-20261103` trước tạo firmware mới.

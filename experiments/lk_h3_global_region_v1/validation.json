@@ -1,0 +1,6561 @@
+{
+  "status": "PASS",
+  "artifact_sha256": "dbabb26989e9270a1b2ebd747820dca7f3630779bb5b5f54b21c30209a4b00b8",
+  "gate_cpu_cases": 528,
+  "unlock_secure_id_cpu_cases": 4,
+  "cpu_cases_total": 532,
+  "der_signatures": [
+    {
+      "member": 1,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 4,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 7,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 10,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 13,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "retained_der_signature_valid": true
+    }
+  ],
+  "parser_cases": [
+    {
+      "version": 3,
+      "carrier": "h3_patched_global_region_experiment",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 3053,
+      "last_offsets": [
+        "0x6d00c",
+        "0x6d690",
+        "0x6d80c",
+        "0x6d940",
+        "0x6d944",
+        "0x6d948",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "7b30ced8c6c986412d987c76eff896e11540f3ea9841ba66f2eae90ef775273f"
+    },
+    {
+      "version": 3,
+      "carrier": "h3_patched_global_region_experiment",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 31954,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "7b30ced8c6c986412d987c76eff896e11540f3ea9841ba66f2eae90ef775273f"
+    },
+    {
+      "version": 3,
+      "carrier": "h3_patched_global_region_experiment",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 22772,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "version": 4,
+      "carrier": "h3_patched_global_region_experiment",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 5625,
+      "last_offsets": [
+        "0x6d77c",
+        "0x6d788",
+        "0x6d794",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "77af9712f9533da9e85c629bbe5a63a7a40da08526c579b853b1256ba3f9a841"
+    },
+    {
+      "version": 4,
+      "carrier": "h3_patched_global_region_experiment",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 29080,
+      "last_offsets": [
+        "0x6e3d4",
+        "0x6e3d8",
+        "0x6d79c",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "77af9712f9533da9e85c629bbe5a63a7a40da08526c579b853b1256ba3f9a841"
+    },
+    {
+      "version": 4,
+      "carrier": "h3_patched_global_region_experiment",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 18572,
+      "last_offsets": [
+        "0x6e3d4",
+        "0x6e3d8",
+        "0x6d79c",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "patch_disassembly": [
+    {
+      "payload_offset": "0x68d84",
+      "bytes": "04000014",
+      "instruction": "b #0x68d94"
+    },
+    {
+      "payload_offset": "0x88610",
+      "bytes": "e0030491",
+      "instruction": "add x0, sp, #0x100"
+    },
+    {
+      "payload_offset": "0x88614",
+      "bytes": "c1d44470",
+      "instruction": "adr x1, #0x1120af"
+    },
+    {
+      "payload_offset": "0x88618",
+      "bytes": "02208052",
+      "instruction": "mov w2, #0x100"
+    },
+    {
+      "payload_offset": "0x8861c",
+      "bytes": "81d8ff97",
+      "instruction": "bl #0x7e820"
+    },
+    {
+      "payload_offset": "0x88620",
+      "bytes": "1f000071",
+      "instruction": "cmp w0, #0"
+    },
+    {
+      "payload_offset": "0x88624",
+      "bytes": "f4039f5a",
+      "instruction": "csetm w20, ne"
+    },
+    {
+      "payload_offset": "0x88628",
+      "bytes": "dbffff17",
+      "instruction": "b #0x88594"
+    },
+    {
+      "payload_offset": "0xc53dc",
+      "bytes": "13000014",
+      "instruction": "b #0xc5428"
+    }
+  ],
+  "wrong_input_rejected": true,
+  "deterministic_rebuild": true,
+  "mocks": [
+    "secure-boot/region efuse READS",
+    "dconfig/config getters",
+    "SKU extractor",
+    "certificate-chain status and image-key extraction",
+    "logging",
+    "PAC instructions"
+  ],
+  "real_code": [
+    "gate branches",
+    "memcmp/strcmp/memcpy",
+    "key length byte swap",
+    "returns/stack/callee-saved ABI",
+    "getter/wrappers/Secure ID",
+    "BL2 ASN.1 parser"
+  ],
+  "limits": [
+    "No hardware execution, full boot simulation or target Global ROM",
+    "Certificate failure propagation tested with supplied statuses; not real Global image signatures",
+    "No NR registration or 5G fix verified"
+  ],
+  "cases": [
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4294967295
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4294967295
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": false,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "CN_TEST",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "NATIVE",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GLOBAL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "GL",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        null
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        0,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 0,
+      "outcome": "continued"
+    },
+    {
+      "gate": "sku",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "sku": "",
+      "dconfig": [
+        1,
+        "yes"
+      ],
+      "efuse_error": 7,
+      "outcome": "continued"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4294967295
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4294967295
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 0
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4294967295
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 801
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 0,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": "panic"
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 0,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 0,
+      "outcome": 4660
+    },
+    {
+      "gate": "image-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "chain_error": 4660,
+      "extract_error": 801,
+      "efuse_error": 7,
+      "outcome": 4660
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 0,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 0,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "CN",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "GL",
+      "bits": 4096,
+      "trusted": 1
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 2048,
+      "trusted": 0
+    },
+    {
+      "gate": "avb-key",
+      "patched": true,
+      "sb": 14,
+      "hw": 1,
+      "key": "unknown",
+      "bits": 4096,
+      "trusted": 0
+    }
+  ]
+}

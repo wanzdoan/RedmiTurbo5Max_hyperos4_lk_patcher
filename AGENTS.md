@@ -31,3 +31,4 @@
 - Không coi ERROR là thành công. Không flash/NVRAM để tiếp tục nếu chưa có mục tiêu/điều kiện được chứng minh.
 - Người dùng sau đó yêu cầu chỉ sửa LK và tìm chốt ROM China/Global. Đọc docs/08-lk-rom-region.md. experiments/lk_global_region_v1 là LK thử riêng đã qua CPU/parser/DER checks, chưa flash/boot test và không phải fix5G đã chứng minh. Bản f57... đã boot vẫn là điểm khôi phục.
 - Evidence mới: H4 modem image_type13 -> kernel ccci_util_lib mask0x7b đã có N/NR0x40. Không patch descriptor13->14 để tuyên bố bật NR. Không cài module region phía Android trong phạm vi LK-only.
+- Người dùng yêu cầu thêm biến thể từ đúng H3 đã patch: experiments/lk_h3_global_region_v1. Input là lk_hyperos3_patched_unlockBL/dash.img hash e164..., không phải H3 original và không ghép H4. Output dbabb269... giữ unlock/các sửa cũ, chỉ thêm ba chốt vùng và cập nhật prefix; qua mô phỏng nhưng chưa boot test. Giữ nguyên toàn bộ input/artifact cũ.

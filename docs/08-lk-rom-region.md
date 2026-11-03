@@ -30,3 +30,11 @@ Chốt [ffff000090787318](../fresh_analysis/h4_pseudocode/ffff000090787318.c) c�
 Mô phỏng chạy thực memcmp, strcmp, memcpy, branch, xử lý độ dài key và ABI; đọc efuse, dconfig, SKU và kết quả chain/key extraction được mô hình hóa, logging/PAC được bypass. Các test xác nhận logic vùng và lan truyền lỗi trong phạm vi đó; không xác nhận chuỗi boot máy thật hay chữ ký của một ROM Global chưa được cung cấp.
 
 Không flash, không đổi setting, không sửa modem/preloader/Android hoặc cài module. Không bổ sung lệnh ghi efuse. Không gọi artifact là “fix 5G”. Bản cũ đã boot giữ nguyên; checkpoint trước patch được push ở tag `before-lk-global-region-patch-20261103`.
+
+## Biến thể trên file HyperOS 3 đã patch của người dùng
+
+Theo yêu cầu tiếp theo, đã tạo [bản H3 riêng](../experiments/lk_h3_global_region_v1/README_VI.md) trực tiếp từ `lk_hyperos3_patched_unlockBL/dash.img`, input SHA256 `e164fb22511d93584afab2183c275374d7ab892dd22e3a2132c4f3b1e245ac18`. Không lấy H3 original để thay đầu vào, không ghép thành phần H4. Bản đầu vào và hai artifact H4 cũ giữ nguyên.
+
+Ba vùng lệnh trong **file H3 patched**: SKU`0x68f84`, fallback khóa GL`0x88810`, union khóa boot`0xc55dc`. Đã định vị lại theo native bytes của H3, giữ unlock tại`0x89a2c`, tính lại prefix main cert2. Các member khác, DER, padding và mọi byte ngoài phạm vi cho phép giữ nguyên từ input.
+
+Output `lk_hyperos3_patched_unlockBL_CN_GLOBAL_REGION_TEST.img`, 4.082.928 byte, SHA256 `dbabb26989e9270a1b2ebd747820dca7f3630779bb5b5f54b21c30209a4b00b8`. [Validation H3](../experiments/lk_h3_global_region_v1/validation.json) đạt532 ca CPU,10 DER signature và6 ca parser; [address map](../experiments/lk_h3_global_region_v1/replay_address_map.json) ghi các địa chỉ helper đã đối chiếu riêng. Đây là kết quả mô phỏng, chưa flash/boot test và không xác nhận5G hoặc tương thích ROM Global bất kỳ. Checkpoint trước sửa: `before-h3-patched-global-region-20261103`.

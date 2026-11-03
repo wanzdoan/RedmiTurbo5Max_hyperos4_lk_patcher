@@ -1,0 +1,47 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEVICE_TESTED",
+  "artifact": "lk_hyperos3_patched_unlockBL_CN_GLOBAL_REGION_TEST.img",
+  "input": "lk_hyperos3_patched_unlockBL/dash.img",
+  "input_sha256": "e164fb22511d93584afab2183c275374d7ab892dd22e3a2132c4f3b1e245ac18",
+  "output_sha256": "dbabb26989e9270a1b2ebd747820dca7f3630779bb5b5f54b21c30209a4b00b8",
+  "size": 4082928,
+  "lk_only": true,
+  "all_components_from_supplied_patched_h3": true,
+  "h4_components_transplanted": false,
+  "is_5g_fix": false,
+  "previous_unlock_and_other_patches_preserved": true,
+  "patches": [
+    {
+      "payload_offset": "0x68d84",
+      "whole_file_offset": "0x68f84",
+      "original": "40110035",
+      "replacement": "04000014",
+      "purpose": "CN software-SKU rejection"
+    },
+    {
+      "payload_offset": "0x88610",
+      "whole_file_offset": "0x88810",
+      "original": "e00200d000a030910fd6ff97a87340391f010071f4139f5adbffff17",
+      "replacement": "e0030491c1d444700220805281d8ff971f000071f4039f5adbffff17",
+      "purpose": "CN image key accepts the embedded H3 GL key as an alternate"
+    },
+    {
+      "payload_offset": "0xc53dc",
+      "whole_file_offset": "0xc55dc",
+      "original": "61020054",
+      "replacement": "13000014",
+      "purpose": "AVB key trust is the union of existing H3 CN and GL keys"
+    }
+  ],
+  "main_cert_prefix_recomputed": true,
+  "all_retained_signed_der_unchanged": true,
+  "all_other_members_byte_identical": true,
+  "limits": [
+    "No device boot or target Global ROM test",
+    "CN dash experiment; non-CN image-key mismatch path becomes stricter",
+    "SKU region filter removed, including for empty/unrecognized SKU",
+    "Earlier-stage authentication, antirollback, model/layout compatibility remain separate",
+    "No efuse writes added; original EP/production logic unchanged",
+    "No modem, preloader, Android, radio-setting or device changes; not a proved 5G fix"
+  ]
+}
