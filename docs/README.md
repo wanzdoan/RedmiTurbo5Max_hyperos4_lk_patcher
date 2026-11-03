@@ -8,6 +8,7 @@
 | [04 — Runtime/preloader](04-runtime-and-preloader.md) | ROM, hai xác nhận người dùng, phạm vi tương thích |
 | [05 — Git/rollback](05-versioning-and-rollback.md) | Repo private, checkpoint, tags và khôi phục bản cũ |
 | [06 — Evidence/giới hạn](06-evidence-and-limits.md) | Các test, mocks, báo cáo reverse và source phục hồi |
+| [07 — Nghiên cứu 5G/NR](07-nr5g-investigation.md) | LK, policy Vina/Viettel, SA-only, hai phép thử và field test đang chờ |
 | [Changelog](CHANGELOG.md) | Các mốc phát hiện, boot và versioning |
 
 Ngày cập nhật: 2026-11-03. Tài liệu hiện tại ưu tiên bộ `docs`; các báo cáo reverse trong `fresh_analysis` lưu quá trình điều tra và phạm vi tại lúc chạy.

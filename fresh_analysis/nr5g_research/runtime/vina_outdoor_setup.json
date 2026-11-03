@@ -1,0 +1,18 @@
+{
+  "captured_utc": "2026-11-03T15:12:30.660297+00:00",
+  "user_request": "Set VinaPhone to 5G so user can test outdoors",
+  "scope": "SA only using original device mode; NSA rejected in prior test",
+  "before": {
+    "ro.vendor.radio.5g": "2",
+    "5g_sa_mode_disabled": "null",
+    "preferred_network_mode": "33,33"
+  },
+  "rollback_command": "python fresh_analysis/nr5g_research/sa_mode_trial.py --rollback",
+  "after": {
+    "ro.vendor.radio.5g": "2",
+    "5g_sa_mode_disabled": "0",
+    "preferred_network_mode": "33,33",
+    "network_type_at_capture": "LTE,Unknown"
+  },
+  "outdoor_registration_result": "Pending user field test"
+}

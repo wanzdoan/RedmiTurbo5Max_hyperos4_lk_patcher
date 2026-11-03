@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 import hashlib,json,zipfile
 root=Path(__file__).resolve().parent.parent;fresh=root/'fresh_analysis'
 image=fresh/'output/lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img'
@@ -7,7 +7,7 @@ assert hashlib.sha256(image.read_bytes()).hexdigest()==expected
 runtime=json.loads((fresh/'output/runtime_confirmation.json').read_text(encoding='utf-8'))
 assert runtime['artifact_sha256_on_host']==expected
 (fresh/'output/SHA256SUMS.txt').write_text(expected+'  '+image.name+'\n',encoding='utf-8')
-paths={p for p in fresh.rglob('*') if p.is_file() and p.suffix not in ('.lock','.pyc') and '__pycache__' not in p.parts and not p.name.endswith('.lock~')}
+paths={p for p in fresh.rglob('*') if p.is_file() and p.suffix not in ('.lock','.pyc') and '__pycache__' not in p.parts and not p.name.endswith('.lock~') and not p.is_relative_to(fresh/'nr5g_research/ril/ghidra_db')}
 paths.update(p for p in (root/'docs').rglob('*') if p.is_file())
 paths.update((root/'README.md',root/'AGENTS.md'))
 archive=root/'fresh_analysis_bundle.zip'

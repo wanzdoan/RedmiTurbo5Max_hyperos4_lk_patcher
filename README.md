@@ -18,3 +18,5 @@ File đã bàn giao: [lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img](fresh_analysi
 SHA256: `f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171`.
 
 Giữ nguyên tên và bytes sau xác nhận boot. Tên `EXPERIMENTAL` là tên artifact ban đầu; biên bản runtime riêng ghi kết quả mới. `fresh_analysis/rejected` chỉ chứa đối chứng bị loại. Các thư mục source/reports/ghidra và bản patched cũ ngoài `fresh_analysis` được lưu để bảo tồn lịch sử, không phải quy trình tạo bản mới.
+
+Nghiên cứu tiếp theo: [5G/NR và cấu hình để thử VinaPhone ngoài thực địa](docs/07-nr5g-investigation.md). Chưa có bản patch 5G hoạt động được xác nhận.

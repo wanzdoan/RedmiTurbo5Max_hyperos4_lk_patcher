@@ -22,3 +22,9 @@
 - Khi đổi firmware/patch, chạy tests phù hợp trong docs/03-build-and-validation.md và ghi input/output hashes.
 - Khi chỉ sửa docs, kiểm link/metadata, firmware hash và bundle; không cần lặp toàn bộ mô phỏng CPU.
 - Duy trì docs và commit/tag để lần sau có thể lấy lại bản cũ mà không hard reset hay force push.
+
+## Trạng thái nghiên cứu 5G hiện tại
+
+- Đọc docs/07-nr5g-investigation.md và fresh_analysis/nr5g_research/runtime/vina_outdoor_setup.json.
+- Người dùng đã cho phép thử chế độ mạng, sau đó yêu cầu giữ VinaPhone bật 5G để thử ngoài đường. Đang để ro.vendor.radio.5g=2 (gốc), Settings.System 5g_sa_mode_disabled=0, modem SA true/mode3; chưa chứng minh NR registration.
+- Không tự rollback thiết lập này trong lúc user field test. Các trial trước đã rollback; không coi ERROR là thành công. Không flash/NVRAM để tiếp tục nếu chưa có mục tiêu/điều kiện được chứng minh.
