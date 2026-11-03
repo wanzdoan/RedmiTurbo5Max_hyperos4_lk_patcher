@@ -1,0 +1,552 @@
+{
+  "evidence_id": "LK-RADIO-KERNEL-CAPABILITY-001",
+  "module_sha256": "e8bfbfbc4cece08f8986952b4b30ca8c394cfd5479737ade777091ad4100e29a",
+  "table_symbol": "md_img_capability_map",
+  "map": [
+    0,
+    1,
+    8,
+    9,
+    3,
+    57,
+    51,
+    51,
+    51,
+    57,
+    59,
+    61,
+    63,
+    123,
+    125
+  ],
+  "modem_image_type": 13,
+  "type13_mask": "0x7b",
+  "n_bit": "0x40",
+  "type13_has_n": true,
+  "interpretation_source": "ccci_util/00108280.c: N/n -> 0x40; 001081f4.c: image type indexes map",
+  "get_capability_bit_instructions": [
+    {
+      "offset_in_text": "0x64e8",
+      "bytes": "a00b00b4",
+      "instruction": "cbz x0, #0x665c"
+    },
+    {
+      "offset_in_text": "0x64ec",
+      "bytes": "3f2303d5",
+      "instruction": "paciasp "
+    },
+    {
+      "offset_in_text": "0x64f0",
+      "bytes": "fd7bbea9",
+      "instruction": "stp x29, x30, [sp, #-0x20]!"
+    },
+    {
+      "offset_in_text": "0x64f4",
+      "bytes": "f30b00f9",
+      "instruction": "str x19, [sp, #0x10]"
+    },
+    {
+      "offset_in_text": "0x64f8",
+      "bytes": "fd030091",
+      "instruction": "mov x29, sp"
+    },
+    {
+      "offset_in_text": "0x64fc",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6500",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6504",
+      "bytes": "f30300aa",
+      "instruction": "mov x19, x0"
+    },
+    {
+      "offset_in_text": "0x6508",
+      "bytes": "00000094",
+      "instruction": "bl #0x6508"
+    },
+    {
+      "offset_in_text": "0x650c",
+      "bytes": "c0090034",
+      "instruction": "cbz w0, #0x6644"
+    },
+    {
+      "offset_in_text": "0x6510",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6514",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6518",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x651c",
+      "bytes": "00000094",
+      "instruction": "bl #0x651c"
+    },
+    {
+      "offset_in_text": "0x6520",
+      "bytes": "20090034",
+      "instruction": "cbz w0, #0x6644"
+    },
+    {
+      "offset_in_text": "0x6524",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6528",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x652c",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x6530",
+      "bytes": "00000094",
+      "instruction": "bl #0x6530"
+    },
+    {
+      "offset_in_text": "0x6534",
+      "bytes": "c0080034",
+      "instruction": "cbz w0, #0x664c"
+    },
+    {
+      "offset_in_text": "0x6538",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x653c",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6540",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x6544",
+      "bytes": "00000094",
+      "instruction": "bl #0x6544"
+    },
+    {
+      "offset_in_text": "0x6548",
+      "bytes": "20080034",
+      "instruction": "cbz w0, #0x664c"
+    },
+    {
+      "offset_in_text": "0x654c",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6550",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6554",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x6558",
+      "bytes": "00000094",
+      "instruction": "bl #0x6558"
+    },
+    {
+      "offset_in_text": "0x655c",
+      "bytes": "80070034",
+      "instruction": "cbz w0, #0x664c"
+    },
+    {
+      "offset_in_text": "0x6560",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6564",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6568",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x656c",
+      "bytes": "00000094",
+      "instruction": "bl #0x656c"
+    },
+    {
+      "offset_in_text": "0x6570",
+      "bytes": "80070034",
+      "instruction": "cbz w0, #0x6660"
+    },
+    {
+      "offset_in_text": "0x6574",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6578",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x657c",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x6580",
+      "bytes": "00000094",
+      "instruction": "bl #0x6580"
+    },
+    {
+      "offset_in_text": "0x6584",
+      "bytes": "e0060034",
+      "instruction": "cbz w0, #0x6660"
+    },
+    {
+      "offset_in_text": "0x6588",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x658c",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6590",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x6594",
+      "bytes": "00000094",
+      "instruction": "bl #0x6594"
+    },
+    {
+      "offset_in_text": "0x6598",
+      "bytes": "40060034",
+      "instruction": "cbz w0, #0x6660"
+    },
+    {
+      "offset_in_text": "0x659c",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x65a0",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x65a4",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x65a8",
+      "bytes": "00000094",
+      "instruction": "bl #0x65a8"
+    },
+    {
+      "offset_in_text": "0x65ac",
+      "bytes": "e0050034",
+      "instruction": "cbz w0, #0x6668"
+    },
+    {
+      "offset_in_text": "0x65b0",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x65b4",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x65b8",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x65bc",
+      "bytes": "00000094",
+      "instruction": "bl #0x65bc"
+    },
+    {
+      "offset_in_text": "0x65c0",
+      "bytes": "40050034",
+      "instruction": "cbz w0, #0x6668"
+    },
+    {
+      "offset_in_text": "0x65c4",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x65c8",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x65cc",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x65d0",
+      "bytes": "00000094",
+      "instruction": "bl #0x65d0"
+    },
+    {
+      "offset_in_text": "0x65d4",
+      "bytes": "e0040034",
+      "instruction": "cbz w0, #0x6670"
+    },
+    {
+      "offset_in_text": "0x65d8",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x65dc",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x65e0",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x65e4",
+      "bytes": "00000094",
+      "instruction": "bl #0x65e4"
+    },
+    {
+      "offset_in_text": "0x65e8",
+      "bytes": "40040034",
+      "instruction": "cbz w0, #0x6670"
+    },
+    {
+      "offset_in_text": "0x65ec",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x65f0",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x65f4",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x65f8",
+      "bytes": "00000094",
+      "instruction": "bl #0x65f8"
+    },
+    {
+      "offset_in_text": "0x65fc",
+      "bytes": "e0030034",
+      "instruction": "cbz w0, #0x6678"
+    },
+    {
+      "offset_in_text": "0x6600",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6604",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6608",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x660c",
+      "bytes": "00000094",
+      "instruction": "bl #0x660c"
+    },
+    {
+      "offset_in_text": "0x6610",
+      "bytes": "40030034",
+      "instruction": "cbz w0, #0x6678"
+    },
+    {
+      "offset_in_text": "0x6614",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x6618",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x661c",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x6620",
+      "bytes": "00000094",
+      "instruction": "bl #0x6620"
+    },
+    {
+      "offset_in_text": "0x6624",
+      "bytes": "e0020034",
+      "instruction": "cbz w0, #0x6680"
+    },
+    {
+      "offset_in_text": "0x6628",
+      "bytes": "01000090",
+      "instruction": "adrp x1, #0x6000"
+    },
+    {
+      "offset_in_text": "0x662c",
+      "bytes": "21000091",
+      "instruction": "add x1, x1, #0"
+    },
+    {
+      "offset_in_text": "0x6630",
+      "bytes": "e00313aa",
+      "instruction": "mov x0, x19"
+    },
+    {
+      "offset_in_text": "0x6634",
+      "bytes": "00000094",
+      "instruction": "bl #0x6634"
+    },
+    {
+      "offset_in_text": "0x6638",
+      "bytes": "1f000071",
+      "instruction": "cmp w0, #0"
+    },
+    {
+      "offset_in_text": "0x663c",
+      "bytes": "e0179f1a",
+      "instruction": "cset w0, eq"
+    },
+    {
+      "offset_in_text": "0x6640",
+      "bytes": "04000014",
+      "instruction": "b #0x6650"
+    },
+    {
+      "offset_in_text": "0x6644",
+      "bytes": "00088052",
+      "instruction": "mov w0, #0x40"
+    },
+    {
+      "offset_in_text": "0x6648",
+      "bytes": "02000014",
+      "instruction": "b #0x6650"
+    },
+    {
+      "offset_in_text": "0x664c",
+      "bytes": "00048052",
+      "instruction": "mov w0, #0x20"
+    },
+    {
+      "offset_in_text": "0x6650",
+      "bytes": "f30b40f9",
+      "instruction": "ldr x19, [sp, #0x10]"
+    },
+    {
+      "offset_in_text": "0x6654",
+      "bytes": "fd7bc2a8",
+      "instruction": "ldp x29, x30, [sp], #0x20"
+    },
+    {
+      "offset_in_text": "0x6658",
+      "bytes": "bf2303d5",
+      "instruction": "autiasp "
+    },
+    {
+      "offset_in_text": "0x665c",
+      "bytes": "c0035fd6",
+      "instruction": "ret "
+    },
+    {
+      "offset_in_text": "0x6660",
+      "bytes": "00028052",
+      "instruction": "mov w0, #0x10"
+    },
+    {
+      "offset_in_text": "0x6664",
+      "bytes": "fbffff17",
+      "instruction": "b #0x6650"
+    },
+    {
+      "offset_in_text": "0x6668",
+      "bytes": "00018052",
+      "instruction": "mov w0, #8"
+    },
+    {
+      "offset_in_text": "0x666c",
+      "bytes": "f9ffff17",
+      "instruction": "b #0x6650"
+    },
+    {
+      "offset_in_text": "0x6670",
+      "bytes": "80008052",
+      "instruction": "mov w0, #4"
+    },
+    {
+      "offset_in_text": "0x6674",
+      "bytes": "f7ffff17",
+      "instruction": "b #0x6650"
+    },
+    {
+      "offset_in_text": "0x6678",
+      "bytes": "40008052",
+      "instruction": "mov w0, #2"
+    },
+    {
+      "offset_in_text": "0x667c",
+      "bytes": "f5ffff17",
+      "instruction": "b #0x6650"
+    },
+    {
+      "offset_in_text": "0x6680",
+      "bytes": "20008052",
+      "instruction": "mov w0, #1"
+    },
+    {
+      "offset_in_text": "0x6684",
+      "bytes": "f3ffff17",
+      "instruction": "b #0x6650"
+    }
+  ],
+  "limits": [
+    "Static descriptor and kernel mapping; not proof of NR registration, active bands or operator permission"
+  ]
+}

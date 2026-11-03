@@ -1,0 +1,546 @@
+{
+  "evidence_id": "LK-RADIO-CAUSAL-INPUTS-001",
+  "read_only_device": true,
+  "vendor_boot_sha256": "4e3c1bb4b9106d386e71c85577a11194fe6a5c04e86f67eb97a4a8aba8cffcf2",
+  "modules": [
+    {
+      "source_member": "lib/modules/ccci_md_all.ko",
+      "fragment_index": 0,
+      "sha256": "ec696909150640d799c566b32c3a577f943a38a4d3cdbe9a5eb38be69f327257",
+      "size": 963648,
+      "elf_type": "ET_REL",
+      "machine": "EM_AARCH64",
+      "symbols": [
+        {
+          "name": "slc_support",
+          "value": "0x9b10",
+          "size": 4,
+          "section": 17
+        },
+        {
+          "name": "support_microsecond_version",
+          "value": "0x14c8",
+          "size": 1,
+          "section": 19
+        },
+        {
+          "name": "ccci_ufs_io_operate.md_io_block_status",
+          "value": "0x1524",
+          "size": 1,
+          "section": 19
+        },
+        {
+          "name": "ccci_md_get_support_microsecond_version",
+          "value": "0x13c4c",
+          "size": 12,
+          "section": 15
+        },
+        {
+          "name": "___ratelimit",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "ccci_ufs_io_operate",
+          "value": "0x1402c",
+          "size": 640,
+          "section": 15
+        },
+        {
+          "name": "get_soc_md_rt_rat",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "check_rat_at_rt_setting",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "ccci_md_get_rt_feature_by_id",
+          "value": "0x17d18",
+          "size": 252,
+          "section": 15
+        },
+        {
+          "name": "ccci_md_parse_rt_feature",
+          "value": "0x17e18",
+          "size": 200,
+          "section": 15
+        },
+        {
+          "name": "check_rat_at_md_img",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "set_soc_md_rt_rat_by_idx",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "set_soc_md_rt_rat_str",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "get_md_bin_capability",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "get_md_img_type",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "get_soc_md_rt_rat_idx",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        },
+        {
+          "name": "dump_md_info_in_devapc",
+          "value": "0x1c5d4",
+          "size": 764,
+          "section": 15
+        },
+        {
+          "name": "ccci_get_md_info_str",
+          "value": "0x0",
+          "size": 0,
+          "section": "SHN_UNDEF"
+        }
+      ]
+    },
+    {
+      "source_member": "lib/modules/ccci_util_lib.ko",
+      "fragment_index": 0,
+      "sha256": "e8bfbfbc4cece08f8986952b4b30ca8c394cfd5479737ade777091ad4100e29a",
+      "size": 211304,
+      "elf_type": "ET_REL",
+      "machine": "EM_AARCH64",
+      "symbols": [
+        {
+          "name": "s_g_lk_info_tag_version",
+          "value": "0xc",
+          "size": 4,
+          "section": 20
+        },
+        {
+          "name": "md_mtee_support",
+          "value": "0x28",
+          "size": 4,
+          "section": 20
+        },
+        {
+          "name": "md_type_at_lk",
+          "value": "0xb8",
+          "size": 4,
+          "section": 20
+        },
+        {
+          "name": "md_img_header_v4",
+          "value": "0x1d8",
+          "size": 284,
+          "section": 20
+        },
+        {
+          "name": "md_img_header_v6",
+          "value": "0x2f4",
+          "size": 512,
+          "section": 20
+        },
+        {
+          "name": "md_img_capability_map",
+          "value": "0x7a8",
+          "size": 60,
+          "section": 27
+        },
+        {
+          "name": "get_capability_bit",
+          "value": "0x64e8",
+          "size": 416,
+          "section": 16
+        },
+        {
+          "name": "md_rat_map",
+          "value": "0x7e4",
+          "size": 108,
+          "section": 27
+        },
+        {
+          "name": "md_img_type_str",
+          "value": "0x850",
+          "size": 120,
+          "section": 27
+        },
+        {
+          "name": "__kstrtab_get_md_img_type",
+          "value": "0x134",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_get_md_img_type",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_get_md_img_type",
+          "value": "0x9c",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_ccci_get_md_info_str",
+          "value": "0x1b6",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_ccci_get_md_info_str",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_ccci_get_md_info_str",
+          "value": "0x24",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_mtk_ccci_get_md_img_cap",
+          "value": "0x27b",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_mtk_ccci_get_md_img_cap",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_mtk_ccci_get_md_img_cap",
+          "value": "0x198",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_get_md_bin_capability",
+          "value": "0x293",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_get_md_bin_capability",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_get_md_bin_capability",
+          "value": "0x84",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_check_rat_at_md_img",
+          "value": "0x6c",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_check_rat_at_md_img",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_check_rat_at_md_img",
+          "value": "0x60",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_set_soc_md_rt_rat",
+          "value": "0x2f",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_set_soc_md_rt_rat",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_set_soc_md_rt_rat",
+          "value": "0x1d4",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_get_soc_md_rt_rat",
+          "value": "0x39e",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_get_soc_md_rt_rat",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_get_soc_md_rt_rat",
+          "value": "0x144",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_get_soc_md_rt_rat_idx",
+          "value": "0x11e",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_get_soc_md_rt_rat_idx",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_get_soc_md_rt_rat_idx",
+          "value": "0x150",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_check_rat_at_rt_setting",
+          "value": "0x92",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_check_rat_at_rt_setting",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_check_rat_at_rt_setting",
+          "value": "0x6c",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_set_soc_md_rt_rat_by_idx",
+          "value": "0xc4",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_set_soc_md_rt_rat_by_idx",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_set_soc_md_rt_rat_by_idx",
+          "value": "0x1e0",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__kstrtab_set_soc_md_rt_rat_str",
+          "value": "0x2a9",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__kstrtabns_set_soc_md_rt_rat_str",
+          "value": "0xaa",
+          "size": 0,
+          "section": 37
+        },
+        {
+          "name": "__ksymtab_set_soc_md_rt_rat_str",
+          "value": "0x1ec",
+          "size": 0,
+          "section": 1
+        },
+        {
+          "name": "__crc_get_md_img_type",
+          "value": "0x34",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_ccci_get_md_info_str",
+          "value": "0xc",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_mtk_ccci_get_md_img_cap",
+          "value": "0x88",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_get_md_bin_capability",
+          "value": "0x2c",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_check_rat_at_md_img",
+          "value": "0x20",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_set_soc_md_rt_rat",
+          "value": "0x9c",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_get_soc_md_rt_rat",
+          "value": "0x6c",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_get_soc_md_rt_rat_idx",
+          "value": "0x70",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_check_rat_at_rt_setting",
+          "value": "0x24",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_set_soc_md_rt_rat_by_idx",
+          "value": "0xa0",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "__crc_set_soc_md_rt_rat_str",
+          "value": "0xa4",
+          "size": 0,
+          "section": 3
+        },
+        {
+          "name": "get_md_img_type",
+          "value": "0x794",
+          "size": 28,
+          "section": 16
+        },
+        {
+          "name": "get_lk_load_md_info",
+          "value": "0x2fc",
+          "size": 564,
+          "section": 16
+        },
+        {
+          "name": "get_md_img_raw_size",
+          "value": "0x544",
+          "size": 12,
+          "section": 16
+        },
+        {
+          "name": "ccci_get_md_info_str",
+          "value": "0x9bc",
+          "size": 12,
+          "section": 16
+        },
+        {
+          "name": "md_img_info_str",
+          "value": "0xd8",
+          "size": 256,
+          "section": 20
+        },
+        {
+          "name": "check_rat_at_md_img",
+          "value": "0x6498",
+          "size": 80,
+          "section": 16
+        },
+        {
+          "name": "mtk_ccci_get_md_img_cap",
+          "value": "0x63d8",
+          "size": 128,
+          "section": 16
+        },
+        {
+          "name": "get_md_bin_capability",
+          "value": "0x645c",
+          "size": 56,
+          "section": 16
+        },
+        {
+          "name": "set_soc_md_rt_rat",
+          "value": "0x668c",
+          "size": 20,
+          "section": 16
+        },
+        {
+          "name": "get_soc_md_rt_rat",
+          "value": "0x66a4",
+          "size": 12,
+          "section": 16
+        },
+        {
+          "name": "get_soc_md_rt_rat_idx",
+          "value": "0x66b4",
+          "size": 12,
+          "section": 16
+        },
+        {
+          "name": "check_rat_at_rt_setting",
+          "value": "0x66c4",
+          "size": 44,
+          "section": 16
+        },
+        {
+          "name": "set_soc_md_rt_rat_by_idx",
+          "value": "0x66f4",
+          "size": 232,
+          "section": 16
+        },
+        {
+          "name": "set_soc_md_rt_rat_str",
+          "value": "0x67e0",
+          "size": 1136,
+          "section": 16
+        }
+      ]
+    }
+  ],
+  "modem": {
+    "sha256": "93df50a5c641d547c68a28ec34b7cc22e6f3cd3b0c2bf27d4eb1b360ef38d876",
+    "check_header_offset": "0x2950000",
+    "check_header_size": 512,
+    "header_version": 6,
+    "image_type": 13,
+    "platform": "MT6991_S00",
+    "note": "Image type is a descriptor. No NR-enable semantics inferred."
+  }
+}
