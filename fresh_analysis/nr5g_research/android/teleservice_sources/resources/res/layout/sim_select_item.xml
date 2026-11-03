@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/checked_mark"
+        android:layout_width="@dimen/sim_select_dialog_image_area_width"
+        android:layout_height="@dimen/sim_select_dialog_image_area_height"
+        android:layout_marginTop="@dimen/sim_select_dialog_margin_top"
+        android:layout_marginBottom="@dimen/sim_select_dialog_margin_bottom"
+        android:scaleType="center"
+        android:layout_marginEnd="@dimen/sim_select_dialog_margin_end"
+        android:layout_alignParentEnd="true"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sim_select_dialog_text_area_height"
+        android:layout_marginTop="@dimen/sim_select_dialog_margin_top"
+        android:layout_marginBottom="@dimen/sim_select_dialog_margin_bottom"
+        android:layout_marginStart="@dimen/sim_select_dialog_margin_start"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:textSize="@dimen/sim_select_dialog_display_name_text_size"
+            android:id="@+id/carrier_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="440"/>
+        <TextView
+            android:textSize="@dimen/sim_select_dialog_display_number_text_size"
+            android:id="@+id/sim_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="400"/>
+    </LinearLayout>
+</RelativeLayout>

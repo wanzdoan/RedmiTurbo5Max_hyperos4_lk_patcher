@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 *.lock
 *.lock~
+fresh_analysis/nr5g_research/ril/ghidra_db/

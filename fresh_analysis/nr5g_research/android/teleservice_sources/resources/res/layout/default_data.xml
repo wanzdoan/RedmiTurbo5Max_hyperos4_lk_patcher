@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/default_data"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title"
+        android:paddingTop="@dimen/default_sim_title_padding_top"
+        android:paddingBottom="@dimen/default_sim_title_padding_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msim_setting_default_data"
+        android:singleLine="true"
+        style="@style/sim_title"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@drawable/default_sim_bg"
+        android:paddingTop="@dimen/default_sim_picture_padding"
+        android:paddingBottom="@dimen/default_sim_picture_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/default_sim_picture_padding"
+        android:paddingEnd="@dimen/default_sim_picture_padding">
+        <com.android.phone.settings.sim.RatioSimImageView
+            android:id="@+id/sim1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/default_sim_option_height"
+            android:src="@drawable/ic_sim_1"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            app:optionType="data"/>
+        <com.android.phone.settings.sim.RatioSimImageView
+            android:id="@+id/sim2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/default_sim_option_height"
+            android:src="@drawable/ic_sim_2"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            app:optionType="data"/>
+    </LinearLayout>
+</LinearLayout>

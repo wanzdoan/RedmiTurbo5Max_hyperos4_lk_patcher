@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- MIUI ADD: GPS_SuplDefault -->
+<carrier_config>
+    <!-- Configure mobile network MTU. Carrier specific value is set here.-->
+    <string name="gps.supl_host"></string>
+    <string name="gps.supl_port"></string>
+    <string name="gps.supl_ver">0x20000</string>
+    <string name="gps.supl_mode">0</string>
+    <string name="gps.supl_es">0</string>
+    <string name="gps.lpp_profile">0</string>
+    <string name="gps.use_emergency_pdn_for_emergency_supl">0</string>
+    <string name="gps.a_glonass_pos_protocol_select">2</string>
+    <string name="gps.gps_lock">0</string>
+    <!-- Values for GPS configuration -->
+</carrier_config>
+<!-- END GPS_SuplDefault -->

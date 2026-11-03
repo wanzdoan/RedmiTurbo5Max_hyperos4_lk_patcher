@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/phone_account_settings">
+    <miuix.preference.DropDownPreference
+        android:title="@string/preferred_phone_account"
+        android:key="button_preferred_phone_account"/>
+    <PreferenceCategory
+        android:title="@string/other_available_phone_accounts"
+        android:key="accounts_category"/>
+</PreferenceScreen>

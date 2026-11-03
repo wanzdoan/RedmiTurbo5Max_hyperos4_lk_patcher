@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/telocation_setting">
+    <PreferenceCategory
+        android:title="@string/telocation_show_settings"
+        android:key="telocation_category">
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/telocation_enable_title"
+            android:key="button_enable_telocation"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/telocation_call_assistant">
+        <com.android.phone.settings.LTREditTextPreference
+            android:persistent="false"
+            android:hint="@string/telocation_contacts_countrycode_hint"
+            android:title="@string/telocation_contacts_countrycode"
+            android:key="button_text_telocation_contacts_countrycode"
+            android:inputType="phone"
+            style="@style/Widget.EditText.Dialog"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/telocation_auto_country_code"
+            android:key="button_auto_country_code"
+            android:summary="@string/telocation_auto_country_code_summary"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

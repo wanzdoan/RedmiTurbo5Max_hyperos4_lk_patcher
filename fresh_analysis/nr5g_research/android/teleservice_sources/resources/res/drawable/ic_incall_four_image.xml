@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/dialpad_bottom_voice_number_height"
+    android:width="@dimen/dialpad_bottom_voice_number_width"
+    android:viewportWidth="22"
+    android:viewportHeight="35">
+    <group>
+        <clip-path android:pathData="M0,0h22v35h-22z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M16.906,0.704V17.5H20.102V20.594H16.906V26.102H13.472V20.594H1.708V18.146L12.044,0.704H16.906ZM13.472,17.5V4.342L5.754,17.5H13.472Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M16.906,0.704V17.5H20.102V20.594H16.906V26.102H13.472V20.594H1.708V18.146L12.044,0.704H16.906ZM13.472,17.5V4.342L5.754,17.5H13.472Z"/>
+    </group>
+</vector>

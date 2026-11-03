@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nr_signal_display_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="beforeDescendants"
+        style="@style/info_layout">
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_switch_status1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/value5gStateSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_network_config_type1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/valueConfigTypeSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_signal_strength1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/value5gSignalStrengthSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_bearer_status1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/value5gDataConnectionStatusSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_available_status1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/valueNrAvailStatusSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_icon_type1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/valueIconTypeSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <View
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_endc_status1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/valueEndcStatusSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_endc_available1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/valueEndcAvailableSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/fiveg_restrict_dcnr1"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/valueRestrictDcnrSlot1"
+                style="@style/info_value"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

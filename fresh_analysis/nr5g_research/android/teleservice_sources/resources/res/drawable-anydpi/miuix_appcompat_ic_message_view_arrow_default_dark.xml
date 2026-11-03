@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:symbolDisabledAlpha="1"
+    app:symbolIconHeight="@dimen/miuix_appcompat_message_view_icon_height"
+    app:symbolIconSize="@dimen/miuix_appcompat_message_view_icon_font_size"
+    app:symbolIconWidth="@dimen/miuix_appcompat_message_view_icon_width"
+    app:symbolNormalAlpha="1"
+    app:symbolPressedAlpha="1"
+    app:symbolText="��"
+    app:symbolTintColor="@color/miuix_default_color_on_surface_tertiary_dark"
+    class="miuix.theme.symbol.SymbolDrawable"/>

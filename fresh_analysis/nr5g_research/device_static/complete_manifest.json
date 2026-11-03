@@ -1,0 +1,98 @@
+[
+  {
+    "file": "CarrierConfig.apk",
+    "size": 337078,
+    "sha256": "2e3c292b7052a8e8813860f9ebc38990b801735bb4b4b3a29028ea37e0bfb77e",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "CarrierStudioCarrierConfig.apk",
+    "size": 526751,
+    "sha256": "026827ca5ec4b7bdf61a39e68603d837f7d4d7e29d3ee0a0acaebbb39fd41b26",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "hyper-telephony-common-ext.jar",
+    "size": 298370,
+    "sha256": "03122ff211c5994256ea973114528c491ce9192e56e15b6975155fedb38dab67",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "hyper-telephony-common.jar",
+    "size": 77234,
+    "sha256": "0594943fd738070d7a6bdadd8c9078e2a09b9c2587886292177ecc1d2be3b62f",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "libmtk-ril.so",
+    "size": 5146312,
+    "sha256": "862b51dbc591c80da47c4869c86bc579e9ec732f7a51b520b52bdfae1bf673f9",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "libmtkmipc-ril.so",
+    "size": 4515984,
+    "sha256": "913d8ee8caf62cb0200bf22588952872c839a95a343987b5501ce893876fd286",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "libmtkrilutils.so",
+    "size": 364904,
+    "sha256": "331456bd3045169def02dd0ca4f02c9c9670d3f80851033919a835f43de3218b",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "librilfusion.so",
+    "size": 1228064,
+    "sha256": "b002bb34a2c1c56863757538b5ac9e74aeafccdc4276b1cca069aa5a58c5b6f6",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "mediatek-telephony-base.jar",
+    "size": 267537,
+    "sha256": "4ca1e2287d730be22718f83388e2843886b5e04e91e11c4098010e54fffd8395",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "mediatek-telephony-common.jar",
+    "size": 2184229,
+    "sha256": "4208f6c71349136c577fe0beec3dd7f5506ea404b67011ae097aa76ab2753456",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "miui-telephony-common.jar",
+    "size": 771177,
+    "sha256": "98f4b90f908eae6d4972221f3a2c34da763e5429cf908123ee92f0093d8644b1",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "MtkTeleService.apk",
+    "size": 13840409,
+    "sha256": "2a553cce204d5012cac15c47d7ea5377ace4d206af1eedba2e8106067ab812f7",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "telephony-common.jar",
+    "size": 6092341,
+    "sha256": "9a54a7f91cd12709a55ae9bc63e55d128fb55c6f6a4d7f9de19de0db8745688b",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "xiaomi-telephony-common.jar",
+    "size": 801130,
+    "sha256": "754fbdbba6f0e31072c80b438d4c069d5b5c121a9d7605dcf6caf0a222b71707",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "xm-telephony-base.jar",
+    "size": 47293,
+    "sha256": "2ff814975bc231cee89c092962242d28919e62184acdf0ca85d7de9bfe35d328",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  },
+  {
+    "file": "xm-telephony-common.jar",
+    "size": 120777,
+    "sha256": "1c9f0326b4a1352a63f2451c3d53c04da32a15346a7a7a274f5a16e27f699ee2",
+    "source": "Read-only ADB pull of shipped system/vendor code; no user-data files"
+  }
+]

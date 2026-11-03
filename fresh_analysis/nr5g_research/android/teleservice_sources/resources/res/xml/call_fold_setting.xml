@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <com.android.phone.settings.CheckBoxTitleIconPreference
+            android:persistent="false"
+            android:title="@string/fold_answer_pref_title"
+            android:key="pref_fold_answer_call"
+            android:summary="@string/fold_answer_pref_summary"
+            android:defaultValue="false"/>
+        <com.android.phone.settings.CheckBoxTitleIconPreference
+            android:persistent="false"
+            android:title="@string/unfold_speaker_pref_title"
+            android:key="pref_unfold_turn_on_speaker"
+            android:summary="@string/unfold_speaker_pref_summary"
+            android:defaultValue="false"/>
+        <com.android.phone.settings.CheckBoxTitleIconPreference
+            android:persistent="false"
+            android:title="@string/unfold_close_camera_pref_title"
+            android:key="pref_unfold_close_camera"
+            android:summary="@string/unfold_close_camera_pref_summary"
+            android:defaultValue="false"/>
+        <com.android.phone.settings.CheckBoxTitleIconPreference
+            android:persistent="false"
+            android:title="@string/unfold_show_bublle_pref_title"
+            android:key="pref_unfold_show_incall_bubble"
+            android:summary="@string/unfold_show_bublle_pref_summary"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

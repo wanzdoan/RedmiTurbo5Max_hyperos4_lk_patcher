@@ -1,0 +1,13 @@
+package com.google.android.appfunctions.schema.common.v1.camera;
+
+import androidx.appsearch.app.DocumentClassFactory;
+import androidx.appsearch.app.GenericDocument;
+
+/* JADX INFO: renamed from: com.google.android.appfunctions.schema.common.v1.camera.$$__AppSearch__ScanDocumentParams, reason: invalid class name */
+/* JADX INFO: loaded from: classes.dex */
+public final class C$$__AppSearch__ScanDocumentParams implements DocumentClassFactory {
+    @Override // androidx.appsearch.app.DocumentClassFactory
+    public GenericDocument toGenericDocument(ScanDocumentParams scanDocumentParams) {
+        return new GenericDocument.Builder(scanDocumentParams.getNamespace(), scanDocumentParams.getId(), "com.google.android.appfunctions.schema.common.v1.camera.ScanDocumentParams").build();
+    }
+}

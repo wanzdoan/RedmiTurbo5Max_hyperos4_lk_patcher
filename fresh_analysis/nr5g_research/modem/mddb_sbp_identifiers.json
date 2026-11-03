@@ -1,0 +1,149 @@
+[
+  {
+    "tag": "NVRAM_Bit_Data",
+    "attributes": {
+      "name": "SBP_NAS_ROAMING_DISABLE_ENDC",
+      "description": "Disable duplicate CB check for received CB message",
+      "byte_offset": "91",
+      "bit_offset": "0",
+      "bit_count": "1"
+    },
+    "parent": {
+      "name": "modem_sbp_config",
+      "type_name": "kal_uint8",
+      "is_typedef": "true",
+      "type": "unsigned char",
+      "offset": "4",
+      "size": "327",
+      "array_sizes": "327",
+      "description": "[MCF,RUNTIME] Configuration of SBP Feature"
+    },
+    "parent_tag": "Field"
+  },
+  {
+    "tag": "NVRAM_Bit_Data",
+    "attributes": {
+      "name": "SBP_CONFIG_ENDC_COMB_BY_SBPID",
+      "description": "Enable configure ENDC combination by SBP ID",
+      "byte_offset": "106",
+      "bit_offset": "0",
+      "bit_count": "1"
+    },
+    "parent": {
+      "name": "modem_sbp_config",
+      "type_name": "kal_uint8",
+      "is_typedef": "true",
+      "type": "unsigned char",
+      "offset": "4",
+      "size": "327",
+      "array_sizes": "327",
+      "description": "[MCF,RUNTIME] Configuration of SBP Feature"
+    },
+    "parent_tag": "Field"
+  },
+  {
+    "tag": "NVRAM_Bit_Data",
+    "attributes": {
+      "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN",
+      "description": "User can disable NR band(s) by plmn",
+      "byte_offset": "111",
+      "bit_offset": "4",
+      "bit_count": "1"
+    },
+    "parent": {
+      "name": "modem_sbp_config",
+      "type_name": "kal_uint8",
+      "is_typedef": "true",
+      "type": "unsigned char",
+      "offset": "4",
+      "size": "327",
+      "array_sizes": "327",
+      "description": "[MCF,RUNTIME] Configuration of SBP Feature"
+    },
+    "parent_tag": "Field"
+  },
+  {
+    "tag": "NVRAM_Bit_Data",
+    "attributes": {
+      "name": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN",
+      "description": "Customize supported NR band by PLMN",
+      "byte_offset": "217",
+      "bit_offset": "3",
+      "bit_count": "1"
+    },
+    "parent": {
+      "name": "modem_sbp_config",
+      "type_name": "kal_uint8",
+      "is_typedef": "true",
+      "type": "unsigned char",
+      "offset": "4",
+      "size": "327",
+      "array_sizes": "327",
+      "description": "[MCF,RUNTIME] Configuration of SBP Feature"
+    },
+    "parent_tag": "Field"
+  },
+  {
+    "tag": "NVRAM_Bit_Data",
+    "attributes": {
+      "name": "SBP_NWSEL_SKIP_NR_SEARCH_WHEN_SA_DISABLE_BY_MCC",
+      "description": "Skip all types of search on RAT_NR if SA is disabled for detected MCC",
+      "byte_offset": "218",
+      "bit_offset": "2",
+      "bit_count": "1"
+    },
+    "parent": {
+      "name": "modem_sbp_config",
+      "type_name": "kal_uint8",
+      "is_typedef": "true",
+      "type": "unsigned char",
+      "offset": "4",
+      "size": "327",
+      "array_sizes": "327",
+      "description": "[MCF,RUNTIME] Configuration of SBP Feature"
+    },
+    "parent_tag": "Field"
+  },
+  {
+    "tag": "NVRAM_Bit_Data",
+    "attributes": {
+      "name": "SBP_NRRC_CAP_BC_WHITELIST_ENDC_NUM",
+      "description": "the number of NRRC ENDC band combination whitelist",
+      "byte_offset": "313",
+      "bit_offset": "0",
+      "bit_count": "8"
+    },
+    "parent": {
+      "name": "modem_sbp_data_config",
+      "type_name": "kal_uint8",
+      "is_typedef": "true",
+      "type": "unsigned char",
+      "offset": "4",
+      "size": "417",
+      "array_sizes": "417",
+      "description": "[MCF,RUNTIME] Configuration of SBP Data"
+    },
+    "parent_tag": "Field"
+  },
+  {
+    "tag": "NVRAM_Bit_Data",
+    "attributes": {
+      "name": "SBP_NRRC_CAP_BC_WHITELIST_SA_NUM",
+      "description": "the number of NRRC SA band combination whitelist",
+      "byte_offset": "314",
+      "bit_offset": "0",
+      "bit_count": "8"
+    },
+    "parent": {
+      "name": "modem_sbp_data_config",
+      "type_name": "kal_uint8",
+      "is_typedef": "true",
+      "type": "unsigned char",
+      "offset": "4",
+      "size": "417",
+      "array_sizes": "417",
+      "description": "[MCF,RUNTIME] Configuration of SBP Data"
+    },
+    "parent_tag": "Field"
+  }
+]

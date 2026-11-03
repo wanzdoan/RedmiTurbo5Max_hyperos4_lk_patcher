@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <miuix.preference.CommentPreference
+        android:textSize="@dimen/wifi_call_preferred_summary_text_size"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_call_preferred_summary"
+        android:key="wifi_call_preferred_summary_key"
+        android:importantForAccessibility="yes"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/wifi_call_textView_padding"
+        android:paddingEnd="@dimen/wifi_call_textView_padding"/>
+</PreferenceScreen>

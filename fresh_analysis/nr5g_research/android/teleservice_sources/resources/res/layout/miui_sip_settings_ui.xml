@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/miui_sipsettings_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawSelectorOnTop="false"
+        android:layout_weight="1"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/sip_add_account_tip_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/sip_add_account_tip_text"
+        android:layout_weight="1"
+        style="@style/Miuix.AppCompat.TextAppearance.List.Secondary"/>
+</LinearLayout>

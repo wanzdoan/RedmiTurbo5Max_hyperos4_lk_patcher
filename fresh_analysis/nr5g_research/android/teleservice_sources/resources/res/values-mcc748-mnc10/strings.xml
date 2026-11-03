@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_call_available_message_claro">When you see VoWLAN in the status bar, you can make calls using any WLAN network in the world, at local rates, as if you were in Uruguay. More information at https://landing.claro.com.uy/vozwifi/</string>
+    <string name="wifi_call_available_title_claro">Do you want to activate WLAN calling?</string>
+    <string name="wifi_call_checkbox_claro">Do not show again</string>
+    <string name="wifi_call_confirm_claro">Activate</string>
+</resources>

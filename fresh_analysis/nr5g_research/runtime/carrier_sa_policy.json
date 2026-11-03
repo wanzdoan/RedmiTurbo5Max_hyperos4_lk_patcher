@@ -1,0 +1,32 @@
+[
+  {
+    "phone_id": null,
+    "source": "defaults",
+    "value": "carrier_config_applied_bool = false"
+  },
+  {
+    "phone_id": null,
+    "source": "defaults",
+    "value": "carrier_nr_availabilities_int_array = [1, 2]"
+  },
+  {
+    "phone_id": 0,
+    "source": "mConfigFromDefaultApp",
+    "value": "carrier_disable_sa_mode_bool = false"
+  },
+  {
+    "phone_id": 0,
+    "source": "mConfigFromDefaultApp",
+    "value": "carrier_sa_mode_available_bool = true"
+  },
+  {
+    "phone_id": 1,
+    "source": "mConfigFromDefaultApp",
+    "value": "carrier_disable_sa_mode_bool = true"
+  },
+  {
+    "phone_id": 1,
+    "source": "mConfigFromDefaultApp",
+    "value": "carrier_sa_mode_available_bool = false"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "device_path": "/vendor/lib64/libmtk-ril.so",
+    "status": 0,
+    "local_file": "libmtk-ril.so",
+    "size": 5146312,
+    "sha256": "862b51dbc591c80da47c4869c86bc579e9ec732f7a51b520b52bdfae1bf673f9"
+  },
+  {
+    "device_path": "/vendor/lib64/libmtkrilutils.so",
+    "status": 0,
+    "local_file": "libmtkrilutils.so",
+    "size": 364904,
+    "sha256": "331456bd3045169def02dd0ca4f02c9c9670d3f80851033919a835f43de3218b"
+  },
+  {
+    "device_path": "/vendor/lib64/libmtkmipc-ril.so",
+    "status": 0,
+    "local_file": "libmtkmipc-ril.so",
+    "size": 4515984,
+    "sha256": "913d8ee8caf62cb0200bf22588952872c839a95a343987b5501ce893876fd286"
+  },
+  {
+    "device_path": "/vendor/lib64/librilfusion.so",
+    "status": 0,
+    "local_file": "librilfusion.so",
+    "size": 1228064,
+    "sha256": "b002bb34a2c1c56863757538b5ac9e74aeafccdc4276b1cca069aa5a58c5b6f6"
+  },
+  {
+    "device_path": "/system/framework/telephony-common.jar",
+    "status": 0,
+    "local_file": "telephony-common.jar",
+    "size": 6092341,
+    "sha256": "9a54a7f91cd12709a55ae9bc63e55d128fb55c6f6a4d7f9de19de0db8745688b"
+  },
+  {
+    "device_path": "/system_ext/framework/mediatek-telephony-common.jar",
+    "status": 0,
+    "local_file": "mediatek-telephony-common.jar",
+    "size": 2184229,
+    "sha256": "4208f6c71349136c577fe0beec3dd7f5506ea404b67011ae097aa76ab2753456"
+  },
+  {
+    "device_path": "/system_ext/framework/mediatek-telephony-base.jar",
+    "status": 0,
+    "local_file": "mediatek-telephony-base.jar",
+    "size": 267537,
+    "sha256": "4ca1e2287d730be22718f83388e2843886b5e04e91e11c4098010e54fffd8395"
+  },
+  {
+    "device_path": "/system_ext/framework/xiaomi-telephony-common.jar",
+    "status": 0,
+    "local_file": "xiaomi-telephony-common.jar",
+    "size": 801130,
+    "sha256": "754fbdbba6f0e31072c80b438d4c069d5b5c121a9d7605dcf6caf0a222b71707"
+  },
+  {
+    "device_path": "/system_ext/framework/miui-telephony-common.jar",
+    "status": 0,
+    "local_file": "miui-telephony-common.jar",
+    "size": 771177,
+    "sha256": "98f4b90f908eae6d4972221f3a2c34da763e5429cf908123ee92f0093d8644b1"
+  },
+  {
+    "device_path": "/system_ext/framework/hyper-telephony-common.jar",
+    "status": 0,
+    "local_file": "hyper-telephony-common.jar",
+    "size": 77234,
+    "sha256": "0594943fd738070d7a6bdadd8c9078e2a09b9c2587886292177ecc1d2be3b62f"
+  },
+  {
+    "device_path": "/system_ext/framework/hyper-telephony-common-ext.jar",
+    "status": 0,
+    "local_file": "hyper-telephony-common-ext.jar",
+    "size": 298370,
+    "sha256": "03122ff211c5994256ea973114528c491ce9192e56e15b6975155fedb38dab67"
+  },
+  {
+    "device_path": "/system_ext/framework/xm-telephony-base.jar",
+    "status": 0,
+    "local_file": "xm-telephony-base.jar",
+    "size": 47293,
+    "sha256": "2ff814975bc231cee89c092962242d28919e62184acdf0ca85d7de9bfe35d328"
+  },
+  {
+    "device_path": "/system_ext/framework/xm-telephony-common.jar",
+    "status": 0,
+    "local_file": "xm-telephony-common.jar",
+    "size": 120777,
+    "sha256": "1c9f0326b4a1352a63f2451c3d53c04da32a15346a7a7a274f5a16e27f699ee2"
+  }
+]

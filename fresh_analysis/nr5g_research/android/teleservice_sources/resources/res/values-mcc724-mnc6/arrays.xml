@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="support_networktypes_gsm_master">
+        <item>32</item>
+        <item>9</item>
+    </array>
+    <array name="support_networktypes_gsm_vice">
+        <item>32</item>
+        <item>9</item>
+    </array>
+</resources>

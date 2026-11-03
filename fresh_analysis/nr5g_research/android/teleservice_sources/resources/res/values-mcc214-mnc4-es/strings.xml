@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fiveg_sa_switch_title">5G+</string>
+    <string name="wifi_call_help_message_1">Llamadas WLAN es un servicio de su operador que le permite realizar y recibir llamadas a través de una conexión WLAN. Esto es especialmente útil en interiores de edificios adonde no llega la cobertura de red móvil.\n\nPara utilizar Llamadas WLAN active esta función en Ajustes / Llamadas WLAN y conéctese entonces a una red WLAN.\n\nLas llamadas realizadas por WLAN se tarificarán de acuerdo con las condiciones de su tarifa.\n\nSiempre que esta función esté disponible, aparecerá el siguiente icono en la parte superior de la pantalla.</string>
+    <string name="wifi_call_notification_message">Este servicio es proporcionado por tu Operador. La primera vez que lo actives en el teléfono puede tardar varias horas en estar disponible.</string>
+</resources>

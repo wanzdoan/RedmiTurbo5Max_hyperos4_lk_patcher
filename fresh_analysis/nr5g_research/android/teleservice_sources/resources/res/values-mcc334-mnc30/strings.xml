@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preferred_network_type_pref_entries_3g_preferred">3G preferred</string>
+    <string name="preferred_network_type_pref_entries_4g_preferred">LTE preferred</string>
+    <string name="preferred_network_type_pref_entries_4g_preferred_custom">LTE preferred</string>
+    <string name="preferred_network_type_pref_entries_5g_preferred">5G preferred</string>
+</resources>

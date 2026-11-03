@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory
+        android:title="@string/wifi_call_setting"
+        android:key="wifi_call_category_key">
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/wificall_switch_title"
+            android:key="enable_wificall"
+            android:summary="@string/wificall_switch_summary"/>
+        <com.android.phone.custompreferences.MiuixTextPreference
+            android:persistent="false"
+            android:title="@string/preferred_wificall_title"
+            android:key="preferred_wificall_key"/>
+        <com.android.phone.custompreferences.MiuixTextPreference
+            android:persistent="false"
+            android:title="@string/roaming_preferred_wificall_title"
+            android:key="roaming_preferred_wificall_key"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/voice_link_switch_title"
+            android:key="enable_voice_link"
+            android:summary="@string/voice_link_switch_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

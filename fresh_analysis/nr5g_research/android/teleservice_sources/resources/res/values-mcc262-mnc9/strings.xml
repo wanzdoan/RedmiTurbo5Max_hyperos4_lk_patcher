@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preferred_network_type_pref_entries_3g_preferred">3G Preferred</string>
+    <string name="preferred_network_type_pref_entries_4g_preferred">4G Preferred</string>
+    <string name="preferred_network_type_pref_entries_4g_preferred_custom">4G Preferred</string>
+    <string name="preferred_network_type_pref_entries_5g_preferred">5G Preferred</string>
+    <string name="status_hint_label_wifi_call">WLAN Calling</string>
+</resources>

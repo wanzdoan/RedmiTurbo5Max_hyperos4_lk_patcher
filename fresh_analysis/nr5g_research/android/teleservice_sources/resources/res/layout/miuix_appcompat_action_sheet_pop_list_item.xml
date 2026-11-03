@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/miuix_appcompat_action_sheet_pop_list_item_text_size"
+    android:textColor="?android:attr/textColorAlertDialogListItem"
+    android:gravity="center"
+    android:id="@android:id/text1"
+    android:background="?attr/colorSurfaceHighest"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:singleLine="false"
+    android:fontFamily="@string/miuix_font_style_misans_medium_font_family"
+    android:textDirection="locale"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"/>

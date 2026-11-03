@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/call_recording_notification_toggle_title"
+            android:key="button_call_recording_notification"
+            android:summary="@string/call_recording_notification_summary"
+            android:defaultValue="true"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/call_record_auto_title"
+            android:key="button_auto_record_call"
+            android:summary="@string/call_record_auto_summary"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/call_record_auto_scenario_title">
+        <miuix.preference.SingleChoicePreferenceCategory
+            android:key="button_auto_record_scenario"
+            android:entryValues="@array/auto_record_scenario_entries"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/call_record_whitelist_custom"
+        android:key="auto_record_custom_category">
+        <com.android.phone.custompreferences.MiuixTextPreference
+            android:title="@string/call_record_auto_whitelist"
+            android:key="button_call_record_auto_whitelist">
+            <intent
+                android:targetPackage="com.android.phone"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.settings.AutoRecordWhiteListSetting"/>
+        </com.android.phone.custompreferences.MiuixTextPreference>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/call_record_auto_unknown_number"
+            android:key="button_auto_record_unknown"
+            android:defaultValue="false"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/auto_record_yellowpage"
+            android:key="button_auto_record_yellowpage"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

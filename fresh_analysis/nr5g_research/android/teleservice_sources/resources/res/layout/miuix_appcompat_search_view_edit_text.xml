@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/search_container"
+    android:background="?attr/miuixAppcompatSearchModeEditTextBackground"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:paddingHorizontal="@dimen/miuix_appcompat_search_view_search_container_padding_horizontal">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/miuix_appcompat_search_view_search_icon_size"
+        android:layout_height="@dimen/miuix_appcompat_search_view_search_icon_size"
+        android:layout_marginEnd="@dimen/miuix_appcompat_search_view_search_icon_margin_end"
+        app:srcCompat="?attr/miuixAppcompatEditTextSearchIcon"/>
+    <miuix.androidbasewidget.widget.ClearableEditText
+        android:textSize="@dimen/miuix_appcompat_search_edit_text_size"
+        android:textColorHint="?attr/searchEditTextHintColor"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@android:id/input"
+        android:background="@null"
+        android:scrollbars="none"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textDirection="locale"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        app:drawableEndCompat="?attr/clearEditTextIcon"/>
+</LinearLayout>

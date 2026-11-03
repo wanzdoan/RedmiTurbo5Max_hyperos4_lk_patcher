@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_button_size">24.7dp</dimen>
+    <dimen name="appcompat_dialog_pannel_horizontal_margin">43.64dp</dimen>
+    <dimen name="dial_panel_margin">21.66dp</dimen>
+    <dimen name="mi_sim_activate_dialog_title_margin_top">20dp</dimen>
+    <dimen name="mi_sim_activate_icon_height">106.67dp</dimen>
+    <dimen name="mi_sim_activate_icon_width">106.67dp</dimen>
+    <dimen name="mi_sim_activate_text_size">16.67sp</dimen>
+    <dimen name="mtn_simlock_emergency_margin">26.67dp</dimen>
+    <dimen name="mtn_simlock_emergency_margin_bottom">41.33dp</dimen>
+    <dimen name="mtn_simlock_icon_height">250dp</dimen>
+    <dimen name="mtn_simlock_icon_margin_top">114.67dp</dimen>
+    <dimen name="mtn_simlock_icon_width">210dp</dimen>
+    <dimen name="mtn_simlock_text_layout_margin">26.67dp</dimen>
+    <dimen name="mtn_simlock_text_margin_top">386dp</dimen>
+    <dimen name="sim_select_dialog_check_mark_height">11.92dp</dimen>
+    <dimen name="sim_select_dialog_check_mark_width">14.67dp</dimen>
+    <dimen name="sim_select_dialog_display_name_text_size">15.58sp</dimen>
+    <dimen name="sim_select_dialog_display_number_text_size">12.83sp</dimen>
+    <dimen name="sim_select_dialog_image_area_height">40.33dp</dimen>
+    <dimen name="sim_select_dialog_image_area_width">40.33dp</dimen>
+    <dimen name="sim_select_dialog_margin_bottom">16.5dp</dimen>
+    <dimen name="sim_select_dialog_margin_end">25.67dp</dimen>
+    <dimen name="sim_select_dialog_margin_start">25.67dp</dimen>
+    <dimen name="sim_select_dialog_margin_top">16.5dp</dimen>
+    <dimen name="sim_select_dialog_text_area_height">40.33dp</dimen>
+</resources>

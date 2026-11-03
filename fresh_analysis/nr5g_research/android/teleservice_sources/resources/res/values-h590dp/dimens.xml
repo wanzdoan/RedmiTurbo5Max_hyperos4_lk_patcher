@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_button_height">51dp</dimen>
+    <dimen name="dialpad_button_width">51dp</dimen>
+    <dimen name="emergency_dialer_dialpad_button_margin">29dp</dimen>
+    <dimen name="emergency_info_button_height">87dp</dimen>
+    <dimen name="emergency_info_button_margin_bottom">44dp</dimen>
+    <dimen name="emergency_info_button_margin_top">44dp</dimen>
+    <dimen name="emergency_info_hint_text_size">14.5sp</dimen>
+    <dimen name="emergency_info_name_text_size">20sp</dimen>
+    <dimen name="emergency_info_tap_hint_text_size">16.4sp</dimen>
+    <dimen name="emergency_location_text_size">12.7sp</dimen>
+    <dimen name="emergency_number_title_height">44dp</dimen>
+    <dimen name="emergency_number_title_text_size">12.7sp</dimen>
+    <dimen name="emergency_shortcut_button_height">87dp</dimen>
+    <dimen name="emergency_shortcut_button_margin_bottom">7.3dp</dimen>
+    <dimen name="emergency_shortcut_number_text_size">29sp</dimen>
+    <dimen name="emergency_shortcut_tap_hint_text_size">16.4sp</dimen>
+    <dimen name="emergency_shortcut_type_text_size">12.7sp</dimen>
+    <dimen name="location_image_height">14.5dp</dimen>
+    <dimen name="location_image_width">14.5dp</dimen>
+    <dimen name="phone_icon_height">22dp</dimen>
+    <dimen name="phone_icon_width">22dp</dimen>
+    <dimen name="phone_number_type_image_height">36dp</dimen>
+    <dimen name="phone_number_type_image_width">36dp</dimen>
+</resources>

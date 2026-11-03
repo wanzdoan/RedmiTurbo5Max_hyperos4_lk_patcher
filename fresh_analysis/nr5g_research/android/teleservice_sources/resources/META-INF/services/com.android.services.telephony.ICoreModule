@@ -1,0 +1,7 @@
+com.android.services.telephony.UtilityCoreModule
+com.android.services.telephony.MiConnectCoreModule
+com.android.services.telephony.SettingsCoreModule
+com.android.services.telephony.TelephonyCoreModule
+com.android.services.telephony.NetworkCoreModule
+com.android.services.telephony.ModemCoreModule
+com.android.services.telephony.SatelliteCoreModule

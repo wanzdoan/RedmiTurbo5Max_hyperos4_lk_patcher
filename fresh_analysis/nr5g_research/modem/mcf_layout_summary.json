@@ -1,0 +1,62 @@
+{
+  "evidence_id": "NR5G-MCF-READONLY-001",
+  "fs_metadata": {
+    "block_size": 4096,
+    "inodes_per_group": 8192,
+    "inode_size": 128,
+    "descriptor_size": 64,
+    "feature_incompat": "0x2c2",
+    "uuid": "134a775a978c4f2ebdeba1a0b8b0e7ad",
+    "volume": "/mnt/vendor/mdot"
+  },
+  "ota_files": 1225,
+  "top_level_section_parse_failures": [],
+  "section_tag_layouts": {
+    "0x10004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004,0x20004": 2,
+    "0x10004,0x20004": 1215,
+    "0x10004,0x20004,0x20004": 7,
+    "0x10004,0x20004,0x20004,0x20004": 1
+  },
+  "plaintext_vietnam_plmn_file_matches": [
+    {
+      "path": "/misc_data/plmn/TS25/4/52.txt",
+      "matches": [
+        {
+          "offset": 0,
+          "text": "45201,VN Mobifone,Mobifone\r\n45202,VN VINAPHONE,GPC\r\n45204,VIETTEL,VIETTEL\r\n45205,Viet"
+        },
+        {
+          "offset": 28,
+          "text": "45201,VN Mobifone,Mobifone\r\n45202,VN VINAPHONE,GPC\r\n45204,VIETTEL,VIETTEL\r\n45205,Vietnamobile,VNMOBILE\r\n"
+        },
+        {
+          "offset": 52,
+          "text": "fone\r\n45202,VN VINAPHONE,GPC\r\n45204,VIETTEL,VIETTEL\r\n45205,Vietnamobile,VNMOBILE\r\n"
+        },
+        {
+          "offset": 75,
+          "text": "E,GPC\r\n45204,VIETTEL,VIETTEL\r\n45205,Vietnamobile,VNMOBILE\r\n"
+        }
+      ]
+    }
+  ],
+  "manifest_entries": 864,
+  "manifest_hash_matched": 862,
+  "manifest_hash_unmatched": [
+    {
+      "name": "misc_data/cacerts/tls/EntrustRootCertificationAuthority.crt",
+      "expected": "5207197dbdd4a6c3e174baace1e230a0",
+      "paths": []
+    },
+    {
+      "name": "misc_data/cacerts/tls/certSIGN_ROOT_CA.crt",
+      "expected": "0e3d4bf28d04938dd59c0f043e7fb2d2",
+      "paths": []
+    }
+  ],
+  "limitations": [
+    "Top-level tag/length boundaries only; encrypted/security context is not decoded",
+    "No active SIM/network/operator profile read",
+    "PLMN naming-table existence does not prove NR band allow/disable setting"
+  ]
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sim_value_text_size">18.33sp</dimen>
+    <dimen name="small_sim_icon_slot_size">25.55dp</dimen>
+</resources>

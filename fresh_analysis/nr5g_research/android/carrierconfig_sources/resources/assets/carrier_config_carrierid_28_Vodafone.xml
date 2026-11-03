@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+    <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    <int name="smsToMmsTextThreshold" value="10"/>
+    <int name="default_mtu_int" value="1358"/>
+    <string name="default_vm_number_string">121</string>
+    <string-array name="feature_access_codes_string_array" num="3">
+        <item value="153"/>
+        <item value="132"/>
+        <item value="45"/>
+    </string-array>
+    <string-array name="read_only_apn_types_string_array" num="0"/>
+    <string-array name="carrier_certificate_string_array" num="1">
+      <item value="2E26357C65C1F858CE0C798AA7EFB38922E8D334F12DAD4A3963007DFBBC5677:com.myvodafoneapp"/>
+    </string-array>
+    <!-- MIUI ADD: GPS_VdfReq -->
+    <string name="gps.supl_host">supl.vodafone.com</string>
+    <string name="gps.supl_port">7275</string>
+    <string name="gps.supl_ver">0x20000</string>
+    <string name="gps.supl_mode">1</string>
+    <string name="gps.supl_es">1</string>
+    <string name="gps.lpp_profile">2</string>
+    <string name="gps.use_emergency_pdn_for_emergency_supl">1</string>
+    <string name="gps.a_glonass_pos_protocol_select">0</string>
+    <string name="gps.gps_lock">0</string>
+    <!-- END GPS_VdfReq -->
+</carrier_config>
+

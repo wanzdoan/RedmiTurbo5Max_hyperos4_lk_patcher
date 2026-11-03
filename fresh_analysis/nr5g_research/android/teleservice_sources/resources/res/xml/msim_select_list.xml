@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/sim_select_dialog_title">
+    <PreferenceScreen
+        android:persistent="false"
+        android:title="@string/msim_setting_no_sim_indicator"
+        android:key="carrier_info_for_card_one"
+        android:summary="@string/msim_setting_no_sim_number">
+        <intent
+            android:targetPackage="com.miui.virtualsim"
+            android:action="com.miui.businesshall.ACTION_ROUTER"/>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:persistent="false"
+        android:title="@string/msim_setting_no_sim_indicator"
+        android:key="carrier_info_for_card_two"
+        android:summary="@string/msim_setting_no_sim_number">
+        <intent
+            android:targetPackage="com.miui.virtualsim"
+            android:action="com.miui.businesshall.ACTION_ROUTER"/>
+    </PreferenceScreen>
+</PreferenceScreen>

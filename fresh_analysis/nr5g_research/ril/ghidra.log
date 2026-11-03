@@ -1,0 +1,1158 @@
+2026-11-03 21:39:43 INFO  (LoggingInitialization) Using log config file: jar:file:/D:/Tools/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-03 21:39:43 INFO  (LoggingInitialization) Using log file: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\nr5g_research\ril\ghidra.log  
+2026-11-03 21:39:44 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-03 21:39:44 INFO  (Preferences) Loading user preferences: C:\Users\Administrator\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences  
+2026-11-03 21:39:44 INFO  (ClassSearcher) Searching for classes...  
+2026-11-03 21:39:47 INFO  (ClassSearcher) Class search complete (3220 ms)  
+2026-11-03 21:39:47 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-03 21:39:47 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-03 21:39:47 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-03 21:39:47 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-11-03 21:39:50 INFO  (AnalyzeHeadless) Headless startup complete (9890 ms)  
+2026-11-03 21:39:50 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-11-03 21:39:51 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    D:\Tools\ghidra\Ghidra\Debug\Debugger\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\VersionTracking\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BytePatterns\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FileFormats\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PyGhidra\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\SystemEmulation\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\8051\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\GnuDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BSim\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\DATA\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\JVM\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\PIC\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FunctionID\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PDB\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Decompiler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Base\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\Atmel\ghidra_scripts
+    D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\nr5g_research\ril\scripts  
+2026-11-03 21:39:51 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-03 21:39:51 INFO  (HeadlessAnalyzer) Creating project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\nr5g_research\ril\ghidra_db\RadioNR  
+2026-11-03 21:39:51 INFO  (DefaultProject) Creating project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\nr5g_research\ril\ghidra_db\RadioNR  
+2026-11-03 21:39:51 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-11-03 21:39:51 INFO  (HeadlessAnalyzer)      project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\nr5g_research\ril\ghidra_db\RadioNR  
+2026-11-03 21:39:51 INFO  (HeadlessAnalyzer) IMPORTING: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/nr5g_research/device_static/libmtk-ril.so  
+2026-11-03 21:39:56 INFO  (ProgramLoader) Using Loader: Executable and Linking Format (ELF)  
+2026-11-03 21:39:56 INFO  (ProgramLoader) Using Language/Compiler: AARCH64:LE:64:v8A:default  
+2026-11-03 21:39:56 INFO  (ProgramLoader) Using Library Search Path: [., C:\Windows\SysWOW64, C:\Program Files\Eclipse Adoptium\jdk-25.0.4.7-hotspot\bin, C:\Windows\Sun\Java\bin, C:\Windows\system32, C:\Windows, C:\Users\Administrator\.codex\tmp\arg0-windows\codex-arg0aDtPOR, C:\Users\Administrator\AppData\Roaming\npm\node_modules\@openai\codex\node_modules\@openai\codex-win32-x64\vendor\x86_64-pc-windows-msvc\codex-path, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\dotnet\, C:\Program Files\GitHub CLI\, C:\Program Files\Microsoft VS Code\bin, C:\Program Files (x86)\cloudflared\, C:\Program Files\Cloudflare\Cloudflare WARP\, C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Scripts\, C:\Users\Administrator\AppData\Local\Programs\Python\Python312\, C:\msys64\ucrt64\bin, C:\Users\Administrator\AppData\Local\agy\bin, C:\Users\Administrator\AppData\Local\Programs\Python\Launcher\, C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps, C:\Users\Administrator\AppData\Roaming\npm, C:\Program Files\platform-tools, C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Links, C:\Users\Administrator\.dotnet\tools, D:\Android\cmdline-tools\latest\bin, D:\Android\Sdk\platform-tools, D:\Android\Sdk\build-tools\35.0.0, C:\Users\Administrator\.bun\bin, C:\Users\Administrator\AppData\Local\spicetify, C:\Users\Administrator\AppData\Local\Programs\orca\resources\bin, C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\poppler-25.07.0\Library\bin, C:\Users\Administrator\.local\bin]  
+2026-11-03 21:39:58 DEBUG (ElfHeader) Elf symbol table section .dynsym linked to string table section .dynstr  
+2026-11-03 21:39:58 DEBUG (ElfHeader) Elf relocation table section .rela.plt linked to symbol table section .dynsym affecting .got.plt  
+2026-11-03 21:39:59 DEBUG (ElfHeader) Elf relocation table section .rela.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2026-11-03 21:39:59 DEBUG (ElfHeader) Elf relocation table section .relr.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2026-11-03 21:39:59 DEBUG (ElfProgramBuilder) Discarding 8-byte alignment/filler segment_2.2 at 005aa148  
+2026-11-03 21:39:59 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_1.7 at 00141afc  
+2026-11-03 21:39:59 DEBUG (ElfProgramBuilder) Discarding 6-byte alignment/filler segment_1.11 at 001dbdda  
+2026-11-03 21:39:59 DEBUG (ElfProgramBuilder) Discarding 8-byte alignment/filler segment_1.14 at 001f3798  
+2026-11-03 21:39:59 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_1.18 at 002a4efc  
+2026-11-03 21:40:00 DEBUG (ElfHeader) Elf symbol table section .symtab linked to string table section .strtab  
+2026-11-03 21:40:07 WARN  (ElfRelocationHandler) EXTERNAL Data ELF Relocation with offset: at 005d0c08 (External Location = _ZTVN10__cxxabiv117__class_type_infoE+0x10)  
+2026-11-03 21:40:07 WARN  (ElfRelocationHandler) EXTERNAL Data ELF Relocation with offset: at 005d0c18 (External Location = _ZTVN10__cxxabiv120__si_class_type_infoE+0x10)  
+2026-11-03 21:40:07 WARN  (ElfRelocationHandler) EXTERNAL Data ELF Relocation with offset: at 005d0c30 (External Location = _ZTVN10__cxxabiv120__si_class_type_infoE+0x10)  
+2026-11-03 21:40:07 WARN  (ElfRelocationHandler) EXTERNAL Data ELF Relocation with offset: at 005d0c48 (External Location = _ZTVN10__cxxabiv120__si_class_type_infoE+0x10)  
+2026-11-03 21:40:07 WARN  (ElfRelocationHandler) EXTERNAL Data ELF Relocation with offset: at 005d0c60 (External Location = _ZTVN10__cxxabiv120__si_class_type_infoE+0x10)  
+2026-11-03 21:40:07 WARN  (ElfRelocationHandler) EXTERNAL Data ELF Relocation with offset: at 005d0d60 (External Location = _ZTVN10__cxxabiv117__class_type_infoE+0x10)  
+2026-11-03 21:40:09 INFO  (ProgramLoader) Additional info:
+Loading file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/nr5g_research/device_static/libmtk-ril.so?MD5=47ac7a47ecfa5203a05a6b2e1bf9ea80...
+Found 2022 symbols in .gnu_debugdata
+Setting block .data.rel.ro to read-only
+Setting block .fini_array to read-only
+Setting block .init_array to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libmtk-ril.so' to imported libraries...
+  [libmtkutils.so] -> not found in project
+  [librilfusion.so] -> not found in project
+  [libmtknetutils.so] -> not found in project
+  [libratconfig.so] -> not found in project
+  [libmtksysutils.so] -> not found in project
+  [libmtkhardware_legacy.so] -> not found in project
+  [libmtkrilutils.so] -> not found in project
+  [libcrypto.so] -> not found in project
+  [libmtkcutils.so] -> not found in project
+  [libmtkproperty.so] -> not found in project
+  [libmtkrillog.so] -> not found in project
+  [libmtkconfigutils.so] -> not found in project
+  [libmtktinyxml.so] -> not found in project
+  [vendor.mediatek.hardware.netdagent@1.0.so] -> not found in project
+  [libhidlbase.so] -> not found in project
+  [vendor.mediatek.hardware.netdagent-V1-ndk.so] -> not found in project
+  [libbinder_ndk.so] -> not found in project
+  [libnvram.so] -> not found in project
+  [vendor.mediatek.hardware.mbrain-V6-ndk.so] -> not found in project
+  [libjsoncpp.so] -> not found in project
+  [libbinder.so] -> not found in project
+  [libmipc.so] -> not found in project
+  [libc++.so] -> not found in project
+  [libc.so] -> not found in project
+  [libm.so] -> not found in project
+  [libdl.so] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libmtk-ril.so] - 495 unresolved symbols, no external libraries configured - skipping
+  
+2026-11-03 21:40:09 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-11-03 21:40:09 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/nr5g_research/device_static/libmtk-ril.so  
+2026-11-03 21:40:11 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=null, crc=0, hash=b182888e1722c81b0e9459a51b325aca, objectType=DEBUGINFO, extra=null]  
+2026-11-03 21:40:11 DEBUG (LocalDirDebugInfoDProvider) Finished cache cleanup of debug files in C:\Users\Administrator\AppData\Local\ghidra\debuginfo-cache, deleted 0 files, 0 total bytes  
+2026-11-03 21:40:11 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not fully contain the call site area  
+2026-11-03 21:40:15 ERROR (LSDACallSiteTable) Function body does not contain the landing pad  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065a3e4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065a418  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065a408  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065a330  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b15c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b4cc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b260  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b130  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b2b4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b4cc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b300  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b130  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b380  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b4cc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b720  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b720  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b79c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b7c4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b7a0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b720  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b828  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b8b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b844  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b720  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b8c4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b9bc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b8c8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065b720  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065c070  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065c070  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065c204  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065c254  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065c208  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065c070  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d428  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d534  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d42c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d5c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d630  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d5dc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d684  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d788  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d688  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d748  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d7a0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d764  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d880  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d9bc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065d89c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065da24  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065da48  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065da28  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065dae4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065db10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065daec  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065db4c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065dba4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065db50  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0065cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00661bf0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00661bf0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066208c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006620e0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00662094  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00661bf0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00663930  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00663930  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006639d0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00663ac8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00663b6c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00663930  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666580  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666580  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006666c4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666794  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066671c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006667a4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666734  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666794  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066676c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006667bc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666784  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666794  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006668d0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666580  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666b00  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666b00  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666b78  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666bf0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666bc4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666c00  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666be0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666bf0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666c8c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00666b00  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00669810  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00669810  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00669a74  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00669ac4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00669a78  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00669810  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ab6c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066abb0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ac04  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ac30  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b018  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b030  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b23c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b280  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b2d4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b300  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b698  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b6b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b8c4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066b8e0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066beb4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066becc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c000  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c070  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c024  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066bfd0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c2e8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c324  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c538  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c550  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c608  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c654  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c62c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c5e0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c720  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c790  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c744  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c6f0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c848  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c894  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c86c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c820  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c920  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c990  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c944  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066c8f0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ca50  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cac0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ca74  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ca20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cb80  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cbf0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cba4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cb50  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ccb0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cd20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ccd4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cc80  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cde0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ce50  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ce04  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cdb0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cf10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cf80  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cf34  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066cee0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d040  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d0b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d064  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d010  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d1e8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d224  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d438  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d450  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d708  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d720  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d838  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066d874  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066da88  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066daa0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066dbb8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066dbf4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066de08  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066de20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066df38  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066df74  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e1d4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e1ec  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e2f8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e334  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e594  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e5ac  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e6b8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e6f4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e908  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066e920  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ea38  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ea74  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ec88  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066eca0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066eed0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066eed0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ef40  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066efbc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066ef74  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0066eed0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00670514  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006705b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00670518  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006704d0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00670838  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00670cdc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00670d2c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00670d64  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006713f4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00671490  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006713f8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006713b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00671d94  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00671e30  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00671d98  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00671d50  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006724b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006724b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672564  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006725ac  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672588  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006724b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067292c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067295c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672934  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672900  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672c28  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672c5c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672c34  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00672bf0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067318c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006731dc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673830  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673830  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006738e4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067392c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673908  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673830  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673c3c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673c6c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673c44  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673c10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673eb8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673eec  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673ec4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00673e80  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067416c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006741bc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674520  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674520  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006745d4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067461c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006745f8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674520  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674a4c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674a7c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674a54  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674a20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674cc8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674cfc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674cd4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674c90  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674f6c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00674fbc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675544  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006755e0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675548  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675500  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675950  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675950  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675a04  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675a4c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675a28  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675950  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675cdc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675d0c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675ce4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675cb0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675f58  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675f8c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675f64  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00675f20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067614c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067619c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676790  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676790  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676844  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067688c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676868  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676790  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676b9c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676bcc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676ba4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676b70  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676e18  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676e4c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676e24  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00676de0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067710c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067715c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006776e4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677780  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006776e8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006776a0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677c10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677c10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677cc4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677d0c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677ce8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677c10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677f9c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677fcc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677fa4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00677f70  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00678218  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067824c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00678224  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006781e0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006782e8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00678328  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006782f4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006782c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067854c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067859c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00678a6c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00678b68  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00678a78  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00678a20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679040  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679040  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006790f4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067913c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679118  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679040  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067944c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067947c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679454  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679420  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006796c8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006796fc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006796d4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679690  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679a5c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00679aac  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a140  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a140  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a1f4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a23c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a218  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a140  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a66c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a69c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a674  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a640  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a8e8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a91c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a8f4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067a8b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067abdc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067ac2c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b304  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b3a0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b308  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b2c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b740  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b740  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b7f4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b83c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b818  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067b740  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067bc6c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067bc9c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067bc74  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067bc40  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067bee8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067bf1c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067bef4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067beb0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c18c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c1dc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c5c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c5c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c630  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c6ac  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c664  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067c5c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cba0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cba0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cc10  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cc8c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cc44  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cba0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cd60  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cd60  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cdd0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067ce04  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cde0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067ce14  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cde8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cd60  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cf20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067d020  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067cfac  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067ced0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e1c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e1c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e4c4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e520  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e4f0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e1c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e650  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e650  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e864  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e8d4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e880  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e8e4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e8b4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067e650  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067ea98  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0067eab4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692450  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692450  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006925e0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006926b4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006925e8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692450  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006928f0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006928f0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692968  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692a1c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006929b4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692a18  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006929f8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692a14  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692a00  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006928f0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692b30  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692b30  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692be0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692c48  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692bf4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692b30  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692cf4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693034  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692d40  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693048  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692ed0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0069303c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692f68  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693048  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692f74  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00692c80  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693114  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006931c8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693164  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006931c0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693190  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006931d0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006931a4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006930a0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693210  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693210  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006932b8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693358  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006932d4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 0069335c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006932dc  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693210  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006933a8  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006933ac  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006933b0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006933d0  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006933b4  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 00693210  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006a4f20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006a4f20  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006a4f3c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006a4f5c  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006a4f44  
+2026-11-03 21:40:15 ERROR (GccExceptionAnalyzer) Failed to disassemble at 006a4f20  
+2026-11-03 21:41:28 DEBUG (FidAnalyzer) No FID Libraries apply for language AARCH64:LE:64:v8A  
+2026-11-03 21:41:28 INFO  (PackedDatabaseCache) Packed database cache: C:\Users\Administrator\AppData\Local\ghidra\packed-db-cache  
+2026-11-03 21:41:28 DEBUG (PackedDatabaseCache) Using cached packed database: D:\Tools\ghidra\Ghidra\Features\Base\data\typeinfo\generic\generic_clib_64.gdt  
+2026-11-03 21:41:29 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f08b8: std::stringstream::vtable  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f08c0: std::stringstream::VTT  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f08d8: std::stringbuf::vtable  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f0970: std::ostringstream::vtable  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f0978: std::ostringstream::VTT  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f0a60: TiXmlDocument::vtable  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f0e08: std::overflow_error::vtable  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f0f08: __cxxabiv1::__class_type_info::vtable  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f0f10: __cxxabiv1::__si_class_type_info::vtable  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f1068: std::length_error::typeinfo  
+2026-11-03 21:41:37 WARN  (DemangledAddressTable) Unable to fully apply external demangled Address Table at 005f1088: std::length_error::vtable  
+2026-11-03 21:43:08 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    AARCH64 ELF PLT Thunks                     1.942 secs
+    ASCII Strings                              1.498 secs
+    Apply Data Archives                        1.089 secs
+    Basic Constant Reference Analyzer         34.082 secs
+    Call Convention ID                        56.357 secs
+    Call-Fixup Installer                       0.443 secs
+    Create Address Tables                      1.070 secs
+    Create Address Tables - One Time           0.568 secs
+    Create Function                            0.000 secs
+    DWARF                                      0.018 secs
+    Data Reference                             2.526 secs
+    Decompiler Switch Analysis                 4.280 secs
+    Demangler GNU                              7.924 secs
+    Disassemble                                0.000 secs
+    Disassemble Entry Points                  21.139 secs
+    Embedded Media                             0.128 secs
+    External Entry References                  0.147 secs
+    Function ID                                0.056 secs
+    Function Start Search                      0.551 secs
+    Function Start Search After Code           0.393 secs
+    Function Start Search After Data           0.220 secs
+    Function Start Search delayed - One Time   0.003 secs
+    GCC Exception Handlers                     4.146 secs
+    Non-Returning Functions - Discovered       2.880 secs
+    Non-Returning Functions - Known            0.039 secs
+    Reference                                  3.421 secs
+    Shared Return Calls                        1.627 secs
+    Stack                                     30.973 secs
+    Subroutine References                      1.364 secs
+-----------------------------------------------------
+     Total Time   178 secs
+-----------------------------------------------------
+  
+2026-11-03 21:43:08 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/nr5g_research/device_static/libmtk-ril.so  
+2026-11-03 21:43:08 INFO  (HeadlessAnalyzer) REPORT: Execute script: RadioFocus.java 'D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\nr5g_research\ril\pseudocode'   
+2026-11-03 21:43:10 INFO  (HeadlessAnalyzer) SCRIPT: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\nr5g_research\ril\scripts\RadioFocus.java  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f01a8, pcode error at 005f01a8: Unable to disassemble EXTERNAL block location: 005f01a8  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0350, pcode error at 005f0350: Unable to disassemble EXTERNAL block location: 005f0350  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0520, pcode error at 005f0520: Unable to disassemble EXTERNAL block location: 005f0520  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0870, pcode error at 005f0870: Unable to disassemble EXTERNAL block location: 005f0870  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0898, pcode error at 005f0898: Unable to disassemble EXTERNAL block location: 005f0898  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f08a0, pcode error at 005f08a0: Unable to disassemble EXTERNAL block location: 005f08a0  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f09f0, pcode error at 005f09f0: Unable to disassemble EXTERNAL block location: 005f09f0  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f09f8, pcode error at 005f09f8: Unable to disassemble EXTERNAL block location: 005f09f8  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0a00, pcode error at 005f0a00: Unable to disassemble EXTERNAL block location: 005f0a00  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0aa0, pcode error at 005f0aa0: Unable to disassemble EXTERNAL block location: 005f0aa0  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0b28, pcode error at 005f0b28: Unable to disassemble EXTERNAL block location: 005f0b28  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0b30, pcode error at 005f0b30: Unable to disassemble EXTERNAL block location: 005f0b30  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0b40, pcode error at 005f0b40: Unable to disassemble EXTERNAL block location: 005f0b40  
+2026-11-03 21:43:19 WARN  (DecompileCallback) Decompiling 005f0d60, pcode error at 005f0d60: Unable to disassemble EXTERNAL block location: 005f0d60  
+2026-11-03 21:43:19 INFO  (GhidraScript) RadioFocus.java> NR FOCUS functions=443 exports=443  
+2026-11-03 21:43:19 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/nr5g_research/device_static/libmtk-ril.so  
+2026-11-03 21:43:19 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/nr5g_research/device_static/libmtk-ril.so  
+2026-11-03 21:43:19 INFO  (LocalFileSystem) /libmtk-ril.so: file created (Administrator)  
+2026-11-03 21:43:19 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /libmtk-ril.so (RadioNR:/libmtk-ril.so)  
+2026-11-03 21:43:19 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  

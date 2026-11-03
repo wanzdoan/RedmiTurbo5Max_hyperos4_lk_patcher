@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string name="5g_icon_configuration_string">connected_mmwave:5G_Plus,connected:5G,connected_rrc_idle:5G,not_restricted_rrc_idle:5G</string>
+    <string name="5g_icon_display_grace_period_string">connected_mmwave,connected,31;connected_mmwave,legacy,31;connected,legacy,31;connected_mmwave,not_restricted_rrc_con,31;connected,not_restricted_rrc_con,31;not_restricted_rrc_idle,not_restricted_rrc_con,15</string>
+    <int name="nr_advanced_threshold_bandwidth_khz_int" value="100000" />
+    <int-array name="additional_nr_advanced_bands_int_array" num="3">
+        <item value="77"/>
+        <item value="78"/>
+        <item value="79"/>
+    </int-array>
+    <boolean name="nr_advanced_requires_single_cc_above_bandwidth_threshold" value="true"/>
+    <boolean name="enabledMMS" value="false"/>
+    <int name="maxMessageSize" value="2097152"/>
+    <int name="maxImageHeight" value="1944"/>
+    <int name="maxImageWidth" value="2592"/>
+    <boolean name="nr_timers_reset_if_non_endc_and_rrc_idle_bool" value="true"/>
+    <!-- MIUI ADD: GPS_SuplDefault -->
+    <boolean name="emergency_call_establish_emergency_bearer_bool" value="true"/>
+    <!-- END GPS_SuplDefault -->
+    <string-array name="carrier_certificate_string_array" num="1">
+        <item value="99F04B13AA9672BD6292921D88365D9C1953BD6078E4BFAD344D02CDCFACF17E:jp.co.rakuten.mobile.ecare"/>
+    </string-array>
+    <string-array name="non_roaming_operator_string_array" num="3">
+        <item value="440091"/>
+        <item value="440092"/>
+        <item value="440093"/>
+    </string-array>
+    <!-- MIUI ADD: GPS_RakutenReq -->
+    <!-- Configure mobile network MTU. Carrier specific value is set here.-->
+    <string name="gps.supl_host">supl.rm-n.jp</string>
+    <string name="gps.supl_port">7275</string>
+    <string name="gps.supl_ver">0x20000</string>
+    <string name="gps.supl_mode">1</string>
+    <string name="gps.supl_es">1</string>
+    <string name="gps.lpp_profile">3</string>
+    <string name="gps.use_emergency_pdn_for_emergency_supl">1</string>
+    <string name="gps.a_glonass_pos_protocol_select">0</string>
+    <string name="gps.gps_lock">3</string>
+    <!-- Values for GPS configuration -->
+    <!-- END GPS_RakutenReq -->
+</carrier_config>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+    <!-- MIUI ADD: GPS_SuplDefault -->
+    <string name="gps.supl_host">supl.bd-caict.com</string>
+    <string name="gps.supl_port">7275</string>
+    <!-- END GPS_SuplDefault -->
+</carrier_config>
+

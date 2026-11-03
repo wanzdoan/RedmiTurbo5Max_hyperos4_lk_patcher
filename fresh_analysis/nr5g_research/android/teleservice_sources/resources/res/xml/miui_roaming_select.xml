@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="global_roaming_key">
+    <com.android.phone.settings.RestrictedPreference
+        android:title="@string/international_roaming_setting"
+        android:summary="@string/roaming_disable">
+        <intent
+            android:targetPackage="com.miui.securitycenter"
+            android:targetClass="com.miui.networkassistant.ui.activity.InternationalRoamingSettingActivity"/>
+    </com.android.phone.settings.RestrictedPreference>
+    <Preference
+        android:title="@string/roaming_user_package_title_kr"
+        android:key="roaming_user_package"
+        android:summary="@string/roaming_user_package_summary_kr"/>
+    <Preference
+        android:title="@string/roaming_customer_service_title_kr"
+        android:key="roaming_customer_service"
+        android:summary="@string/roaming_customer_service_summary_kr"/>
+    <Preference
+        android:persistent="false"
+        android:title="@string/reset_roaming_title"
+        android:key="button_reset_roaming_key"
+        android:defaultValue="true">
+        <intent
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.settings.MiuiRoamingResetSettings"/>
+    </Preference>
+</PreferenceScreen>

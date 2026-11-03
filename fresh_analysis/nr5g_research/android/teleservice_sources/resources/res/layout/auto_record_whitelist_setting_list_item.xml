@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:id="@+id/backup_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.ListView.Item.DoubleLine">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Miuix.AppCompat.TextAppearance.Widget.List"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textDirection="ltr"
+            style="@style/Miuix.AppCompat.TextAppearance.List.Secondary"/>
+    </LinearLayout>
+    <CheckBox
+        android:layout_gravity="center"
+        android:id="@android:id/checkbox"
+        android:focusable="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

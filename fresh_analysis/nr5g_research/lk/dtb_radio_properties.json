@@ -1,0 +1,2424 @@
+{
+  "counts": {
+    "h4_original_09_lk_main_dtb.bin": {
+      "entries": 1,
+      "properties": 13078
+    },
+    "h4_original_12_lk_dtbo.bin": {
+      "entries": 1,
+      "properties": 2425
+    }
+  },
+  "matches": [
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-cache-memory/compatible",
+      "hex": "6d6564696174656b2c64706d6169662d726573762d63616368652d6d656d00",
+      "strings": [
+        "mediatek,dpmaif-resv-cache-mem"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-cache-memory/size",
+      "hex": "0000000000190000",
+      "cells_be": [
+        "0x0",
+        "0x190000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-cache-memory/alignment",
+      "hex": "0000000000010000",
+      "cells_be": [
+        "0x0",
+        "0x10000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-cache-memory/alloc-ranges",
+      "hex": "000000004000000000000000f0000000",
+      "cells_be": [
+        "0x0",
+        "0x40000000",
+        "0x0",
+        "0xf0000000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-cache-memory/phandle",
+      "hex": "00000269",
+      "cells_be": [
+        "0x269"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-nocache-memory/compatible",
+      "hex": "6d6564696174656b2c64706d6169662d726573762d6e6f63616368652d6d656d00",
+      "strings": [
+        "mediatek,dpmaif-resv-nocache-mem"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-nocache-memory/no-map",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-nocache-memory/size",
+      "hex": "0000000000050000",
+      "cells_be": [
+        "0x0",
+        "0x50000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-nocache-memory/alignment",
+      "hex": "0000000000010000",
+      "cells_be": [
+        "0x0",
+        "0x10000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-nocache-memory/alloc-ranges",
+      "hex": "000000004000000000000000f0000000",
+      "cells_be": [
+        "0x0",
+        "0x40000000",
+        "0x0",
+        "0xf0000000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/reserved-memory/ccci-dpmaif-nocache-memory/phandle",
+      "hex": "0000026a",
+      "cells_be": [
+        "0x26a"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/regulator-compatible",
+      "hex": "565352414d5f4d4f44454d00",
+      "strings": [
+        "VSRAM_MODEM"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/regulator-name",
+      "hex": "6d74363336335f767372616d5f6d6f64656d00",
+      "strings": [
+        "mt6363_vsram_modem"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/regulator-min-microvolt",
+      "hex": "00061a80",
+      "cells_be": [
+        "0x61a80"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/regulator-max-microvolt",
+      "hex": "00123716",
+      "cells_be": [
+        "0x123716"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/regulator-enable-ramp-delay",
+      "hex": "000000b4",
+      "cells_be": [
+        "0xb4"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/regulator-allowed-modes",
+      "hex": "0000000000000002",
+      "cells_be": [
+        "0x0",
+        "0x2"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/regulator-always-on",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/pmic@4/regulators/vsram-modem/phandle",
+      "hex": "0000028d",
+      "cells_be": [
+        "0x28d"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/mt6379@e/chg/nr-port",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/spmi@1c01a000/mt6379@e/tcpc/pd-data/bat,nr",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/met/sspm-rts-header/node-74",
+      "hex": "5353504d5f53504d5f4442475f5f5057525f414354007363702c616473702c76656e63302c76656e63312c617564696f2c63616d2c696d672c6d6d696e6672612c007373706d2c64697370302c64697370312c6f766c302c6f766c312c6d64302c6d64312c636f6e6e00",
+      "strings": [
+        "SSPM_SPM_DBG__PWR_ACT",
+        "scp,adsp,venc0,venc1,audio,cam,img,mminfra,",
+        "sspm,disp0,disp1,ovl0,ovl1,md0,md1,conn"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/met/sspm-rts-header/node-82",
+      "hex": "5353504d5f53504d5f5245535f5f32364d5f52455100686672705f6f6e6c792c6d64702c646973702c76656e632c766465632c696d672c63616d2c6363752c6d6d696e6672612c636f6e6e5f737263636c6b656e622c0063675f636865636b2c70636965312c73737573622c656d697379732c636b7379732c68776363662c6d63752c7370755f6877726f742c7370755f6973652c007373727379732c756172745f6875622c64706d2c636369662c737263636c6b656e692c696e6672617379732c706572697379732c64706d6169662c70636965302c006d6d5f70726f632c7566732c67707565622c6d6375706d2c6170752c617564696f5f6473702c7363702c7373706d2c636f6e6e2c6d64322c6d64312c6d642c0061706966725f6d656d2c636b7379735f312c636b7379735f322c617564696f00",
+      "strings": [
+        "SSPM_SPM_RES__26M_REQ",
+        "hfrp_only,mdp,disp,venc,vdec,img,cam,ccu,mminfra,conn_srcclkenb,",
+        "cg_check,pcie1,ssusb,emisys,cksys,hwccf,mcu,spu_hwrot,spu_ise,",
+        "ssrsys,uart_hub,dpm,ccif,srcclkeni,infrasys,perisys,dpmaif,pcie0,",
+        "mm_proc,ufs,gpueb,mcupm,apu,audio_dsp,scp,sspm,conn,md2,md1,md,",
+        "apifr_mem,cksys_1,cksys_2,audio"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/rt-pd-manager/nr-port",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/pd-adapter/nr-port",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/mtk-ctd/nr-port",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/mminfra-debug@30070000/mm-dbg-out-sel-nr",
+      "hex": "000000230000000400000000",
+      "cells_be": [
+        "0x23",
+        "0x4",
+        "0x0"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-off/pins-cmd1-dat/pinmux",
+      "hex": "0000f900",
+      "cells_be": [
+        "0xf900"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-off/pins-cmd1-dat/output-low",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-on/pins-cmd1-dat/pinmux",
+      "hex": "0000f900",
+      "cells_be": [
+        "0xf900"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-on/pins-cmd1-dat/output-high",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-init/pins-cmd1-dat/pinmux",
+      "hex": "0000f600",
+      "cells_be": [
+        "0xf600"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-init/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-init/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-on/pins-cmd1-dat/pinmux",
+      "hex": "0000f601",
+      "cells_be": [
+        "0xf601"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-on/pins-cmd1-dat/output-low",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-off/pins-cmd1-dat/pinmux",
+      "hex": "0000f600",
+      "cells_be": [
+        "0xf600"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/wf-rst-pta-uart-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-gpio-init/pins-cmd1-dat/pinmux",
+      "hex": "0000ed00",
+      "cells_be": [
+        "0xed00"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-gpio-init/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-gpio-init/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-gpio-pre-on/pins-cmd1-dat/pinmux",
+      "hex": "0000ed00",
+      "cells_be": [
+        "0xed00"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-gpio-pre-on/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-gpio-pre-on/pins-cmd1-dat/bias-pull-up",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-uart-tx-aux/pins-cmd1-dat/pinmux",
+      "hex": "0000ed01",
+      "cells_be": [
+        "0xed01"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-combo-uart-rx-aux/pins-cmd1-dat/pinmux",
+      "hex": "0000ee01",
+      "cells_be": [
+        "0xee01"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-on/pins-cmd1-dat/pinmux",
+      "hex": "0000f800",
+      "cells_be": [
+        "0xf800"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-on/pins-cmd1-dat/output-high",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-off/pins-cmd1-dat/pinmux",
+      "hex": "0000f800",
+      "cells_be": [
+        "0xf800"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-off/pins-cmd1-dat/output-low",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-find-my-phone-high/pins-cmd1-dat/pinmux",
+      "hex": "0000f400",
+      "cells_be": [
+        "0xf400"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-find-my-phone-high/pins-cmd1-dat/output-high",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-find-my-phone-low/pins-cmd1-dat/pinmux",
+      "hex": "0000f400",
+      "cells_be": [
+        "0xf400"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-find-my-phone-low/pins-cmd1-dat/output-low",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-on-7xxx/pins-cmd1-dat/pinmux",
+      "hex": "00008500",
+      "cells_be": [
+        "0x8500"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-on-7xxx/pins-cmd1-dat/output-high",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-off-7xxx/pins-cmd1-dat/pinmux",
+      "hex": "00008500",
+      "cells_be": [
+        "0x8500"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/bt-rst-off-7xxx/pins-cmd1-dat/output-low",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/key-default/pins-cmd1-dat/pinmux",
+      "hex": "00003c00",
+      "strings": [
+        "",
+        "",
+        "<"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/key-default/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/key-default/pins-cmd1-dat/bias-pull-up",
+      "hex": "00000065",
+      "cells_be": [
+        "0x65"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-clk-mosi-off/pins-cmd1-dat/pinmux",
+      "hex": "00003600",
+      "strings": [
+        "",
+        "",
+        "6"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-clk-mosi-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-clk-mosi-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-clk-mosi-on/pins-cmd1-dat/pinmux",
+      "hex": "00003601",
+      "cells_be": [
+        "0x3601"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-clk-mosi-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-clk-mosi-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-off/pins-cmd1-dat/pinmux",
+      "hex": "00003800",
+      "strings": [
+        "",
+        "",
+        "8"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-on/pins-cmd1-dat/pinmux",
+      "hex": "00003801",
+      "cells_be": [
+        "0x3801"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-ch34-off/pins-cmd1-dat/pinmux",
+      "hex": "00003900",
+      "strings": [
+        "",
+        "",
+        "9"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-ch34-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-ch34-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-ch34-on/pins-cmd1-dat/pinmux",
+      "hex": "00003901",
+      "cells_be": [
+        "0x3901"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-ch34-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-mosi-ch34-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso-only-off/pins-cmd1-dat/pinmux",
+      "hex": "00003800",
+      "strings": [
+        "",
+        "",
+        "8"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso-only-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso-only-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso-only-on/pins-cmd1-dat/pinmux",
+      "hex": "00003800",
+      "strings": [
+        "",
+        "",
+        "8"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso-only-on/pins-cmd1-dat/output-low",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso0-off/pins-cmd1-dat/pinmux",
+      "hex": "00003a00",
+      "strings": [
+        "",
+        "",
+        ":"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso0-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso0-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso0-on/pins-cmd1-dat/pinmux",
+      "hex": "00003a01",
+      "cells_be": [
+        "0x3a01"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso0-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso0-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso1-off/pins-cmd1-dat/pinmux",
+      "hex": "00003b00",
+      "strings": [
+        "",
+        "",
+        ";"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso1-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso1-off/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso1-on/pins-cmd1-dat/pinmux",
+      "hex": "00003b01",
+      "cells_be": [
+        "0x3b01"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso1-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-dat-miso1-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin0-off/pins-cmd1-dat/pinmux",
+      "hex": "0000e900",
+      "cells_be": [
+        "0xe900"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin0-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin0-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin0-on/pins-cmd1-dat/pinmux",
+      "hex": "0000e901",
+      "cells_be": [
+        "0xe901"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin0-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin0-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout0-off/pins-cmd1-dat/pinmux",
+      "hex": "0000ec00",
+      "cells_be": [
+        "0xec00"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout0-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout0-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout0-on/pins-cmd1-dat/pinmux",
+      "hex": "0000ec01",
+      "cells_be": [
+        "0xec01"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout0-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout0-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin4-off/pins-cmd1-dat/pinmux",
+      "hex": "00005f00",
+      "strings": [
+        "",
+        "",
+        "_"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin4-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin4-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin4-on/pins-cmd1-dat/pinmux",
+      "hex": "00005f02",
+      "cells_be": [
+        "0x5f02"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin4-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin4-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout4-off/pins-cmd1-dat/pinmux",
+      "hex": "00006200",
+      "strings": [
+        "",
+        "",
+        "b"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout4-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout4-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout4-on/pins-cmd1-dat/pinmux",
+      "hex": "00006202",
+      "cells_be": [
+        "0x6202"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout4-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout4-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin5-off/pins-cmd1-dat/pinmux",
+      "hex": "00005700",
+      "strings": [
+        "",
+        "",
+        "W"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin5-off/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin5-off/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin5-on/pins-cmd1-dat/pinmux",
+      "hex": "00005704",
+      "cells_be": [
+        "0x5704"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin5-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin5-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout5-off/pins-cmd1-dat/pinmux",
+      "hex": "00005100",
+      "strings": [
+        "",
+        "",
+        "Q"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout5-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout5-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout5-on/pins-cmd1-dat/pinmux",
+      "hex": "00005104",
+      "cells_be": [
+        "0x5104"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout5-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout5-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin6-off/pins-cmd1-dat/pinmux",
+      "hex": "00002800",
+      "strings": [
+        "",
+        "",
+        "("
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin6-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin6-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin6-on/pins-cmd1-dat/pinmux",
+      "hex": "00002801",
+      "cells_be": [
+        "0x2801"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin6-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sin6-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout6-off/pins-cmd1-dat/pinmux",
+      "hex": "00002b00",
+      "strings": [
+        "",
+        "",
+        "+"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout6-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout6-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout6-on/pins-cmd1-dat/pinmux",
+      "hex": "00002b01",
+      "cells_be": [
+        "0x2b01"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout6-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-i2sout6-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic-off/pins-cmd1-dat/pinmux",
+      "hex": "0000b200",
+      "cells_be": [
+        "0xb200"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic-on/pins-cmd1-dat/pinmux",
+      "hex": "0000b201",
+      "cells_be": [
+        "0xb201"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic34-off/pins-cmd1-dat/pinmux",
+      "hex": "00001700",
+      "cells_be": [
+        "0x1700"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic34-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic34-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic34-on/pins-cmd1-dat/pinmux",
+      "hex": "00001704",
+      "cells_be": [
+        "0x1704"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic34-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic34-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic56-off/pins-cmd1-dat/pinmux",
+      "hex": "00001900",
+      "cells_be": [
+        "0x1900"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/aud-gpio-ap-dmic56-on/pins-cmd1-dat/pinmux",
+      "hex": "00001900",
+      "cells_be": [
+        "0x1900"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-dat-off/pins-cmd1-dat/pinmux",
+      "hex": "0000b300",
+      "cells_be": [
+        "0xb300"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-dat-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-dat-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-dat-on/pins-cmd1-dat/pinmux",
+      "hex": "0000b302",
+      "cells_be": [
+        "0xb302"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-dat-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-dat-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-clk-off/pins-cmd1-dat/pinmux",
+      "hex": "0000b200",
+      "cells_be": [
+        "0xb200"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-clk-off/pins-cmd1-dat/input-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-clk-off/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-clk-on/pins-cmd1-dat/pinmux",
+      "hex": "0000b202",
+      "cells_be": [
+        "0xb202"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-clk-on/pins-cmd1-dat/input-schmitt-enable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/vow-scp-dmic-clk-on/pins-cmd1-dat/bias-disable",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/connsys-combo-gpio-init/pins-cmd1-dat/pinmux",
+      "hex": "0000ef00",
+      "cells_be": [
+        "0xef00"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/connsys-combo-gpio-init/pins-cmd1-dat/slew-rate",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/connsys-combo-gpio-init/pins-cmd1-dat/bias-pull-down",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/connsys-combo-gpio-pre-on/pins-cmd1-dat/pinmux",
+      "hex": "0000ef00",
+      "cells_be": [
+        "0xef00"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/connsys-combo-gpio-pre-on/pins-cmd1-dat/slew-rate",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/connsys-combo-gpio-pre-on/pins-cmd1-dat/bias-pull-up",
+      "hex": "",
+      "cells_be": []
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/pinctrl@1002d000/connsys-combo-gpio-on/pins-cmd1-dat/pinmux",
+      "hex": "0000ef01",
+      "cells_be": [
+        "0xef01"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/dfd-mcu/nr-max-core",
+      "hex": "00000008",
+      "cells_be": [
+        "0x8"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/dfd-mcu/nr-big-core",
+      "hex": "00000004",
+      "cells_be": [
+        "0x4"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/dfd-mcu/nr-rs-entry-little",
+      "hex": "00000010",
+      "cells_be": [
+        "0x10"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/dfd-mcu/nr-rs-entry-big",
+      "hex": "00000020",
+      "cells_be": [
+        "0x20"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/dfd-mcu/nr-header-row",
+      "hex": "00000004",
+      "cells_be": [
+        "0x4"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/ccifdriver@142c0000/compatible",
+      "hex": "6d6564696174656b2c636363695f6363696600",
+      "strings": [
+        "mediatek,ccci_ccif"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/compatible",
+      "hex": "6d6564696174656b2c6d6464726976657200",
+      "strings": [
+        "mediatek,mddriver"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,mdhif-type",
+      "hex": "00000006",
+      "cells_be": [
+        "0x6"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,ap-plat-info",
+      "hex": "00001b4f",
+      "cells_be": [
+        "0x1b4f"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,md-generation",
+      "hex": "0000189b",
+      "cells_be": [
+        "0x189b"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,md-sub-version",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,offset-epon-md1",
+      "hex": "0000006400000006",
+      "cells_be": [
+        "0x64",
+        "0x6"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,cldma-capability",
+      "hex": "0000000a",
+      "cells_be": [
+        "0xa"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,boot-status-value",
+      "hex": "544300f1",
+      "cells_be": [
+        "0x544300f1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,power-flow-config",
+      "hex": "00000010",
+      "cells_be": [
+        "0x10"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/mediatek,srclken-o1",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/reg",
+      "hex": "000000000d1800000000000000001400",
+      "cells_be": [
+        "0x0",
+        "0xd180000",
+        "0x0",
+        "0x1400"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/interrupts",
+      "hex": "000000000000016d00000004000000000000000000000101000000040000000000000000000001020000000400000000",
+      "cells_be": [
+        "0x0",
+        "0x16d",
+        "0x4",
+        "0x0",
+        "0x0",
+        "0x101",
+        "0x4",
+        "0x0",
+        "0x0",
+        "0x102",
+        "0x4",
+        "0x0"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/power-domains",
+      "hex": "0000002600000000",
+      "strings": [
+        "",
+        "",
+        "",
+        "&"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/ccci-infracfg",
+      "hex": "00000149",
+      "cells_be": [
+        "0x149"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/ccci-topckgen",
+      "hex": "00000032",
+      "cells_be": [
+        "0x32"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/md-vmodem-supply",
+      "hex": "0000018a",
+      "cells_be": [
+        "0x18a"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/md-vmodem",
+      "hex": "000c3500000c3500",
+      "cells_be": [
+        "0xc3500",
+        "0xc3500"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/md-vsram-supply",
+      "hex": "0000018b",
+      "cells_be": [
+        "0x18b"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/md-vsram",
+      "hex": "000c3500000c3500",
+      "cells_be": [
+        "0xc3500",
+        "0xc3500"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/md-vdigrf-supply",
+      "hex": "0000018c",
+      "cells_be": [
+        "0x18c"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/md-vdigrf",
+      "hex": "000aae60000aae60",
+      "cells_be": [
+        "0xaae60",
+        "0xaae60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/mddriver@d180000/phandle",
+      "hex": "000003f8",
+      "cells_be": [
+        "0x3f8"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/ccci-scp@142c4000/compatible",
+      "hex": "6d6564696174656b2c636363695f6d645f73637000",
+      "strings": [
+        "mediatek,ccci_md_scp"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/ccci-scp@142c4000/reg",
+      "hex": "00000000142c4000000000000000100000000000142c50000000000000001000",
+      "cells_be": [
+        "0x0",
+        "0x142c4000",
+        "0x0",
+        "0x1000",
+        "0x0",
+        "0x142c5000",
+        "0x0",
+        "0x1000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/ccci-scp@142c4000/mediatek,scp-clk-free-run",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/soc/ccci-scp@142c4000/phandle",
+      "hex": "000003f9",
+      "cells_be": [
+        "0x3f9"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/MD1-SIM1-HOT-PLUG-EINT/phandle",
+      "hex": "00000468",
+      "cells_be": [
+        "0x468"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/MD1-SIM2-HOT-PLUG-EINT/phandle",
+      "hex": "00000469",
+      "cells_be": [
+        "0x469"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/srclken-rc@1c011000/md1/sub-id",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-qm42655/band-path-wifi",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-qm42655/band-path-bt",
+      "hex": "00000050",
+      "cells_be": [
+        "0x50"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-qm42655/band-path-wifi",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-qm42655/band-path-bt",
+      "hex": "00000051",
+      "cells_be": [
+        "0x51"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-sky55208/band-path-wifi",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-sky55208/band-path-bt",
+      "hex": "00000050",
+      "cells_be": [
+        "0x50"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-sky55208/band-path-wifi",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-sky55208/band-path-bt",
+      "hex": "00000051",
+      "cells_be": [
+        "0x51"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-vc536421/band-path-wifi",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-vc536421/band-path-bt",
+      "hex": "00000050",
+      "cells_be": [
+        "0x50"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-vc536421/band-path-wifi",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-vc536421/band-path-bt",
+      "hex": "00000051",
+      "cells_be": [
+        "0x51"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-qm45655/band-path-wifi",
+      "hex": "00000010",
+      "cells_be": [
+        "0x10"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-qm45655/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-qm45655/band-path-wifi",
+      "hex": "00000011",
+      "cells_be": [
+        "0x11"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-qm45655/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-sky55714/band-path-wifi",
+      "hex": "00000010",
+      "cells_be": [
+        "0x10"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-sky55714/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-sky55714/band-path-wifi",
+      "hex": "00000011",
+      "cells_be": [
+        "0x11"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-sky55714/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-vc576821/band-path-wifi",
+      "hex": "00000010",
+      "cells_be": [
+        "0x10"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-vc576821/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-vc576821/band-path-wifi",
+      "hex": "00000011",
+      "cells_be": [
+        "0x11"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-vc576821/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-qm45655/band-path-wifi",
+      "hex": "00000012",
+      "cells_be": [
+        "0x12"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-qm45655/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-sky55714/band-path-wifi",
+      "hex": "00000012",
+      "cells_be": [
+        "0x12"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-sky55714/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-sky85732/band-path-wifi",
+      "hex": "00000012",
+      "cells_be": [
+        "0x12"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-sky85732/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-vc576821/band-path-wifi",
+      "hex": "00000012",
+      "cells_be": [
+        "0x12"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-vc576821/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-qm45655/band-path-wifi",
+      "hex": "00000013",
+      "cells_be": [
+        "0x13"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-qm45655/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-sky55714/band-path-wifi",
+      "hex": "00000013",
+      "cells_be": [
+        "0x13"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-sky55714/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-bt1-mxd7282/band-path-wifi",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-bt1-mxd7282/band-path-bt",
+      "hex": "00000051",
+      "cells_be": [
+        "0x51"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-qm42195/band-path-wifi",
+      "hex": "00000000",
+      "strings": [
+        ""
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf0-bt0-qm42195/band-path-bt",
+      "hex": "00000050",
+      "cells_be": [
+        "0x50"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-qm42195/band-path-wifi",
+      "hex": "00000001",
+      "cells_be": [
+        "0x1"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/g-wf1-bt1-qm42195/band-path-bt",
+      "hex": "00000051",
+      "cells_be": [
+        "0x51"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-qm45639/band-path-wifi",
+      "hex": "00000010",
+      "cells_be": [
+        "0x10"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-qm45639/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-qm45639/band-path-wifi",
+      "hex": "00000011",
+      "cells_be": [
+        "0x11"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-qm45639/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-qm45197/band-path-wifi",
+      "hex": "00000010",
+      "cells_be": [
+        "0x10"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf0-qm45197/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-qm45197/band-path-wifi",
+      "hex": "00000011",
+      "cells_be": [
+        "0x11"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf1-qm45197/band-path-bt",
+      "hex": "000000ff",
+      "cells_be": [
+        "0xff"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-qm45639/band-path-wifi",
+      "hex": "00000012",
+      "cells_be": [
+        "0x12"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-qm45639/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-qm45197/band-path-wifi",
+      "hex": "00000012",
+      "cells_be": [
+        "0x12"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf2-bt0-qm45197/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-qm45639/band-path-wifi",
+      "hex": "00000013",
+      "cells_be": [
+        "0x13"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-qm45639/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-qm45197/band-path-wifi",
+      "hex": "00000013",
+      "cells_be": [
+        "0x13"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/connfem/layouts/a-wf12-emlsr-bt0-qm45197/band-path-bt",
+      "hex": "00000060",
+      "cells_be": [
+        "0x60"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/__symbols__/dpmaif_resv_cache_mem",
+      "hex": "2f72657365727665642d6d656d6f72792f636363692d64706d6169662d63616368652d6d656d6f727900",
+      "strings": [
+        "/reserved-memory/ccci-dpmaif-cache-memory"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/__symbols__/dpmaif_resv_nocache_mem",
+      "hex": "2f72657365727665642d6d656d6f72792f636363692d64706d6169662d6e6f63616368652d6d656d6f727900",
+      "strings": [
+        "/reserved-memory/ccci-dpmaif-nocache-memory"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/__symbols__/mt6363_vsram_modem",
+      "hex": "2f73706d694031633031613030302f706d696340342f726567756c61746f72732f767372616d2d6d6f64656d00",
+      "strings": [
+        "/spmi@1c01a000/pmic@4/regulators/vsram-modem"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/__symbols__/mddriver",
+      "hex": "2f736f632f6d64647269766572406431383030303000",
+      "strings": [
+        "/soc/mddriver@d180000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/__symbols__/ccci_scp",
+      "hex": "2f736f632f636363692d73637040313432633430303000",
+      "strings": [
+        "/soc/ccci-scp@142c4000"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/__symbols__/md1_sim1_hot_plug_eint",
+      "hex": "2f4d44312d53494d312d484f542d504c55472d45494e5400",
+      "strings": [
+        "/MD1-SIM1-HOT-PLUG-EINT"
+      ]
+    },
+    {
+      "artifact": "h4_original_09_lk_main_dtb.bin",
+      "entry": "main",
+      "path": "/__symbols__/md1_sim2_hot_plug_eint",
+      "hex": "2f4d44312d53494d322d484f542d504c55472d45494e5400",
+      "strings": [
+        "/MD1-SIM2-HOT-PLUG-EINT"
+      ]
+    },
+    {
+      "artifact": "h4_original_12_lk_dtbo.bin",
+      "entry": "(0, 0, 0, [0, 0, 0, 0])",
+      "path": "/fragment@100/__overlay__/compatible",
+      "hex": "6d6564696174656b2c6d64315f73696d315f686f745f706c75675f65696e742d65696e7400",
+      "strings": [
+        "mediatek,md1_sim1_hot_plug_eint-eint"
+      ]
+    },
+    {
+      "artifact": "h4_original_12_lk_dtbo.bin",
+      "entry": "(0, 0, 0, [0, 0, 0, 0])",
+      "path": "/__fixups__/md1_sim1_hot_plug_eint",
+      "hex": "2f667261676d656e74403130303a7461726765743a3000",
+      "strings": [
+        "/fragment@100:target:0"
+      ]
+    }
+  ]
+}

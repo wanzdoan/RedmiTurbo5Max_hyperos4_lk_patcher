@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <size android:height="@dimen/miuix_appcompat_calendar_date_time_picker_panel_header_date_vertical_padding"/>
+    <solid android:color="?attr/colorSurfaceContainerHigh"/>
+</shape>

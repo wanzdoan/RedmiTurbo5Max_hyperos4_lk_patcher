@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mtn_simlock_icon_margin_top"
+        android:src="@drawable/ic_mtn_simlock"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:textSize="@dimen/mtn_simlock_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mtn_simlock_text_margin_top"
+        android:text="@string/mtn_simlock_text_tip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/mtn_simlock_text_layout_margin"
+        android:layout_marginEnd="@dimen/mtn_simlock_text_layout_margin"/>
+    <Button
+        android:id="@+id/mtn_emergency_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mtn_simlock_emergency_margin_bottom"
+        android:text="@string/mtn_simlock_emergency"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/mtn_simlock_emergency_margin"
+        android:layout_marginEnd="@dimen/mtn_simlock_emergency_margin"
+        style="@style/MtnSimLock"/>
+</RelativeLayout>

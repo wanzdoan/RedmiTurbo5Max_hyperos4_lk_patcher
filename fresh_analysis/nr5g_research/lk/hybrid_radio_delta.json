@@ -1,0 +1,175 @@
+{
+  "lte_security_routines": [
+    {
+      "function": "LTE_pubkey_hash_handoff",
+      "h3_payload_offset": "0x67634",
+      "h4_payload_offset": "0x67ac0",
+      "size": 552,
+      "normalized_streams_equal": true,
+      "normalization": "PCrelative/call addresses and ADD/load/store immediates masked; heuristic not complete equivalence proof",
+      "changed_instructions": [
+        {
+          "h3": "0x6764c",
+          "h4": "0x67ad8",
+          "old": "adrp x0, #0x92000",
+          "new": "adrp x0, #0x93000"
+        },
+        {
+          "h3": "0x67650",
+          "h4": "0x67adc",
+          "old": "add x0, x0, #0xe02",
+          "new": "add x0, x0, #0xed1"
+        },
+        {
+          "h3": "0x6766c",
+          "h4": "0x67af8",
+          "old": "adrp x10, #0x1b7000",
+          "new": "adrp x10, #0x1b8000"
+        },
+        {
+          "h3": "0x67670",
+          "h4": "0x67afc",
+          "old": "add x10, x10, #0x87c",
+          "new": "add x10, x10, #0x8bc"
+        },
+        {
+          "h3": "0x67724",
+          "h4": "0x67bb0",
+          "old": "adrp x20, #0x8d000",
+          "new": "adrp x20, #0x8e000"
+        },
+        {
+          "h3": "0x67728",
+          "h4": "0x67bb4",
+          "old": "add x20, x20, #0x66f",
+          "new": "add x20, x20, #0x6b5"
+        },
+        {
+          "h3": "0x67770",
+          "h4": "0x67bfc",
+          "old": "bl #0xe68c",
+          "new": "bl #0xe6ac"
+        },
+        {
+          "h3": "0x67798",
+          "h4": "0x67c24",
+          "old": "bl #0xe68c",
+          "new": "bl #0xe6ac"
+        },
+        {
+          "h3": "0x677c0",
+          "h4": "0x67c4c",
+          "old": "bl #0xe68c",
+          "new": "bl #0xe6ac"
+        },
+        {
+          "h3": "0x677e8",
+          "h4": "0x67c74",
+          "old": "bl #0xe68c",
+          "new": "bl #0xe6ac"
+        },
+        {
+          "h3": "0x677ec",
+          "h4": "0x67c78",
+          "old": "adrp x0, #0x9c000",
+          "new": "adrp x0, #0x9e000"
+        },
+        {
+          "h3": "0x677f0",
+          "h4": "0x67c7c",
+          "old": "add x0, x0, #0xf3b",
+          "new": "add x0, x0, #0x4e"
+        },
+        {
+          "h3": "0x677f8",
+          "h4": "0x67c84",
+          "old": "adrp x0, #0x9c000",
+          "new": "adrp x0, #0x9d000"
+        },
+        {
+          "h3": "0x677fc",
+          "h4": "0x67c88",
+          "old": "add x0, x0, #0x4f",
+          "new": "add x0, x0, #0x14e"
+        },
+        {
+          "h3": "0x67828",
+          "h4": "0x67cb4",
+          "old": "adrp x8, #0x1b6000",
+          "new": "adrp x8, #0x1b7000"
+        },
+        {
+          "h3": "0x6782c",
+          "h4": "0x67cb8",
+          "old": "adrp x9, #0x1b6000",
+          "new": "adrp x9, #0x1b7000"
+        },
+        {
+          "h3": "0x67838",
+          "h4": "0x67cc4",
+          "old": "strb wzr, [x8, #0x1e0]",
+          "new": "strb wzr, [x8, #0x220]"
+        },
+        {
+          "h3": "0x6783c",
+          "h4": "0x67cc8",
+          "old": "strb wzr, [x9, #0x1e4]",
+          "new": "strb wzr, [x9, #0x224]"
+        },
+        {
+          "h3": "0x6784c",
+          "h4": "0x67cd8",
+          "old": "strb w9, [x8, #0x1e0]",
+          "new": "strb w9, [x8, #0x220]"
+        }
+      ]
+    },
+    {
+      "function": "maybe_MD1_pubkey_hash",
+      "h3_payload_offset": "0x6785c",
+      "h4_payload_offset": "0x67ce8",
+      "size": 80,
+      "normalized_streams_equal": true,
+      "normalization": "PCrelative/call addresses and ADD/load/store immediates masked; heuristic not complete equivalence proof",
+      "changed_instructions": [
+        {
+          "h3": "0x67880",
+          "h4": "0x67d0c",
+          "old": "adrp x0, #0x9f000",
+          "new": "adrp x0, #0xa0000"
+        },
+        {
+          "h3": "0x67884",
+          "h4": "0x67d10",
+          "old": "add x0, x0, #0xaee",
+          "new": "add x0, x0, #0xbbc"
+        }
+      ]
+    }
+  ],
+  "hybrid_identity": {
+    "artifact_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+    "main_changed_bytes": 16,
+    "main_diff_first": "0x89aec",
+    "main_diff_last": "0x89afb",
+    "all_main_diffs_within_getter_16bytes": true,
+    "component_identity": {
+      "bl2_ext": {
+        "source": "h3_original_03_bl2_ext.bin",
+        "sha256_matches": true
+      },
+      "aee": {
+        "source": "h4_original_06_aee.bin",
+        "sha256_matches": true
+      },
+      "lk_main_dtb": {
+        "source": "h4_original_09_lk_main_dtb.bin",
+        "sha256_matches": true
+      },
+      "lk_dtbo": {
+        "source": "h4_original_12_lk_dtbo.bin",
+        "sha256_matches": true
+      }
+    }
+  }
+}

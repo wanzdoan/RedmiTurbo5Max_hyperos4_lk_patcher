@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </array>
+    <array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="cdma_system_select_choices">
+        <item>རང་གནས་བརྒྱུད་ཁོངས་ཁོ་ན།</item>
+        <item>རང་འགུལ།</item>
+    </array>
+    <array name="clir_display_values">
+        <item>དྲ་རྒྱའི་སོར་འཇོག་སྒྲིག་འགོད།</item>
+        <item>ཨང་གྲངས་སྦས་སྐུང་བྱེད་པ།</item>
+        <item>ཨང་གྲངས་མངོན་འཆར་བྱེད་པ།</item>
+    </array>
+    <array name="dtmf_tone_entries">
+        <item>རྒྱུན་ལྡན།</item>
+        <item>རིང་།</item>
+    </array>
+    <array name="list_language_entries">
+        <item>དབྱིན་སྐད།</item>
+        <item>ཧྥ་རན་སུའི་སྐད།</item>
+        <item>སི་ཕེན་སྐད།</item>
+        <item>འཇར་པན་སྐད།</item>
+        <item>ལྷོ་ཁོ་རེ་ཡའི་སྐད།</item>
+        <item>རྒྱ་སྐད།</item>
+        <item>ཤིས་པོ་ལའེ་སྐད།</item>
+    </array>
+    <array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </array>
+    <array name="preferred_network_mode_choices">
+        <item>GSM/WCDMAསྔོན་འདེམ། </item>
+        <item>GSMགཅིག་པུ།</item>
+        <item>WCDMAགཅིག་པུ།</item>
+        <item>GSM/WCDMA རང་འགུལ་འདེམ་པ།</item>
+        <item>CDMA/EvDo རང་འགུལ་འདེམ་པ།</item>
+        <item>CDMA EvDo བྱེད་ནུས་མེད།</item>
+        <item>EvDoགཅིག་པུ།</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>ཀུན་སྤྱོད།</item>
+        <item>LTE</item>
+        <item>LTE/WCDMA</item>
+        <item>TDSCDMA གཅིག་པུ།</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </array>
+    <array name="tty_mode_entries">
+        <item>TTYཁ་རྒྱག་པ།</item>
+        <item>TTYཆ་ཚང་།</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </array>
+</resources>

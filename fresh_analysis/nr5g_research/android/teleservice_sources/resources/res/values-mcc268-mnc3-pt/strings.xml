@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fiveg_sa_switch_title">Modo 5G StandAlone</string>
+    <string name="vonr_switch_title">Voz sobre 5G StandAlone</string>
+</resources>

@@ -1,0 +1,353 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: mYIO/CYJXisyBzywNQpY0BwKh+kGrXgzje68R/S0h78=
+
+Name: assets/default/2g_and_3g_sunset.xml
+SHA-256-Digest: o9SMRRJqLYguMVQJ5OfbJujp8wHsxEqHNwdxGk0rDNc=
+
+Name: assets/default/default_v2.9.1.xml
+SHA-256-Digest: msGb7PZBe+6lZ58DHTUEH+OKMBdxkeY5QBXfn2mFkFw=
+
+Name: assets/default/default_v2.9.2.xml
+SHA-256-Digest: TgIBe5G2bUXJ33pEMCsHsgmli37rM0IV2Ys0jzwQ/iE=
+
+Name: assets/default/default_v2.9.3.xml
+SHA-256-Digest: NEhh7w4RLYcHzvN1a9hPJJ4oIQmFTf2nYLprAO4ond8=
+
+Name: assets/default/default_v2.9.4.xml
+SHA-256-Digest: 3ClNlK5i4RZq+G1SxzIR7RYHj48u8Nrzw7W0I/sHhkY=
+
+Name: assets/default/default_v2.9.5.xml
+SHA-256-Digest: pZ4nTCrkE39Ww12YTlV/+fux33gYJ8erfejtIt+ocp0=
+
+Name: assets/default/default_v2.9.6.xml
+SHA-256-Digest: 1m9taIq9ExYgOYPNf93RHEsmeObfrvtxedbfjiBXUQc=
+
+Name: assets/default/default_v2.9.7.xml
+SHA-256-Digest: uqwzJMkCfefIpSxHh6qm6orAKmatMaZmzdU+B2p8toU=
+
+Name: assets/default/default_v2.9.8.xml
+SHA-256-Digest: g5Zc4JmU1PouoTRQ0SRz2KejHiH7MezOkxvmSq6bv4s=
+
+Name: assets/default/default_v2.9.9.xml
+SHA-256-Digest: PLz1bV6eKCWloi+AxIDuLvCrGZIeugizpSqO12Xjosw=
+
+Name: assets/default/default_v3.0.0.xml
+SHA-256-Digest: YTQWlZTrRde1PZghsHEUnHHDKnUIPtgWlofw0x1zC3I=
+
+Name: assets/default/globalization.xml
+SHA-256-Digest: lknNVupPlr9JurHZviPa0hZfc2VDPgfICi22iHRVMGM=
+
+Name: assets/default/rtt.xml
+SHA-256-Digest: XGat/B2w+V0hM8M3+P+sdK6UGiy4wRw3mHSkNrrevgY=
+
+Name: assets/default/subcard_sa_default_on_2.0.xml
+SHA-256-Digest: hUKgreO6lj2qR7pO+DlVt88+f9Zuus/jHrneJMMILpA=
+
+Name: assets/device/amethyst/res/xml/vendor_device.xml
+SHA-256-Digest: NNha1WDrhCxxutv3mzuApOjeBScwb6yzEF+0ZIANUxg=
+
+Name: assets/device/annibale/res/xml/vendor_device.xml
+SHA-256-Digest: piA92B/JBUH1oWVsN1O+pCcUYvjQsVmXln1is6PJZ0Q=
+
+Name: assets/device/arctic/res/xml/vendor_device.xml
+SHA-256-Digest: 6ucQ2DdX2QmLT5FIL2Wtb7PS+yyL1Vz1mlI0DMxw10s=
+
+Name: assets/device/aristotle/res/xml/vendor_device.xml
+SHA-256-Digest: zkQph4BU0V9IOh8pp/dHWq/ACY4K+crAhxp/k9gDoAo=
+
+Name: assets/device/athens/res/xml/vendor_device.xml
+SHA-256-Digest: u4UEGFZiFixaoJdMm1AId7SBML0nZczUgSMmkKyf4Lw=
+
+Name: assets/device/aurora/res/xml/vendor_device.xml
+SHA-256-Digest: uSvWUwUE9wxaeFShkUK07dNyb+Hh77StzBK7aj6oBJU=
+
+Name: assets/device/babylon/res/xml/vendor_device.xml
+SHA-256-Digest: ULIqeUEx+AOMJbidylUnnqxQWH99XVyLN9LwCLIvM/Y=
+
+Name: assets/device/beryl/res/xml/vendor_device.xml
+SHA-256-Digest: 9W8Ddf8mzXcnyvguUd5I4R48a0ewnBFjPulsJAF7+CY=
+
+Name: assets/device/bixi/res/xml/vendor_device.xml
+SHA-256-Digest: lKe8UfVvH/XAdWBhVIsNtfz3EhhbgnEQUL0fDlsA0lI=
+
+Name: assets/device/blue/res/xml/vendor_device.xml
+SHA-256-Digest: /c1l8tPEFb2CyFcOn73AbebeJ5pgsX+3JLQxkAXaOUc=
+
+Name: assets/device/breeze/res/xml/vendor_device.xml
+SHA-256-Digest: 8a/hommZgrawmE+1gJroxqTI1jp9hUu0cA4dmpfF890=
+
+Name: assets/device/brussels/res/xml/vendor_device.xml
+SHA-256-Digest: yMaXo2m+puhJCTIupUOgiaxoSQuROz8itoXqLoIw/Bc=
+
+Name: assets/device/byron/res/xml/vendor_device.xml
+SHA-256-Digest: hXSvpStekRwfeKqwifjTdgrW7S2WS0iYF4xB0rd3g3g=
+
+Name: assets/device/canberra/res/xml/vendor_device.xml
+SHA-256-Digest: FtC7XtbDSMhUPI4IHU/Ue7xzewdpOD7PM1MdqlfIvVQ=
+
+Name: assets/device/chagall/res/xml/vendor_device.xml
+SHA-256-Digest: D4Bbs1BcBK5YFw8uZlgNjw5VBzbKrLduzRuIzU47hQU=
+
+Name: assets/device/charoite/res/xml/vendor_device.xml
+SHA-256-Digest: DBq82KlWoqvO2GIxtxhWrntRrhmym9vVgACNQfqjzX8=
+
+Name: assets/device/chenfeng/res/xml/vendor_device.xml
+SHA-256-Digest: bpB3InNQC2eEXiabSqDB+LUif3732qISU5c6rnUBCPQ=
+
+Name: assets/device/corot/res/xml/vendor_device.xml
+SHA-256-Digest: g8ESo0sZp9bbSNAxjIZALY4YOpTHu0PkSR8npQFS0T4=
+
+Name: assets/device/creek/res/xml/vendor_device.xml
+SHA-256-Digest: HUoLCxdp890sj5EmVcYmXXri64sL8JPToxbxfLQk088=
+
+Name: assets/device/dada/res/xml/vendor_device.xml
+SHA-256-Digest: qC7M5T8IPGyEoKrCj1e3Iqk4wSWeo8543x4lErimtj4=
+
+Name: assets/device/dali/res/xml/vendor_device.xml
+SHA-256-Digest: HqN8sxOOF3EOIH346k+k4doOkd3GGp/pkjBhY4Lk23k=
+
+Name: assets/device/dallas/res/xml/vendor_device.xml
+SHA-256-Digest: PDbrKx49Z/fjOkTi+qDZA1RBeZQHSUYDBgp9IS0oN2Y=
+
+Name: assets/device/darwin/res/xml/vendor_device.xml
+SHA-256-Digest: EETQlsBJUjoJbvBkGbrquzeZy0FlpD+RSZtGnO+f4v8=
+
+Name: assets/device/dash/res/xml/vendor_device.xml
+SHA-256-Digest: DidnFvcWt+XIBXrCHRiIzVoZjnpobCyf6u7xq6I8Yls=
+
+Name: assets/device/degas/res/xml/vendor_device.xml
+SHA-256-Digest: CHt0J7CsKfnveqoGKm+gfsbteQdgrUVa1MZqEK8JBHY=
+
+Name: assets/device/denver/res/xml/vendor_device.xml
+SHA-256-Digest: zFzoSa35giIVWvQ3QrqZUT9iJuSBtBUha5VHJtyf+Zo=
+
+Name: assets/device/dew/res/xml/vendor_device.xml
+SHA-256-Digest: yIFaVF7wTIbL8k7CpESbrdr2N/8w5jMWgNllS56/jlE=
+
+Name: assets/device/dijun/res/xml/vendor_device.xml
+SHA-256-Digest: S7qsDE4X7zuiH4Z+rWb3JoTD6DR9rRW/bZAqBp7JAoA=
+
+Name: assets/device/duchamp/res/xml/vendor_device.xml
+SHA-256-Digest: SKE6/eUNfnI/OkH8hNJGLAOjple9kEJdzs/R+lsZbNA=
+
+Name: assets/device/emerald/res/xml/vendor_device.xml
+SHA-256-Digest: AbtE3BWphwAZpDV9eCSv9aDDk8fWE3TZn83pzXHX/nA=
+
+Name: assets/device/erhu/res/xml/vendor_device.xml
+SHA-256-Digest: kHiRYcr3zsUfEuUfnOC6NRwdF+8Kak37iuzvLe+bkeM=
+
+Name: assets/device/flame/res/xml/vendor_device.xml
+SHA-256-Digest: TC0UdKBJBYAlUDKQagNy7i71hqYsXoVt5kiFv9f/Zhg=
+
+Name: assets/device/flourite/res/xml/vendor_device.xml
+SHA-256-Digest: pH3e+H9+xbmeac1pz5vA/AaZ303Ki8wllMNlawHgnY0=
+
+Name: assets/device/fuxi/res/xml/vendor_device.xml
+SHA-256-Digest: 1S9fHnDfcgoKQLi7XCNwP4IJj811Vrb8F1LPVMD4aNE=
+
+Name: assets/device/garnet/res/xml/vendor_device.xml
+SHA-256-Digest: sK0GnGv1SmfCaeNqTdoeMAx0P41kdoAb6MDkCHTqdhI=
+
+Name: assets/device/goku/res/xml/vendor_device.xml
+SHA-256-Digest: 5SCFiHWFsksePK6rMln8ppYl95RwAw/+JFfDY1Furcg=
+
+Name: assets/device/goya/res/xml/vendor_device.xml
+SHA-256-Digest: nqKzq3stAZHtdYEtAtelADvkX4RUCpB4uZFMnxIe488=
+
+Name: assets/device/haotian/res/xml/vendor_device.xml
+SHA-256-Digest: 6PmqDRAD2p/zbxFDZKRHQd8ux9dbe9tOxuxyZcXXtTw=
+
+Name: assets/device/hongkong/res/xml/vendor_device.xml
+SHA-256-Digest: uf7FSRb2BdSQ+dq0HjXTfd02MWq5f331S8XsvGodbig=
+
+Name: assets/device/houji/res/xml/vendor_device.xml
+SHA-256-Digest: 03SskVJFwB3vMPbgmHLjFv08kiomParRR02X0/3Z3M4=
+
+Name: assets/device/iolite/res/xml/vendor_device.xml
+SHA-256-Digest: ATvaIKXHTsznTOxo1+wvD8CflckZHTl6EQC8oy54VhM=
+
+Name: assets/device/ishtar/res/xml/vendor_device.xml
+SHA-256-Digest: q1iqLlFLF1ltcvrDrWTPp9/X7UFw0v3u4aU++BympvI=
+
+Name: assets/device/klee/res/xml/vendor_device.xml
+SHA-256-Digest: ak1YeAYfegIcFz31SUoOlqrXL39ciiZ/Hq6MAhPhjg0=
+
+Name: assets/device/klein/res/xml/vendor_device.xml
+SHA-256-Digest: 8gbB/Eav996JFSCBEh7a+ff80WlZ+B/itQx2ilj/Bcs=
+
+Name: assets/device/klimt/res/xml/vendor_device.xml
+SHA-256-Digest: BmsiG8CmXRmZErckPJCn/vEs3Gc9kT04PI1Ty4Nv5tg=
+
+Name: assets/device/koto/res/xml/vendor_device.xml
+SHA-256-Digest: 0QXHl3bkKBKEQi/a9wZGhDQHvVl9X9MtM3Rn8BJx19s=
+
+Name: assets/device/kunzite/res/xml/vendor_device.xml
+SHA-256-Digest: aguc12AunSoGDEsNpHerri7tRNs9K/6Y2yvCu8FLT+Q=
+
+Name: assets/device/lake/res/xml/vendor_device.xml
+SHA-256-Digest: 8e964qxbbR8+e4U+jUCcsAuPdUC0+l9Woalj3oqpXaE=
+
+Name: assets/device/lapis/res/xml/vendor_device.xml
+SHA-256-Digest: Xc/OTxWD1y/X9HABnQIPzD2LOpEUbjUFAJsbWOuR5RM=
+
+Name: assets/device/leedsa/res/xml/vendor_device.xml
+SHA-256-Digest: 5IJStzYlB/RzdMeug0H8flBbATLg9NVDDzTU23oYRik=
+
+Name: assets/device/lhasa/res/xml/vendor_device.xml
+SHA-256-Digest: xEroUg5wwblYqE2XYEeOcqr0vFeLrXgM4itfMl6a1Lw=
+
+Name: assets/device/luming/res/xml/vendor_device.xml
+SHA-256-Digest: HqN8sxOOF3EOIH346k+k4doOkd3GGp/pkjBhY4Lk23k=
+
+Name: assets/device/madrid/res/xml/vendor_device.xml
+SHA-256-Digest: 6oq/gP0bZttSAeD3WLufHrRrwK0zt1wcmdsMBKhZ+hU=
+
+Name: assets/device/mainz/res/xml/vendor_device.xml
+SHA-256-Digest: UgkbRx2BCGgO3vnnbPGSUy7aFIRhdgr71F7MMGtzSzY=
+
+Name: assets/device/malachite/res/xml/vendor_device.xml
+SHA-256-Digest: th0aKTYN4q2ZtnEF7Q0ueBbkzzNrk/ZGVV6yPzO/g2c=
+
+Name: assets/device/manet/res/xml/vendor_device.xml
+SHA-256-Digest: Jq5sQyyM2WbapFTnrdtSRbdQlNyfkPxeTRi8nVLXJtw=
+
+Name: assets/device/miro/res/xml/vendor_device.xml
+SHA-256-Digest: aMyUNzjzJESj2Mms2X7QCwTrgWRPWAPn4F3BqTAWcSQ=
+
+Name: assets/device/mist/res/xml/vendor_device.xml
+SHA-256-Digest: IdQo6q65mvv3T355hSCD2sbboZc8T+IFN8we/9J7tHo=
+
+Name: assets/device/moon/res/xml/vendor_device.xml
+SHA-256-Digest: mPFOkPdCz3tNTl3QYjJ4mpfD1r5c5Hpem6YmU3MKhHc=
+
+Name: assets/device/myron/res/xml/vendor_device.xml
+SHA-256-Digest: fKrZ1YYwk53ZJROe0YNdK3riT+p61T9oPDr3OSeog74=
+
+Name: assets/device/nezha/res/xml/vendor_device.xml
+SHA-256-Digest: PB+DfGzN2ees/2cA8h/bre0Bwx7R3beArJfRgDbRAfg=
+
+Name: assets/device/nuwa/res/xml/vendor_device.xml
+SHA-256-Digest: KubglQE1Xoj2ej3m/ahsMi8/6b4V0QSbQ966cCiGBTY=
+
+Name: assets/device/obsidian/res/xml/vendor_device.xml
+SHA-256-Digest: wpea1Tj99i+fdeWXK79ghBH86yxvYE8BWd4MDn973jQ=
+
+Name: assets/device/onyx/res/xml/vendor_device.xml
+SHA-256-Digest: JoA2Zxn11ndTq2gh3K4ob6QgnETD8n/Ga7Yc4uBuF/8=
+
+Name: assets/device/organ/res/xml/vendor_device.xml
+SHA-256-Digest: 3IS8Bi60xAsRMO7DIHC1o2lke1WhHlrXqpyaI+Yglj4=
+
+Name: assets/device/pandora/res/xml/vendor_device.xml
+SHA-256-Digest: m6yqoDeoUXgGjiLr/1EJxsQ3m4Ij2sDAU26Ojy3Bilc=
+
+Name: assets/device/peridot/res/xml/vendor_device.xml
+SHA-256-Digest: tM94U898hZivRJtFppNjWTa8daIPMZpg4IaPijPPu8A=
+
+Name: assets/device/popsicle/res/xml/vendor_device.xml
+SHA-256-Digest: d/LLIutco22MXepIb0yhpYEz7lCGHsBT7kTq1eytqQU=
+
+Name: assets/device/prague/res/xml/vendor_device.xml
+SHA-256-Digest: XUuG/HFgyLSkAX9KA7dGbr3s4C79HhgXaF6lJwU8P2o=
+
+Name: assets/device/pudding/res/xml/vendor_device.xml
+SHA-256-Digest: WUjbavo5XiVfAtaiaSvFNV1xVeUtlijLS2ThokLJSe8=
+
+Name: assets/device/rodin/res/xml/vendor_device.xml
+SHA-256-Digest: K6z8vI/1yl6sHJMi/QhrLrWbGIEz2kPsq3FvX5awt2c=
+
+Name: assets/device/rothko/res/xml/vendor_device.xml
+SHA-256-Digest: WKeLZcQ0/lQCWx/fL5qogjoek75YmqREQ1fTfKMHNSY=
+
+Name: assets/device/ruan/res/xml/vendor_device.xml
+SHA-256-Digest: kRj7c9N6c6TRfuxkLXuXdNs7fLkZkBi0aEEDN1g8NHs=
+
+Name: assets/device/ruyi/res/xml/vendor_device.xml
+SHA-256-Digest: ZnPU6B1qzCUuNIG4NT0qsjne4hAMSBiI9WE1KHxJ/R0=
+
+Name: assets/device/sanjose/res/xml/vendor_device.xml
+SHA-256-Digest: 2QGA0HGuzjN06rBc7Pvj8B9arXc4E6/wZxJt5KdCf5Q=
+
+Name: assets/device/shennong/res/xml/vendor_device.xml
+SHA-256-Digest: co3bECG9pl+dm4oju7jCWzqXnFrXWzl9WYcANdCtfEM=
+
+Name: assets/device/socrates/res/xml/vendor_device.xml
+SHA-256-Digest: cX8R80pp15iBi+yALE7cIlZWNQo6T/B8QYL7+mMoyRo=
+
+Name: assets/device/sofia/res/xml/vendor_device.xml
+SHA-256-Digest: dv/m7qae52RjcupE6Anh7Ae0Q0rKlM0wXzPlN491Ug8=
+
+Name: assets/device/somalia/res/xml/vendor_device.xml
+SHA-256-Digest: XJ+dCZCeIGxDifTIzXcLRmiISzs/SDgoBs3dDM8nOd4=
+
+Name: assets/device/songyuan/res/xml/vendor_device.xml
+SHA-256-Digest: lcuu6zMozYaLjsix6R4NH4o4YDjLrjdsczxUEhjokfU=
+
+Name: assets/device/spark/res/xml/vendor_device.xml
+SHA-256-Digest: 8/IfYc/q2X3jXcbDQP9sCnFQGIaVStTXI8IjubTNXXw=
+
+Name: assets/device/spinel/res/xml/vendor_device.xml
+SHA-256-Digest: 00WUbO5j8UDQPncJIQ5vBoy4bIjGIoqJiYGLIV8QD/o=
+
+Name: assets/device/spring/res/xml/vendor_device.xml
+SHA-256-Digest: U7WWjl3sypLEBOVFBUit9SkXP6BKFhJRuukGMCQJ7yw=
+
+Name: assets/device/steppe/res/xml/vendor_device.xml
+SHA-256-Digest: NzFL4UZUIhJujp/9QKIN8qSRWhzOsP8fHyaUlzk2UwM=
+
+Name: assets/device/tanzanite/res/xml/vendor_device.xml
+SHA-256-Digest: 6KrvuSL5HdoFQMqHBSaLcA8aGSh18MjJ4EbZh/l1pdM=
+
+Name: assets/device/tornado/res/xml/vendor_device.xml
+SHA-256-Digest: AZwbM4R5hkgUtLAQSHdhblWdV/T3FZRLFIYQx+EWs+w=
+
+Name: assets/device/valencia/res/xml/vendor_device.xml
+SHA-256-Digest: UgkbRx2BCGgO3vnnbPGSUy7aFIRhdgr71F7MMGtzSzY=
+
+Name: assets/device/venice/res/xml/vendor_device.xml
+SHA-256-Digest: IyPVIA7+hM5fz+37ISyZpDPdKMNLFMAVsDd4M9vhtK4=
+
+Name: assets/device/vermeer/res/xml/vendor_device.xml
+SHA-256-Digest: 1g7q4PP+TiXs57oISaloOMinFKOIWkiN9dClEeNyH80=
+
+Name: assets/device/warhol/res/xml/vendor_device.xml
+SHA-256-Digest: TsJwGwy0z1La4JJtmQKW/rzQdbgQHDHVkjFy4+yMyNQ=
+
+Name: assets/device/warm/res/xml/vendor_device.xml
+SHA-256-Digest: 29fZrhgLgPgI8ZtObhd4LycxyuQp9biNQ0tPOp/5W4M=
+
+Name: assets/device/warsaw/res/xml/vendor_device.xml
+SHA-256-Digest: Xin1+iMLCuzSi/6DyIVHAOCXD59yrdlSfmzZAvdOHec=
+
+Name: assets/device/wayne/res/xml/vendor_device.xml
+SHA-256-Digest: AI8a1CnYK+MIoVvrO0IAbA47qGYVziwPi19tR9irK/U=
+
+Name: assets/device/xuanyuan/res/xml/vendor_device.xml
+SHA-256-Digest: sbDHkD43AUgsM2YsQNtzC+V1C8bHaZ3IQ2x7LRQac24=
+
+Name: assets/device/zadar/res/xml/vendor_device.xml
+SHA-256-Digest: YYbdXOXOhK3/DpMEVB+ifYzc3ftmVyrUK8MHRTKhrKQ=
+
+Name: assets/device/zephyr/res/xml/vendor_device.xml
+SHA-256-Digest: HSoEtyxjQMgWdrisjVXq8lEnxwOr9O0KqsVoiE7cb9A=
+
+Name: assets/device/zircon/res/xml/vendor_device.xml
+SHA-256-Digest: MKTGMr/xMwAQZjfT3gWwErlHKXyeHOjdBYr3x7Q7iTQ=
+
+Name: assets/device/zorn/res/xml/vendor_device.xml
+SHA-256-Digest: rItqEAA81sCNxyxB3FYpooASsu5XJKFO1FZv+lVPXAg=
+
+Name: classes.dex
+SHA-256-Digest: Im0tnze8E06HKuLwv16m/N2ehCt9c2JsR9cY2ZWQJCM=
+
+Name: res/xml/vendor_device.xml
+SHA-256-Digest: X1KY+rzXjYni4/qcQGK1M2ff6ae7jEZPwL2YB36RaU4=
+
+Name: res/xml/vendor_miui.xml
+SHA-256-Digest: dEVjsfjQ26AOwv7g0Vsq0fV+kGgTJjxbDSwXF+8uDp8=
+
+Name: resources.arsc
+SHA-256-Digest: yxnc2Tm5zTobCT8ggbBJKp03qDPfIgogcDvDU2Vq578=
+

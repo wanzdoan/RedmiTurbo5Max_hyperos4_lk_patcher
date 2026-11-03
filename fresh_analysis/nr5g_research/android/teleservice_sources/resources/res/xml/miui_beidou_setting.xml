@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res/com.android.phone" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@string/satellite_management_title">
+    <PreferenceCategory
+        android:title="@string/beidou_mobile_settings_title"
+        android:key="beidou_satellite">
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:title="@string/beidou_mobile_settings_title"
+            android:key="button_beidou_enabled_key"/>
+        <com.android.phone.beidou.BdSimPreference android:key="button_beidou_sim_key"/>
+        <Preference
+            android:title="@string/beidou_findout_settings_title"
+            android:key="bd_explain_key"/>
+    </PreferenceCategory>
+</PreferenceScreen>

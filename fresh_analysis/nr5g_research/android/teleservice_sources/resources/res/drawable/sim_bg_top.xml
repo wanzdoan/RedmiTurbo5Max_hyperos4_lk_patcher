@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.smooth.SmoothContainerDrawable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:topLeftRadius="@dimen/multi_sim_bg_radius"
+    android:topRightRadius="@dimen/multi_sim_bg_radius"
+    android:bottomLeftRadius="0dp"
+    android:bottomRightRadius="0dp">
+    <child>
+        <shape android:shape="rectangle">
+            <corners
+                android:topLeftRadius="@dimen/multi_sim_bg_radius"
+                android:topRightRadius="@dimen/multi_sim_bg_radius"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"/>
+            <solid android:color="@color/sim_info_color"/>
+        </shape>
+    </child>
+</miuix.smooth.SmoothContainerDrawable>

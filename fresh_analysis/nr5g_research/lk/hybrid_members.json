@@ -1,0 +1,96 @@
+{
+  "path": "fresh_analysis\\output\\lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img",
+  "sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "members": [
+    {
+      "offset": "0x0",
+      "name": "lk",
+      "size": 1284936,
+      "sha256": "61e118f8bf9ba7c71609145656fb78f14d1b0900bb0f9db5240e3f29bec8ac6b"
+    },
+    {
+      "offset": "0x139d50",
+      "name": "cert1",
+      "size": 1733,
+      "sha256": "94ba237e0a601649292a6cfcf5c4f0ccffc1a58e60843d476bc46f9d1956326a"
+    },
+    {
+      "offset": "0x13a620",
+      "name": "cert2",
+      "size": 1162,
+      "sha256": "e1cb78fce840956b0c005c2cb02a1d4b78c35408e16c2a02cb1d5c8abe72bf79"
+    },
+    {
+      "offset": "0x13acb0",
+      "name": "bl2_ext",
+      "size": 1079256,
+      "sha256": "e9aca46a63376b22daf9150319e27c8fc2da1e176781af8bc1392da4f178e76b"
+    },
+    {
+      "offset": "0x242690",
+      "name": "cert1",
+      "size": 1733,
+      "sha256": "618277366ef443b01200d4ede8fcc12edc58ce08e40c23b118b10ffdeb67dba2"
+    },
+    {
+      "offset": "0x242f60",
+      "name": "cert2",
+      "size": 982,
+      "sha256": "80598b9c5e94f35465855c1b0034d027689b6ce02aeeef248b795776369b3a89"
+    },
+    {
+      "offset": "0x243540",
+      "name": "aee",
+      "size": 1005488,
+      "sha256": "fd54015acd29b326feb61614f9f8cef973e0f8277a3e1dd195a42ad9e4d25861"
+    },
+    {
+      "offset": "0x338ef0",
+      "name": "cert1",
+      "size": 1733,
+      "sha256": "b4903721137f6efba6803c06413f6c35633fbbd447e9e71804cdde7d87a2726d"
+    },
+    {
+      "offset": "0x3397c0",
+      "name": "cert2",
+      "size": 982,
+      "sha256": "0ad6ad35162284e08a719792c446ec0a141f48a7e5f296e32f2dd293ecdbf0f3"
+    },
+    {
+      "offset": "0x339da0",
+      "name": "lk_main_dtb",
+      "size": 536097,
+      "sha256": "5bb8f8013fd99dfc55887f8062c7c83753f1c4879a1349061c8ccf33b7b9e44c"
+    },
+    {
+      "offset": "0x3bcdd0",
+      "name": "cert1",
+      "size": 1733,
+      "sha256": "a4bd9eaa92c2596137ac76f8fdd9118fb073c2a1a8b23191389bd4680b2e431c"
+    },
+    {
+      "offset": "0x3bd6a0",
+      "name": "cert2",
+      "size": 982,
+      "sha256": "94ba4a146e86fcbf5ec28783e808d05034377cbdab031ec97388b486af26a16d"
+    },
+    {
+      "offset": "0x3bdc80",
+      "name": "lk_dtbo",
+      "size": 156075,
+      "sha256": "23e562ab44eed1c93ef0b2faddf81084610907f44f8155f00c9d6f33cfe8f5ce"
+    },
+    {
+      "offset": "0x3e4030",
+      "name": "cert1",
+      "size": 1733,
+      "sha256": "6cd2d3f9354f62af034d4898c2f119668c5e3c77366630c1920d2de932843977"
+    },
+    {
+      "offset": "0x3e4900",
+      "name": "cert2",
+      "size": 982,
+      "sha256": "9e1a4fe468317dfd56d705f7d2e8929576080a20caf7217a524f1f1a7b26d4c4"
+    }
+  ]
+}

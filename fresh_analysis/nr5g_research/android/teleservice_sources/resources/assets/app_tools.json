@@ -1,0 +1,114 @@
+[
+  {
+    "name": "phone_call_recording",
+    "descriptions": {"zh": "开始/暂停/恢复/停止通话录音。仅在通话进行中可操作。当用户说\"录一下这个电话\"、\"停止录音\"时调用。能力由录音机提供，开关由电话设置管理。返回录音状态和文件信息。不适用于查询或修改录音设置（如自动录音开关，用 phone_settings category=record）、不适用于播放已有录音文件。与 phone_settings 的区别：本工具实时控制当前通话的录音操作，phone_settings 管理录音相关的全局设置（如是否自动录音）。"},
+    "method": "callRecording",
+    "class": "com.android.phone.tools.PhoneToolService",
+    "paramCount": 1,
+    "params": [
+      {
+        "name": "action",
+        "type": "string",
+        "descriptions": {"zh": "start（开始录音）或 stop（停止录音并返回文件路径）"},
+        "required": true,
+        "index": 0
+      }
+    ]
+  },
+  {
+    "name": "phone_get_caller_info",
+    "descriptions": {"zh": "获取当前来电/通话中的号码的国家码信息。仅在来电时可调用，无法根据号码静态查询。主动查号码归属地请用联系人 App 的 search_phone_location。返回国家码。"},
+    "method": "getCallerInfo",
+    "class": "com.android.phone.tools.PhoneToolService",
+    "paramCount": 0,
+    "params": []
+  },
+  {
+    "name": "phone_settings",
+    "descriptions": {"zh": "查询和管理电话设置。category 包含：call（来电/去电，拨打/接听/挂断/拒接/短信回复等）、record（录音，通话自动录音/通话录音设置等）、location（归属地，设置归属地显示/归属地查询等）、answer（方式，自动接听/来电等待等）。当用户说\"打开来电等待\"、\"设置来电转接\"、\"开启自动录音\"时调用。返回指定 category 的当前设置状态。不适用于通话中的实时操作（实时录音用 phone_call_recording，接听/挂断用 phone_call_action）、不适用于移动网络和 SIM 卡设置（用 phone_network_settings）。与 phone_network_settings 的区别：本工具管理电话功能设置，phone_network_settings 管理网络和 SIM 卡设置。"},
+    "method": "phoneSettings",
+    "class": "com.android.phone.tools.PhoneToolService",
+    "paramCount": 7,
+    "params": [
+      {
+        "name": "category",
+        "type": "string",
+        "descriptions": {"zh": "设置类别：call（来电去电）/ record（录音）/ advanced（高级）/ location（归属地）/ voicemail（语音信箱）/ answer（接听方式）"},
+        "required": true,
+        "index": 0
+      },
+      {
+        "name": "action",
+        "type": "string",
+        "descriptions": {"zh": "操作类型。call类：get_voice_report/set_voice_report/get_call_waiting/set_call_waiting/get_call_forward/set_call_forward/get_caller_id/set_caller_id/get_turn_over_mute/set_turn_over_mute/get_handon_ringer/set_handon_ringer/get_crescendo_ringer/set_crescendo_ringer/get_flash_when_ring/set_flash_when_ring/get_proximity_sensor/set_proximity_sensor/get_antispam_stranger/set_antispam_stranger（陌生来电第一声响铃静音）；record类：get/set_notification/set_auto_record/set_scenario/set_unknown/set_yellowpage/get_record_list/add_record_list/remove_record_list；advanced类：get/get_dial_pad_tone/set_dial_pad_tone/get_t9_index/set_t9_index/get_auto_redial/set_auto_redial/get_auto_ip/set_auto_ip_enable/set_auto_ip_prefix/set_auto_ip_areacode/get_local_numbers_ip/set_local_numbers_ip/get_add_zero_prefix/set_add_zero_prefix/get_ip_exceptions/add_ip_exception/remove_ip_exception/get_missed_call_notify/set_missed_call_notify/get_connect_vibrate/set_connect_vibrate/get_call_waiting_tone/set_call_waiting_tone/get_reject_via_sms/set_reject_via_sms/get_reject_sms_responses/set_reject_sms_response/get_dtmf_type/set_dtmf_type；location类：get_telocation/set_telocation/get_auto_country/set_auto_country/get_country_code/set_country_code；voicemail类：get_voicemail/set_voicemail；answer类：get_auto_answer/set_auto_answer/set_auto_answer_delay/set_auto_answer_scenario/get_sensor_answer/set_sensor_answer"},
+        "required": true,
+        "index": 1
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "descriptions": {"zh": "操作值。call类：set_voice_report传off/always/headset_only；set_call_waiting传true/false；*_call_forward传unconditional/busy/no_reply/unreachable；set_caller_id传default/hide/show；其余set_*传true/false。record类：set_*传true/false，set_scenario传all/custom，*_record_list传号码。advanced类：dial_pad_tone传on/off/default/piano；t9_index传pinyin/zhuyin；missed_call_notify传0/1/2/3/5/10；connect_vibrate传off/normal/strong；call_waiting_tone传continuous/twice/twice_vibrate；set_reject_sms_response传\"序号:内容\"如\"1:我在开会\"；dtmf_type传normal/long。location类：set_telocation/set_auto_country传true/false，set_country_code传数字国家码如86。answer类：set_auto_answer/set_sensor_answer传true/false；set_auto_answer_delay传0/3/5/10；set_auto_answer_scenario传always/headset_only/bluetooth_only/headset_bluetooth"},
+        "required": false,
+        "index": 2
+      },
+      {
+        "name": "number",
+        "type": "string",
+        "descriptions": {"zh": "电话号码：call类 set_call_forward时为转接目标号码（空则关闭转接）；voicemail类为语音信箱号码"},
+        "required": false,
+        "index": 3
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "descriptions": {"zh": "名称标签：record类 add_record_list时为录音名单显示标签（可选）"},
+        "required": false,
+        "index": 4
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "descriptions": {"zh": "仅voicemail类 set_voicemail时使用：语音信箱名称标签，不传则保留原标签"},
+        "required": false,
+        "index": 5
+      },
+      {
+        "name": "sim_slot",
+        "type": "string",
+        "descriptions": {"zh": "SIM卡槽：0（SIM1）或1（SIM2）；不传默认SIM1；call/advanced/voicemail类时有效"},
+        "required": false,
+        "index": 6
+      }
+    ]
+  },
+  {
+    "name": "phone_network_settings",
+    "descriptions": {"zh": "查询当前移动网络和无线网络设置，包括 SIM 卡当前网络信息、默认拨号卡/上网卡、移动数据开关、智能双卡/智能切换上网卡开关、智能回拨开关/智能互转开关。当用户说\"切换默认上网卡\"、\"关掉移动数据\"、\"打开智能双卡\"、\"打开智能切换上网卡\"时调用。返回对应设置项的当前状态。不适用于电话功能设置（来电等待/来电转接/自动录音等用 phone_settings）、不适用于 Wi-Fi 设置（Wi-Fi 由系统设置管理）。与 phone_settings 的区别：本工具管理网络连接和 SIM 卡配置，phone_settings 管理电话通话功能的开关和偏好。"},
+    "method": "networkSettings",
+    "class": "com.android.phone.tools.PhoneToolService",
+    "paramCount": 3,
+    "params": [
+      {
+        "name": "action",
+        "type": "string",
+        "descriptions": {"zh": "操作类型：get（查询，sim_slot可选）/ set_sim_enabled（启用禁用SIM，value必填，sim_slot可选——不传时自动推断：禁用单卡自动定位唯一卡槽后拦截，启用自动选出唯一被禁用的卡，双卡均可操作时须指定）/ set_sim_name（改卡名，sim_slot+value必填）/ set_default_call_sim（默认拨号卡，sim_slot: 0/1/-1每次询问）/ set_default_data_sim（默认上网卡，sim_slot: 0/1）/ set_mobile_data（移动数据，value: true/false）/ set_smart_dual_sim（智能双卡或智能切换上网卡：仅控制移动数据/上网卡自动切换，与通话无关；两种叫法均用此action，value: true/false）/ set_smart_callback（智能回拨：来电时用主叫号码对应的卡回拨，value: true/false）/ set_smart_transfer（智能互转：双卡换卡后将来电转接到新卡，仅涉及语音来电转接与上网卡无关，value: true/false）。注意：set_smart_dual_sim 是数据流量卡切换功能，set_smart_transfer 是语音来电转接功能，两者用途完全不同，不可混用"},
+        "required": true,
+        "index": 0
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "descriptions": {"zh": "操作值：set_sim_enabled/set_mobile_data/set_smart_*传true/false；set_sim_name传新名称字符串"},
+        "required": false,
+        "index": 1
+      },
+      {
+        "name": "sim_slot",
+        "type": "string",
+        "descriptions": {"zh": "SIM卡槽：0（SIM1）或1（SIM2）；set_default_call_sim时-1表示每次询问；set_sim_name必填；set_sim_enabled可不填（自动推断）；get可选"},
+        "required": false,
+        "index": 2
+      }
+    ]
+  }
+]

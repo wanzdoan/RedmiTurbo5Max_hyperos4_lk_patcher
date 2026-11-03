@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preferred_wificall_title">Llamadas WLAN</string>
+    <string name="vice_slot_volte_data_switch_prompt">Tu dispositivo se conectará a una red de datos móviles usando la SIM secundaria durante las llamadas 4G. Esto podría generar cargos adicionales. Ponte en contacto con tu operadora para más detalles acerca de tu plan de datos.</string>
+    <string name="vice_slot_volte_data_switch_summary">Durante las llamadas 4G, el dispositivo se conectará a una red de datos móviles usando la SIM secundaria</string>
+    <string name="vice_slot_volte_data_switch_title">Utiliza datos móviles durante las llamadas 4G en la SIM secundaria</string>
+    <string name="volte_switch_summary">Utiliza servicios 4G para mejorar el servicio de voz y comunicaciones</string>
+    <string name="volte_switch_title">Llamadas 4G</string>
+    <string name="wifi_call_accept">Aceptar</string>
+    <string name="wifi_call_available_message">¿Sabías que tu teléfono puede hacer llamadas por WLAN? Podrás hablar incluso cuando no tengas cobertura móvil, mientras estés conectado a una red WLAN</string>
+    <string name="wifi_call_cancel">Más info</string>
+    <string name="wifi_call_help_message_1">Llamadas WLAN es un servicio de su operador que le permite realizar y recibir llamadas a través de una conexión WLAN. Esto es especialmente útil en interiores de edificios adonde no llega la cobertura de red móvil.\n\nPara utilizar Llamadas WLAN active esta función en Ajustes / Llamadas WLAN y conéctese entonces a una red WLAN.\n\nLas llamadas realizadas por WLAN se tarificarán de acuerdo con las condiciones de su tarifa.\n\nSiempre que esta función esté disponible, aparecerá el siguiente icono en la parte superior de la pantalla.</string>
+    <string name="wifi_call_help_message_2">Si selecciona Red WLAN preferida se utilizará la red WLAN de forma predeterminada para las llamadas. En caso de que no esté conectado a ninguna red WLAN o esta no tenga suficiente calidad, se utilizará la red móvil para realizar las llamadas.\n\nSi selecciona Red móvil preferida se utilizará la red móvil de forma predeterminada para las llamadas. En caso de que no haya cobertura de red móvil o ésta sea muy débil, se utilizará la red WLAN en su lugar.</string>
+    <string name="wifi_call_help_title">Ayuda Llamadas WLAN</string>
+    <string name="wifi_call_notification_message">Este servicio es proporcionado por tu Operador. La primera vez que lo actives en el teléfono puede tardar varias horas en estar disponible.</string>
+    <string name="wifi_call_preferred_summary">Si selecciona Red móvil preferida se utilizará la red móvil de forma predeterminada para las llamadas. En caso de que no haya cobertura de red móvil o ésta sea muy débil, se utilizará la red WLAN en su lugar.</string>
+    <string name="wificall_switch_title">Llamadas WLAN</string>
+</resources>

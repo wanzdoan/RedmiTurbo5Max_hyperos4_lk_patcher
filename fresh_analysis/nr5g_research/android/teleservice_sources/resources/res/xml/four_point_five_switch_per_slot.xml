@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.custompreferences.CustomCheckBoxPreference
+        android:persistent="false"
+        android:title="@string/four_point_five_switch_title"
+        android:key="enhanced_four_point_five_lte"
+        android:summary="@string/four_point_five_switch_summary"/>
+</PreferenceScreen>

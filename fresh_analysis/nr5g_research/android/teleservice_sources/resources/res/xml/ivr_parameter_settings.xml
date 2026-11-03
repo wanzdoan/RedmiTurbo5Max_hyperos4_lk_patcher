@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@string/ivr_parameter_settings">
+    <EditTextPreference
+        android:persistent="false"
+        android:hint="@string/ivr_mo_area_code_settings_hint"
+        android:title="@string/ivr_mo_area_code_settings"
+        android:key="ivr_mo_area_code"
+        android:inputType="number"/>
+    <miuix.preference.DropDownPreference
+        android:persistent="false"
+        android:hint="@string/ivr_type_settings_hint"
+        android:title="@string/ivr_type_settings"
+        android:key="ivr_type"
+        app:entries="@array/ivr_type_settings_entries"
+        app:entryValues="@array/ivr_type_settings_values"/>
+</PreferenceScreen>

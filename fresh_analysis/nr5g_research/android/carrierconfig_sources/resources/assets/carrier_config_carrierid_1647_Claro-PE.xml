@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <string-array name="carrier_certificate_string_array" num="3">
+      <item value="2333f4065b9f054363ca63d1866cc168f45d641645b31131b14e173b9c922d15:co.sitic.pp"/>
+      <item value="14d54c64599a3e9a3b766239b160de3935093e0a:co.sitic.pp"/>
+      <item value="f54cac11d5af77a5f10c21d536ad5d1c40b00d63a92cab917aa84dc714d622d8:co.sitic.pp"/>
+    </string-array>
+    <!-- MIUI ADD: GPS_ClaroReq -->
+    <!-- Values for GPS configuration -->
+    <string name="gps.supl_host"></string>
+    <string name="gps.supl_port"></string>
+    <string name="gps.supl_ver">0x20000</string>
+    <string name="gps.supl_mode">0</string>
+    <string name="gps.supl_es">0</string>
+    <string name="gps.lpp_profile">0</string>
+    <string name="gps.use_emergency_pdn_for_emergency_supl">0</string>
+    <string name="gps.a_glonass_pos_protocol_select">2</string>
+    <string name="gps.gps_lock">0</string>
+    <!-- MIUI ADD: GPS_SuplDefault -->
+    <boolean name="gps.enable_ni_supl_message_injection_bool" value="true"/>
+    <!-- END GPS_SuplDefault -->
+    <!-- END GPS_ClaroReq -->
+</carrier_config>
+

@@ -1,0 +1,13 @@
+package com.google.android.appfunctions.schema.common.v1.fitness;
+
+/* JADX INFO: compiled from: Fitness.kt */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class StartExerciseParams {
+    public abstract ExerciseGoal getExerciseGoal();
+
+    public abstract String getExerciseType();
+
+    public abstract String getId();
+
+    public abstract String getNamespace();
+}

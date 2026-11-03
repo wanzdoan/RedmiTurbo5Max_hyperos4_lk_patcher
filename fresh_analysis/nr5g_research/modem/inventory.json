@@ -1,0 +1,1956 @@
+{
+  "modem.img": {
+    "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\modem.img",
+    "size": 121970384,
+    "sha256": "93df50a5c641d547c68a28ec34b7cc22e6f3cd3b0c2bf27d4eb1b360ef38d876",
+    "first256_hex": "88168858000095026d6431726f6d000000000000000000000000000000000000000000000000000000000000ffffffff8916895800020000010000000000000100000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "last128_hex": "6d64315f6d6464623d4d4444425f496e666f437573746f6d417070537263505f4d54363939315f5330305f4d4f4c595f4e5231375f52325f4d50325f5443385f5052315f53505f5631325f5031352e4544420a6d64315f6d646d6c61796f75743d6d646d5f6c61796f75745f646573632e6461740a0000000000000000000000",
+    "ext4_magic_at1080": "0000",
+    "sparse_magic": "88168858",
+    "searches": {
+      "plmn_vietnam": {
+        "count": 3,
+        "first_hits": [
+          {
+            "offset": 38035108,
+            "match": "45202",
+            "context_ascii": "............73402...DIGITEL.........................................DIGITEL.........................45202...VN VINAPHONE....................................GPC.............................65538...rain............................................rain....................................."
+          },
+          {
+            "offset": 38064852,
+            "match": "45204",
+            "context_ascii": "............43408...UzMobile........................................UzMobile........................45204...VIETTEL.........................................VIETTEL.........................54900...DIGICEL.........................................DIGICEL.........................65510...M"
+          },
+          {
+            "offset": 38078932,
+            "match": "45201",
+            "context_ascii": "............43405...UZB Ucell.......................................Ucell...........................45201...VN Mobifone.....................................Mobifone........................54927...Bluesky.........................................Bluesky.................................."
+          }
+        ]
+      },
+      "country_vietnam": {
+        "count": 2,
+        "first_hits": [
+          {
+            "offset": 38004492,
+            "match": "Viettel",
+            "context_ascii": "....42203...Ooredoo Oman....................................Ooredoo.........................71615...Viettel Peru....................................VTP.............................53703...DIGICEL.........................................DIGICEL.........................26006...Play......."
+          },
+          {
+            "offset": 38035119,
+            "match": "VINAPHONE",
+            "context_ascii": ".73402...DIGITEL.........................................DIGITEL.........................45202...VN VINAPHONE....................................GPC.............................65538...rain............................................rain...................................................."
+          }
+        ]
+      },
+      "nr_rat": {
+        "count": 119,
+        "first_hits": [
+          {
+            "offset": 34408188,
+            "match": "ENDC",
+            "context_ascii": "8X, frc = 0x%08X....[SUB6_SERDES][ERR][%s][%s][Gemini HW Check Fail] NR mul_overflow now: 0x%08X....ENDC....[SUB6_SERDES][INFO][META_DEINIT] sub6_dl_runtime_lane_num_var = %u......[SUB6_SERDES][INFO][META_DEINIT] sub6_ul_runtime_lane_num_var = %u......[SUB6_SERDES][INFO][%s][%s]-----"
+          },
+          {
+            "offset": 34603008,
+            "match": "ENDC",
+            "context_ascii": "ect.Force Report, RRC change to Idle....PCIe is in L2 State, ABORT..PCIe will return to L0 State....ENDC(LTE+FR1+FR2) CNF...ENDC CNF....NNDC CNF....RRC Idle....RRC GSM.RRC C2K.RRC WCDMA...RRC LTE.RRC NR FR1..PCIe entering L2 State, report ENNDC(MAX)...PMAX [ISR] setting delay....Atte"
+          },
+          {
+            "offset": 34603032,
+            "match": "ENDC",
+            "context_ascii": "ange to Idle....PCIe is in L2 State, ABORT..PCIe will return to L0 State....ENDC(LTE+FR1+FR2) CNF...ENDC CNF....NNDC CNF....RRC Idle....RRC GSM.RRC C2K.RRC WCDMA...RRC LTE.RRC NR FR1..PCIe entering L2 State, report ENNDC(MAX)...PMAX [ISR] setting delay....Attempt to report same power"
+          },
+          {
+            "offset": 34767918,
+            "match": "ENDC",
+            "context_ascii": "..cdm_user_l1__EL1D_TX_RFDB...cdm_user_l1__MML1_CMN_RFDB..cdm_user_l1__MML1_NBI...cdm_user_l1__MML1_ENDC..cdm_user_l1__DUMMY_NR_END...cdm_user_l1__DUMMY_LTE_START....cdm_user_l1__EL1_TSTM...cdm_user_l1__DUMMY_LTE_END..cdm_user_l1__DUMMY_MML1_START...cdm_user_l1__MML1_CALDATA_META..cd"
+          },
+          {
+            "offset": 34774579,
+            "match": "nr_band",
+            "context_ascii": "c_nr_cap_single_band_list....cdm_user_ps_nrrc_nr_cap_select_band_comb....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1540..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1700..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1720..cdm_user_p"
+          },
+          {
+            "offset": 34774627,
+            "match": "nr_band",
+            "context_ascii": "_cap_select_band_comb....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1540..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1700..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1720..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1730..cdm_us"
+          },
+          {
+            "offset": 34774679,
+            "match": "nr_band",
+            "context_ascii": "nr_band_comb_list....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1540..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1700..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1720..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1730..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1740..cdm_us"
+          },
+          {
+            "offset": 34774731,
+            "match": "nr_band",
+            "context_ascii": "and_comb_list_v1540..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1700..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1720..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1730..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1740..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_band_list_v17"
+          },
+          {
+            "offset": 34774783,
+            "match": "nr_band",
+            "context_ascii": "and_comb_list_v1700..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1720..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1730..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1740..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_band_list_v1730....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v"
+          },
+          {
+            "offset": 34774835,
+            "match": "nr_band",
+            "context_ascii": "and_comb_list_v1720..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1730..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1740..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_band_list_v1730....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1780..cdm_user_ps_nrrc_nr_cap_ie_nr_ca_v1780_aggbw_f"
+          },
+          {
+            "offset": 34774887,
+            "match": "nr_band",
+            "context_ascii": "and_comb_list_v1730..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1740..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_band_list_v1730....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1780..cdm_user_ps_nrrc_nr_cap_ie_nr_ca_v1780_aggbw_fr1....cdm_user_ps_nrrc_nr_cap_feature_set_downlink_v"
+          },
+          {
+            "offset": 34774951,
+            "match": "nr_band",
+            "context_ascii": "t_v1740..cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_band_list_v1730....cdm_user_ps_nrrc_nr_cap_ie_nr_band_comb_list_v1780..cdm_user_ps_nrrc_nr_cap_ie_nr_ca_v1780_aggbw_fr1....cdm_user_ps_nrrc_nr_cap_feature_set_downlink_v1540..cdm_user_ps_nrrc_nr_icd_freq....cdm_user_ps_nrrc_freq_band"
+          },
+          {
+            "offset": 34799013,
+            "match": "ENDC",
+            "context_ascii": "...NR_2_CAP_DIP....NL1_CTRL_DIP....TX_CG_DYNCTRL_DIP...CSM_MPC_DIP.DIP_TA_SAR_PD...NR_RFCC_DIP.MML1_ENDC_DIP...AudDIP..DPMAIF_DIP..GPT1_DIP....EINT_DIP....DEINT_DIP...UAR1_DIP....UAR2_DIP....GDM2_DIP....SIMA_DIP....SIMB_DIP....USIA_DIP....USIB_DIP....IDCUART_DIP.DS_DIP..GPT5_DIP....C"
+          },
+          {
+            "offset": 35104051,
+            "match": "nr_band",
+            "context_ascii": "..h.d.....dchd...ims_srvcc_enable....priority_band...errc_data_inactive_timer....b1_nr_config....b1_nr_bands.customize_q_rxlv_min....customize_q_qual_min.....h..ims_early_conn_rel..priority_band_enh...dsc_lte_release.errc_feature_set....errc_feature_get....ssac_reselect...hstg....endc_c"
+          },
+          {
+            "offset": 35127392,
+            "match": "NR band",
+            "context_ascii": " mimo capa when pre-check mimo capability in RF CA table....[carrier support check]NRRC Query CA is NR band only, indicated as supported....CONTEXT_WRITE_IND cause is not valid....errc_rcm_get_lte_support_band_for_plmn_list.band plus ca_num....errc_rcm_filter_lte_support_band_by_ww_conf"
+          },
+          {
+            "offset": 35335355,
+            "match": "ENDC",
+            "context_ascii": "ABORT_PLMN_LIST_SEARCH...NW_GET_POL_CAPABILITY...NW_SET_PREFER_RAT...NW_GET_OPERATOR_NAME....NW_SET_ENDC_CONFIG..NW_SET_LTE_CARRIER_AGGREGATION_SWITCH...NW_SET_PS_CS_REGISTRATION_STATE_ROAMING_TYPE....NW_GET_LTE_CARRIER_AGGREGATION_SWITCH...NW_GET_CURRENT_BAND_INFO....NW_CELL_MEASURE"
+          },
+          {
+            "offset": 35336445,
+            "match": "ENDC",
+            "context_ascii": "W_GET_CDMA_ROAMING_PREFERENCE..NW_GET_BARRING_INFO.NW_GET_EHRPD_INFO...NW_GET_EGMSS....NW_SET_CACHE_ENDC_CONNECT_MODE..NW_SET_PS_TEST_MODE.NW_GET_PS_TEST_MODE.NW_SET_SIGNAL_REPORT_CRITERIA...NW_GET_ECAINFO..NW_GET_ACTIVITY_INFO....NW_SET_CA...NW_GET_LTE_RRC_STATE....NW_GET_LTE_1XRTT_"
+          },
+          {
+            "offset": 35342995,
+            "match": "ENDC",
+            "context_ascii": "ON_CFG...NW_GET_ENWCFGINFO...NW_SET_BARRING_RLF_CONFIG...NW_SET_RX_MIMO_CAP..NW_MIPI.NW_BPI..NW_SET_ENDC_DEACT...NW_GET_ENDC_DEACT...NW_SET_SA_SILENCE...NW_GET_SA_SILENCE...NW_SET_TX_POWER_REDUCTION...NW_GET_TX_POWER_REDUCTION...NW_SET_LTE_OVERHEATING..NW_GET_LTE_OVERHEATING..NW_SET_"
+          },
+          {
+            "offset": 35343015,
+            "match": "ENDC",
+            "context_ascii": "FGINFO...NW_SET_BARRING_RLF_CONFIG...NW_SET_RX_MIMO_CAP..NW_MIPI.NW_BPI..NW_SET_ENDC_DEACT...NW_GET_ENDC_DEACT...NW_SET_SA_SILENCE...NW_GET_SA_SILENCE...NW_SET_TX_POWER_REDUCTION...NW_GET_TX_POWER_REDUCTION...NW_SET_LTE_OVERHEATING..NW_GET_LTE_OVERHEATING..NW_SET_NR_OVERHEATING...NW_"
+          },
+          {
+            "offset": 35478396,
+            "match": "ENDC",
+            "context_ascii": "IM number overflow..Invalid RAT=%d..sim_idx exceed global dimension.cfg_id exceed global dimension..ENDC_JOINT_RF_CFG_EVENT_GROUP...p_fallback_out is not filled....p_fallback_out is filled in non-DR..SIM index is invalid: sim_idx = %d .l1/mml1/mml1_endc/src/mml1_endc_lpath_alloc.c..."
+          },
+          {
+            "offset": 35597852,
+            "match": "ENDC",
+            "context_ascii": "PATH_1..NL1_TPC_FORCE_NORMAL_MODE...NL1_TPC_FORCE_FIXGAIN_MODE..NL1_TPC_CLOSE_LOOP_STATUS...NL1_TPC_ENDC_DPS_STATUS.NL1_TPC_RF_PWR_LIMIT_STATUS.NL1_TPC_DDPC_EXTEND_STATUS..NL1_TPC_TTI_BOUNDARY_AHEAD..NL1_TPC_TTI_BOUNDARY_DELAY..NL1_TPC_TXDFE_TTI_BOUNDARY_AHEAD_PRACH..NL1_TPC_TXDFE_TT"
+          },
+          {
+            "offset": 35659273,
+            "match": "ENDC",
+            "context_ascii": "_NRRC_NL1_SET_RAT_REQ..[TST] send MSG_ID_NRRC_NL1_DEACTIVATE_REQ...[TST] send MSG_ID_NL1_NL1_EM_LTE_ENDC_RF_SCAN_TRIGGER_STOP_REQ..[TST] send MSG_ID_NRRC_NL1_CONNECTED_CONFIG_REQ.[TST] send MSG_ID_NRRC_NL1_RANDOM_ACCESS_REQ....[TST] send MSG_ID_NL1_NL1_EM_LTE_ENDC_RF_SCAN_TRIGGER_STA"
+          },
+          {
+            "offset": 35659433,
+            "match": "ENDC",
+            "context_ascii": "NNECTED_CONFIG_REQ.[TST] send MSG_ID_NRRC_NL1_RANDOM_ACCESS_REQ....[TST] send MSG_ID_NL1_NL1_EM_LTE_ENDC_RF_SCAN_TRIGGER_START_REQ.[TST] send MSG_ID_NMAC_NL1_MAC_RESET_REQ....[LONG PERIOD RSSI][AGC] tg_idx = %d, cc_idx = %d, rssi_idx = %d, rssi counter = %d, rssi value = %d , comp va"
+          },
+          {
+            "offset": 35661434,
+            "match": "ENDC",
+            "context_ascii": "_NL1_BCCH_REQ.[V][G99] Multi Carrier TTPS LTE ILM setting ....[TST] send MSG_ID_NL1_NL1_EM_SIM1_LTE_ENDC_RF_SCAN_START_REQ SIM1 is_endc:%d ...[TST] send MSG_ID_NL1_NL1_EM_SIM2_LTE_ENDC_RF_SCAN_START_REQ  SIM2 is_endc:%d ..[TST] NL1_SIM_IDX_1.[TST] NL1_SIM_IDX_2.[TST] send MSG_ID_NRRC"
+          },
+          {
+            "offset": 35661514,
+            "match": "ENDC",
+            "context_ascii": "NL1_NL1_EM_SIM1_LTE_ENDC_RF_SCAN_START_REQ SIM1 is_endc:%d ...[TST] send MSG_ID_NL1_NL1_EM_SIM2_LTE_ENDC_RF_SCAN_START_REQ  SIM2 is_endc:%d ..[TST] NL1_SIM_IDX_1.[TST] NL1_SIM_IDX_2.[TST] send MSG_ID_NRRC_NL1_IDLE_CONFIG_REQ..[TST] send MSG_ID_NL1_NL1_EM_LTE_ENDC_RF_SCAN_STOP_REQ..[T"
+          },
+          {
+            "offset": 35661673,
+            "match": "ENDC",
+            "context_ascii": "_1.[TST] NL1_SIM_IDX_2.[TST] send MSG_ID_NRRC_NL1_IDLE_CONFIG_REQ..[TST] send MSG_ID_NL1_NL1_EM_LTE_ENDC_RF_SCAN_STOP_REQ..[TST] MSG_ID_STISR_NL1_META_TASK_WAKE_IND after MSG_ID_NL1_CTRL_IDC_SCH_NTF.[TST] send MSG_ID_STISR_NL1_META_TASK_WAKE_IND after MSG_ID_NL1_NL1_SET_RNTI_VALUE..["
+          },
+          {
+            "offset": 35665877,
+            "match": "ENDC",
+            "context_ascii": "V][G99] NR Foe force 0.[V][G99]for EVM is_force_foe=KALSE..[V][G99] for SFFT no reset FOE..[ASY_BW][ENDC][DBG] band=%d, ulBw=%d, ulRbBw=%d.[ASY_BW][ENDC][DBG] band=%d, ulBw=%d, ulRbBw=%d, ulFreq=%d..[V][G99] MC ssb_scs == trxScs...[V][G99] N79 rollback to input trxScs...[V][G99] MC R"
+          },
+          {
+            "offset": 35665925,
+            "match": "ENDC",
+            "context_ascii": "foe=KALSE..[V][G99] for SFFT no reset FOE..[ASY_BW][ENDC][DBG] band=%d, ulBw=%d, ulRbBw=%d.[ASY_BW][ENDC][DBG] band=%d, ulBw=%d, ulRbBw=%d, ulFreq=%d..[V][G99] MC ssb_scs == trxScs...[V][G99] N79 rollback to input trxScs...[V][G99] MC RX ONLY para is_dl_rx_only=TRUE.[V][G99] MC TRX i"
+          },
+          {
+            "offset": 35667814,
+            "match": "ENDC",
+            "context_ascii": "SI trace error....NL1_TST_TSTM_Ds_Endc_MultiCarrier_Cmd_Handler_Foe_Estimate..MSG_ID_NL1_NL1_EM_LTE_ENDC_RF_SCAN_FOE_REQ..[TST] is_dummy_rrc_flow.[V][G99][SFFT] bypass force foe flag on Ds_Endc_MC_Handler..[RFSCAN][L-CC%d] %d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d.[RFSCAN] u"
+          },
+          {
+            "offset": 35670547,
+            "match": "ENDC",
+            "context_ascii": "START_MIX_RX_TX_GET_RPT Use wrong Op mode: mixRxOpMode=%d, should use op_mode=3..NL1TST_META_CMD_DS_ENDC_RFSCAN->This cmd is phased out .NL1TST_META_CMD_START_MIX_RX_TX_GET_RPT: measCnt=%d,dlfreq=%d,trxScs=%d,band=%d,rxRoute=%d..[BGNVTST][NL1TST_BGNV_SET_CALDATA_Handler] NR set calda"
+          },
+          {
+            "offset": 35670879,
+            "match": "ENDC",
+            "context_ascii": "ALDATA_Handler] NR set caldata to NVRAM fail.....[V][G99] bypass 1st rssi rpt....[V][G99] PCC CRNTI ENDC STOP....[V][RBRSSI][Record] RSSI M[%d] RSSI D[%d] OA ANT MASK=%d....[V][G99] PCC CRNTI ENDC STOP && WAIT RPT=TRUE...[V][G99] MIX RX TX GET REPORT Start STOP....[V][G99] MULTICARRI"
+          },
+          {
+            "offset": 35670971,
+            "match": "ENDC",
+            "context_ascii": "C CRNTI ENDC STOP....[V][RBRSSI][Record] RSSI M[%d] RSSI D[%d] OA ANT MASK=%d....[V][G99] PCC CRNTI ENDC STOP && WAIT RPT=TRUE...[V][G99] MIX RX TX GET REPORT Start STOP....[V][G99] MULTICARRIER Start STOP....[V][G99] bypass PCC CRNTI ENDC STOP flow....[TST][SC_GET_RB_TYPE] GET RB_TY"
+          },
+          {
+            "offset": 35671106,
+            "match": "ENDC",
+            "context_ascii": "9] MIX RX TX GET REPORT Start STOP....[V][G99] MULTICARRIER Start STOP....[V][G99] bypass PCC CRNTI ENDC STOP flow....[TST][SC_GET_RB_TYPE] GET RB_TYPE flow done.l1/nl1/internal/src/tst/nr_tst_tstm_rx_op_handler.c.[NTST][FR1][PS]: DB(s25.6Hz) %d, total(s25.6Hz) %d..[TST][NRT UPDT][De"
+          },
+          {
+            "offset": 35676617,
+            "match": "ENDC",
+            "context_ascii": " idx:%d ...HW_CONFIG_PWR_Type%d_Set%d.mcfrawota....The rb_alloc_type is NL1_ALMOST_CONTIGUOUS_RB in ENDC...The rb_alloc_type is NL1_NON_CONTIGUOUS_RB in ENDC..l1/nl1/internal/src/tx/nr_tx_ra_mcu.c...there is a ra beam not in the ssbPositionInBurst....NL1 Tx RA BFD Timer.l1/nl1/intern"
+          },
+          {
+            "offset": 35676670,
+            "match": "ENDC",
+            "context_ascii": "e rb_alloc_type is NL1_ALMOST_CONTIGUOUS_RB in ENDC...The rb_alloc_type is NL1_NON_CONTIGUOUS_RB in ENDC..l1/nl1/internal/src/tx/nr_tx_ra_mcu.c...there is a ra beam not in the ssbPositionInBurst....NL1 Tx RA BFD Timer.l1/nl1/internal/src/tx/nr_tx_rf_ctrl_mcu.c..l1/nl1/internal/src/tx"
+          },
+          {
+            "offset": 35709084,
+            "match": "nr_band",
+            "context_ascii": "perCC mapping buffer....Free UL perCC mapping buffer....Time: free featureset ids mapping tbl end...nr_band_combs_max_count.mrdc_band_combs_max_count...default value...[Inject] default CapabilityRequestFilterNR..Get NR Codebook parameter CDM buffer....p_nr_codebook_params is not NULL, f"
+          },
+          {
+            "offset": 35709450,
+            "match": "nr_band",
+            "context_ascii": "..Get NR Codebook parameter CDM buffer Success....Get NR Band combination list UL TX CDM buffer...p_nr_band_combination_list_ul_tx is not NULL, free NR Band combination list UL TX CDM buffer....Get NR Band combination list UL TX CDM buffer Fail..Get NR Band combination list UL TX CDM bu"
+          },
+          {
+            "offset": 35710265,
+            "match": "NR band",
+            "context_ascii": "1 CAP feature set combinations end.Time: count NL1 CAP feature set combinations end....sorting pair NR band....sorting pair Eutra band.Get nl1 band list CDM buffer....Get nl1 band list CDM buffer Fail...Free req_freqbandlist ICD FREQ_BANDLIST ....Free req_carequestfilternr ICD FREQ_BAND"
+          },
+          {
+            "offset": 35712156,
+            "match": "ENDC",
+            "context_ascii": "Time: print UL EUTRAN FS perCC end..Zero eutra fsb from NL1 query...nrrc_endc_band_comb_check start.ENDC COMB check function get CDM for FR1 fail...nrrc_ue_cap_l1_nr_band_combinations_get_for_comb_check before...nrrc_ue_cap_l1_nr_band_combinations_get_for_comb_check after....ENDC COM"
+          },
+          {
+            "offset": 35712219,
+            "match": "nr_band",
+            "context_ascii": "ry...nrrc_endc_band_comb_check start.ENDC COMB check function get CDM for FR1 fail...nrrc_ue_cap_l1_nr_band_combinations_get_for_comb_check before...nrrc_ue_cap_l1_nr_band_combinations_get_for_comb_check after....ENDC COMB check function get 0 index from NL1...ENDC COMB check function g"
+          },
+          {
+            "offset": 35712283,
+            "match": "nr_band",
+            "context_ascii": "t CDM for FR1 fail...nrrc_ue_cap_l1_nr_band_combinations_get_for_comb_check before...nrrc_ue_cap_l1_nr_band_combinations_get_for_comb_check after....ENDC COMB check function get 0 index from NL1...ENDC COMB check function get buffer for index fail..LTE_CA_MAX_NUM_SIMUL_BANDS not enough."
+          },
+          {
+            "offset": 35712332,
+            "match": "ENDC",
+            "context_ascii": "nations_get_for_comb_check before...nrrc_ue_cap_l1_nr_band_combinations_get_for_comb_check after....ENDC COMB check function get 0 index from NL1...ENDC COMB check function get buffer for index fail..LTE_CA_MAX_NUM_SIMUL_BANDS not enough...After white/black list..LTE check before...."
+          },
+          {
+            "offset": 35712380,
+            "match": "ENDC",
+            "context_ascii": "l1_nr_band_combinations_get_for_comb_check after....ENDC COMB check function get 0 index from NL1...ENDC COMB check function get buffer for index fail..LTE_CA_MAX_NUM_SIMUL_BANDS not enough...After white/black list..LTE check before....LTE check after.nrrc_endc_band_comb_check end. F"
+          },
+          {
+            "offset": 35712616,
+            "match": "ENDC",
+            "context_ascii": "LTE check after.nrrc_endc_band_comb_check end. Found....nrrc_endc_band_comb_check end. Not found....ENDC COMB check function not match..free NVRAM writing buffer...allocate for NVRAM writing..allocate for NVRAM writing fail.parse ca src is NULL....parse ca temp is NULL...< max_lte_pa"
+          },
+          {
+            "offset": 35713806,
+            "match": "ENDC",
+            "context_ascii": "p_list and temp_custom_band_combinations..APPEND abnormal.custom bc allocate fail when append.clear ENDC whitelist....custom_white_list_endc_band_combinations allocate fail..clear SA whitelist..custom_white_list_sa_band_combinations allocate fail....clear ENDC blacklist....custom_bla"
+          },
+          {
+            "offset": 35713962,
+            "match": "ENDC",
+            "context_ascii": "ns allocate fail..clear SA whitelist..custom_white_list_sa_band_combinations allocate fail....clear ENDC blacklist....custom_black_list_endc_band_combinations allocate fail..clear SA blacklist..custom_black_list_sa_band_combinations allocate fail....nl1 fs combination overflow.nl1 fs"
+          },
+          {
+            "offset": 35721040,
+            "match": "ENDC",
+            "context_ascii": ": bc list set...Skip check due to reach maximum valid freqbandlist number of NR.SA NR Not Supported.ENDC NR Not Supported...Skip check due to reach maximum valid freqbandlist number of EUTRA..Stripped....NR ENDC.NR SA...Time: Valid FreqBandList....feature_set_band_id > feature_set_dl"
+          },
+          {
+            "offset": 35721147,
+            "match": "ENDC",
+            "context_ascii": " Not Supported...Skip check due to reach maximum valid freqbandlist number of EUTRA..Stripped....NR ENDC.NR SA...Time: Valid FreqBandList....feature_set_band_id > feature_set_dl_band_num...feature_set_carrier_id > feature_set_dl_carrier_num.Remap NL1...Time: NL1 BC filter(unsorted).."
+          },
+          {
+            "offset": 35721388,
+            "match": "NR band",
+            "context_ascii": "Remap NL1...Time: NL1 BC filter(unsorted)...finish bubble sorting algorithm.Remap Unsorted..sorting NR band.sorting Eutra band..(Normal)Remap Unsorted..Candidate: Remap NL1....Time: Candidate list....Time: LTE CA filter.Time: fallback CA...Get unsorted band combination CDM buffer Fail.."
+          },
+          {
+            "offset": 35721674,
+            "match": "NR band",
+            "context_ascii": "..Get allowed feature sets CDM buffer Fail....[CAP] FSC[%u] set failure for bc_in_idx[%u]!....[CAP] NR band[%u] should be in FreqBandList, but not....[CAP] LTE band[%u] should be in FreqBandList, but not...Time: ue cap FS per BC cdm free start...mrdc_cap_prep...Time: FSC set...Time: FS "
+          },
+          {
+            "offset": 35722092,
+            "match": "ENDC",
+            "context_ascii": "p_supported_band_list_nr_free: Freed mimo_ctrl_buf_cnt[%d]..Time: ue cap cdm free start.Set existed ENDC....Set existed SA..Set unused ENDC.Set unused SA...Replace longest_duration ENDC...Replace longest_duration SA.d.c.dcdc....[Inject] fake CapabilityRequestFilterNR is used.Time: ge"
+          },
+          {
+            "offset": 35722127,
+            "match": "ENDC",
+            "context_ascii": "d mimo_ctrl_buf_cnt[%d]..Time: ue cap cdm free start.Set existed ENDC....Set existed SA..Set unused ENDC.Set unused SA...Replace longest_duration ENDC...Replace longest_duration SA.d.c.dcdc....[Inject] fake CapabilityRequestFilterNR is used.Time: get eutran featureset ids start...Tim"
+          },
+          {
+            "offset": 35722173,
+            "match": "ENDC",
+            "context_ascii": " start.Set existed ENDC....Set existed SA..Set unused ENDC.Set unused SA...Replace longest_duration ENDC...Replace longest_duration SA.d.c.dcdc....[Inject] fake CapabilityRequestFilterNR is used.Time: get eutran featureset ids start...Time: get eutran featureset ids end.[Inject] fake"
+          },
+          {
+            "offset": 35793896,
+            "match": "ENDC",
+            "context_ascii": "SABLE...SBP_VGSM_OPTIMIZED_T35XX_VALUE..SBP_4G5_VGSM_INIT_MOD_BACKOFF_TIME..SBP_TX_PCMAX_OFFSET.SBP_ENDC_EN_AMPR....SBP_PDCP_DISC_TMR_VOICE_RB..SBP_NR_CA_MAX_UL_CC_NUM.SBP_CAP_DNCA_RECORD_LIFE_TIMER..SBP_NR_REL16_DIRECT_SCELL_ACT...SBP_RCGI_WITH_AUTO_GAP_R16..SBP_NR_REL16_RESUME_WITH"
+          },
+          {
+            "offset": 35795460,
+            "match": "NR_SA",
+            "context_ascii": "DISABLE_TIMER_VALUE_UNIT....SBP_NR_DL_POS_METHOD_SWITCH.SBP_POS_MEMORY_SHARING_METHOD_SWITCH....SBP_NR_SA_TX_DOWNGRADE..SBP_NR_SA_RX_DOWNGRADE..SBP_ENDC_PREFER_RESELECTION_ENHANCEMENT.SBP_N1_DISABLE_IRAT_FAIL_TIMER_VALUE....SBP_NWSEL_IMS_OOS_SEARCH_GUARD_TIMER....SBP_IDC_TABLE_NVRAM_E"
+          },
+          {
+            "offset": 35795484,
+            "match": "NR_SA",
+            "context_ascii": "....SBP_NR_DL_POS_METHOD_SWITCH.SBP_POS_MEMORY_SHARING_METHOD_SWITCH....SBP_NR_SA_TX_DOWNGRADE..SBP_NR_SA_RX_DOWNGRADE..SBP_ENDC_PREFER_RESELECTION_ENHANCEMENT.SBP_N1_DISABLE_IRAT_FAIL_TIMER_VALUE....SBP_NWSEL_IMS_OOS_SEARCH_GUARD_TIMER....SBP_IDC_TABLE_NVRAM_EN..SBP_WHEN_TO_SEND_PEND"
+          },
+          {
+            "offset": 35795508,
+            "match": "ENDC",
+            "context_ascii": "_SWITCH.SBP_POS_MEMORY_SHARING_METHOD_SWITCH....SBP_NR_SA_TX_DOWNGRADE..SBP_NR_SA_RX_DOWNGRADE..SBP_ENDC_PREFER_RESELECTION_ENHANCEMENT.SBP_N1_DISABLE_IRAT_FAIL_TIMER_VALUE....SBP_NWSEL_IMS_OOS_SEARCH_GUARD_TIMER....SBP_IDC_TABLE_NVRAM_EN..SBP_WHEN_TO_SEND_PENDING_CRING..SBP_DISABLE_"
+          },
+          {
+            "offset": 35799917,
+            "match": "ENDC",
+            "context_ascii": "BP_NR_MAX_UL_DUTY_CYCLE_INTERBAND_PC2..SBP_NR_MAX_UL_DUTY_CYCLE_SUL_PC2....SBP_NR_MAX_UL_DUTY_CYCLE_ENDC_TDD_PC2...SBP_ERRC_SERVING_BAR_REESTABLISH_CONDITION_CHECK....SBP_NR_MAX_UL_DUTY_CYCLE_ENDC_FDD_TDD_PC2...SBP_VGMM_REJ_111_MAX_ATTEMPT_CNT....SBP_SW_INFO_FOR_TA_TOOL.SBP_TPCI_HYS_"
+          },
+          {
+            "offset": 35800009,
+            "match": "ENDC",
+            "context_ascii": "Y_CYCLE_ENDC_TDD_PC2...SBP_ERRC_SERVING_BAR_REESTABLISH_CONDITION_CHECK....SBP_NR_MAX_UL_DUTY_CYCLE_ENDC_FDD_TDD_PC2...SBP_VGMM_REJ_111_MAX_ATTEMPT_CNT....SBP_SW_INFO_FOR_TA_TOOL.SBP_TPCI_HYS_TIMER_PERIOD...SBP_IRAT_HYS_TIMER_PERIOD...SBP_5GUW_NR_SERVING_CHANGE..SBP_5GUW_LTE_SERVING_"
+          },
+          {
+            "offset": 35801406,
+            "match": "ENDC",
+            "context_ascii": "A_TYPE....SBP_HPLMN_STORED_SEARCH_TIMER_FOR_ONESHOT_RPLMN_STORED_SEARCH...SBP_NRRC_CAP_BC_WHITELIST_ENDC_NUM..SBP_NRRC_CAP_BC_WHITELIST_SA_NUM....SBP_NRRC_ERM_ERROR_RECOVERY_RELEASE_PENALTY_TIMER_VALUE.SBP_NRRC_ESCAPE_NR_WHEN_DATA_STALL_UNDER_CONNECTED..SBP_VGSM_CUSTOM_T35XX_TIMER_EX"
+          },
+          {
+            "offset": 35829108,
+            "match": "ENDC",
+            "context_ascii": "SBP_3340_EXPIRY_NO_SCRI_WHEN_RAB_ACTIVE.SBP_CUSTOM_BAND_SUPPORT_PER_REGION..SBP_NAS_ROAMING_DISABLE_ENDC....SBP_3G4_RESEL_CUSTOM_EUTRA_QRXLEVMIN....SBP_DISABLE_PLMN_CHECK_FOR_MODEM_ELEVATOR_MODE..SBP_RAC_DSPL_C2K_WHEN_1X_CALL_ONGOING...SBP_IGNORE_3G_CB_DUP_CHECK..SBP_EMM_NBC_CR616_SU"
+          },
+          {
+            "offset": 35829604,
+            "match": "ENDC",
+            "context_ascii": "LMN_UPDATE..SBP_KOR_OP115_NULL_MSISDN_REG...SBP_IGNORE_A5_4_SUPPORT_IN_SMC..SBP_SIM_ARREARAGE...SBP_ENDC_PREFER_SEARCH..SBP_4G5_HO_MRU_PARTIAL_CIPHER_ENABLE....SBP_SAT_MANUAL_VERIFY_IN_REFRESH_RESET..SBP_IMS_SUPPORT_IRAT_SET_ACTIVE_FLAG....SBP_SKIP_EMC_REJECT_WHEN_EMC_BS_FALSE_SIB_SU"
+          },
+          {
+            "offset": 35831796,
+            "match": "ENDC",
+            "context_ascii": "E_RESEL_IF_EST_EVER_FAIL....SBP_NR_PLMN_BASED_BAND_41_AMPR..SBP_NR_DCI_IN_MEAS_GAP_WORKAROUND...SBP_ENDC_DISABLE_NR_B1_DURING_VOLTE.SBP_PDN_TAU_COLLISION_NOT_SET_ACTIVE_FLAG...SBP_REJECT_IRRDT_E2UG_AFTER_RECEIVING_REJECT_CAUSE13....SBP_SHORT_T3417EXT_OPTMZ_FOR_CSFB_AFTR_VOLTE_CALL_FA"
+          },
+          {
+            "offset": 35833042,
+            "match": "ENDC",
+            "context_ascii": "G_SUPPORT_ALWAYS_ON...SBP_BLOCK_ILLEGAL_UE....SBP_BLOCK_ILLEGAL_ME_FOR_CUSTOM_PLMN....SBP_MODEM_LTE_ENDC_ELEVATOR_MODE....SBP_WIFI_CELLULAR_HO_THRESHOLD..SBP_SEARCH_23G_WHEN_REJECT_39CAUSE..SBP_FLIGHT_MODE_RESET_T3402.SBP_ORDER_CA_WITH_ENABLELIST....SBP_EMM_TRIGGER_TAU_UPON_IRRDT_4G5"
+          },
+          {
+            "offset": 35833568,
+            "match": "ENDC",
+            "context_ascii": "E_CONTROL_PARAMS....SBP_SIM_ALLOW_REFRESH_FCN_WHEN_ME_BUSY..SBP_SAT_DELAY_REFRESH_DURING_CALL...SBP_ENDC_PREFER_A2_ENH..SBP_L4C_INVALID_ECELL_INFO_WHEN_ENTER_OOS...SBP_DISABLE_SIM_RECOVERY_TIMER_WHEN_PLUG_OUT....SBP_DISABLE_EUTRAN_WHILE_LTE_ONLY...SBP_OP09_HVOLTE_DEFAULT_VOPS_MODE..."
+          },
+          {
+            "offset": 35833803,
+            "match": "ENDC",
+            "context_ascii": "E_LTE_ONLY...SBP_OP09_HVOLTE_DEFAULT_VOPS_MODE...SBP_MIPC_PIN_INFO_REPORT_PIN2_SUPPORT...SBP_CONFIG_ENDC_COMB_BY_SBPID...SBP_SKIP_CA_CUSTOMIZATION...SBP_CHECKING_CA_WITH_RF_CAP.SBP_NR_CA...SBP_RAT_MODE_SETTING_FOR_OP129..SBP_RAT_MODE_SETTING_FOR_OP17...SBP_CHANGE_RAT_FOR_CUSTOM_IMSI."
+          },
+          {
+            "offset": 35835338,
+            "match": "ENDC",
+            "context_ascii": "_CONNECTED_SIB1_FAIL_ENHANCEMENT..SBP_BAR_CELL_CAUSE_NOT_SHARED_WITH_SR_TRIGGERED.SBP_MODEM_LTE_NON_ENDC_TO_ENDC_RESEL_THRESHOLD..SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN..SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO....SBP_3G_FAST_PLMN_LIST_INFO..SBP_BLIND_FR_2G_FDD.SB"
+          },
+          {
+            "offset": 35835346,
+            "match": "ENDC",
+            "context_ascii": "ED_SIB1_FAIL_ENHANCEMENT..SBP_BAR_CELL_CAUSE_NOT_SHARED_WITH_SR_TRIGGERED.SBP_MODEM_LTE_NON_ENDC_TO_ENDC_RESEL_THRESHOLD..SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN..SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO....SBP_3G_FAST_PLMN_LIST_INFO..SBP_BLIND_FR_2G_FDD.SBP_BUILT_"
+          },
+          {
+            "offset": 35836022,
+            "match": "ENDC",
+            "context_ascii": "LAI_TO_MM_TO_UPDATE_CS_LOCI...SBP_TRIGGER_SEARCH_IN_SHARED_NW_FOR_EMC_ATTACH_FAILURE..SBP_MODEM_HST_ENDC_BAND_PERFERENCE..SBP_NWSEL_SELECT_HIGHEST_PRIORITY_EHPLMN....SBP_ENABLE_PARTIAL_BAND_IN_JAPAN....SBP_ABORT_MANUAL_PLMN_LIST_WHEN_MT_CALL.SBP_NA_ENDC_PWR_24DBM...SBP_LTE_WITH_NR_NE"
+          },
+          {
+            "offset": 35836171,
+            "match": "ENDC",
+            "context_ascii": "IORITY_EHPLMN....SBP_ENABLE_PARTIAL_BAND_IN_JAPAN....SBP_ABORT_MANUAL_PLMN_LIST_WHEN_MT_CALL.SBP_NA_ENDC_PWR_24DBM...SBP_LTE_WITH_NR_NEIGHBOR_PREFER.SBP_NR_SON_GNSS_LOCATION....SBP_NR_SON_RACH_REPORT..SBP_NR_MDT_UL_PDCP_DELAY....SBP_LTE_GAPLESS_MEAS_FOR_INTERRAT_NR_TEST_MODE..SBP_NR_"
+          },
+          {
+            "offset": 35836536,
+            "match": "ENDC",
+            "context_ascii": "SINGLE_PHR_P....SBP_2ND_DRX_GRP.SBP_NR_EPS_VOICE_FALLBACK...SBP_LTE_OVERHEATING_ASSISTANCE..SBP_LTE_ENDC_SCG_OVERHEATING_ASSISTANCE.SBP_POWER_SAVING_RRM_RELAXATION_APPLY_SPEC_VER..SBP_LTE_SUPPORT_SCHEDULING_INFO_EXT_V12.SBP_NRRC_BAR_CELL_WITH_CONNECTION_FAILURE...SBP_FORCE_DR30_RECON"
+          },
+          {
+            "offset": 35838636,
+            "match": "ENDC",
+            "context_ascii": "E_0.SBP_ERRC_PREFER_LARGE_BW_FOR_RESEL..SBP_DISALLOW_IMS_TRANSFER_FOR_4G5_RESEL_WITHOUT_SNSSAI..SBP_ENDC_EMR....SBP_MD_REPORT_NULL_IMS_CAPA_AT_23G_OR_OOS...SBP_PREFER_RPLMN_RAT_FLIGHT_MODE_ONLY...SBP_ENABLE_NR_BW_SETTING_LIST_FOR_SIMPLIFICATION_SCENARIO...SBP_VGMM_PAGING_NON_PREEMPTE"
+          },
+          {
+            "offset": 35840008,
+            "match": "ENDC",
+            "context_ascii": "RESELECTION_OFFSET_VALID....SBP_HSPA_TO_LTE_FAST_RESEL..SBP_RF_MIMO_SET_CONTROL_NVRAM...SBP_DISABLE_ENDC_PREFER_WHEN_ENDC_DEACTIVATED...SBP_VGMM_REL_REG_UPDATE_IRAT_EARLY..SBP_ENDC_PREFER_SEARCH_IN_FR....SBP_AUTH_WITHOUT_USIM_DF_SELECT_IF_SELECTED_BEFORE..SBP_CONTINUOUS_4G5_REDIRECTI"
+          },
+          {
+            "offset": 35840025,
+            "match": "ENDC",
+            "context_ascii": "T_VALID....SBP_HSPA_TO_LTE_FAST_RESEL..SBP_RF_MIMO_SET_CONTROL_NVRAM...SBP_DISABLE_ENDC_PREFER_WHEN_ENDC_DEACTIVATED...SBP_VGMM_REL_REG_UPDATE_IRAT_EARLY..SBP_ENDC_PREFER_SEARCH_IN_FR....SBP_AUTH_WITHOUT_USIM_DF_SELECT_IF_SELECTED_BEFORE..SBP_CONTINUOUS_4G5_REDIRECTION_FAILURE..SBP_D"
+          },
+          {
+            "offset": 35840084,
+            "match": "ENDC",
+            "context_ascii": "ROL_NVRAM...SBP_DISABLE_ENDC_PREFER_WHEN_ENDC_DEACTIVATED...SBP_VGMM_REL_REG_UPDATE_IRAT_EARLY..SBP_ENDC_PREFER_SEARCH_IN_FR....SBP_AUTH_WITHOUT_USIM_DF_SELECT_IF_SELECTED_BEFORE..SBP_CONTINUOUS_4G5_REDIRECTION_FAILURE..SBP_DR_SEARCH...SBP_DISABLE_UPDATE_SOR_FROM_NVRAM...SBP_VGMM_MRU"
+          },
+          {
+            "offset": 35841416,
+            "match": "NR_DISABLE",
+            "context_ascii": "_NR_PRIORITY_FR2_X1_FR1.SBP_ERRC_SKIP_MR_DURING_TAU.SBP_L5_SEND_ECNCFG_AUTO.SBP_VGMM_R16_CR1398.SBP_NR_DISABLE_TX_PORT_SWITCH_FOR_N77...SBP_VGMM_DEACT_INTERNET_PDUS_IND....SBP_ENABLE_UL_THROTTLE_IN_TMC_COOLER_TABLE..SBP_ERRC_ENDC_CELL_OFFSET_OPTIMIZATION..SBP_SEND_EIMSCMODE_AFTER_REJECT_VI"
+          },
+          {
+            "offset": 35841541,
+            "match": "ENDC",
+            "context_ascii": "_FOR_N77...SBP_VGMM_DEACT_INTERNET_PDUS_IND....SBP_ENABLE_UL_THROTTLE_IN_TMC_COOLER_TABLE..SBP_ERRC_ENDC_CELL_OFFSET_OPTIMIZATION..SBP_SEND_EIMSCMODE_AFTER_REJECT_VIDEO...SBP_VGMM_R16_CR1480.SBP_IMS_CONFIG_DELAY_REPORT_FOR_EPS_ONLY_NW.SBP_GAS_SET_CALL_FAILURE_ASSO_FOR_MT_CSFB_FAILURE"
+          },
+          {
+            "offset": 35843274,
+            "match": "ENDC",
+            "context_ascii": "..SBP_DISABLE_R17_ULTXSW_CAP_REPORT...SBP_VGMM_DO_NOT_TRIGGER_MRU_WHEN_IRAT_FAIL..SBP_UE_CAP_CUSTOM_ENDC_BC_LIST..SBP_UE_CAP_CUSTOM_NRCA_BC_LIST..SBP_UE_CAP_CUSTOM_NR_CAP_BY_NW_OTA..SBP_SET_MCF_OTA_BY_NW...SBP_TAU_EPS_ONLY_15_BAR_CELL....SBP_RAC_ECC_FORCE_PLMN_SEARCH_AUTO_MODE.SBP_CU"
+          },
+          {
+            "offset": 35844547,
+            "match": "ENDC",
+            "context_ascii": "SE_FOR_USSD..SBP_REJECT_PENDING_ECC_CALL_ON_PLMN_LOSS....SBP_REMOVE_NR_RAT_FOR_OP196.SBP_LTE_ENABLE_ENDC_SEARCH_PRIOIRTY_CONTROL.SBP_ENPDCP_ENDC_DL_RCV_OPT..SBP_SAT_IMMEDIATE_SEND_STATUS_WHEN_PDP_ACTIVATE.SBP_ENABLE_GEMINI_REPORT_WHEN_23G_ONLY..SBP_EMM_EPS_ONLY_CAUSE18_ABORT_SS...SBP"
+          },
+          {
+            "offset": 35844587,
+            "match": "ENDC",
+            "context_ascii": "_ON_PLMN_LOSS....SBP_REMOVE_NR_RAT_FOR_OP196.SBP_LTE_ENABLE_ENDC_SEARCH_PRIOIRTY_CONTROL.SBP_ENPDCP_ENDC_DL_RCV_OPT..SBP_SAT_IMMEDIATE_SEND_STATUS_WHEN_PDP_ACTIVATE.SBP_ENABLE_GEMINI_REPORT_WHEN_23G_ONLY..SBP_EMM_EPS_ONLY_CAUSE18_ABORT_SS...SBP_CAPABILITY_UPDATE_FOR_VONR..SBP_LTE_SI_"
+          },
+          {
+            "offset": 35844791,
+            "match": "ENDC",
+            "context_ascii": ".SBP_EMM_EPS_ONLY_CAUSE18_ABORT_SS...SBP_CAPABILITY_UPDATE_FOR_VONR..SBP_LTE_SI_REQUEST_FOR_HO_RCGI_ENDC.SBP_LTE_AUTO_GAP_RCGI_ENDC_FR1..SBP_LTE_AUTO_GAP_RCGI_NR_FR1....SBP_NR_HST_ENH_NW...SBP_LTE_ALT_FREQ_PRIO...SBP_PDCP_VERSION_CHANGE_WITHOUT_HO..SBP_ENDC_ICON_CONSIDER_BAND_COMB..."
+          },
+          {
+            "offset": 35844818,
+            "match": "ENDC",
+            "context_ascii": "BORT_SS...SBP_CAPABILITY_UPDATE_FOR_VONR..SBP_LTE_SI_REQUEST_FOR_HO_RCGI_ENDC.SBP_LTE_AUTO_GAP_RCGI_ENDC_FR1..SBP_LTE_AUTO_GAP_RCGI_NR_FR1....SBP_NR_HST_ENH_NW...SBP_LTE_ALT_FREQ_PRIO...SBP_PDCP_VERSION_CHANGE_WITHOUT_HO..SBP_ENDC_ICON_CONSIDER_BAND_COMB....SBP_DSBP3_ALWAYS_CHECK_MCF"
+          },
+          {
+            "offset": 35844944,
+            "match": "ENDC",
+            "context_ascii": "_RCGI_NR_FR1....SBP_NR_HST_ENH_NW...SBP_LTE_ALT_FREQ_PRIO...SBP_PDCP_VERSION_CHANGE_WITHOUT_HO..SBP_ENDC_ICON_CONSIDER_BAND_COMB....SBP_DSBP3_ALWAYS_CHECK_MCF_NWOTA....SBP_MCF_SUPPORT_MVNO....SBP_MCF_OPOTA_FILE_CACHE_ENABLE.SBP_MCF_NWOTA_FILE_CACHE_ENABLE.SBP_UE_CAP_DSS_ADDITIONAL_CT"
+          },
+          {
+            "offset": 35846141,
+            "match": "ENDC",
+            "context_ascii": "BP_EMM_WAIT_UE_CAP_ENQUIRY_AFTER_TAU...SBP_L5_SEND_STKTR_AUTO..SBP_ERRC_SKIP_EVT_OFFSET_ENH_FOR_NBR_ENDC_CELL..SBP_INTRA_LTE_PINGPONG_RREDIRECT_REDUCTION..SBP_DYNAMIC_NR_CAP_SIZE_REDUCTION...SBP_DEFAULT_NR_CAP_SIZE.SBP_NRRC_BAR_CELL_BLOCK_MEASURE_REPORT..SBP_CUSTOM_HPLMN_AS_NON_SIMPL"
+          },
+          {
+            "offset": 35849512,
+            "match": "ENDC",
+            "context_ascii": "IND_AFR_IN_MANUAL_SEL_MODE..SBP_SET_CELL_POWER_THRESH_FOR_HST_ENHANCE...SBP_HIGH_PRIORITY_CELL..SBP_ENDC_OVERHEATING_EMPTY_IE_V1670.SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_FOR_ROAMING..SBP_FR2_B1_NR_RSRP_OFFSET...SBP_REPORT_CIEV_10_WITHOUT_OPERATOR_NAME....SBP_ERRC_AVOID_WEAK_HSR_CELL...."
+          },
+          {
+            "offset": 35850905,
+            "match": "ENDC",
+            "context_ascii": "BP_LOCAL_DEACTIVATE_NR_SCC.SBP_LOCAL_DEACTIVATE_LTE_SCC....SBP_LOCAL_DEACTIVATE_SUL....SBP_ERRC_HST_ENDC_DEACTIVATE....SBP_CUSTOM_NR_CAP_SIZE_FROM_NVRAM...SBP_UE_EUTRA_CAP_CSFB_BY_NW_OTA.SBP_NR_PARTIAL_BAND_USE_NVRAM...SBP_VGMM_TRIGGER_LOCAL_RELEASE_AND_MRU_WHEN_IMS_DRB_MISSED_DURING"
+          },
+          {
+            "offset": 35854465,
+            "match": "ENDC",
+            "context_ascii": "P07_VGSM_MAX_PDU_EST_TIMEOUT_REACHED...SBP_EMM_NOT_PERFORM_DETACH_WHEN_SERACH_MCC_OR_PLMN..SBP_E911_ENDC_DEACTIVATION..SBP_THERMAL_LOW_BATTERY_DISABLE_NSA.SBP_HO_TO_VOWIFI_DISABLE_SA.SBP_OP01_FORCE_PROGRESSIVE_PRESYNC_MODE.SBP_UE_CAP_JPN_CUSTOM_RECAL.SBP_UE_CAP_CUSTOM_BC_FSC_REDUCE.S"
+          },
+          {
+            "offset": 35860436,
+            "match": "ENDC",
+            "context_ascii": "CAP_FOR_SIMPLIFICATION_SCENARIO.SBP_N1_MODE_NOT_ALLOWED_PERMANENT_DISABLING.SBP_EMM_DISABLE_DCNR_BY_ENDC_BLACKLIST..SBP_DSBP_MODE2_RETRY_AFTER_ATESBP_FAIL..SBP_DISABLE_WHITE_LIST_ADDITION_EPSFB...SBP_SA_MODE_SWITCH_BY_SIM_5GS3GPPLOCI...SBP_L5_SIM_DELAY_SEND_READY_WHEN_REFRESH_ONGOING"
+          },
+          {
+            "offset": 35862354,
+            "match": "ENDC",
+            "context_ascii": "ENTAL_BAR_FOR_CONN_FAIL...SBP_ERRC_RESEL_LTE_THD..SBP_NR_CONFIG_BARRING...SBP_OP07_RESERVE_SIZE_FOR_ENDC_FR2..SBP_NR_ENABLE_FAST_PRESYNC_ENHANCEMENT..SBP_MRU_NO_FOR_OUT_OF_SYNC_DETECTION....SBP_NR_SMART_IDLE_RRC_RELEASE_UAI...SBP_TRUSTABLE_B1_NR_TTT_REDUCTION...SBP_SHORTEN_TTT_BY_MEA"
+          },
+          {
+            "offset": 35862580,
+            "match": "ENDC",
+            "context_ascii": "SBP_TRUSTABLE_B1_NR_TTT_REDUCTION...SBP_SHORTEN_TTT_BY_MEAS_GAP_MGRP....SBP_SUBADDR_TYPE_IA5....SBP_ENDC_BC_CHECK_LTE_CA_REPORTED...SBP_OP12_UEMODE.SBP_OP12_ECC....SBP_OP12_CONGESTION_CONTROL.SBP_OP07_NO_TAU_DURING_T3411....SBP_DELAY_SIM_REFRESH...SBP_OP12_NOT_INCREASE_TAU_COUNTER_WH"
+          },
+          {
+            "offset": 35865125,
+            "match": "ENDC",
+            "context_ascii": "PROFILE_SUPPORT....SBP_L5_CC_DELETE_CSIM_EMERGENCY_NUMBERS_LIST....SBP_DISABLE_NR_MAX_UL_DUTY_CYCLE_ENDC_FDD_TDD_PC2_REPORT....SBP_ERRC_SKIP_NBR_RPT_FOR_FAKE_A2...SBP_LTE_N2L_NON_EPSFB_REDIRECT_AVOID_WEAK_TGT_CARRS.SBP_ENABLE_NR_CA_BY_PLMN....SBP_CALL_REJECT.SBP_EXTEND_RXTDM_WHEN_SER"
+          },
+          {
+            "offset": 35868332,
+            "match": "ENDC",
+            "context_ascii": "USE_OPERATOR_PREFERENCE_OF_ECC_FULL_BAND_SEARCH_RAT_ORDER...SBP_VGMM_ENHANCED_CAUSE_62_HANDLING.SBP_ENDC_LTE_CA_DISABLE.SBP_DUPLICATE_MT_SMS_FILTER_CONTROL.SBP_EMM_CONN_FAIL_ABNORMAL_B_EMC....SBP_UMTS_SNIFFER_OPTIMIZATION...SBP_OP12_CONFIGURE_RAT_MODE_FOR_ENDC_SUPPORT_DEVICE.SBP_DETE"
+          },
+          {
+            "offset": 35868488,
+            "match": "ENDC",
+            "context_ascii": "SBP_EMM_CONN_FAIL_ABNORMAL_B_EMC....SBP_UMTS_SNIFFER_OPTIMIZATION...SBP_OP12_CONFIGURE_RAT_MODE_FOR_ENDC_SUPPORT_DEVICE.SBP_DETECT_NW_DEACT_NONEXIST_IMS_QOS_FLOW...SBP_NR_EARLY_HANDOVER_FAILURE...SBP_ADAPTIVE_TX_THROTTLE....SBP_HST_COVERAGE_ENHANCEMENT....SBP_GMSS_TRIGGER_INCREMENTAL"
+          },
+          {
+            "offset": 35870592,
+            "match": "ENDC",
+            "context_ascii": "BLIND_REDIR_TO_LTE_IF_NR_REEST_SEARCH_FAILS.SBP_CALL_FORWARD_RSP_ONLY_FOR_TELEPHONY_BS..SBP_DISABLE_ENDC_PRFER_SEARCH_IN_ROAMING....SBP_ELEVATOR_MODE_GEMINI_ENHANCE....SBP_LTE_IGNORE_IR_REDIRECT_NR_DURING_VOLTE_RETRIAL..SBP_L5_L4C_RELEASE_WITH_REDIR_TO_LTE....SBP_EMM_EXCLUDE_CLASSMAR"
+          },
+          {
+            "offset": 35872356,
+            "match": "NR_BAND",
+            "context_ascii": "ELLDUPLEX_R12_FOR_OP17..SBP_SET_MAX_IRAT_CAPA_SIZE_FOR_OP216....SBP_RESERVE_CAP_SIZE_FOR_OP12...SBP_NR_BAND_REPORT_WHEN_ROAMING_OP12....SBP_L5_HOLD_OR_RELEASE_CALL_WHEN_DIAL_NEW_ECC...SBP_TC10_SPECIFIC_TERMINAL_PROFILE_FOR_OP129....SBP_TC10_SPECIFIC_TERMINAL_PROFILE_FOR_OP17.SBP_TC10_SP"
+          },
+          {
+            "offset": 35873932,
+            "match": "ENDC",
+            "context_ascii": "Y_VOICE_SEARCH_WHEN_CONNECTED_MODE..SBP_AGPS_REDUCE_RESPONSE_TIME...SBP_DR_SEARCH_NR_SNIFFER....SBP_ENDC_DEACTIVATE_ALLOW_NON_REAL_SIM..SBP_MEAS_CONTROL_SCG_OFF_STOP_MEASUREMENT...SBP_AP_ASSISTANT_LOW_POWER_INFO_SUPPORT.SBP_NR_DISABLE_SERV_SET_LOWEST_PRIORITY.SBP_NRRC_BAR_CELL_CONNEC"
+          },
+          {
+            "offset": 35874056,
+            "match": "NR_DISABLE",
+            "context_ascii": "N_REAL_SIM..SBP_MEAS_CONTROL_SCG_OFF_STOP_MEASUREMENT...SBP_AP_ASSISTANT_LOW_POWER_INFO_SUPPORT.SBP_NR_DISABLE_SERV_SET_LOWEST_PRIORITY.SBP_NRRC_BAR_CELL_CONNECTION_FAILURE_WEAK_SIGNAL....SBP_VGMM_CUST_PARAMETER_FROM_NVRAM..SBP_TRIGGER_SEARCH_FOR_NEW_MCC_WITH_BORDER_CHECK....SBP_EMM_EMC_AT"
+          },
+          {
+            "offset": 35880496,
+            "match": "ENDC",
+            "context_ascii": "D_FOR_IGNORED_PAGING....SBP_ERRC_CEL_DSIABLE_TDD_SEARCH_IN_CONN_MODE....SBP_FORCE_TX_CONTROL....SBP_ENDC_HIGHER_POWER_LIMIT_ENABLE..SBP_MIPC_CHECKER_TX_MD_WARNING..SBP_MIPC_CHECKER_RX_MD_WARNING..SBP_MIPC_CHECKER_BLOCK_CNF_IND..SBP_MIPC_CHECKER_ASSERT.SBP_LBS_LPP_ALLOW_NILR_AFTER_EMT"
+          },
+          {
+            "offset": 35880836,
+            "match": "ENDC",
+            "context_ascii": "D2_ENABLE_CENTRALIZED_OP12_APN..SBP_TRIGGER_GPRS_DETACH_WITH_POWER_OFF_ON_SIM_REMOVAL...SBP_PERFORM_ENDC_SEARCH_FOR_NON_ENDC_CELL...SBP_ENABLE_LTE_BC_TRACE.SBP_EMM_PROC_FAIL_HANDLING_WITH_MAPPED_CAUSE_15.SBP_ERRC_DISABLE_LTE_CA_WHEN_ACTIVE_RAT_IS_23G..SBP_TURN_OFF_LTE_PLMN_CADB..SBP_"
+          },
+          {
+            "offset": 35880856,
+            "match": "ENDC",
+            "context_ascii": "D_OP12_APN..SBP_TRIGGER_GPRS_DETACH_WITH_POWER_OFF_ON_SIM_REMOVAL...SBP_PERFORM_ENDC_SEARCH_FOR_NON_ENDC_CELL...SBP_ENABLE_LTE_BC_TRACE.SBP_EMM_PROC_FAIL_HANDLING_WITH_MAPPED_CAUSE_15.SBP_ERRC_DISABLE_LTE_CA_WHEN_ACTIVE_RAT_IS_23G..SBP_TURN_OFF_LTE_PLMN_CADB..SBP_OP17_WAIT_NORMAL_SER"
+          },
+          {
+            "offset": 35884412,
+            "match": "ENDC",
+            "context_ascii": "_ECC_NOT_ALLOW_NORMAL_SCAN_IF_NR_FAIL...SBP_FEATURE_POWER_THROTTLE_ONE_OF_EIGHT_DB_RESOLUTION...SBP_ENDC_ECAPABILITY_SUPPORT....SBP_EMM_READ_S1_MODE_NOT_DISABLE_PLMN_LIST_FROM_NVRAM...SBP_2G_DISABLE_CAMP_ON_C1_NOK_CELL_IN_FULL_BAND.SBP_CUSTOM_SETTING_FOR_SMS_OVER_NAS5G_SUPPORT...SBP_"
+          },
+          {
+            "offset": 35886819,
+            "match": "ENDC",
+            "context_ascii": "NOT_EXIST....SBP_ENABLE_R17_SPECIFIC_IE_REPORT...SBP_ENABLE_HIGHER_POWER_LIMIT_REPORT....SBP_ENABLE_ENDC_HIGHER_POWER_LIMIT_REPORT...SBP_SIM_OP_OM_NOTIFY....SBP_SIM_ERR_APDU_NOTIFY_KOR_OP..SBP_SIM_ERR_APDU_NOTIFY_LGU_OP..SBP_LIMIT_DSDS_RPT_TO_L4....SBP_DISABLE_N30_FOR_OP196...SBP_ENA"
+          },
+          {
+            "offset": 35888031,
+            "match": "ENDC",
+            "context_ascii": "C_SKIP_CUSTOM_THRESH_A4_REPORT...SBP_NR_HST_A3_RECOVERY_DISABLE_DURING_VONR..SBP_DISABLE_UL_256_QAM_ENDC_B2_B66_FR2..SBP_SAF_NC_STOP_NW_ABNORMAL_OP_4_WHEN_NO_SA.SBP_NR_UE_CAP_UL_CBW_CHECK..SBP_SMS_DISABLE_EMERGENCY_PDN...SBP_ERRC_MEAS_GAP_PATTERNS_R15_SUPPORT..SBP_ERRC_SKIP_MR_DURING"
+          },
+          {
+            "offset": 35888357,
+            "match": "NR_BAND",
+            "context_ascii": "_RETRY.SBP_SUPPORTED_CRS_IM_R17....SBP_IRAT_MRU_NO_UL_DATA_STATUS..SBP_L2_CUT_CELL_IND.SBP_OP12_BAR_NR_BAND_WHEN_ESFB_FAIL.SBP_SAT_TE_CONTROL_CALL_EVDL....SBP_L5_SKIP_RAT_CHECK_IN_ECC....SBP_DISABLE_DSBP_WHEN_FTA_MODE..SBP_DA_PREFER_SKIP_AT_CHECK.SBP_OP139_REDIAL_AS_ECC_BY_380_XML_TYPE."
+          },
+          {
+            "offset": 35888800,
+            "match": "ENDC",
+            "context_ascii": "AN_WIDEBAND_RSRQ_MEAS_CAP...SBP_DSDA_IND_SUPPRESS...SBP_MRS_EMM_SRVCC_SUPPORT...SBP_SET_OP114...SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_ENDC_CELL...SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_LEGACY_CELL.SBP_EMM_AKA_SIM_WAIT_CONN_REL...SBP_EMM_DISABLE_AKA_AUTH_ABORT_CONNECTED_TAU_SOFT_SIM...SBP_"
+          },
+          {
+            "offset": 35888832,
+            "match": "ENDC",
+            "context_ascii": "DSDA_IND_SUPPRESS...SBP_MRS_EMM_SRVCC_SUPPORT...SBP_SET_OP114...SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_ENDC_CELL...SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_LEGACY_CELL.SBP_EMM_AKA_SIM_WAIT_CONN_REL...SBP_EMM_DISABLE_AKA_AUTH_ABORT_CONNECTED_TAU_SOFT_SIM...SBP_LTE_NR_BG_PINGPONG_AVOIDANCE...."
+          },
+          {
+            "offset": 35888848,
+            "match": "ENDC",
+            "context_ascii": "S...SBP_MRS_EMM_SRVCC_SUPPORT...SBP_SET_OP114...SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_ENDC_CELL...SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_LEGACY_CELL.SBP_EMM_AKA_SIM_WAIT_CONN_REL...SBP_EMM_DISABLE_AKA_AUTH_ABORT_CONNECTED_TAU_SOFT_SIM...SBP_LTE_NR_BG_PINGPONG_AVOIDANCE....SBP_RAC_TRIGGER_"
+          },
+          {
+            "offset": 35893385,
+            "match": "ENDC",
+            "context_ascii": "_PRIORITIZE_HPLMN_OVER_RPLMN_AFTER_ECC_END.SBP_REPORT_DCI_DECODING_STATISTICAL_ILM_RPT.SBP_NR_HO_TO_ENDC...SBP_NR_UE_CAP_BCS5..SBP_UMTS_BAND_DISABLE_FOR_OPERATOR..SBP_MCC_SUNSET_SEARCH_OPTIMIZATION..SBP_MCC_SUNSET_SEARCH_OPTIMIZATION_APPLY_FOR_ECC....SBP_CBRA_TAT_D_AROUND...SBP_NR_UL"
+          },
+          {
+            "offset": 35896576,
+            "match": "NR_DISABLE",
+            "context_ascii": "SBP_L5_MULTI_BIT_SIM_ECC_CATEGORY_IGNORE....SBP_L5_CC_UPDATE_ENL_WHEN_EMERGENCY_CALL_ONGOING....SBP_NR_DISABLE_8RX_CUSTOM...SBP_DR_LOCAL_DEACT_NR_SCC_FOR_EPSFB.SBP_NR_A2_REDIRECT_STORM_AVOID..SBP_A2_REDIRECT_STORM_AVOID_APPLY_GAMING....SBP_SCELLWITHOUTSSB_ENABLE..SBP_MODEM_DISABLE_HPUE_FOR"
+          },
+          {
+            "offset": 36079771,
+            "match": "ENDC",
+            "context_ascii": " %d, first_time = %d.[CODE DMF][SLOT %d] Receive xiaomi_nrrc_serving_cell_reg_callback...[CODE DMF] ENDC_Band_count = %d.[CODE DMF][SLOT %d]lteca_info:dl_band_0=%d,length_buf=%d,reg_count=%d/%d....[CODE DMF][SLOT %d][i=%d]lteca_info:dl_band=%d/%d,length_buf=%d.[CODE DMF][SLOT %d]ltec"
+          },
+          {
+            "offset": 36080123,
+            "match": "ENDC",
+            "context_ascii": "d/%d,mnc=%d/%d...[CODE DMF][SLOT %d] Receive xiaomi_errc_ca_config_info_data_callback....[CODE DMF] ENDC_Band Test into SCG function: same_flag = %d.[CODE DMF][SLOT %d] Receive m_xiaomi_nrrc_serving_cell_info_reg.[CODE DMF] ENDC_LTE_Band = %d...[CODE DMF] ENDC_NR_Band = %d....[CODE D"
+          },
+          {
+            "offset": 36080247,
+            "match": "ENDC",
+            "context_ascii": "function: same_flag = %d.[CODE DMF][SLOT %d] Receive m_xiaomi_nrrc_serving_cell_info_reg.[CODE DMF] ENDC_LTE_Band = %d...[CODE DMF] ENDC_NR_Band = %d....[CODE DMF] debug info slot_id=%d, cur_time=%d, mcc=%d, mnc=%d, cell_id=%d...[CODE DMF] debug info rsrp=%d, sinr=%d, dl_bler=%d, ul_"
+          },
+          {
+            "offset": 36080279,
+            "match": "ENDC",
+            "context_ascii": "MF][SLOT %d] Receive m_xiaomi_nrrc_serving_cell_info_reg.[CODE DMF] ENDC_LTE_Band = %d...[CODE DMF] ENDC_NR_Band = %d....[CODE DMF] debug info slot_id=%d, cur_time=%d, mcc=%d, mnc=%d, cell_id=%d...[CODE DMF] debug info rsrp=%d, sinr=%d, dl_bler=%d, ul_bler=%d, dl_mcs=%d...[CODE DMF] "
+          },
+          {
+            "offset": 36120691,
+            "match": "nr_band",
+            "context_ascii": "1 = %d...[CODE DMF] [SLOT %d] temp_cnt_b1 = %d...[CODE DMF] [SLOT %d] ratio_tdd_b1 = %d..[CODE DMF] nr_band = %d, band = %d, temp_band = %d, array_cnt_ind = %d..[CODE DMF] [SLOT %d] temp_band = %d, array_cnt = %d.[CODE DMF] [SLOT %d] temp_sfn_0 = %d....[CODE DMF] [SLOT %d] temp_cnt_0 = "
+          },
+          {
+            "offset": 36121467,
+            "match": "nr_band",
+            "context_ascii": "%d...[CODE DMF] [SLOT %d] temp_cnt_b1_fdd = %d...[CODE DMF] [SLOT %d] ratio_b1_fdd = %d..[CODE DMF] nr_band_fdd = %d, band_fdd = %d, temp_band_fdd = %d, array_cnt_ind_fdd = %d..[CODE DMF] [SLOT %d] temp_band_fdd = %d, array_cnt_fdd = %d.[CODE DMF] [SLOT %d] temp_sfn_0_fdd = %d....[CODE "
+          },
+          {
+            "offset": 36184567,
+            "match": "NR band",
+            "context_ascii": "it %d....[DMF LIVESTREAM] exit...[DMF SHORTVIDEO]%s, ps_id = %d, dds %d, rat %d..[DMF SHORTVIDEO]%s NR bandwidth is %d, is_nr_small_bw %d....[DMF SHORTVIDEO]reset_next_cell_info....[DMF SHORTVIDEO]%s, max_neighbor_rsrp %d, rsrq %d, sinr %d, rat %d..[DMF SHORTVIDEO]%s..[DMF SHORTVIDEO] %"
+          },
+          {
+            "offset": 36190339,
+            "match": "NR band",
+            "context_ascii": "SE]%s,dds_ps_owner_rf is %d..[CODE DMF] error ps_id = %d, dds %d, base_cell_info rat %d..[CODE DMF] NR bandwidth is %d, is_nr_large_bw %d....[CODE DMF][PS %d] rrc_state = %d, rrc_state_change_cause = %d...[CODE DMF][PS %d] el2_pdcp_throughput_dl_cb, rat = %d...[CODE DMF][PS %d] pdcp_thr"
+          },
+          {
+            "offset": 42000365,
+            "match": "ENDC",
+            "context_ascii": "........................Mu............. ...8888888888888888888888888888888888888888............MML1_ENDC_DIP.............................................................A.............`...8888888888888888888888888888888888888888............AudDIP......................................."
+          },
+          {
+            "offset": 42089507,
+            "match": "nr_band",
+            "context_ascii": ".........read_pmic...................................b1_nr_config................................b1_nr_bands.................................lte_idle_pingpong_customized................lte_connect_pingpong_customized.............ta_sar_pd_force_mode........................errc_nr_thresh"
+          }
+        ]
+      },
+      "config_names": {
+        "count": 702,
+        "first_hits": [
+          {
+            "offset": 6727696,
+            "match": "mcf",
+            "context_ascii": "......M.....\\-.........`.C..Dr.9.......`.B........@...Dr...8..1.........\\-.`..........r.........q..`mcftBr....bl...P.b.........+.;...rDr...+7.Br.+.:.sx.....Dr.8..B..`.B....A...@......` C..Drl8....N.Dr....j8.....<.`N...?...p.. .$.....`.B....Dr..68......Dr88..\\-.................`.A..."
+          },
+          {
+            "offset": 34428680,
+            "match": "mcf",
+            "context_ascii": "c/ipc_dpfm.c....Unexpect dl wc cnt when dereg, filter_id:%d file:%s line:%d.d.s..s..offset..service/mcf/src/mcf_file_handling_proc.c....MTK_MD_OTA_CONFIG.ini..._MTK_BACKUP_RESTORE_RECID...service/mcf/src/mcf_security_proc.c.p_file_lid_table->page_cnt..T:\\mtk_default..T:\\custom...S:\\"
+          },
+          {
+            "offset": 34428688,
+            "match": "mcf",
+            "context_ascii": "fm.c....Unexpect dl wc cnt when dereg, filter_id:%d file:%s line:%d.d.s..s..offset..service/mcf/src/mcf_file_handling_proc.c....MTK_MD_OTA_CONFIG.ini..._MTK_BACKUP_RESTORE_RECID...service/mcf/src/mcf_security_proc.c.p_file_lid_table->page_cnt..T:\\mtk_default..T:\\custom...S:\\mdota..."
+          },
+          {
+            "offset": 34428776,
+            "match": "mcf",
+            "context_ascii": "ice/mcf/src/mcf_file_handling_proc.c....MTK_MD_OTA_CONFIG.ini..._MTK_BACKUP_RESTORE_RECID...service/mcf/src/mcf_security_proc.c.p_file_lid_table->page_cnt..T:\\mtk_default..T:\\custom...S:\\mdota....mcf_file_sec.bin....s.d.s...sd.s.....d.s.....d.s....security_input.header_len...all_fil"
+          },
+          {
+            "offset": 34428784,
+            "match": "mcf",
+            "context_ascii": "src/mcf_file_handling_proc.c....MTK_MD_OTA_CONFIG.ini..._MTK_BACKUP_RESTORE_RECID...service/mcf/src/mcf_security_proc.c.p_file_lid_table->page_cnt..T:\\mtk_default..T:\\custom...S:\\mdota....mcf_file_sec.bin....s.d.s...sd.s.....d.s.....d.s....security_input.header_len...all_file_header"
+          },
+          {
+            "offset": 34428872,
+            "match": "mcf",
+            "context_ascii": "ice/mcf/src/mcf_security_proc.c.p_file_lid_table->page_cnt..T:\\mtk_default..T:\\custom...S:\\mdota....mcf_file_sec.bin....s.d.s...sd.s.....d.s.....d.s....security_input.header_len...all_file_header_offset..file_size is incorrect..security_input.context_len...s.d....file format total_l"
+          },
+          {
+            "offset": 34455468,
+            "match": "mcf",
+            "context_ascii": "m->total_len)...(p_input_data->item_num) - 1....pItem + pItem->total_len....dc.d....dc.d....service/mcf/src/mcf_update_value_proc.c..d.cd...c.d.IPC_ICMP_PING_SCENARIO_END..TLSv1.3.TLSv1.2.TLSv1.1.TLSv1...SSLv3...DTLSv0.9....DTLSv1..DTLSv1.2....unknown.%02x....../common/oss/openssl/o"
+          },
+          {
+            "offset": 34455476,
+            "match": "mcf",
+            "context_ascii": "_len)...(p_input_data->item_num) - 1....pItem + pItem->total_len....dc.d....dc.d....service/mcf/src/mcf_update_value_proc.c..d.cd...c.d.IPC_ICMP_PING_SCENARIO_END..TLSv1.3.TLSv1.2.TLSv1.1.TLSv1...SSLv3...DTLSv0.9....DTLSv1..DTLSv1.2....unknown.%02x....../common/oss/openssl/openssl-3"
+          },
+          {
+            "offset": 34456284,
+            "match": "mcf",
+            "context_ascii": "AES_128_GCM_SHA256..../common/oss/openssl/openssl-3.0.3/ssl/statem/extensions_cust.c....,...service/mcf/src/mcf_if.c....ps id....d.sS....d.sS...(p_dump_buffer + item_byte_offset)-align_addr...(p_dump_buffer + item_byte_offset))-align_addr)*8...service/mcf/src/mcf_auto_select_nwota_p"
+          },
+          {
+            "offset": 34456292,
+            "match": "mcf",
+            "context_ascii": "GCM_SHA256..../common/oss/openssl/openssl-3.0.3/ssl/statem/extensions_cust.c....,...service/mcf/src/mcf_if.c....ps id....d.sS....d.sS...(p_dump_buffer + item_byte_offset)-align_addr...(p_dump_buffer + item_byte_offset))-align_addr)*8...service/mcf/src/mcf_auto_select_nwota_proc.c..."
+          },
+          {
+            "offset": 34456436,
+            "match": "mcf",
+            "context_ascii": "buffer + item_byte_offset)-align_addr...(p_dump_buffer + item_byte_offset))-align_addr)*8...service/mcf/src/mcf_auto_select_nwota_proc.c.....d.sd...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf"
+          },
+          {
+            "offset": 34456444,
+            "match": "mcf",
+            "context_ascii": " item_byte_offset)-align_addr...(p_dump_buffer + item_byte_offset))-align_addr)*8...service/mcf/src/mcf_auto_select_nwota_proc.c.....d.sd...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_"
+          },
+          {
+            "offset": 34456492,
+            "match": "mcf",
+            "context_ascii": " item_byte_offset))-align_addr)*8...service/mcf/src/mcf_auto_select_nwota_proc.c.....d.sd...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf"
+          },
+          {
+            "offset": 34456500,
+            "match": "mcf",
+            "context_ascii": "te_offset))-align_addr)*8...service/mcf/src/mcf_auto_select_nwota_proc.c.....d.sd...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_se"
+          },
+          {
+            "offset": 34456532,
+            "match": "mcf",
+            "context_ascii": "ice/mcf/src/mcf_auto_select_nwota_proc.c.....d.sd...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc."
+          },
+          {
+            "offset": 34456540,
+            "match": "mcf",
+            "context_ascii": "src/mcf_auto_select_nwota_proc.c.....d.sd...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc.d....d.c"
+          },
+          {
+            "offset": 34456572,
+            "match": "mcf",
+            "context_ascii": ".....d.sd...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc.d....d.c.d....d...d...d...crt....service"
+          },
+          {
+            "offset": 34456580,
+            "match": "mcf",
+            "context_ascii": "d...service/mcf/src/mcf_ota_proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc.d....d.c.d....d...d...d...crt....service/cert/sr"
+          },
+          {
+            "offset": 34456608,
+            "match": "mcf",
+            "context_ascii": "proc.c...d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc.d....d.c.d....d...d...d...crt....service/cert/src/cert_msg_hdlr.c....service"
+          },
+          {
+            "offset": 34456616,
+            "match": "mcf",
+            "context_ascii": ".d.s....service/mcf/src/mcf_ota_by_nw_proc.c....service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc.d....d.c.d....d...d...d...crt....service/cert/src/cert_msg_hdlr.c....service/crypto/"
+          },
+          {
+            "offset": 34456664,
+            "match": "mcf",
+            "context_ascii": "service/mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc.d....d.c.d....d...d...d...crt....service/cert/src/cert_msg_hdlr.c....service/crypto/src/pki/src/pki_key.c....pki_x509_get_signature_"
+          },
+          {
+            "offset": 34456672,
+            "match": "mcf",
+            "context_ascii": "mcf/src/mcf_raw_ota_proc.c..service/mcf/src/mcf_ota_by_lid_proc.c...g_trigger_count.service/mcf/src/mcf_auto_select_opota_proc.c...._....d..dc.d....d.c.d....d...d...d...crt....service/cert/src/cert_msg_hdlr.c....service/crypto/src/pki/src/pki_key.c....pki_x509_get_signature_algorith"
+          },
+          {
+            "offset": 34462764,
+            "match": "mcf",
+            "context_ascii": "en..merge_total_len + p_file_format_ptr->total_len + new_item_total_len.content_total_len...service/mcf/src/mcf_cmd_handling_proc.c.%s_%d...NA_NA_NA%c..RECID_1.RECID_2.%04d.%02d%02d.%02d%02d%02d..strlen(gen_time)....strlen(tool_version)....strlen(sw_version)..padding_bytes_len...p_c"
+          },
+          {
+            "offset": 34462772,
+            "match": "mcf",
+            "context_ascii": "e_total_len + p_file_format_ptr->total_len + new_item_total_len.content_total_len...service/mcf/src/mcf_cmd_handling_proc.c.%s_%d...NA_NA_NA%c..RECID_1.RECID_2.%04d.%02d%02d.%02d%02d%02d..strlen(gen_time)....strlen(tool_version)....strlen(sw_version)..padding_bytes_len...p_cur->in.o"
+          },
+          {
+            "offset": 34463136,
+            "match": "MCF",
+            "context_ascii": "strlen(sw_version) + strlen(gen_time) + strlen(tool_version)....p_cur->need_dump_file_cnt....dump...MCF_DUMP_LID....%s_%d_%s%s..%s_ERROR.dump...dump_file_name is incorrect.p_cur->lid_info.size + p_cur->padding...record_dump_size * p_cur->lid_info.total_records....total_size..dump_pt"
+          },
+          {
+            "offset": 34463456,
+            "match": "MCF",
+            "context_ascii": "s...SIM_ERROR.dump..p_cur->lid_info.size....p_cur->padding..MTK_LAST_DUMP_FOLDER_NAME.txt...%s\\%s...MCF_DUMP....%s_%.4d%.2d%.2d_%.2d%.2d%.2d....mcf_format_version is incorrect.OP-OTA..file_type is incorrect..merge_file header magic_pattern is incorrect....part_file header magic_patt"
+          },
+          {
+            "offset": 34463500,
+            "match": "mcf",
+            "context_ascii": "p_cur->padding..MTK_LAST_DUMP_FOLDER_NAME.txt...%s\\%s...MCF_DUMP....%s_%.4d%.2d%.2d_%.2d%.2d%.2d....mcf_format_version is incorrect.OP-OTA..file_type is incorrect..merge_file header magic_pattern is incorrect....part_file header magic_pattern is incorrect..dhdc...dsd.service/md_doct"
+          },
+          {
+            "offset": 34466428,
+            "match": "mcf",
+            "context_ascii": "h enabled...[DHL] Filters are set successfully but not saved to NVRAM!!.Enabled.Disabled....service/mcf/src/mcf_task.c..service/mcf/src/mcf_multi_ota_proc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK..."
+          },
+          {
+            "offset": 34466436,
+            "match": "mcf",
+            "context_ascii": "d...[DHL] Filters are set successfully but not saved to NVRAM!!.Enabled.Disabled....service/mcf/src/mcf_task.c..service/mcf/src/mcf_multi_ota_proc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%"
+          },
+          {
+            "offset": 34466456,
+            "match": "mcf",
+            "context_ascii": "e set successfully but not saved to NVRAM!!.Enabled.Disabled....service/mcf/src/mcf_task.c..service/mcf/src/mcf_multi_ota_proc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK."
+          },
+          {
+            "offset": 34466464,
+            "match": "mcf",
+            "context_ascii": "ccessfully but not saved to NVRAM!!.Enabled.Disabled....service/mcf/src/mcf_task.c..service/mcf/src/mcf_multi_ota_proc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIM"
+          },
+          {
+            "offset": 34466508,
+            "match": "MCF",
+            "context_ascii": "Disabled....service/mcf/src/mcf_task.c..service/mcf/src/mcf_multi_ota_proc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfp"
+          },
+          {
+            "offset": 34466528,
+            "match": "MCF",
+            "context_ascii": "mcf/src/mcf_task.c..service/mcf/src/mcf_multi_ota_proc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..dri"
+          },
+          {
+            "offset": 34466548,
+            "match": "MCF",
+            "context_ascii": "service/mcf/src/mcf_multi_ota_proc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/"
+          },
+          {
+            "offset": 34466580,
+            "match": "mcf",
+            "context_ascii": "oc.c....Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,"
+          },
+          {
+            "offset": 34466588,
+            "match": "mcf",
+            "context_ascii": "Invalid len.....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u.."
+          },
+          {
+            "offset": 34466600,
+            "match": "MCF",
+            "context_ascii": "....len.MCF Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][REST"
+          },
+          {
+            "offset": 34466612,
+            "match": "MCF",
+            "context_ascii": "Load: ..%s%s....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][RESTORE]:RGPD he"
+          },
+          {
+            "offset": 34466624,
+            "match": "MCF",
+            "context_ascii": "....MCF IMG MD label: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][RESTORE]:RGPD head=%x,tail=%"
+          },
+          {
+            "offset": 34466640,
+            "match": "MCF",
+            "context_ascii": "abel: ..MCF IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][RESTORE]:RGPD head=%x,tail=%x....[UART][SAVE"
+          },
+          {
+            "offset": 34466652,
+            "match": "MCF",
+            "context_ascii": "IMG build time: ....service/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][RESTORE]:RGPD head=%x,tail=%x....[UART][SAVE]:FRC=%u...."
+          },
+          {
+            "offset": 34466675,
+            "match": "mcf",
+            "context_ascii": "vice/mcf/src/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][RESTORE]:RGPD head=%x,tail=%x....[UART][SAVE]:FRC=%u.....[UART][API]uart_wakeup"
+          },
+          {
+            "offset": 34466687,
+            "match": "mcf",
+            "context_ascii": "/mcf_util.c..MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][RESTORE]:RGPD head=%x,tail=%x....[UART][SAVE]:FRC=%u.....[UART][API]uart_wakeup_enable_disa"
+          },
+          {
+            "offset": 34466699,
+            "match": "mcf",
+            "context_ascii": ".MCF_LOCK....MCFAPY%d....MCF_WRITE_LOCK..MCF_TIMER...MCF_RECEIVE_OPOTA...%d_mcfbuf...%d_mcfpage..%d_mcflids..driver/devdrv/uart/src/uart.c...[UART][RESTORE]:FRC=%u,Dur=%u...[UART][RESTORE]:RGPD head=%x,tail=%x....[UART][SAVE]:FRC=%u.....[UART][API]uart_wakeup_enable_disable = %d,wak"
+          },
+          {
+            "offset": 34469540,
+            "match": "MCF",
+            "context_ascii": "sk ptr......STKD Lock...RSRA_LOCK...service/nal/rsra/src/rsra_mem.c.XLAT_LOCK...XLAT_TIMER..TCP.STK MCF.STK MOCF....STK MMCF....STK MQL.STK BUFS....Error at call to NU_Init_Net()......NetLink.Can not create NetLink Event Group......IPSEC...tcpip_ipcore_device_start(): IPCore_Driver_"
+          },
+          {
+            "offset": 34469561,
+            "match": "MCF",
+            "context_ascii": "...RSRA_LOCK...service/nal/rsra/src/rsra_mem.c.XLAT_LOCK...XLAT_TIMER..TCP.STK MCF.STK MOCF....STK MMCF....STK MQL.STK BUFS....Error at call to NU_Init_Net()......NetLink.Can not create NetLink Event Group......IPSEC...tcpip_ipcore_device_start(): IPCore_Driver_Interface_Init failed"
+          },
+          {
+            "offset": 34473070,
+            "match": "mcf",
+            "context_ascii": "ud....[MMRF] SAR Table update by operator idx:%d .HW_CONFIG_SAR_Type..HW_CONFIG_SAR_Type%d_Set%d_%s.mcfrawota.NR_FR1..bsi_bpi_sch_dvt=....wakeup_restore_check=...general_purpose=....bsi_logger_mode_en=.mipi_logger_mode_en=....bsi_logger_timeout=.mipi_logger_timeout=....bsi_logger_en"
+          },
+          {
+            "offset": 34491999,
+            "match": "mcf",
+            "context_ascii": ".IPSEC_SPINLOCK...d.cd...IPSEC_AP_FLAG_IT....service/ipsec/src/ipsec_portal.c...._MTK_OTA_WRITE_GID.mcfota..._MTK_OPOTA_WRITE_GID_SIM....%s_%d.mcfopota.._MTK_GENERAL_OPOTA_WRITE_GID.mcfopota..._MTK_NWOTA_WRITE_GID_SIM....%s_%d.mcfnwota.._MTK_GENERAL_NWOTA_WRITE_GID.mcfopota...MTK_OT"
+          },
+          {
+            "offset": 34492042,
+            "match": "mcf",
+            "context_ascii": "..service/ipsec/src/ipsec_portal.c...._MTK_OTA_WRITE_GID.mcfota..._MTK_OPOTA_WRITE_GID_SIM....%s_%d.mcfopota.._MTK_GENERAL_OPOTA_WRITE_GID.mcfopota..._MTK_NWOTA_WRITE_GID_SIM....%s_%d.mcfnwota.._MTK_GENERAL_NWOTA_WRITE_GID.mcfopota...MTK_OTA.mcfota..MTK_OPOTA_SBPID.MTK_OPOTA_GENERAL"
+          },
+          {
+            "offset": 34492081,
+            "match": "mcf",
+            "context_ascii": "MTK_OTA_WRITE_GID.mcfota..._MTK_OPOTA_WRITE_GID_SIM....%s_%d.mcfopota.._MTK_GENERAL_OPOTA_WRITE_GID.mcfopota..._MTK_NWOTA_WRITE_GID_SIM....%s_%d.mcfnwota.._MTK_GENERAL_NWOTA_WRITE_GID.mcfopota...MTK_OTA.mcfota..MTK_OPOTA_SBPID.MTK_OPOTA_GENERAL.mcfopota..MTK_NWOTA_SBPID.MTK_NWOTA_GE"
+          },
+          {
+            "offset": 34492126,
+            "match": "mcf",
+            "context_ascii": "ID_SIM....%s_%d.mcfopota.._MTK_GENERAL_OPOTA_WRITE_GID.mcfopota..._MTK_NWOTA_WRITE_GID_SIM....%s_%d.mcfnwota.._MTK_GENERAL_NWOTA_WRITE_GID.mcfopota...MTK_OTA.mcfota..MTK_OPOTA_SBPID.MTK_OPOTA_GENERAL.mcfopota..MTK_NWOTA_SBPID.MTK_NWOTA_GENERAL.mcfnwota..valid_num...p_apylt->num....b"
+          },
+          {
+            "offset": 34492165,
+            "match": "mcf",
+            "context_ascii": "OPOTA_WRITE_GID.mcfopota..._MTK_NWOTA_WRITE_GID_SIM....%s_%d.mcfnwota.._MTK_GENERAL_NWOTA_WRITE_GID.mcfopota...MTK_OTA.mcfota..MTK_OPOTA_SBPID.MTK_OPOTA_GENERAL.mcfopota..MTK_NWOTA_SBPID.MTK_NWOTA_GENERAL.mcfnwota..valid_num...p_apylt->num....backspace_idx...exist_backup_restore_fil"
+          },
+          {
+            "offset": 34492184,
+            "match": "mcf",
+            "context_ascii": "opota..._MTK_NWOTA_WRITE_GID_SIM....%s_%d.mcfnwota.._MTK_GENERAL_NWOTA_WRITE_GID.mcfopota...MTK_OTA.mcfota..MTK_OPOTA_SBPID.MTK_OPOTA_GENERAL.mcfopota..MTK_NWOTA_SBPID.MTK_NWOTA_GENERAL.mcfnwota..valid_num...p_apylt->num....backspace_idx...exist_backup_restore_file_num..._AUTO_SELEC"
+          },
+          {
+            "offset": 34492226,
+            "match": "mcf",
+            "context_ascii": "mcfnwota.._MTK_GENERAL_NWOTA_WRITE_GID.mcfopota...MTK_OTA.mcfota..MTK_OPOTA_SBPID.MTK_OPOTA_GENERAL.mcfopota..MTK_NWOTA_SBPID.MTK_NWOTA_GENERAL.mcfnwota..valid_num...p_apylt->num....backspace_idx...exist_backup_restore_file_num..._AUTO_SELECT....T:...bin.....mcfota..mcfopota...strle"
+          },
+          {
+            "offset": 34492270,
+            "match": "mcf",
+            "context_ascii": "ota...MTK_OTA.mcfota..MTK_OPOTA_SBPID.MTK_OPOTA_GENERAL.mcfopota..MTK_NWOTA_SBPID.MTK_NWOTA_GENERAL.mcfnwota..valid_num...p_apylt->num....backspace_idx...exist_backup_restore_file_num..._AUTO_SELECT....T:...bin.....mcfota..mcfopota...strlen(type_path) + strlen(temp_config).(strlen(t"
+          },
+          {
+            "offset": 34492385,
+            "match": "mcf",
+            "context_ascii": "_num...p_apylt->num....backspace_idx...exist_backup_restore_file_num..._AUTO_SELECT....T:...bin.....mcfota..mcfopota...strlen(type_path) + strlen(temp_config).(strlen(type_path) + strlen(temp_config) + 1)...idx + 1.MTK_READ_WRITE_RESULT.txt...c.d.s...LABEL*%s....TIME*%s..ds.ds.d.s.."
+          },
+          {
+            "offset": 34492393,
+            "match": "mcf",
+            "context_ascii": "_apylt->num....backspace_idx...exist_backup_restore_file_num..._AUTO_SELECT....T:...bin.....mcfota..mcfopota...strlen(type_path) + strlen(temp_config).(strlen(type_path) + strlen(temp_config) + 1)...idx + 1.MTK_READ_WRITE_RESULT.txt...c.d.s...LABEL*%s....TIME*%s..ds.ds.d.s.._BACKSPA"
+          },
+          {
+            "offset": 34543021,
+            "match": "Mcf",
+            "context_ascii": "hine...Version number not found....Build date time not found...num-1...trace_ptr or (kal_uint32)com_Mcf.boot_trace_buff....(kal_uint32)substr..value_ptr->size.Index i.value_ptr->type_u.value.p_data..0$..value_max_len...$...+...max_array_i.current_array_i.array_offset....temp_offset."
+          },
+          {
+            "offset": 34543301,
+            "match": "MCF",
+            "context_ascii": "et.byte_offset.total_array_index...max_string_array_index - array_size[i]..[BOOT] dump count (%d)..[MCF] boot trace buffer full!!!.current_value->type_u.value.[MCF] integer(%d)...[MCF] null..[MCF] string(%s)....[MCF] integer(%d) string(%s)....[MCF] integer(%s) string(%s) integer(%d)"
+          },
+          {
+            "offset": 34543361,
+            "match": "MCF",
+            "context_ascii": "array_size[i]..[BOOT] dump count (%d)..[MCF] boot trace buffer full!!!.current_value->type_u.value.[MCF] integer(%d)...[MCF] null..[MCF] string(%s)....[MCF] integer(%d) string(%s)....[MCF] integer(%s) string(%s) integer(%d)....[MCF] string(%s) integer(%x) integer(%d)....[BOOT][F] mc"
+          },
+          {
+            "offset": 34543381,
+            "match": "MCF",
+            "context_ascii": "] dump count (%d)..[MCF] boot trace buffer full!!!.current_value->type_u.value.[MCF] integer(%d)...[MCF] null..[MCF] string(%s)....[MCF] integer(%d) string(%s)....[MCF] integer(%s) string(%s) integer(%d)....[MCF] string(%s) integer(%x) integer(%d)....[BOOT][F] mcf_create_custom_fold"
+          },
+          {
+            "offset": 34543393,
+            "match": "MCF",
+            "context_ascii": " (%d)..[MCF] boot trace buffer full!!!.current_value->type_u.value.[MCF] integer(%d)...[MCF] null..[MCF] string(%s)....[MCF] integer(%d) string(%s)....[MCF] integer(%s) string(%s) integer(%d)....[MCF] string(%s) integer(%x) integer(%d)....[BOOT][F] mcf_create_custom_folder(): Create"
+          },
+          {
+            "offset": 34543413,
+            "match": "MCF",
+            "context_ascii": "ace buffer full!!!.current_value->type_u.value.[MCF] integer(%d)...[MCF] null..[MCF] string(%s)....[MCF] integer(%d) string(%s)....[MCF] integer(%s) string(%s) integer(%d)....[MCF] string(%s) integer(%x) integer(%d)....[BOOT][F] mcf_create_custom_folder(): Create custom folder fail."
+          },
+          {
+            "offset": 34543445,
+            "match": "MCF",
+            "context_ascii": "->type_u.value.[MCF] integer(%d)...[MCF] null..[MCF] string(%s)....[MCF] integer(%d) string(%s)....[MCF] integer(%s) string(%s) integer(%d)....[MCF] string(%s) integer(%x) integer(%d)....[BOOT][F] mcf_create_custom_folder(): Create custom folder fail. folder(%s), ret(%d)....[BOOT] m"
+          },
+          {
+            "offset": 34543489,
+            "match": "MCF",
+            "context_ascii": "l..[MCF] string(%s)....[MCF] integer(%d) string(%s)....[MCF] integer(%s) string(%s) integer(%d)....[MCF] string(%s) integer(%x) integer(%d)....[BOOT][F] mcf_create_custom_folder(): Create custom folder fail. folder(%s), ret(%d)....[BOOT] mcf_dump_data(): gid(%d), value(%s)..[BOOT] m"
+          },
+          {
+            "offset": 34543542,
+            "match": "mcf",
+            "context_ascii": "..[MCF] integer(%s) string(%s) integer(%d)....[MCF] string(%s) integer(%x) integer(%d)....[BOOT][F] mcf_create_custom_folder(): Create custom folder fail. folder(%s), ret(%d)....[BOOT] mcf_dump_data(): gid(%d), value(%s)..[BOOT] mcf_dump_data(): gid(%d), array_tag(%s), value(%x)...["
+          },
+          {
+            "offset": 34543627,
+            "match": "mcf",
+            "context_ascii": ")....[BOOT][F] mcf_create_custom_folder(): Create custom folder fail. folder(%s), ret(%d)....[BOOT] mcf_dump_data(): gid(%d), value(%s)..[BOOT] mcf_dump_data(): gid(%d), array_tag(%s), value(%x)...[BOOT] mcf_dump_data(): gid(%d), value(%x)..[BOOT][F] mcf_find_tag_offset(): Find this"
+          },
+          {
+            "offset": 34543671,
+            "match": "mcf",
+            "context_ascii": "reate custom folder fail. folder(%s), ret(%d)....[BOOT] mcf_dump_data(): gid(%d), value(%s)..[BOOT] mcf_dump_data(): gid(%d), array_tag(%s), value(%x)...[BOOT] mcf_dump_data(): gid(%d), value(%x)..[BOOT][F] mcf_find_tag_offset(): Find this tag fail.....[BOOT][F] mcf_find_gid_offset("
+          },
+          {
+            "offset": 34543731,
+            "match": "mcf",
+            "context_ascii": "dump_data(): gid(%d), value(%s)..[BOOT] mcf_dump_data(): gid(%d), array_tag(%s), value(%x)...[BOOT] mcf_dump_data(): gid(%d), value(%x)..[BOOT][F] mcf_find_tag_offset(): Find this tag fail.....[BOOT][F] mcf_find_gid_offset(): Find gid fail. gid(%d).[BOOT][F] mcf_find_gid_offset(): F"
+          },
+          {
+            "offset": 34543778,
+            "match": "mcf",
+            "context_ascii": "p_data(): gid(%d), array_tag(%s), value(%x)...[BOOT] mcf_dump_data(): gid(%d), value(%x)..[BOOT][F] mcf_find_tag_offset(): Find this tag fail.....[BOOT][F] mcf_find_gid_offset(): Find gid fail. gid(%d).[BOOT][F] mcf_find_gid_offset(): Find gid array formula out of bound. gid(%d)...["
+          },
+          {
+            "offset": 34543834,
+            "match": "mcf",
+            "context_ascii": "_dump_data(): gid(%d), value(%x)..[BOOT][F] mcf_find_tag_offset(): Find this tag fail.....[BOOT][F] mcf_find_gid_offset(): Find gid fail. gid(%d).[BOOT][F] mcf_find_gid_offset(): Find gid array formula out of bound. gid(%d)...[BOOT][F] mcf_find_gid_offset(): Can not find this gid fo"
+          },
+          {
+            "offset": 34543890,
+            "match": "mcf",
+            "context_ascii": "_offset(): Find this tag fail.....[BOOT][F] mcf_find_gid_offset(): Find gid fail. gid(%d).[BOOT][F] mcf_find_gid_offset(): Find gid array formula out of bound. gid(%d)...[BOOT][F] mcf_find_gid_offset(): Can not find this gid formula. gid(%d).[BOOT][F] mcf_find_gid_return_lid_num(): "
+          },
+          {
+            "offset": 34543970,
+            "match": "mcf",
+            "context_ascii": ". gid(%d).[BOOT][F] mcf_find_gid_offset(): Find gid array formula out of bound. gid(%d)...[BOOT][F] mcf_find_gid_offset(): Can not find this gid formula. gid(%d).[BOOT][F] mcf_find_gid_return_lid_num(): GID not found. gid(%d).[BOOT][F] mcf_boot_up_trace_malloc(): Alloc adm memory fa"
+          },
+          {
+            "offset": 34544042,
+            "match": "mcf",
+            "context_ascii": " bound. gid(%d)...[BOOT][F] mcf_find_gid_offset(): Can not find this gid formula. gid(%d).[BOOT][F] mcf_find_gid_return_lid_num(): GID not found. gid(%d).[BOOT][F] mcf_boot_up_trace_malloc(): Alloc adm memory fail.....[BOOT] mcf_task_main(): mcf_read_ota_buffer total duration(%u)..["
+          },
+          {
+            "offset": 34544106,
+            "match": "mcf",
+            "context_ascii": "this gid formula. gid(%d).[BOOT][F] mcf_find_gid_return_lid_num(): GID not found. gid(%d).[BOOT][F] mcf_boot_up_trace_malloc(): Alloc adm memory fail.....[BOOT] mcf_task_main(): mcf_read_ota_buffer total duration(%u)..[BOOT][OTA] mcf_ota_init_nv_data(): fast_boot_mode(%d)..[BOOT][OT"
+          },
+          {
+            "offset": 34544167,
+            "match": "mcf",
+            "context_ascii": "um(): GID not found. gid(%d).[BOOT][F] mcf_boot_up_trace_malloc(): Alloc adm memory fail.....[BOOT] mcf_task_main(): mcf_read_ota_buffer total duration(%u)..[BOOT][OTA] mcf_ota_init_nv_data(): fast_boot_mode(%d)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid input parameter. ret"
+          },
+          {
+            "offset": 34544184,
+            "match": "mcf",
+            "context_ascii": "nd. gid(%d).[BOOT][F] mcf_boot_up_trace_malloc(): Alloc adm memory fail.....[BOOT] mcf_task_main(): mcf_read_ota_buffer total duration(%u)..[BOOT][OTA] mcf_ota_init_nv_data(): fast_boot_mode(%d)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid input parameter. ret(%x)..[BOOT][OTA]"
+          },
+          {
+            "offset": 34544236,
+            "match": "mcf",
+            "context_ascii": "loc adm memory fail.....[BOOT] mcf_task_main(): mcf_read_ota_buffer total duration(%u)..[BOOT][OTA] mcf_ota_init_nv_data(): fast_boot_mode(%d)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid input parameter. ret(%x)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid ret. p_ret(%x"
+          },
+          {
+            "offset": 34544295,
+            "match": "mcf",
+            "context_ascii": "a_buffer total duration(%u)..[BOOT][OTA] mcf_ota_init_nv_data(): fast_boot_mode(%d)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid input parameter. ret(%x)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid ret. p_ret(%x), ret(%d)...[BOOT][OTA] mcf_get_salecode(): csc(%s), net1("
+          },
+          {
+            "offset": 34544371,
+            "match": "mcf",
+            "context_ascii": "ode(%d)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid input parameter. ret(%x)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid ret. p_ret(%x), ret(%d)...[BOOT][OTA] mcf_get_salecode(): csc(%s), net1(%s), net2(%s).[BOOT][OTA][F] mcf_get_salecode(): Read NVRAM LID fail..[BOOT]"
+          },
+          {
+            "offset": 34544444,
+            "match": "mcf",
+            "context_ascii": "r. ret(%x)..[BOOT][OTA][F] mcf_start_ota_interface(): Invalid ret. p_ret(%x), ret(%d)...[BOOT][OTA] mcf_get_salecode(): csc(%s), net1(%s), net2(%s).[BOOT][OTA][F] mcf_get_salecode(): Read NVRAM LID fail..[BOOT][OTA][F] mcf_ota_read_ini_file(): Default path is not exist. path(%s).[BO"
+          },
+          {
+            "offset": 34544507,
+            "match": "mcf",
+            "context_ascii": "et. p_ret(%x), ret(%d)...[BOOT][OTA] mcf_get_salecode(): csc(%s), net1(%s), net2(%s).[BOOT][OTA][F] mcf_get_salecode(): Read NVRAM LID fail..[BOOT][OTA][F] mcf_ota_read_ini_file(): Default path is not exist. path(%s).[BOOT][OTA][F] mcf_ota_read_ini_file(): Read ini fail. file(%s\\\\%s"
+          },
+          {
+            "offset": 34544563,
+            "match": "mcf",
+            "context_ascii": " csc(%s), net1(%s), net2(%s).[BOOT][OTA][F] mcf_get_salecode(): Read NVRAM LID fail..[BOOT][OTA][F] mcf_ota_read_ini_file(): Default path is not exist. path(%s).[BOOT][OTA][F] mcf_ota_read_ini_file(): Read ini fail. file(%s\\\\%s), ret(%d)....[BOOT][OTA][F] mcf_ota_init_nv_data(): Rea"
+          },
+          {
+            "offset": 34544639,
+            "match": "mcf",
+            "context_ascii": "ID fail..[BOOT][OTA][F] mcf_ota_read_ini_file(): Default path is not exist. path(%s).[BOOT][OTA][F] mcf_ota_read_ini_file(): Read ini fail. file(%s\\\\%s), ret(%d)....[BOOT][OTA][F] mcf_ota_init_nv_data(): Read MCF LID fail. lid(%d), rec_idx(%d), ret(%d).[BOOT][OTA][F] Get secure SRAM"
+          },
+          {
+            "offset": 34544719,
+            "match": "mcf",
+            "context_ascii": "(%s).[BOOT][OTA][F] mcf_ota_read_ini_file(): Read ini fail. file(%s\\\\%s), ret(%d)....[BOOT][OTA][F] mcf_ota_init_nv_data(): Read MCF LID fail. lid(%d), rec_idx(%d), ret(%d).[BOOT][OTA][F] Get secure SRAM mcf region fail! ret(%d).[BOOT][OTA][F] Read security LID fail! ret(%d)..[BOOT]"
+          },
+          {
+            "offset": 34544748,
+            "match": "MCF",
+            "context_ascii": "ead_ini_file(): Read ini fail. file(%s\\\\%s), ret(%d)....[BOOT][OTA][F] mcf_ota_init_nv_data(): Read MCF LID fail. lid(%d), rec_idx(%d), ret(%d).[BOOT][OTA][F] Get secure SRAM mcf region fail! ret(%d).[BOOT][OTA][F] Read security LID fail! ret(%d)..[BOOT][OTA] mcf_ota_check_update():"
+          },
+          {
+            "offset": 34544823,
+            "match": "mcf",
+            "context_ascii": "ota_init_nv_data(): Read MCF LID fail. lid(%d), rec_idx(%d), ret(%d).[BOOT][OTA][F] Get secure SRAM mcf region fail! ret(%d).[BOOT][OTA][F] Read security LID fail! ret(%d)..[BOOT][OTA] mcf_ota_check_update(): MD ver is not changed, no need to do full OTA...[BOOT][OTA] mcf_ota_end():"
+          },
+          {
+            "offset": 34544908,
+            "match": "mcf",
+            "context_ascii": "et secure SRAM mcf region fail! ret(%d).[BOOT][OTA][F] Read security LID fail! ret(%d)..[BOOT][OTA] mcf_ota_check_update(): MD ver is not changed, no need to do full OTA...[BOOT][OTA] mcf_ota_end(): End! ret(%d), total_duration(%u).[BOOT][OTA][F] mcf_ota_get_file_content(): Get file"
+          },
+          {
+            "offset": 34544992,
+            "match": "mcf",
+            "context_ascii": "d)..[BOOT][OTA] mcf_ota_check_update(): MD ver is not changed, no need to do full OTA...[BOOT][OTA] mcf_ota_end(): End! ret(%d), total_duration(%u).[BOOT][OTA][F] mcf_ota_get_file_content(): Get file content fail. ret(%d), file_cnt(%d).[BOOT] mcf_ota_get_file_content(): Start. file("
+          },
+          {
+            "offset": 34545055,
+            "match": "mcf",
+            "context_ascii": "no need to do full OTA...[BOOT][OTA] mcf_ota_end(): End! ret(%d), total_duration(%u).[BOOT][OTA][F] mcf_ota_get_file_content(): Get file content fail. ret(%d), file_cnt(%d).[BOOT] mcf_ota_get_file_content(): Start. file(%s\\\\%s)..[BOOT][OTA][F] mcf_ota_reset_last_modified_lid(): Fail"
+          },
+          {
+            "offset": 34545135,
+            "match": "mcf",
+            "context_ascii": "(%u).[BOOT][OTA][F] mcf_ota_get_file_content(): Get file content fail. ret(%d), file_cnt(%d).[BOOT] mcf_ota_get_file_content(): Start. file(%s\\\\%s)..[BOOT][OTA][F] mcf_ota_reset_last_modified_lid(): Fail to get LID information. lid(%d), nv_ret(%d)..[BOOT][OTA] mcf_ota_reset_last_mod"
+          },
+          {
+            "offset": 34545199,
+            "match": "mcf",
+            "context_ascii": " fail. ret(%d), file_cnt(%d).[BOOT] mcf_ota_get_file_content(): Start. file(%s\\\\%s)..[BOOT][OTA][F] mcf_ota_reset_last_modified_lid(): Fail to get LID information. lid(%d), nv_ret(%d)..[BOOT][OTA] mcf_ota_reset_last_modified_lid(): LID is in not reset list. lid(%d)....[BOOT][OTA] mc"
+          },
+          {
+            "offset": 34545296,
+            "match": "mcf",
+            "context_ascii": "F] mcf_ota_reset_last_modified_lid(): Fail to get LID information. lid(%d), nv_ret(%d)..[BOOT][OTA] mcf_ota_reset_last_modified_lid(): LID is in not reset list. lid(%d)....[BOOT][OTA] mcf_ota_reset_last_modified_lid(): Reset LID to default value. lid(%d)..[BOOT][OTA][F] mcf_ota_rese"
+          },
+          {
+            "offset": 34545380,
+            "match": "mcf",
+            "context_ascii": "d)..[BOOT][OTA] mcf_ota_reset_last_modified_lid(): LID is in not reset list. lid(%d)....[BOOT][OTA] mcf_ota_reset_last_modified_lid(): Reset LID to default value. lid(%d)..[BOOT][OTA][F] mcf_ota_reset_last_modified_lid(): Reset LID fail. lid(%d), nv_ret(%d), total_rec(%d)....[BOOT]["
+          },
+          {
+            "offset": 34545467,
+            "match": "mcf",
+            "context_ascii": ".[BOOT][OTA] mcf_ota_reset_last_modified_lid(): Reset LID to default value. lid(%d)..[BOOT][OTA][F] mcf_ota_reset_last_modified_lid(): Reset LID fail. lid(%d), nv_ret(%d), total_rec(%d)....[BOOT][OTA][W] mcf_ota_reset_last_modified_lid(): LID reset attr is not set. lid(%d), attr(%x)"
+          },
+          {
+            "offset": 34545571,
+            "match": "mcf",
+            "context_ascii": "ota_reset_last_modified_lid(): Reset LID fail. lid(%d), nv_ret(%d), total_rec(%d)....[BOOT][OTA][W] mcf_ota_reset_last_modified_lid(): LID reset attr is not set. lid(%d), attr(%x)..[BOOT][OTA] mcf_ota_update_value_write_in_nv(): Update opota feature disable. flag(%d)..[BOOT][OTA] mc"
+          },
+          {
+            "offset": 34545664,
+            "match": "mcf",
+            "context_ascii": "TA][W] mcf_ota_reset_last_modified_lid(): LID reset attr is not set. lid(%d), attr(%x)..[BOOT][OTA] mcf_ota_update_value_write_in_nv(): Update opota feature disable. flag(%d)..[BOOT][OTA] mcf_ota_update_value_write_in_nv(): Update opota function done. func_total_num(%d)..[BOOT][OTA]"
+          },
+          {
+            "offset": 34545752,
+            "match": "mcf",
+            "context_ascii": "[BOOT][OTA] mcf_ota_update_value_write_in_nv(): Update opota feature disable. flag(%d)..[BOOT][OTA] mcf_ota_update_value_write_in_nv(): Update opota function done. func_total_num(%d)..[BOOT][OTA][F] mcf_ota_update_value_write_in_nv(): Update opota function fail. func_num(%d).[BOOT]["
+          },
+          {
+            "offset": 34545851,
+            "match": "mcf",
+            "context_ascii": " mcf_ota_update_value_write_in_nv(): Update opota function done. func_total_num(%d)..[BOOT][OTA][F] mcf_ota_update_value_write_in_nv(): Update opota function fail. func_num(%d).[BOOT][OTA][F] mcf_ota_write_nv_data(): Fail to write MCF LID. lid(%d), rec_idx(%d), ret(%d)....[BOOT][OTA"
+          },
+          {
+            "offset": 34545943,
+            "match": "mcf",
+            "context_ascii": "OTA][F] mcf_ota_update_value_write_in_nv(): Update opota function fail. func_num(%d).[BOOT][OTA][F] mcf_ota_write_nv_data(): Fail to write MCF LID. lid(%d), rec_idx(%d), ret(%d)....[BOOT][OTA] mcf_ota_end(): ret(%d)..[BOOT][OTA] mcf_ota_check_update(): Start. ota_apply_list_cnt(%d),"
+          },
+          {
+            "offset": 34545982,
+            "match": "MCF",
+            "context_ascii": "v(): Update opota function fail. func_num(%d).[BOOT][OTA][F] mcf_ota_write_nv_data(): Fail to write MCF LID. lid(%d), rec_idx(%d), ret(%d)....[BOOT][OTA] mcf_ota_end(): ret(%d)..[BOOT][OTA] mcf_ota_check_update(): Start. ota_apply_list_cnt(%d), duration(%u).[BOOT][OTA] mcf_ota_check"
+          },
+          {
+            "offset": 34546036,
+            "match": "mcf",
+            "context_ascii": "TA][F] mcf_ota_write_nv_data(): Fail to write MCF LID. lid(%d), rec_idx(%d), ret(%d)....[BOOT][OTA] mcf_ota_end(): ret(%d)..[BOOT][OTA] mcf_ota_check_update(): Start. ota_apply_list_cnt(%d), duration(%u).[BOOT][OTA] mcf_ota_check_update(): End! ota_apply_list_cnt(%d), duration(%u).."
+          },
+          {
+            "offset": 34546072,
+            "match": "mcf",
+            "context_ascii": " to write MCF LID. lid(%d), rec_idx(%d), ret(%d)....[BOOT][OTA] mcf_ota_end(): ret(%d)..[BOOT][OTA] mcf_ota_check_update(): Start. ota_apply_list_cnt(%d), duration(%u).[BOOT][OTA] mcf_ota_check_update(): End! ota_apply_list_cnt(%d), duration(%u)...[BOOT][OTA] mcf_ota_check_update():"
+          },
+          {
+            "offset": 34546152,
+            "match": "mcf",
+            "context_ascii": "et(%d)..[BOOT][OTA] mcf_ota_check_update(): Start. ota_apply_list_cnt(%d), duration(%u).[BOOT][OTA] mcf_ota_check_update(): End! ota_apply_list_cnt(%d), duration(%u)...[BOOT][OTA] mcf_ota_check_update(): No OTA files. ota_apply_list_cnt(%d)....[BOOT][OTA][F] mcf_start_ota_interface("
+          },
+          {
+            "offset": 34546232,
+            "match": "mcf",
+            "context_ascii": "ion(%u).[BOOT][OTA] mcf_ota_check_update(): End! ota_apply_list_cnt(%d), duration(%u)...[BOOT][OTA] mcf_ota_check_update(): No OTA files. ota_apply_list_cnt(%d)....[BOOT][OTA][F] mcf_start_ota_interface(): Invalid result. p_result(%x), result(%d)..[BOOT][OTA] mcf_ota_reset_last_modi"
+          },
+          {
+            "offset": 34546311,
+            "match": "mcf",
+            "context_ascii": "on(%u)...[BOOT][OTA] mcf_ota_check_update(): No OTA files. ota_apply_list_cnt(%d)....[BOOT][OTA][F] mcf_start_ota_interface(): Invalid result. p_result(%x), result(%d)..[BOOT][OTA] mcf_ota_reset_last_modified_lid(): duration(%u).[BOOT][F] mcf_update_value_in_nv_check_new_lid(): GID "
+          },
+          {
+            "offset": 34546392,
+            "match": "mcf",
+            "context_ascii": "....[BOOT][OTA][F] mcf_start_ota_interface(): Invalid result. p_result(%x), result(%d)..[BOOT][OTA] mcf_ota_reset_last_modified_lid(): duration(%u).[BOOT][F] mcf_update_value_in_nv_check_new_lid(): GID not found. gid(%d)....[BOOT][F] mcf_update_one_parameter(): Invalid input paramet"
+          },
+          {
+            "offset": 34546450,
+            "match": "mcf",
+            "context_ascii": "lt. p_result(%x), result(%d)..[BOOT][OTA] mcf_ota_reset_last_modified_lid(): duration(%u).[BOOT][F] mcf_update_value_in_nv_check_new_lid(): GID not found. gid(%d)....[BOOT][F] mcf_update_one_parameter(): Invalid input parameter. buffer(%x), value(%x)....[BOOT][F] mcf_update_one_para"
+          },
+          {
+            "offset": 34546526,
+            "match": "mcf",
+            "context_ascii": " duration(%u).[BOOT][F] mcf_update_value_in_nv_check_new_lid(): GID not found. gid(%d)....[BOOT][F] mcf_update_one_parameter(): Invalid input parameter. buffer(%x), value(%x)....[BOOT][F] mcf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_value_len(%d)..["
+          },
+          {
+            "offset": 34546614,
+            "match": "mcf",
+            "context_ascii": "..[BOOT][F] mcf_update_one_parameter(): Invalid input parameter. buffer(%x), value(%x)....[BOOT][F] mcf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_value_len(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_"
+          },
+          {
+            "offset": 34546686,
+            "match": "mcf",
+            "context_ascii": "%x), value(%x)....[BOOT][F] mcf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_value_len(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_string_len(%d).[BOOT] mcf_update_one_parameter(): Update LID(%d) item. i"
+          },
+          {
+            "offset": 34546718,
+            "match": "mcf",
+            "context_ascii": "update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_value_len(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_string_len(%d).[BOOT] mcf_update_one_parameter(): Update LID(%d) item. item_offset(%d), value_len(%d), r"
+          },
+          {
+            "offset": 34546790,
+            "match": "mcf",
+            "context_ascii": "db_value_len(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_string_len(%d).[BOOT] mcf_update_one_parameter(): Update LID(%d) item. item_offset(%d), value_len(%d), rec_id(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid bit len. file_i"
+          },
+          {
+            "offset": 34546819,
+            "match": "mcf",
+            "context_ascii": "cf_update_one_parameter(): Invalid value len. file_item_value_len(%d), mcf_db_string_len(%d).[BOOT] mcf_update_one_parameter(): Update LID(%d) item. item_offset(%d), value_len(%d), rec_id(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid bit len. file_item_bit_len(%d), mcf_db_bit_l"
+          },
+          {
+            "offset": 34546922,
+            "match": "mcf",
+            "context_ascii": "_update_one_parameter(): Update LID(%d) item. item_offset(%d), value_len(%d), rec_id(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid bit len. file_item_bit_len(%d), mcf_db_bit_len(%d)....[BOOT] mcf_update_one_parameter(): gid(%d), bit_len(%d), value(%d)..[BOOT][F] mcf_update_one_"
+          },
+          {
+            "offset": 34546990,
+            "match": "mcf",
+            "context_ascii": "_len(%d), rec_id(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid bit len. file_item_bit_len(%d), mcf_db_bit_len(%d)....[BOOT] mcf_update_one_parameter(): gid(%d), bit_len(%d), value(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid bit offset. item_bit_offset(%d), file_item_bit_"
+          },
+          {
+            "offset": 34547019,
+            "match": "mcf",
+            "context_ascii": "F] mcf_update_one_parameter(): Invalid bit len. file_item_bit_len(%d), mcf_db_bit_len(%d)....[BOOT] mcf_update_one_parameter(): gid(%d), bit_len(%d), value(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid bit offset. item_bit_offset(%d), file_item_bit_len(%d), mcf_db_bit_len(%d).."
+          },
+          {
+            "offset": 34547090,
+            "match": "mcf",
+            "context_ascii": "mcf_db_bit_len(%d)....[BOOT] mcf_update_one_parameter(): gid(%d), bit_len(%d), value(%d)..[BOOT][F] mcf_update_one_parameter(): Invalid bit offset. item_bit_offset(%d), file_item_bit_len(%d), mcf_db_bit_len(%d)....[BOOT] [F]mcf_update_one_parameter(): Invalid size. var_size(%d), ite"
+          },
+          {
+            "offset": 34547182,
+            "match": "mcf",
+            "context_ascii": "OOT][F] mcf_update_one_parameter(): Invalid bit offset. item_bit_offset(%d), file_item_bit_len(%d), mcf_db_bit_len(%d)....[BOOT] [F]mcf_update_one_parameter(): Invalid size. var_size(%d), item_size(%d), item_bit_offset(%u)....[BOOT][F] mcf_update_one_item(): Invalid input parameter."
+          },
+          {
+            "offset": 34547214,
+            "match": "mcf",
+            "context_ascii": "(): Invalid bit offset. item_bit_offset(%d), file_item_bit_len(%d), mcf_db_bit_len(%d)....[BOOT] [F]mcf_update_one_parameter(): Invalid size. var_size(%d), item_size(%d), item_bit_offset(%u)....[BOOT][F] mcf_update_one_item(): Invalid input parameter. item(%x), buffer(%x)..[BOOT][F]"
+          }
+        ]
+      }
+    }
+  },
+  "mcf_ota.img": {
+    "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\mcf_ota.img",
+    "size": 33538048,
+    "sha256": "cd348ee328bb3383c9cbe483ee2592529451980e415c59493b246627549dc079",
+    "first256_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "last128_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "ext4_magic_at1080": "53ef",
+    "sparse_magic": "00000000",
+    "searches": {
+      "plmn_vietnam": {
+        "count": 5,
+        "first_hits": [
+          {
+            "offset": 10609113,
+            "match": "45232",
+            "context_ascii": "ID_410.mcfopota.a1c623a14217559202bdcc61beeff2c7  MTK_NWOTA_SBPID_404.mcfnwota.9187ec8f92eac929f57bd45232dabf86  MTK_OPOTA_SBPID_344.mcfopota.2037de68009260d848cc790cf2951e6d  MTK_OPOTA_SBPID_112.mcfopota.ac2568bcbb846419b22f381fbdd5f5f9  MTK_OPOTA_SBPID_201.mcfopota.7c909fe8cb79a9f70"
+          },
+          {
+            "offset": 11395072,
+            "match": "45201",
+            "context_ascii": "....................................................................................................45201,VN Mobifone,Mobifone..45202,VN VINAPHONE,GPC..45204,VIETTEL,VIETTEL..45205,Vietnamobile,VNMOBILE..................................................................................."
+          },
+          {
+            "offset": 11395100,
+            "match": "45202",
+            "context_ascii": "........................................................................45201,VN Mobifone,Mobifone..45202,VN VINAPHONE,GPC..45204,VIETTEL,VIETTEL..45205,Vietnamobile,VNMOBILE..............................................................................................................."
+          },
+          {
+            "offset": 11395124,
+            "match": "45204",
+            "context_ascii": "................................................45201,VN Mobifone,Mobifone..45202,VN VINAPHONE,GPC..45204,VIETTEL,VIETTEL..45205,Vietnamobile,VNMOBILE......................................................................................................................................."
+          },
+          {
+            "offset": 11395147,
+            "match": "45205",
+            "context_ascii": ".........................45201,VN Mobifone,Mobifone..45202,VN VINAPHONE,GPC..45204,VIETTEL,VIETTEL..45205,Vietnamobile,VNMOBILE.............................................................................................................................................................."
+          }
+        ]
+      },
+      "country_vietnam": {
+        "count": 3,
+        "first_hits": [
+          {
+            "offset": 11395109,
+            "match": "VINAPHONE",
+            "context_ascii": "...............................................................45201,VN Mobifone,Mobifone..45202,VN VINAPHONE,GPC..45204,VIETTEL,VIETTEL..45205,Vietnamobile,VNMOBILE............................................................................................................................"
+          },
+          {
+            "offset": 11395153,
+            "match": "Vietnam",
+            "context_ascii": "...................45201,VN Mobifone,Mobifone..45202,VN VINAPHONE,GPC..45204,VIETTEL,VIETTEL..45205,Vietnamobile,VNMOBILE......................................................................................................................................................................"
+          },
+          {
+            "offset": 11800633,
+            "match": "Viettel",
+            "context_ascii": "...........................................71606,MOVISTAR,MOVISTAR..71610,CLARO PER,ClaroPER..71615,Viettel Peru,VTP..71617,Entel,Entel........................................................................................................................................................"
+          }
+        ]
+      },
+      "nr_rat": {
+        "count": 0,
+        "first_hits": []
+      },
+      "config_names": {
+        "count": 4130,
+        "first_hits": [
+          {
+            "offset": 24644,
+            "match": "mcf",
+            "context_ascii": "................................................................lost+found..........custom..@.......mcf_build_utc.txt...A.......mcf_ota.md5sum..B.......misc_data...m...p...mtk_default...................................................................................................."
+          },
+          {
+            "offset": 24672,
+            "match": "mcf",
+            "context_ascii": "....................................lost+found..........custom..@.......mcf_build_utc.txt...A.......mcf_ota.md5sum..B.......misc_data...m...p...mtk_default................................................................................................................................"
+          },
+          {
+            "offset": 5296190,
+            "match": "mcf",
+            "context_ascii": "..................................................................0.'.HW_CONFIG_SAR_Type0_Set2_MMRF.mcfrawota.....$...MTK_NWOTA_GENERAL.mcfnwota......$...MTK_NWOTA_SBPID_1.mcfnwota......$...MTK_NWOTA_SBPID_100.mcfnwota....(...MTK_NWOTA_SBPID_1001.mcfnwota.......(...MTK_NWOTA_SBPID_1"
+          },
+          {
+            "offset": 5296226,
+            "match": "mcf",
+            "context_ascii": "..............................0.'.HW_CONFIG_SAR_Type0_Set2_MMRF.mcfrawota.....$...MTK_NWOTA_GENERAL.mcfnwota......$...MTK_NWOTA_SBPID_1.mcfnwota......$...MTK_NWOTA_SBPID_100.mcfnwota....(...MTK_NWOTA_SBPID_1001.mcfnwota.......(...MTK_NWOTA_SBPID_1002.mcfnwota.......(...MTK_NWOTA_SBP"
+          },
+          {
+            "offset": 5296262,
+            "match": "mcf",
+            "context_ascii": "_CONFIG_SAR_Type0_Set2_MMRF.mcfrawota.....$...MTK_NWOTA_GENERAL.mcfnwota......$...MTK_NWOTA_SBPID_1.mcfnwota......$...MTK_NWOTA_SBPID_100.mcfnwota....(...MTK_NWOTA_SBPID_1001.mcfnwota.......(...MTK_NWOTA_SBPID_1002.mcfnwota.......(...MTK_NWOTA_SBPID_1003.mcfnwota.......(...MTK_NWOTA"
+          },
+          {
+            "offset": 5296300,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_GENERAL.mcfnwota......$...MTK_NWOTA_SBPID_1.mcfnwota......$...MTK_NWOTA_SBPID_100.mcfnwota....(...MTK_NWOTA_SBPID_1001.mcfnwota.......(...MTK_NWOTA_SBPID_1002.mcfnwota.......(...MTK_NWOTA_SBPID_1003.mcfnwota.......(...MTK_NWOTA_SBPID_1004.mcfnwota.......(...MTK_NWO"
+          },
+          {
+            "offset": 5296337,
+            "match": "mcf",
+            "context_ascii": "...$...MTK_NWOTA_SBPID_1.mcfnwota......$...MTK_NWOTA_SBPID_100.mcfnwota....(...MTK_NWOTA_SBPID_1001.mcfnwota.......(...MTK_NWOTA_SBPID_1002.mcfnwota.......(...MTK_NWOTA_SBPID_1003.mcfnwota.......(...MTK_NWOTA_SBPID_1004.mcfnwota.......(...MTK_NWOTA_SBPID_1005.mcfnwota.......$...MTK_"
+          },
+          {
+            "offset": 5296377,
+            "match": "mcf",
+            "context_ascii": "...MTK_NWOTA_SBPID_100.mcfnwota....(...MTK_NWOTA_SBPID_1001.mcfnwota.......(...MTK_NWOTA_SBPID_1002.mcfnwota.......(...MTK_NWOTA_SBPID_1003.mcfnwota.......(...MTK_NWOTA_SBPID_1004.mcfnwota.......(...MTK_NWOTA_SBPID_1005.mcfnwota.......$...MTK_NWOTA_SBPID_101.mcfnwota....$...MTK_NWOT"
+          },
+          {
+            "offset": 5296417,
+            "match": "mcf",
+            "context_ascii": "TK_NWOTA_SBPID_1001.mcfnwota.......(...MTK_NWOTA_SBPID_1002.mcfnwota.......(...MTK_NWOTA_SBPID_1003.mcfnwota.......(...MTK_NWOTA_SBPID_1004.mcfnwota.......(...MTK_NWOTA_SBPID_1005.mcfnwota.......$...MTK_NWOTA_SBPID_101.mcfnwota....$...MTK_NWOTA_SBPID_102.mcfnwota....$...MTK_NWOTA_SB"
+          },
+          {
+            "offset": 5296457,
+            "match": "mcf",
+            "context_ascii": "TK_NWOTA_SBPID_1002.mcfnwota.......(...MTK_NWOTA_SBPID_1003.mcfnwota.......(...MTK_NWOTA_SBPID_1004.mcfnwota.......(...MTK_NWOTA_SBPID_1005.mcfnwota.......$...MTK_NWOTA_SBPID_101.mcfnwota....$...MTK_NWOTA_SBPID_102.mcfnwota....$...MTK_NWOTA_SBPID_103.mcfnwota....$...MTK_NWOTA_SBPID_"
+          },
+          {
+            "offset": 5296497,
+            "match": "mcf",
+            "context_ascii": "TK_NWOTA_SBPID_1003.mcfnwota.......(...MTK_NWOTA_SBPID_1004.mcfnwota.......(...MTK_NWOTA_SBPID_1005.mcfnwota.......$...MTK_NWOTA_SBPID_101.mcfnwota....$...MTK_NWOTA_SBPID_102.mcfnwota....$...MTK_NWOTA_SBPID_103.mcfnwota....$...MTK_NWOTA_SBPID_104.mcfnwota....$...MTK_NWOTA_SBPID_105."
+          },
+          {
+            "offset": 5296536,
+            "match": "mcf",
+            "context_ascii": "MTK_NWOTA_SBPID_1004.mcfnwota.......(...MTK_NWOTA_SBPID_1005.mcfnwota.......$...MTK_NWOTA_SBPID_101.mcfnwota....$...MTK_NWOTA_SBPID_102.mcfnwota....$...MTK_NWOTA_SBPID_103.mcfnwota....$...MTK_NWOTA_SBPID_104.mcfnwota....$...MTK_NWOTA_SBPID_105.mcfnwota....$...MTK_NWOTA_SBPID_106.mcf"
+          },
+          {
+            "offset": 5296572,
+            "match": "mcf",
+            "context_ascii": "(...MTK_NWOTA_SBPID_1005.mcfnwota.......$...MTK_NWOTA_SBPID_101.mcfnwota....$...MTK_NWOTA_SBPID_102.mcfnwota....$...MTK_NWOTA_SBPID_103.mcfnwota....$...MTK_NWOTA_SBPID_104.mcfnwota....$...MTK_NWOTA_SBPID_105.mcfnwota....$...MTK_NWOTA_SBPID_106.mcfnwota....$...MTK_NWOTA_SBPID_107.mcf"
+          },
+          {
+            "offset": 5296608,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_101.mcfnwota....$...MTK_NWOTA_SBPID_102.mcfnwota....$...MTK_NWOTA_SBPID_103.mcfnwota....$...MTK_NWOTA_SBPID_104.mcfnwota....$...MTK_NWOTA_SBPID_105.mcfnwota....$...MTK_NWOTA_SBPID_106.mcfnwota....$...MTK_NWOTA_SBPID_107.mcfnwota....$...MTK_NWOTA_SBPID_108.mcf"
+          },
+          {
+            "offset": 5296644,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_102.mcfnwota....$...MTK_NWOTA_SBPID_103.mcfnwota....$...MTK_NWOTA_SBPID_104.mcfnwota....$...MTK_NWOTA_SBPID_105.mcfnwota....$...MTK_NWOTA_SBPID_106.mcfnwota....$...MTK_NWOTA_SBPID_107.mcfnwota....$...MTK_NWOTA_SBPID_108.mcfnwota....$...MTK_NWOTA_SBPID_109.mcf"
+          },
+          {
+            "offset": 5296680,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_103.mcfnwota....$...MTK_NWOTA_SBPID_104.mcfnwota....$...MTK_NWOTA_SBPID_105.mcfnwota....$...MTK_NWOTA_SBPID_106.mcfnwota....$...MTK_NWOTA_SBPID_107.mcfnwota....$...MTK_NWOTA_SBPID_108.mcfnwota....$...MTK_NWOTA_SBPID_109.mcfnwota....$...MTK_NWOTA_SBPID_11.mcfn"
+          },
+          {
+            "offset": 5296716,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_104.mcfnwota....$...MTK_NWOTA_SBPID_105.mcfnwota....$...MTK_NWOTA_SBPID_106.mcfnwota....$...MTK_NWOTA_SBPID_107.mcfnwota....$...MTK_NWOTA_SBPID_108.mcfnwota....$...MTK_NWOTA_SBPID_109.mcfnwota....$...MTK_NWOTA_SBPID_11.mcfnwota. ...$...MTK_NWOTA_SBPID_110.mcf"
+          },
+          {
+            "offset": 5296752,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_105.mcfnwota....$...MTK_NWOTA_SBPID_106.mcfnwota....$...MTK_NWOTA_SBPID_107.mcfnwota....$...MTK_NWOTA_SBPID_108.mcfnwota....$...MTK_NWOTA_SBPID_109.mcfnwota....$...MTK_NWOTA_SBPID_11.mcfnwota. ...$...MTK_NWOTA_SBPID_110.mcfnwota!...$...MTK_NWOTA_SBPID_111.mcf"
+          },
+          {
+            "offset": 5296788,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_106.mcfnwota....$...MTK_NWOTA_SBPID_107.mcfnwota....$...MTK_NWOTA_SBPID_108.mcfnwota....$...MTK_NWOTA_SBPID_109.mcfnwota....$...MTK_NWOTA_SBPID_11.mcfnwota. ...$...MTK_NWOTA_SBPID_110.mcfnwota!...$...MTK_NWOTA_SBPID_111.mcfnwota\"...$...MTK_NWOTA_SBPID_112.mcf"
+          },
+          {
+            "offset": 5296824,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_107.mcfnwota....$...MTK_NWOTA_SBPID_108.mcfnwota....$...MTK_NWOTA_SBPID_109.mcfnwota....$...MTK_NWOTA_SBPID_11.mcfnwota. ...$...MTK_NWOTA_SBPID_110.mcfnwota!...$...MTK_NWOTA_SBPID_111.mcfnwota\"...$...MTK_NWOTA_SBPID_112.mcfnwota#...$...MTK_NWOTA_SBPID_113.mcf"
+          },
+          {
+            "offset": 5296859,
+            "match": "mcf",
+            "context_ascii": "a....$...MTK_NWOTA_SBPID_108.mcfnwota....$...MTK_NWOTA_SBPID_109.mcfnwota....$...MTK_NWOTA_SBPID_11.mcfnwota. ...$...MTK_NWOTA_SBPID_110.mcfnwota!...$...MTK_NWOTA_SBPID_111.mcfnwota\"...$...MTK_NWOTA_SBPID_112.mcfnwota#...$...MTK_NWOTA_SBPID_113.mcfnwota$...$...MTK_NWOTA_SBPID_114.mc"
+          },
+          {
+            "offset": 5296896,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_109.mcfnwota....$...MTK_NWOTA_SBPID_11.mcfnwota. ...$...MTK_NWOTA_SBPID_110.mcfnwota!...$...MTK_NWOTA_SBPID_111.mcfnwota\"...$...MTK_NWOTA_SBPID_112.mcfnwota#...$...MTK_NWOTA_SBPID_113.mcfnwota$...$...MTK_NWOTA_SBPID_114.mcfnwota%...$...MTK_NWOTA_SBPID_115.mcf"
+          },
+          {
+            "offset": 5296932,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_11.mcfnwota. ...$...MTK_NWOTA_SBPID_110.mcfnwota!...$...MTK_NWOTA_SBPID_111.mcfnwota\"...$...MTK_NWOTA_SBPID_112.mcfnwota#...$...MTK_NWOTA_SBPID_113.mcfnwota$...$...MTK_NWOTA_SBPID_114.mcfnwota%...$...MTK_NWOTA_SBPID_115.mcfnwota&...$...MTK_NWOTA_SBPID_116.mcf"
+          },
+          {
+            "offset": 5296968,
+            "match": "mcf",
+            "context_ascii": " ...$...MTK_NWOTA_SBPID_110.mcfnwota!...$...MTK_NWOTA_SBPID_111.mcfnwota\"...$...MTK_NWOTA_SBPID_112.mcfnwota#...$...MTK_NWOTA_SBPID_113.mcfnwota$...$...MTK_NWOTA_SBPID_114.mcfnwota%...$...MTK_NWOTA_SBPID_115.mcfnwota&...$...MTK_NWOTA_SBPID_116.mcfnwota'...$...MTK_NWOTA_SBPID_117.mcf"
+          },
+          {
+            "offset": 5297004,
+            "match": "mcf",
+            "context_ascii": "!...$...MTK_NWOTA_SBPID_111.mcfnwota\"...$...MTK_NWOTA_SBPID_112.mcfnwota#...$...MTK_NWOTA_SBPID_113.mcfnwota$...$...MTK_NWOTA_SBPID_114.mcfnwota%...$...MTK_NWOTA_SBPID_115.mcfnwota&...$...MTK_NWOTA_SBPID_116.mcfnwota'...$...MTK_NWOTA_SBPID_117.mcfnwota(...$...MTK_NWOTA_SBPID_118.mcf"
+          },
+          {
+            "offset": 5297040,
+            "match": "mcf",
+            "context_ascii": "\"...$...MTK_NWOTA_SBPID_112.mcfnwota#...$...MTK_NWOTA_SBPID_113.mcfnwota$...$...MTK_NWOTA_SBPID_114.mcfnwota%...$...MTK_NWOTA_SBPID_115.mcfnwota&...$...MTK_NWOTA_SBPID_116.mcfnwota'...$...MTK_NWOTA_SBPID_117.mcfnwota(...$...MTK_NWOTA_SBPID_118.mcfnwota)...$...MTK_NWOTA_SBPID_119.mcf"
+          },
+          {
+            "offset": 5297076,
+            "match": "mcf",
+            "context_ascii": "#...$...MTK_NWOTA_SBPID_113.mcfnwota$...$...MTK_NWOTA_SBPID_114.mcfnwota%...$...MTK_NWOTA_SBPID_115.mcfnwota&...$...MTK_NWOTA_SBPID_116.mcfnwota'...$...MTK_NWOTA_SBPID_117.mcfnwota(...$...MTK_NWOTA_SBPID_118.mcfnwota)...$...MTK_NWOTA_SBPID_119.mcfnwota*...$...MTK_NWOTA_SBPID_12.mcfn"
+          },
+          {
+            "offset": 5297112,
+            "match": "mcf",
+            "context_ascii": "$...$...MTK_NWOTA_SBPID_114.mcfnwota%...$...MTK_NWOTA_SBPID_115.mcfnwota&...$...MTK_NWOTA_SBPID_116.mcfnwota'...$...MTK_NWOTA_SBPID_117.mcfnwota(...$...MTK_NWOTA_SBPID_118.mcfnwota)...$...MTK_NWOTA_SBPID_119.mcfnwota*...$...MTK_NWOTA_SBPID_12.mcfnwota.+...$...MTK_NWOTA_SBPID_120.mcf"
+          },
+          {
+            "offset": 5297148,
+            "match": "mcf",
+            "context_ascii": "%...$...MTK_NWOTA_SBPID_115.mcfnwota&...$...MTK_NWOTA_SBPID_116.mcfnwota'...$...MTK_NWOTA_SBPID_117.mcfnwota(...$...MTK_NWOTA_SBPID_118.mcfnwota)...$...MTK_NWOTA_SBPID_119.mcfnwota*...$...MTK_NWOTA_SBPID_12.mcfnwota.+...$...MTK_NWOTA_SBPID_120.mcfnwota,...$...MTK_NWOTA_SBPID_121.mcf"
+          },
+          {
+            "offset": 5297184,
+            "match": "mcf",
+            "context_ascii": "&...$...MTK_NWOTA_SBPID_116.mcfnwota'...$...MTK_NWOTA_SBPID_117.mcfnwota(...$...MTK_NWOTA_SBPID_118.mcfnwota)...$...MTK_NWOTA_SBPID_119.mcfnwota*...$...MTK_NWOTA_SBPID_12.mcfnwota.+...$...MTK_NWOTA_SBPID_120.mcfnwota,...$...MTK_NWOTA_SBPID_121.mcfnwota-...$...MTK_NWOTA_SBPID_122.mcf"
+          },
+          {
+            "offset": 5297220,
+            "match": "mcf",
+            "context_ascii": "'...$...MTK_NWOTA_SBPID_117.mcfnwota(...$...MTK_NWOTA_SBPID_118.mcfnwota)...$...MTK_NWOTA_SBPID_119.mcfnwota*...$...MTK_NWOTA_SBPID_12.mcfnwota.+...$...MTK_NWOTA_SBPID_120.mcfnwota,...$...MTK_NWOTA_SBPID_121.mcfnwota-...$...MTK_NWOTA_SBPID_122.mcfnwota....$...MTK_NWOTA_SBPID_124.mcf"
+          },
+          {
+            "offset": 5297255,
+            "match": "mcf",
+            "context_ascii": "a(...$...MTK_NWOTA_SBPID_118.mcfnwota)...$...MTK_NWOTA_SBPID_119.mcfnwota*...$...MTK_NWOTA_SBPID_12.mcfnwota.+...$...MTK_NWOTA_SBPID_120.mcfnwota,...$...MTK_NWOTA_SBPID_121.mcfnwota-...$...MTK_NWOTA_SBPID_122.mcfnwota....$...MTK_NWOTA_SBPID_124.mcfnwota/...$...MTK_NWOTA_SBPID_125.mc"
+          },
+          {
+            "offset": 5297292,
+            "match": "mcf",
+            "context_ascii": ")...$...MTK_NWOTA_SBPID_119.mcfnwota*...$...MTK_NWOTA_SBPID_12.mcfnwota.+...$...MTK_NWOTA_SBPID_120.mcfnwota,...$...MTK_NWOTA_SBPID_121.mcfnwota-...$...MTK_NWOTA_SBPID_122.mcfnwota....$...MTK_NWOTA_SBPID_124.mcfnwota/...$...MTK_NWOTA_SBPID_125.mcfnwota0...$...MTK_NWOTA_SBPID_126.mcf"
+          },
+          {
+            "offset": 5297328,
+            "match": "mcf",
+            "context_ascii": "*...$...MTK_NWOTA_SBPID_12.mcfnwota.+...$...MTK_NWOTA_SBPID_120.mcfnwota,...$...MTK_NWOTA_SBPID_121.mcfnwota-...$...MTK_NWOTA_SBPID_122.mcfnwota....$...MTK_NWOTA_SBPID_124.mcfnwota/...$...MTK_NWOTA_SBPID_125.mcfnwota0...$...MTK_NWOTA_SBPID_126.mcfnwota1...$...MTK_NWOTA_SBPID_127.mcf"
+          },
+          {
+            "offset": 5297364,
+            "match": "mcf",
+            "context_ascii": "+...$...MTK_NWOTA_SBPID_120.mcfnwota,...$...MTK_NWOTA_SBPID_121.mcfnwota-...$...MTK_NWOTA_SBPID_122.mcfnwota....$...MTK_NWOTA_SBPID_124.mcfnwota/...$...MTK_NWOTA_SBPID_125.mcfnwota0...$...MTK_NWOTA_SBPID_126.mcfnwota1...$...MTK_NWOTA_SBPID_127.mcfnwota2...$...MTK_NWOTA_SBPID_128.mcf"
+          },
+          {
+            "offset": 5297400,
+            "match": "mcf",
+            "context_ascii": ",...$...MTK_NWOTA_SBPID_121.mcfnwota-...$...MTK_NWOTA_SBPID_122.mcfnwota....$...MTK_NWOTA_SBPID_124.mcfnwota/...$...MTK_NWOTA_SBPID_125.mcfnwota0...$...MTK_NWOTA_SBPID_126.mcfnwota1...$...MTK_NWOTA_SBPID_127.mcfnwota2...$...MTK_NWOTA_SBPID_128.mcfnwota3...$...MTK_NWOTA_SBPID_129.mcf"
+          },
+          {
+            "offset": 5297436,
+            "match": "mcf",
+            "context_ascii": "-...$...MTK_NWOTA_SBPID_122.mcfnwota....$...MTK_NWOTA_SBPID_124.mcfnwota/...$...MTK_NWOTA_SBPID_125.mcfnwota0...$...MTK_NWOTA_SBPID_126.mcfnwota1...$...MTK_NWOTA_SBPID_127.mcfnwota2...$...MTK_NWOTA_SBPID_128.mcfnwota3...$...MTK_NWOTA_SBPID_129.mcfnwota4...$...MTK_NWOTA_SBPID_130.mcf"
+          },
+          {
+            "offset": 5297472,
+            "match": "mcf",
+            "context_ascii": "....$...MTK_NWOTA_SBPID_124.mcfnwota/...$...MTK_NWOTA_SBPID_125.mcfnwota0...$...MTK_NWOTA_SBPID_126.mcfnwota1...$...MTK_NWOTA_SBPID_127.mcfnwota2...$...MTK_NWOTA_SBPID_128.mcfnwota3...$...MTK_NWOTA_SBPID_129.mcfnwota4...$...MTK_NWOTA_SBPID_130.mcfnwota5...$...MTK_NWOTA_SBPID_131.mcf"
+          },
+          {
+            "offset": 5297508,
+            "match": "mcf",
+            "context_ascii": "/...$...MTK_NWOTA_SBPID_125.mcfnwota0...$...MTK_NWOTA_SBPID_126.mcfnwota1...$...MTK_NWOTA_SBPID_127.mcfnwota2...$...MTK_NWOTA_SBPID_128.mcfnwota3...$...MTK_NWOTA_SBPID_129.mcfnwota4...$...MTK_NWOTA_SBPID_130.mcfnwota5...$...MTK_NWOTA_SBPID_131.mcfnwota6...$...MTK_NWOTA_SBPID_132.mcf"
+          },
+          {
+            "offset": 5297544,
+            "match": "mcf",
+            "context_ascii": "0...$...MTK_NWOTA_SBPID_126.mcfnwota1...$...MTK_NWOTA_SBPID_127.mcfnwota2...$...MTK_NWOTA_SBPID_128.mcfnwota3...$...MTK_NWOTA_SBPID_129.mcfnwota4...$...MTK_NWOTA_SBPID_130.mcfnwota5...$...MTK_NWOTA_SBPID_131.mcfnwota6...$...MTK_NWOTA_SBPID_132.mcfnwota7...$...MTK_NWOTA_SBPID_133.mcf"
+          },
+          {
+            "offset": 5297580,
+            "match": "mcf",
+            "context_ascii": "1...$...MTK_NWOTA_SBPID_127.mcfnwota2...$...MTK_NWOTA_SBPID_128.mcfnwota3...$...MTK_NWOTA_SBPID_129.mcfnwota4...$...MTK_NWOTA_SBPID_130.mcfnwota5...$...MTK_NWOTA_SBPID_131.mcfnwota6...$...MTK_NWOTA_SBPID_132.mcfnwota7...$...MTK_NWOTA_SBPID_133.mcfnwota8...$...MTK_NWOTA_SBPID_134.mcf"
+          },
+          {
+            "offset": 5297616,
+            "match": "mcf",
+            "context_ascii": "2...$...MTK_NWOTA_SBPID_128.mcfnwota3...$...MTK_NWOTA_SBPID_129.mcfnwota4...$...MTK_NWOTA_SBPID_130.mcfnwota5...$...MTK_NWOTA_SBPID_131.mcfnwota6...$...MTK_NWOTA_SBPID_132.mcfnwota7...$...MTK_NWOTA_SBPID_133.mcfnwota8...$...MTK_NWOTA_SBPID_134.mcfnwota9...$...MTK_NWOTA_SBPID_135.mcf"
+          },
+          {
+            "offset": 5297652,
+            "match": "mcf",
+            "context_ascii": "3...$...MTK_NWOTA_SBPID_129.mcfnwota4...$...MTK_NWOTA_SBPID_130.mcfnwota5...$...MTK_NWOTA_SBPID_131.mcfnwota6...$...MTK_NWOTA_SBPID_132.mcfnwota7...$...MTK_NWOTA_SBPID_133.mcfnwota8...$...MTK_NWOTA_SBPID_134.mcfnwota9...$...MTK_NWOTA_SBPID_135.mcfnwota:...$...MTK_NWOTA_SBPID_136.mcf"
+          },
+          {
+            "offset": 5297688,
+            "match": "mcf",
+            "context_ascii": "4...$...MTK_NWOTA_SBPID_130.mcfnwota5...$...MTK_NWOTA_SBPID_131.mcfnwota6...$...MTK_NWOTA_SBPID_132.mcfnwota7...$...MTK_NWOTA_SBPID_133.mcfnwota8...$...MTK_NWOTA_SBPID_134.mcfnwota9...$...MTK_NWOTA_SBPID_135.mcfnwota:...$...MTK_NWOTA_SBPID_136.mcfnwota;...$...MTK_NWOTA_SBPID_137.mcf"
+          },
+          {
+            "offset": 5297724,
+            "match": "mcf",
+            "context_ascii": "5...$...MTK_NWOTA_SBPID_131.mcfnwota6...$...MTK_NWOTA_SBPID_132.mcfnwota7...$...MTK_NWOTA_SBPID_133.mcfnwota8...$...MTK_NWOTA_SBPID_134.mcfnwota9...$...MTK_NWOTA_SBPID_135.mcfnwota:...$...MTK_NWOTA_SBPID_136.mcfnwota;...$...MTK_NWOTA_SBPID_137.mcfnwota<...$...MTK_NWOTA_SBPID_139.mcf"
+          },
+          {
+            "offset": 5297760,
+            "match": "mcf",
+            "context_ascii": "6...$...MTK_NWOTA_SBPID_132.mcfnwota7...$...MTK_NWOTA_SBPID_133.mcfnwota8...$...MTK_NWOTA_SBPID_134.mcfnwota9...$...MTK_NWOTA_SBPID_135.mcfnwota:...$...MTK_NWOTA_SBPID_136.mcfnwota;...$...MTK_NWOTA_SBPID_137.mcfnwota<...$...MTK_NWOTA_SBPID_139.mcfnwota=...$...MTK_NWOTA_SBPID_140.mcf"
+          },
+          {
+            "offset": 5297796,
+            "match": "mcf",
+            "context_ascii": "7...$...MTK_NWOTA_SBPID_133.mcfnwota8...$...MTK_NWOTA_SBPID_134.mcfnwota9...$...MTK_NWOTA_SBPID_135.mcfnwota:...$...MTK_NWOTA_SBPID_136.mcfnwota;...$...MTK_NWOTA_SBPID_137.mcfnwota<...$...MTK_NWOTA_SBPID_139.mcfnwota=...$...MTK_NWOTA_SBPID_140.mcfnwota>...$...MTK_NWOTA_SBPID_141.mcf"
+          },
+          {
+            "offset": 5297832,
+            "match": "mcf",
+            "context_ascii": "8...$...MTK_NWOTA_SBPID_134.mcfnwota9...$...MTK_NWOTA_SBPID_135.mcfnwota:...$...MTK_NWOTA_SBPID_136.mcfnwota;...$...MTK_NWOTA_SBPID_137.mcfnwota<...$...MTK_NWOTA_SBPID_139.mcfnwota=...$...MTK_NWOTA_SBPID_140.mcfnwota>...$...MTK_NWOTA_SBPID_141.mcfnwota?...$...MTK_NWOTA_SBPID_143.mcf"
+          },
+          {
+            "offset": 5297868,
+            "match": "mcf",
+            "context_ascii": "9...$...MTK_NWOTA_SBPID_135.mcfnwota:...$...MTK_NWOTA_SBPID_136.mcfnwota;...$...MTK_NWOTA_SBPID_137.mcfnwota<...$...MTK_NWOTA_SBPID_139.mcfnwota=...$...MTK_NWOTA_SBPID_140.mcfnwota>...$...MTK_NWOTA_SBPID_141.mcfnwota?...$...MTK_NWOTA_SBPID_143.mcfnwota@...$...MTK_NWOTA_SBPID_144.mcf"
+          },
+          {
+            "offset": 5297904,
+            "match": "mcf",
+            "context_ascii": ":...$...MTK_NWOTA_SBPID_136.mcfnwota;...$...MTK_NWOTA_SBPID_137.mcfnwota<...$...MTK_NWOTA_SBPID_139.mcfnwota=...$...MTK_NWOTA_SBPID_140.mcfnwota>...$...MTK_NWOTA_SBPID_141.mcfnwota?...$...MTK_NWOTA_SBPID_143.mcfnwota@...$...MTK_NWOTA_SBPID_144.mcfnwotaA...$...MTK_NWOTA_SBPID_145.mcf"
+          },
+          {
+            "offset": 5297940,
+            "match": "mcf",
+            "context_ascii": ";...$...MTK_NWOTA_SBPID_137.mcfnwota<...$...MTK_NWOTA_SBPID_139.mcfnwota=...$...MTK_NWOTA_SBPID_140.mcfnwota>...$...MTK_NWOTA_SBPID_141.mcfnwota?...$...MTK_NWOTA_SBPID_143.mcfnwota@...$...MTK_NWOTA_SBPID_144.mcfnwotaA...$...MTK_NWOTA_SBPID_145.mcfnwotaB...$...MTK_NWOTA_SBPID_146.mcf"
+          },
+          {
+            "offset": 5297976,
+            "match": "mcf",
+            "context_ascii": "<...$...MTK_NWOTA_SBPID_139.mcfnwota=...$...MTK_NWOTA_SBPID_140.mcfnwota>...$...MTK_NWOTA_SBPID_141.mcfnwota?...$...MTK_NWOTA_SBPID_143.mcfnwota@...$...MTK_NWOTA_SBPID_144.mcfnwotaA...$...MTK_NWOTA_SBPID_145.mcfnwotaB...$...MTK_NWOTA_SBPID_146.mcfnwotaC...$...MTK_NWOTA_SBPID_147.mcf"
+          },
+          {
+            "offset": 5298012,
+            "match": "mcf",
+            "context_ascii": "=...$...MTK_NWOTA_SBPID_140.mcfnwota>...$...MTK_NWOTA_SBPID_141.mcfnwota?...$...MTK_NWOTA_SBPID_143.mcfnwota@...$...MTK_NWOTA_SBPID_144.mcfnwotaA...$...MTK_NWOTA_SBPID_145.mcfnwotaB...$...MTK_NWOTA_SBPID_146.mcfnwotaC...$...MTK_NWOTA_SBPID_147.mcfnwotaD...$...MTK_NWOTA_SBPID_148.mcf"
+          },
+          {
+            "offset": 5298048,
+            "match": "mcf",
+            "context_ascii": ">...$...MTK_NWOTA_SBPID_141.mcfnwota?...$...MTK_NWOTA_SBPID_143.mcfnwota@...$...MTK_NWOTA_SBPID_144.mcfnwotaA...$...MTK_NWOTA_SBPID_145.mcfnwotaB...$...MTK_NWOTA_SBPID_146.mcfnwotaC...$...MTK_NWOTA_SBPID_147.mcfnwotaD...$...MTK_NWOTA_SBPID_148.mcfnwotaE...$...MTK_NWOTA_SBPID_149.mcf"
+          },
+          {
+            "offset": 5298084,
+            "match": "mcf",
+            "context_ascii": "?...$...MTK_NWOTA_SBPID_143.mcfnwota@...$...MTK_NWOTA_SBPID_144.mcfnwotaA...$...MTK_NWOTA_SBPID_145.mcfnwotaB...$...MTK_NWOTA_SBPID_146.mcfnwotaC...$...MTK_NWOTA_SBPID_147.mcfnwotaD...$...MTK_NWOTA_SBPID_148.mcfnwotaE...$...MTK_NWOTA_SBPID_149.mcfnwotaF...$...MTK_NWOTA_SBPID_15.mcfn"
+          },
+          {
+            "offset": 5298120,
+            "match": "mcf",
+            "context_ascii": "@...$...MTK_NWOTA_SBPID_144.mcfnwotaA...$...MTK_NWOTA_SBPID_145.mcfnwotaB...$...MTK_NWOTA_SBPID_146.mcfnwotaC...$...MTK_NWOTA_SBPID_147.mcfnwotaD...$...MTK_NWOTA_SBPID_148.mcfnwotaE...$...MTK_NWOTA_SBPID_149.mcfnwotaF...$...MTK_NWOTA_SBPID_15.mcfnwota.G...$...MTK_NWOTA_SBPID_150.mcf"
+          },
+          {
+            "offset": 5298156,
+            "match": "mcf",
+            "context_ascii": "A...$...MTK_NWOTA_SBPID_145.mcfnwotaB...$...MTK_NWOTA_SBPID_146.mcfnwotaC...$...MTK_NWOTA_SBPID_147.mcfnwotaD...$...MTK_NWOTA_SBPID_148.mcfnwotaE...$...MTK_NWOTA_SBPID_149.mcfnwotaF...$...MTK_NWOTA_SBPID_15.mcfnwota.G...$...MTK_NWOTA_SBPID_150.mcfnwotaH...$...MTK_NWOTA_SBPID_151.mcf"
+          },
+          {
+            "offset": 5298192,
+            "match": "mcf",
+            "context_ascii": "B...$...MTK_NWOTA_SBPID_146.mcfnwotaC...$...MTK_NWOTA_SBPID_147.mcfnwotaD...$...MTK_NWOTA_SBPID_148.mcfnwotaE...$...MTK_NWOTA_SBPID_149.mcfnwotaF...$...MTK_NWOTA_SBPID_15.mcfnwota.G...$...MTK_NWOTA_SBPID_150.mcfnwotaH...$...MTK_NWOTA_SBPID_151.mcfnwotaI...$...MTK_NWOTA_SBPID_152.mcf"
+          },
+          {
+            "offset": 5298228,
+            "match": "mcf",
+            "context_ascii": "C...$...MTK_NWOTA_SBPID_147.mcfnwotaD...$...MTK_NWOTA_SBPID_148.mcfnwotaE...$...MTK_NWOTA_SBPID_149.mcfnwotaF...$...MTK_NWOTA_SBPID_15.mcfnwota.G...$...MTK_NWOTA_SBPID_150.mcfnwotaH...$...MTK_NWOTA_SBPID_151.mcfnwotaI...$...MTK_NWOTA_SBPID_152.mcfnwotaJ...$...MTK_NWOTA_SBPID_153.mcf"
+          },
+          {
+            "offset": 5298263,
+            "match": "mcf",
+            "context_ascii": "aD...$...MTK_NWOTA_SBPID_148.mcfnwotaE...$...MTK_NWOTA_SBPID_149.mcfnwotaF...$...MTK_NWOTA_SBPID_15.mcfnwota.G...$...MTK_NWOTA_SBPID_150.mcfnwotaH...$...MTK_NWOTA_SBPID_151.mcfnwotaI...$...MTK_NWOTA_SBPID_152.mcfnwotaJ...$...MTK_NWOTA_SBPID_153.mcfnwotaK...$...MTK_NWOTA_SBPID_154.mc"
+          },
+          {
+            "offset": 5298300,
+            "match": "mcf",
+            "context_ascii": "E...$...MTK_NWOTA_SBPID_149.mcfnwotaF...$...MTK_NWOTA_SBPID_15.mcfnwota.G...$...MTK_NWOTA_SBPID_150.mcfnwotaH...$...MTK_NWOTA_SBPID_151.mcfnwotaI...$...MTK_NWOTA_SBPID_152.mcfnwotaJ...$...MTK_NWOTA_SBPID_153.mcfnwotaK...$...MTK_NWOTA_SBPID_154.mcfnwotaL...$...MTK_NWOTA_SBPID_155.mcf"
+          },
+          {
+            "offset": 5298336,
+            "match": "mcf",
+            "context_ascii": "F...$...MTK_NWOTA_SBPID_15.mcfnwota.G...$...MTK_NWOTA_SBPID_150.mcfnwotaH...$...MTK_NWOTA_SBPID_151.mcfnwotaI...$...MTK_NWOTA_SBPID_152.mcfnwotaJ...$...MTK_NWOTA_SBPID_153.mcfnwotaK...$...MTK_NWOTA_SBPID_154.mcfnwotaL...$...MTK_NWOTA_SBPID_155.mcfnwotaM...$...MTK_NWOTA_SBPID_156.mcf"
+          },
+          {
+            "offset": 5298372,
+            "match": "mcf",
+            "context_ascii": "G...$...MTK_NWOTA_SBPID_150.mcfnwotaH...$...MTK_NWOTA_SBPID_151.mcfnwotaI...$...MTK_NWOTA_SBPID_152.mcfnwotaJ...$...MTK_NWOTA_SBPID_153.mcfnwotaK...$...MTK_NWOTA_SBPID_154.mcfnwotaL...$...MTK_NWOTA_SBPID_155.mcfnwotaM...$...MTK_NWOTA_SBPID_156.mcfnwotaN...$...MTK_NWOTA_SBPID_157.mcf"
+          },
+          {
+            "offset": 5298408,
+            "match": "mcf",
+            "context_ascii": "H...$...MTK_NWOTA_SBPID_151.mcfnwotaI...$...MTK_NWOTA_SBPID_152.mcfnwotaJ...$...MTK_NWOTA_SBPID_153.mcfnwotaK...$...MTK_NWOTA_SBPID_154.mcfnwotaL...$...MTK_NWOTA_SBPID_155.mcfnwotaM...$...MTK_NWOTA_SBPID_156.mcfnwotaN...$...MTK_NWOTA_SBPID_157.mcfnwotaO...$...MTK_NWOTA_SBPID_158.mcf"
+          },
+          {
+            "offset": 5298444,
+            "match": "mcf",
+            "context_ascii": "I...$...MTK_NWOTA_SBPID_152.mcfnwotaJ...$...MTK_NWOTA_SBPID_153.mcfnwotaK...$...MTK_NWOTA_SBPID_154.mcfnwotaL...$...MTK_NWOTA_SBPID_155.mcfnwotaM...$...MTK_NWOTA_SBPID_156.mcfnwotaN...$...MTK_NWOTA_SBPID_157.mcfnwotaO...$...MTK_NWOTA_SBPID_158.mcfnwotaP...$...MTK_NWOTA_SBPID_159.mcf"
+          },
+          {
+            "offset": 5298480,
+            "match": "mcf",
+            "context_ascii": "J...$...MTK_NWOTA_SBPID_153.mcfnwotaK...$...MTK_NWOTA_SBPID_154.mcfnwotaL...$...MTK_NWOTA_SBPID_155.mcfnwotaM...$...MTK_NWOTA_SBPID_156.mcfnwotaN...$...MTK_NWOTA_SBPID_157.mcfnwotaO...$...MTK_NWOTA_SBPID_158.mcfnwotaP...$...MTK_NWOTA_SBPID_159.mcfnwotaQ...$...MTK_NWOTA_SBPID_16.mcfn"
+          },
+          {
+            "offset": 5298516,
+            "match": "mcf",
+            "context_ascii": "K...$...MTK_NWOTA_SBPID_154.mcfnwotaL...$...MTK_NWOTA_SBPID_155.mcfnwotaM...$...MTK_NWOTA_SBPID_156.mcfnwotaN...$...MTK_NWOTA_SBPID_157.mcfnwotaO...$...MTK_NWOTA_SBPID_158.mcfnwotaP...$...MTK_NWOTA_SBPID_159.mcfnwotaQ...$...MTK_NWOTA_SBPID_16.mcfnwota.R...$...MTK_NWOTA_SBPID_160.mcf"
+          },
+          {
+            "offset": 5298552,
+            "match": "mcf",
+            "context_ascii": "L...$...MTK_NWOTA_SBPID_155.mcfnwotaM...$...MTK_NWOTA_SBPID_156.mcfnwotaN...$...MTK_NWOTA_SBPID_157.mcfnwotaO...$...MTK_NWOTA_SBPID_158.mcfnwotaP...$...MTK_NWOTA_SBPID_159.mcfnwotaQ...$...MTK_NWOTA_SBPID_16.mcfnwota.R...$...MTK_NWOTA_SBPID_160.mcfnwotaS...$...MTK_NWOTA_SBPID_161.mcf"
+          },
+          {
+            "offset": 5298588,
+            "match": "mcf",
+            "context_ascii": "M...$...MTK_NWOTA_SBPID_156.mcfnwotaN...$...MTK_NWOTA_SBPID_157.mcfnwotaO...$...MTK_NWOTA_SBPID_158.mcfnwotaP...$...MTK_NWOTA_SBPID_159.mcfnwotaQ...$...MTK_NWOTA_SBPID_16.mcfnwota.R...$...MTK_NWOTA_SBPID_160.mcfnwotaS...$...MTK_NWOTA_SBPID_161.mcfnwotaT...$...MTK_NWOTA_SBPID_162.mcf"
+          },
+          {
+            "offset": 5298624,
+            "match": "mcf",
+            "context_ascii": "N...$...MTK_NWOTA_SBPID_157.mcfnwotaO...$...MTK_NWOTA_SBPID_158.mcfnwotaP...$...MTK_NWOTA_SBPID_159.mcfnwotaQ...$...MTK_NWOTA_SBPID_16.mcfnwota.R...$...MTK_NWOTA_SBPID_160.mcfnwotaS...$...MTK_NWOTA_SBPID_161.mcfnwotaT...$...MTK_NWOTA_SBPID_162.mcfnwotaU...$...MTK_NWOTA_SBPID_163.mcf"
+          },
+          {
+            "offset": 5298659,
+            "match": "mcf",
+            "context_ascii": "aO...$...MTK_NWOTA_SBPID_158.mcfnwotaP...$...MTK_NWOTA_SBPID_159.mcfnwotaQ...$...MTK_NWOTA_SBPID_16.mcfnwota.R...$...MTK_NWOTA_SBPID_160.mcfnwotaS...$...MTK_NWOTA_SBPID_161.mcfnwotaT...$...MTK_NWOTA_SBPID_162.mcfnwotaU...$...MTK_NWOTA_SBPID_163.mcfnwotaV...$...MTK_NWOTA_SBPID_164.mc"
+          },
+          {
+            "offset": 5298696,
+            "match": "mcf",
+            "context_ascii": "P...$...MTK_NWOTA_SBPID_159.mcfnwotaQ...$...MTK_NWOTA_SBPID_16.mcfnwota.R...$...MTK_NWOTA_SBPID_160.mcfnwotaS...$...MTK_NWOTA_SBPID_161.mcfnwotaT...$...MTK_NWOTA_SBPID_162.mcfnwotaU...$...MTK_NWOTA_SBPID_163.mcfnwotaV...$...MTK_NWOTA_SBPID_164.mcfnwotaW...$...MTK_NWOTA_SBPID_165.mcf"
+          },
+          {
+            "offset": 5298732,
+            "match": "mcf",
+            "context_ascii": "Q...$...MTK_NWOTA_SBPID_16.mcfnwota.R...$...MTK_NWOTA_SBPID_160.mcfnwotaS...$...MTK_NWOTA_SBPID_161.mcfnwotaT...$...MTK_NWOTA_SBPID_162.mcfnwotaU...$...MTK_NWOTA_SBPID_163.mcfnwotaV...$...MTK_NWOTA_SBPID_164.mcfnwotaW...$...MTK_NWOTA_SBPID_165.mcfnwotaX...$...MTK_NWOTA_SBPID_166.mcf"
+          },
+          {
+            "offset": 5298768,
+            "match": "mcf",
+            "context_ascii": "R...$...MTK_NWOTA_SBPID_160.mcfnwotaS...$...MTK_NWOTA_SBPID_161.mcfnwotaT...$...MTK_NWOTA_SBPID_162.mcfnwotaU...$...MTK_NWOTA_SBPID_163.mcfnwotaV...$...MTK_NWOTA_SBPID_164.mcfnwotaW...$...MTK_NWOTA_SBPID_165.mcfnwotaX...$...MTK_NWOTA_SBPID_166.mcfnwotaY...$...MTK_NWOTA_SBPID_168.mcf"
+          },
+          {
+            "offset": 5298804,
+            "match": "mcf",
+            "context_ascii": "S...$...MTK_NWOTA_SBPID_161.mcfnwotaT...$...MTK_NWOTA_SBPID_162.mcfnwotaU...$...MTK_NWOTA_SBPID_163.mcfnwotaV...$...MTK_NWOTA_SBPID_164.mcfnwotaW...$...MTK_NWOTA_SBPID_165.mcfnwotaX...$...MTK_NWOTA_SBPID_166.mcfnwotaY...$...MTK_NWOTA_SBPID_168.mcfnwotaZ...$...MTK_NWOTA_SBPID_17.mcfn"
+          },
+          {
+            "offset": 5298840,
+            "match": "mcf",
+            "context_ascii": "T...$...MTK_NWOTA_SBPID_162.mcfnwotaU...$...MTK_NWOTA_SBPID_163.mcfnwotaV...$...MTK_NWOTA_SBPID_164.mcfnwotaW...$...MTK_NWOTA_SBPID_165.mcfnwotaX...$...MTK_NWOTA_SBPID_166.mcfnwotaY...$...MTK_NWOTA_SBPID_168.mcfnwotaZ...$...MTK_NWOTA_SBPID_17.mcfnwota.[...$...MTK_NWOTA_SBPID_170.mcf"
+          },
+          {
+            "offset": 5298876,
+            "match": "mcf",
+            "context_ascii": "U...$...MTK_NWOTA_SBPID_163.mcfnwotaV...$...MTK_NWOTA_SBPID_164.mcfnwotaW...$...MTK_NWOTA_SBPID_165.mcfnwotaX...$...MTK_NWOTA_SBPID_166.mcfnwotaY...$...MTK_NWOTA_SBPID_168.mcfnwotaZ...$...MTK_NWOTA_SBPID_17.mcfnwota.[...$...MTK_NWOTA_SBPID_170.mcfnwota\\...$...MTK_NWOTA_SBPID_171.mcf"
+          },
+          {
+            "offset": 5298912,
+            "match": "mcf",
+            "context_ascii": "V...$...MTK_NWOTA_SBPID_164.mcfnwotaW...$...MTK_NWOTA_SBPID_165.mcfnwotaX...$...MTK_NWOTA_SBPID_166.mcfnwotaY...$...MTK_NWOTA_SBPID_168.mcfnwotaZ...$...MTK_NWOTA_SBPID_17.mcfnwota.[...$...MTK_NWOTA_SBPID_170.mcfnwota\\...$...MTK_NWOTA_SBPID_171.mcfnwota]...$...MTK_NWOTA_SBPID_172.mcf"
+          },
+          {
+            "offset": 5298948,
+            "match": "mcf",
+            "context_ascii": "W...$...MTK_NWOTA_SBPID_165.mcfnwotaX...$...MTK_NWOTA_SBPID_166.mcfnwotaY...$...MTK_NWOTA_SBPID_168.mcfnwotaZ...$...MTK_NWOTA_SBPID_17.mcfnwota.[...$...MTK_NWOTA_SBPID_170.mcfnwota\\...$...MTK_NWOTA_SBPID_171.mcfnwota]...$...MTK_NWOTA_SBPID_172.mcfnwota^...$...MTK_NWOTA_SBPID_175.mcf"
+          },
+          {
+            "offset": 5298983,
+            "match": "mcf",
+            "context_ascii": "aX...$...MTK_NWOTA_SBPID_166.mcfnwotaY...$...MTK_NWOTA_SBPID_168.mcfnwotaZ...$...MTK_NWOTA_SBPID_17.mcfnwota.[...$...MTK_NWOTA_SBPID_170.mcfnwota\\...$...MTK_NWOTA_SBPID_171.mcfnwota]...$...MTK_NWOTA_SBPID_172.mcfnwota^...$...MTK_NWOTA_SBPID_175.mcfnwota_...$...MTK_NWOTA_SBPID_176.mc"
+          },
+          {
+            "offset": 5299020,
+            "match": "mcf",
+            "context_ascii": "Y...$...MTK_NWOTA_SBPID_168.mcfnwotaZ...$...MTK_NWOTA_SBPID_17.mcfnwota.[...$...MTK_NWOTA_SBPID_170.mcfnwota\\...$...MTK_NWOTA_SBPID_171.mcfnwota]...$...MTK_NWOTA_SBPID_172.mcfnwota^...$...MTK_NWOTA_SBPID_175.mcfnwota_...$...MTK_NWOTA_SBPID_176.mcfnwota`...$...MTK_NWOTA_SBPID_177.mcf"
+          },
+          {
+            "offset": 5299056,
+            "match": "mcf",
+            "context_ascii": "Z...$...MTK_NWOTA_SBPID_17.mcfnwota.[...$...MTK_NWOTA_SBPID_170.mcfnwota\\...$...MTK_NWOTA_SBPID_171.mcfnwota]...$...MTK_NWOTA_SBPID_172.mcfnwota^...$...MTK_NWOTA_SBPID_175.mcfnwota_...$...MTK_NWOTA_SBPID_176.mcfnwota`...$...MTK_NWOTA_SBPID_177.mcfnwotaa...$...MTK_NWOTA_SBPID_178.mcf"
+          },
+          {
+            "offset": 5299092,
+            "match": "mcf",
+            "context_ascii": "[...$...MTK_NWOTA_SBPID_170.mcfnwota\\...$...MTK_NWOTA_SBPID_171.mcfnwota]...$...MTK_NWOTA_SBPID_172.mcfnwota^...$...MTK_NWOTA_SBPID_175.mcfnwota_...$...MTK_NWOTA_SBPID_176.mcfnwota`...$...MTK_NWOTA_SBPID_177.mcfnwotaa...$...MTK_NWOTA_SBPID_178.mcfnwotab...$...MTK_NWOTA_SBPID_179.mcf"
+          },
+          {
+            "offset": 5299128,
+            "match": "mcf",
+            "context_ascii": "\\...$...MTK_NWOTA_SBPID_171.mcfnwota]...$...MTK_NWOTA_SBPID_172.mcfnwota^...$...MTK_NWOTA_SBPID_175.mcfnwota_...$...MTK_NWOTA_SBPID_176.mcfnwota`...$...MTK_NWOTA_SBPID_177.mcfnwotaa...$...MTK_NWOTA_SBPID_178.mcfnwotab...$...MTK_NWOTA_SBPID_179.mcfnwotac...$...MTK_NWOTA_SBPID_18.mcfn"
+          },
+          {
+            "offset": 5299164,
+            "match": "mcf",
+            "context_ascii": "]...$...MTK_NWOTA_SBPID_172.mcfnwota^...$...MTK_NWOTA_SBPID_175.mcfnwota_...$...MTK_NWOTA_SBPID_176.mcfnwota`...$...MTK_NWOTA_SBPID_177.mcfnwotaa...$...MTK_NWOTA_SBPID_178.mcfnwotab...$...MTK_NWOTA_SBPID_179.mcfnwotac...$...MTK_NWOTA_SBPID_18.mcfnwota.d...$...MTK_NWOTA_SBPID_180.mcf"
+          },
+          {
+            "offset": 5299200,
+            "match": "mcf",
+            "context_ascii": "^...$...MTK_NWOTA_SBPID_175.mcfnwota_...$...MTK_NWOTA_SBPID_176.mcfnwota`...$...MTK_NWOTA_SBPID_177.mcfnwotaa...$...MTK_NWOTA_SBPID_178.mcfnwotab...$...MTK_NWOTA_SBPID_179.mcfnwotac...$...MTK_NWOTA_SBPID_18.mcfnwota.d...$...MTK_NWOTA_SBPID_180.mcfnwotae...$...MTK_NWOTA_SBPID_181.mcf"
+          },
+          {
+            "offset": 5299236,
+            "match": "mcf",
+            "context_ascii": "_...$...MTK_NWOTA_SBPID_176.mcfnwota`...$...MTK_NWOTA_SBPID_177.mcfnwotaa...$...MTK_NWOTA_SBPID_178.mcfnwotab...$...MTK_NWOTA_SBPID_179.mcfnwotac...$...MTK_NWOTA_SBPID_18.mcfnwota.d...$...MTK_NWOTA_SBPID_180.mcfnwotae...$...MTK_NWOTA_SBPID_181.mcfnwotaf...$...MTK_NWOTA_SBPID_182.mcf"
+          },
+          {
+            "offset": 5299272,
+            "match": "mcf",
+            "context_ascii": "`...$...MTK_NWOTA_SBPID_177.mcfnwotaa...$...MTK_NWOTA_SBPID_178.mcfnwotab...$...MTK_NWOTA_SBPID_179.mcfnwotac...$...MTK_NWOTA_SBPID_18.mcfnwota.d...$...MTK_NWOTA_SBPID_180.mcfnwotae...$...MTK_NWOTA_SBPID_181.mcfnwotaf...$...MTK_NWOTA_SBPID_182.mcfnwotag...$...MTK_NWOTA_SBPID_183.mcf"
+          },
+          {
+            "offset": 5299307,
+            "match": "mcf",
+            "context_ascii": "aa...$...MTK_NWOTA_SBPID_178.mcfnwotab...$...MTK_NWOTA_SBPID_179.mcfnwotac...$...MTK_NWOTA_SBPID_18.mcfnwota.d...$...MTK_NWOTA_SBPID_180.mcfnwotae...$...MTK_NWOTA_SBPID_181.mcfnwotaf...$...MTK_NWOTA_SBPID_182.mcfnwotag...$...MTK_NWOTA_SBPID_183.mcfnwotah...$...MTK_NWOTA_SBPID_184.mc"
+          },
+          {
+            "offset": 5299344,
+            "match": "mcf",
+            "context_ascii": "b...$...MTK_NWOTA_SBPID_179.mcfnwotac...$...MTK_NWOTA_SBPID_18.mcfnwota.d...$...MTK_NWOTA_SBPID_180.mcfnwotae...$...MTK_NWOTA_SBPID_181.mcfnwotaf...$...MTK_NWOTA_SBPID_182.mcfnwotag...$...MTK_NWOTA_SBPID_183.mcfnwotah...$...MTK_NWOTA_SBPID_184.mcfnwotai...$...MTK_NWOTA_SBPID_185.mcf"
+          },
+          {
+            "offset": 5299380,
+            "match": "mcf",
+            "context_ascii": "c...$...MTK_NWOTA_SBPID_18.mcfnwota.d...$...MTK_NWOTA_SBPID_180.mcfnwotae...$...MTK_NWOTA_SBPID_181.mcfnwotaf...$...MTK_NWOTA_SBPID_182.mcfnwotag...$...MTK_NWOTA_SBPID_183.mcfnwotah...$...MTK_NWOTA_SBPID_184.mcfnwotai...$...MTK_NWOTA_SBPID_185.mcfnwotaj...$...MTK_NWOTA_SBPID_186.mcf"
+          },
+          {
+            "offset": 5299416,
+            "match": "mcf",
+            "context_ascii": "d...$...MTK_NWOTA_SBPID_180.mcfnwotae...$...MTK_NWOTA_SBPID_181.mcfnwotaf...$...MTK_NWOTA_SBPID_182.mcfnwotag...$...MTK_NWOTA_SBPID_183.mcfnwotah...$...MTK_NWOTA_SBPID_184.mcfnwotai...$...MTK_NWOTA_SBPID_185.mcfnwotaj...$...MTK_NWOTA_SBPID_186.mcfnwotak...$...MTK_NWOTA_SBPID_187.mcf"
+          },
+          {
+            "offset": 5299452,
+            "match": "mcf",
+            "context_ascii": "e...$...MTK_NWOTA_SBPID_181.mcfnwotaf...$...MTK_NWOTA_SBPID_182.mcfnwotag...$...MTK_NWOTA_SBPID_183.mcfnwotah...$...MTK_NWOTA_SBPID_184.mcfnwotai...$...MTK_NWOTA_SBPID_185.mcfnwotaj...$...MTK_NWOTA_SBPID_186.mcfnwotak...$...MTK_NWOTA_SBPID_187.mcfnwotal...$...MTK_NWOTA_SBPID_188.mcf"
+          },
+          {
+            "offset": 5299488,
+            "match": "mcf",
+            "context_ascii": "f...$...MTK_NWOTA_SBPID_182.mcfnwotag...$...MTK_NWOTA_SBPID_183.mcfnwotah...$...MTK_NWOTA_SBPID_184.mcfnwotai...$...MTK_NWOTA_SBPID_185.mcfnwotaj...$...MTK_NWOTA_SBPID_186.mcfnwotak...$...MTK_NWOTA_SBPID_187.mcfnwotal...$...MTK_NWOTA_SBPID_188.mcfnwotam...$...MTK_NWOTA_SBPID_189.mcf"
+          },
+          {
+            "offset": 5299524,
+            "match": "mcf",
+            "context_ascii": "g...$...MTK_NWOTA_SBPID_183.mcfnwotah...$...MTK_NWOTA_SBPID_184.mcfnwotai...$...MTK_NWOTA_SBPID_185.mcfnwotaj...$...MTK_NWOTA_SBPID_186.mcfnwotak...$...MTK_NWOTA_SBPID_187.mcfnwotal...$...MTK_NWOTA_SBPID_188.mcfnwotam...$...MTK_NWOTA_SBPID_189.mcfnwotan...$...MTK_NWOTA_SBPID_19.mcfn"
+          },
+          {
+            "offset": 5299560,
+            "match": "mcf",
+            "context_ascii": "h...$...MTK_NWOTA_SBPID_184.mcfnwotai...$...MTK_NWOTA_SBPID_185.mcfnwotaj...$...MTK_NWOTA_SBPID_186.mcfnwotak...$...MTK_NWOTA_SBPID_187.mcfnwotal...$...MTK_NWOTA_SBPID_188.mcfnwotam...$...MTK_NWOTA_SBPID_189.mcfnwotan...$...MTK_NWOTA_SBPID_19.mcfnwota.o...$...MTK_NWOTA_SBPID_190.mcf"
+          },
+          {
+            "offset": 5299596,
+            "match": "mcf",
+            "context_ascii": "i...$...MTK_NWOTA_SBPID_185.mcfnwotaj...$...MTK_NWOTA_SBPID_186.mcfnwotak...$...MTK_NWOTA_SBPID_187.mcfnwotal...$...MTK_NWOTA_SBPID_188.mcfnwotam...$...MTK_NWOTA_SBPID_189.mcfnwotan...$...MTK_NWOTA_SBPID_19.mcfnwota.o...$...MTK_NWOTA_SBPID_190.mcfnwotap...$...MTK_NWOTA_SBPID_191.mcf"
+          },
+          {
+            "offset": 5299632,
+            "match": "mcf",
+            "context_ascii": "j...$...MTK_NWOTA_SBPID_186.mcfnwotak...$...MTK_NWOTA_SBPID_187.mcfnwotal...$...MTK_NWOTA_SBPID_188.mcfnwotam...$...MTK_NWOTA_SBPID_189.mcfnwotan...$...MTK_NWOTA_SBPID_19.mcfnwota.o...$...MTK_NWOTA_SBPID_190.mcfnwotap...$...MTK_NWOTA_SBPID_191.mcfnwotaq...$...MTK_NWOTA_SBPID_192.mcf"
+          },
+          {
+            "offset": 5299668,
+            "match": "mcf",
+            "context_ascii": "k...$...MTK_NWOTA_SBPID_187.mcfnwotal...$...MTK_NWOTA_SBPID_188.mcfnwotam...$...MTK_NWOTA_SBPID_189.mcfnwotan...$...MTK_NWOTA_SBPID_19.mcfnwota.o...$...MTK_NWOTA_SBPID_190.mcfnwotap...$...MTK_NWOTA_SBPID_191.mcfnwotaq...$...MTK_NWOTA_SBPID_192.mcfnwotar...$...MTK_NWOTA_SBPID_193.mcf"
+          },
+          {
+            "offset": 5299703,
+            "match": "mcf",
+            "context_ascii": "al...$...MTK_NWOTA_SBPID_188.mcfnwotam...$...MTK_NWOTA_SBPID_189.mcfnwotan...$...MTK_NWOTA_SBPID_19.mcfnwota.o...$...MTK_NWOTA_SBPID_190.mcfnwotap...$...MTK_NWOTA_SBPID_191.mcfnwotaq...$...MTK_NWOTA_SBPID_192.mcfnwotar...$...MTK_NWOTA_SBPID_193.mcfnwotas...$...MTK_NWOTA_SBPID_195.mc"
+          },
+          {
+            "offset": 5299740,
+            "match": "mcf",
+            "context_ascii": "m...$...MTK_NWOTA_SBPID_189.mcfnwotan...$...MTK_NWOTA_SBPID_19.mcfnwota.o...$...MTK_NWOTA_SBPID_190.mcfnwotap...$...MTK_NWOTA_SBPID_191.mcfnwotaq...$...MTK_NWOTA_SBPID_192.mcfnwotar...$...MTK_NWOTA_SBPID_193.mcfnwotas...$...MTK_NWOTA_SBPID_195.mcfnwotat...$...MTK_NWOTA_SBPID_196.mcf"
+          },
+          {
+            "offset": 5299776,
+            "match": "mcf",
+            "context_ascii": "n...$...MTK_NWOTA_SBPID_19.mcfnwota.o...$...MTK_NWOTA_SBPID_190.mcfnwotap...$...MTK_NWOTA_SBPID_191.mcfnwotaq...$...MTK_NWOTA_SBPID_192.mcfnwotar...$...MTK_NWOTA_SBPID_193.mcfnwotas...$...MTK_NWOTA_SBPID_195.mcfnwotat...$...MTK_NWOTA_SBPID_196.mcfnwotau...$...MTK_NWOTA_SBPID_198.mcf"
+          },
+          {
+            "offset": 5299812,
+            "match": "mcf",
+            "context_ascii": "o...$...MTK_NWOTA_SBPID_190.mcfnwotap...$...MTK_NWOTA_SBPID_191.mcfnwotaq...$...MTK_NWOTA_SBPID_192.mcfnwotar...$...MTK_NWOTA_SBPID_193.mcfnwotas...$...MTK_NWOTA_SBPID_195.mcfnwotat...$...MTK_NWOTA_SBPID_196.mcfnwotau...$...MTK_NWOTA_SBPID_198.mcfnwotav...$...MTK_NWOTA_SBPID_199.mcf"
+          },
+          {
+            "offset": 5299848,
+            "match": "mcf",
+            "context_ascii": "p...$...MTK_NWOTA_SBPID_191.mcfnwotaq...$...MTK_NWOTA_SBPID_192.mcfnwotar...$...MTK_NWOTA_SBPID_193.mcfnwotas...$...MTK_NWOTA_SBPID_195.mcfnwotat...$...MTK_NWOTA_SBPID_196.mcfnwotau...$...MTK_NWOTA_SBPID_198.mcfnwotav...$...MTK_NWOTA_SBPID_199.mcfnwotaw...$...MTK_NWOTA_SBPID_2.mcfnw"
+          },
+          {
+            "offset": 5299884,
+            "match": "mcf",
+            "context_ascii": "q...$...MTK_NWOTA_SBPID_192.mcfnwotar...$...MTK_NWOTA_SBPID_193.mcfnwotas...$...MTK_NWOTA_SBPID_195.mcfnwotat...$...MTK_NWOTA_SBPID_196.mcfnwotau...$...MTK_NWOTA_SBPID_198.mcfnwotav...$...MTK_NWOTA_SBPID_199.mcfnwotaw...$...MTK_NWOTA_SBPID_2.mcfnwota..x...$...MTK_NWOTA_SBPID_20.mcfn"
+          },
+          {
+            "offset": 5299920,
+            "match": "mcf",
+            "context_ascii": "r...$...MTK_NWOTA_SBPID_193.mcfnwotas...$...MTK_NWOTA_SBPID_195.mcfnwotat...$...MTK_NWOTA_SBPID_196.mcfnwotau...$...MTK_NWOTA_SBPID_198.mcfnwotav...$...MTK_NWOTA_SBPID_199.mcfnwotaw...$...MTK_NWOTA_SBPID_2.mcfnwota..x...$...MTK_NWOTA_SBPID_20.mcfnwota.y...$...MTK_NWOTA_SBPID_200.mcf"
+          },
+          {
+            "offset": 5299956,
+            "match": "mcf",
+            "context_ascii": "s...$...MTK_NWOTA_SBPID_195.mcfnwotat...$...MTK_NWOTA_SBPID_196.mcfnwotau...$...MTK_NWOTA_SBPID_198.mcfnwotav...$...MTK_NWOTA_SBPID_199.mcfnwotaw...$...MTK_NWOTA_SBPID_2.mcfnwota..x...$...MTK_NWOTA_SBPID_20.mcfnwota.y...$...MTK_NWOTA_SBPID_200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcf"
+          },
+          {
+            "offset": 5299992,
+            "match": "mcf",
+            "context_ascii": "t...$...MTK_NWOTA_SBPID_196.mcfnwotau...$...MTK_NWOTA_SBPID_198.mcfnwotav...$...MTK_NWOTA_SBPID_199.mcfnwotaw...$...MTK_NWOTA_SBPID_2.mcfnwota..x...$...MTK_NWOTA_SBPID_20.mcfnwota.y...$...MTK_NWOTA_SBPID_200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcfnwota{...$...MTK_NWOTA_SBPID_202.mcf"
+          },
+          {
+            "offset": 5300026,
+            "match": "mcf",
+            "context_ascii": "tau...$...MTK_NWOTA_SBPID_198.mcfnwotav...$...MTK_NWOTA_SBPID_199.mcfnwotaw...$...MTK_NWOTA_SBPID_2.mcfnwota..x...$...MTK_NWOTA_SBPID_20.mcfnwota.y...$...MTK_NWOTA_SBPID_200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcfnwota{...$...MTK_NWOTA_SBPID_202.mcfnwota;... ...MTK_OTA.mcfota......."
+          },
+          {
+            "offset": 5300063,
+            "match": "mcf",
+            "context_ascii": "av...$...MTK_NWOTA_SBPID_199.mcfnwotaw...$...MTK_NWOTA_SBPID_2.mcfnwota..x...$...MTK_NWOTA_SBPID_20.mcfnwota.y...$...MTK_NWOTA_SBPID_200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcfnwota{...$...MTK_NWOTA_SBPID_202.mcfnwota;... ...MTK_OTA.mcfota..................[.............#...-.....RA"
+          },
+          {
+            "offset": 5300100,
+            "match": "mcf",
+            "context_ascii": "w...$...MTK_NWOTA_SBPID_2.mcfnwota..x...$...MTK_NWOTA_SBPID_20.mcfnwota.y...$...MTK_NWOTA_SBPID_200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcfnwota{...$...MTK_NWOTA_SBPID_202.mcfnwota;... ...MTK_OTA.mcfota..................[.............#...-.....RAW-OTA.l.1............................"
+          },
+          {
+            "offset": 5300136,
+            "match": "mcf",
+            "context_ascii": "x...$...MTK_NWOTA_SBPID_20.mcfnwota.y...$...MTK_NWOTA_SBPID_200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcfnwota{...$...MTK_NWOTA_SBPID_202.mcfnwota;... ...MTK_OTA.mcfota..................[.............#...-.....RAW-OTA.l.1................................................................"
+          },
+          {
+            "offset": 5300172,
+            "match": "mcf",
+            "context_ascii": "y...$...MTK_NWOTA_SBPID_200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcfnwota{...$...MTK_NWOTA_SBPID_202.mcfnwota;... ...MTK_OTA.mcfota..................[.............#...-.....RAW-OTA.l.1......................................................................................... .......$.."
+          },
+          {
+            "offset": 5300196,
+            "match": "mcf",
+            "context_ascii": "200.mcfnwotaz...$...MTK_NWOTA_SBPID_201.mcfnwota{...$...MTK_NWOTA_SBPID_202.mcfnwota;... ...MTK_OTA.mcfota..................[.............#...-.....RAW-OTA.l.1......................................................................................... .......$.......%.......&.......'.."
+          },
+          {
+            "offset": 6595408,
+            "match": "mcF",
+            "context_ascii": ";.......E5.......v..VLi.(N......C:5..n......9....A!...fc..`.n..N.}...B..................4...T.......mcF.&-..DE?s.<.:.R...9..O.%n#..c...........Y...j.K./`.@D.MG.y.y....l....O...`f.Yj/..R.X.Tk......>qY..2.J...a.>.S4E.1.K...a.tU.AgfG....q.-.7O.>......'....<.{$.......at.J......u(M.%w.N."
+          },
+          {
+            "offset": 7327772,
+            "match": "mcf",
+            "context_ascii": "........................................................................|...$...MTK_NWOTA_SBPID_203.mcfnwota}...$...MTK_NWOTA_SBPID_204.mcfnwota~...$...MTK_NWOTA_SBPID_205.mcfnwota....$...MTK_NWOTA_SBPID_206.mcfnwota....$...MTK_NWOTA_SBPID_207.mcfnwota....$...MTK_NWOTA_SBPID_208.mcf"
+          },
+          {
+            "offset": 7327808,
+            "match": "mcf",
+            "context_ascii": "....................................|...$...MTK_NWOTA_SBPID_203.mcfnwota}...$...MTK_NWOTA_SBPID_204.mcfnwota~...$...MTK_NWOTA_SBPID_205.mcfnwota....$...MTK_NWOTA_SBPID_206.mcfnwota....$...MTK_NWOTA_SBPID_207.mcfnwota....$...MTK_NWOTA_SBPID_208.mcfnwota....$...MTK_NWOTA_SBPID_209.mcf"
+          },
+          {
+            "offset": 7327844,
+            "match": "mcf",
+            "context_ascii": "|...$...MTK_NWOTA_SBPID_203.mcfnwota}...$...MTK_NWOTA_SBPID_204.mcfnwota~...$...MTK_NWOTA_SBPID_205.mcfnwota....$...MTK_NWOTA_SBPID_206.mcfnwota....$...MTK_NWOTA_SBPID_207.mcfnwota....$...MTK_NWOTA_SBPID_208.mcfnwota....$...MTK_NWOTA_SBPID_209.mcfnwota....$...MTK_NWOTA_SBPID_21.mcfn"
+          },
+          {
+            "offset": 7327880,
+            "match": "mcf",
+            "context_ascii": "}...$...MTK_NWOTA_SBPID_204.mcfnwota~...$...MTK_NWOTA_SBPID_205.mcfnwota....$...MTK_NWOTA_SBPID_206.mcfnwota....$...MTK_NWOTA_SBPID_207.mcfnwota....$...MTK_NWOTA_SBPID_208.mcfnwota....$...MTK_NWOTA_SBPID_209.mcfnwota....$...MTK_NWOTA_SBPID_21.mcfnwota.....$...MTK_NWOTA_SBPID_210.mcf"
+          },
+          {
+            "offset": 7327916,
+            "match": "mcf",
+            "context_ascii": "~...$...MTK_NWOTA_SBPID_205.mcfnwota....$...MTK_NWOTA_SBPID_206.mcfnwota....$...MTK_NWOTA_SBPID_207.mcfnwota....$...MTK_NWOTA_SBPID_208.mcfnwota....$...MTK_NWOTA_SBPID_209.mcfnwota....$...MTK_NWOTA_SBPID_21.mcfnwota.....$...MTK_NWOTA_SBPID_210.mcfnwota....$...MTK_NWOTA_SBPID_211.mcf"
+          }
+        ]
+      }
+    }
+  },
+  "countrycode.img": {
+    "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\countrycode.img",
+    "size": 1048576,
+    "sha256": "065d16b492631a65cd2e90dfcc6608edb168d8177b3eef1161b35142bf26ece6",
+    "first256_hex": "636e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "last128_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000041564266000000010000000000000000000000200000000000001000000000000000020000000000000000000000000000000000000000000000000000000000",
+    "ext4_magic_at1080": "0000",
+    "sparse_magic": "636e0000",
+    "searches": {
+      "plmn_vietnam": {
+        "count": 0,
+        "first_hits": []
+      },
+      "country_vietnam": {
+        "count": 0,
+        "first_hits": []
+      },
+      "nr_rat": {
+        "count": 0,
+        "first_hits": []
+      },
+      "config_names": {
+        "count": 1,
+        "first_hits": [
+          {
+            "offset": 4484,
+            "match": "countrycode",
+            "context_ascii": "............................... ... ................................................................countrycodeCn ..K...)*..B...uaP .....Vx..K.`.8.a....3....R2.o@..1.=o....hRy...................................................................................................................."
+          }
+        ]
+      }
+    }
+  }
+}

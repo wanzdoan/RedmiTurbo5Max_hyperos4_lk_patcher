@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <regular_parser>((\\d{2,3})(\\*([^*#]*)(\\*([^*#]*)(\\*([^*#]*)(\\*([^*#]*)(\\*([^*#]*)(\\*([^*#]*)(\\*([^*#]*))?)?)?)?)?)?)?#)
+    </regular_parser>
+    <feature name="callforwarding">
+        <command name="query">
+            <service_code>120
+            </service_code>
+            <action_code>*#
+            </action_code>
+            <parameter number="1">
+                <entry position="1">1
+                </entry>
+            </parameter>
+            <response_format number="3">
+                <entry
+                    key="status_code"
+                    position="6"/>
+                <entry
+                    key="number"
+                    position="8"/>
+                <entry
+                    key="time"
+                    position="10"/>
+            </response_format>
+        </command>
+        <command name="activate">
+            <service_code>120
+            </service_code>
+            <action_code>*
+            </action_code>
+            <parameter number="3">
+                <entry position="1">1
+                </entry>
+                <entry position="2">tag_number
+                </entry>
+                <entry position="3">tag_time
+                </entry>
+            </parameter>
+            <response_format number="1">
+                <entry
+                    key="status_code"
+                    position="6"/>
+            </response_format>
+        </command>
+        <command name="deactivate">
+            <service_code>120
+            </service_code>
+            <action_code>#
+            </action_code>
+            <parameter number="1">
+                <entry position="1">1
+                </entry>
+            </parameter>
+            <response_format number="1">
+                <entry
+                    key="status_code"
+                    position="6"/>
+            </response_format>
+        </command>
+        <command_result number="3">
+            <entry
+                definition="activate"
+                key="status_code">7
+            </entry>
+            <entry
+                definition="deactivate"
+                key="status_code">6
+            </entry>
+            <entry
+                definition="unregister"
+                key="status_code">4
+            </entry>
+        </command_result>
+    </feature>
+    <feature name="callerid">
+        <command name="activate">
+            <service_code>148
+            </service_code>
+            <action_code>*
+            </action_code>
+            <parameter number="2">
+                <entry position="1">2
+                </entry>
+                <entry position="2">tag_password
+                </entry>
+            </parameter>
+            <response_format number="1">
+                <entry
+                    key="status_code"
+                    position="4"/>
+            </response_format>
+        </command>
+        <command name="deactivate">
+            <service_code>148
+            </service_code>
+            <action_code>*
+            </action_code>
+            <parameter number="2">
+                <entry position="1">1
+                </entry>
+                <entry position="2">tag_password
+                </entry>
+            </parameter>
+            <response_format number="1">
+                <entry
+                    key="status_code"
+                    position="4"/>
+            </response_format>
+        </command>
+        <command_result number="1">
+            <entry
+                definition="ok"
+                key="status_code">7
+            </entry>
+        </command_result>
+    </feature>
+    <feature name="callwaiting">
+        <command name="query">
+            <service_code>102
+            </service_code>
+            <action_code>*#
+            </action_code>
+            <response_format number="1">
+                <entry
+                    key="status_code"
+                    position="4"/>
+            </response_format>
+        </command>
+        <command name="activate">
+            <service_code>102
+            </service_code>
+            <action_code>*
+            </action_code>
+            <response_format number="1">
+                <entry
+                    key="status_code"
+                    position="4"/>
+            </response_format>
+        </command>
+        <command name="deactivate">
+            <service_code>102
+            </service_code>
+            <action_code>#
+            </action_code>
+            <response_format number="1">
+                <entry
+                    key="status_code"
+                    position="4"/>
+            </response_format>
+        </command>
+        <command_result number="3">
+            <entry
+                definition="activate"
+                key="status_code">5
+            </entry>
+            <entry
+                definition="deactivate"
+                key="status_code">4
+            </entry>
+            <entry
+                definition="unregister"
+                key="status_code">0
+            </entry>
+        </command_result>
+    </feature>
+</resources>

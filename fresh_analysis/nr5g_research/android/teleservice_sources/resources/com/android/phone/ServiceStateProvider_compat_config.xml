@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><config><compat-change enableAfterTargetSdk="30" id="191911306" name="ENFORCE_LOCATION_PERMISSION_CHECK"><meta-data definedIn="com.android.phone.ServiceStateProvider"/></compat-change></config>

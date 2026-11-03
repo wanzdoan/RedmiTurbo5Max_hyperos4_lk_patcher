@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="option_screen">
+        <miuix.preference.RadioButtonPreference
+            android:persistent="false"
+            android:layout="@layout/miuix_preference_radiobutton_two_state_background"
+            android:title="@string/full_forwarding_option_voicemail"
+            android:key="option_voicemail"/>
+        <miuix.preference.RadioButtonPreference
+            android:persistent="false"
+            android:layout="@layout/miuix_preference_radiobutton_two_state_background"
+            android:title="@string/full_forwarding_option_forwarding"
+            android:key="option_forwarding"/>
+        <miuix.preference.RadioButtonPreference
+            android:persistent="false"
+            android:layout="@layout/miuix_preference_radiobutton_two_state_background"
+            android:title="@string/full_forwarding_option_off"
+            android:key="option_off"/>
+    </PreferenceCategory>
+    <com.android.phone.settings.EditPhoneNumberPreference
+        android:persistent="false"
+        android:enabled="false"
+        android:singleLine="true"
+        android:autoText="false"
+        android:key="text_forward_number"
+        android:dialogTitle="@string/full_forwarding_settings"
+        android:dialogMessage="@string/full_forwarding_number"
+        android:positiveButtonText="@string/enable"
+        phone:confirmMode="confirm"
+        style="@style/Widget.EditText.Dialog"/>
+</PreferenceScreen>

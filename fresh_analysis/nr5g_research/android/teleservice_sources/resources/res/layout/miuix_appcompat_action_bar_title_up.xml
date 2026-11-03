@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="start|center_vertical"
+    android:id="@+id/up"
+    android:visibility="gone"
+    android:layout_width="@dimen/miuix_theme_title_button_width"
+    android:layout_height="@dimen/miuix_theme_title_button_height"
+    android:src="?android:attr/homeAsUpIndicator"
+    android:scaleType="centerInside"
+    android:contentDescription="@string/actionbar_button_up_description"
+    android:forceDarkAllowed="false"/>

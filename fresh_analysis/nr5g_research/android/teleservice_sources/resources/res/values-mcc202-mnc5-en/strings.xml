@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcmode_ims_preferred">Operator network preferred</string>
+    <string name="wfcmode_wifi_preferred">WLAN preferred</string>
+</resources>

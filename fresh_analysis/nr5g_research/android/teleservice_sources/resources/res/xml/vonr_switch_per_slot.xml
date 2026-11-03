@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.custompreferences.CustomCheckBoxPreference
+        android:persistent="false"
+        android:title="@string/vonr_switch_title"
+        android:key="vonr_switch"
+        android:summary="@string/vonr_switch_summary"/>
+</PreferenceScreen>

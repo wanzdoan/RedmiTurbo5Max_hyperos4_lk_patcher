@@ -1,0 +1,110 @@
+{
+  "inputs": [
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\CarrierConfig.apk",
+      "size": 337078,
+      "sha256": "2e3c292b7052a8e8813860f9ebc38990b801735bb4b4b3a29028ea37e0bfb77e"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\CarrierStudioCarrierConfig.apk",
+      "size": 526751,
+      "sha256": "026827ca5ec4b7bdf61a39e68603d837f7d4d7e29d3ee0a0acaebbb39fd41b26"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\hyper-telephony-common-ext.jar",
+      "size": 298370,
+      "sha256": "03122ff211c5994256ea973114528c491ce9192e56e15b6975155fedb38dab67"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\hyper-telephony-common.jar",
+      "size": 77234,
+      "sha256": "0594943fd738070d7a6bdadd8c9078e2a09b9c2587886292177ecc1d2be3b62f"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\mediatek-telephony-base.jar",
+      "size": 267537,
+      "sha256": "4ca1e2287d730be22718f83388e2843886b5e04e91e11c4098010e54fffd8395"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\mediatek-telephony-common.jar",
+      "size": 2184229,
+      "sha256": "4208f6c71349136c577fe0beec3dd7f5506ea404b67011ae097aa76ab2753456"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\miui-telephony-common.jar",
+      "size": 771177,
+      "sha256": "98f4b90f908eae6d4972221f3a2c34da763e5429cf908123ee92f0093d8644b1"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\MtkTeleService.apk",
+      "size": 13840409,
+      "sha256": "2a553cce204d5012cac15c47d7ea5377ace4d206af1eedba2e8106067ab812f7"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\telephony-common.jar",
+      "size": 6092341,
+      "sha256": "9a54a7f91cd12709a55ae9bc63e55d128fb55c6f6a4d7f9de19de0db8745688b"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\xiaomi-telephony-common.jar",
+      "size": 801130,
+      "sha256": "754fbdbba6f0e31072c80b438d4c069d5b5c121a9d7605dcf6caf0a222b71707"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\xm-telephony-base.jar",
+      "size": 47293,
+      "sha256": "2ff814975bc231cee89c092962242d28919e62184acdf0ca85d7de9bfe35d328"
+    },
+    {
+      "path": "fresh_analysis\\nr5g_research\\device_static\\xm-telephony-common.jar",
+      "size": 120777,
+      "sha256": "1c9f0326b4a1352a63f2451c3d53c04da32a15346a7a7a274f5a16e27f699ee2"
+    }
+  ],
+  "jadx": "D:/Tools/jadx-1.5.6/bin/jadx.bat",
+  "exports": [
+    {
+      "group": "xiaomi",
+      "java_files": 281,
+      "log": "fresh_analysis\\nr5g_research\\android\\jadx_xiaomi.log",
+      "error_counts": []
+    },
+    {
+      "group": "mtk",
+      "java_files": 393,
+      "log": "fresh_analysis\\nr5g_research\\android\\jadx_mtk.log",
+      "error_counts": [
+        "2"
+      ]
+    },
+    {
+      "group": "aosp",
+      "java_files": 1009,
+      "log": "fresh_analysis\\nr5g_research\\android\\jadx_aosp.log",
+      "error_counts": [
+        "4"
+      ]
+    },
+    {
+      "group": "carrierconfig",
+      "java_files": 3,
+      "log": "fresh_analysis\\nr5g_research\\android\\jadx_carrier.log",
+      "error_counts": []
+    },
+    {
+      "group": "teleservice",
+      "java_files": 4093,
+      "log": "fresh_analysis\\nr5g_research\\android\\jadx_teleservice.log",
+      "error_counts": [
+        "12"
+      ]
+    },
+    {
+      "group": "xiaomi_carrier",
+      "java_files": 2,
+      "log": "fresh_analysis\\nr5g_research\\android\\jadx_xiaomi_carrier.log",
+      "error_counts": []
+    }
+  ],
+  "scope": "offline shipped-code analysis; no agent-issued device commands or setting writes"
+}

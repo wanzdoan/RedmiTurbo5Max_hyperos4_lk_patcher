@@ -1,0 +1,140 @@
+[
+  {
+    "offset": "0x0",
+    "name": "md1rom",
+    "size": 43319296,
+    "header_hex": "88168858000095026d6431726f6d000000000000000000000000000000000000000000000000000000000000ffffffff8916895800020000010000000000000100000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x2950200",
+    "name": "cert1",
+    "size": 1733,
+    "header_hex": "88168858c5060000636572743100000000000000000000000000000000000000000000000000000078563412ffffffff8916895800020000010000000000000200000000100000000000000078563422ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x2950ad0",
+    "name": "cert2",
+    "size": 982,
+    "header_hex": "88168858d6030000636572743200000000000000000000000000000000000000000000000000000078563412ffffffff8916895800020000010000000200000200000000100000000000000078563422ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x29510b0",
+    "name": "md1drdi",
+    "size": 49580256,
+    "header_hex": "88168858e088f4026d6431647264690000000000000000000000000000000000000000000000000000000000ffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5899b90",
+    "name": "cert1",
+    "size": 1733,
+    "header_hex": "88168858c5060000636572743100000000000000000000000000000000000000000000000000000078563412ffffffff8916895800020000010000000000000200000000100000000000000078563422ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x589a460",
+    "name": "cert2",
+    "size": 982,
+    "header_hex": "88168858d6030000636572743200000000000000000000000000000000000000000000000000000078563412ffffffff8916895800020000010000000200000200000000100000000000000078563422ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x589aa40",
+    "name": "md1dsp",
+    "size": 6422528,
+    "header_hex": "88168858000062006d6431647370000000000000000000000000000000000000000000000000000000000000ffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebac40",
+    "name": "cert1",
+    "size": 1733,
+    "header_hex": "88168858c5060000636572743100000000000000000000000000000000000000000000000000000078563412ffffffff8916895800020000010000000000000200000000100000000000000078563422ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebb510",
+    "name": "cert2",
+    "size": 982,
+    "header_hex": "88168858d6030000636572743200000000000000000000000000000000000000000000000000000078563412ffffffff8916895800020000010000000200000200000000100000000000000078563422ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebbaf0",
+    "name": "md1_filter",
+    "size": 300,
+    "header_hex": "881688582c0100006d64315f66696c74657200000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebbe20",
+    "name": "md1_filter_1_Moderate",
+    "size": 300,
+    "header_hex": "881688582c0100006d64315f66696c7465725f315f4d6f6465726174650000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebc150",
+    "name": "md1_filter_2_Standard",
+    "size": 300,
+    "header_hex": "881688582c0100006d64315f66696c7465725f325f5374616e646172640000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebc480",
+    "name": "md1_filter_3_Slim",
+    "size": 300,
+    "header_hex": "881688582c0100006d64315f66696c7465725f335f536c696d000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebc7b0",
+    "name": "md1_filter_4_UltraSlim",
+    "size": 300,
+    "header_hex": "881688582c0100006d64315f66696c7465725f345f556c747261536c696d00000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebcae0",
+    "name": "md1_filter_PLS_PS_ONLY",
+    "size": 300,
+    "header_hex": "881688582c0100006d64315f66696c7465725f504c535f50535f4f4e4c5900000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebce10",
+    "name": "md1_filter_LowPowerMonitor",
+    "size": 300,
+    "header_hex": "881688582c0100006d64315f66696c7465725f4c6f77506f7765724d6f6e69746f72000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebd140",
+    "name": "md1_emfilter",
+    "size": 2264,
+    "header_hex": "88168858d80800006d64315f656d66696c7465720000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x5ebdc20",
+    "name": "md1_dbginfodsp",
+    "size": 2029170,
+    "header_hex": "8816885872f61e006d64315f646267696e666f647370000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x60ad4a0",
+    "name": "md1_dbginfo",
+    "size": 1377798,
+    "header_hex": "88168858060615006d64315f646267696e666f000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x61fdcb0",
+    "name": "md1_mddbmetaodb",
+    "size": 670783,
+    "header_hex": "881688583f3c0a006d64315f6d6464626d6574616f64620000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x62a1af0",
+    "name": "md1_mddb",
+    "size": 10451931,
+    "header_hex": "88168858db7b9f006d64315f6d646462000000000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x6c998d0",
+    "name": "md1_mdmlayout",
+    "size": 8093400,
+    "header_hex": "88168858d87e7b006d64315f6d646d6c61796f757400000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "offset": "0x74519b0",
+    "name": "md1_file_map",
+    "size": 789,
+    "header_hex": "88168858150300006d64315f66696c655f6d61700000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000001000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  }
+]

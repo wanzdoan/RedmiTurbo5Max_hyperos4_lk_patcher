@@ -1,0 +1,4017 @@
+{
+  "parsed_symbols": 138558,
+  "table_stop": "0x564607",
+  "focused_symbols": [
+    {
+      "name": "sbp_query_md_feature",
+      "address": 2416278304,
+      "end": 2416278308,
+      "size": 4,
+      "table_offset": 32048
+    },
+    {
+      "name": "sbp_query_md_feature_by_ps",
+      "address": 2416278308,
+      "end": 2416278408,
+      "size": 100,
+      "table_offset": 32077
+    },
+    {
+      "name": "sbp_md_feature_overwrite",
+      "address": 2416278408,
+      "end": 2416278434,
+      "size": 26,
+      "table_offset": 32112
+    },
+    {
+      "name": "sbp_query_md_feature_no_overwrite_by_ps.part.2",
+      "address": 2416976728,
+      "end": 2416976762,
+      "size": 34,
+      "table_offset": 98017
+    },
+    {
+      "name": "sbp_set_md_feature_by_ps",
+      "address": 2416976762,
+      "end": 2416976904,
+      "size": 142,
+      "table_offset": 98072
+    },
+    {
+      "name": "sbp_query_md_feature_data_by_ps",
+      "address": 2417013582,
+      "end": 2417013700,
+      "size": 118,
+      "table_offset": 119075
+    },
+    {
+      "name": "mrs_sbp_query_md_feature_by_ps",
+      "address": 2417440782,
+      "end": 2417440786,
+      "size": 4,
+      "table_offset": 186391
+    },
+    {
+      "name": "sbp_send_notify_mcf_backup_restore_config_ind",
+      "address": 2417629064,
+      "end": 2417629220,
+      "size": 156,
+      "table_offset": 201596
+    },
+    {
+      "name": "mrs_is_plmn_id_match_with_bcch_plmn_id",
+      "address": 2417636438,
+      "end": 2417636534,
+      "size": 96,
+      "table_offset": 202419
+    },
+    {
+      "name": "sbp_feature_notify_mcf_backup_restore_config_ind",
+      "address": 2417670074,
+      "end": 2417670158,
+      "size": 84,
+      "table_offset": 205392
+    },
+    {
+      "name": "errc_com_sbp_query_md_feature_by_sim",
+      "address": 2417787838,
+      "end": 2417787876,
+      "size": 38,
+      "table_offset": 214207
+    },
+    {
+      "name": "errc_com_sbp_query_md_feature_curr_sim",
+      "address": 2417955370,
+      "end": 2417955382,
+      "size": 12,
+      "table_offset": 226143
+    },
+    {
+      "name": "mrs_check_if_plmn_match_operator_id",
+      "address": 2417984804,
+      "end": 2417984884,
+      "size": 80,
+      "table_offset": 228858
+    },
+    {
+      "name": "mrs_eas_convert_plmn_string",
+      "address": 2419369352,
+      "end": 2419369502,
+      "size": 150,
+      "table_offset": 365803
+    },
+    {
+      "name": "el2_cdb_update_sbp_feature",
+      "address": 2420497226,
+      "end": 2420498106,
+      "size": 880,
+      "table_offset": 474146
+    },
+    {
+      "name": "tmc_ctrl_get_sbp_feature",
+      "address": 2421735704,
+      "end": 2421735794,
+      "size": 90,
+      "table_offset": 781295
+    },
+    {
+      "name": "DVFS_set_nvram_default_value",
+      "address": 2421854628,
+      "end": 2421855576,
+      "size": 948,
+      "table_offset": 791067
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Tas_Cal_Carkit_Mapping_Default_Value_To_Write",
+      "address": 2422742904,
+      "end": 2422742998,
+      "size": 94,
+      "table_offset": 941311
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Waveform_PA_MAPPING_TABLE_DPD_Default_Value_To_Write",
+      "address": 2422743092,
+      "end": 2422743184,
+      "size": 92,
+      "table_offset": 941441
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Waveform_PA_MAPPING_TABLE_Default_Value_To_Write",
+      "address": 2422743184,
+      "end": 2422743276,
+      "size": 92,
+      "table_offset": 941523
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_NRF_TX_PCMAX_SUBBAND_OFFSET_GOLDEN_Default_Value_To_Write",
+      "address": 2422743276,
+      "end": 2422743370,
+      "size": 94,
+      "table_offset": 941601
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_NRF_TX_PCMAX_SUBBAND_OFFSET_Default_Value_To_Write",
+      "address": 2422743370,
+      "end": 2422743464,
+      "size": 94,
+      "table_offset": 941685
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Pcmax_Offset_By_Route_Golden_Default_Value_To_Write",
+      "address": 2422743464,
+      "end": 2422743558,
+      "size": 94,
+      "table_offset": 941762
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Pcmax_Offset_By_Route_Default_Value_To_Write",
+      "address": 2422743558,
+      "end": 2422743652,
+      "size": 94,
+      "table_offset": 941843
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Wanted_Power_Offset_Golden_Default_Value_To_Write",
+      "address": 2422743652,
+      "end": 2422743746,
+      "size": 94,
+      "table_offset": 941917
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Wanted_Power_Offset_Cal_Default_Value_To_Write",
+      "address": 2422743746,
+      "end": 2422743840,
+      "size": 94,
+      "table_offset": 941996
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_CFR_Switch_Golden_Default_Value_To_Write",
+      "address": 2422743840,
+      "end": 2422743934,
+      "size": 94,
+      "table_offset": 942072
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_CFR_Switch_Cal_Default_Value_To_Write",
+      "address": 2422743934,
+      "end": 2422744028,
+      "size": 94,
+      "table_offset": 942142
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_TPC_Switch_Default_Value_To_Write",
+      "address": 2422744028,
+      "end": 2422744120,
+      "size": 92,
+      "table_offset": 942209
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Switch_Default_Value_To_Write",
+      "address": 2422744120,
+      "end": 2422744214,
+      "size": 94,
+      "table_offset": 942272
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Calibration_Default_Value_To_Write",
+      "address": 2422744214,
+      "end": 2422744308,
+      "size": 94,
+      "table_offset": 942358
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Golden_Default_Value_To_Write",
+      "address": 2422744308,
+      "end": 2422744402,
+      "size": 94,
+      "table_offset": 942449
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Default_Value_To_Write",
+      "address": 2422744402,
+      "end": 2422744496,
+      "size": 94,
+      "table_offset": 942535
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_SWTP_Tx_Power_Offset_Default_Value_To_Write",
+      "address": 2422744496,
+      "end": 2422744590,
+      "size": 94,
+      "table_offset": 942614
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_SRS_Loss_Compensation_Carkit_Power_Limit_Golden_Default_Value_To_Write",
+      "address": 2422744590,
+      "end": 2422744684,
+      "size": 94,
+      "table_offset": 942684
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_SRS_Loss_Compensation_Carkit_Power_Limit_Default_Value_To_Write",
+      "address": 2422744684,
+      "end": 2422744778,
+      "size": 94,
+      "table_offset": 942784
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_NRF_TX_SPECIFIED_ROUTE_SRS_MAX_PWR_LIMIT_BY_CARKIT_Default_Value_To_Write",
+      "address": 2422744778,
+      "end": 2422744872,
+      "size": 94,
+      "table_offset": 942877
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_SRS_Loss_Compensation_Carkit_Default_Value_To_Write",
+      "address": 2422744872,
+      "end": 2422744982,
+      "size": 110,
+      "table_offset": 942977
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Max_Gain_Limitation_Default_Value_To_Write",
+      "address": 2422744982,
+      "end": 2422745076,
+      "size": 94,
+      "table_offset": 943058
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_NRF_TX_HIGH_LOW_TEMP_PWR_OFFSET_GOLDEN_Default_Value_To_Write",
+      "address": 2422745076,
+      "end": 2422745170,
+      "size": 94,
+      "table_offset": 943130
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_NRF_TX_HIGH_LOW_TEMP_PWR_OFFSET_Default_Value_To_Write",
+      "address": 2422745170,
+      "end": 2422745264,
+      "size": 94,
+      "table_offset": 943218
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Power_Backoff_CCA_Default_Value_To_Write",
+      "address": 2422745264,
+      "end": 2422745358,
+      "size": 94,
+      "table_offset": 943299
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Power_Backoff_Default_Value_To_Write",
+      "address": 2422745358,
+      "end": 2422745452,
+      "size": 94,
+      "table_offset": 943369
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_MC_Backoff_CCA_Default_Value_To_Write",
+      "address": 2422745452,
+      "end": 2422745546,
+      "size": 94,
+      "table_offset": 943435
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_MC_Backoff_Default_Value_To_Write",
+      "address": 2422745546,
+      "end": 2422745640,
+      "size": 94,
+      "table_offset": 943502
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_PA_Level_Shift_CCA_Default_Value_To_Write",
+      "address": 2422745640,
+      "end": 2422745734,
+      "size": 94,
+      "table_offset": 943565
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_PA_Level_Shift_Default_Value_To_Write",
+      "address": 2422745734,
+      "end": 2422745828,
+      "size": 94,
+      "table_offset": 943636
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Set_Point_Backoff_CCA_Default_Value_To_Write",
+      "address": 2422745828,
+      "end": 2422745922,
+      "size": 94,
+      "table_offset": 943703
+    },
+    {
+      "name": "NL1_TPC_Nvram_Get_Tx_Set_Point_Backoff_Default_Value_To_Write",
+      "address": 2422745922,
+      "end": 2422746016,
+      "size": 94,
+      "table_offset": 943777
+    },
+    {
+      "name": "NL1_RFD_Nvram_Get_Hpue_Default_Value_To_Write",
+      "address": 2423138550,
+      "end": 2423138686,
+      "size": 136,
+      "table_offset": 982849
+    },
+    {
+      "name": "NL1_RFD_Nvram_Get_Sar_Default_Value_To_Write",
+      "address": 2423497148,
+      "end": 2423497450,
+      "size": 302,
+      "table_offset": 1037206
+    },
+    {
+      "name": "NL1_RFD_Nvram_Get_Ant_Default_Value_To_Write",
+      "address": 2423649960,
+      "end": 2423650060,
+      "size": 100,
+      "table_offset": 1067122
+    },
+    {
+      "name": "icd_nvram_check_is_default_value_by_enum",
+      "address": 2424317888,
+      "end": 2424317924,
+      "size": 36,
+      "table_offset": 1207683
+    },
+    {
+      "name": "NL1_RF_Nvram_Get_NR_PWR_Default_Value_To_Write",
+      "address": 2424363568,
+      "end": 2424364178,
+      "size": 610,
+      "table_offset": 1218906
+    },
+    {
+      "name": "NL1_RF_Nvram_Get_NR_TX_Default_Value_To_Write",
+      "address": 2424364178,
+      "end": 2424364254,
+      "size": 76,
+      "table_offset": 1218961
+    },
+    {
+      "name": "MML1_Nvram_Get_CDF_Default_Value_To_Write",
+      "address": 2424397864,
+      "end": 2424398106,
+      "size": 242,
+      "table_offset": 1229674
+    },
+    {
+      "name": "NL1_TXDFE_Nvram_Get_CFR_Default_Value_To_Write",
+      "address": 2424474562,
+      "end": 2424474638,
+      "size": 76,
+      "table_offset": 1259180
+    },
+    {
+      "name": "NL1_TXDFE_Nvram_Get_Tx_Coherent_Mimo_PA_Comp_Default_Value_To_Write",
+      "address": 2424474638,
+      "end": 2424474732,
+      "size": 94,
+      "table_offset": 1259235
+    },
+    {
+      "name": "cc_dsbp_reconfigure_ind_hdlr",
+      "address": 2424657772,
+      "end": 2424657810,
+      "size": 38,
+      "table_offset": 1329796
+    },
+    {
+      "name": "fdd_uas_custom_get_band_priority_for_plmn",
+      "address": 2424713138,
+      "end": 2424713240,
+      "size": 102,
+      "table_offset": 1348891
+    },
+    {
+      "name": "eas_custom_get_endc_prefer_rsrp_threshold",
+      "address": 2424960010,
+      "end": 2424960016,
+      "size": 6,
+      "table_offset": 1352971
+    },
+    {
+      "name": "eas_custom_get_endc_prefer_rsrq_threshold",
+      "address": 2424960016,
+      "end": 2424960022,
+      "size": 6,
+      "table_offset": 1353021
+    },
+    {
+      "name": "eas_custom_get_endc_invalid_earfcn",
+      "address": 2424960058,
+      "end": 2424960062,
+      "size": 4,
+      "table_offset": 1353377
+    },
+    {
+      "name": "eas_custom_get_endc_invalid_pci",
+      "address": 2424960062,
+      "end": 2424960068,
+      "size": 6,
+      "table_offset": 1353420
+    },
+    {
+      "name": "eas_custom_get_endc_invalid_cell_id",
+      "address": 2424960068,
+      "end": 2424960072,
+      "size": 4,
+      "table_offset": 1353460
+    },
+    {
+      "name": "eas_custom_get_endc_prio_allow_rsrp_offset",
+      "address": 2424960094,
+      "end": 2424960098,
+      "size": 4,
+      "table_offset": 1353700
+    },
+    {
+      "name": "eas_custom_get_endc_prio_allow_weak_endc_rsrp_threshold",
+      "address": 2424960098,
+      "end": 2424960104,
+      "size": 6,
+      "table_offset": 1353751
+    },
+    {
+      "name": "ltecsr_nvram_customization",
+      "address": 2424979642,
+      "end": 2424979778,
+      "size": 136,
+      "table_offset": 1367124
+    },
+    {
+      "name": "nras_custom_get_limited_freq_num_additional_plmn_in_band_stored_search",
+      "address": 2424982508,
+      "end": 2424982512,
+      "size": 4,
+      "table_offset": 1369040
+    },
+    {
+      "name": "nwsel_init_sbp_config",
+      "address": 2424986124,
+      "end": 2424986142,
+      "size": 18,
+      "table_offset": 1376029
+    },
+    {
+      "name": "nwsel_custom_query_sbp_feature",
+      "address": 2424986160,
+      "end": 2424986344,
+      "size": 184,
+      "table_offset": 1376232
+    },
+    {
+      "name": "nvram_get_ssds_default_cfg_value_to_write",
+      "address": 2425028558,
+      "end": 2425028632,
+      "size": 74,
+      "table_offset": 1389644
+    },
+    {
+      "name": "nvram_custom_max_record_size",
+      "address": 2425035718,
+      "end": 2425035724,
+      "size": 6,
+      "table_offset": 1394620
+    },
+    {
+      "name": "nvram_custom_lock_status",
+      "address": 2425035724,
+      "end": 2425035728,
+      "size": 4,
+      "table_offset": 1394657
+    },
+    {
+      "name": "nvram_get_nrrc_default_value_to_write",
+      "address": 2425037246,
+      "end": 2425037366,
+      "size": 120,
+      "table_offset": 1395645
+    },
+    {
+      "name": "nvram_get_nrrc_default_value_size_to_ncap",
+      "address": 2425037366,
+      "end": 2425037370,
+      "size": 4,
+      "table_offset": 1395691
+    },
+    {
+      "name": "nvram_write_nrrc_default_value_to_ncap",
+      "address": 2425037370,
+      "end": 2425037478,
+      "size": 108,
+      "table_offset": 1395741
+    },
+    {
+      "name": "d2am_query_op_id_by_sbp_feature_data",
+      "address": 2425085586,
+      "end": 2425085608,
+      "size": 22,
+      "table_offset": 1404470
+    },
+    {
+      "name": "d2apnb_process_dsbp_reconfig_handler",
+      "address": 2425132804,
+      "end": 2425132844,
+      "size": 40,
+      "table_offset": 1410246
+    },
+    {
+      "name": "mod_ddm_process_dsbp_reconfigure_handler",
+      "address": 2425471964,
+      "end": 2425472308,
+      "size": 344,
+      "table_offset": 1440619
+    },
+    {
+      "name": "mod_ddm_send_dsbp_reconfigure_cnf",
+      "address": 2425488404,
+      "end": 2425488466,
+      "size": 62,
+      "table_offset": 1444364
+    },
+    {
+      "name": "nvram_get_el1_dpd_default_value_to_write_with_record.isra.1",
+      "address": 2426443482,
+      "end": 2426443592,
+      "size": 110,
+      "table_offset": 1584093
+    },
+    {
+      "name": "EL1D_DPD_Nvram_Get_Dpd_Default_Value_To_Write",
+      "address": 2426446784,
+      "end": 2426446942,
+      "size": 158,
+      "table_offset": 1584513
+    },
+    {
+      "name": "nvram_get_el1_et_default_value_to_write_with_record.isra.2",
+      "address": 2426460768,
+      "end": 2426460862,
+      "size": 94,
+      "table_offset": 1587066
+    },
+    {
+      "name": "EL1D_ET_Nvram_Get_Et_Default_Value_To_Write_II",
+      "address": 2426463260,
+      "end": 2426463414,
+      "size": 154,
+      "table_offset": 1587502
+    },
+    {
+      "name": "EL1D_RF_Nvram_Get_Ant_Default_Value_To_Write",
+      "address": 2426542428,
+      "end": 2426542542,
+      "size": 114,
+      "table_offset": 1603076
+    },
+    {
+      "name": "EL1D_RF_Nvram_Get_Drdi_Set_Index_Default_Value_To_Write",
+      "address": 2426543078,
+      "end": 2426543198,
+      "size": 120,
+      "table_offset": 1603256
+    },
+    {
+      "name": "El1D_RF_Nvram_RF_Rx_Path_Config_Default_Value_To_Write",
+      "address": 2426551772,
+      "end": 2426551884,
+      "size": 112,
+      "table_offset": 1605908
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Set_Point_Backoff_Default_Value_To_Write",
+      "address": 2426678310,
+      "end": 2426678404,
+      "size": 94,
+      "table_offset": 1632529
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Set_Point_Backoff_CCA_Default_Value_To_Write",
+      "address": 2426678404,
+      "end": 2426678498,
+      "size": 94,
+      "table_offset": 1632600
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_PA_Level_Shift_Default_Value_To_Write",
+      "address": 2426678498,
+      "end": 2426678592,
+      "size": 94,
+      "table_offset": 1632675
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_MC_Backoff_Default_Value_To_Write",
+      "address": 2426678592,
+      "end": 2426678686,
+      "size": 94,
+      "table_offset": 1632743
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_MC_Backoff_CCA_Default_Value_To_Write",
+      "address": 2426678686,
+      "end": 2426678780,
+      "size": 94,
+      "table_offset": 1632807
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Power_Backoff_Default_Value_To_Write",
+      "address": 2426678780,
+      "end": 2426678874,
+      "size": 94,
+      "table_offset": 1632875
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Power_Backoff_CCA_Default_Value_To_Write",
+      "address": 2426678874,
+      "end": 2426678968,
+      "size": 94,
+      "table_offset": 1632942
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_TX_HIGH_LOW_TEMP_PWR_OFFSET_Default_Value_To_Write",
+      "address": 2426678968,
+      "end": 2426679062,
+      "size": 94,
+      "table_offset": 1633013
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_TX_HIGH_LOW_TEMP_PWR_OFFSET_GOLDEN_Default_Value_To_Write",
+      "address": 2426679062,
+      "end": 2426679156,
+      "size": 94,
+      "table_offset": 1633091
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Max_Gain_Limitation_Default_Value_To_Write",
+      "address": 2426679156,
+      "end": 2426679250,
+      "size": 94,
+      "table_offset": 1633176
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_SWTP_Tx_Power_Offset_Default_Value_To_Write",
+      "address": 2426679250,
+      "end": 2426679344,
+      "size": 94,
+      "table_offset": 1633249
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Default_Value_To_Write",
+      "address": 2426679344,
+      "end": 2426679438,
+      "size": 94,
+      "table_offset": 1633320
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Golden_Default_Value_To_Write",
+      "address": 2426679438,
+      "end": 2426679532,
+      "size": 94,
+      "table_offset": 1633400
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Calibration_Default_Value_To_Write",
+      "address": 2426679532,
+      "end": 2426679626,
+      "size": 94,
+      "table_offset": 1633487
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Max_Trans_Power_Limitation_Switch_Default_Value_To_Write",
+      "address": 2426679626,
+      "end": 2426679720,
+      "size": 94,
+      "table_offset": 1633579
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_SRS_Loss_Compensation_Carkit_Default_Value_To_Write",
+      "address": 2426679720,
+      "end": 2426679830,
+      "size": 110,
+      "table_offset": 1633666
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_SRS_Loss_Compensation_Carkit_Power_Limit_Default_Value_To_Write",
+      "address": 2426679830,
+      "end": 2426679924,
+      "size": 94,
+      "table_offset": 1633748
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_SRS_Loss_Compensation_Carkit_Power_Limit_Golden_Default_Value_To_Write",
+      "address": 2426679924,
+      "end": 2426680018,
+      "size": 94,
+      "table_offset": 1633842
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_TPC_Switch_Default_Value_To_Write",
+      "address": 2426680018,
+      "end": 2426680110,
+      "size": 92,
+      "table_offset": 1633943
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_CFR_Switch_Cal_Default_Value_To_Write",
+      "address": 2426680110,
+      "end": 2426680204,
+      "size": 94,
+      "table_offset": 1634007
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_CFR_Switch_Golden_Default_Value_To_Write",
+      "address": 2426680204,
+      "end": 2426680298,
+      "size": 94,
+      "table_offset": 1634075
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Wanted_Power_Offset_Cal_Default_Value_To_Write",
+      "address": 2426680298,
+      "end": 2426680392,
+      "size": 94,
+      "table_offset": 1634146
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Wanted_Power_Offset_Golden_Default_Value_To_Write",
+      "address": 2426680392,
+      "end": 2426680486,
+      "size": 94,
+      "table_offset": 1634223
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Pcmax_Offset_By_Route_Default_Value_To_Write",
+      "address": 2426680486,
+      "end": 2426680580,
+      "size": 94,
+      "table_offset": 1634303
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Pcmax_Offset_By_Route_Golden_Default_Value_To_Write",
+      "address": 2426680580,
+      "end": 2426680674,
+      "size": 94,
+      "table_offset": 1634378
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_TX_PCMAX_SUBBAND_OFFSET_Default_Value_To_Write",
+      "address": 2426680674,
+      "end": 2426680768,
+      "size": 94,
+      "table_offset": 1634460
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_TX_PCMAX_SUBBAND_OFFSET_GOLDEN_Default_Value_To_Write",
+      "address": 2426680768,
+      "end": 2426680862,
+      "size": 94,
+      "table_offset": 1634534
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Waveform_PA_MAPPING_TABLE_Default_Value_To_Write",
+      "address": 2426680862,
+      "end": 2426680960,
+      "size": 98,
+      "table_offset": 1634615
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Waveform_PA_MAPPING_TABLE_DPD_Default_Value_To_Write",
+      "address": 2426680960,
+      "end": 2426681058,
+      "size": 98,
+      "table_offset": 1634694
+    },
+    {
+      "name": "EL1D_TPC_Nvram_Get_Tx_Tas_Cal_Carkit_Mapping_Default_Value_To_Write",
+      "address": 2426681150,
+      "end": 2426681244,
+      "size": 94,
+      "table_offset": 1634830
+    },
+    {
+      "name": "EL1D_RF_Nvram_Get_HPUE_Parameter_Default_Value_To_Write",
+      "address": 2426755714,
+      "end": 2426755828,
+      "size": 114,
+      "table_offset": 1646865
+    },
+    {
+      "name": "EL1D_RF_Nvram_Get_SAR_Tx_Power_Offset_Default_Value_To_Write",
+      "address": 2426756034,
+      "end": 2426756148,
+      "size": 114,
+      "table_offset": 1647050
+    },
+    {
+      "name": "EL1D_RF_Nvram_Get_2rgn_SAR_Default_Value_To_Write",
+      "address": 2426756148,
+      "end": 2426756260,
+      "size": 112,
+      "table_offset": 1647119
+    },
+    {
+      "name": "EL1D_RF_Nvram_Get_SAR_Tx_Power_Offset_Hpue_Default_Value_To_Write",
+      "address": 2426756260,
+      "end": 2426756330,
+      "size": 70,
+      "table_offset": 1647177
+    },
+    {
+      "name": "nvram_get_TX_default_value_to_write",
+      "address": 2426809348,
+      "end": 2426809944,
+      "size": 596,
+      "table_offset": 1656065
+    },
+    {
+      "name": "EL1D_Nvram_Get_UTAS_Default_Value_To_Write",
+      "address": 2426810804,
+      "end": 2426810870,
+      "size": 66,
+      "table_offset": 1656143
+    },
+    {
+      "name": "emm_query_sbp_feature",
+      "address": 2427114318,
+      "end": 2427114358,
+      "size": 40,
+      "table_offset": 1712400
+    },
+    {
+      "name": "emm_query_sbp_feature_data",
+      "address": 2427114358,
+      "end": 2427114398,
+      "size": 40,
+      "table_offset": 1712430
+    },
+    {
+      "name": "emm_set_sbp_feature_data",
+      "address": 2427114398,
+      "end": 2427114402,
+      "size": 4,
+      "table_offset": 1712465
+    },
+    {
+      "name": "CEmmRatBand::is_detach_required_for_custom_plmn_on_rat_mode_change()",
+      "address": 2427230854,
+      "end": 2427230946,
+      "size": 92,
+      "table_offset": 1758639
+    },
+    {
+      "name": "CEmmRatBand::is_detach_required_for_custom_plmn_on_rat_mode_change_45G_to_4G()",
+      "address": 2427230946,
+      "end": 2427231038,
+      "size": 92,
+      "table_offset": 1758716
+    },
+    {
+      "name": "errc_cel_iscells_set_custom_band_by_cplmn",
+      "address": 2427963896,
+      "end": 2427964430,
+      "size": 534,
+      "table_offset": 1911131
+    },
+    {
+      "name": "errc_cel_iscells_updt_detected_band_for_plmn_region",
+      "address": 2427964430,
+      "end": 2427964536,
+      "size": 106,
+      "table_offset": 1911181
+    },
+    {
+      "name": "errc_cel_sircv_plmn_list_to_mrs_plmn_list",
+      "address": 2428061010,
+      "end": 2428061100,
+      "size": 90,
+      "table_offset": 1931753
+    },
+    {
+      "name": "errc_com_sbp_query_md_feature_data_curr_sim",
+      "address": 2428238732,
+      "end": 2428238744,
+      "size": 12,
+      "table_offset": 1964864
+    },
+    {
+      "name": "errc_is_cband_pri_same_as_fr2_enable",
+      "address": 2428543808,
+      "end": 2428543862,
+      "size": 54,
+      "table_offset": 2008125
+    },
+    {
+      "name": "errc_is_cband_N77_pri_same_as_fr2_enable",
+      "address": 2428543862,
+      "end": 2428543902,
+      "size": 40,
+      "table_offset": 2008170
+    },
+    {
+      "name": "errc_is_cband_N41_pri_same_as_fr2_enable",
+      "address": 2428543902,
+      "end": 2428543934,
+      "size": 32,
+      "table_offset": 2008219
+    },
+    {
+      "name": "errc_mob_com_cmcc_prefer_band3_enable",
+      "address": 2428544002,
+      "end": 2428544174,
+      "size": 172,
+      "table_offset": 2008341
+    },
+    {
+      "name": "errc_rcm_update_sbp_feature_status",
+      "address": 2428927150,
+      "end": 2428928150,
+      "size": 1000,
+      "table_offset": 2071474
+    },
+    {
+      "name": "errc_rcm_mrs_is_exist_in_ehplmn",
+      "address": 2428942490,
+      "end": 2428942494,
+      "size": 4,
+      "table_offset": 2074434
+    },
+    {
+      "name": "errc_rcm_get_mrs_plmn_list",
+      "address": 2428965934,
+      "end": 2428966082,
+      "size": 148,
+      "table_offset": 2077057
+    },
+    {
+      "name": "errc_rcm_get_lte_support_band_for_plmn_list",
+      "address": 2428966496,
+      "end": 2428967310,
+      "size": 814,
+      "table_offset": 2077141
+    },
+    {
+      "name": "errc_rcm_any_updt_detected_band_for_plmn_region",
+      "address": 2429083214,
+      "end": 2429083960,
+      "size": 746,
+      "table_offset": 2081170
+    },
+    {
+      "name": "errc_rcm_sbp_reconfig_req_hdlr",
+      "address": 2429128026,
+      "end": 2429128058,
+      "size": 32,
+      "table_offset": 2082971
+    },
+    {
+      "name": "errc_cel_carrs_print_learned_band_plmn_inf",
+      "address": 2429717672,
+      "end": 2429717850,
+      "size": 178,
+      "table_offset": 2152833
+    },
+    {
+      "name": "errc_cel_carrs_sort_band_list_by_learned_band_plmn",
+      "address": 2429726852,
+      "end": 2429727346,
+      "size": 494,
+      "table_offset": 2155557
+    },
+    {
+      "name": "errc_cel_carrs_set_learned_band_associated_plmn_inf",
+      "address": 2429754274,
+      "end": 2429754986,
+      "size": 712,
+      "table_offset": 2162928
+    },
+    {
+      "name": "errc_cel_carrs_parse_enh_priority_band_confiure_set_req_param_plmn_id",
+      "address": 2429764870,
+      "end": 2429765060,
+      "size": 190,
+      "table_offset": 2165700
+    },
+    {
+      "name": "errc_cel_carrs_get_priority_band_record_by_plmn",
+      "address": 2429766092,
+      "end": 2429766218,
+      "size": 126,
+      "table_offset": 2166278
+    },
+    {
+      "name": "errc_cel_carrs_get_enh_priority_band_record_by_plmn",
+      "address": 2429766218,
+      "end": 2429766400,
+      "size": 182,
+      "table_offset": 2166334
+    },
+    {
+      "name": "errc_cel_carrs_get_final_priority_band_record_by_plmn",
+      "address": 2429766400,
+      "end": 2429766588,
+      "size": 188,
+      "table_offset": 2166394
+    },
+    {
+      "name": "errc_cel_carrs_add_enh_priority_band_record_by_plmn",
+      "address": 2429766588,
+      "end": 2429766896,
+      "size": 308,
+      "table_offset": 2166456
+    },
+    {
+      "name": "errc_cel_carrs_remove_enh_priority_band_record_by_plmn",
+      "address": 2429766896,
+      "end": 2429767328,
+      "size": 432,
+      "table_offset": 2166516
+    },
+    {
+      "name": "errc_cel_carrs_query_enh_priority_band_by_plmn",
+      "address": 2429767328,
+      "end": 2429767370,
+      "size": 42,
+      "table_offset": 2166579
+    },
+    {
+      "name": "errc_cel_carrs_query_final_priority_band_by_plmn",
+      "address": 2429767370,
+      "end": 2429767404,
+      "size": 34,
+      "table_offset": 2166634
+    },
+    {
+      "name": "errc_cel_carrs_query_all_enh_priority_band_plmn",
+      "address": 2429767404,
+      "end": 2429767536,
+      "size": 132,
+      "table_offset": 2166691
+    },
+    {
+      "name": "errc_cel_carrs_delete_all_enh_priority_band_plmn",
+      "address": 2429767536,
+      "end": 2429767656,
+      "size": 120,
+      "table_offset": 2166747
+    },
+    {
+      "name": "esm_cmn_sbp_query_md_feature",
+      "address": 2429985648,
+      "end": 2429985696,
+      "size": 48,
+      "table_offset": 2195997
+    },
+    {
+      "name": "FDD_rr_convert_plmn_id_to_mrs_plmn_id",
+      "address": 2431097880,
+      "end": 2431097914,
+      "size": 34,
+      "table_offset": 2344593
+    },
+    {
+      "name": "FDD_rrm_get_disabled_bands_for_plmn_mcc",
+      "address": 2431140138,
+      "end": 2431140370,
+      "size": 232,
+      "table_offset": 2352216
+    },
+    {
+      "name": "nvram_get_L1_default_value_to_write",
+      "address": 2431993302,
+      "end": 2431993980,
+      "size": 678,
+      "table_offset": 2483646
+    },
+    {
+      "name": "gmss_recv_l4c_me_dsbp_reconfigure_req_msg_handler",
+      "address": 2432007660,
+      "end": 2432007762,
+      "size": 102,
+      "table_offset": 2487290
+    },
+    {
+      "name": "gmss_query_sbp_feature",
+      "address": 2432044872,
+      "end": 2432044922,
+      "size": 50,
+      "table_offset": 2496342
+    },
+    {
+      "name": "gmss_query_sbp_data_feature",
+      "address": 2432044922,
+      "end": 2432044934,
+      "size": 12,
+      "table_offset": 2496373
+    },
+    {
+      "name": "imc_mngr_me_dsbp_reconfigure_req_handler",
+      "address": 2432239690,
+      "end": 2432240018,
+      "size": 328,
+      "table_offset": 2534289
+    },
+    {
+      "name": "imc_nvram_customization",
+      "address": 2432387668,
+      "end": 2432387822,
+      "size": 154,
+      "table_offset": 2547135
+    },
+    {
+      "name": "imcsms_dsbp_reconfigure_ind_hdlr",
+      "address": 2432415208,
+      "end": 2432415244,
+      "size": 36,
+      "table_offset": 2553525
+    },
+    {
+      "name": "masf_me_dsbp_reconfigure_req",
+      "address": 2433437724,
+      "end": 2433437834,
+      "size": 110,
+      "table_offset": 2714226
+    },
+    {
+      "name": "l4c_me_dsbp_reconfigure_req_hdlr",
+      "address": 2433503054,
+      "end": 2433503116,
+      "size": 62,
+      "table_offset": 2733238
+    },
+    {
+      "name": "l4c_sbp_send_reconfigure_req",
+      "address": 2433733904,
+      "end": 2433734012,
+      "size": 108,
+      "table_offset": 2800488
+    },
+    {
+      "name": "l4c_sbp_dsbp_reconfigure_cnf_hdlr",
+      "address": 2433735066,
+      "end": 2433735220,
+      "size": 154,
+      "table_offset": 2800796
+    },
+    {
+      "name": "l4c_sbp_me_dsbp_reconfigure_cnf_hdlr",
+      "address": 2433735220,
+      "end": 2433735562,
+      "size": 342,
+      "table_offset": 2800838
+    },
+    {
+      "name": "l4c_sbp_me_dsbp_reconfigure_req_hdlr",
+      "address": 2433735562,
+      "end": 2433735768,
+      "size": 206,
+      "table_offset": 2800883
+    },
+    {
+      "name": "l4c_sbp_dsbp3_me_reconfigure_req_hdlr",
+      "address": 2433735768,
+      "end": 2433735862,
+      "size": 94,
+      "table_offset": 2800928
+    },
+    {
+      "name": "rac_l4c_me_dsbp_reconfigure_req_handler",
+      "address": 2433847108,
+      "end": 2433847282,
+      "size": 174,
+      "table_offset": 2840671
+    },
+    {
+      "name": "rac_sbp_dsbp3_me_reconfigure_req_handler",
+      "address": 2433863644,
+      "end": 2433863738,
+      "size": 94,
+      "table_offset": 2845618
+    },
+    {
+      "name": "smsal_me_dsbp_reconfigure_req_handler",
+      "address": 2434125072,
+      "end": 2434125218,
+      "size": 146,
+      "table_offset": 2890685
+    },
+    {
+      "name": "smsal_dsbp_reconfigure_ind_hdlr",
+      "address": 2434149086,
+      "end": 2434149122,
+      "size": 36,
+      "table_offset": 2896506
+    },
+    {
+      "name": "l5u_dsbp_reconfig_not_occur_req_hdlr",
+      "address": 2434903438,
+      "end": 2434903556,
+      "size": 118,
+      "table_offset": 3034085
+    },
+    {
+      "name": "l5u_dsbp_reconfig_req_hdlr",
+      "address": 2434903556,
+      "end": 2434903678,
+      "size": 122,
+      "table_offset": 3034130
+    },
+    {
+      "name": "l5ucc_check_mcf_plmn_is_matched_nw_plmn",
+      "address": 2434988448,
+      "end": 2434988514,
+      "size": 66,
+      "table_offset": 3051536
+    },
+    {
+      "name": "l5uswitch_me_dsbp_reconfig_ind_hdlr",
+      "address": 2435474944,
+      "end": 2435475140,
+      "size": 196,
+      "table_offset": 3146206
+    },
+    {
+      "name": "ltecsr_me_dsbp_reconfigure_req_handler",
+      "address": 2436419676,
+      "end": 2436419788,
+      "size": 112,
+      "table_offset": 3304814
+    },
+    {
+      "name": "ltecsr_nvram_custom_reload",
+      "address": 2436424396,
+      "end": 2436424592,
+      "size": 196,
+      "table_offset": 3306926
+    },
+    {
+      "name": "ltecsr_nvram_custom_reload_sim",
+      "address": 2436424634,
+      "end": 2436424668,
+      "size": 34,
+      "table_offset": 3307003
+    },
+    {
+      "name": "get_nvram_customer_table",
+      "address": 2436557188,
+      "end": 2436557254,
+      "size": 66,
+      "table_offset": 3330668
+    },
+    {
+      "name": "mia_adp_dsbp_reconfigure_req_handler",
+      "address": 2436593970,
+      "end": 2436594032,
+      "size": 62,
+      "table_offset": 3334612
+    },
+    {
+      "name": "mm_l4c_me_dsbp_reconfigure_cnf_construct",
+      "address": 2436621022,
+      "end": 2436621050,
+      "size": 28,
+      "table_offset": 3340663
+    },
+    {
+      "name": "mm_query_sbp_feature",
+      "address": 2436639680,
+      "end": 2436639740,
+      "size": 60,
+      "table_offset": 3346729
+    },
+    {
+      "name": "mm_ctrl_l4c_me_dsbp_reconfigure_req_handler",
+      "address": 2436747506,
+      "end": 2436747574,
+      "size": 68,
+      "table_offset": 3367298
+    },
+    {
+      "name": "MML1_Gemini_Api_Query_SBP_Feature_Status",
+      "address": 2437045156,
+      "end": 2437045252,
+      "size": 96,
+      "table_offset": 3438511
+    },
+    {
+      "name": "MML1_CDF_Nvram_Get_ETM_Bias_Candidate_Db_Default_Value_To_Write",
+      "address": 2437424670,
+      "end": 2437424770,
+      "size": 100,
+      "table_offset": 3465902
+    },
+    {
+      "name": "MML1_Nvram_Get_ANT_Default_Value_To_Write",
+      "address": 2438013496,
+      "end": 2438013726,
+      "size": 230,
+      "table_offset": 3531850
+    },
+    {
+      "name": "MML1_Nvram_Get_ANT_SPAT_Default_Value_To_Write",
+      "address": 2438013726,
+      "end": 2438014308,
+      "size": 582,
+      "table_offset": 3531900
+    },
+    {
+      "name": "MML1_Nvram_Get_ANT_CAC_Default_Value_To_Write",
+      "address": 2438019314,
+      "end": 2438019440,
+      "size": 126,
+      "table_offset": 3532377
+    },
+    {
+      "name": "MML1_RF_nvram_get_mmL1_default_value_to_write",
+      "address": 2438266196,
+      "end": 2438266764,
+      "size": 568,
+      "table_offset": 3566216
+    },
+    {
+      "name": "MML1_RF_nvram_get_tasar_algo_expand_default_value_to_write",
+      "address": 2438266764,
+      "end": 2438267054,
+      "size": 290,
+      "table_offset": 3566270
+    },
+    {
+      "name": "MML1_RF_nvram_get_tasar_comb_weight_default_value_to_write",
+      "address": 2438267054,
+      "end": 2438267170,
+      "size": 116,
+      "table_offset": 3566337
+    },
+    {
+      "name": "MML1_RF_nvram_get_tasar_splsr_config_default_value_to_write",
+      "address": 2438267170,
+      "end": 2438267436,
+      "size": 266,
+      "table_offset": 3566404
+    },
+    {
+      "name": "MML1_RF_nvram_get_ta_sar_pd_mcc_common_config_default_value_to_write",
+      "address": 2438268252,
+      "end": 2438268368,
+      "size": 116,
+      "table_offset": 3566774
+    },
+    {
+      "name": "MML1_RF_nvram_get_tasar_power_offset_default_value_to_write",
+      "address": 2438268368,
+      "end": 2438268460,
+      "size": 92,
+      "table_offset": 3566851
+    },
+    {
+      "name": "MML1_RF_nvram_get_ta_algo_scaling_factor_default_value_to_write",
+      "address": 2438268460,
+      "end": 2438268584,
+      "size": 124,
+      "table_offset": 3566919
+    },
+    {
+      "name": "MML1_RF_nvram_get_ta_joint_common_param_default_value_to_write",
+      "address": 2438268584,
+      "end": 2438268686,
+      "size": 102,
+      "table_offset": 3566991
+    },
+    {
+      "name": "Nvram_Get_Mml1_Default_Value_To_Write",
+      "address": 2438268908,
+      "end": 2438268926,
+      "size": 18,
+      "table_offset": 3567285
+    },
+    {
+      "name": "MML1_RF_nvram_get_mmrf_tasar_algo_expand_default_value_to_write",
+      "address": 2438268926,
+      "end": 2438268944,
+      "size": 18,
+      "table_offset": 3567331
+    },
+    {
+      "name": "nvram_get_mmrf_tasar_dc_vs_sar_offset_tbl_lte_fdd_default_value_to_write",
+      "address": 2438268944,
+      "end": 2438268962,
+      "size": 18,
+      "table_offset": 3567403
+    },
+    {
+      "name": "nvram_get_mmrf_tasar_dc_vs_sar_offset_tbl_lte_tdd_default_value_to_write",
+      "address": 2438268962,
+      "end": 2438268980,
+      "size": 18,
+      "table_offset": 3567484
+    },
+    {
+      "name": "nvram_get_mmrf_tasar_dc_vs_sar_offset_tbl_nr_fdd_default_value_to_write",
+      "address": 2438268980,
+      "end": 2438268998,
+      "size": 18,
+      "table_offset": 3567565
+    },
+    {
+      "name": "nvram_get_mmrf_tasar_dc_vs_sar_offset_tbl_nr_tdd_default_value_to_write",
+      "address": 2438268998,
+      "end": 2438269014,
+      "size": 16,
+      "table_offset": 3567645
+    },
+    {
+      "name": "nvram_get_mmrf_tasar_comb_weight_default_value_to_write",
+      "address": 2438269014,
+      "end": 2438269032,
+      "size": 18,
+      "table_offset": 3567725
+    },
+    {
+      "name": "nvram_get_mmrf_tasar_splsr_config_default_value_to_write",
+      "address": 2438269032,
+      "end": 2438269050,
+      "size": 18,
+      "table_offset": 3567789
+    },
+    {
+      "name": "nvram_get_mmrf_tasar_power_offset_default_value_to_write",
+      "address": 2438269050,
+      "end": 2438269066,
+      "size": 16,
+      "table_offset": 3567854
+    },
+    {
+      "name": "nvram_get_mmrf_ta_algo_scale_factor_default_value_to_write",
+      "address": 2438269066,
+      "end": 2438269082,
+      "size": 16,
+      "table_offset": 3567919
+    },
+    {
+      "name": "nvram_get_mmrf_ta_joint_common_param_default_value_to_write",
+      "address": 2438269082,
+      "end": 2438269098,
+      "size": 16,
+      "table_offset": 3567986
+    },
+    {
+      "name": "MML1_RF_nvram_get_mmrf_ta_sar_pd_mcc_common_config_default_value_to_write",
+      "address": 2438269098,
+      "end": 2438269114,
+      "size": 16,
+      "table_offset": 3568054
+    },
+    {
+      "name": "mrs_write_nvram_plmn_band_table",
+      "address": 2438699494,
+      "end": 2438699690,
+      "size": 196,
+      "table_offset": 3613966
+    },
+    {
+      "name": "mrs_convert_plmn_string_to_struct",
+      "address": 2438700086,
+      "end": 2438700236,
+      "size": 150,
+      "table_offset": 3614179
+    },
+    {
+      "name": "mrs_get_db_entry_plmn_id",
+      "address": 2438700236,
+      "end": 2438700352,
+      "size": 116,
+      "table_offset": 3614221
+    },
+    {
+      "name": "mrs_remove_mnc_from_plmn_id_struct",
+      "address": 2438700352,
+      "end": 2438700378,
+      "size": 26,
+      "table_offset": 3614254
+    },
+    {
+      "name": "mrs_is_ms_plmn_match_with_bcch_plmn",
+      "address": 2438700378,
+      "end": 2438700474,
+      "size": 96,
+      "table_offset": 3614297
+    },
+    {
+      "name": "mrs_get_db_band_same_plmn_entry",
+      "address": 2438700474,
+      "end": 2438700520,
+      "size": 46,
+      "table_offset": 3614341
+    },
+    {
+      "name": "mrs_is_same_plmn",
+      "address": 2438700520,
+      "end": 2438700534,
+      "size": 14,
+      "table_offset": 3614381
+    },
+    {
+      "name": "mrs_get_learned_band_same_plmn_entry",
+      "address": 2438700534,
+      "end": 2438700590,
+      "size": 56,
+      "table_offset": 3614406
+    },
+    {
+      "name": "mrs_is_same_mcc",
+      "address": 2438700590,
+      "end": 2438700626,
+      "size": 36,
+      "table_offset": 3614451
+    },
+    {
+      "name": "mrs_get_db_band_same_mcc_entry",
+      "address": 2438700626,
+      "end": 2438700674,
+      "size": 48,
+      "table_offset": 3614475
+    },
+    {
+      "name": "mrs_get_learned_band_same_mcc_entry",
+      "address": 2438700674,
+      "end": 2438700746,
+      "size": 72,
+      "table_offset": 3614514
+    },
+    {
+      "name": "mrs_get_mcc_ai_neighbor_country",
+      "address": 2438701090,
+      "end": 2438701094,
+      "size": 4,
+      "table_offset": 3614632
+    },
+    {
+      "name": "mrs_is_band_qry_utility_disabled",
+      "address": 2438701114,
+      "end": 2438701158,
+      "size": 44,
+      "table_offset": 3614716
+    },
+    {
+      "name": "mrs_is_known_plmn_band",
+      "address": 2438701398,
+      "end": 2438701532,
+      "size": 134,
+      "table_offset": 3614858
+    },
+    {
+      "name": "mrs_is_known_plmn_band_for_selection",
+      "address": 2438701532,
+      "end": 2438701608,
+      "size": 76,
+      "table_offset": 3614889
+    },
+    {
+      "name": "mrs_is_known_mcc_band",
+      "address": 2438701608,
+      "end": 2438701786,
+      "size": 178,
+      "table_offset": 3614934
+    },
+    {
+      "name": "mrs_is_known_mcc_band_for_selection",
+      "address": 2438701786,
+      "end": 2438701862,
+      "size": 76,
+      "table_offset": 3614964
+    },
+    {
+      "name": "mrs_get_plmn_support_band",
+      "address": 2438701986,
+      "end": 2438702072,
+      "size": 86,
+      "table_offset": 3615070
+    },
+    {
+      "name": "mrs_get_multiple_plmn_support_band",
+      "address": 2438702072,
+      "end": 2438702254,
+      "size": 182,
+      "table_offset": 3615104
+    },
+    {
+      "name": "mrs_get_mcc_support_band",
+      "address": 2438702254,
+      "end": 2438702356,
+      "size": 102,
+      "table_offset": 3615147
+    },
+    {
+      "name": "mrs_add_learned_plmn_band",
+      "address": 2438702992,
+      "end": 2438703326,
+      "size": 334,
+      "table_offset": 3615332
+    },
+    {
+      "name": "mrs_plmn_band_read_nvram_cnf_handler",
+      "address": 2438703326,
+      "end": 2438703488,
+      "size": 162,
+      "table_offset": 3615366
+    },
+    {
+      "name": "mrs_as_is_mcc_match",
+      "address": 2438708604,
+      "end": 2438708646,
+      "size": 42,
+      "table_offset": 3616814
+    },
+    {
+      "name": "mrs_as_is_plmn_match",
+      "address": 2438708646,
+      "end": 2438708728,
+      "size": 82,
+      "table_offset": 3616842
+    },
+    {
+      "name": "mrs_check_entry_match_by_mcc",
+      "address": 2438709806,
+      "end": 2438709846,
+      "size": 40,
+      "table_offset": 3617472
+    },
+    {
+      "name": "mrs_check_entry_match_by_plmn",
+      "address": 2438709846,
+      "end": 2438709850,
+      "size": 4,
+      "table_offset": 3617509
+    },
+    {
+      "name": "mrs_get_feature_by_plmn",
+      "address": 2438710492,
+      "end": 2438710626,
+      "size": 134,
+      "table_offset": 3617890
+    },
+    {
+      "name": "mrs_is_feature_supported_by_plmn",
+      "address": 2438710626,
+      "end": 2438710732,
+      "size": 106,
+      "table_offset": 3617922
+    },
+    {
+      "name": "mrs_get_feature_by_mcc",
+      "address": 2438710732,
+      "end": 2438710854,
+      "size": 122,
+      "table_offset": 3617963
+    },
+    {
+      "name": "mrs_is_feature_supported_by_mcc",
+      "address": 2438710854,
+      "end": 2438710958,
+      "size": 104,
+      "table_offset": 3617994
+    },
+    {
+      "name": "mrs_check_entry_mcc_match_any_plmn",
+      "address": 2438712294,
+      "end": 2438712318,
+      "size": 24,
+      "table_offset": 3618652
+    },
+    {
+      "name": "mrs_check_entry_mcc_match_by_mcc",
+      "address": 2438712318,
+      "end": 2438712354,
+      "size": 36,
+      "table_offset": 3618695
+    },
+    {
+      "name": "mrs_is_mcc_sunset_search_mcc_matched",
+      "address": 2438712354,
+      "end": 2438712378,
+      "size": 24,
+      "table_offset": 3618736
+    },
+    {
+      "name": "mrs_load_nvram_mcc_sunset_search_config",
+      "address": 2438712378,
+      "end": 2438712490,
+      "size": 112,
+      "table_offset": 3618781
+    },
+    {
+      "name": "mrs_trace_mcc_sunset_search_config_utility",
+      "address": 2438712490,
+      "end": 2438712514,
+      "size": 24,
+      "table_offset": 3618829
+    },
+    {
+      "name": "mrs_trace_mcc_sunset_search_config",
+      "address": 2438712514,
+      "end": 2438712630,
+      "size": 116,
+      "table_offset": 3618880
+    },
+    {
+      "name": "mrs_mcc_sunset_search_config_read_nvram_cnf_handler",
+      "address": 2438712630,
+      "end": 2438712650,
+      "size": 20,
+      "table_offset": 3618923
+    },
+    {
+      "name": "mrs_send_rac_mrs_set_satellite_plmn_cnf",
+      "address": 2438712650,
+      "end": 2438712752,
+      "size": 102,
+      "table_offset": 3618983
+    },
+    {
+      "name": "mrs_d2c_lte_is_plmn_allow",
+      "address": 2438712804,
+      "end": 2438712842,
+      "size": 38,
+      "table_offset": 3619130
+    },
+    {
+      "name": "mrs_send_mrs_nwsel_d2c_lte_plmn_update_ind",
+      "address": 2438712842,
+      "end": 2438712882,
+      "size": 40,
+      "table_offset": 3619164
+    },
+    {
+      "name": "mrs_d2c_lte_load_nvram_entitlement_plmn_list",
+      "address": 2438712882,
+      "end": 2438712992,
+      "size": 110,
+      "table_offset": 3619215
+    },
+    {
+      "name": "mrs_d2c_lte_write_nvram_entitlement_plmn_list",
+      "address": 2438712992,
+      "end": 2438713180,
+      "size": 188,
+      "table_offset": 3619268
+    },
+    {
+      "name": "mrs_d2c_lte_load_nvram_oem_plmn_list",
+      "address": 2438713180,
+      "end": 2438713294,
+      "size": 114,
+      "table_offset": 3619322
+    },
+    {
+      "name": "mrs_d2c_lte_write_nvram_oem_plmn_list",
+      "address": 2438713294,
+      "end": 2438713486,
+      "size": 192,
+      "table_offset": 3619367
+    },
+    {
+      "name": "mrs_d2c_lte_set_plmn_list_validity_with_simslot",
+      "address": 2438713830,
+      "end": 2438714034,
+      "size": 204,
+      "table_offset": 3619629
+    },
+    {
+      "name": "mrs_d2c_lte_set_plmn_list_validity",
+      "address": 2438714034,
+      "end": 2438714050,
+      "size": 16,
+      "table_offset": 3619685
+    },
+    {
+      "name": "mrs_d2c_lte_get_plmn_list_validity_with_simslot",
+      "address": 2438714050,
+      "end": 2438714194,
+      "size": 144,
+      "table_offset": 3619728
+    },
+    {
+      "name": "mrs_d2c_lte_trace_entitlement_plmn_list_with_simslot",
+      "address": 2438714194,
+      "end": 2438714426,
+      "size": 232,
+      "table_offset": 3619784
+    },
+    {
+      "name": "mrs_d2c_lte_trace_entitlement_plmn_list",
+      "address": 2438714426,
+      "end": 2438714438,
+      "size": 12,
+      "table_offset": 3619845
+    },
+    {
+      "name": "mrs_d2c_lte_trace_oem_plmn_list_with_simslot",
+      "address": 2438714438,
+      "end": 2438714674,
+      "size": 236,
+      "table_offset": 3619893
+    },
+    {
+      "name": "mrs_d2c_lte_trace_oem_plmn_list",
+      "address": 2438714674,
+      "end": 2438714686,
+      "size": 12,
+      "table_offset": 3619946
+    },
+    {
+      "name": "mrs_d2c_lte_trace_query_plmn_list_with_simslot",
+      "address": 2438714686,
+      "end": 2438714926,
+      "size": 240,
+      "table_offset": 3619986
+    },
+    {
+      "name": "mrs_d2c_lte_reset_entitlement_plmn_list_with_simslot",
+      "address": 2438714926,
+      "end": 2438715018,
+      "size": 92,
+      "table_offset": 3620041
+    },
+    {
+      "name": "mrs_d2c_lte_reset_entitlement_plmn_list",
+      "address": 2438715018,
+      "end": 2438715030,
+      "size": 12,
+      "table_offset": 3620102
+    },
+    {
+      "name": "mrs_d2c_lte_reset_oem_plmn_list_with_simslot",
+      "address": 2438715030,
+      "end": 2438715122,
+      "size": 92,
+      "table_offset": 3620150
+    },
+    {
+      "name": "mrs_d2c_lte_reset_oem_plmn_list",
+      "address": 2438715122,
+      "end": 2438715134,
+      "size": 12,
+      "table_offset": 3620203
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_clear_handler",
+      "address": 2438715134,
+      "end": 2438715152,
+      "size": 18,
+      "table_offset": 3620243
+    },
+    {
+      "name": "mrs_d2c_lte_reset_query_plmn_list_with_simslot",
+      "address": 2438715152,
+      "end": 2438715244,
+      "size": 92,
+      "table_offset": 3620282
+    },
+    {
+      "name": "mrs_is_search_order_applied_to_stored_search_by_mcc",
+      "address": 2438715480,
+      "end": 2438715524,
+      "size": 44,
+      "table_offset": 3620446
+    },
+    {
+      "name": "mrs_is_search_order_applied_to_stored_search_by_plmn",
+      "address": 2438715524,
+      "end": 2438715568,
+      "size": 44,
+      "table_offset": 3620506
+    },
+    {
+      "name": "mrs_get_endc_prefer_by_mcc",
+      "address": 2438715916,
+      "end": 2438715960,
+      "size": 44,
+      "table_offset": 3620707
+    },
+    {
+      "name": "mrs_get_endc_prefer_by_plmn",
+      "address": 2438715960,
+      "end": 2438716004,
+      "size": 44,
+      "table_offset": 3620742
+    },
+    {
+      "name": "mrs_convert_plmn_id_struct_to_string",
+      "address": 2438717292,
+      "end": 2438717416,
+      "size": 124,
+      "table_offset": 3621278
+    },
+    {
+      "name": "mrs_is_mcc_sunset_search_rule_matched",
+      "address": 2438718922,
+      "end": 2438719050,
+      "size": 128,
+      "table_offset": 3621824
+    },
+    {
+      "name": "mrs_is_skip_plmn_rat_for_any_search",
+      "address": 2438719050,
+      "end": 2438719256,
+      "size": 206,
+      "table_offset": 3621870
+    },
+    {
+      "name": "mrs_get_first_search_rat_by_mcc",
+      "address": 2438719504,
+      "end": 2438719550,
+      "size": 46,
+      "table_offset": 3621958
+    },
+    {
+      "name": "mrs_get_first_search_rat_by_plmn",
+      "address": 2438719550,
+      "end": 2438719598,
+      "size": 48,
+      "table_offset": 3621998
+    },
+    {
+      "name": "mrs_get_barred_rat_by_mcc",
+      "address": 2438719598,
+      "end": 2438719646,
+      "size": 48,
+      "table_offset": 3622039
+    },
+    {
+      "name": "mrs_get_barred_rat_by_plmn",
+      "address": 2438719646,
+      "end": 2438719694,
+      "size": 48,
+      "table_offset": 3622073
+    },
+    {
+      "name": "mrs_get_mcc_sunset_search_config_by_mcc_list",
+      "address": 2438719724,
+      "end": 2438719988,
+      "size": 264,
+      "table_offset": 3622143
+    },
+    {
+      "name": "mrs_check_entry_match_any_plmn",
+      "address": 2438720532,
+      "end": 2438720578,
+      "size": 46,
+      "table_offset": 3622331
+    },
+    {
+      "name": "mrs_is_vg_config_plmn_matched",
+      "address": 2438720578,
+      "end": 2438720614,
+      "size": 36,
+      "table_offset": 3622370
+    },
+    {
+      "name": "mrs_is_rat_cap_plmn_matched",
+      "address": 2438721368,
+      "end": 2438721404,
+      "size": 36,
+      "table_offset": 3622564
+    },
+    {
+      "name": "mrs_is_voice_unavail_leave_rat_plmn_matched",
+      "address": 2438722126,
+      "end": 2438722162,
+      "size": 36,
+      "table_offset": 3622764
+    },
+    {
+      "name": "mrs_is_retry_voice_order_plmn_matched",
+      "address": 2438723040,
+      "end": 2438723076,
+      "size": 36,
+      "table_offset": 3623012
+    },
+    {
+      "name": "mrs_copy_plmn_to_nvram_plmn_struct",
+      "address": 2438723076,
+      "end": 2438723110,
+      "size": 34,
+      "table_offset": 3623058
+    },
+    {
+      "name": "mrs_copy_nvram_plmn_to_plmn_struct",
+      "address": 2438723772,
+      "end": 2438723806,
+      "size": 34,
+      "table_offset": 3623402
+    },
+    {
+      "name": "mrs_decode_plmn",
+      "address": 2438724326,
+      "end": 2438724368,
+      "size": 42,
+      "table_offset": 3623747
+    },
+    {
+      "name": "mrs_is_2_plmns_exact_equal",
+      "address": 2438725264,
+      "end": 2438725278,
+      "size": 14,
+      "table_offset": 3623907
+    },
+    {
+      "name": "mrs_is_plmn_match",
+      "address": 2438725512,
+      "end": 2438725538,
+      "size": 26,
+      "table_offset": 3623978
+    },
+    {
+      "name": "mrs_d2c_lte_is_plmn_in_entitlement_list",
+      "address": 2438725538,
+      "end": 2438725738,
+      "size": 200,
+      "table_offset": 3624004
+    },
+    {
+      "name": "mrs_is_plmn_in_satellite_list",
+      "address": 2438725738,
+      "end": 2438725934,
+      "size": 196,
+      "table_offset": 3624052
+    },
+    {
+      "name": "mrs_dc2_lte_add_plmn_to_entitlement_plmn_list",
+      "address": 2438725934,
+      "end": 2438726192,
+      "size": 258,
+      "table_offset": 3624090
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_add_entitlement_handler",
+      "address": 2438726192,
+      "end": 2438726220,
+      "size": 28,
+      "table_offset": 3624144
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_replace_entitlement_handler",
+      "address": 2438726220,
+      "end": 2438726236,
+      "size": 16,
+      "table_offset": 3624193
+    },
+    {
+      "name": "mrs_dc2_lte_add_plmn_to_oem_plmn_list",
+      "address": 2438726236,
+      "end": 2438726496,
+      "size": 260,
+      "table_offset": 3624246
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_add_oem_handler",
+      "address": 2438726496,
+      "end": 2438726524,
+      "size": 28,
+      "table_offset": 3624292
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_add_handler",
+      "address": 2438726524,
+      "end": 2438726542,
+      "size": 18,
+      "table_offset": 3624333
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_replace_oem_handler",
+      "address": 2438726542,
+      "end": 2438726558,
+      "size": 16,
+      "table_offset": 3624370
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_replace_handler",
+      "address": 2438726558,
+      "end": 2438726576,
+      "size": 18,
+      "table_offset": 3624415
+    },
+    {
+      "name": "mrs_dc2_lte_add_entitlement_plmn_to_query_plmn_list_with_simslot",
+      "address": 2438726576,
+      "end": 2438726904,
+      "size": 328,
+      "table_offset": 3624456
+    },
+    {
+      "name": "mrs_dc2_lte_add_oem_plmn_to_query_plmn_list_with_simslot",
+      "address": 2438726904,
+      "end": 2438727230,
+      "size": 326,
+      "table_offset": 3624529
+    },
+    {
+      "name": "mrs_is_any_plmn",
+      "address": 2438727230,
+      "end": 2438727282,
+      "size": 52,
+      "table_offset": 3624594
+    },
+    {
+      "name": "mrs_is_zero_plmn",
+      "address": 2438727282,
+      "end": 2438727324,
+      "size": 42,
+      "table_offset": 3624618
+    },
+    {
+      "name": "mrs_is_invalid_plmn",
+      "address": 2438727324,
+      "end": 2438727380,
+      "size": 56,
+      "table_offset": 3624643
+    },
+    {
+      "name": "mrs_check_validity_for_satellite_plmn",
+      "address": 2438727380,
+      "end": 2438727496,
+      "size": 116,
+      "table_offset": 3624671
+    },
+    {
+      "name": "mrs_check_set_satellite_plmn_req_validity",
+      "address": 2438727496,
+      "end": 2438727546,
+      "size": 50,
+      "table_offset": 3624717
+    },
+    {
+      "name": "mrs_reset_plmn",
+      "address": 2438727546,
+      "end": 2438727568,
+      "size": 22,
+      "table_offset": 3624767
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_delete_entitlement_handler",
+      "address": 2438727568,
+      "end": 2438728040,
+      "size": 472,
+      "table_offset": 3624790
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_delete_oem_handler",
+      "address": 2438728040,
+      "end": 2438728504,
+      "size": 464,
+      "table_offset": 3624842
+    },
+    {
+      "name": "mrs_d2c_lte_plmn_delete_handler",
+      "address": 2438728504,
+      "end": 2438728522,
+      "size": 18,
+      "table_offset": 3624886
+    },
+    {
+      "name": "mrs_query_sbp_feature_with_simslot",
+      "address": 2438728522,
+      "end": 2438728608,
+      "size": 86,
+      "table_offset": 3624926
+    },
+    {
+      "name": "mrs_d2c_lte_check_if_need_to_reconstruct_query_plmn_list_when_sim_replace_with_simslot",
+      "address": 2438728694,
+      "end": 2438728788,
+      "size": 94,
+      "table_offset": 3625009
+    },
+    {
+      "name": "mrs_d2c_lte_check_if_need_to_reconstruct_query_plmn_list_when_sim_replace",
+      "address": 2438728788,
+      "end": 2438728800,
+      "size": 12,
+      "table_offset": 3625104
+    },
+    {
+      "name": "mrs_d2c_lte_construct_query_plmn_list_with_simslot",
+      "address": 2438729038,
+      "end": 2438729170,
+      "size": 132,
+      "table_offset": 3625239
+    },
+    {
+      "name": "mrs_d2c_lte_construct_query_plmn_list",
+      "address": 2438729170,
+      "end": 2438729182,
+      "size": 12,
+      "table_offset": 3625298
+    },
+    {
+      "name": "mrs_set_satellite_plmn_req_d2c_lte_handler",
+      "address": 2438729182,
+      "end": 2438729298,
+      "size": 116,
+      "table_offset": 3625344
+    },
+    {
+      "name": "mrs_rac_mrs_set_satellite_plmn_req_handler",
+      "address": 2438729298,
+      "end": 2438729356,
+      "size": 58,
+      "table_offset": 3625395
+    },
+    {
+      "name": "mrs_d2c_lte_entitlement_plmn_list_read_nvram_cnf_handler",
+      "address": 2438729356,
+      "end": 2438729408,
+      "size": 52,
+      "table_offset": 3625446
+    },
+    {
+      "name": "mrs_d2c_lte_oem_plmn_list_read_nvram_cnf_handler",
+      "address": 2438729408,
+      "end": 2438729460,
+      "size": 52,
+      "table_offset": 3625511
+    },
+    {
+      "name": "mrs_common_search_is_dr_search_allowed_with_sbp_configuration",
+      "address": 2438731954,
+      "end": 2438732136,
+      "size": 182,
+      "table_offset": 3626203
+    },
+    {
+      "name": "mrs_search_clear_found_mcc_info_in_u2d",
+      "address": 2438732436,
+      "end": 2438732494,
+      "size": 58,
+      "table_offset": 3626323
+    },
+    {
+      "name": "mrs_search_update_found_mcc_info_in_u2d",
+      "address": 2438732494,
+      "end": 2438732640,
+      "size": 146,
+      "table_offset": 3626370
+    },
+    {
+      "name": "mrs_search_check_peer_sim_found_mcc_info_in_u2d",
+      "address": 2438732640,
+      "end": 2438732728,
+      "size": 88,
+      "table_offset": 3626418
+    },
+    {
+      "name": "mrs_eas_is_plmn_id_match_with_bcch_plmn_id",
+      "address": 2438733368,
+      "end": 2438733464,
+      "size": 96,
+      "table_offset": 3626759
+    },
+    {
+      "name": "mrs_eas_get_ue_eutra_capability_by_plmn",
+      "address": 2438736954,
+      "end": 2438736986,
+      "size": 32,
+      "table_offset": 3627805
+    },
+    {
+      "name": "mrs_eas_is_mcc_match_country",
+      "address": 2438746974,
+      "end": 2438747348,
+      "size": 374,
+      "table_offset": 3628886
+    },
+    {
+      "name": "mrs_eas_judge_country_plmn",
+      "address": 2438751678,
+      "end": 2438751728,
+      "size": 50,
+      "table_offset": 3629535
+    },
+    {
+      "name": "mrs_eas_custom_disable_band_by_cplmn",
+      "address": 2438751902,
+      "end": 2438753538,
+      "size": 1636,
+      "table_offset": 3629657
+    },
+    {
+      "name": "mrs_eas_band_enable_by_plmn_supported",
+      "address": 2438753538,
+      "end": 2438753614,
+      "size": 76,
+      "table_offset": 3629702
+    },
+    {
+      "name": "mrs_eas_band_enable_by_plmn",
+      "address": 2438753614,
+      "end": 2438754132,
+      "size": 518,
+      "table_offset": 3629748
+    },
+    {
+      "name": "mrs_eas_band_enable_by_plmn_nvram_configuration_get",
+      "address": 2438754132,
+      "end": 2438754910,
+      "size": 778,
+      "table_offset": 3629784
+    },
+    {
+      "name": "mrs_eas_band_enable_by_plmn_reset_config",
+      "address": 2438754910,
+      "end": 2438754970,
+      "size": 60,
+      "table_offset": 3629844
+    },
+    {
+      "name": "mrs_eas_is_mcc_or_sbp_op_id_match",
+      "address": 2438754970,
+      "end": 2438755266,
+      "size": 296,
+      "table_offset": 3629893
+    },
+    {
+      "name": "mrs_eas_custom_disable_band_by_cplmn_for_roaming",
+      "address": 2438755266,
+      "end": 2438756874,
+      "size": 1608,
+      "table_offset": 3629935
+    },
+    {
+      "name": "mrs_eas_get_plmn_band_state",
+      "address": 2438756890,
+      "end": 2438756906,
+      "size": 16,
+      "table_offset": 3630027
+    },
+    {
+      "name": "mrs_eas_get_custom_disable_band_by_plmn_state",
+      "address": 2438756906,
+      "end": 2438756922,
+      "size": 16,
+      "table_offset": 3630063
+    },
+    {
+      "name": "mrs_eas_get_custom_disable_band_batch2_by_plmn_state",
+      "address": 2438756922,
+      "end": 2438756938,
+      "size": 16,
+      "table_offset": 3630117
+    },
+    {
+      "name": "mrs_eas_get_custom_disable_band_by_plmn_for_roaming_state",
+      "address": 2438756938,
+      "end": 2438756954,
+      "size": 16,
+      "table_offset": 3630178
+    },
+    {
+      "name": "mrs_eas_retrieveLteBandBitmask_by_hplmn",
+      "address": 2438758408,
+      "end": 2438758556,
+      "size": 148,
+      "table_offset": 3630485
+    },
+    {
+      "name": "mrs_eas_band_setting_update_by_hplmn_and_cplmn",
+      "address": 2438758556,
+      "end": 2438771714,
+      "size": 13158,
+      "table_offset": 3630533
+    },
+    {
+      "name": "mrs_eas_check_special_plmn_excluded",
+      "address": 2438771714,
+      "end": 2438771726,
+      "size": 12,
+      "table_offset": 3630588
+    },
+    {
+      "name": "mrs_eas_retrieveLteBandBitmask_by_plmn",
+      "address": 2438771726,
+      "end": 2438771940,
+      "size": 214,
+      "table_offset": 3630632
+    },
+    {
+      "name": "mrs_eas_mrs_plmn_id_to_plmn_id",
+      "address": 2438772164,
+      "end": 2438772198,
+      "size": 34,
+      "table_offset": 3630773
+    },
+    {
+      "name": "mrs_eas_get_afr_by_custom_hplmn_and_splmn",
+      "address": 2438772198,
+      "end": 2438772626,
+      "size": 428,
+      "table_offset": 3630812
+    },
+    {
+      "name": "mrs_eas_plmn_id_to_mrs_plmn_id",
+      "address": 2438772834,
+      "end": 2438772868,
+      "size": 34,
+      "table_offset": 3631071
+    },
+    {
+      "name": "mrs_emm_set_sim_currplmn",
+      "address": 2438774046,
+      "end": 2438774062,
+      "size": 16,
+      "table_offset": 3631908
+    },
+    {
+      "name": "mrs_emm_is_sim_currplmn_cmcc",
+      "address": 2438774078,
+      "end": 2438774152,
+      "size": 74,
+      "table_offset": 3631972
+    },
+    {
+      "name": "fdd_mrs_set_current_camped_plmn",
+      "address": 2438779648,
+      "end": 2438779774,
+      "size": 126,
+      "table_offset": 3633459
+    },
+    {
+      "name": "fdd_mrs_gas_mcc_band_setting_update",
+      "address": 2438779934,
+      "end": 2438780038,
+      "size": 104,
+      "table_offset": 3633665
+    },
+    {
+      "name": "mrs_gas_mcc_band_setting_update",
+      "address": 2438780038,
+      "end": 2438780062,
+      "size": 24,
+      "table_offset": 3633709
+    },
+    {
+      "name": "fdd_mrs_gas_band_setting_update_by_plmn",
+      "address": 2438780224,
+      "end": 2438780362,
+      "size": 138,
+      "table_offset": 3633833
+    },
+    {
+      "name": "mrs_gas_band_setting_update_by_plmn",
+      "address": 2438780362,
+      "end": 2438780390,
+      "size": 28,
+      "table_offset": 3633881
+    },
+    {
+      "name": "mrs_is_end_of_custom_plmn_array_to_disable_isr_support",
+      "address": 2438786190,
+      "end": 2438786210,
+      "size": 20,
+      "table_offset": 3634855
+    },
+    {
+      "name": "mrs_is_sim_plmn_in_custom_config",
+      "address": 2438786210,
+      "end": 2438786340,
+      "size": 130,
+      "table_offset": 3634918
+    },
+    {
+      "name": "mrs_mm_convert_plmn_struct_to_u32",
+      "address": 2438786972,
+      "end": 2438787032,
+      "size": 60,
+      "table_offset": 3635048
+    },
+    {
+      "name": "mrs_store_mcc_region_band_config_info_from_nvram",
+      "address": 2438790152,
+      "end": 2438790364,
+      "size": 212,
+      "table_offset": 3635452
+    },
+    {
+      "name": "mrs_nras_is_plmn_id_match_with_bcch_plmn_id",
+      "address": 2438792252,
+      "end": 2438792348,
+      "size": 96,
+      "table_offset": 3635615
+    },
+    {
+      "name": "mrs_nras_is_plmn_or_sbp_op_id_match",
+      "address": 2438792716,
+      "end": 2438792960,
+      "size": 244,
+      "table_offset": 3635752
+    },
+    {
+      "name": "mrs_nras_convert_plmn_string.part.3",
+      "address": 2438793090,
+      "end": 2438793212,
+      "size": 122,
+      "table_offset": 3635905
+    },
+    {
+      "name": "mrs_nras_mrs_plmn_id_to_plmn_id",
+      "address": 2438798786,
+      "end": 2438798820,
+      "size": 34,
+      "table_offset": 3637085
+    },
+    {
+      "name": "mrs_nras_sa_nr_band_bitmask_get_by_plmn",
+      "address": 2438799374,
+      "end": 2438799700,
+      "size": 326,
+      "table_offset": 3637376
+    },
+    {
+      "name": "mrs_nras_endc_nr_band_bitmask_get_by_plmn",
+      "address": 2438799700,
+      "end": 2438800024,
+      "size": 324,
+      "table_offset": 3637424
+    },
+    {
+      "name": "mrs_nras_is_supported_nr_band_plmn",
+      "address": 2438800024,
+      "end": 2438800236,
+      "size": 212,
+      "table_offset": 3637474
+    },
+    {
+      "name": "mrs_nras_is_supported_sa_nr_band_plmn",
+      "address": 2438800236,
+      "end": 2438800248,
+      "size": 12,
+      "table_offset": 3637517
+    },
+    {
+      "name": "mrs_nras_is_supported_endc_nr_band_plmn",
+      "address": 2438800248,
+      "end": 2438800260,
+      "size": 12,
+      "table_offset": 3637563
+    },
+    {
+      "name": "mrs_nras_is_mcc_or_sbp_op_id_match",
+      "address": 2438800480,
+      "end": 2438800776,
+      "size": 296,
+      "table_offset": 3637762
+    },
+    {
+      "name": "mrs_nras_band_enable_in_band_bitmask",
+      "address": 2438800840,
+      "end": 2438800904,
+      "size": 64,
+      "table_offset": 3637851
+    },
+    {
+      "name": "mrs_nras_band_disable_in_band_bitmask",
+      "address": 2438800904,
+      "end": 2438800988,
+      "size": 84,
+      "table_offset": 3637896
+    },
+    {
+      "name": "mrs_nras_get_band_update_by_plmn_last_caller_id",
+      "address": 2438800988,
+      "end": 2438801036,
+      "size": 48,
+      "table_offset": 3637942
+    },
+    {
+      "name": "mrs_nras_is_supported_partial_band_under_mcc",
+      "address": 2438804498,
+      "end": 2438804634,
+      "size": 136,
+      "table_offset": 3639011
+    },
+    {
+      "name": "mrs_nras_band_setting_update_by_plmn",
+      "address": 2438805972,
+      "end": 2438812878,
+      "size": 6906,
+      "table_offset": 3639509
+    },
+    {
+      "name": "mrs_nras_plmn_id_to_mrs_plmn_id",
+      "address": 2438814422,
+      "end": 2438814456,
+      "size": 34,
+      "table_offset": 3639860
+    },
+    {
+      "name": "mrs_nras_search_plmn_in_sib_of_freq",
+      "address": 2438816058,
+      "end": 2438816206,
+      "size": 148,
+      "table_offset": 3640301
+    },
+    {
+      "name": "mrs_uas_band_setting_update_by_plmn",
+      "address": 2438819836,
+      "end": 2438820138,
+      "size": 302,
+      "table_offset": 3641395
+    },
+    {
+      "name": "mrs_uas_reset_disabled_band_to_scsi_per_plmn",
+      "address": 2438820206,
+      "end": 2438820450,
+      "size": 244,
+      "table_offset": 3641484
+    },
+    {
+      "name": "mrs_PlmnIdStruct_compareExactMatch",
+      "address": 2438821226,
+      "end": 2438821328,
+      "size": 102,
+      "table_offset": 3641786
+    },
+    {
+      "name": "mrs_fast_roaming_set_mcc",
+      "address": 2438828932,
+      "end": 2438829450,
+      "size": 518,
+      "table_offset": 3643000
+    },
+    {
+      "name": "mrs_fast_roaming_get_mcc",
+      "address": 2438829450,
+      "end": 2438829532,
+      "size": 82,
+      "table_offset": 3643033
+    },
+    {
+      "name": "mrs_gas_fast_mode_switch_set_plmn_id",
+      "address": 2438829912,
+      "end": 2438829972,
+      "size": 60,
+      "table_offset": 3643157
+    },
+    {
+      "name": "mrs_check_disable_fast_plmn_list",
+      "address": 2438840170,
+      "end": 2438840224,
+      "size": 54,
+      "table_offset": 3645902
+    },
+    {
+      "name": "mrs_get_mcc_region_umts_bands",
+      "address": 2438840422,
+      "end": 2438840656,
+      "size": 234,
+      "table_offset": 3646041
+    },
+    {
+      "name": "mrs_get_mcc_region_gsm_bands",
+      "address": 2438840656,
+      "end": 2438840856,
+      "size": 200,
+      "table_offset": 3646079
+    },
+    {
+      "name": "mrs_write_mcc_region_band_table_to_nvram",
+      "address": 2438841070,
+      "end": 2438841154,
+      "size": 84,
+      "table_offset": 3646154
+    },
+    {
+      "name": "mrs_gsm_update_detected_band_for_plmn_region",
+      "address": 2438841154,
+      "end": 2438841412,
+      "size": 258,
+      "table_offset": 3646203
+    },
+    {
+      "name": "mrs_umts_update_detected_band_for_plmn_region",
+      "address": 2438841412,
+      "end": 2438841716,
+      "size": 304,
+      "table_offset": 3646256
+    },
+    {
+      "name": "mrs_lte_update_detected_band_for_plmn_region",
+      "address": 2438841716,
+      "end": 2438841976,
+      "size": 260,
+      "table_offset": 3646310
+    },
+    {
+      "name": "mrs_get_operator_id_of_plmn",
+      "address": 2438841976,
+      "end": 2438842660,
+      "size": 684,
+      "table_offset": 3646363
+    },
+    {
+      "name": "mrs_as_band_setting_update_by_plmn",
+      "address": 2438849576,
+      "end": 2438850104,
+      "size": 528,
+      "table_offset": 3647893
+    },
+    {
+      "name": "mrs_convert_public_plmn_struct_to_nl1_plmn_struct",
+      "address": 2438850178,
+      "end": 2438850242,
+      "size": 64,
+      "table_offset": 3647977
+    },
+    {
+      "name": "mrs_vgnas_get_cag_info_per_plmn",
+      "address": 2438851824,
+      "end": 2438852420,
+      "size": 596,
+      "table_offset": 3648698
+    },
+    {
+      "name": "mrs_mcc_ai_sort_predict_mcc",
+      "address": 2438852912,
+      "end": 2438852928,
+      "size": 16,
+      "table_offset": 3648891
+    },
+    {
+      "name": "mrs_eas_mcc_recog_centered_cosine_distance",
+      "address": 2438853384,
+      "end": 2438853744,
+      "size": 360,
+      "table_offset": 3649047
+    },
+    {
+      "name": "mrs_eas_mcc_recog_get_mcc_for_test_data",
+      "address": 2438853744,
+      "end": 2438854206,
+      "size": 462,
+      "table_offset": 3649098
+    },
+    {
+      "name": "mrs_eas_mcc_recog_is_remarkable_band",
+      "address": 2438854206,
+      "end": 2438854234,
+      "size": 28,
+      "table_offset": 3649146
+    },
+    {
+      "name": "mrs_eas_dump_mcc_ai_result",
+      "address": 2438854234,
+      "end": 2438854384,
+      "size": 150,
+      "table_offset": 3649191
+    },
+    {
+      "name": "mrs_mcc_ai_init_buf",
+      "address": 2438854384,
+      "end": 2438854526,
+      "size": 142,
+      "table_offset": 3649226
+    },
+    {
+      "name": "mrs_mcc_ai_free_buf",
+      "address": 2438854526,
+      "end": 2438854608,
+      "size": 82,
+      "table_offset": 3649254
+    },
+    {
+      "name": "mrs_eas_srch_info_cell_level_is_plmn_identical_on_freq",
+      "address": 2438859418,
+      "end": 2438859562,
+      "size": 144,
+      "table_offset": 3650368
+    },
+    {
+      "name": "mrs_mcc_ai_get_model",
+      "address": 2438859578,
+      "end": 2438859658,
+      "size": 80,
+      "table_offset": 3650475
+    },
+    {
+      "name": "mrs_mcc_ai_inference_wrapper",
+      "address": 2438859658,
+      "end": 2438860040,
+      "size": 382,
+      "table_offset": 3650504
+    },
+    {
+      "name": "mrs_eas_mcc_recog_get_mcc",
+      "address": 2438860040,
+      "end": 2438860846,
+      "size": 806,
+      "table_offset": 3650541
+    },
+    {
+      "name": "mrs_nras_mcc_recog_thash_distance.part.1",
+      "address": 2438877978,
+      "end": 2438878546,
+      "size": 568,
+      "table_offset": 3654791
+    },
+    {
+      "name": "mrs_nras_mcc_recog_need",
+      "address": 2438878860,
+      "end": 2438878864,
+      "size": 4,
+      "table_offset": 3654883
+    },
+    {
+      "name": "mrs_nras_mcc_recog_centered_cosine_distance",
+      "address": 2438878864,
+      "end": 2438879244,
+      "size": 380,
+      "table_offset": 3654915
+    },
+    {
+      "name": "mrs_nras_mcc_recog_thash_distance",
+      "address": 2438879244,
+      "end": 2438879266,
+      "size": 22,
+      "table_offset": 3654967
+    },
+    {
+      "name": "mrs_nras_mcc_recog_variance",
+      "address": 2438879266,
+      "end": 2438879436,
+      "size": 170,
+      "table_offset": 3655009
+    },
+    {
+      "name": "mrs_nras_mcc_recog_get_mcc_for_test_data",
+      "address": 2438879436,
+      "end": 2438879986,
+      "size": 550,
+      "table_offset": 3655045
+    },
+    {
+      "name": "mrs_nras_mcc_recog_get_mcc",
+      "address": 2438879986,
+      "end": 2438880424,
+      "size": 438,
+      "table_offset": 3655094
+    },
+    {
+      "name": "mrs_nras_mcc_recog_get_latest_mcc",
+      "address": 2438880424,
+      "end": 2438880516,
+      "size": 92,
+      "table_offset": 3655129
+    },
+    {
+      "name": "n3cf_me_dsbp_reconfigure_req",
+      "address": 2438909992,
+      "end": 2438910070,
+      "size": 78,
+      "table_offset": 3660019
+    },
+    {
+      "name": "nas_sv_query_sbp_feature_data",
+      "address": 2439190022,
+      "end": 2439190062,
+      "size": 40,
+      "table_offset": 3716103
+    },
+    {
+      "name": "nrrc_ncap_get_mrs_plmn_id_list",
+      "address": 2439191534,
+      "end": 2439191616,
+      "size": 82,
+      "table_offset": 3716914
+    },
+    {
+      "name": "nl1_cap_get_custom_bc_nsa_nr_band_valid",
+      "address": 2439272660,
+      "end": 2439272722,
+      "size": 62,
+      "table_offset": 3738586
+    },
+    {
+      "name": "nl1_cap_get_custom_bc_sa_nr_band_valid",
+      "address": 2439272722,
+      "end": 2439272784,
+      "size": 62,
+      "table_offset": 3738634
+    },
+    {
+      "name": "nl1_cap_set_custom_bc_nr_band_valid_bmp",
+      "address": 2439279520,
+      "end": 2439279622,
+      "size": 102,
+      "table_offset": 3739269
+    },
+    {
+      "name": "NL1_CAP_Public_Collect_SBP_Feature_Query_API_Result",
+      "address": 2439344910,
+      "end": 2439345340,
+      "size": 430,
+      "table_offset": 3785432
+    },
+    {
+      "name": "NL1_CAP_Public_SBP_Feature_Result_Get",
+      "address": 2439345340,
+      "end": 2439345356,
+      "size": 16,
+      "table_offset": 3785492
+    },
+    {
+      "name": "NL1_CAP_Public_SBP_Feature_Result_Get_For_Re_Cal",
+      "address": 2439345356,
+      "end": 2439345376,
+      "size": 20,
+      "table_offset": 3785538
+    },
+    {
+      "name": "NL1_CAP_Public_Collect_SBP_Feature_Query_API_Result_For_Re_Cal",
+      "address": 2439345376,
+      "end": 2439345702,
+      "size": 326,
+      "table_offset": 3785595
+    },
+    {
+      "name": "nvram_get_nl1_dpd_default_value_to_write_record.isra.1",
+      "address": 2439717300,
+      "end": 2439717412,
+      "size": 112,
+      "table_offset": 3854658
+    },
+    {
+      "name": "NL1D_DPD_Nvram_Get_Dpd_Default_Value_To_Write",
+      "address": 2439720376,
+      "end": 2439720522,
+      "size": 146,
+      "table_offset": 3855128
+    },
+    {
+      "name": "nvram_get_nl1_et_default_value_to_write_record.isra.2",
+      "address": 2439720880,
+      "end": 2439720978,
+      "size": 98,
+      "table_offset": 3855383
+    },
+    {
+      "name": "NL1D_ET_Nvram_Get_Et_Default_Value_To_Write",
+      "address": 2439723356,
+      "end": 2439723500,
+      "size": 144,
+      "table_offset": 3855808
+    },
+    {
+      "name": "NL1_MPC_MOB_Meas_Sbp_Query_Md_Feature_By_Ps",
+      "address": 2440009718,
+      "end": 2440009722,
+      "size": 4,
+      "table_offset": 3918335
+    },
+    {
+      "name": "NL1_MPC_MOB_Meas_Sbp_Query_Md_Feature_Data_By_Ps",
+      "address": 2440009722,
+      "end": 2440009726,
+      "size": 4,
+      "table_offset": 3918387
+    },
+    {
+      "name": "nl1_rx_ssb_sync_ar_sbp_feature_check",
+      "address": 2441016630,
+      "end": 2441016668,
+      "size": 38,
+      "table_offset": 4074058
+    },
+    {
+      "name": "NL1_TX_DB_MCU_Query_SBP_Config",
+      "address": 2441323010,
+      "end": 2441323056,
+      "size": 46,
+      "table_offset": 4114228
+    },
+    {
+      "name": "NL1_TX_Nvram_Get_PUSCH_Default_Value_To_Write",
+      "address": 2441678460,
+      "end": 2441678488,
+      "size": 28,
+      "table_offset": 4150754
+    },
+    {
+      "name": "NL1_TX_Nvram_Get_Uac_Default_Value_To_Write",
+      "address": 2441678488,
+      "end": 2441678518,
+      "size": 30,
+      "table_offset": 4150808
+    },
+    {
+      "name": "nmac_main_update_sbp_feature_bmp",
+      "address": 2441753160,
+      "end": 2441753162,
+      "size": 2,
+      "table_offset": 4164403
+    },
+    {
+      "name": "nmac_rbrq_update_sbp_feature_bmp",
+      "address": 2441753770,
+      "end": 2441753864,
+      "size": 94,
+      "table_offset": 4164774
+    },
+    {
+      "name": "nrrc_bg_select_band_for_plmn_scan_ind",
+      "address": 2442706210,
+      "end": 2442706340,
+      "size": 130,
+      "table_offset": 4254087
+    },
+    {
+      "name": "nrrc_idle_conv_plmn_status_list_to_mrs_plmn_list",
+      "address": 2443082730,
+      "end": 2443082800,
+      "size": 70,
+      "table_offset": 4345191
+    },
+    {
+      "name": "nrrc_idle_conv_plmn_list_to_mrs_plmn_list",
+      "address": 2443083092,
+      "end": 2443083160,
+      "size": 68,
+      "table_offset": 4345309
+    },
+    {
+      "name": "nrrc_main_mrs_nrrc_sbp_reconfig_cnf_send",
+      "address": 2443124148,
+      "end": 2443124166,
+      "size": 18,
+      "table_offset": 4359455
+    },
+    {
+      "name": "nrrc_nconn_plmn_based_nr_band_disable_request",
+      "address": 2443528948,
+      "end": 2443529044,
+      "size": 96,
+      "table_offset": 4417773
+    },
+    {
+      "name": "nrrc_sbp_rpt_fake_nr_reconfig_comp_supported",
+      "address": 2443582174,
+      "end": 2443582184,
+      "size": 10,
+      "table_offset": 4434586
+    },
+    {
+      "name": "nrrc_search_utility_convert_sbp_feature_to_search_sbp_id",
+      "address": 2443615178,
+      "end": 2443615232,
+      "size": 54,
+      "table_offset": 4448145
+    },
+    {
+      "name": "nrrc_search_sbp_feature_query_consider_cur_sim",
+      "address": 2443615232,
+      "end": 2443615342,
+      "size": 110,
+      "table_offset": 4448210
+    },
+    {
+      "name": "nrrc_search_utility_convert_sbp_feature_data_to_search_sbp_data_id",
+      "address": 2443615342,
+      "end": 2443615396,
+      "size": 54,
+      "table_offset": 4448265
+    },
+    {
+      "name": "nrrc_search_sbp_feature_data_query_consider_cur_sim",
+      "address": 2443615396,
+      "end": 2443615506,
+      "size": 110,
+      "table_offset": 4448340
+    },
+    {
+      "name": "nrrc_search_utility_is_addition_plmn_in_band_stored_search_enabled",
+      "address": 2443622038,
+      "end": 2443622154,
+      "size": 116,
+      "table_offset": 4451494
+    },
+    {
+      "name": "nrrc_search_utility_is_ignore_nas_request_band_enabled",
+      "address": 2443622228,
+      "end": 2443622354,
+      "size": 126,
+      "table_offset": 4451633
+    },
+    {
+      "name": "nrrc_ue_cap_nrrc_band_support_plmn_store",
+      "address": 2443712176,
+      "end": 2443712488,
+      "size": 312,
+      "table_offset": 4469986
+    },
+    {
+      "name": "nrrc_nr_band_support_by_plmn_enabled",
+      "address": 2443765224,
+      "end": 2443765262,
+      "size": 38,
+      "table_offset": 4473280
+    },
+    {
+      "name": "nrrc_nr_band_bitmask_get_by_plmn",
+      "address": 2443765262,
+      "end": 2443765564,
+      "size": 302,
+      "table_offset": 4473325
+    },
+    {
+      "name": "nrrc_ncap_custom_endc_comb_list_lid_write_info_get",
+      "address": 2443765958,
+      "end": 2443766294,
+      "size": 336,
+      "table_offset": 4473544
+    },
+    {
+      "name": "nrrc_ncap_custom_endc_comb_list_lid_write_cnf",
+      "address": 2443766294,
+      "end": 2443766400,
+      "size": 106,
+      "table_offset": 4473603
+    },
+    {
+      "name": "nrrc_ncap_band_support_plmn_lid_read_handler",
+      "address": 2443768078,
+      "end": 2443768090,
+      "size": 12,
+      "table_offset": 4473884
+    },
+    {
+      "name": "nrrc_ncap_custom_endc_comb_list_lid_read_handler",
+      "address": 2443772246,
+      "end": 2443772258,
+      "size": 12,
+      "table_offset": 4474473
+    },
+    {
+      "name": "nrrc_sbp_feature_query",
+      "address": 2443879000,
+      "end": 2443879042,
+      "size": 42,
+      "table_offset": 4477852
+    },
+    {
+      "name": "nrrc_sbp_feature_data_query",
+      "address": 2443879256,
+      "end": 2443879298,
+      "size": 42,
+      "table_offset": 4478188
+    },
+    {
+      "name": "nrrc_search_table_clear_band_priority_list_in_nvram_for_plmn",
+      "address": 2443944024,
+      "end": 2443944288,
+      "size": 264,
+      "table_offset": 4498288
+    },
+    {
+      "name": "nvram_default_trace_setting",
+      "address": 2444007474,
+      "end": 2444007546,
+      "size": 72,
+      "table_offset": 4504224
+    },
+    {
+      "name": "nvram_external_get_default_value_pointer",
+      "address": 2444041452,
+      "end": 2444042386,
+      "size": 934,
+      "table_offset": 4506384
+    },
+    {
+      "name": "nvram_external_compare_lid_default_value",
+      "address": 2444046336,
+      "end": 2444047476,
+      "size": 1140,
+      "table_offset": 4506633
+    },
+    {
+      "name": "nvram_get_lid_default_value",
+      "address": 2444058352,
+      "end": 2444058858,
+      "size": 506,
+      "table_offset": 4507799
+    },
+    {
+      "name": "nvram_get_sec_default_value_to_write",
+      "address": 2444169612,
+      "end": 2444170094,
+      "size": 482,
+      "table_offset": 4509701
+    },
+    {
+      "name": "nvram_assign_sys_default",
+      "address": 2444170094,
+      "end": 2444170434,
+      "size": 340,
+      "table_offset": 4509746
+    },
+    {
+      "name": "nwsel_nwsel_sbp_feature_data_dump_ind_construct",
+      "address": 2444246546,
+      "end": 2444246602,
+      "size": 56,
+      "table_offset": 4519779
+    },
+    {
+      "name": "nwsel_l4c_me_dsbp_reconfigure_cnf_construct",
+      "address": 2444247510,
+      "end": 2444247538,
+      "size": 28,
+      "table_offset": 4520095
+    },
+    {
+      "name": "nwsel_ctrl_nwsel_sbp_feature_data_dump_ind_hander",
+      "address": 2444289394,
+      "end": 2444289396,
+      "size": 2,
+      "table_offset": 4525923
+    },
+    {
+      "name": "nwsel_ctrl_sbp_me_reconfigure_not_occur_req_msg_handler",
+      "address": 2444291764,
+      "end": 2444291788,
+      "size": 24,
+      "table_offset": 4526877
+    },
+    {
+      "name": "nwsel_ctrl_me_dsbp_reconfigure_req_msg_handler",
+      "address": 2444292234,
+      "end": 2444292922,
+      "size": 688,
+      "table_offset": 4527169
+    },
+    {
+      "name": "nwsel_ctrl_mrs_d2c_lte_plmn_update_ind_handler",
+      "address": 2444308292,
+      "end": 2444308534,
+      "size": 242,
+      "table_offset": 4531256
+    },
+    {
+      "name": "nwsel_is_mrs_cap_disabled_by_plmn_rat",
+      "address": 2444332726,
+      "end": 2444332970,
+      "size": 244,
+      "table_offset": 4536284
+    },
+    {
+      "name": "nwsel_is_mrs_leave_rat_when_voice_unavail_by_plmn_rat_cause",
+      "address": 2444333058,
+      "end": 2444333248,
+      "size": 190,
+      "table_offset": 4536375
+    },
+    {
+      "name": "nwsel_query_sbp_data_feature",
+      "address": 2444448676,
+      "end": 2444448730,
+      "size": 54,
+      "table_offset": 4561788
+    },
+    {
+      "name": "nwsel_query_sbp_data_feature_with_simslot",
+      "address": 2444448730,
+      "end": 2444448740,
+      "size": 10,
+      "table_offset": 4561825
+    },
+    {
+      "name": "nwsel_set_dsbp_reconfig_status",
+      "address": 2444471194,
+      "end": 2444471244,
+      "size": 50,
+      "table_offset": 4570190
+    },
+    {
+      "name": "nwsel_query_sbp_feature_with_simslot",
+      "address": 2444473052,
+      "end": 2444473346,
+      "size": 294,
+      "table_offset": 4570890
+    },
+    {
+      "name": "nwsel_query_sbp_feature",
+      "address": 2444473346,
+      "end": 2444473364,
+      "size": 18,
+      "table_offset": 4570935
+    },
+    {
+      "name": "nwsel_trace_sbp_feature",
+      "address": 2444473480,
+      "end": 2444473518,
+      "size": 38,
+      "table_offset": 4571014
+    },
+    {
+      "name": "nwsel_trace_all_sbp_feature",
+      "address": 2444473518,
+      "end": 2444473554,
+      "size": 36,
+      "table_offset": 4571046
+    },
+    {
+      "name": "nwsel_is_input_entry_search_allowed_in_gemini_limited_states_by_sbp_data_feature",
+      "address": 2444513978,
+      "end": 2444514188,
+      "size": 210,
+      "table_offset": 4584656
+    },
+    {
+      "name": "nwsel_set_band_list_for_plmn_list_req",
+      "address": 2444521648,
+      "end": 2444521864,
+      "size": 216,
+      "table_offset": 4588476
+    },
+    {
+      "name": "nwsel_get_mrs_strategy_by_plmn_rat",
+      "address": 2444522864,
+      "end": 2444523036,
+      "size": 172,
+      "table_offset": 4588969
+    },
+    {
+      "name": "nwsel_get_mrs_strategy_by_plmn_rat_type",
+      "address": 2444523188,
+      "end": 2444523510,
+      "size": 322,
+      "table_offset": 4589131
+    },
+    {
+      "name": "nwsel_is_any_plmn_rat_skip_by_mrs_mcc_sunset_strategy",
+      "address": 2444523510,
+      "end": 2444523522,
+      "size": 12,
+      "table_offset": 4589179
+    },
+    {
+      "name": "nwsel_is_replace_fullband_by_multiple_stored_search_feature_enabled",
+      "address": 2444524590,
+      "end": 2444524688,
+      "size": 98,
+      "table_offset": 4589628
+    },
+    {
+      "name": "nwsel_get_support_band_list_for_multiple_plmn",
+      "address": 2444524788,
+      "end": 2444524872,
+      "size": 84,
+      "table_offset": 4589771
+    },
+    {
+      "name": "pam_sbp_op147_backoff_timer_default_value_is_support",
+      "address": 2444565686,
+      "end": 2444565734,
+      "size": 48,
+      "table_offset": 4602013
+    },
+    {
+      "name": "pam_sbp_apply_default_value_for_backoff_timer_is_support",
+      "address": 2444566504,
+      "end": 2444566554,
+      "size": 50,
+      "table_offset": 4602438
+    },
+    {
+      "name": "pam_sbp_dual_priority_feature_is_support",
+      "address": 2444567454,
+      "end": 2444567504,
+      "size": 50,
+      "table_offset": 4602841
+    },
+    {
+      "name": "saf_dsbp3_me_reconfigure_req_hdlr",
+      "address": 2445219854,
+      "end": 2445219986,
+      "size": 132,
+      "table_offset": 4727825
+    },
+    {
+      "name": "nia_if_get_sbp_feature",
+      "address": 2445232852,
+      "end": 2445232904,
+      "size": 52,
+      "table_offset": 4729576
+    },
+    {
+      "name": "nia_if_get_sbp_feature_data",
+      "address": 2445232904,
+      "end": 2445232956,
+      "size": 52,
+      "table_offset": 4729607
+    },
+    {
+      "name": "sase_client_send_sbp_feature_set_req.constprop.65",
+      "address": 2445243320,
+      "end": 2445243436,
+      "size": 116,
+      "table_offset": 4731649
+    },
+    {
+      "name": "sase_util_get_sbp_feature",
+      "address": 2445317628,
+      "end": 2445317718,
+      "size": 90,
+      "table_offset": 4738732
+    },
+    {
+      "name": "bespoke_nvram_custom_config_non_sbp_nv",
+      "address": 2445317808,
+      "end": 2445317812,
+      "size": 4,
+      "table_offset": 4738797
+    },
+    {
+      "name": "sbp_get_sbp_reconfigure_mod_tbl",
+      "address": 2445317932,
+      "end": 2445317940,
+      "size": 8,
+      "table_offset": 4738989
+    },
+    {
+      "name": "sbp_get_num_of_sbp_reconfigure_mod_tbl",
+      "address": 2445317940,
+      "end": 2445317944,
+      "size": 4,
+      "table_offset": 4739029
+    },
+    {
+      "name": "sbp_get_dsbp3_event_user_reconfig_info_tbl",
+      "address": 2445318128,
+      "end": 2445318136,
+      "size": 8,
+      "table_offset": 4739109
+    },
+    {
+      "name": "sbp_get_num_of_dsbp3_event_user_reconfig_info_tbl",
+      "address": 2445318136,
+      "end": 2445318140,
+      "size": 4,
+      "table_offset": 4739160
+    },
+    {
+      "name": "sbp_md_feature_data_overwrite",
+      "address": 2445318140,
+      "end": 2445318144,
+      "size": 4,
+      "table_offset": 4739218
+    },
+    {
+      "name": "nvram_custom_config_sbp",
+      "address": 2445318144,
+      "end": 2445318310,
+      "size": 166,
+      "table_offset": 4739256
+    },
+    {
+      "name": "nvram_custom_config_sbp_by_model_id",
+      "address": 2445318494,
+      "end": 2445318498,
+      "size": 4,
+      "table_offset": 4739341
+    },
+    {
+      "name": "mcf_custom_dump_sbp_modem_config_data",
+      "address": 2445318498,
+      "end": 2445318588,
+      "size": 90,
+      "table_offset": 4739385
+    },
+    {
+      "name": "mcf_custom_dump_sbp_modem_data_config_data",
+      "address": 2445318588,
+      "end": 2445318678,
+      "size": 90,
+      "table_offset": 4739431
+    },
+    {
+      "name": "mcf_custom_dump_sbp_modem_config_data_custom",
+      "address": 2445318678,
+      "end": 2445318682,
+      "size": 4,
+      "table_offset": 4739482
+    },
+    {
+      "name": "nvram_custom_config_sbp_dsbp3",
+      "address": 2445318682,
+      "end": 2445319050,
+      "size": 368,
+      "table_offset": 4739535
+    },
+    {
+      "name": "nvram_custom_config_errc_dsbp3_reconfig",
+      "address": 2445319246,
+      "end": 2445319560,
+      "size": 314,
+      "table_offset": 4739655
+    },
+    {
+      "name": "nvram_custom_config_errc_dsbp3_approval",
+      "address": 2445319560,
+      "end": 2445319664,
+      "size": 104,
+      "table_offset": 4739703
+    },
+    {
+      "name": "nvram_custom_config_l4c_dsbp3_reconfig",
+      "address": 2445319664,
+      "end": 2445319762,
+      "size": 98,
+      "table_offset": 4739751
+    },
+    {
+      "name": "nvram_custom_config_l4c_dsbp3_approval",
+      "address": 2445319762,
+      "end": 2445319924,
+      "size": 162,
+      "table_offset": 4739798
+    },
+    {
+      "name": "nvram_custom_config_mcf_profile",
+      "address": 2445319924,
+      "end": 2445319928,
+      "size": 4,
+      "table_offset": 4739845
+    },
+    {
+      "name": "nvram_custom_config_mcf_set_config",
+      "address": 2445319928,
+      "end": 2445319932,
+      "size": 4,
+      "table_offset": 4739885
+    },
+    {
+      "name": "nvram_custom_config_mcf_get_result",
+      "address": 2445319932,
+      "end": 2445319936,
+      "size": 4,
+      "table_offset": 4739928
+    },
+    {
+      "name": "nvram_custom_config_mcf_dsbp3_reconfig",
+      "address": 2445319936,
+      "end": 2445319940,
+      "size": 4,
+      "table_offset": 4739971
+    },
+    {
+      "name": "nvram_custom_config_mcf_dsbp3_set_config",
+      "address": 2445319940,
+      "end": 2445319944,
+      "size": 4,
+      "table_offset": 4740018
+    },
+    {
+      "name": "nvram_custom_config_mcf_user_dsbp3_reconfig",
+      "address": 2445319944,
+      "end": 2445319948,
+      "size": 4,
+      "table_offset": 4740067
+    },
+    {
+      "name": "nvram_custom_config_mcf_user_dsbp3_approval",
+      "address": 2445319948,
+      "end": 2445319952,
+      "size": 4,
+      "table_offset": 4740119
+    },
+    {
+      "name": "sbp_custom_config_nl1_cap_dsbp3_read_bc_list",
+      "address": 2445319952,
+      "end": 2445320140,
+      "size": 188,
+      "table_offset": 4740171
+    },
+    {
+      "name": "sbp_custom_config_nl1_cap_dsbp3_read_power_class_list",
+      "address": 2445320140,
+      "end": 2445320478,
+      "size": 338,
+      "table_offset": 4740224
+    },
+    {
+      "name": "nvram_custom_config_nl1_cap_dsbp3_reconfig",
+      "address": 2445320478,
+      "end": 2445320850,
+      "size": 372,
+      "table_offset": 4740286
+    },
+    {
+      "name": "nvram_custom_config_nl1_cap_dsbp3_approval",
+      "address": 2445320850,
+      "end": 2445320954,
+      "size": 104,
+      "table_offset": 4740337
+    },
+    {
+      "name": "nvram_custom_config_nrrc_dsbp3_reconfig",
+      "address": 2445321356,
+      "end": 2445321592,
+      "size": 236,
+      "table_offset": 4740593
+    },
+    {
+      "name": "nvram_custom_config_nrrc_dsbp3_approval",
+      "address": 2445321592,
+      "end": 2445321694,
+      "size": 102,
+      "table_offset": 4740641
+    },
+    {
+      "name": "nvram_custom_config_rac_dsbp3_reconfig",
+      "address": 2445321694,
+      "end": 2445321792,
+      "size": 98,
+      "table_offset": 4740689
+    },
+    {
+      "name": "nvram_custom_config_rac_dsbp3_approval",
+      "address": 2445321792,
+      "end": 2445321954,
+      "size": 162,
+      "table_offset": 4740736
+    },
+    {
+      "name": "sbp_get_sbp_feature_raw_config.part.11",
+      "address": 2445322874,
+      "end": 2445322908,
+      "size": 34,
+      "table_offset": 4741008
+    },
+    {
+      "name": "sbp_query_md_feature_no_overwrite_by_ps",
+      "address": 2445323090,
+      "end": 2445323194,
+      "size": 104,
+      "table_offset": 4741158
+    },
+    {
+      "name": "sbp_set_md_feature",
+      "address": 2445323194,
+      "end": 2445323296,
+      "size": 102,
+      "table_offset": 4741206
+    },
+    {
+      "name": "sbp_query_md_feature_data",
+      "address": 2445323296,
+      "end": 2445323302,
+      "size": 6,
+      "table_offset": 4741233
+    },
+    {
+      "name": "sbp_data_notify_mcf_backup_restore_config_ind",
+      "address": 2445323302,
+      "end": 2445323388,
+      "size": 86,
+      "table_offset": 4741267
+    },
+    {
+      "name": "sbp_query_md_feature_data_no_overwrite_by_ps",
+      "address": 2445323388,
+      "end": 2445323502,
+      "size": 114,
+      "table_offset": 4741321
+    },
+    {
+      "name": "sbp_set_md_feature_data",
+      "address": 2445323502,
+      "end": 2445323554,
+      "size": 52,
+      "table_offset": 4741374
+    },
+    {
+      "name": "sbp_set_md_feature_data_by_ps",
+      "address": 2445323554,
+      "end": 2445323676,
+      "size": 122,
+      "table_offset": 4741406
+    },
+    {
+      "name": "sbp_general_set_md_feature_data",
+      "address": 2445323676,
+      "end": 2445323734,
+      "size": 58,
+      "table_offset": 4741444
+    },
+    {
+      "name": "sbp_get_sbp_feature_raw_config",
+      "address": 2445324414,
+      "end": 2445324494,
+      "size": 80,
+      "table_offset": 4741628
+    },
+    {
+      "name": "sbp_set_sbp_feature_raw_config",
+      "address": 2445324494,
+      "end": 2445324596,
+      "size": 102,
+      "table_offset": 4741667
+    },
+    {
+      "name": "sbp_get_sbp_data_raw_config",
+      "address": 2445324596,
+      "end": 2445324676,
+      "size": 80,
+      "table_offset": 4741706
+    },
+    {
+      "name": "sbp_set_sbp_data_raw_config",
+      "address": 2445324676,
+      "end": 2445324778,
+      "size": 102,
+      "table_offset": 4741742
+    },
+    {
+      "name": "sbp_update_specific_feature_to_nvram",
+      "address": 2445324778,
+      "end": 2445324830,
+      "size": 52,
+      "table_offset": 4741778
+    },
+    {
+      "name": "nvram_custom_config_refresh_sbp_id_mapping_when_mcf_ota_start",
+      "address": 2445324882,
+      "end": 2445324902,
+      "size": 20,
+      "table_offset": 4741865
+    },
+    {
+      "name": "sbp_send_reconfigure_not_occur_req",
+      "address": 2445326128,
+      "end": 2445326276,
+      "size": 148,
+      "table_offset": 4742052
+    },
+    {
+      "name": "sbp_dump_feature_setting_ind",
+      "address": 2445332596,
+      "end": 2445332838,
+      "size": 242,
+      "table_offset": 4743105
+    },
+    {
+      "name": "sbp_dsbp3_reconfig_ilm_send_req",
+      "address": 2445333038,
+      "end": 2445333502,
+      "size": 464,
+      "table_offset": 4743173
+    },
+    {
+      "name": "sbp_dsbp3_reconfig_callback",
+      "address": 2445333502,
+      "end": 2445334120,
+      "size": 618,
+      "table_offset": 4743213
+    },
+    {
+      "name": "sbp_dsbp_reconfigure_req_hdlr",
+      "address": 2445334182,
+      "end": 2445335006,
+      "size": 824,
+      "table_offset": 4743282
+    },
+    {
+      "name": "sbp_dsbp3_reconfig_proc",
+      "address": 2445335146,
+      "end": 2445335280,
+      "size": 134,
+      "table_offset": 4743395
+    },
+    {
+      "name": "sbp_dsbp3_check_all_reconfig_cnf_received",
+      "address": 2445336242,
+      "end": 2445336442,
+      "size": 200,
+      "table_offset": 4743557
+    },
+    {
+      "name": "sbp_dsbp3_me_reconfigure_cnf_hdlr",
+      "address": 2445336442,
+      "end": 2445336580,
+      "size": 138,
+      "table_offset": 4743607
+    },
+    {
+      "name": "mal_hook_protocol_get_support_band_list_for_multiple_plmn",
+      "address": 2445362798,
+      "end": 2445362878,
+      "size": 80,
+      "table_offset": 4750804
+    },
+    {
+      "name": "mal_override_protocol_get_support_band_list_for_multiple_plmn",
+      "address": 2445364272,
+      "end": 2445364304,
+      "size": 32,
+      "table_offset": 4752887
+    },
+    {
+      "name": "sdm_l4c_me_dsbp_reconfigure_req_hdlr",
+      "address": 2445383844,
+      "end": 2445383942,
+      "size": 98,
+      "table_offset": 4760742
+    },
+    {
+      "name": "sim_early_sbp_config",
+      "address": 2445447122,
+      "end": 2445447174,
+      "size": 52,
+      "table_offset": 4770259
+    },
+    {
+      "name": "sim_dsbp_reconfigure_ind_handler",
+      "address": 2445493822,
+      "end": 2445493952,
+      "size": 130,
+      "table_offset": 4776175
+    },
+    {
+      "name": "smic_query_sbp_feature",
+      "address": 2445723796,
+      "end": 2445723838,
+      "size": 42,
+      "table_offset": 4825943
+    },
+    {
+      "name": "sms_me_dsbp_reconfigure_req_handler",
+      "address": 2445816672,
+      "end": 2445816774,
+      "size": 102,
+      "table_offset": 4848648
+    },
+    {
+      "name": "sms_dsbp_reconfigure_ind_hdlr",
+      "address": 2445816856,
+      "end": 2445816872,
+      "size": 16,
+      "table_offset": 4848767
+    },
+    {
+      "name": "_ssds_l4c_dsbp_reconfig_req",
+      "address": 2445886780,
+      "end": 2445886974,
+      "size": 194,
+      "table_offset": 4859613
+    },
+    {
+      "name": "nvram_get_uL1_default_value_to_write",
+      "address": 2446680342,
+      "end": 2446681050,
+      "size": 708,
+      "table_offset": 5000900
+    },
+    {
+      "name": "upds_query_sbp_feature",
+      "address": 2447972600,
+      "end": 2447972670,
+      "size": 70,
+      "table_offset": 5222369
+    },
+    {
+      "name": "FDD_CSCE_SetBandPriorityPerPLMN",
+      "address": 2448090684,
+      "end": 2448090708,
+      "size": 24,
+      "table_offset": 5242836
+    },
+    {
+      "name": "vdm_ads_rcv_ctrl_ads_me_dsbp_reconfigure_ind",
+      "address": 2449183846,
+      "end": 2449183946,
+      "size": 100,
+      "table_offset": 5435178
+    },
+    {
+      "name": "vdm_ads_snd_ctrl_ads_snd_me_dsbp_reconfigure_cnf",
+      "address": 2449190430,
+      "end": 2449190496,
+      "size": 66,
+      "table_offset": 5437222
+    },
+    {
+      "name": "vdm_ads_query_sbp_feature_by_ps",
+      "address": 2449202568,
+      "end": 2449202640,
+      "size": 72,
+      "table_offset": 5441992
+    },
+    {
+      "name": "vdm_ads_query_sbp_feature_data_by_ps",
+      "address": 2449202640,
+      "end": 2449202706,
+      "size": 66,
+      "table_offset": 5442032
+    },
+    {
+      "name": "vgmm_l4c_send_me_dsbp_reconfigure_cnf",
+      "address": 2449369404,
+      "end": 2449369468,
+      "size": 64,
+      "table_offset": 5477774
+    },
+    {
+      "name": "vgmm_nvram_decode_default_configured_nssai",
+      "address": 2449415676,
+      "end": 2449416078,
+      "size": 402,
+      "table_offset": 5486978
+    },
+    {
+      "name": "vgmm_nvram_read_5gs_custom_config",
+      "address": 2449416196,
+      "end": 2449416280,
+      "size": 84,
+      "table_offset": 5487073
+    },
+    {
+      "name": "vgmm_nvram_write_5gs_custom_config",
+      "address": 2449416280,
+      "end": 2449416634,
+      "size": 354,
+      "table_offset": 5487115
+    },
+    {
+      "name": "vgmm_nvram_decode_custom_t3502",
+      "address": 2449416634,
+      "end": 2449416758,
+      "size": 124,
+      "table_offset": 5487158
+    },
+    {
+      "name": "vgmm_nvram_get_custom_t3502",
+      "address": 2449416758,
+      "end": 2449416896,
+      "size": 138,
+      "table_offset": 5487197
+    },
+    {
+      "name": "vgmm_query_sbp_feature",
+      "address": 2449562306,
+      "end": 2449562374,
+      "size": 68,
+      "table_offset": 5508375
+    },
+    {
+      "name": "vgmm_query_sbp_feature_data",
+      "address": 2449563906,
+      "end": 2449563974,
+      "size": 68,
+      "table_offset": 5508519
+    },
+    {
+      "name": "vgsm_sbp_feature_query",
+      "address": 2449665852,
+      "end": 2449665898,
+      "size": 46,
+      "table_offset": 5543137
+    }
+  ]
+}

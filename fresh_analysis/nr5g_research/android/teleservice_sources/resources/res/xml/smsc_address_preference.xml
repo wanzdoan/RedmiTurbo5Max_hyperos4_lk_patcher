@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="pref_key_sim1_category">
+        <Preference android:key="pref_key_sim1_smsc"/>
+        <com.android.phone.custompreferences.MiuixTextPreference
+            android:title="@string/operator"
+            android:key="pref_key_sim1_operator"/>
+        <com.android.phone.custompreferences.MiuixTextPreference
+            android:title="@string/location"
+            android:key="pref_key_sim1_location"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_key_sim2_category">
+        <Preference android:key="pref_key_sim2_smsc"/>
+        <com.android.phone.custompreferences.MiuixTextPreference
+            android:title="@string/operator"
+            android:key="pref_key_sim2_operator"/>
+        <com.android.phone.custompreferences.MiuixTextPreference
+            android:title="@string/location"
+            android:key="pref_key_sim2_location"/>
+    </PreferenceCategory>
+</PreferenceScreen>

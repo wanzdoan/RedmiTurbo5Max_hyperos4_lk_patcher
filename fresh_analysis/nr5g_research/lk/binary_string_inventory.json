@@ -1,0 +1,1814 @@
+[
+  {
+    "name": "h4_main",
+    "path": "fresh_analysis/container_chain/h4_original_00_lk.bin",
+    "size": 1284936,
+    "sha256": "5c3ab3bae3d0e2eb003e214b8c75d1fc3c00e137aed5d6a84aab7c7c88bde386",
+    "hits": [
+      {
+        "offset": "0xcf224",
+        "text": "Fail to revise countrycode partition name"
+      },
+      {
+        "offset": "0xcf566",
+        "text": "[CCCI][%s:%d] [%s] region NULL"
+      },
+      {
+        "offset": "0xcf5ac",
+        "text": "[CCCI][%s:%d] cache_buffer_addr: %x"
+      },
+      {
+        "offset": "0xcf5ea",
+        "text": "[CCCI][%s:%d] mblock_alloc result=>name=%s,0x%llx,%p"
+      },
+      {
+        "offset": "0xcf620",
+        "text": "[CCCI][%s:%d] Version abnormal(%u<@hdr>:%u<by size>)"
+      },
+      {
+        "offset": "0xcf656",
+        "text": "%s:%d: [CCCI]MD IMG  - armv7 offset   : 0x%08X"
+      },
+      {
+        "offset": "0xcf686",
+        "text": "modem"
+      },
+      {
+        "offset": "0xcf68c",
+        "text": "%s:%d: [CCCI] %s"
+      },
+      {
+        "offset": "0xcf69d",
+        "text": "ccci_mem_layout_tbl_get"
+      },
+      {
+        "offset": "0xcf6b5",
+        "text": "ccci_insert_mem_node"
+      },
+      {
+        "offset": "0xcf6ca",
+        "text": "[CCCI][%s:%d] Get free node fail"
+      },
+      {
+        "offset": "0xcf6ed",
+        "text": "%s:%d: [CCCI]SIBLOG_BANK_MAP0 value:0x%lX"
+      },
+      {
+        "offset": "0xcf718",
+        "text": "%s:%d: [CCCI]Trigger MD run"
+      },
+      {
+        "offset": "0xd0594",
+        "text": "%s:%d: [CCCI][Power On]Enter MD power on"
+      },
+      {
+        "offset": "0xd05be",
+        "text": "%s:%d: [CCCI]%s get Vsram voltage: 0x%x"
+      },
+      {
+        "offset": "0xd05e7",
+        "text": "%s:%d: [CCCI][POWER ON]%s clear emi bus protect"
+      },
+      {
+        "offset": "0xd0eab",
+        "text": "[CCCI][%s:%d] [%s] error: 'drdi_version' not found!"
+      },
+      {
+        "offset": "0xd0ee0",
+        "text": "ccci_get_udc_desc_size"
+      },
+      {
+        "offset": "0xd0ef7",
+        "text": "[CCCI][%s:%d] allocate MD phy capture memory fail"
+      },
+      {
+        "offset": "0xd0f2a",
+        "text": "%s:%d: [CCCI]Add normal smem ==>[%d]%llx-%x-%x"
+      },
+      {
+        "offset": "0xd0f5a",
+        "text": "[CCCI][%s:%d] NC-smem ID[%d] not found @ nc_smem_info_ext"
+      },
+      {
+        "offset": "0xd0fa2",
+        "text": "ccci_dsp_img_parsing"
+      },
+      {
+        "offset": "0xd0fc4",
+        "text": "%s:%d: [CCCI]MD IMG  - amms_pos_size  : 0x%08X"
+      },
+      {
+        "offset": "0xd0ff4",
+        "text": "%s:%d: [CCCI]Runtime - drdi_version   : 0x%08X"
+      },
+      {
+        "offset": "0xd1032",
+        "text": "platform_load_modem"
+      },
+      {
+        "offset": "0xd1046",
+        "text": "%s:%d: [CCCI]Load image: [%s] fail from partition: [%s](mem_addr:%p, size:0x%x) ret:%d"
+      },
+      {
+        "offset": "0xd109e",
+        "text": "%s:%d: [CCCI]+++++++"
+      },
+      {
+        "offset": "0xd10b4",
+        "text": "%s:%d: [CCCI]insert hdr_tbl_inf fail"
+      },
+      {
+        "offset": "0xd2185",
+        "text": "ccci_md_power_on"
+      },
+      {
+        "offset": "0xd2a1f",
+        "text": "%s:%d: [CCCI]env[sib_size]%x."
+      },
+      {
+        "offset": "0xd2a3e",
+        "text": "%s:%d: [CCCI]smem_info.ap_md1_smem_offset: %x"
+      },
+      {
+        "offset": "0xd2a6d",
+        "text": "%s:%d: [CCCI]smem_info.total_smem_size: %x"
+      },
+      {
+        "offset": "0xd2ac1",
+        "text": "%s:%d: [CCCI]MD IMG  - mem_size       : 0x%08X"
+      },
+      {
+        "offset": "0xd2af1",
+        "text": "%s:%d: [CCCI]MD IMG  - armv7 size     : 0x%08X"
+      },
+      {
+        "offset": "0xd2b21",
+        "text": "%s:%d: [CCCI]Runtime - drdi rt size   : 0x%08X"
+      },
+      {
+        "offset": "0xd2b51",
+        "text": "[CCCI][%s:%d] DSP size & offset are 0"
+      },
+      {
+        "offset": "0xd2b78",
+        "text": "[CCCI][%s:%d] MD mem blk node empty"
+      },
+      {
+        "offset": "0xd2b9e",
+        "text": "%s:%d: [CCCI]SIBLOG_BANK_MAP1 value:0x%lX"
+      },
+      {
+        "offset": "0xd430e",
+        "text": "%s:%d: [CCCI]MD phy capture memory size is 0"
+      },
+      {
+        "offset": "0xd4356",
+        "text": "[CCCI][%s:%d] insert nc_smem_info_ext_num fail"
+      },
+      {
+        "offset": "0xd4386",
+        "text": "[CCCI][%s:%d] insert ccb_gear_id fail"
+      },
+      {
+        "offset": "0xd43d1",
+        "text": "%s:%d: [CCCI][ccci] %s line:%d: return NULL loop:%d"
+      },
+      {
+        "offset": "0xd4411",
+        "text": "%s:%d: [CCCI][%s]:%llx-%llx:%lx:%d"
+      },
+      {
+        "offset": "0xd4435",
+        "text": "%s:%d: [CCCI]MD IMG  - region num     : 0x%08X"
+      },
+      {
+        "offset": "0xd4465",
+        "text": "%s:%d: [CCCI]weak %s"
+      },
+      {
+        "offset": "0xd4498",
+        "text": "load_drdi_image"
+      },
+      {
+        "offset": "0xd44a8",
+        "text": "ccci_lk_add_trace_to_kernel"
+      },
+      {
+        "offset": "0xd44e0",
+        "text": "%s:%d: [CCCI]DSP is optional, skip MPU setting"
+      },
+      {
+        "offset": "0xd53a3",
+        "text": "%s:%d: [CCCI][POWER ON]%s set emi bus protect"
+      },
+      {
+        "offset": "0xd53d2",
+        "text": "%s:%d: [CCCI]%s read Vmodem value: 0x%x"
+      },
+      {
+        "offset": "0xd5ee2",
+        "text": "%s:%d: [CCCI]un-support gear id, using 3"
+      },
+      {
+        "offset": "0xd5f0c",
+        "text": "%s:%d: [CCCI]scp_smem_base ap_base:0x%llX md_base:0x%X size:0x%X"
+      },
+      {
+        "offset": "0xd5f4e",
+        "text": "[CCCI][%s:%d] [ccci]%s share memory not initialized done"
+      },
+      {
+        "offset": "0xd5f88",
+        "text": "%s:%d: [CCCI]align adjust for %d size:0x%x"
+      },
+      {
+        "offset": "0xd5ffa",
+        "text": "[CCCI][%s:%d] fdt_add_subnode mdproperties offset=0x%x"
+      },
+      {
+        "offset": "0xd6032",
+        "text": "[CCCI][%s:%d] create ccb gear info to mdproperties DT Fail"
+      },
+      {
+        "offset": "0xd606e",
+        "text": "%s:%d: [CCCI][ccci] fdt = NULL"
+      },
+      {
+        "offset": "0xd608e",
+        "text": "%s:%d: [CCCI]MD IMG  - dsp offset     : 0x%08X"
+      },
+      {
+        "offset": "0xd60be",
+        "text": "ccci_get_tbl_for_test"
+      },
+      {
+        "offset": "0xd60d4",
+        "text": "%s:%d: [CCCI]Add memory layout to tag fail"
+      },
+      {
+        "offset": "0xd6129",
+        "text": "ccci_create_1st_mem_node"
+      },
+      {
+        "offset": "0xd77ec",
+        "text": "drdi_version"
+      },
+      {
+        "offset": "0xd77f9",
+        "text": "%s:%d: [CCCI]Get nv cache smem size:0x%x"
+      },
+      {
+        "offset": "0xd7823",
+        "text": "[CCCI][%s:%d] ccci_get_c_smem_ref_tbl: table item num: %d"
+      },
+      {
+        "offset": "0xd786b",
+        "text": "%s:%d: [CCCI]MD IMG  - dsp size       : 0x%08X"
+      },
+      {
+        "offset": "0xd789b",
+        "text": "%s:%d: [CCCI]memory init set 0x%llx with size:0x%x"
+      },
+      {
+        "offset": "0xd78cf",
+        "text": "[CCCI][%s:%d] Enter md mem node end_1, not found"
+      },
+      {
+        "offset": "0xd7902",
+        "text": "[CCCI][%s:%d] MD mem tbl num miss-match:%d--%d"
+      },
+      {
+        "offset": "0xd7933",
+        "text": "[CCCI][%s:%d] Temp list is NULL"
+      },
+      {
+        "offset": "0xd7968",
+        "text": "[CCCI][%s:%d] [%s] error: MD_BANK4_HW_REMAP fail: 0x%lX"
+      },
+      {
+        "offset": "0xd79a1",
+        "text": "ccci_apply_md_sib_remapping"
+      },
+      {
+        "offset": "0xd79bd",
+        "text": "%s:%d: [CCCI]SIBLOG_BANK_MAP2 value:0x%lX"
+      },
+      {
+        "offset": "0xd885f",
+        "text": "ccci_plat_apply_mpu_setting"
+      },
+      {
+        "offset": "0xd90ea",
+        "text": "ccci_scp_info_to_tfa"
+      },
+      {
+        "offset": "0xd9110",
+        "text": "[CCCI][%s:%d] Size abnormal[0x%x] for slot:%d"
+      },
+      {
+        "offset": "0xd913f",
+        "text": "[CCCI][%s:%d] rt smem table num is 0"
+      },
+      {
+        "offset": "0xd9172",
+        "text": "%s:%d: [CCCI]dbm base = 0x%llx(offset = 0x%x), size:%u"
+      },
+      {
+        "offset": "0xd91aa",
+        "text": "%s:%d: [CCCI]tail_addr[%p]"
+      },
+      {
+        "offset": "0xd91d9",
+        "text": "ccci_lk_trace_init"
+      },
+      {
+        "offset": "0xd91ec",
+        "text": "ccci_mem_blk_tmp_list_dump"
+      },
+      {
+        "offset": "0xd9222",
+        "text": "%s:%d: [CCCI]| 0x%016llx | 0x%08x | 0x%08x | %s | %s |"
+      },
+      {
+        "offset": "0xd925b",
+        "text": "ccci_let_md_go"
+      },
+      {
+        "offset": "0xda01e",
+        "text": "%s:%d: [CCCI][Power On]MD MTCMOS power on done!"
+      },
+      {
+        "offset": "0xdaa4b",
+        "text": "%s:%d: [CCCI]NC share memory base_phy: 0x%llx, size:%u"
+      },
+      {
+        "offset": "0xdaa83",
+        "text": "[CCCI][%s:%d] insert ccb_info fail"
+      },
+      {
+        "offset": "0xdaaa7",
+        "text": "ccci_save_nc_smem_to_dt"
+      },
+      {
+        "offset": "0xdaabf",
+        "text": "[CCCI][%s:%d] 0x%xB retrieved by AP from:0x%llx"
+      },
+      {
+        "offset": "0xdaafa",
+        "text": "%s:%d: [CCCI] %s ret abnormal:%d at line:%d"
+      },
+      {
+        "offset": "0xdab26",
+        "text": "%s:%d: [CCCI] Current trace log size: %d"
+      },
+      {
+        "offset": "0xdab50",
+        "text": "[CCCI][%s:%d] desc is NULL"
+      },
+      {
+        "offset": "0xdab6d",
+        "text": "%s:%d: [CCCI]BANK1_MAP1 value:0x%lX"
+      },
+      {
+        "offset": "0xdab92",
+        "text": "[CCCI][%s:%d] name or data is NULL"
+      },
+      {
+        "offset": "0xdabb6",
+        "text": "ccci_update_md_arg_info_to_dt"
+      },
+      {
+        "offset": "0xdad4e",
+        "text": "%s: couldn't find nr-rs-entry-big property"
+      },
+      {
+        "offset": "0xdc676",
+        "text": "%s:%d: [CCCI]args:%s not support"
+      },
+      {
+        "offset": "0xdc698",
+        "text": "%s:%d: [CCCI]MD IMG  - ap_md_smem_size: 0x%08X"
+      },
+      {
+        "offset": "0xdc6c8",
+        "text": "[CCCI][%s:%d] Alloc hdr_inf_buf memory fail"
+      },
+      {
+        "offset": "0xdc6f5",
+        "text": "%s:%d: [CCCI] %s alloc memory fail"
+      },
+      {
+        "offset": "0xdc718",
+        "text": "%s:%d: [CCCI]BANK0_MAP0 value:0x%lX"
+      },
+      {
+        "offset": "0xdc73d",
+        "text": "mediatek,md_drdi_rf_set_idx"
+      },
+      {
+        "offset": "0xdc8df",
+        "text": "nr-max-core"
+      },
+      {
+        "offset": "0xdd540",
+        "text": "ccci_get_md_dev_en"
+      },
+      {
+        "offset": "0xdd553",
+        "text": "%s:%d: [CCCI][Power Off] Start, call md_pmic_lowpower_set"
+      },
+      {
+        "offset": "0xdd878",
+        "text": "Load modem for md version failed, ret: %d"
+      },
+      {
+        "offset": "0xddad4",
+        "text": "countrycode, [%s] is not exist."
+      },
+      {
+        "offset": "0xdde02",
+        "text": "%s:%d: [CCCI]%s scp get_smem_info fail ! [ret]: %d"
+      },
+      {
+        "offset": "0xdde36",
+        "text": "%s:%d: [CCCI]mtee.base_addr: 0x%x, 0x%x"
+      },
+      {
+        "offset": "0xdde76",
+        "text": "[CCCI][%s:%d] addr[0x%llx] is not 32M align"
+      },
+      {
+        "offset": "0xddeb5",
+        "text": "[CCCI][%s:%d] fdt is invalid"
+      },
+      {
+        "offset": "0xdded3",
+        "text": "%s:%d: [CCCI]create md_dbm_addr info DT fail"
+      },
+      {
+        "offset": "0xddf01",
+        "text": "[CCCI][%s:%d] create ccb gear info DT Fail"
+      },
+      {
+        "offset": "0xddf2d",
+        "text": "%s:%d: [CCCI]%s +++++++++++++++++++++"
+      },
+      {
+        "offset": "0xddf54",
+        "text": "[CCCI][%s:%d] tail_addr is NULL"
+      },
+      {
+        "offset": "0xddf75",
+        "text": "%s:%d: [CCCI]===== Dump v3 md header ====="
+      },
+      {
+        "offset": "0xddfa1",
+        "text": "%s:%d: [CCCI]MD IMG  - padding info[%d] offset: 0x%08X"
+      },
+      {
+        "offset": "0xddfd9",
+        "text": "[CCCI][%s:%d] Ivalid MD_check header version:%d"
+      },
+      {
+        "offset": "0xde00a",
+        "text": "%s:%d: [CCCI]Freeable memory table full"
+      },
+      {
+        "offset": "0xde03d",
+        "text": "%s:%d: [CCCI]Padding MPU region not enough"
+      },
+      {
+        "offset": "0xde069",
+        "text": "%s:%d: [CCCI]Skep DRDI region cfg"
+      },
+      {
+        "offset": "0xde08c",
+        "text": "ccci_apply_md_bank4_remap_by_slot"
+      },
+      {
+        "offset": "0xde0ae",
+        "text": "%s:%d: [CCCI]md_power_value=0x%lx, HW code=0x%lx, SW_version=0x%lx"
+      },
+      {
+        "offset": "0xde304",
+        "text": "%s: couldn't find nr-rs-entry-little property"
+      },
+      {
+        "offset": "0xdef59",
+        "text": "%s:%d: [CCCI][POWER OFF] md emi bus protect set fail (0x%lX)"
+      },
+      {
+        "offset": "0xdef97",
+        "text": "%s:%d: [CCCI][POWER ON]%s MD_DVFS_DPSW_CTRL_INTF_RW: 0x%lx"
+      },
+      {
+        "offset": "0xdf82f",
+        "text": "[CCCI][%s:%d] [%s] error: 'consys_size' not found!"
+      },
+      {
+        "offset": "0xdf863",
+        "text": "%s:%d: [CCCI]md1_sib_addr = 0x%llx"
+      },
+      {
+        "offset": "0xdf8af",
+        "text": "[CCCI][%s:%d] smem_info.base_addr: %x"
+      },
+      {
+        "offset": "0xdf8d6",
+        "text": "[CCCI][%s:%d] cache_buffer_size: %x"
+      },
+      {
+        "offset": "0xdf8fb",
+        "text": "%s:%d: [CCCI]MD not EN, power off directly"
+      },
+      {
+        "offset": "0xe0613",
+        "text": "%s:%d: [CCCI]%s fail to get Vsram voltage: %d"
+      },
+      {
+        "offset": "0xe0696",
+        "text": "Check lte cert pubk_hash[%d] %0x "
+      },
+      {
+        "offset": "0xe10e8",
+        "text": "ccci_get_ccb_size"
+      },
+      {
+        "offset": "0xe10fa",
+        "text": "%s:%d: [CCCI]curr offset:0x%x -- ref:0x%x[%d]"
+      },
+      {
+        "offset": "0xe1129",
+        "text": "[CCCI][%s:%d] smem_info.total_smem_size: %x"
+      },
+      {
+        "offset": "0xe1156",
+        "text": "%s:%d: [CCCI]MD IMG  - header_verno   : 0x%08X"
+      },
+      {
+        "offset": "0xe1186",
+        "text": "[CCCI][%s:%d] add udc_en tag fail"
+      },
+      {
+        "offset": "0xe11a9",
+        "text": "[CCCI][%s:%d] add drdi_version tag fail"
+      },
+      {
+        "offset": "0xe11f0",
+        "text": "%s:%d: [CCCI]Load image: [%s] from partition: [%s], with:%p 0x%x"
+      },
+      {
+        "offset": "0xe1232",
+        "text": "%s:%d: [CCCI]------- Dump md memory layout end -----------------"
+      },
+      {
+        "offset": "0xe1275",
+        "text": "[CCCI][%s:%d] Find DSP RW region fail"
+      },
+      {
+        "offset": "0xe129c",
+        "text": "%s:%d: [CCCI]BANK0_MAP2 value:0x%lX"
+      },
+      {
+        "offset": "0xe12c1",
+        "text": "%s:%d: [CCCI][%s] addr: 0x%llX"
+      },
+      {
+        "offset": "0xe21c1",
+        "text": "%s:%d: [CCCI][Power off]Do plan A"
+      },
+      {
+        "offset": "0xe21e4",
+        "text": "%s:%d: [CCCI][POWER OFF]%s end: set md1_clk_mod = 0x%x"
+      },
+      {
+        "offset": "0xe2601",
+        "text": "LK_MODEM"
+      },
+      {
+        "offset": "0xe2692",
+        "text": "countrycode partition data is empty"
+      },
+      {
+        "offset": "0xe26b7",
+        "text": "Get countrycode data from countrycode partition: %s"
+      },
+      {
+        "offset": "0xe2a70",
+        "text": "[CCCI][%s:%d] insert md1_sib_addr fail"
+      },
+      {
+        "offset": "0xe2aa6",
+        "text": "%s:%d: [CCCI]Dump %s datails -------------"
+      },
+      {
+        "offset": "0xe2ad2",
+        "text": "%s:%d: [CCCI]smem_info.md1_md3_smem_offset: %x"
+      },
+      {
+        "offset": "0xe2b13",
+        "text": "[CCCI][%s:%d] insert md1_smem_cahce_layout fail"
+      },
+      {
+        "offset": "0xe2b44",
+        "text": "[CCCI][%s:%d] insert md1_smem_cahce_offset fail"
+      },
+      {
+        "offset": "0xe2b75",
+        "text": "[CCCI][%s:%d] /soc/mddriver not found!"
+      },
+      {
+        "offset": "0xe2b9d",
+        "text": "%s:%d: [CCCI]low power base = 0x%llx(offset = 0x%x), size:%u"
+      },
+      {
+        "offset": "0xe2bdb",
+        "text": "%s:%d: [CCCI][ccci]/mddriver not found, try /soc/mddriver"
+      },
+      {
+        "offset": "0xe2c16",
+        "text": "[CCCI][%s:%d] Check header size addr should 4 bytes align[0x%x]"
+      },
+      {
+        "offset": "0xe2c57",
+        "text": "[CCCI][%s:%d] MD image size(%u) < check header size(%u)"
+      },
+      {
+        "offset": "0xe2c90",
+        "text": "[CCCI][%s:%d] Update DSP RO fail"
+      },
+      {
+        "offset": "0xe2cbd",
+        "text": "%s:%d: [CCCI]insert hdr_count fail"
+      },
+      {
+        "offset": "0xe2ce1",
+        "text": "[CCCI][%s:%d] tag info size is 0"
+      },
+      {
+        "offset": "0xe2d03",
+        "text": "ccci_insert_tag_inf"
+      },
+      {
+        "offset": "0xe3d6a",
+        "text": "%s:%d: [CCCI]MPU: Find blk id(%d) fail"
+      },
+      {
+        "offset": "0xe4744",
+        "text": "[CCCI][%s:%d] insert nc_smem_layout_num fail"
+      },
+      {
+        "offset": "0xe4792",
+        "text": "%s:%d: [CCCI]create md_low_power_mem info DT OK"
+      },
+      {
+        "offset": "0xe47c3",
+        "text": "%s:%d: [CCCI]create ccb gear info to mdproperties FDT OK"
+      },
+      {
+        "offset": "0xe47fd",
+        "text": "%s:%d: [CCCI]Check headr v1(%u), v3(%u), v6(%u) curr(%u)"
+      },
+      {
+        "offset": "0xe4837",
+        "text": "%s:%d: [CCCI]Runtime - nv cache size  : 0x%08X"
+      },
+      {
+        "offset": "0xe4867",
+        "text": "[CCCI][%s:%d] update DRDI SRC fail"
+      },
+      {
+        "offset": "0xe488b",
+        "text": "%s:%d: [CCCI]replace the partition name to modem"
+      },
+      {
+        "offset": "0xe48d2",
+        "text": "[CCCI][%s:%d] Num is too less:%d"
+      },
+      {
+        "offset": "0xe48f5",
+        "text": "[CCCI][%s:%d] Can't find proper blk-0"
+      },
+      {
+        "offset": "0xe491c",
+        "text": "[CCCI][%s:%d] create modem arguments info DT Fail"
+      },
+      {
+        "offset": "0xe494f",
+        "text": "[CCCI][%s:%d] create modem status info DT Fail"
+      },
+      {
+        "offset": "0xe5752",
+        "text": "%s:%d: [CCCI][POWER OFF] md emi bus protect set done"
+      },
+      {
+        "offset": "0xe6060",
+        "text": "ccci_get_consys_size"
+      },
+      {
+        "offset": "0xe6086",
+        "text": "[CCCI][%s:%d] insert nc_smem_layout fail"
+      },
+      {
+        "offset": "0xe60b0",
+        "text": "%s:%d: [CCCI]MD IMG  - drdi size      : 0x%08X"
+      },
+      {
+        "offset": "0xe60e0",
+        "text": "[CCCI][%s:%d] update md padding region:%d fail"
+      },
+      {
+        "offset": "0xe6110",
+        "text": "%s:%d: [CCCI][%s]: drdi_version = %d"
+      },
+      {
+        "offset": "0xe6136",
+        "text": "%s:%d: [CCCI]------- Dump md memory layout temp list end -----------------"
+      },
+      {
+        "offset": "0xe6183",
+        "text": "[CCCI][%s:%d] Get zero flag"
+      },
+      {
+        "offset": "0xe61a0",
+        "text": "apply_drdi_region_mpu"
+      },
+      {
+        "offset": "0xe61b6",
+        "text": "ccci_apply_md_bank0_1_hw_remap"
+      },
+      {
+        "offset": "0xe758d",
+        "text": "app_load_modem(fdt, b_mode) == NO_ERROR"
+      },
+      {
+        "offset": "0xe78bf",
+        "text": "%s:%d: [CCCI]Get WIFI proxy smem size:0x%x"
+      },
+      {
+        "offset": "0xe78eb",
+        "text": "[CCCI][%s:%d] [%s] error: 'nv_cache_shm_size' not found!"
+      },
+      {
+        "offset": "0xe7925",
+        "text": "%s:%d: [CCCI]curr_offset:0x%x<%d> -- align offset:0x%x"
+      },
+      {
+        "offset": "0xe795d",
+        "text": "%s:%d: [CCCI]smem_info.ap_md1_smem_size: %x"
+      },
+      {
+        "offset": "0xe798a",
+        "text": "%s:%d: [CCCI]MD IMG  - region[%d] off : 0x%08X"
+      },
+      {
+        "offset": "0xe7a04",
+        "text": "%s:%d: [CCCI]start"
+      },
+      {
+        "offset": "0xe7a18",
+        "text": "%s:%d: [CCCI]md1 enabled"
+      },
+      {
+        "offset": "0xe91cf",
+        "text": "%s:%d: [CCCI]%s ---------------------"
+      },
+      {
+        "offset": "0xe91f6",
+        "text": "%s:%d: [CCCI]===== Dump v1 md header ====="
+      },
+      {
+        "offset": "0xe9222",
+        "text": "%s:%d: [CCCI]MD IMG  - region[%d] size: 0x%08X"
+      },
+      {
+        "offset": "0xe9252",
+        "text": "%s:%d: [CCCI]Runtime - amms pos size  : 0x%08X"
+      },
+      {
+        "offset": "0xe9282",
+        "text": "md_capability"
+      },
+      {
+        "offset": "0xe9290",
+        "text": "%s:%d: [CCCI]add tag md_chk_hdr fail"
+      },
+      {
+        "offset": "0xe92b6",
+        "text": "%s:%d: [CCCI]DRDI v1 not enable"
+      },
+      {
+        "offset": "0xe92eb",
+        "text": "[CCCI][%s:%d] [%s] error: MD_BANK0_HW_REMAP fail: 0x%lX"
+      },
+      {
+        "offset": "0xe9324",
+        "text": "%s:%d: [CCCI]BANK1_MAP3 value:0x%lX"
+      },
+      {
+        "offset": "0xe9554",
+        "text": "%s: couldn't find nr-max-core property"
+      },
+      {
+        "offset": "0xe957c",
+        "text": "nr-rs-entry-little"
+      },
+      {
+        "offset": "0xea38d",
+        "text": "[Sec] We are going to enter ATF for smc call lte "
+      },
+      {
+        "offset": "0xeab46",
+        "text": "i2c-nr"
+      },
+      {
+        "offset": "0xeabce",
+        "text": "%s:%d: [CCCI][%s]:[%d]"
+      },
+      {
+        "offset": "0xeabe6",
+        "text": "%s:%d: [CCCI]Runtime - consys  size   : 0x%08X"
+      },
+      {
+        "offset": "0xeac16",
+        "text": "[CCCI][%s:%d] add consys_size tag fail"
+      },
+      {
+        "offset": "0xeac3e",
+        "text": "[CCCI][%s:%d] add tag MD_BUILD_TIME fail"
+      },
+      {
+        "offset": "0xeac8e",
+        "text": "[CCCI][%s:%d] Table number is zero"
+      },
+      {
+        "offset": "0xeacb3",
+        "text": "[CCCI][%s:%d] MD region:%d not implement"
+      },
+      {
+        "offset": "0xebbad",
+        "text": "%s:%d: [CCCI][POWER OFF]%s start"
+      },
+      {
+        "offset": "0xebfea",
+        "text": "countrycode%s"
+      },
+      {
+        "offset": "0xec37c",
+        "text": "ccci_get_drdi_copy_size"
+      },
+      {
+        "offset": "0xec3af",
+        "text": "[CCCI][%s:%d] C-smem ID[%d] not found @ csmem_layout"
+      },
+      {
+        "offset": "0xec3e5",
+        "text": "[CCCI][%s:%d] mblock_alloc:sz=0x%x, ali=0x%lx, low=0x%llx, lim=0x%llx, exp=0"
+      },
+      {
+        "offset": "0xec445",
+        "text": "%s:%d: [CCCI]Runtime - cp debug flag  : 0x%08X"
+      },
+      {
+        "offset": "0xec475",
+        "text": "[CCCI][%s:%d] add tag MD_PLATFORM fail"
+      },
+      {
+        "offset": "0xec49d",
+        "text": "[CCCI][%s:%d] Enter md mem node end_0, not found"
+      },
+      {
+        "offset": "0xec4d0",
+        "text": "ccci_mem_blk_inf_dump"
+      },
+      {
+        "offset": "0xec4e6",
+        "text": "[CCCI][%s:%d] Find DSP RO region fail"
+      },
+      {
+        "offset": "0xed563",
+        "text": "%s:%d: [CCCI][Power Off] spm_mtcmos_ctrl_md1_disable done"
+      },
+      {
+        "offset": "0xed59e",
+        "text": "%s:%d: [CCCI][POWER ON] md emi bus protect clear done"
+      },
+      {
+        "offset": "0xed5d5",
+        "text": "%s:%d: [CCCI][POWER ON]%s get Vmodem voltage: 0x%x"
+      },
+      {
+        "offset": "0xed609",
+        "text": "%s:%d: [CCCI]MPU Region start[0x%llX] size[0x%x] end[0x%llX] region[%02u]"
+      },
+      {
+        "offset": "0xedbe1",
+        "text": "load modem"
+      },
+      {
+        "offset": "0xee01c",
+        "text": "%s:%d: [CCCI]Add pading smem ==>[%d]%llx-%x-%x"
+      },
+      {
+        "offset": "0xee058",
+        "text": "[CCCI][%s:%d] insert md1_smem_cahce_info fail"
+      },
+      {
+        "offset": "0xee087",
+        "text": "[CCCI][%s:%d] Header version detect fail[size:%d]"
+      },
+      {
+        "offset": "0xee0ba",
+        "text": "%s:%d: [CCCI]MD IMG  - md_md_smem_size: 0x%08X"
+      },
+      {
+        "offset": "0xee0ea",
+        "text": "[CCCI][%s:%d] update md region:%d fail"
+      },
+      {
+        "offset": "0xee112",
+        "text": "%s:%d: [CCCI]Memory base: %p(va)|0x%llx(pa) size:0x%x"
+      },
+      {
+        "offset": "0xee149",
+        "text": "%s:%d: [CCCI]skip optional sub image: %s"
+      },
+      {
+        "offset": "0xee173",
+        "text": "[CCCI][%s:%d] Alloc fail"
+      },
+      {
+        "offset": "0xee1c4",
+        "text": "%s:%d: [CCCI]create modem arguments info FDT OK"
+      },
+      {
+        "offset": "0xef867",
+        "text": "ccci_get_smem_info"
+      },
+      {
+        "offset": "0xef87a",
+        "text": "%s:%d: [CCCI][sib_size] 0 for env[sib_size] NULL"
+      },
+      {
+        "offset": "0xef8e8",
+        "text": "%s:%d: [CCCI]C-smem ID[%d] done. ap_phy:0x%llX(size:0x%X)"
+      },
+      {
+        "offset": "0xef923",
+        "text": "[CCCI][%s:%d] create ccb arguments info DT Fail"
+      },
+      {
+        "offset": "0xef954",
+        "text": "[CCCI][%s:%d] map va for pa fail,ret = %d"
+      },
+      {
+        "offset": "0xef97f",
+        "text": "[CCCI][%s:%d] update DSP reserved fail"
+      },
+      {
+        "offset": "0xef9a7",
+        "text": "%s:%d: [CCCI]|------ AP Addr -----|-- MD Addr -|--- Size ---|------ INF Flags ------|---- Attr Flags -----|"
+      },
+      {
+        "offset": "0xefa15",
+        "text": "[CCCI][%s:%d] MD mem blk node NULL"
+      },
+      {
+        "offset": "0xefa3a",
+        "text": "[CCCI][%s:%d] allocate tag memory fail"
+      },
+      {
+        "offset": "0xf099f",
+        "text": "%s:%d: [CCCI][POWER ON]%s fail to get spmi dev"
+      },
+      {
+        "offset": "0xf11b3",
+        "text": "[CCCI][%s:%d] allocate MD NC share memory fail"
+      },
+      {
+        "offset": "0xf11e3",
+        "text": "%s:%d: [CCCI][%d]0x%llx:0x%08x:0x%08x--0x%x<0x%x>"
+      },
+      {
+        "offset": "0xf1216",
+        "text": "%s:%d: [CCCI]create md_dbm_addr info DT OK"
+      },
+      {
+        "offset": "0xf1242",
+        "text": "[CCCI][%s:%d] create ccb arguments info to mdproperties DT Fail"
+      },
+      {
+        "offset": "0xf12a0",
+        "text": "%s:%d: [CCCI]MD IMG  - md_img_size    : 0x%08X"
+      },
+      {
+        "offset": "0xf12d0",
+        "text": "[CCCI][%s:%d] update Ramdisk fail"
+      },
+      {
+        "offset": "0xf1315",
+        "text": "%s:%d: [CCCI]attr_flag:0x%x,Memory size not enough. Request:0x%x Left:0x%x"
+      },
+      {
+        "offset": "0xf1382",
+        "text": "[CCCI][%s:%d] Insert dupliacte md mem blk(0x%08x:0x%08x)"
+      },
+      {
+        "offset": "0xf1578",
+        "text": "nr-rs-entry-big"
+      },
+      {
+        "offset": "0xf1588",
+        "text": "nr-header-row"
+      },
+      {
+        "offset": "0xf278d",
+        "text": "androidboot.ptcountrycode=%s"
+      },
+      {
+        "offset": "0xf29e7",
+        "text": "[CCCI][%s:%d] [ccci]%s share memory(c) not initialized done"
+      },
+      {
+        "offset": "0xf2a24",
+        "text": "%s:%d: [CCCI]NC-smem ID[%d] done. ap_offset:0x%X(size:0x%X)"
+      },
+      {
+        "offset": "0xf2a61",
+        "text": "[CCCI][%s:%d] insert c_smem_layout_num fail"
+      },
+      {
+        "offset": "0xf2a9f",
+        "text": "%s:%d: [CCCI]===== Dump v6 md header ====="
+      },
+      {
+        "offset": "0xf2acb",
+        "text": "%s:%d: [CCCI]MD IMG  - padding info[%d] size: 0x%08X"
+      },
+      {
+        "offset": "0xf2b01",
+        "text": "[CCCI][%s:%d] update DRDI RT fail"
+      },
+      {
+        "offset": "0xf2b24",
+        "text": "[CCCI][%s:%d] Update DSP RW fail"
+      },
+      {
+        "offset": "0xf2b46",
+        "text": "[CCCI][%s:%d] MD memory layout obj not init"
+      },
+      {
+        "offset": "0xf2b74",
+        "text": "[CCCI][%s:%d] Invalid curr id:%d"
+      },
+      {
+        "offset": "0xf2b97",
+        "text": "[CCCI][%s:%d] Alloc memory fail"
+      },
+      {
+        "offset": "0xf2bb9",
+        "text": "[CCCI][%s:%d] Invalid free idx:%d, max:%d"
+      },
+      {
+        "offset": "0xf2be5",
+        "text": "[CCCI][%s:%d] Get free node fail - 0"
+      },
+      {
+        "offset": "0xf2c0c",
+        "text": "%s:%d: [CCCI][%s] error: MD_SIB_HW_REMAP fail: 0x%lX"
+      },
+      {
+        "offset": "0xf2c42",
+        "text": "ccci_set_hw_locked"
+      },
+      {
+        "offset": "0xf2d50",
+        "text": "%s: couldn't find nr-header-row property"
+      },
+      {
+        "offset": "0xf3ab8",
+        "text": "ccci_plat_update_md_mpu_setting"
+      },
+      {
+        "offset": "0xf46e6",
+        "text": "[CCCI][%s:%d] insert nc_smem_info_ext fail"
+      },
+      {
+        "offset": "0xf4712",
+        "text": "[CCCI][%s:%d] insert smem_layout fail"
+      },
+      {
+        "offset": "0xf4739",
+        "text": "[CCCI][%s:%d] MD cache memory calc abnormal:%d"
+      },
+      {
+        "offset": "0xf477f",
+        "text": "%s:%d: [CCCI]create md_low_power_mem info DT fail"
+      },
+      {
+        "offset": "0xf47e2",
+        "text": "%s:%d: [CCCI]Add md bank0 base tag fail"
+      },
+      {
+        "offset": "0xf4816",
+        "text": "%s:%d: [CCCI]No need to generate for num:0"
+      },
+      {
+        "offset": "0xf4843",
+        "text": "%s:%d: [CCCI]call MD_HW_REMAP_LOCKED succ."
+      },
+      {
+        "offset": "0xf49bf",
+        "text": "%s: couldn't find nr-big-core property"
+      },
+      {
+        "offset": "0xf5840",
+        "text": "%s:%d: [CCCI]%s set Vmodem voltage ret %d"
+      },
+      {
+        "offset": "0xf586b",
+        "text": "%s:%d: [CCCI][POWER ON]%s set dpsw"
+      },
+      {
+        "offset": "0xf6273",
+        "text": "[CCCI][%s:%d] Alloc rt_tbl memory fail"
+      },
+      {
+        "offset": "0xf62a7",
+        "text": "ccci_tag_mem"
+      },
+      {
+        "offset": "0xf62b4",
+        "text": "%s:%d: [CCCI]MD IMG  - drdi offset    : 0x%08X"
+      },
+      {
+        "offset": "0xf62e4",
+        "text": "[CCCI][%s:%d] DSP offset info abnormal:0"
+      },
+      {
+        "offset": "0xf630e",
+        "text": "%s:%d: [CCCI]use old partion name"
+      },
+      {
+        "offset": "0xf6331",
+        "text": "%s:%d: [CCCI]Free 0x%llx with size:0x%x"
+      },
+      {
+        "offset": "0xf635a",
+        "text": "load_modem_image_compatible"
+      },
+      {
+        "offset": "0xf6376",
+        "text": "[CCCI][%s:%d] Invalid args: offset:%u, size:%u"
+      },
+      {
+        "offset": "0xf63a7",
+        "text": "ccci_update_base_to_mem_tbl"
+      },
+      {
+        "offset": "0xf63da",
+        "text": "[CCCI][%s:%d] [%s] error: MD_BANK1_HW_REMAP fail: 0x%lX"
+      },
+      {
+        "offset": "0xf8006",
+        "text": "%s:%d: [CCCI]create ccb gear info FDT OK"
+      },
+      {
+        "offset": "0xf8030",
+        "text": "%s:%d: [CCCI]create ccb arguments info to mdproperties FDT OK"
+      },
+      {
+        "offset": "0xf806f",
+        "text": "ccci_retrieve_mem"
+      },
+      {
+        "offset": "0xf808a",
+        "text": "ccci_main_img_parsing"
+      },
+      {
+        "offset": "0xf80a0",
+        "text": "%s:%d: [CCCI]MD IMG  - rpc_sec_mem_addr : 0x%08X"
+      },
+      {
+        "offset": "0xf80d2",
+        "text": "[CCCI][%s:%d] add nv_cache_shm_size tag fail"
+      },
+      {
+        "offset": "0xf8100",
+        "text": "[CCCI][%s:%d] add tag MD_BUILD_VER fail"
+      },
+      {
+        "offset": "0xf8129",
+        "text": "load_soc_modem_image_only"
+      },
+      {
+        "offset": "0xf8143",
+        "text": "%s:%d: [CCCI]attr_flag:0x%x,Offset should not be zero"
+      },
+      {
+        "offset": "0xf819a",
+        "text": "[CCCI][%s:%d] not enought memory to insert(%d)"
+      },
+      {
+        "offset": "0xf839b",
+        "text": "nr-big-core"
+      },
+      {
+        "offset": "0xf9051",
+        "text": "%s:%d: [CCCI][POWER ON] md emi bus protect clear fail (0x%lX)"
+      },
+      {
+        "offset": "0xf9a5c",
+        "text": "[CCCI][%s:%d] MD non-cache memory size abnormal:0x%x > max:0x%x"
+      },
+      {
+        "offset": "0xf9a9d",
+        "text": "%s:%d: [CCCI]smem_info.md1_md3_smem_size: %x"
+      },
+      {
+        "offset": "0xf9b17",
+        "text": "%s:%d: [CCCI]============================="
+      },
+      {
+        "offset": "0xf9b59",
+        "text": "%s:%d: [CCCI]add tag md1img fail"
+      },
+      {
+        "offset": "0xf9b7b",
+        "text": "[CCCI][%s:%d] MD mem tbl 1st reserved not ready"
+      },
+      {
+        "offset": "0xf9bad",
+        "text": "%s:%d: [CCCI]BANK1_MAP0 value:0x%lX"
+      },
+      {
+        "offset": "0xf9bd2",
+        "text": "%s:%d: [CCCI]create modem status info FDT OK"
+      },
+      {
+        "offset": "0xfab8c",
+        "text": "%s:%d: [CCCI]skip config region[%02u]"
+      },
+      {
+        "offset": "0xfabb3",
+        "text": "%s:%d: [CCCI]MPU: blk id(%d) is padding region, un-expected!"
+      },
+      {
+        "offset": "0xfb621",
+        "text": "%s:%d: [CCCI]Map 0x%x to 0x%llx for MD"
+      },
+      {
+        "offset": "0xfb649",
+        "text": "[CCCI][%s:%d] region number abnormal:%d"
+      },
+      {
+        "offset": "0xfb672",
+        "text": "%s:%d: [CCCI]Not found relate memory blk for attr_flag:0x%x"
+      },
+      {
+        "offset": "0xfb6af",
+        "text": "%s:%d: [CCCI]ccci: vmm_alloc_physical fail ret %d"
+      },
+      {
+        "offset": "0xfb6e2",
+        "text": "[CCCI][%s:%d] Args: size is invalid:0"
+      },
+      {
+        "offset": "0xfb70a",
+        "text": "ccci_get_1st_sub_mem_blk"
+      },
+      {
+        "offset": "0xfb723",
+        "text": "%s:%d: [CCCI]BANK0_MAP1 value:0x%lX"
+      },
+      {
+        "offset": "0xfb748",
+        "text": "%s:%d: [CCCI]BANK4_MAP(%d) value:0x%lX"
+      },
+      {
+        "offset": "0xfb770",
+        "text": "%s:%d: [CCCI]error: MD_HW_REMAP_LOCKED fail: 0x%lX"
+      },
+      {
+        "offset": "0xfc7dd",
+        "text": "%s:%d: [CCCI][Power On]Dev en:%d"
+      },
+      {
+        "offset": "0xfc7ff",
+        "text": "%s:%d: [CCCI][Power On]MD DPSW set done!"
+      },
+      {
+        "offset": "0xfc8b8",
+        "text": "set LTE pubk hash done"
+      },
+      {
+        "offset": "0xfd1b9",
+        "text": "ccci_get_nv_cache_size"
+      },
+      {
+        "offset": "0xfd1d0",
+        "text": "%s:%d: [CCCI]meta mode[md1_ccb_cap_gear]%d"
+      },
+      {
+        "offset": "0xfd1fc",
+        "text": "[CCCI][%s:%d] ccci_get_nc_smem_ref_tbl: table item num: %d"
+      },
+      {
+        "offset": "0xfd238",
+        "text": "[CCCI][%s:%d] MD cache memory size abnormal:0x%x > max:0x%x"
+      },
+      {
+        "offset": "0xfd275",
+        "text": "[CCCI][%s:%d] alloc sz=0x%x, ali=0x%lx, low=0x%llx, lim=0x%llx, name=%s fail"
+      },
+      {
+        "offset": "0xfd2c3",
+        "text": "%s:%d: [CCCI]MD IMG  - product_ver    : 0x%08X"
+      },
+      {
+        "offset": "0xfd2f3",
+        "text": "%s:%d: [CCCI]Runtime - udc support    : 0x%08X"
+      },
+      {
+        "offset": "0xfd323",
+        "text": "%s:%d: [CCCI]attr_flag:0x%x,Get invalid offset:0x%x(0x%x)"
+      },
+      {
+        "offset": "0xfd35e",
+        "text": "%s:%d: [CCCI]Update attr & inf for exist block"
+      },
+      {
+        "offset": "0xfe132",
+        "text": "countrycode"
+      },
+      {
+        "offset": "0xfe4c3",
+        "text": "%s:%d: [CCCI][POWER ON]%s fail to set Vmodem voltage: %d"
+      },
+      {
+        "offset": "0xfe4fd",
+        "text": "%s:%d: [CCCI][POWER ON]%s fail to read Vmodem voltage: %d"
+      },
+      {
+        "offset": "0xfef01",
+        "text": "[CCCI][%s:%d] [ccci]%s share memory(nc) not initialized done"
+      },
+      {
+        "offset": "0xfef5b",
+        "text": "%s:%d: [CCCI]C share memory base_phy: 0x%llx, size:%u"
+      },
+      {
+        "offset": "0xfefad",
+        "text": "[CCCI][%s:%d] not support header version:%u"
+      },
+      {
+        "offset": "0xfefda",
+        "text": "[CCCI][%s:%d] Invalid md check header str[%s]"
+      },
+      {
+        "offset": "0xff009",
+        "text": "[CCCI][%s:%d] update whole info fail"
+      },
+      {
+        "offset": "0xff02f",
+        "text": "%s:%d: [CCCI]Main image info not found"
+      },
+      {
+        "offset": "0xff057",
+        "text": "%s:%d: [CCCI]--------"
+      },
+      {
+        "offset": "0xff06e",
+        "text": "ccci_lk_trace"
+      },
+      {
+        "offset": "0xff07c",
+        "text": "[CCCI][%s:%d] No DSP RO region"
+      },
+      {
+        "offset": "0xff09c",
+        "text": "%s:%d: [CCCI]BANK1_MAP2 value:0x%lX"
+      },
+      {
+        "offset": "0xff0c1",
+        "text": "ccci_lk_tag_info_init"
+      },
+      {
+        "offset": "0xff0d7",
+        "text": "ccci,modem_info_v2"
+      },
+      {
+        "offset": "0x10000a",
+        "text": "%s:%d: [CCCI]MPU: Find padding blk MPU id(%d) fail"
+      },
+      {
+        "offset": "0x100925",
+        "text": "%s:%d: [CCCI]scp_set_dram_region for scp"
+      },
+      {
+        "offset": "0x10094f",
+        "text": "ccci_update_ap_md_smem_info_to_dt"
+      },
+      {
+        "offset": "0x100971",
+        "text": "[CCCI][%s:%d] MD non-cache memory calc abnormal:%d"
+      },
+      {
+        "offset": "0x1009a5",
+        "text": "%s:%d: [CCCI]smem_info.ap_md3_smem_size: %x"
+      },
+      {
+        "offset": "0x1009d2",
+        "text": "[CCCI][%s:%d] insert c_smem_layout fail"
+      },
+      {
+        "offset": "0x1009fb",
+        "text": "[CCCI][%s:%d] cache_buffer_itm_cnt: %x"
+      },
+      {
+        "offset": "0x100a23",
+        "text": "[CCCI][%s:%d] insert mtee_support fail"
+      },
+      {
+        "offset": "0x100a4b",
+        "text": "ccci_save_ccb_info_to_dt"
+      },
+      {
+        "offset": "0x100a64",
+        "text": "ccci_resv_named_memory"
+      },
+      {
+        "offset": "0x100a7b",
+        "text": "%s:%d: [CCCI]MD IMG  - domain_attr[%d] : 0x%08X"
+      },
+      {
+        "offset": "0x100ac8",
+        "text": "%s:%d: [CCCI]Not support image type:%d"
+      },
+      {
+        "offset": "0x100af0",
+        "text": "[CCCI][%s:%d] Get free node fail - 1"
+      },
+      {
+        "offset": "0x102002",
+        "text": "Failed to get countrycode partition data!"
+      },
+      {
+        "offset": "0x102435",
+        "text": "[CCCI][%s:%d] [%s] error: 'udc_en' not found!"
+      },
+      {
+        "offset": "0x102464",
+        "text": "%s:%d: [CCCI]smem_info.ap_md3_smem_offset: %x"
+      },
+      {
+        "offset": "0x102493",
+        "text": "[CCCI][%s:%d] /mddriver not found, try /soc/mddriver"
+      },
+      {
+        "offset": "0x1024d7",
+        "text": "%s:%d: [CCCI]create ccb arguments info FDT OK"
+      },
+      {
+        "offset": "0x102506",
+        "text": "[CCCI][%s:%d] get limit and align fail for %s"
+      },
+      {
+        "offset": "0x102535",
+        "text": "ccci_get_boot_args_from_dt"
+      },
+      {
+        "offset": "0x102550",
+        "text": "%s:%d: [CCCI][ccci] /soc/mddriver not found!"
+      },
+      {
+        "offset": "0x10257e",
+        "text": "%s:%d: [CCCI]MD IMG  - Magic          : %s"
+      },
+      {
+        "offset": "0x1025aa",
+        "text": "%s:%d: [CCCI]MD IMG  - image_type     : 0x%08X"
+      },
+      {
+        "offset": "0x1025da",
+        "text": "%s:%d: [CCCI]Runtime - drdi rt offset : 0x%08X"
+      },
+      {
+        "offset": "0x10260a",
+        "text": "[CCCI][%s:%d] DSP size info abnormal:0"
+      },
+      {
+        "offset": "0x102632",
+        "text": "md1drdi"
+      },
+      {
+        "offset": "0x10263a",
+        "text": "[CCCI][%s:%d] MD mem node id invalid:%d for insert"
+      },
+      {
+        "offset": "0x103069",
+        "text": "modem_a"
+      },
+      {
+        "offset": "0x103298",
+        "text": "%s:%d: [CCCI][Power On]Do plan A"
+      },
+      {
+        "offset": "0x1032ba",
+        "text": "%s:%d: [CCCI][Power Off] Start, spm_mtcmos_ctrl_md1_disable"
+      },
+      {
+        "offset": "0x1032f7",
+        "text": "%s:%d: [CCCI]%s fail read Vmodem voltage: %d"
+      },
+      {
+        "offset": "0x117dfc",
+        "text": "VSRAM_MODEM"
+      }
+    ]
+  },
+  {
+    "name": "h3_bl2_donor",
+    "path": "fresh_analysis/container_chain/h3_original_03_bl2_ext.bin",
+    "size": 1079256,
+    "sha256": "e9aca46a63376b22daf9150319e27c8fc2da1e176781af8bc1392da4f178e76b",
+    "hits": [
+      {
+        "offset": "0x84cad",
+        "text": "modem"
+      },
+      {
+        "offset": "0x8c036",
+        "text": "%s:%d: [CCCI]mtee.base_addr: 0x%x, 0x%x"
+      },
+      {
+        "offset": "0x8d66f",
+        "text": "Check lte cert pubk_hash[%d] %0x "
+      },
+      {
+        "offset": "0x90c69",
+        "text": "lvts_configure_polling_speed_and_filter"
+      },
+      {
+        "offset": "0x92e02",
+        "text": "[Sec] We are going to enter ATF for smc call lte "
+      },
+      {
+        "offset": "0x9332d",
+        "text": "i2c-nr"
+      },
+      {
+        "offset": "0x9cf3b",
+        "text": "set LTE pubk hash done"
+      }
+    ]
+  },
+  {
+    "name": "h4_bl2_reference",
+    "path": "fresh_analysis/container_chain/h4_original_03_bl2_ext.bin",
+    "size": 1083552,
+    "sha256": "d0cfaeaf24603f9fb8dda8bc6e2a7634377bcf13f76b7af8545cb0fca7aff24f",
+    "hits": [
+      {
+        "offset": "0x85cda",
+        "text": "modem"
+      },
+      {
+        "offset": "0x8d07c",
+        "text": "%s:%d: [CCCI]mtee.base_addr: 0x%x, 0x%x"
+      },
+      {
+        "offset": "0x8e6b5",
+        "text": "Check lte cert pubk_hash[%d] %0x "
+      },
+      {
+        "offset": "0x91cf2",
+        "text": "lvts_configure_polling_speed_and_filter"
+      },
+      {
+        "offset": "0x93ed1",
+        "text": "[Sec] We are going to enter ATF for smc call lte "
+      },
+      {
+        "offset": "0x943fc",
+        "text": "i2c-nr"
+      },
+      {
+        "offset": "0x9e04e",
+        "text": "set LTE pubk hash done"
+      }
+    ]
+  },
+  {
+    "name": "h4_aee",
+    "path": "fresh_analysis/container_chain/h4_original_06_aee.bin",
+    "size": 1005488,
+    "sha256": "fd54015acd29b326feb61614f9f8cef973e0f8277a3e1dd195a42ad9e4d25861",
+    "hits": [
+      {
+        "offset": "0xa3ed3",
+        "text": "modem"
+      },
+      {
+        "offset": "0xab65e",
+        "text": "%s: couldn't find nr-rs-entry-big property"
+      },
+      {
+        "offset": "0xac866",
+        "text": "nr-max-core"
+      },
+      {
+        "offset": "0xad6a3",
+        "text": "%s:%d: [CCCI]mtee.base_addr: 0x%x, 0x%x"
+      },
+      {
+        "offset": "0xad85e",
+        "text": "%s: couldn't find nr-rs-entry-little property"
+      },
+      {
+        "offset": "0xaf1d2",
+        "text": "Check lte cert pubk_hash[%d] %0x "
+      },
+      {
+        "offset": "0xb3388",
+        "text": "lvts_configure_polling_speed_and_filter"
+      },
+      {
+        "offset": "0xb5320",
+        "text": "%s: couldn't find nr-max-core property"
+      },
+      {
+        "offset": "0xb5348",
+        "text": "nr-rs-entry-little"
+      },
+      {
+        "offset": "0xb5e32",
+        "text": "[Sec] We are going to enter ATF for smc call lte "
+      },
+      {
+        "offset": "0xb63dd",
+        "text": "i2c-nr"
+      },
+      {
+        "offset": "0xbaea0",
+        "text": "nr-rs-entry-big"
+      },
+      {
+        "offset": "0xbaeb0",
+        "text": "nr-header-row"
+      },
+      {
+        "offset": "0xbbe73",
+        "text": "%s: couldn't find nr-header-row property"
+      },
+      {
+        "offset": "0xbd1d3",
+        "text": "%s: couldn't find nr-big-core property"
+      },
+      {
+        "offset": "0xbf80c",
+        "text": "nr-big-core"
+      },
+      {
+        "offset": "0xc267b",
+        "text": "set LTE pubk hash done"
+      }
+    ]
+  },
+  {
+    "name": "h4_lk_dtb",
+    "path": "fresh_analysis/container_chain/h4_original_09_lk_main_dtb.bin",
+    "size": 536097,
+    "sha256": "5bb8f8013fd99dfc55887f8062c7c83753f1c4879a1349061c8ccf33b7b9e44c",
+    "hits": [
+      {
+        "offset": "0x8c00",
+        "text": "ccci-dpmaif-cache-memory"
+      },
+      {
+        "offset": "0x8ca4",
+        "text": "ccci-dpmaif-nocache-memory"
+      },
+      {
+        "offset": "0xbab0",
+        "text": "vsram-modem"
+      },
+      {
+        "offset": "0xbac8",
+        "text": "VSRAM_MODEM"
+      },
+      {
+        "offset": "0xbadf",
+        "text": ".mt6363_vsram_modem"
+      },
+      {
+        "offset": "0x41c70",
+        "text": "mediatek,ccci_ccif"
+      },
+      {
+        "offset": "0x41f1c",
+        "text": "ccci-scp@142c4000"
+      },
+      {
+        "offset": "0x41f3c",
+        "text": "mediatek,ccci_md_scp"
+      },
+      {
+        "offset": "0x603dc",
+        "text": "spdt-a2-filter"
+      },
+      {
+        "offset": "0x6849c",
+        "text": "/reserved-memory/ccci-dpmaif-cache-memory"
+      },
+      {
+        "offset": "0x684d4",
+        "text": "/reserved-memory/ccci-dpmaif-nocache-memory"
+      },
+      {
+        "offset": "0x68dcc",
+        "text": "/spmi@1c01a000/pmic@4/regulators/vsram-modem"
+      },
+      {
+        "offset": "0x70370",
+        "text": "/soc/ccci-scp@142c4000"
+      },
+      {
+        "offset": "0x7372b",
+        "text": "{/connfem/layouts/spdt-a2-filter"
+      },
+      {
+        "offset": "0x75d38",
+        "text": "nr-port"
+      },
+      {
+        "offset": "0x75ff9",
+        "text": "bat,nr"
+      },
+      {
+        "offset": "0x778ed",
+        "text": "mm-dbg-out-sel-nr"
+      },
+      {
+        "offset": "0x77c8d",
+        "text": "nr-max-core"
+      },
+      {
+        "offset": "0x77c99",
+        "text": "nr-big-core"
+      },
+      {
+        "offset": "0x77ca5",
+        "text": "nr-rs-entry-little"
+      },
+      {
+        "offset": "0x77cb8",
+        "text": "nr-rs-entry-big"
+      },
+      {
+        "offset": "0x77cc8",
+        "text": "nr-header-row"
+      },
+      {
+        "offset": "0x79c06",
+        "text": "ccci-infracfg"
+      },
+      {
+        "offset": "0x79c14",
+        "text": "ccci-topckgen"
+      },
+      {
+        "offset": "0x79c22",
+        "text": "md-vmodem-supply"
+      },
+      {
+        "offset": "0x79c33",
+        "text": "md-vmodem"
+      },
+      {
+        "offset": "0x7f39b",
+        "text": "mt6363_vsram_modem"
+      },
+      {
+        "offset": "0x8163e",
+        "text": "ccci_scp"
+      },
+      {
+        "offset": "0x826fb",
+        "text": "spdt_a2_filter"
+      }
+    ]
+  },
+  {
+    "name": "h4_lk_dtbo",
+    "path": "fresh_analysis/container_chain/h4_original_12_lk_dtbo.bin",
+    "size": 156075,
+    "sha256": "23e562ab44eed1c93ef0b2faddf81084610907f44f8155f00c9d6f33cfe8f5ce",
+    "hits": [
+      {
+        "offset": "0x2488e",
+        "text": "mi_tp,edge-filter-array"
+      }
+    ]
+  }
+]

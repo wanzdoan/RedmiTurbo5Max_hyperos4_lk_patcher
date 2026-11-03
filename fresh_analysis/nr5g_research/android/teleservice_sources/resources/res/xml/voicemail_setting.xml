@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res-auto" android:title="@string/voicemail_settings">
+    <PreferenceCategory>
+        <miuix.preference.DropDownPreference
+            android:title="@string/voicemail_provider"
+            android:key="button_voicemail_provider"
+            android:defaultValue=""/>
+        <com.android.phone.settings.EditPhoneNumberPreference
+            android:persistent="false"
+            android:ellipsize="end"
+            android:hint="@string/voicemail_settings_number_hint"
+            android:singleLine="true"
+            android:autoText="false"
+            android:title="@string/voicemail_settings_number_title"
+            android:key="button_voicemail"
+            android:dialogTitle="@string/voicemail_settings"
+            phone:confirmMode="confirm"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="true"
+            android:title="@string/voicemail_notification_vibrate_when_title"
+            android:key="button_voicemail_notification_vibrate_key"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/default_sim_setting"
+        android:key="default_sim">
+        <miuix.preference.DropDownPreference
+            android:title="@string/default_voice_title"
+            android:key="pref_default_voice_sim"
+            android:defaultValue="0"
+            app:entries="@array/drop_down_pref_voice_sim_entries"
+            app:entryValues="@array/drop_down_pref_voice_sim_entry_values"/>
+        <miuix.preference.DropDownPreference
+            android:title="@string/default_data_title"
+            android:key="pref_default_data_sim"
+            android:defaultValue="1"
+            app:entries="@array/drop_down_pref_data_sim_entries"
+            app:entryValues="@array/drop_down_pref_data_sim_entry_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

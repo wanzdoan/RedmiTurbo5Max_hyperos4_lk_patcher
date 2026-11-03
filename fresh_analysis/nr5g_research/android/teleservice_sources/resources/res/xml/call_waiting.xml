@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.phone.settings.CdmaCallWaitingPreference
+        android:persistent="false"
+        android:title="@string/call_waiting_title"
+        android:key="button_cdma_cw"
+        android:summary="@string/call_waiting_summary"
+        android:dialogTitle="@string/call_waiting_title"/>
+</PreferenceScreen>

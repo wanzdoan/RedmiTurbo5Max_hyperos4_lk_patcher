@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dial_additional_button_height">50dp</dimen>
+    <dimen name="dial_panel_button_height">50dp</dimen>
+    <dimen name="dial_panel_button_line_width">264dp</dimen>
+    <dimen name="dial_panel_margin">14dp</dimen>
+    <dimen name="dialer_dialpad_padding_bottom">9dp</dimen>
+    <dimen name="dialpadAdditionalButtons_padding_bottom">35dp</dimen>
+    <dimen name="dialpad_bottom_voice_mail_height">10.2dp</dimen>
+    <dimen name="dialpad_bottom_voice_mail_width">12dp</dimen>
+    <dimen name="dialpad_bottom_voice_number_height">22dp</dimen>
+    <dimen name="dialpad_bottom_voice_number_width">14dp</dimen>
+    <dimen name="dialpad_button_bottom_text_size">7.5dp</dimen>
+    <dimen name="dialpad_button_margin">22dp</dimen>
+    <dimen name="dialpad_button_pound_size">22dp</dimen>
+    <dimen name="dialpad_button_star_size">22dp</dimen>
+    <dimen name="dialpad_button_text_width">72dp</dimen>
+    <dimen name="dialpad_button_top_text_size">24.6dp</dimen>
+    <dimen name="emergency_dialer_margin_top">-2dp</dimen>
+    <dimen name="emergency_digits_height">45dp</dimen>
+    <dimen name="emergency_digits_tibetan_height">60dp</dimen>
+    <dimen name="emergency_input_digits_size">26dp</dimen>
+    <dimen name="emergency_input_text_size">24dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="string" name="sku_filter" id="0x7f010000" />
+    <public type="xml" name="vendor" id="0x7f020000" />
+    <public type="xml" name="vendor_defaults" id="0x7f020001" />
+    <public type="xml" name="vendor_no_sim" id="0x7f020002" />
+</resources>

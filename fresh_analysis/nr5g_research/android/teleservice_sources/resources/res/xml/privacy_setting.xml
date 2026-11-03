@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/privacy_phone_category"
+        android:key="pref_key_phone_category">
+        <Preference
+            android:title="@string/preference_check_privacy"
+            android:key="pref_key_preference_check_privacy"/>
+        <Preference
+            android:title="@string/permission_description"
+            android:key="pref_key_permission_description"/>
+    </PreferenceCategory>
+</PreferenceScreen>

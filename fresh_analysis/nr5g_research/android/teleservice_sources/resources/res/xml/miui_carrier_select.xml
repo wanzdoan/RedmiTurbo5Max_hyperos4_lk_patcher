@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/networks_title"
+    android:key="list_networks_key">
+    <com.android.phone.custompreferences.CustomCheckBoxPreference
+        android:persistent="false"
+        android:title="@string/select_automatically"
+        android:key="button_auto_select_key"
+        android:summary="@string/sum_select_automatically"
+        android:defaultValue="true"/>
+</PreferenceScreen>

@@ -1,0 +1,416 @@
+{
+  "evidence_id": "NR5G-RUNTIME-NVBOOT-001",
+  "source": "/mnt/vendor/nvdata/md/nv_boot_trace",
+  "size": 542349,
+  "filtered_hits": [
+    {
+      "offset": "0x9dc",
+      "text": "[T:0x0036415D][Mod:567][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_read()[opid:0x1d][hd:-1][offset:192][len:928]"
+    },
+    {
+      "offset": "0xa5c",
+      "text": "[T:0x00364192][Mod:567][C][OP:FS_OP_CMPTREAD][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:315][start:3555701]"
+    },
+    {
+      "offset": "0xb12",
+      "text": "[T:0x00364399][Mod:567][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_read()"
+    },
+    {
+      "offset": "0x6cc3",
+      "text": "[T:0x00F10A92][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x6d40",
+      "text": "[T:0x00F10F27][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15797925]"
+    },
+    {
+      "offset": "0x6df6",
+      "text": "[T:0x00F113AD][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x6e54",
+      "text": "[T:0x00F113E3][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:34][hd:2][offset:576][len:384]"
+    },
+    {
+      "offset": "0x6ed0",
+      "text": "[T:0x00F1142E][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15799297]"
+    },
+    {
+      "offset": "0x6f86",
+      "text": "[T:0x00F11CA3][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x6fe4",
+      "text": "[T:0x00F11DB6][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x7061",
+      "text": "[T:0x00F11DEF][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15801807]"
+    },
+    {
+      "offset": "0x7116",
+      "text": "[T:0x00F1212B][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x7254",
+      "text": "[T:0x00F128D2][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:35][hd:-1][offset:576][len:384]"
+    },
+    {
+      "offset": "0x72d1",
+      "text": "[T:0x00F12911][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15804654]"
+    },
+    {
+      "offset": "0x7387",
+      "text": "[T:0x00F12F0F][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x73e5",
+      "text": "[T:0x00F1344A][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x7462",
+      "text": "[T:0x00F1347B][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15807584]"
+    },
+    {
+      "offset": "0x7517",
+      "text": "[T:0x00F1366A][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x7655",
+      "text": "[T:0x00F13DEB][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:35][hd:-1][offset:576][len:384]"
+    },
+    {
+      "offset": "0x76d2",
+      "text": "[T:0x00F13E3A][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15810058]"
+    },
+    {
+      "offset": "0x7788",
+      "text": "[T:0x00F1445B][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x77e6",
+      "text": "[T:0x00F14598][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x7863",
+      "text": "[T:0x00F14602][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15812051]"
+    },
+    {
+      "offset": "0x7918",
+      "text": "[T:0x00F147A7][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x7a55",
+      "text": "[T:0x00F14C24][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:35][hd:-1][offset:576][len:384]"
+    },
+    {
+      "offset": "0x7ad2",
+      "text": "[T:0x00F14C54][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:15813688]"
+    },
+    {
+      "offset": "0x7b87",
+      "text": "[T:0x00F14EEE][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x7be5",
+      "text": "[T:0x00F1536E][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write()[opid:25][hd:-1][offset:192][len:464]"
+    },
+    {
+      "offset": "0x7c62",
+      "text": "[T:0x00F153A0][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:315][start:15815556]"
+    },
+    {
+      "offset": "0x7d18",
+      "text": "[T:0x00F15BB5][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x7e56",
+      "text": "[T:0x00F163CB][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write()[opid:35][hd:-1][offset:656][len:464]"
+    },
+    {
+      "offset": "0x7ed3",
+      "text": "[T:0x00F16407][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:315][start:15819750]"
+    },
+    {
+      "offset": "0x7f89",
+      "text": "[T:0x00F16C4A][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x7fe7",
+      "text": "[T:0x00F16EF1][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write()[opid:25][hd:-1][offset:192][len:464]"
+    },
+    {
+      "offset": "0x8064",
+      "text": "[T:0x00F16F3E][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:315][start:15822610]"
+    },
+    {
+      "offset": "0x811a",
+      "text": "[T:0x00F1855C][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x8178",
+      "text": "[T:0x00F18588][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write()[opid:34][hd:2][offset:656][len:464]"
+    },
+    {
+      "offset": "0x81f4",
+      "text": "[T:0x00F185BB][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:315][start:15828383]"
+    },
+    {
+      "offset": "0x82aa",
+      "text": "[T:0x00F18A94][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0xbf96",
+      "text": "[T:0x0110C5FE][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0xc013",
+      "text": "[T:0x0110C640][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:315][start:17876512]"
+    },
+    {
+      "offset": "0xc0c8",
+      "text": "[T:0x0110C934][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:315]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x171f7",
+      "text": "[T:0x000877E1][Mod:0][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_read()[opid:0x1d][hd:-1][offset:192][len:768]"
+    },
+    {
+      "offset": "0x17275",
+      "text": "[T:0x000877F6][Mod:0][C][OP:FS_OP_CMPTREAD][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:554984]"
+    },
+    {
+      "offset": "0x17326",
+      "text": "[T:0x00087A75][Mod:0][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_read()"
+    },
+    {
+      "offset": "0x17e4b",
+      "text": "[T:0x0008AA8C][Mod:0][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_read()[opid:0x1d][hd:-1][offset:192][len:464]"
+    },
+    {
+      "offset": "0x17ec9",
+      "text": "[T:0x0008AAA1][Mod:0][C][OP:FS_OP_CMPTREAD][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:316][start:567955]"
+    },
+    {
+      "offset": "0x17f7b",
+      "text": "[T:0x0008B11A][Mod:0][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_read()"
+    },
+    {
+      "offset": "0x17fd2",
+      "text": "[T:0x0008B495][Mod:0][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_read()[opid:0x1d][hd:-1][offset:656][len:464]"
+    },
+    {
+      "offset": "0x18050",
+      "text": "[T:0x0008B4AA][Mod:0][C][OP:FS_OP_CMPTREAD][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:316][start:570524]"
+    },
+    {
+      "offset": "0x18101",
+      "text": "[T:0x0008B63C][Mod:0][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_read()"
+    },
+    {
+      "offset": "0x217e9",
+      "text": "[T:0x000B7B24][Mod:449][C][ID:0x1170][ret:0][bt:316]nv_extrn_rst() reset success do mcf ota@653"
+    },
+    {
+      "offset": "0x21b6e",
+      "text": "[T:0x000B7EF2][Mod:449][C][ID:0x1170][ret:0][bt:316]nv_extrn_rst() reset success do mcf ota@653"
+    },
+    {
+      "offset": "0x51c38",
+      "text": "[T:0x001B5FA9][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x51cb5",
+      "text": "[T:0x001B6031][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:1794011]"
+    },
+    {
+      "offset": "0x51d69",
+      "text": "[T:0x001B6330][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x51ea6",
+      "text": "[T:0x001B6C89][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:576][len:384]"
+    },
+    {
+      "offset": "0x51f23",
+      "text": "[T:0x001B6CF7][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:1797308]"
+    },
+    {
+      "offset": "0x51fd8",
+      "text": "[T:0x001B7328][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x52036",
+      "text": "[T:0x001B996C][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x520b3",
+      "text": "[T:0x001B99D9][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:1808800]"
+    },
+    {
+      "offset": "0x52167",
+      "text": "[T:0x001B9D8D][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x522a4",
+      "text": "[T:0x001BA5B3][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:576][len:384]"
+    },
+    {
+      "offset": "0x52321",
+      "text": "[T:0x001BA616][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:1811935]"
+    },
+    {
+      "offset": "0x523d6",
+      "text": "[T:0x001BB05E][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x57058",
+      "text": "[T:0x003C75DE][Mod:567][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_read()[opid:0x1d][hd:-1][offset:192][len:928]"
+    },
+    {
+      "offset": "0x570d8",
+      "text": "[T:0x003C7611][Mod:567][C][OP:FS_OP_CMPTREAD][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:316][start:3962353]"
+    },
+    {
+      "offset": "0x5718e",
+      "text": "[T:0x003C77D3][Mod:567][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_read()"
+    },
+    {
+      "offset": "0x5c025",
+      "text": "[T:0x01746BED][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x5c0a2",
+      "text": "[T:0x01746C1C][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:24407044]"
+    },
+    {
+      "offset": "0x5c157",
+      "text": "[T:0x01746E81][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5c295",
+      "text": "[T:0x0174767C][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:576][len:384]"
+    },
+    {
+      "offset": "0x5c312",
+      "text": "[T:0x017476B4][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:24409750]"
+    },
+    {
+      "offset": "0x5c3c7",
+      "text": "[T:0x01747992][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5c425",
+      "text": "[T:0x01747D30][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x5c4a2",
+      "text": "[T:0x01747D60][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:24411461]"
+    },
+    {
+      "offset": "0x5c557",
+      "text": "[T:0x017480A6][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5c695",
+      "text": "[T:0x01748B82][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:192][len:768]"
+    },
+    {
+      "offset": "0x5c712",
+      "text": "[T:0x01748BB3][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:24415130]"
+    },
+    {
+      "offset": "0x5c7c8",
+      "text": "[T:0x017491B3][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5c826",
+      "text": "[T:0x01749294][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:576][len:384]"
+    },
+    {
+      "offset": "0x5c8a3",
+      "text": "[T:0x017492ED][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:24416953]"
+    },
+    {
+      "offset": "0x5c958",
+      "text": "[T:0x017495D8][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5c9b6",
+      "text": "[T:0x017497C0][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write()[opid:25][hd:-1][offset:192][len:464]"
+    },
+    {
+      "offset": "0x5ca33",
+      "text": "[T:0x01749803][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:316][start:24418267]"
+    },
+    {
+      "offset": "0x5cae8",
+      "text": "[T:0x01749B73][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5cc26",
+      "text": "[T:0x0174A453][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:656][len:464]"
+    },
+    {
+      "offset": "0x5cca3",
+      "text": "[T:0x0174A490][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:316][start:24421485]"
+    },
+    {
+      "offset": "0x5cd58",
+      "text": "[T:0x0174A7CD][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5cdb6",
+      "text": "[T:0x0174A8EB][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:192][len:768]"
+    },
+    {
+      "offset": "0x5ce33",
+      "text": "[T:0x0174A92B][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:24422664]"
+    },
+    {
+      "offset": "0x5cee9",
+      "text": "[T:0x0174AD70][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5cf47",
+      "text": "[T:0x0174B725][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write()[opid:25][hd:-1][offset:192][len:464]"
+    },
+    {
+      "offset": "0x5cfc4",
+      "text": "[T:0x0174B75A][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:316][start:24426302]"
+    },
+    {
+      "offset": "0x5d079",
+      "text": "[T:0x0174B95F][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5d1b7",
+      "text": "[T:0x0174C25B][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write()[opid:35][hd:-1][offset:656][len:464]"
+    },
+    {
+      "offset": "0x5d234",
+      "text": "[T:0x0174C29B][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP81_133][bt:316][start:24429178]"
+    },
+    {
+      "offset": "0x5d2ea",
+      "text": "[T:0x0174CD81][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP81_133][ret:0][bt:316]dev_fs_write() @1125"
+    },
+    {
+      "offset": "0x5f34d",
+      "text": "[T:0x01B6EF83][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write()[opid:25][hd:-1][offset:192][len:384]"
+    },
+    {
+      "offset": "0x5f3ca",
+      "text": "[T:0x01B6EFCA][Mod:5][C][OP:FS_OP_CMPTWRITE][file:Z:\\NVRAM\\NVD_DATA\\SP80_636][bt:316][start:28766119]"
+    },
+    {
+      "offset": "0x5f481",
+      "text": "[T:0x01B726FB][Mod:5][C][path:Z:\\NVRAM\\NVD_DATA\\SP80_636][ret:0][bt:316]dev_fs_write() @1125"
+    }
+  ],
+  "total_focused_hits": 101,
+  "limitations": [
+    "Only printable substrings, not decoded binary event stream",
+    "No raw trace persisted; subscriber-sensitive lines omitted"
+  ]
+}

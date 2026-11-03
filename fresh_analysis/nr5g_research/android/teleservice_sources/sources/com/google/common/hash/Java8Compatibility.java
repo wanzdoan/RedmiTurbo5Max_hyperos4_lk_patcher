@@ -1,0 +1,14 @@
+package com.google.common.hash;
+
+import java.nio.Buffer;
+
+/* JADX INFO: loaded from: classes.dex */
+abstract class Java8Compatibility {
+    static void flip(Buffer buffer) {
+        buffer.flip();
+    }
+
+    static void position(Buffer buffer, int i) {
+        buffer.position(i);
+    }
+}

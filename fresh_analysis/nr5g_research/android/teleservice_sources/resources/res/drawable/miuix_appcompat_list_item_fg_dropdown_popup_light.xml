@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.popupwidget.widget.PressEffectDrawable xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:insetLeft="@dimen/miuix_popup_window_horizontal_padding"
+    android:insetRight="@dimen/miuix_popup_window_horizontal_padding"
+    app:hoveredAlpha="0.06"
+    app:miuixDrawableTintColor="#ff000000"
+    app:miuixDrawableTintRadius="@dimen/miuix_theme_radius_common"
+    app:normalAlpha="0"
+    app:pressedAlpha="0.08"/>

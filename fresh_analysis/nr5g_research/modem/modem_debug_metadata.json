@@ -1,0 +1,900 @@
+{
+  "md1_dbginfo": {
+    "carrier_offset": "0x60ad6a0",
+    "compressed_size": 1377798,
+    "decoded_size": 5791613,
+    "decoded_sha256": "17894cf5f3e0410c7fe5f4d8da8a032b222b30d472af1c05e682ddcb5cfebfd1",
+    "format": "lzma-alone",
+    "first256_hex": "4341544943544e52010000006a5f58004341544901000000000000004e5231372e52322e4d50322e5443382e5052312e5350205849414f4d495f56304d50315f4b3639393156325f3634004d54363939315f533030004d4f4c592e4e5231372e52322e4d50322e5443382e5052312e53502e5631322e50313500323032362f31302f32302031353a30340083000000f8455600494e545f566563746f727300001000000810000062726f6d5f6578745f656e747279001010000016100000494e545f536574504c4c5f47656e39390016100000b2100000504c4c5f5365745f434c4b5f546f5f32364d00b2100000e6100000504c4c5f4d445f506c6c5f496e69",
+    "focused_hits": [
+      {
+        "offset": "0xc3e3b",
+        "text": "mcf_check_file_hash_security_decrypt_file"
+      },
+      {
+        "offset": "0xc42a8",
+        "text": "mcf_file_handling_check_security_interface_v3"
+      },
+      {
+        "offset": "0xdd410",
+        "text": "mcf_auto_select_nwota_file"
+      },
+      {
+        "offset": "0xdd53b",
+        "text": "mcf_auto_select_tlvota_file"
+      },
+      {
+        "offset": "0xf4167",
+        "text": "mcf_decrypt_256bit"
+      },
+      {
+        "offset": "0xf4182",
+        "text": "mcf_decrypt_128bit"
+      },
+      {
+        "offset": "0x10fd22",
+        "text": "mcf_security_compare_hash_initial"
+      },
+      {
+        "offset": "0x10fd4c",
+        "text": "mcf_security_compare_hash_compare_hash"
+      },
+      {
+        "offset": "0x10fd7b",
+        "text": "mcf_security_decrypt_checksum"
+      },
+      {
+        "offset": "0x10fda1",
+        "text": "mcf_security_decrypt_check_mask"
+      },
+      {
+        "offset": "0x10fdc9",
+        "text": "mcf_security_decrypt_check_mtk_default"
+      },
+      {
+        "offset": "0x10fdf8",
+        "text": "mcf_security_decrypt_initial"
+      },
+      {
+        "offset": "0x10fe1d",
+        "text": "mcf_security_decrypt_context"
+      },
+      {
+        "offset": "0x10fe42",
+        "text": "mcf_start_security_decrypt_interface"
+      },
+      {
+        "offset": "0x10fe6f",
+        "text": "mcf_security_compare_hash_calculate_hash"
+      },
+      {
+        "offset": "0x10fea0",
+        "text": "mcf_security_verify_digest"
+      },
+      {
+        "offset": "0x10fec3",
+        "text": "mcf_security_decrypt_check_digest"
+      },
+      {
+        "offset": "0x11517a",
+        "text": "mcf_auto_select_opota_initial"
+      },
+      {
+        "offset": "0x1151a0",
+        "text": "mcf_auto_select_opota_sorting_g_op_list"
+      },
+      {
+        "offset": "0x1151d0",
+        "text": "mcf_auto_select_opota_sorting_op_list"
+      },
+      {
+        "offset": "0x1151fe",
+        "text": "mcf_auto_select_opota_check_g_op_update"
+      },
+      {
+        "offset": "0x11522e",
+        "text": "mcf_auto_select_opota_check_op_update"
+      },
+      {
+        "offset": "0x11525c",
+        "text": "mcf_auto_select_opota_end"
+      },
+      {
+        "offset": "0x11527e",
+        "text": "mcf_auto_select_opota_update_value_write_in_nv"
+      },
+      {
+        "offset": "0x117c19",
+        "text": "mcf_auto_select_nwota_initial"
+      },
+      {
+        "offset": "0x117c3f",
+        "text": "mcf_auto_select_nwota_sorting_g_nw_list"
+      },
+      {
+        "offset": "0x117c6f",
+        "text": "mcf_auto_select_nwota_sorting_nw_list"
+      },
+      {
+        "offset": "0x117c9d",
+        "text": "mcf_auto_select_nwota_check_g_nw_update"
+      },
+      {
+        "offset": "0x117ccd",
+        "text": "mcf_auto_select_nwota_check_nw_update"
+      },
+      {
+        "offset": "0x117cfb",
+        "text": "mcf_auto_select_nwota_store_g_nw_lid"
+      },
+      {
+        "offset": "0x117d28",
+        "text": "mcf_auto_select_nwota_store_nw_lid"
+      },
+      {
+        "offset": "0x117d53",
+        "text": "mcf_auto_select_nwota_end"
+      },
+      {
+        "offset": "0x1ed97b",
+        "text": "errc_mob_rpt_add_nr_black_cell_list"
+      },
+      {
+        "offset": "0x1eec98",
+        "text": "errc_mob_imrm_query_nr_black_cell"
+      },
+      {
+        "offset": "0x1fc56f",
+        "text": "errc_rcm_mrs_endc_serving_cell_blacklisted"
+      },
+      {
+        "offset": "0x37678a",
+        "text": "mrs_eas_endc_current_cell_blacklisted"
+      },
+      {
+        "offset": "0x37717d",
+        "text": "fdd_mrs_gas_update_disable_nr_cap"
+      },
+      {
+        "offset": "0x378080",
+        "text": "mrs_nras_sa_nr_band_bitmask_get_by_plmn"
+      },
+      {
+        "offset": "0x3780b0",
+        "text": "mrs_nras_endc_nr_band_bitmask_get_by_plmn"
+      },
+      {
+        "offset": "0x3780e2",
+        "text": "mrs_nras_is_supported_nr_band_plmn"
+      },
+      {
+        "offset": "0x37810d",
+        "text": "mrs_nras_is_supported_sa_nr_band_plmn"
+      },
+      {
+        "offset": "0x37813b",
+        "text": "mrs_nras_is_supported_endc_nr_band_plmn"
+      },
+      {
+        "offset": "0x378202",
+        "text": "mrs_nras_is_mcc_or_sbp_op_id_match"
+      },
+      {
+        "offset": "0x37822d",
+        "text": "mrs_nras_band_support_in_band_bitmask"
+      },
+      {
+        "offset": "0x3782b6",
+        "text": "mrs_nras_get_band_update_by_plmn_last_caller_id"
+      },
+      {
+        "offset": "0x3786e3",
+        "text": "mrs_nras_is_supported_partial_band_under_mcc"
+      },
+      {
+        "offset": "0x378845",
+        "text": "mrs_nras_record_bad_sul_cell_in_black_list"
+      },
+      {
+        "offset": "0x3788d5",
+        "text": "mrs_nras_band_setting_update_by_plmn"
+      },
+      {
+        "offset": "0x37c487",
+        "text": "mrs_nras_mcc_recog_thash_distance.part.1"
+      },
+      {
+        "offset": "0x37c4e3",
+        "text": "mrs_nras_mcc_recog_need"
+      },
+      {
+        "offset": "0x37c503",
+        "text": "mrs_nras_mcc_recog_centered_cosine_distance"
+      },
+      {
+        "offset": "0x37c537",
+        "text": "mrs_nras_mcc_recog_thash_distance"
+      },
+      {
+        "offset": "0x37c561",
+        "text": "mrs_nras_mcc_recog_variance"
+      },
+      {
+        "offset": "0x37c585",
+        "text": "mrs_nras_mcc_recog_get_mcc_for_test_data"
+      },
+      {
+        "offset": "0x37c5b6",
+        "text": "mrs_nras_mcc_recog_get_mcc"
+      },
+      {
+        "offset": "0x37c5d9",
+        "text": "mrs_nras_mcc_recog_get_latest_mcc"
+      },
+      {
+        "offset": "0x39b0b3",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_Resources_maxNumberAperiodicSRS_PerBWP_support_API"
+      },
+      {
+        "offset": "0x39b11b",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_Resources_maxNumberAperiodicSRS_PerBWP_PerSlot_support_API"
+      },
+      {
+        "offset": "0x39b18b",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_Resources_maxNumberPeriodicSRS_PerBWP_support_API"
+      },
+      {
+        "offset": "0x39b1f2",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_Resources_maxNumberPeriodicSRS_PerBWP_PerSlot_support_API"
+      },
+      {
+        "offset": "0x39b261",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_Resources_maxNumberSemiPersistentSRS_PerBWP_support_API"
+      },
+      {
+        "offset": "0x39b2ce",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_Resources_maxNumberSemiPersistentSRS_PerBWP_PerSlot_support_API"
+      },
+      {
+        "offset": "0x39b39e",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResources_r16_srs_posRes_support_API"
+      },
+      {
+        "offset": "0x39b410",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResources_r16_maxNumberSRS_PosResourceSetPerBWP_r16_API"
+      },
+      {
+        "offset": "0x39b495",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResources_r16_maxNumberSRS_PosResourcesPerBWP_r16_API"
+      },
+      {
+        "offset": "0x39b518",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResources_r16_maxNumberSRS_ResourcesPerBWP_PerSlot_r16_API"
+      },
+      {
+        "offset": "0x39b5a0",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResources_r16_maxNumberPeriodicSRS_PosResourcesPerBWP_r16_API"
+      },
+      {
+        "offset": "0x39b62b",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResources_r16_maxNumberPeriodicSRS_PosResourcesPerBWP_PerSlot_r16_API"
+      },
+      {
+        "offset": "0x39b6be",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResourceAP_r16_srs_posRes_ap_support_API"
+      },
+      {
+        "offset": "0x39b734",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResourceAP_r16_maxNumberAP_SRS_PosResourcesPerBWP_r16_API"
+      },
+      {
+        "offset": "0x39b7bb",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResourceAP_r16_maxNumberAP_SRS_PosResourcesPerBWP_PerSlot_r16_API"
+      },
+      {
+        "offset": "0x39b84a",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResourceSP_r16_srs_posRes_sp_support_API"
+      },
+      {
+        "offset": "0x39b8c0",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResourceSP_r16_maxNumberSP_SRS_PosResourcesPerBWP_r16_API"
+      },
+      {
+        "offset": "0x39b947",
+        "text": "NL1_CAP_nr_feature_sets_ul_band_supportedSRS_PosResources_r16_srs_PosResourceSP_r16_maxNumberSP_SRS_PosResourcesPerBWP_PerSlot_r16_API"
+      },
+      {
+        "offset": "0x4010a6",
+        "text": "AsnDecode_NR_MCCH_Config_r17"
+      },
+      {
+        "offset": "0x404492",
+        "text": "AsnDecode_NR_CFR_ConfigMCCH_MTCH_r17"
+      },
+      {
+        "offset": "0x405482",
+        "text": "AsnEncode_NR_MCC_MNC_Digit"
+      },
+      {
+        "offset": "0x409628",
+        "text": "AsnEncode_NR_MCCH_Config_r17"
+      },
+      {
+        "offset": "0x40bff6",
+        "text": "AsnEncode_NR_CFR_ConfigMCCH_MTCH_r17"
+      },
+      {
+        "offset": "0x40e987",
+        "text": "nrrc_bg_select_band_for_plmn_scan_ind"
+      },
+      {
+        "offset": "0x41a11b",
+        "text": "nrrc_config_l1l2_partial_band_support_check_for_idle"
+      },
+      {
+        "offset": "0x41a158",
+        "text": "nrrc_config_l1l2_partial_band_support_check_for_connected"
+      },
+      {
+        "offset": "0x41d813",
+        "text": "nrrc_config_conv_transform_precoder_disabled_max_nro_of_ports"
+      },
+      {
+        "offset": "0x43e258",
+        "text": "nrrc_search_utility_is_same_rep_mcc"
+      },
+      {
+        "offset": "0x442f8a",
+        "text": "nrrc_si_utilize_preceeding_plmn_mcc"
+      },
+      {
+        "offset": "0x442fb6",
+        "text": "nrrc_si_check_plmn_first_mcc"
+      },
+      {
+        "offset": "0x4434e2",
+        "text": "nrrc_ue_cap_nrrc_band_support_plmn_store"
+      },
+      {
+        "offset": "0x4441c0",
+        "text": "nrrc_nr_band_support_by_plmn_enabled"
+      },
+      {
+        "offset": "0x4441ed",
+        "text": "nrrc_nr_band_bitmask_get_by_plmn"
+      },
+      {
+        "offset": "0x44441c",
+        "text": "nrrc_ncap_band_support_plmn_lid_read_handler"
+      },
+      {
+        "offset": "0x4488c1",
+        "text": "nrrc_search_carrier_add_n_most_recent_mcc_to_plmn_id_list"
+      },
+      {
+        "offset": "0x44a370",
+        "text": "nrrc_search_table_clear_band_priority_list_in_nvram_for_plmn"
+      },
+      {
+        "offset": "0x4adb81",
+        "text": "ULP_NRAreaId_refMCC_isValid"
+      },
+      {
+        "offset": "0x53187d",
+        "text": "vdm_ads_need_snd_disable_nr_emc_service_availability_based_on_operator"
+      }
+    ]
+  },
+  "md1_mddbmetaodb": {
+    "carrier_offset": "0x61fdeb0",
+    "compressed_size": 670783,
+    "decoded_size": 6720096,
+    "decoded_sha256": "64c26b829ea9f88bc8a56a416b0116a211d948a07e31299aa9f6a1fae93cd1ee",
+    "format": "gzip",
+    "first256_hex": "3c3f786d6c2076657273696f6e3d22312e30223f3e0a3c44422076657273696f6e3d22312e30223e0a093c506c6174666f726d3e0a09093c496e666f726d6174696f6e206e616d653d224044425f534947222076616c75653d22366165643166636336353839313862663639343635633132366238613737616222202f3e0a09093c496e666f726d6174696f6e206e616d653d224044425f5349475f53544147455f31222076616c75653d22643635646566393038623463323166643635396334623430633166393763363322202f3e0a09093c496e666f726d6174696f6e206e616d653d224044425f5349475f53544147455f32222076616c75653d223339",
+    "focused_hits": [
+      {
+        "offset": "0x12d2bc",
+        "text": "<Struct name=\"NR_CUSTOM_BC_BLACK_LIST_T\" size=\"1400\">"
+      },
+      {
+        "offset": "0x12d2f5",
+        "text": "<Field name=\"custom_black_endc_list_src\" type_name=\"kal_char\" is_typedef=\"true\" type=\"char\" offset=\"0\" size=\"700\" array_sizes=\"20,35\" description=\"[MCF] ENDC BC black list, ex: b7aa-n78aa\" />"
+      },
+      {
+        "offset": "0x12d3b8",
+        "text": "<Field name=\"custom_black_nrca_list_src\" type_name=\"kal_char\" is_typedef=\"true\" type=\"char\" offset=\"700\" size=\"700\" array_sizes=\"20,35\" description=\"[MCF] NRCA BC black list, ex: n1aa-n5aa\" />"
+      },
+      {
+        "offset": "0x162e35",
+        "text": "<Field name=\"ipol_ims_vops_barring_vplmn_enable\" type_name=\"kal_uint8\" is_typedef=\"true\" type=\"unsigned char\" offset=\"6\" size=\"1\" description=\"[MCF]When ipol_ims_roaming_barring_enable is disabled and this flag is enabled, UE disallows IMS on CELL when VOPS no capability while roaming, Bit[0]:LTE, Bit[1]:NR\" />"
+      },
+      {
+        "offset": "0x1651ce",
+        "text": "<Field name=\"ipol_ims_nr_incall_ho_enable\" type_name=\"kal_uint8\" is_typedef=\"true\" type=\"unsigned char\" offset=\"45\" size=\"1\" description=\"[MCF]When disable, UE won't perform handover between NR and WLAN during on-going IMS call\" />"
+      },
+      {
+        "offset": "0x206d90",
+        "text": "<Struct name=\"nvram_ef_mcf_file_security_struct\" size=\"416\">"
+      },
+      {
+        "offset": "0x206dd0",
+        "text": "<Field name=\"security\" type_name=\"kal_char\" is_typedef=\"true\" type=\"char\" offset=\"0\" size=\"32\" array_sizes=\"32\" description=\"[RUNTIME,INTERNAL]MCF file security\" />"
+      },
+      {
+        "offset": "0x206e78",
+        "text": "<Field name=\"enhanced_security\" type_name=\"kal_uint8\" is_typedef=\"true\" type=\"unsigned char\" offset=\"32\" size=\"384\" array_sizes=\"384\" description=\"[RUNTIME,INTERNAL]MCF file enhanced security\" />"
+      },
+      {
+        "offset": "0x21161b",
+        "text": "<Field name=\"cp_setting_cp_5g_disable\" type_name=\"kal_bool\" type=\"enum\" offset=\"409\" size=\"1\" description=\"[MCF,RUNTIME][Control Plane]enable/disable CP NR functionality\" />"
+      },
+      {
+        "offset": "0x211a69",
+        "text": "<Field name=\"cp_setting_nr_ecid_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"415\" size=\"1\" description=\"[MCF,RUNTIME][Control Plane]enable/disable CP NR E-CID capability\" />"
+      },
+      {
+        "offset": "0x211b1e",
+        "text": "<Field name=\"cp_setting_nr_pos_dl_tdoa_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"416\" size=\"1\" description=\"[MCF,RUNTIME][Control Plane]enable/disable CP NR DL-TDOA capability\" />"
+      },
+      {
+        "offset": "0x211bdc",
+        "text": "<Field name=\"cp_setting_nr_pos_dl_aod_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"417\" size=\"1\" description=\"[MCF,RUNTIME][Control Plane]enable/disable CP NR DL-AODcapability\" />"
+      },
+      {
+        "offset": "0x211c97",
+        "text": "<Field name=\"cp_setting_nr_pos_mrtt_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"418\" size=\"1\" description=\"[MCF,RUNTIME][Control Plane]enable/disable CP NR Multi-RTT capability\" />"
+      },
+      {
+        "offset": "0x213649",
+        "text": "<Field name=\"up_setting_nr_ecid_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"451\" size=\"1\" description=\"[MCF,RUNTIME][User Plane]enable/disable NR E-CID capability\" />"
+      },
+      {
+        "offset": "0x2136f8",
+        "text": "<Field name=\"up_setting_nr_pos_dl_tdoa_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"452\" size=\"1\" description=\"[MCF,RUNTIME][User Plane]enable/disable NR DL-TDOA capability\" />"
+      },
+      {
+        "offset": "0x2137b0",
+        "text": "<Field name=\"up_setting_nr_pos_dl_aod_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"453\" size=\"1\" description=\"[MCF,RUNTIME][User Plane]enable/disable NR DL-AoD capability\" />"
+      },
+      {
+        "offset": "0x213866",
+        "text": "<Field name=\"up_setting_nr_pos_mrtt_enable\" type_name=\"kal_bool\" type=\"enum\" offset=\"454\" size=\"1\" description=\"[MCF,RUNTIME][User Plane]enable/disable NR Multi-RTT capability\" />"
+      },
+      {
+        "offset": "0x21985a",
+        "text": "<Field name=\"xarfcn\" type_name=\"kal_uint32\" is_typedef=\"true\" type=\"unsigned int\" offset=\"24\" size=\"4\" description=\"The downlink carrier ARFCN/UARFCN/EARFCN/NRARFCN of the 2G/3G/4G/5G black cell\" />"
+      },
+      {
+        "offset": "0x21c6f5",
+        "text": "<Field name=\"mrs_nr_plmn_band_num\" type_name=\"kal_uint32\" is_typedef=\"true\" type=\"unsigned int\" offset=\"0\" size=\"4\" description=\"[MCF]Number of NR PLMN Band table elements (max 200)\" />"
+      },
+      {
+        "offset": "0x21c7b2",
+        "text": "<Field name=\"mrs_nr_plmn_band_tbl\" type_name=\"nvram_ef_mrs_nr_plmn_band_struct\" type=\"struct\" offset=\"4\" size=\"8000\" array_sizes=\"200\" description=\"[MCF]NR PLMN Band table elements: PLMN + Band (max 200)\" />"
+      },
+      {
+        "offset": "0x21c97e",
+        "text": "<Field name=\"partial_band_table\" type_name=\"nvram_mrs_nr_partial_band_plmn_struct\" type=\"struct\" offset=\"4\" size=\"9600\" array_sizes=\"100\" description=\"[MCF]Partial band table elements\" />"
+      },
+      {
+        "offset": "0x2dea68",
+        "text": "<Field name=\"positive_list\" type_name=\"nvram_nras_positive_band_disable_list_struct\" type=\"struct\" offset=\"0\" size=\"4142\" description=\"[MCF]If PLMN match to PLMN code in the PLMN list, disable related bands\" />"
+      },
+      {
+        "offset": "0x2deb3e",
+        "text": "<Field name=\"inverted_list\" type_name=\"nvram_nras_inverted_band_disable_list_struct\" type=\"struct\" offset=\"4142\" size=\"5042\" description=\"[MCF]If PLMN does not match to any PLMN code in the PLMN group list, disable related bands\" />"
+      },
+      {
+        "offset": "0x2dec2a",
+        "text": "<Field name=\"positive_list_for_national_roaming\" type_name=\"nvram_nras_positive_band_disable_list_for_roaming_struct\" type=\"struct\" offset=\"9184\" size=\"1382\" description=\"[MCF]If PLMN match to PLMN code in the PLMN list, disable related bands under national roaming\" />"
+      },
+      {
+        "offset": "0x2ded3b",
+        "text": "<Field name=\"positive_list_for_international_roaming\" type_name=\"nvram_nras_positive_band_disable_list_for_roaming_struct\" type=\"struct\" offset=\"10566\" size=\"1382\" description=\"[MCF]If PLMN match to PLMN code in the PLMN list, disable related bands under international roaming(mcc different)\" />"
+      },
+      {
+        "offset": "0x2deebb",
+        "text": "<Field name=\"enable_list\" type_name=\"nvram_nras_band_enable_list_struct\" type=\"struct\" offset=\"0\" size=\"2762\" description=\"[MCF]If PLMN match to PLMN code in the PLMN list, set related bands as supported band\" />"
+      },
+      {
+        "offset": "0x2def93",
+        "text": "<Field name=\"enable_list_for_national_roaming\" type_name=\"nvram_nras_band_enable_list_for_roaming_struct\" type=\"struct\" offset=\"2762\" size=\"1382\" description=\"[MCF]If PLMN match to PLMN code in the PLMN list, set related bands as supported band under national roaming\" />"
+      },
+      {
+        "offset": "0x2df0a6",
+        "text": "<Field name=\"enable_list_for_international_roaming\" type_name=\"nvram_nras_band_enable_list_for_roaming_struct\" type=\"struct\" offset=\"4144\" size=\"1382\" description=\"[MCF]If PLMN match to PLMN code in the PLMN list,set related bands as supported band under international roaming(mcc different)\" />"
+      },
+      {
+        "offset": "0x2df8dd",
+        "text": "<Struct name=\"nvram_ef_nrrc_band_support_plmn_struct\" size=\"52404\">"
+      },
+      {
+        "offset": "0x2dfa7e",
+        "text": "<Field name=\"band_support_plmn\" type_name=\"nvram_nr_band_support_plmn_struct\" type=\"struct\" offset=\"4\" size=\"52400\" array_sizes=\"200\" description=\"[MCF] PLMN support band info.\" />"
+      },
+      {
+        "offset": "0x2dfc23",
+        "text": "<Field name=\"plmn_band_info\" type_name=\"nvram_nrrc_plmn_band_info_struct\" type=\"struct\" offset=\"10\" size=\"230\" description=\"[MCF] PLMN band info\" />"
+      },
+      {
+        "offset": "0x325ba8",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NAS_ROAMING_DISABLE_ENDC\" description=\"Disable duplicate CB check for received CB message\" byte_offset=\"91\" bit_offset=\"0\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x329b70",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_4G5_EVALUATE_PING_PONG_CHECK\" description=\"NR diable 4G5 ping-pong evaluate check\" byte_offset=\"97\" bit_offset=\"2\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x32a6ab",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ERRC_DYNAMIC_NR_CAP_ADJUST\" description=\"Disable ENDC/NR IRAT EUTRA capability reporting when abnormal network behavior is detected.\" byte_offset=\"98\" bit_offset=\"3\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x32b60b",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ENDC_DISABLE_NR_B1_DURING_VOLTE\" description=\"For ENDC mode, when VoLTE call is ongoing, disable reporting of NR B1 event.\" byte_offset=\"99\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x32cb42",
+        "text": "<NVRAM_Bit_Data name=\"SBP_EUTRAN_DISABLE_AND_EPS_DETACH_WHEN_IMS_UNREGISTERED_OR_VOPS_NOT_SUPPORT\" description=\"Disable EUTRAN capability and trigger EPS detach if needed when IMS unregistered or VOPS not support.\" byte_offset=\"101\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x332ace",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN\" description=\"User can disable NR band(s) by plmn\" byte_offset=\"111\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x332c0b",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO\" description=\"NR band disable by plmn can be used under simplification scenario or test mode\" byte_offset=\"111\" bit_offset=\"5\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x336ca6",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_B1_BEFORE_VOLTE_SETUP\" description=\"Before VoLTE call is connected, disable reporting of NR B1 event.\" byte_offset=\"118\" bit_offset=\"2\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x33916f",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_B1_WHEN_PEER_SIM_CONNECTED\" description=\"When Peer SIM is SA connected, disable reporting of NR B1 event.\" byte_offset=\"122\" bit_offset=\"1\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x33dd70",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CAP_DISABLE_RF_TRACE\" description=\"Disable NL1 RF related trace during NR cap get NL1 capability procedure.\" byte_offset=\"130\" bit_offset=\"0\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x33deaf",
+        "text": "<NVRAM_Bit_Data name=\"SBP_LTE_DISABLE_B1_NR_IN_SA_MODE\" description=\"disable B1 NR MR in SA mode\" byte_offset=\"130\" bit_offset=\"1\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x33e0d1",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ERRC_DISABLE_NR_B1_DURING_EMR_CALL_DOMAIN_SELECT\" description=\"Skip B1-NR when Emergency call domain selection on going\" byte_offset=\"130\" bit_offset=\"3\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x33e581",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_WITH_SIM\" description=\"User can disable NR band(s) by plmn\" byte_offset=\"130\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3425a7",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_AUTOGAP_DURING_CALL\" description=\"NR autogap during VoLTE\" byte_offset=\"137\" bit_offset=\"5\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x343fcd",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_N1_WHEN_NOT_SUPPORT_ECC_ON_NR\" description=\"Disable N1 mode for ECC when current cell does not support ECC on NR\" byte_offset=\"140\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x347bb9",
+        "text": "<NVRAM_Bit_Data name=\"SBP_REL16_DISABLE_N1_WHEN_NOT_SUPPORT_ECC_ON_NR\" description=\"REL16 Disable N1 mode for ECC when current cell does not support ECC on NR\" byte_offset=\"146\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x348178",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ERRC_DYNAMIC_NR_CAP_ADJUST_WITH_SCENARIO\" description=\"Disable ENDC/NR IRAT EUTRA capability reporting when abnormal network behavior is detected with certain scenario.\" byte_offset=\"147\" bit_offset=\"3\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x34a501",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_PARTIAL_BAND_UNDER_MCC\" description=\"NR partial band under MCC\" byte_offset=\"151\" bit_offset=\"1\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x34d2ce",
+        "text": "<NVRAM_Bit_Data name=\"SBP_CUSTOM_SUBWAY_REDIR_CONTROL\" description=\"Disable customize intra-NR redirection failed control\" byte_offset=\"155\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x34d91f",
+        "text": "<Bit_Value value=\"1\" description=\"1:Enabled, UE will disable abnormal e and request NRRC to establish connection immediately\" />"
+      },
+      {
+        "offset": "0x34de6e",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_RRC_INACTIVE_STATUS\" description=\"UE doesn't disable the inactive state capability.\" byte_offset=\"157\" bit_offset=\"0\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x34fb2b",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_FOR_ROAMING\" description=\"apply roaming NR band disable settings in NVRAM\" byte_offset=\"160\" bit_offset=\"0\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x350d8e",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_ADDITIONAL_NR_MEASUREMENT_DURING_VOLTE\" description=\"Indicate if DUT can start SFTD to measure NR during VoLTE\" byte_offset=\"161\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x352925",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disable LOCAL_DEACTIVATE_NR_SCG\" />"
+      },
+      {
+        "offset": "0x352a68",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disable LOCAL_DEACTIVATE_NR_SCC\" />"
+      },
+      {
+        "offset": "0x353105",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_PARTIAL_BAND_USE_NVRAM\" description=\"Use NVRAM to config NR partial band under MCC\" byte_offset=\"165\" bit_offset=\"6\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x35389c",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_RRM_INDEPENDENT_GAP_CONFIG\" description=\"Disable RRM independent GAP config\" byte_offset=\"166\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x356cb0",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_ROAMING_BAND_WHEN_VONR_NOT_SUPPORT\" description=\"UE doesn't disable the roaming bands in China.\" byte_offset=\"171\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x365a64",
+        "text": "<NVRAM_Bit_Data name=\"SBP_EMM_DISABLE_DCNR_BY_ENDC_BLACKLIST\" description=\"Enable the feature\" byte_offset=\"196\" bit_offset=\"6\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x367c1e",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ENABLE_NR_CONFIGURED_UL_GRANT_TYPE1\" description=\"Enable / disable UE capability report of NR configuredUL-GrantType1.\" byte_offset=\"200\" bit_offset=\"3\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x367dcf",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ENABLE_NR_CONFIGURED_UL_GRANT_TYPE2\" description=\"Enable / disable UE capability report of NR configuredUL-GrantType2.\" byte_offset=\"200\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x36f2d3",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ERRC_DISABLE_NR_B1_DURING_EMR_CALL_EPS_VOICE_FALLBACK\" description=\"Skip B1-NR when Emergency call on going for NR EPS Voice Fallback\" byte_offset=\"212\" bit_offset=\"5\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x36fcde",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_MAX_UL_DUTY_CYCLE_ENDC_FDD_TDD_PC2_REPORT\" description=\"Disable report maxUplinkDutyCycle-interBandENDC-FDD-TDD-PC2-r16 in UE Capability\" byte_offset=\"213\" bit_offset=\"5\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x370eb9",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NRAS_ADDITIONAL_PLMN_IN_BAND_STORED_SEARCH\" description=\"Control to apply additional PLMN targets for NAS triggered PLMN Search with no specify target PLMN\" byte_offset=\"215\" bit_offset=\"3\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x371c0b",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_FOR_VOICE_WHEN_NO_LOW_RAT\" description=\"If can disable NR for voice even when no low RAT\" byte_offset=\"216\" bit_offset=\"6\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x372215",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN\" description=\"Customize supported NR band by PLMN\" byte_offset=\"217\" bit_offset=\"3\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x372343",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO\" description=\"custom enable band by plmn can be used under simplification scenario or test mode\" byte_offset=\"217\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x37251e",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_FOR_ROAMING\" description=\"User can set NR support band(s) based on SIB PLMN and ehplmn\" byte_offset=\"217\" bit_offset=\"5\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x372b70",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NWSEL_SKIP_NR_SEARCH_WHEN_SA_DISABLE_BY_MCC\" description=\"Skip all types of search on RAT_NR if SA is disabled for detected MCC\" byte_offset=\"218\" bit_offset=\"2\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x37b4cd",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_SERVICE_AVAILABILITY\" description=\"disable NR RAT after emergency call disconnect\" byte_offset=\"232\" bit_offset=\"2\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x37bd20",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NRAS_IGNORE_NAS_REQUEST_BAND\" description=\"Control to apply additional PLMN targets for NAS triggered PLMN Search with no specify target PLMN\" byte_offset=\"233\" bit_offset=\"1\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x38125e",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_DISABLE_SERV_SET_LOWEST_PRIORITY\" description=\"NR_DISABLE_SERV_SET_LOWEST_PRIORITY\" byte_offset=\"242\" bit_offset=\"2\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x38bcb7",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_INTRA_BAND_UDC_COM_NO_CFG\" description=\"Disable NR Intraband CA without UDC_COMMON\" byte_offset=\"260\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x391001",
+        "text": "<NVRAM_Bit_Data name=\"SBP_ERRC_DISABLE_NR_B1_DURING_EPS_VOICE_FALLBACK\" description=\"Skip B1-NR when call on going for NR EPS Voice Fallback\" byte_offset=\"268\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x391b61",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NWSEL_SKIP_NR_MANUAL_PLMN_LIST_WHEN_SA_DISABLE_BY_MCC\" description=\"Skip manual PLMN list on RAT_NR if SA is disabled for the detected MCC\" byte_offset=\"270\" bit_offset=\"0\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x397f56",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disable: Trigger measurement report of NR exclude list cell\" />"
+      },
+      {
+        "offset": "0x39e04b",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_HST_A3_RECOVERY_DISABLE_DURING_VONR\" description=\"disable HST A3 recovery during VoNR\" byte_offset=\"290\" bit_offset=\"1\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3a72a1",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disable NR intra-band 1TX DSDA\" />"
+      },
+      {
+        "offset": "0x3a8520",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_GAP_ALIGN_RRT\" description=\"Enable/disable NR SMALL GAP ALIGN RRT feature\" byte_offset=\"306\" bit_offset=\"7\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3a8fbb",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NRRC_ERRC_CELL_REJ\" description=\"NRRC disable send cell reject to ERRC\" byte_offset=\"308\" bit_offset=\"0\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3ac3c1",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_B2_DURING_CALL\" description=\"When call is ongoing, disable reporting of NR B2 event.\" byte_offset=\"313\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3ac4f1",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_NR_B2_BEFORE_CALL_SETUP\" description=\"Before call is connected, disable reporting of NR B2 event.\" byte_offset=\"313\" bit_offset=\"5\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3ad710",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_TRUSTABLE_B1_NR_TTT_REDUCTION_DUR_TAU\" description=\"not shorten time to trigger(ttt) by SBP_TRUSTABLE_B1_NR_TTT_REDUCTION during TAU\" byte_offset=\"315\" bit_offset=\"4\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3afd61",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_DISABLE_8RX_CUSTOM\" description=\"NR 8Rx feature disable option\" byte_offset=\"319\" bit_offset=\"2\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3aff48",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disable local deact NR SCC(s) when the other gap-not-allow SIM EPSFB happens\" />"
+      },
+      {
+        "offset": "0x3b2350",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_FDD_PC2\" description=\"NR FDD HPUE PC2 turn off\" byte_offset=\"323\" bit_offset=\"1\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3b2457",
+        "text": "<NVRAM_Bit_Data name=\"SBP_DISABLE_CA_FDD_PC2\" description=\"NR FDD with DLCA HPUE PC2 turn off\" byte_offset=\"323\" bit_offset=\"2\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3b5b32",
+        "text": "<NVRAM_Bit_Data name=\"SBP_VOWIFI_DISABLE_5G_SA_CHECK_VONR_BIT\" description=\"Enable check the VoNR bit for VoWiFi disable 5G SA\" byte_offset=\"328\" bit_offset=\"6\" bit_count=\"1\">"
+      },
+      {
+        "offset": "0x3bf168",
+        "text": "<NVRAM_Bit_Data name=\"SBP_EMM_CONTROL_DCNR_BIT\" description=\"Enabled/Disabled DCNR bit for FT testing\" byte_offset=\"53\" bit_offset=\"0\" bit_count=\"8\">"
+      },
+      {
+        "offset": "0x3bf243",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disable DCNR bit\" />"
+      },
+      {
+        "offset": "0x3cbd8d",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_A3A4A5_CUSTOM_CELL_THRESH\" description=\"Enable/Disable additional pcell/ncell custom threshold check for NR A3/A4/A5 report\" byte_offset=\"166\" bit_offset=\"0\" bit_count=\"8\">"
+      },
+      {
+        "offset": "0x3cc0eb",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_TO_LTE_RESEL_CELL_THRESH\" description=\"Enable/Disable additional pcell/ncell custom threshold check for NR to LTE reselection\" byte_offset=\"168\" bit_offset=\"0\" bit_count=\"8\">"
+      },
+      {
+        "offset": "0x3d138a",
+        "text": "<NVRAM_Bit_Data name=\"SBP_NR_TO_NR_RESEL_CELL_THRESH\" description=\"Enable/Disable additional pcell/ncell custom threshold check for NR to NR reselection\" byte_offset=\"207\" bit_offset=\"0\" bit_count=\"8\">"
+      },
+      {
+        "offset": "0x3d1459",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disable custom threshold check for NR to NR reselection\" />"
+      },
+      {
+        "offset": "0x3e6804",
+        "text": "<NVRAM_Bit_Data name=\"SBP_CHECK_CALL_DOMAIN_WHEN_DISABLE_NR_B1\" description=\"Disable NR B1 report by call domain\" byte_offset=\"348\" bit_offset=\"0\" bit_count=\"8\">"
+      },
+      {
+        "offset": "0x3e68ee",
+        "text": "<Bit_Value value=\"1\" description=\"1:Disable NR B1 report while in wifi domain\" />"
+      },
+      {
+        "offset": "0x3e9f32",
+        "text": "<Bit_Value value=\"0\" description=\"0:Disabled rtp silence trigger NRRC release notify\" />"
+      },
+      {
+        "offset": "0x3f0ecc",
+        "text": "<Bit_Value value=\"0\" description=\"0:0: Disable NR CC control.\" />"
+      },
+      {
+        "offset": "0x47b661",
+        "text": "<Field name=\"range\" type_name=\"nvram_errc_dnca_disable_range_enum\" type=\"enum\" offset=\"16\" size=\"1\" description=\"feature disable range (ENDC + DCNR; SA + N1; BOTH)\" />"
+      },
+      {
+        "offset": "0x4aa2ad",
+        "text": "<Field name=\"vo3gpp_cap\" type_name=\"kal_uint16\" is_typedef=\"true\" type=\"unsigned short\" offset=\"2\" size=\"2\" description=\"[MCF]IMS voice over cellular RAT functionality, 0 means disable, 1 means voice over LTE enable, 2 means voice over LTE and NR enable\" />"
+      },
+      {
+        "offset": "0x4aa3b2",
+        "text": "<Field name=\"vi3gpp_cap\" type_name=\"kal_uint16\" is_typedef=\"true\" type=\"unsigned short\" offset=\"4\" size=\"2\" description=\"[MCF]IMS video over cellular RAT functionality, 0 means disable, 1 means video over LTE enable, 2 means video over LTE and NR enable\" />"
+      },
+      {
+        "offset": "0x4db38f",
+        "text": "<Struct name=\"nvram_mrs_nr_partial_band_plmn_struct\" size=\"96\">"
+      },
+      {
+        "offset": "0x4dcdc7",
+        "text": "<Field name=\"ampr_ns_replace_table\" type_name=\"NR_AMPR_NS_REPLACE_TABLE_T\" type=\"struct\" offset=\"0\" size=\"688\" array_sizes=\"8\" description=\"[MCF] NR A-MPR NS replacement by MCC/MNC table.\" />"
+      },
+      {
+        "offset": "0x4dfc3c",
+        "text": "<Struct name=\"nvram_nr_band_support_plmn_struct\" size=\"262\">"
+      },
+      {
+        "offset": "0x4dfee6",
+        "text": "<Struct name=\"nvram_nras_band_enable_list_for_plmn_struct\" size=\"138\">"
+      },
+      {
+        "offset": "0x4e0391",
+        "text": "<Field name=\"plmn_list\" type_name=\"nvram_nras_band_enable_list_for_plmn_struct\" type=\"struct\" offset=\"2\" size=\"1380\" array_sizes=\"10\" description=\"[MCF]List of PLMN codes and related bands\" />"
+      },
+      {
+        "offset": "0x4e054f",
+        "text": "<Field name=\"plmn_list\" type_name=\"nvram_nras_band_enable_list_for_plmn_struct\" type=\"struct\" offset=\"2\" size=\"2760\" array_sizes=\"20\" description=\"[MCF]List of PLMN codes and related bands\" />"
+      },
+      {
+        "offset": "0x4e061e",
+        "text": "<Struct name=\"nvram_nras_inverted_band_disable_list_for_plmn_struct\" size=\"252\">"
+      },
+      {
+        "offset": "0x4e0b9d",
+        "text": "<Field name=\"plmn_group_list\" type_name=\"nvram_nras_inverted_band_disable_list_for_plmn_struct\" type=\"struct\" offset=\"2\" size=\"5040\" array_sizes=\"20\" description=\"[MCF]List of PLMNs and related band lists\" />"
+      },
+      {
+        "offset": "0x4e0c7c",
+        "text": "<Struct name=\"nvram_nras_positive_band_disable_list_for_plmn_struct\" size=\"138\">"
+      },
+      {
+        "offset": "0x4e110d",
+        "text": "<Field name=\"plmn_list\" type_name=\"nvram_nras_positive_band_disable_list_for_plmn_struct\" type=\"struct\" offset=\"2\" size=\"1380\" array_sizes=\"10\" description=\"[MCF]List of PLMN codes and related bands\" />"
+      },
+      {
+        "offset": "0x4e12df",
+        "text": "<Field name=\"plmn_list\" type_name=\"nvram_nras_positive_band_disable_list_for_plmn_struct\" type=\"struct\" offset=\"2\" size=\"4140\" array_sizes=\"30\" description=\"[MCF]List of PLMN codes and related bands\" />"
+      },
+      {
+        "offset": "0x4e68b8",
+        "text": "<Field name=\"plmn_band_list\" type_name=\"nvram_nrrc_plmn_band_info_record_struct\" type=\"struct\" offset=\"0\" size=\"230\" array_sizes=\"5\" description=\"PLMN list\" />"
+      },
+      {
+        "offset": "0x52b78d",
+        "text": "<Field name=\"dont_disable_n1_when_nw_not_support_n1_ecc_esfb\" type_name=\"kal_uint8\" is_typedef=\"true\" type=\"unsigned char\" offset=\"62\" size=\"1\" description=\"To not disable N1 when NW doesnt support ecc over NR and ESFB\" />"
+      },
+      {
+        "offset": "0x52f16c",
+        "text": "<Field name=\"p1_custom_disable_time\" type_name=\"kal_uint32\" is_typedef=\"true\" type=\"unsigned int\" offset=\"8\" size=\"4\" description=\"the interval time (s) for disabling rat-related PLMN (disable NR)\" />"
+      },
+      {
+        "offset": "0x5f9b72",
+        "text": "<Enumerator key=\"NVRAM_EF_NRRC_BAND_SUPPORT_PLMN_LID\" value=\"65\" />"
+      },
+      {
+        "offset": "0x5fecc5",
+        "text": "<Enumerator key=\"NVRAM_EF_NRRC_BAND_SUPPORT_PLMN_LID\" value=\"86\" />"
+      },
+      {
+        "offset": "0x655375",
+        "text": "<NVRAM_LID name=\"NVRAM_EF_MCF_FILE_SECURITY_LID\" id=\"4103\" record_count=\"1\" version=\"1\" type_name=\"nvram_ef_mcf_file_security_struct\" is_struct=\"true\" />"
+      },
+      {
+        "offset": "0x65b0bf",
+        "text": "<NVRAM_LID name=\"NVRAM_EF_MRS_NR_BAND_DISABLE_LIST_LID\" id=\"2375\" record_count=\"2\" version=\"17\" type_name=\"nvram_ef_nr_custom_band_disable_list_struct\" is_struct=\"true\" />"
+      },
+      {
+        "offset": "0x65dd95",
+        "text": "<NVRAM_LID name=\"NVRAM_EF_NL1_PLMN_BC_BLACK_LIST_LID\" id=\"57469\" record_count=\"1\" version=\"0\" type_name=\"NR_CUSTOM_BC_BLACK_LIST_T\" is_struct=\"true\" />"
+      },
+      {
+        "offset": "0x6608e3",
+        "text": "<NVRAM_LID name=\"NVRAM_EF_NRRC_BAND_SUPPORT_PLMN_LID\" id=\"2439\" record_count=\"1\" version=\"15\" type_name=\"nvram_ef_nrrc_band_support_plmn_struct\" is_struct=\"true\" />"
+      }
+    ]
+  },
+  "md1_mdmlayout": {
+    "carrier_offset": "0x6c99ad0",
+    "compressed_size": 8093400,
+    "decoded_size": 8093400,
+    "decoded_sha256": "05b9297ad386bf3b6497534f4ae0ba1d0f136433ee21354ae1c31801e5a3249a",
+    "format": "plaintext",
+    "first256_hex": "2323232323232056455220322e30202323232323230a0a234f54415f494e464f0a4f54415f54524143455f49445f4f46465345542c2032382c20340a4f54415f53494d5f4944585f4f46465345542c2033342c20320a44484c5f504545525f54455354283139393233303435292c204f54415f4d53475f4f46465345542c2035320a44484c5f504545525f54455354283139393233303435292c20504152414d5f302c2033362c20340a44484c5f504545525f54455354283139393233303435292c20504152414d5f312c2034302c20340a44484c5f504545525f54455354283139393233303435292c20504152414d5f322c2034342c20340a54525f55545f",
+    "focused_hits": [
+      {
+        "offset": "0x1eba7",
+        "text": "PROTOCOL_SECTION__NR_RRC_MCCH(1315)"
+      }
+    ]
+  }
+}

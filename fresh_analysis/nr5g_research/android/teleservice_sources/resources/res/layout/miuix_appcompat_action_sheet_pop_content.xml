@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionSheetWrapper"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <miuix.smooth.SmoothFrameLayout2
+        android:id="@+id/rootContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:radius="@dimen/miuix_appcompat_actionsheet_popup_radius">
+        <include layout="@layout/miuix_appcompat_action_sheet_pop_content_container"/>
+    </miuix.smooth.SmoothFrameLayout2>
+</FrameLayout>

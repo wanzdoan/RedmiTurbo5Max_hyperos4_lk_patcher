@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="actionBarCBVideo">Video call barring (%s)</string>
+    <string name="actionBarCBVoice">Voice call barring (%s)</string>
+    <string name="actionBarCFVideo">Video call forwarding (%s)</string>
+    <string name="actionBarCFVoice">Voice call forwarding (%s)</string>
+    <string name="alert_turn_off_volte">To complete the operation, you need to turn off VoLTE.</string>
+    <string name="alert_volte_no_service">%s VoLTE and call services unavailable currently. Turn VoLTE off?</string>
+    <string name="cdma_cnir_title">CNIR</string>
+    <string name="cdma_cnir_turnoff">Disable caller number identification restriction</string>
+    <string name="cdma_cnir_turnon">Enable caller number identification restriction</string>
+    <string name="cdma_labelCFB">Forward when busy</string>
+    <string name="cdma_labelCFC">Cancel all forwarding</string>
+    <string name="cdma_labelCFNRc">Forward when unreachable</string>
+    <string name="cdma_labelCFNRy">Forward when unanswered</string>
+    <string name="cdma_labelCFU">Always forward</string>
+    <string name="dual_mic_summary">Suppress your background noise during calls</string>
+    <string name="dual_mic_title">Noise reduction</string>
+    <string name="fdn_contact_number_invalid">Invalid contact number.</string>
+    <string name="fdn_errorcode_name_info">Failed,the length of contact name is too long.</string>
+    <string name="fdn_errorcode_number_info">Failed,the length of contact number is too long.</string>
+    <string name="fdn_errorcode_phb_info">Failed,Phone book is not ready now,please try later.</string>
+    <string name="fdn_errorcode_pin2_info">Failed,invalid PIN2.</string>
+    <string name="fdn_errorcode_storage_info">Failed,storage is full.</string>
+    <string name="fdn_errorcode_unknown_info">Failed,unknown error occured,please try later.</string>
+    <string name="fdn_phone_book_busy">Phone book is busy now,please try later.</string>
+    <string name="fdn_puk_need_tips">PIN2 Blocked. Please change PIN2 and retry!</string>
+    <string name="labelCBVideo">Video call barring</string>
+    <string name="labelCBVoice">Voice call barring</string>
+    <string name="labelCFVideo">Video call forwarding</string>
+    <string name="labelCFVoice">Voice call forwarding</string>
+    <string name="retries_left">%d retries left</string>
+    <string name="vilte_srvcc_tip">Network reason, switched to voice call.</string>
+    <string name="vilte_to_voice_call">Switched to voice call</string>
+    <string name="volte_conf_member_reach_max">The conference already reached maximum members.</string>
+    <string name="volte_fail_to_invit_participants">Failed to add all members to the conference.</string>
+    <string name="volte_is_adding_participants">Adding conference member(s), please wait...</string>
+    <string name="volte_ss_not_available_tips">To complete the operation, you need to open data connection of %s.</string>
+    <string name="volte_ss_not_available_tips_data">To complete the operation, you need to turn on data connection of %s.</string>
+    <string name="volte_ss_not_available_tips_data_roaming">To complete the operation, you need to turn on data connection and data roaming of %s.</string>
+    <string name="volte_ss_not_available_tips_data_traffic">Slight %s cellular data will be temporarily used. Continue?</string>
+    <string name="volte_ss_not_available_tips_roaming">To complete the operation, you need to turn on data roaming of %s.</string>
+    <string name="wfc_internet_connection_lost">Internet connection lost</string>
+    <string name="wfc_mode_ims_preferred_title">Call over IMS</string>
+    <string name="wfc_no_network">No available qualified mobile network</string>
+    <string name="wfc_wifi_call_drop">WLAN call dropped</string>
+</resources>

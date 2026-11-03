@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </array>
+    <array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </array>
+    <array name="cdma_system_select_choices">
+        <item>پەقەت يەرلىك سىستېما</item>
+        <item>ئاپتوماتىك</item>
+    </array>
+    <array name="clir_display_values">
+        <item>سۈكۈتتىكى تور تەڭشەك</item>
+        <item>نومۇر يۇشۇرۇش</item>
+        <item>كەلگەن نومۇرنى كۆرسىتىش</item>
+    </array>
+    <array name="dtmf_tone_entries">
+        <item>نورمال</item>
+        <item>ئۇزۇن</item>
+    </array>
+    <array name="list_language_entries">
+        <item>ئېنگلىزچە</item>
+        <item>فىرانسۇزچە</item>
+        <item>ئىسپانچە</item>
+        <item>ياپونچە</item>
+        <item>كورىيەچە</item>
+        <item>خەنزۇچە</item>
+        <item>ئىبرانىچە</item>
+    </array>
+    <array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </array>
+    <array name="preferred_network_mode_choices">
+        <item>ئالدىن تاللايدىغان GSM/WCDMA</item>
+        <item>پەقەت GSM</item>
+        <item>پەقەت WCDMA</item>
+        <item>GSM/WCDMA ئاپتوماتىك تاللاش</item>
+        <item>CDMA/EvDo ئاپتوماتىك تاللاش</item>
+        <item>EvDo ئىقتىدارى يوق، CDMA</item>
+        <item>EvDo لا</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>ئورتاق</item>
+        <item>LTE</item>
+        <item>LTE/WCDMA</item>
+        <item>پەقەت TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+    </array>
+    <array name="tty_mode_entries">
+        <item>TTY تاقاش</item>
+        <item>TTY تولۇق</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </array>
+</resources>

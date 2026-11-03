@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/autoip_no_exceptions"
+        style="@android:style/TextAppearance.Small"/>
+    <miuix.springback.view.SpringBackLayout
+        android:background="@color/background_grey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scrollableView="@android:id/list">
+        <com.android.phone.settings.EditableRecyclerView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fastScrollEnabled="true"/>
+    </miuix.springback.view.SpringBackLayout>
+</merge>

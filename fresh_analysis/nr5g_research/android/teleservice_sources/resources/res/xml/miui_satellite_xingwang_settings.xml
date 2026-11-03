@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/satellite_xingwang_setting"
+        android:key="xingwang_satellite">
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:title="@string/satellite_xingwang_mobile_settings_title"
+            android:key="xingwang_satellite_enabled_key"
+            android:summary="@string/satellite_xingwang_mobile_settings_summary"/>
+        <Preference
+            android:title="@string/satellite_xingwang_findout_settings_title"
+            android:key="xingwang_satellite_explain_key"/>
+        <Preference
+            android:title="@string/satellite_xingwang_privacy_withdrawal_setting"
+            android:key="xingwang_satellite_privacy_withdrawal_key"/>
+    </PreferenceCategory>
+</PreferenceScreen>

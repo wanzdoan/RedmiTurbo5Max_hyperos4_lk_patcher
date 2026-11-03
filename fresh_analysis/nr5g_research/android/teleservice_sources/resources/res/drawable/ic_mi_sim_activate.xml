@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="@dimen/mi_sim_activate_icon_height"
+    android:width="@dimen/mi_sim_activate_icon_width"
+    android:viewportWidth="320"
+    android:viewportHeight="320">
+    <path
+        android:fillColor="#eef5fe"
+        android:pathData="M160,160m-160,0a160,160 0,1 1,320 0a160,160 0,1 1,-320 0"/>
+    <path
+        android:fillColor="@drawable/_ic_mi_sim_activate__0_res_0x7f080000"
+        android:pathData="M201.503,50H120.452C111.348,50 104,57.366 104,66.491V221.509C104,230.634 111.348,238 120.452,238H223.548C232.652,238 240,230.634 240,221.509V89.359C240,87.05 239.068,84.797 237.423,83.147L206.439,52.034C205.123,50.715 203.313,50 201.503,50Z"
+        android:fillAlpha="0.6"/>
+    <path
+        android:fillColor="@drawable/_ic_mi_sim_activate__1_res_0x7f080001"
+        android:pathData="M185.503,66H104.452C95.348,66 88,73.366 88,82.491V237.509C88,246.634 95.348,254 104.452,254H207.548C216.652,254 224,246.634 224,237.509V105.359C224,103.05 223.068,100.796 221.423,99.147L190.439,68.034C189.123,66.715 187.313,66 185.503,66Z"/>
+    <path
+        android:fillColor="@drawable/_ic_mi_sim_activate__2_res_0x7f080002"
+        android:pathData="M112,125L200,125A8,8 0,0 1,208 133L208,230A8,8 0,0 1,200 238L112,238A8,8 0,0 1,104 230L104,133A8,8 0,0 1,112 125z"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M112,123L200,123A10,10 0,0 1,210 133L210,230A10,10 0,0 1,200 240L112,240A10,10 0,0 1,102 230L102,133A10,10 0,0 1,112 123z"
+        android:strokeColor="#e2eeff"
+        android:strokeWidth="4"
+        android:strokeAlpha="0.12"/>
+    <path
+        android:fillColor="@drawable/_ic_mi_sim_activate__3_res_0x7f080003"
+        android:pathData="M140,125V159H172V125H177V159H208V164H104V159H135V125H140Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_mi_sim_activate__4_res_0x7f080004"
+        android:pathData="M104,199H208V204H177V238H172V204H140V238H135L135,204H104V199Z"
+        android:fillType="evenOdd"/>
+</vector>

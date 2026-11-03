@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no">
+    <include
+        android:id="@+id/sim_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sim_divider_width"
+        layout="@layout/sim_info"/>
+    <include
+        android:id="@+id/sim_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sim_divider_width"
+        layout="@layout/sim_info"/>
+</LinearLayout>

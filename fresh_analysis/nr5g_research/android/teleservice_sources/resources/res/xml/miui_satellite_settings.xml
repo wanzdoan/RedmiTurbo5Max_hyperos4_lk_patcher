@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phone="http://schemas.android.com/apk/res/com.android.phone" xmlns:app="http://schemas.android.com/apk/res-auto" android:title="@string/satellite_management_title">
+    <com.android.phone.settings.ImagePreference app:image="@drawable/satellite_setting_img"/>
+</PreferenceScreen>

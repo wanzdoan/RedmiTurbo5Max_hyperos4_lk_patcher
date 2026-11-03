@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dial_panel_button_height">60dp</dimen>
+    <dimen name="dial_panel_button_margin_bottom">6dp</dimen>
+    <dimen name="dialer_dialpad_padding_bottom">4dp</dimen>
+    <dimen name="emergency_dialer_margin_top">52dp</dimen>
+</resources>

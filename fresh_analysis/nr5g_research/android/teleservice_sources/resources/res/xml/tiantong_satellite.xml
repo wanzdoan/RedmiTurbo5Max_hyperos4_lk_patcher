@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/satellite_tiantong_setting"
+        android:key="tiantong_satellite">
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:title="@string/satellite_mobile_settings_title"
+            android:key="button_satellite_enabled_key"
+            android:summary="@string/satellite_mobile_settings_summary"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:title="@string/satellite_signal_boost_setting_title"
+            android:key="button_satellite_signal_boost_enabled_key"
+            android:summary="@string/satellite_signal_boost_setting_summary"/>
+        <Preference
+            android:title="@string/satellite_findout_settings_title"
+            android:key="satellite_explain_key"/>
+        <Preference
+            android:title="@string/satellite_open_tiantong_business_title"
+            android:key="satellite_ct_business_key"
+            android:summary="@string/satellite_ct_business_summary"/>
+        <Preference
+            android:title="@string/satellite_privacy_withdrawal_setting"
+            android:key="satellite_privacy_withdrawal_key"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,66 @@
+{
+  "evidence_id": "NR5G-RUNTIME-NVD-HEADERS-001",
+  "operation": "Read only first24bytes of regular NVD_DATA files; no payloads persisted",
+  "headers_count": 235,
+  "target_lids": [
+    960,
+    961,
+    2375,
+    2380,
+    2390,
+    2392,
+    2432,
+    2433,
+    2437,
+    2439,
+    2451
+  ],
+  "found": [
+    {
+      "path": "/mnt/vendor/nvdata/md/NVRAM/NVD_DATA/NR01_038",
+      "lid": 2432,
+      "version": "038",
+      "record_count": 2,
+      "record_size": 88,
+      "metadata_word20_low16": 64
+    },
+    {
+      "path": "/mnt/vendor/nvdata/md/NVRAM/NVD_DATA/NR0H_004",
+      "lid": 2451,
+      "version": "004",
+      "record_count": 1,
+      "record_size": 3442,
+      "metadata_word20_low16": 64
+    },
+    {
+      "path": "/mnt/vendor/nvdata/md/NVRAM/NVD_DATA/SP80_636",
+      "lid": 960,
+      "version": "636",
+      "record_count": 2,
+      "record_size": 332,
+      "metadata_word20_low16": 232
+    },
+    {
+      "path": "/mnt/vendor/nvdata/md/NVRAM/NVD_DATA/SP81_133",
+      "lid": 961,
+      "version": "133",
+      "record_count": 2,
+      "record_size": 424,
+      "metadata_word20_low16": 232
+    }
+  ],
+  "not_found_in_NVD_DATA": [
+    2375,
+    2380,
+    2390,
+    2392,
+    2433,
+    2437,
+    2439
+  ],
+  "limitations": [
+    "Not found means absent from this directory only; modem may use ROM defaults or another namespace",
+    "Header metadata does not reveal active encrypted recordvalues",
+    "Metadata word at+20 is recorded without asserting header-size semantics; boottrace shows recordI/O starts192"
+  ]
+}

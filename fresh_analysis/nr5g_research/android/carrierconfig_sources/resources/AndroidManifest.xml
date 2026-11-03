@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0.0"
+    android:compileSdkVersion="37"
+    android:compileSdkVersionCodename="17"
+    package="com.android.carrierconfig"
+    platformBuildVersionCode="37"
+    platformBuildVersionName="17">
+    <uses-sdk
+        android:minSdkVersion="37"
+        android:targetSdkVersion="37"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <application
+        android:allowBackup="false"
+        android:extractNativeLibs="true"
+        android:directBootAware="true"
+        android:usesNonSdkApi="true">
+        <service
+            android:name="com.android.carrierconfig.DefaultCarrierConfigService"
+            android:permission="android.permission.BIND_CARRIER_SERVICES"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.carrier.CarrierService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

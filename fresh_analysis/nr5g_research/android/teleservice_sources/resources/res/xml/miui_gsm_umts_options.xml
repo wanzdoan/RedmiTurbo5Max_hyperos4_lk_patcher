@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:key="options_category">
+        <Preference
+            android:persistent="false"
+            android:title="@string/apn_settings"
+            android:key="button_apn_key">
+            <intent
+                android:targetPackage="com.android.settings"
+                android:action="android.settings.APN_SETTINGS"/>
+        </Preference>
+        <Preference
+            android:persistent="false"
+            android:title="@string/preferred_network_type_title"
+            android:key="button_preferred_network_type_key">
+            <intent
+                android:targetPackage="com.android.phone"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.settings.PreferredNetworkTypeListPreference"/>
+        </Preference>
+        <Preference
+            android:persistent="false"
+            android:title="@string/networks_title"
+            android:key="button_carrier_sel_key">
+            <intent
+                android:targetPackage="com.android.phone"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.settings.NetworkSetting"/>
+        </Preference>
+        <Preference
+            android:persistent="false"
+            android:title="@string/satellite_setting_title"
+            android:key="telephony_satellite_setting_key"
+            android:summary="@string/satellite_setting_disabled_summary">
+            <intent
+                android:targetPackage="com.android.settings"
+                android:action="android.settings.SATELLITE_SETTING"
+                android:targetClass="com.android.settings.Settings$SatelliteSettingActivity"/>
+        </Preference>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/enable_2g_title"
+            android:key="enable_2g"
+            android:summary="@string/enable_2g_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

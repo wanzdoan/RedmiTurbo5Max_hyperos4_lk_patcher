@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    android:textDirection="locale"
+    android:layoutDirection="locale">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_config_version_for_starlink_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/starlink_version"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_config_service_type_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/svc_type"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_max_allowed_data_mode_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/max_allowed_data_mode"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_provider_plmn_list_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/satelltie_provider_plmn_list"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:alpha="0"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-------------------------------------"
+                style="@style/info_label"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:alpha="0"/>
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_config_version_for_skylo_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/skylo_version"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_config_allow_access_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/allow_access"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_config_country_code_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/country_codes"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/RadioInfo_entry_layout">
+            <TextView
+                android:text="@string/satellite_config_size_of_sats2_dat_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/size_of_sats2"
+                style="@style/info_value"/>
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView
+                android:text="@string/satellite_config_json_label"
+                style="@style/info_label"/>
+            <TextView
+                android:id="@+id/config_json"
+                style="@style/info_value"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+{
+  "total_matched": 2588,
+  "out_of_order_pairs": [
+    [
+      {
+        "name": "SBP_DISABLE_PLMNSEL_OPLMN_COEXIST",
+        "schema_bit_index": 50,
+        "string_offset": "0x2225b8c"
+      },
+      {
+        "name": "SBP_DISABLE_DISPLAY_ROAMING_HPLMN_IN_EPLMN",
+        "schema_bit_index": 51,
+        "string_offset": "0x221a634"
+      }
+    ]
+  ],
+  "focus": [
+    {
+      "name": "SBP_NAS_ROAMING_DISABLE_ENDC",
+      "schema_bit_index": 728,
+      "string_offset": "0x222b55c"
+    },
+    {
+      "name": "SBP_CONFIG_ENDC_COMB_BY_SBPID",
+      "schema_bit_index": 848,
+      "string_offset": "0x222c7c0"
+    },
+    {
+      "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN",
+      "schema_bit_index": 892,
+      "string_offset": "0x222cde8"
+    },
+    {
+      "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO",
+      "schema_bit_index": 893,
+      "string_offset": "0x222ce0c"
+    },
+    {
+      "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_WITH_SIM",
+      "schema_bit_index": 1047,
+      "string_offset": "0x222e444"
+    },
+    {
+      "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_FOR_ROAMING",
+      "schema_bit_index": 1280,
+      "string_offset": "0x2230548"
+    },
+    {
+      "name": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN",
+      "schema_bit_index": 1739,
+      "string_offset": "0x2234658"
+    },
+    {
+      "name": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO",
+      "schema_bit_index": 1740,
+      "string_offset": "0x223467c"
+    },
+    {
+      "name": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_FOR_ROAMING",
+      "schema_bit_index": 1741,
+      "string_offset": "0x22346bc"
+    },
+    {
+      "name": "SBP_NWSEL_SKIP_NR_SEARCH_WHEN_SA_DISABLE_BY_MCC",
+      "schema_bit_index": 1746,
+      "string_offset": "0x223477c"
+    }
+  ],
+  "limits": "schema_bit_index is not independently proven as public AT command featureID"
+}

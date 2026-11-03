@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+        <string-array name="non_roaming_operator_string_array" num="20">
+            <item value="21401" />
+            <item value="21402" />
+            <item value="21403" />
+            <item value="21404" />
+            <item value="21406" />
+            <item value="21407" />
+            <item value="21408" />
+            <item value="21409" />
+            <item value="214010" />
+            <item value="214011" />
+            <item value="214012" />
+            <item value="214013" />
+            <item value="214014" />
+            <item value="214015" />
+            <item value="214016" />
+            <item value="214017" />
+            <item value="214018" />
+            <item value="214019" />
+            <item value="214020" />
+            <item value="214021" />
+        </string-array>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <boolean name="carrier_allow_transfer_ims_call_bool" value="true"/>
+        <int-array name="carrier_nr_availabilities_int_array" num="1">
+            <item value="1"/>
+        </int-array>
+    </carrier_config>
+</carrier_config_list>
+

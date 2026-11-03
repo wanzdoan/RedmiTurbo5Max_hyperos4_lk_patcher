@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appcompat_dialog_pannel_horizontal_margin">43.64dp</dimen>
+    <dimen name="dial_panel_button_line_width">293dp</dimen>
+    <dimen name="dial_panel_margin">14.65dp</dimen>
+    <dimen name="sim_select_dialog_check_mark_height">8.94dp</dimen>
+    <dimen name="sim_select_dialog_check_mark_width">11dp</dimen>
+    <dimen name="sim_select_dialog_display_name_text_size">11.69sp</dimen>
+    <dimen name="sim_select_dialog_display_number_text_size">9.63sp</dimen>
+    <dimen name="sim_select_dialog_image_area_height">30.25dp</dimen>
+    <dimen name="sim_select_dialog_image_area_width">30.25dp</dimen>
+    <dimen name="sim_select_dialog_margin_bottom">12.375dp</dimen>
+    <dimen name="sim_select_dialog_margin_end">19.25dp</dimen>
+    <dimen name="sim_select_dialog_margin_start">19.25dp</dimen>
+    <dimen name="sim_select_dialog_margin_top">12.375dp</dimen>
+    <dimen name="sim_select_dialog_text_area_height">30.25dp</dimen>
+</resources>

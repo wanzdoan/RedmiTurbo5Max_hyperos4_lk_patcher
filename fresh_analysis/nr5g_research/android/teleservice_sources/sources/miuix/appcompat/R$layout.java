@@ -1,0 +1,52 @@
+package miuix.appcompat;
+
+/* JADX INFO: loaded from: classes2.dex */
+public abstract class R$layout {
+    public static int miuix_appcompat_action_bar_expanded_menu_layout = 2131558500;
+    public static int miuix_appcompat_action_bar_home = 2131558502;
+    public static int miuix_appcompat_action_bar_list_menu_item_layout = 2131558504;
+    public static int miuix_appcompat_action_bar_navigator_switch = 2131558505;
+    public static int miuix_appcompat_action_end_menu_item_child_layout = 2131558515;
+    public static int miuix_appcompat_action_end_menu_item_layout = 2131558516;
+    public static int miuix_appcompat_action_end_menu_layout = 2131558517;
+    public static int miuix_appcompat_action_menu_item_child_layout = 2131558518;
+    public static int miuix_appcompat_action_menu_item_layout = 2131558519;
+    public static int miuix_appcompat_action_mode_menu_item_layout = 2131558521;
+    public static int miuix_appcompat_action_mode_title_item = 2131558522;
+    public static int miuix_appcompat_action_sheet_alert_content = 2131558523;
+    public static int miuix_appcompat_action_sheet_layout = 2131558526;
+    public static int miuix_appcompat_action_sheet_list_item = 2131558527;
+    public static int miuix_appcompat_alert_dialog_content = 2131558535;
+    public static int miuix_appcompat_alert_dialog_content_land = 2131558536;
+    public static int miuix_appcompat_alert_dialog_progress = 2131558538;
+    public static int miuix_appcompat_alert_dialog_progress_xl_font = 2131558539;
+    public static int miuix_appcompat_calendar_date_time_picker_panel_layout = 2131558554;
+    public static int miuix_appcompat_date_picker_panel_layout = 2131558558;
+    public static int miuix_appcompat_dialog_list_menu_item_layout = 2131558561;
+    public static int miuix_appcompat_expanded_menu_layout = 2131558565;
+    public static int miuix_appcompat_hyper_popup_list = 2131558573;
+    public static int miuix_appcompat_hyper_popup_menu_group_title_item = 2131558574;
+    public static int miuix_appcompat_hyper_popup_menu_item = 2131558575;
+    public static int miuix_appcompat_immersion_popup_menu_item = 2131558576;
+    public static int miuix_appcompat_list_menu_item_checkbox = 2131558577;
+    public static int miuix_appcompat_list_menu_item_icon = 2131558578;
+    public static int miuix_appcompat_list_menu_item_radio = 2131558580;
+    public static int miuix_appcompat_number_picker_panel_layout = 2131558583;
+    public static int miuix_appcompat_overflow_popup_menu_item_layout = 2131558584;
+    public static int miuix_appcompat_popup_menu_divider = 2131558588;
+    public static int miuix_appcompat_popup_menu_item = 2131558589;
+    public static int miuix_appcompat_popup_menu_item_layout = 2131558591;
+    public static int miuix_appcompat_progress_dialog = 2131558593;
+    public static int miuix_appcompat_responsive_action_menu_layout = 2131558594;
+    public static int miuix_appcompat_screen_action_bar = 2131558595;
+    public static int miuix_appcompat_screen_action_bar_movable = 2131558599;
+    public static int miuix_appcompat_screen_floating_window = 2131558603;
+    public static int miuix_appcompat_screen_simple = 2131558604;
+    public static int miuix_appcompat_search_action_mode_view = 2131558605;
+    public static int miuix_appcompat_simple_spinner_dialog_item = 2131558615;
+    public static int miuix_appcompat_simple_spinner_dropdown_item = 2131558616;
+    public static int miuix_appcompat_simple_spinner_layout = 2131558618;
+    public static int miuix_appcompat_simple_spinner_layout_integrated = 2131558619;
+    public static int miuix_appcompat_spiner_dropdown_view_double_line = 2131558620;
+    public static int miuix_appcompat_spinner_dropdown_checkable_item = 2131558621;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/fdn"
+            android:key="button_fdn_enable"
+            android:summaryOn="@string/fdn_enabled"
+            android:summaryOff="@string/fdn_disabled"/>
+        <Preference
+            android:persistent="false"
+            android:title="@string/change_pin2"
+            android:key="button_change_pin2"
+            android:summary="@string/sum_fdn_change_pin"/>
+        <Preference
+            android:persistent="false"
+            android:title="@string/manage_fdn_list"
+            android:key="button_fdn_list"
+            android:summary="@string/sum_fdn_manage_list">
+            <intent
+                android:targetPackage="com.android.phone"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.phone.settings.FdnList"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

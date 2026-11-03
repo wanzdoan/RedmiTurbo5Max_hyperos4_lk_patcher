@@ -1,0 +1,166 @@
+package com.android.internal.telephony.util;
+
+import android.net.LinkAddress;
+import android.net.LinkProperties;
+import android.net.RouteInfo;
+import android.text.TextUtils;
+import java.net.InetAddress;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Objects;
+import java.util.function.Function;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class LinkPropertiesUtils {
+    public static final int MAX_MTU = 10000;
+    public static final int MIN_MTU = 68;
+    public static final int MIN_MTU_V6 = 1280;
+
+    public static boolean isValidMtu(int i, boolean z) {
+        if (z) {
+            return i >= 1280 && i <= 10000;
+        }
+        return i >= 68 && i <= 10000;
+    }
+
+    public static class CompareResult<T> {
+        public final List<T> added;
+        public final List<T> removed;
+
+        public CompareResult() {
+            this.removed = new ArrayList();
+            this.added = new ArrayList();
+        }
+
+        public CompareResult(Collection<T> collection, Collection<T> collection2) {
+            ArrayList arrayList = new ArrayList();
+            this.removed = arrayList;
+            this.added = new ArrayList();
+            if (collection != null) {
+                arrayList.addAll(collection);
+            }
+            if (collection2 != null) {
+                for (T t : collection2) {
+                    if (!this.removed.remove(t)) {
+                        this.added.add(t);
+                    }
+                }
+            }
+        }
+
+        public String toString() {
+            return "removed=[" + TextUtils.join(",", this.removed) + "] added=[" + TextUtils.join(",", this.added) + "]";
+        }
+    }
+
+    public static class CompareOrUpdateResult<K, T> {
+        public final List<T> added = new ArrayList();
+        public final List<T> removed = new ArrayList();
+        public final List<T> updated = new ArrayList();
+
+        public CompareOrUpdateResult(Collection<T> collection, Collection<T> collection2, Function<T, K> function) {
+            HashMap map = new HashMap();
+            if (collection != null) {
+                for (T t : collection) {
+                    map.put(function.apply(t), t);
+                }
+            }
+            if (collection2 != null) {
+                for (T t2 : collection2) {
+                    Object objRemove = map.remove(function.apply(t2));
+                    if (objRemove != null) {
+                        if (!objRemove.equals(t2)) {
+                            this.updated.add(t2);
+                        }
+                    } else {
+                        this.added.add(t2);
+                    }
+                }
+            }
+            this.removed.addAll(map.values());
+        }
+
+        public String toString() {
+            return "removed=[" + TextUtils.join(",", this.removed) + "] added=[" + TextUtils.join(",", this.added) + "] updated=[" + TextUtils.join(",", this.updated) + "]";
+        }
+    }
+
+    public static CompareResult<LinkAddress> compareAddresses(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        return new CompareResult<>(linkProperties != null ? linkProperties.getLinkAddresses() : null, linkProperties2 != null ? linkProperties2.getLinkAddresses() : null);
+    }
+
+    public static CompareResult<InetAddress> compareAllAddresses(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        return new CompareResult<>(linkProperties != null ? CollectionUtils.map(linkProperties.getAllLinkAddresses(), new Function() { // from class: com.android.internal.telephony.util.LinkPropertiesUtils$$ExternalSyntheticLambda0
+            @Override // java.util.function.Function
+            public final Object apply(Object obj) {
+                return ((LinkAddress) obj).getAddress();
+            }
+        }) : null, linkProperties2 != null ? CollectionUtils.map(linkProperties2.getAllLinkAddresses(), new Function() { // from class: com.android.internal.telephony.util.LinkPropertiesUtils$$ExternalSyntheticLambda0
+            @Override // java.util.function.Function
+            public final Object apply(Object obj) {
+                return ((LinkAddress) obj).getAddress();
+            }
+        }) : null);
+    }
+
+    public static boolean isIdenticalAllLinkAddresses(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        if (linkProperties == linkProperties2) {
+            return true;
+        }
+        if (linkProperties == null || linkProperties2 == null) {
+            return false;
+        }
+        List allLinkAddresses = linkProperties.getAllLinkAddresses();
+        List allLinkAddresses2 = linkProperties2.getAllLinkAddresses();
+        if (allLinkAddresses.size() != allLinkAddresses2.size()) {
+            return false;
+        }
+        return allLinkAddresses.containsAll(allLinkAddresses2);
+    }
+
+    public static boolean isIdenticalAddresses(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        List addresses = linkProperties.getAddresses();
+        List addresses2 = linkProperties2.getAddresses();
+        if (addresses.size() == addresses2.size()) {
+            return addresses.containsAll(addresses2);
+        }
+        return false;
+    }
+
+    public static boolean isIdenticalDnses(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        List<InetAddress> dnsServers = linkProperties.getDnsServers();
+        List<InetAddress> dnsServers2 = linkProperties2.getDnsServers();
+        String domains = linkProperties.getDomains();
+        String domains2 = linkProperties2.getDomains();
+        if (domains == null) {
+            if (domains2 != null) {
+                return false;
+            }
+        } else if (!domains.equals(domains2)) {
+            return false;
+        }
+        if (dnsServers.size() == dnsServers2.size()) {
+            return dnsServers.containsAll(dnsServers2);
+        }
+        return false;
+    }
+
+    public static boolean isIdenticalHttpProxy(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        return Objects.equals(linkProperties.getHttpProxy(), linkProperties2.getHttpProxy());
+    }
+
+    public static boolean isIdenticalInterfaceName(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        return TextUtils.equals(linkProperties.getInterfaceName(), linkProperties2.getInterfaceName());
+    }
+
+    public static boolean isIdenticalRoutes(LinkProperties linkProperties, LinkProperties linkProperties2) {
+        List<RouteInfo> routes = linkProperties.getRoutes();
+        List<RouteInfo> routes2 = linkProperties2.getRoutes();
+        if (routes.size() == routes2.size()) {
+            return routes.containsAll(routes2);
+        }
+        return false;
+    }
+}

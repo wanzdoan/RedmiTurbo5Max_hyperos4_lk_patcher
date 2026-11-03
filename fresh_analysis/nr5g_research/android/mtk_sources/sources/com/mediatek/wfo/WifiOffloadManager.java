@@ -1,0 +1,34 @@
+package com.mediatek.wfo;
+
+/* JADX INFO: loaded from: classes.dex */
+public class WifiOffloadManager {
+    public static final int CALL_STATE_ACTIVE = 1;
+    public static final int CALL_STATE_END = 0;
+    public static final int CALL_STATE_ESTABLISHING = 2;
+    public static final int CALL_TYPE_VIDEO = 2;
+    public static final int CALL_TYPE_VOICE = 1;
+    public static final int HANDOVER_END = 1;
+    public static final int HANDOVER_FAILED = -1;
+    public static final int HANDOVER_START = 0;
+    public static final int RAN_TYPE_MOBILE_3GPP = 1;
+    public static final int RAN_TYPE_UNSPEC = 0;
+    public static final int RAN_TYPE_WIFI = 2;
+    public static final String WFO_SERVICE = "wfo";
+
+    public static abstract class Listener extends IWifiOffloadListener.Stub {
+        @Override // com.mediatek.wfo.IWifiOffloadListener
+        public void onHandover(int simIdx, int stage, int ratType) {
+        }
+
+        @Override // com.mediatek.wfo.IWifiOffloadListener
+        public void onRoveOut(int simIdx, boolean roveOut, int rssi) {
+        }
+
+        @Override // com.mediatek.wfo.IWifiOffloadListener
+        public void onWifiPdnOOSStateChanged(int simIdx, int oosState) {
+        }
+
+        public void onWfcStateChanged(int simIdx, int state) {
+        }
+    }
+}

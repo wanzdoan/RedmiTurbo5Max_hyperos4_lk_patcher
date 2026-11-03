@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/autoip_setting">
+    <PreferenceCategory>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/autoip"
+            android:key="button_autoip"
+            android:summary="@string/autoip_summary"
+            android:defaultValue="false"
+            android:disableDependentsState="false"/>
+        <com.android.phone.custompreferences.CustomEditTextPreference
+            android:persistent="false"
+            android:title="@string/autoip_prefix"
+            android:key="button_text_autoip_prefix"
+            android:summary="@string/autoip_prefix_summary"
+            android:dependency="button_autoip"
+            android:inputType="phone"
+            style="@style/Widget.EditText.Dialog"/>
+        <com.android.phone.custompreferences.CustomEditTextPreference
+            android:persistent="false"
+            android:title="@string/autoip_current_areacode"
+            android:key="button_text_autoip_current_areacode"
+            android:summary="@string/autoip_current_areacode_summary"
+            android:dependency="button_autoip"
+            android:inputType="number"
+            style="@style/Widget.EditText.Dialog"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/autoip_support_local_numbers"
+            android:key="button_autoip_support_local_numbers"
+            android:dependency="button_autoip"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/autoip_add_zero_prefix"
+            android:key="button_autoip_add_zero_prefix"
+            android:dependency="button_autoip"/>
+        <Preference
+            android:title="@string/autoip_exception"
+            android:key="button_autoip_exceptions"
+            android:dependency="button_autoip"/>
+    </PreferenceCategory>
+</PreferenceScreen>

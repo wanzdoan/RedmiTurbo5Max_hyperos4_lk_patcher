@@ -1,0 +1,948 @@
+[
+  {
+    "lid": {
+      "name": "NVRAM_EF_MCF_FILE_SECURITY_LID",
+      "id": "4103",
+      "record_count": "1",
+      "version": "1",
+      "type_name": "nvram_ef_mcf_file_security_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mcf_file_security_struct",
+      "size": "416"
+    },
+    "fields": [
+      {
+        "name": "security",
+        "type_name": "kal_char",
+        "is_typedef": "true",
+        "type": "char",
+        "offset": "0",
+        "size": "32",
+        "array_sizes": "32",
+        "description": "[RUNTIME,INTERNAL]MCF file security"
+      },
+      {
+        "name": "enhanced_security",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "32",
+        "size": "384",
+        "array_sizes": "384",
+        "description": "[RUNTIME,INTERNAL]MCF file enhanced security"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_D2C_LTE_ENTITLEMENT_PLMN_LIST_LID",
+      "id": "2413",
+      "record_count": "2",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_d2c_lte_entitlement_plmn_list_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_d2c_lte_entitlement_plmn_list_struct",
+      "size": "1408"
+    },
+    "fields": [
+      {
+        "name": "is_valid",
+        "type_name": "kal_bool",
+        "type": "enum",
+        "offset": "0",
+        "size": "1",
+        "description": "[MCF,RUNTIME]Validity of D2C LTE entitlement PLMN list"
+      },
+      {
+        "name": "num_of_entry",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "4",
+        "size": "4",
+        "description": "[MCF,RUNTIME]Number of valid entries"
+      },
+      {
+        "name": "d2c_lte_plmn_list",
+        "type_name": "nvram_mrs_d2c_lte_plmn_struct",
+        "type": "struct",
+        "offset": "8",
+        "size": "1400",
+        "array_sizes": "200",
+        "description": "[MCF,RUNTIME]D2C LTE PLMN list."
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_D2C_LTE_OEM_PLMN_LIST_LID",
+      "id": "2414",
+      "record_count": "2",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_d2c_lte_oem_plmn_list_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_d2c_lte_oem_plmn_list_struct",
+      "size": "120"
+    },
+    "fields": [
+      {
+        "name": "is_valid",
+        "type_name": "kal_bool",
+        "type": "enum",
+        "offset": "0",
+        "size": "1",
+        "description": "[MCF,RUNTIME]Validity of D2C LTE OEM PLMN list"
+      },
+      {
+        "name": "num_of_entry",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "4",
+        "size": "4",
+        "description": "[MCF,RUNTIME]Number of valid entries"
+      },
+      {
+        "name": "d2c_lte_plmn_list",
+        "type_name": "nvram_mrs_d2c_lte_plmn_struct",
+        "type": "struct",
+        "offset": "8",
+        "size": "112",
+        "array_sizes": "16",
+        "description": "[MCF,RUNTIME]D2C LTE PLMN list."
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_GSM_OPERATOR_BAND_TABLE_LID",
+      "id": "2383",
+      "record_count": "1",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_gsm_operator_band_table_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_gsm_operator_band_table_struct",
+      "size": "1844"
+    },
+    "fields": [
+      {
+        "name": "mrs_gsm_plmn_band_num",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "[MCF]Number of GSM PLMN Band table elements (max 230)"
+      },
+      {
+        "name": "mrs_gsm_plmn_band_tbl",
+        "type_name": "nvram_ef_mrs_gsm_plmn_band_struct",
+        "type": "struct",
+        "offset": "4",
+        "size": "1840",
+        "array_sizes": "230",
+        "description": "[MCF]GSM PLMN Band table elements: PLMN + Band (max 230)"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_LTE_ENABLE_BAND_LIST_LID",
+      "id": "2394",
+      "record_count": "1",
+      "version": "0",
+      "type_name": "nvram_ef_lte_custom_band_enable_list_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_lte_custom_band_enable_list_struct",
+      "size": "19002"
+    },
+    "fields": [
+      {
+        "name": "enable_list",
+        "type_name": "nvram_lte_band_enable_list_struct",
+        "type": "struct",
+        "offset": "0",
+        "size": "19002",
+        "description": "[MCF]If UE selected PLMN matches PLMN configuration in enable_list, then enable correspoinding LTE bands according to lte_band_bitmap"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_LTE_OPERATOR_BAND_TABLE_LID",
+      "id": "2381",
+      "record_count": "1",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_lte_operator_band_table_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_lte_operator_band_table_struct",
+      "size": "14044"
+    },
+    "fields": [
+      {
+        "name": "mrs_lte_plmn_band_num",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "[MCF]Number of LTE PLMN Band table elements (max 360)"
+      },
+      {
+        "name": "mrs_lte_plmn_band_tbl",
+        "type_name": "nvram_ef_mrs_lte_plmn_band_struct",
+        "type": "struct",
+        "offset": "4",
+        "size": "14040",
+        "array_sizes": "360",
+        "description": "[MCF]LTE PLMN Band table elements: PLMN + Band (max 360)"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_MCC_SUNSET_SEARCH_CONFIG_LID",
+      "id": "2412",
+      "record_count": "2",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_mcc_sunset_search_config_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_mcc_sunset_search_config_struct",
+      "size": "648"
+    },
+    "fields": [
+      {
+        "name": "is_valid",
+        "type_name": "kal_bool",
+        "type": "enum",
+        "offset": "0",
+        "size": "1",
+        "description": "[MCF,RUNTIME]Validity of mcc sunset search config table"
+      },
+      {
+        "name": "num_of_entry",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "4",
+        "size": "4",
+        "description": "[MCF,RUNTIME]Number of valid entries"
+      },
+      {
+        "name": "mcc_search_config_list",
+        "type_name": "nvram_ef_mrs_mcc_sunset_search_struct",
+        "type": "struct",
+        "offset": "8",
+        "size": "640",
+        "array_sizes": "128",
+        "description": "[MCF,RUNTIME]Rules for mcc sunset search strategy."
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_NR_BAND_DISABLE_LIST_LID",
+      "id": "2375",
+      "record_count": "2",
+      "version": "17",
+      "type_name": "nvram_ef_nr_custom_band_disable_list_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_nr_custom_band_disable_list_struct",
+      "size": "11948"
+    },
+    "fields": [
+      {
+        "name": "positive_list",
+        "type_name": "nvram_nras_positive_band_disable_list_struct",
+        "type": "struct",
+        "offset": "0",
+        "size": "4142",
+        "description": "[MCF]If PLMN match to PLMN code in the PLMN list, disable related bands"
+      },
+      {
+        "name": "inverted_list",
+        "type_name": "nvram_nras_inverted_band_disable_list_struct",
+        "type": "struct",
+        "offset": "4142",
+        "size": "5042",
+        "description": "[MCF]If PLMN does not match to any PLMN code in the PLMN group list, disable related bands"
+      },
+      {
+        "name": "positive_list_for_national_roaming",
+        "type_name": "nvram_nras_positive_band_disable_list_for_roaming_struct",
+        "type": "struct",
+        "offset": "9184",
+        "size": "1382",
+        "description": "[MCF]If PLMN match to PLMN code in the PLMN list, disable related bands under national roaming"
+      },
+      {
+        "name": "positive_list_for_international_roaming",
+        "type_name": "nvram_nras_positive_band_disable_list_for_roaming_struct",
+        "type": "struct",
+        "offset": "10566",
+        "size": "1382",
+        "description": "[MCF]If PLMN match to PLMN code in the PLMN list, disable related bands under international roaming(mcc different)"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_NR_BAND_ENABLE_LIST_LID",
+      "id": "2392",
+      "record_count": "2",
+      "version": "2",
+      "type_name": "nvram_ef_nr_custom_band_enable_list_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_nr_custom_band_enable_list_struct",
+      "size": "5526"
+    },
+    "fields": [
+      {
+        "name": "enable_list",
+        "type_name": "nvram_nras_band_enable_list_struct",
+        "type": "struct",
+        "offset": "0",
+        "size": "2762",
+        "description": "[MCF]If PLMN match to PLMN code in the PLMN list, set related bands as supported band"
+      },
+      {
+        "name": "enable_list_for_national_roaming",
+        "type_name": "nvram_nras_band_enable_list_for_roaming_struct",
+        "type": "struct",
+        "offset": "2762",
+        "size": "1382",
+        "description": "[MCF]If PLMN match to PLMN code in the PLMN list, set related bands as supported band under national roaming"
+      },
+      {
+        "name": "enable_list_for_international_roaming",
+        "type_name": "nvram_nras_band_enable_list_for_roaming_struct",
+        "type": "struct",
+        "offset": "4144",
+        "size": "1382",
+        "description": "[MCF]If PLMN match to PLMN code in the PLMN list,set related bands as supported band under international roaming(mcc different)"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_NR_BW_SETTING_LIST_LID",
+      "id": "2376",
+      "record_count": "2",
+      "version": "28",
+      "type_name": "nvram_ef_mrs_nr_bw_setting_list_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_nr_bw_setting_list_struct",
+      "size": "5642"
+    },
+    "fields": [
+      {
+        "name": "num_of_nr_bw_setting_list_elems",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "0",
+        "size": "1",
+        "description": "[MCF]Number of NR BW setting list elements (max 20)"
+      },
+      {
+        "name": "nr_bw_setting_list",
+        "type_name": "nvram_ef_mrs_nr_bw_setting_struct",
+        "type": "struct",
+        "offset": "2",
+        "size": "5640",
+        "array_sizes": "20",
+        "description": "[MCF]Number of entries in the PLMN list (max 20)"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_NR_OPERATOR_BAND_TABLE_LID",
+      "id": "2380",
+      "record_count": "1",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_nr_operator_band_table_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_nr_operator_band_table_struct",
+      "size": "8004"
+    },
+    "fields": [
+      {
+        "name": "mrs_nr_plmn_band_num",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "[MCF]Number of NR PLMN Band table elements (max 200)"
+      },
+      {
+        "name": "mrs_nr_plmn_band_tbl",
+        "type_name": "nvram_ef_mrs_nr_plmn_band_struct",
+        "type": "struct",
+        "offset": "4",
+        "size": "8000",
+        "array_sizes": "200",
+        "description": "[MCF]NR PLMN Band table elements: PLMN + Band (max 200)"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_NR_PARTIAL_BAND_TABLE_LID",
+      "id": "2390",
+      "record_count": "2",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_nr_partial_band_table_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_nr_partial_band_table_struct",
+      "size": "9604"
+    },
+    "fields": [
+      {
+        "name": "partial_band_num",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "[MCF]Number of entries (max 100)"
+      },
+      {
+        "name": "partial_band_table",
+        "type_name": "nvram_mrs_nr_partial_band_plmn_struct",
+        "type": "struct",
+        "offset": "4",
+        "size": "9600",
+        "array_sizes": "100",
+        "description": "[MCF]Partial band table elements"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_PLMN_BAND_TABLE_LID",
+      "id": "2369",
+      "record_count": "1",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_plmn_band_table_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_plmn_band_table_struct",
+      "size": "4704"
+    },
+    "fields": [
+      {
+        "name": "num_of_plmn_band_entry",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "Number of entries stored in this PLMN band table (max: 100)"
+      },
+      {
+        "name": "plmn_band_list",
+        "type_name": "nvram_ef_mrs_plmn_band_struct",
+        "type": "struct",
+        "offset": "4",
+        "size": "4700",
+        "array_sizes": "100",
+        "description": "List of <PLMN/RAT, Band> entries"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_MRS_UMTS_OPERATOR_BAND_TABLE_LID",
+      "id": "2382",
+      "record_count": "1",
+      "version": "0",
+      "type_name": "nvram_ef_mrs_umts_operator_band_table_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_mrs_umts_operator_band_table_struct",
+      "size": "3004"
+    },
+    "fields": [
+      {
+        "name": "mrs_umts_plmn_band_num",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "[MCF]Number of UMTS PLMN Band table elements (max 250)"
+      },
+      {
+        "name": "mrs_umts_plmn_band_tbl",
+        "type_name": "nvram_ef_mrs_umts_plmn_band_struct",
+        "type": "struct",
+        "offset": "4",
+        "size": "3000",
+        "array_sizes": "250",
+        "description": "[MCF]UMTS PLMN Band table elements: PLMN + Band (max 250)"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_NRRC_BAND_SUPPORT_PLMN_LID",
+      "id": "2439",
+      "record_count": "1",
+      "version": "15",
+      "type_name": "nvram_ef_nrrc_band_support_plmn_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_nrrc_band_support_plmn_struct",
+      "size": "52404"
+    },
+    "fields": [
+      {
+        "name": "feature_switch",
+        "type_name": "kal_bool",
+        "type": "enum",
+        "offset": "0",
+        "size": "1",
+        "description": "[MCF] Activating band support based on PLMN."
+      },
+      {
+        "name": "num_of_plmn",
+        "type_name": "kal_uint16",
+        "is_typedef": "true",
+        "type": "unsigned short",
+        "offset": "2",
+        "size": "2",
+        "description": "[MCF] Number of PLMN in band_support_plmn[], valid vaule is 0 to 200."
+      },
+      {
+        "name": "band_support_plmn",
+        "type_name": "nvram_nr_band_support_plmn_struct",
+        "type": "struct",
+        "offset": "4",
+        "size": "52400",
+        "array_sizes": "200",
+        "description": "[MCF] PLMN support band info."
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_NRRC_CUSTOM_ENDC_COMB_LIST_LID",
+      "id": "2437",
+      "record_count": "2",
+      "version": "13",
+      "type_name": "nvram_ef_nrrc_custom_endc_comb_list_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_nrrc_custom_endc_comb_list_struct",
+      "size": "23520"
+    },
+    "fields": [
+      {
+        "name": "white_list",
+        "type_name": "kal_char",
+        "is_typedef": "true",
+        "type": "char",
+        "offset": "0",
+        "size": "11200",
+        "array_sizes": "11200",
+        "description": "[MCF] The white list of ENDC combination for the UE. Each combination shall be separated by semicolon. The maximum number of characters in this field is 4480. Example: b2AA-n41AA;b2AA-b66A-n71AA;b2AA-b66A-b71AA-n71A"
+      },
+      {
+        "name": "black_list",
+        "type_name": "kal_char",
+        "is_typedef": "true",
+        "type": "char",
+        "offset": "11200",
+        "size": "4480",
+        "array_sizes": "4480",
+        "description": "[MCF] The black list of ENDC combination for the UE. The maximum number of characters in this field is 4480. Example: b3AA-b41A-n71AA;b2AA-b66A-b78AA"
+      },
+      {
+        "name": "sa_white_list",
+        "type_name": "kal_char",
+        "is_typedef": "true",
+        "type": "char",
+        "offset": "15680",
+        "size": "5600",
+        "array_sizes": "5600",
+        "description": "[MCF] The white list of SA CA combination for the UE. The maximum number of characters in this field is 1680. Example: n1A-n1A;n3A-n3A;n78A-n78A;n3AA-n78A;n3A-n78AA;n8AA-n78A"
+      },
+      {
+        "name": "sa_black_list",
+        "type_name": "kal_char",
+        "is_typedef": "true",
+        "type": "char",
+        "offset": "21280",
+        "size": "2240",
+        "array_sizes": "2240",
+        "description": "[MCF] The black list of SA CA combination for the UE. The maximum number of characters in this field is 1680. Example: n3A-n3A;n78A-n78A"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_NRRC_ENH_CUSTOM_CARRIER_LID",
+      "id": "2451",
+      "record_count": "1",
+      "version": "4",
+      "type_name": "nvram_ef_nrrc_enh_custom_carrier_info_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_nrrc_enh_custom_carrier_info_struct",
+      "size": "3442"
+    },
+    "fields": [
+      {
+        "name": "priority_band_inf_num",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "0",
+        "size": "1",
+        "description": "[MCF]Num of priority band group infomation."
+      },
+      {
+        "name": "priority_band_inf",
+        "type_name": "nvram_nrrc_enh_priority_band_record_struct",
+        "type": "struct",
+        "offset": "2",
+        "size": "3440",
+        "array_sizes": "10",
+        "description": "[MCF]The priority band group infomation."
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_NR_CAP_LID",
+      "id": "2433",
+      "record_count": "2",
+      "version": "0",
+      "type_name": "nvram_ef_nr_cap_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_nr_cap_struct",
+      "size": "4"
+    },
+    "fields": [
+      {
+        "name": "nea_support",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "0",
+        "size": "1",
+        "description": "[MCF] MSB: NEA0, 128-NEA1, 128-NEA2, 128-NEA3"
+      },
+      {
+        "name": "nia_support",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "1",
+        "size": "1",
+        "description": "[MCF] MSB: NIA0, 128-NIA1, 128-NIA2, 128-NIA3"
+      },
+      {
+        "name": "nras_power_class",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "2",
+        "size": "1",
+        "description": "NR powerclass"
+      },
+      {
+        "name": "endc_support",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "3",
+        "size": "1",
+        "description": "[MCF] EN-DC support"
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_SBP_MODEM_CONFIG_LID",
+      "id": "960",
+      "record_count": "2",
+      "version": "636",
+      "type_name": "nvram_ef_sbp_modem_config_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_sbp_modem_config_struct",
+      "size": "332"
+    },
+    "fields": [
+      {
+        "name": "sbp_mode",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "[MCF] SBP ID(Phase out, use NVRAM_EF_SBP_IDS_LID instead)"
+      },
+      {
+        "name": "modem_sbp_config",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "4",
+        "size": "327",
+        "array_sizes": "327",
+        "description": "[MCF,RUNTIME] Configuration of SBP Feature",
+        "bits": [
+          {
+            "name": "SBP_ENDC_DISABLE_NR_B1_DURING_VOLTE",
+            "description": "For ENDC mode, when VoLTE call is ongoing, disable reporting of NR B1 event.",
+            "byte_offset": "99",
+            "bit_offset": "7",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_CONFIG_ENDC_COMB_BY_SBPID",
+            "description": "Enable configure ENDC combination by SBP ID",
+            "byte_offset": "106",
+            "bit_offset": "0",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN",
+            "description": "User can disable NR band(s) by plmn",
+            "byte_offset": "111",
+            "bit_offset": "4",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO",
+            "description": "NR band disable by plmn can be used under simplification scenario or test mode",
+            "byte_offset": "111",
+            "bit_offset": "5",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_WITH_SIM",
+            "description": "User can disable NR band(s) by plmn",
+            "byte_offset": "130",
+            "bit_offset": "7",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_ENDC_ICON_CONSIDER_BAND_COMB",
+            "description": "only display 5G icon when endc combination support",
+            "byte_offset": "144",
+            "bit_offset": "3",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_PARTIAL_BAND_UNDER_MCC",
+            "description": "NR partial band under MCC",
+            "byte_offset": "151",
+            "bit_offset": "1",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_FOR_ROAMING",
+            "description": "apply roaming NR band disable settings in NVRAM",
+            "byte_offset": "160",
+            "bit_offset": "0",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_PARTIAL_BAND_USE_NVRAM",
+            "description": "Use NVRAM to config NR partial band under MCC",
+            "byte_offset": "165",
+            "bit_offset": "6",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN",
+            "description": "Customize supported NR band by PLMN",
+            "byte_offset": "217",
+            "bit_offset": "3",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO",
+            "description": "custom enable band by plmn can be used under simplification scenario or test mode",
+            "byte_offset": "217",
+            "bit_offset": "4",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_FOR_ROAMING",
+            "description": "User can set NR support band(s) based on SIB PLMN and ehplmn",
+            "byte_offset": "217",
+            "bit_offset": "5",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NWSEL_SKIP_NR_SEARCH_WHEN_SA_DISABLE_BY_MCC",
+            "description": "Skip all types of search on RAT_NR if SA is disabled for detected MCC",
+            "byte_offset": "218",
+            "bit_offset": "2",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_ENDC_LTE_CA_DISABLE",
+            "description": "Disable LTE CA when reporting ENDC capability.",
+            "byte_offset": "223",
+            "bit_offset": "5",
+            "bit_count": "1"
+          },
+          {
+            "name": "SBP_NWSEL_SKIP_NR_MANUAL_PLMN_LIST_WHEN_SA_DISABLE_BY_MCC",
+            "description": "Skip manual PLMN list on RAT_NR if SA is disabled for the detected MCC",
+            "byte_offset": "270",
+            "bit_offset": "0",
+            "bit_count": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_SBP_MODEM_DATA_CONFIG_LID",
+      "id": "961",
+      "record_count": "2",
+      "version": "133",
+      "type_name": "nvram_ef_sbp_modem_data_config_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_sbp_modem_data_config_struct",
+      "size": "424"
+    },
+    "fields": [
+      {
+        "name": "sbp_mode",
+        "type_name": "kal_uint32",
+        "is_typedef": "true",
+        "type": "unsigned int",
+        "offset": "0",
+        "size": "4",
+        "description": "[MCF] SBP ID(Phase out, use NVRAM_EF_SBP_IDS_LID instead)"
+      },
+      {
+        "name": "modem_sbp_data_config",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "4",
+        "size": "417",
+        "array_sizes": "417",
+        "description": "[MCF,RUNTIME] Configuration of SBP Data",
+        "bits": [
+          {
+            "name": "SBP_NRRC_CAP_BC_WHITELIST_ENDC_NUM",
+            "description": "the number of NRRC ENDC band combination whitelist",
+            "byte_offset": "313",
+            "bit_offset": "0",
+            "bit_count": "8"
+          },
+          {
+            "name": "SBP_NRRC_CAP_BC_WHITELIST_SA_NUM",
+            "description": "the number of NRRC SA band combination whitelist",
+            "byte_offset": "314",
+            "bit_offset": "0",
+            "bit_count": "8"
+          },
+          {
+            "name": "SBP_NR_PARTIAL_TX",
+            "description": "NR Partial Transmission",
+            "byte_offset": "367",
+            "bit_offset": "0",
+            "bit_count": "8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lid": {
+      "name": "NVRAM_EF_UE_NR_CAP_LID",
+      "id": "2432",
+      "record_count": "2",
+      "version": "38",
+      "type_name": "nvram_ef_ue_nr_cap_struct",
+      "is_struct": "true"
+    },
+    "struct": {
+      "name": "nvram_ef_ue_nr_cap_struct",
+      "size": "88"
+    },
+    "fields": [
+      {
+        "name": "mrdc_cap",
+        "type_name": "nvram_nrrc_ue_mrdc_capability_struct",
+        "type": "struct",
+        "offset": "0",
+        "size": "7",
+        "description": "[MCF] UE-MRDC-Capability"
+      },
+      {
+        "name": "nr_cap",
+        "type_name": "nvram_nrrc_ue_nr_capability_struct",
+        "type": "struct",
+        "offset": "8",
+        "size": "62",
+        "description": "[MCF] UE-NR-Capability"
+      },
+      {
+        "name": "background_search_status_in_test_mode",
+        "type_name": "kal_uint8",
+        "is_typedef": "true",
+        "type": "unsigned char",
+        "offset": "70",
+        "size": "1",
+        "description": "[MCF] Background Search related parameter setting when UE in test mode.",
+        "bits": []
+      },
+      {
+        "name": "cap_size_config",
+        "type_name": "nvram_nrrc_ue_cap_size_config_struct",
+        "type": "struct",
+        "offset": "72",
+        "size": "16",
+        "description": "[MCF] NR/MRDC capability size configuration"
+      }
+    ]
+  }
+]

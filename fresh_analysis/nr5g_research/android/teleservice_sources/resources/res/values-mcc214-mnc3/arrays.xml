@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wificall_preferred_entries">
+        <item>@string/wfcmode_wifi_preferred</item>
+        <item>@string/wfcmode_mobile_preferred</item>
+    </array>
+    <array name="wificall_preferred_mode_values">
+        <item>2</item>
+        <item>1</item>
+    </array>
+</resources>

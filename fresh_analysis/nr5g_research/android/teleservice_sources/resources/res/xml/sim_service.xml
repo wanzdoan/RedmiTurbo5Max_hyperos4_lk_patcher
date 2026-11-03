@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/sim_service_setting"
+        android:key="sim_service">
+        <Preference
+            android:title="@string/mi_mobile_settings_title"
+            android:key="pref_mi_mobile_key"
+            android:summary="@string/mi_mobile_settings_summary"/>
+        <Preference
+            android:title="@string/mi_sim_settings_title"
+            android:key="pref_mi_sim_key"
+            android:summary="@string/mi_sim_settings_summary">
+            <intent
+                android:targetPackage="com.miui.virtualsim"
+                android:action="com.miui.misim.ACTION_ROUTER"
+                android:targetClass="com.miui.mimobile.ui.MmRouterActivity"/>
+        </Preference>
+        <Preference
+            android:title="@string/sim_roaming_settings_title"
+            android:key="pref_sim_roaming_key"
+            android:summary="@string/sim_roaming_settings_summary">
+            <intent
+                android:targetPackage="com.miui.virtualsim"
+                android:action="com.miui.virtualsim.action.OPEN_APP"
+                android:targetClass="com.miui.virtualsim.ui.MainActivity"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

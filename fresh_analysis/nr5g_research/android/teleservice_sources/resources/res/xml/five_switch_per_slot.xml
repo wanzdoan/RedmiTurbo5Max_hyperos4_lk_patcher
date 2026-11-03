@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.custompreferences.CustomCheckBoxPreference
+        android:persistent="false"
+        android:title="@string/fiveg_switch_per_slot_title"
+        android:key="button_fiveg_key"/>
+</PreferenceScreen>

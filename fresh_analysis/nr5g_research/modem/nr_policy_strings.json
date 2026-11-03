@@ -1,0 +1,2654 @@
+{
+  "counts": {
+    "policy_symbols": 569,
+    "nr_plmn_gate": 63,
+    "roam_gate": 90,
+    "operator_names": 6
+  },
+  "groups": {
+    "policy_symbols": [
+      {
+        "offset": "0x21291b0",
+        "text": "cdm_user_ps_nrrc_idle_disaster_roaming_plmn"
+      },
+      {
+        "offset": "0x2131360",
+        "text": "NL1_SM_5GSleepDisable"
+      },
+      {
+        "offset": "0x2131390",
+        "text": "NL1_SM_5GStressDisable"
+      },
+      {
+        "offset": "0x21313c0",
+        "text": "NL1_SM_5GSleepDisable_FR2"
+      },
+      {
+        "offset": "0x21313f8",
+        "text": "NL1_SM_5GStressDisable_FR2"
+      },
+      {
+        "offset": "0x218e05c",
+        "text": "nr_quick_disable_support"
+      },
+      {
+        "offset": "0x21f2bd4",
+        "text": "NrTas_forbid_state"
+      },
+      {
+        "offset": "0x21f8060",
+        "text": "SBP_NR_POSTPONE_A2_FOR_B1B2"
+      },
+      {
+        "offset": "0x21f8098",
+        "text": "SBP_NR_A3A4A5_CUSTOM_CELL_THRESH"
+      },
+      {
+        "offset": "0x21f80c4",
+        "text": "SBP_NR_TO_LTE_B1B2_CUSTOM_CELL_THRESH"
+      },
+      {
+        "offset": "0x21f80f0",
+        "text": "SBP_NR_TO_LTE_B1B2_CUSTOM_CELL_THRESH_FOR_VONR"
+      },
+      {
+        "offset": "0x21f8120",
+        "text": "SBP_NR_TO_LTE_B1B2_THRESH_FOR_HST_VONR"
+      },
+      {
+        "offset": "0x21f8168",
+        "text": "SBP_NR_TO_LTE_RESEL_CELL_THRESH"
+      },
+      {
+        "offset": "0x21f81c0",
+        "text": "SBP_NR_TO_NR_RESEL_CELL_THRESH"
+      },
+      {
+        "offset": "0x21f821c",
+        "text": "SBP_NR_MEAS_REPORT_HO_RECOVERY"
+      },
+      {
+        "offset": "0x21f8258",
+        "text": "SBP_NR_CUSTOM_A2_THRESH_ADJUST"
+      },
+      {
+        "offset": "0x21f82bc",
+        "text": "SBP_NR_CUSTOM_A2_THRESH_ADJUST_FOR_VONR"
+      },
+      {
+        "offset": "0x21f8324",
+        "text": "SBP_NR_CUSTOM_A2_THRESH_SET_LOWER"
+      },
+      {
+        "offset": "0x21f8358",
+        "text": "SBP_ENABLE_PINGPONG_BAR_NR_IRAT"
+      },
+      {
+        "offset": "0x220a898",
+        "text": "NRRC_BG_SEARCH_DISABLE_IN_TEST_MODE"
+      },
+      {
+        "offset": "0x220a8d8",
+        "text": "NRRC_AFR_ENHANCEMENT_DISABLE"
+      },
+      {
+        "offset": "0x220a924",
+        "text": "NRRC_AFR_ENHANCEMENT_DISABLE_IN_TEST_MODE"
+      },
+      {
+        "offset": "0x22221ac",
+        "text": "SBP_VONR_RA_ERROR_ENH_CELL_BAR_TIME"
+      },
+      {
+        "offset": "0x2222394",
+        "text": "SBP_BAR_CELL_SINR_THRESHOLD"
+      },
+      {
+        "offset": "0x2222670",
+        "text": "SBP_EMM_CONTROL_DCNR_BIT"
+      },
+      {
+        "offset": "0x222284c",
+        "text": "SBP_IDC_TDM_NR_WINDOW"
+      },
+      {
+        "offset": "0x2222864",
+        "text": "SBP_IDC_TDM_NR_CONSYS_WINDOW"
+      },
+      {
+        "offset": "0x2222884",
+        "text": "SBP_IDC_IM_NR_TX_PWR"
+      },
+      {
+        "offset": "0x22228ec",
+        "text": "SBP_NR_CA_MAX_CC_NUM"
+      },
+      {
+        "offset": "0x2222a28",
+        "text": "SBP_POS_MODE_NR_CAPABILITY_SWITCH"
+      },
+      {
+        "offset": "0x2222b70",
+        "text": "SBP_SET_AS_REL_5G_DISABLE"
+      },
+      {
+        "offset": "0x2222be4",
+        "text": "SBP_ENDC_EN_AMPR"
+      },
+      {
+        "offset": "0x2222c14",
+        "text": "SBP_NR_CA_MAX_UL_CC_NUM"
+      },
+      {
+        "offset": "0x2222c4c",
+        "text": "SBP_NR_REL16_DIRECT_SCELL_ACT"
+      },
+      {
+        "offset": "0x2222c88",
+        "text": "SBP_NR_REL16_RESUME_WITH_DCCA"
+      },
+      {
+        "offset": "0x2222ce4",
+        "text": "SBP_NR_REL16_UAI_POWER_SAVING"
+      },
+      {
+        "offset": "0x2222d70",
+        "text": "SBP_MRS_AFR_TO_5G_CONTROL"
+      },
+      {
+        "offset": "0x22231bc",
+        "text": "SBP_NR_DL_POS_METHOD_SWITCH"
+      },
+      {
+        "offset": "0x2223200",
+        "text": "SBP_NR_SA_TX_DOWNGRADE"
+      },
+      {
+        "offset": "0x2223218",
+        "text": "SBP_NR_SA_RX_DOWNGRADE"
+      },
+      {
+        "offset": "0x2223230",
+        "text": "SBP_ENDC_PREFER_RESELECTION_ENHANCEMENT"
+      },
+      {
+        "offset": "0x2223344",
+        "text": "SBP_EMM_RETRY_IDLE_MOB_TAU_WITH_5G_IDLE_SEC_CTXT"
+      },
+      {
+        "offset": "0x2223490",
+        "text": "SBP_NR_ASYNC_CA"
+      },
+      {
+        "offset": "0x22234a0",
+        "text": "SBP_NR_CROSS_SLOT_SCHED_POWER_SAVING"
+      },
+      {
+        "offset": "0x22234c8",
+        "text": "SBP_NL1_ENABLE_NR_UL_INTRA_CCA"
+      },
+      {
+        "offset": "0x22234e8",
+        "text": "SBP_NR_CA_MAX_CC_FR1_NUM"
+      },
+      {
+        "offset": "0x2223504",
+        "text": "SBP_NR_DL_POS_CAPABILITY_FR1_BANDWIDTH"
+      },
+      {
+        "offset": "0x222352c",
+        "text": "SBP_NR_DL_POS_CAPABILITY_FR2_BANDWIDTH"
+      },
+      {
+        "offset": "0x2223554",
+        "text": "SBP_OP08_5GUC_BW_THRESHOLD"
+      },
+      {
+        "offset": "0x2223570",
+        "text": "SBP_OP08_5GUC_NSA_FR1_BAND"
+      },
+      {
+        "offset": "0x222358c",
+        "text": "SBP_OP08_5GUC_SA_FR1_BAND"
+      },
+      {
+        "offset": "0x22235a8",
+        "text": "SBP_OP08_5GUC_NSA_FR2_BAND"
+      },
+      {
+        "offset": "0x22235c4",
+        "text": "SBP_OP08_5GUC_SA_FR2_BAND"
+      },
+      {
+        "offset": "0x22235e0",
+        "text": "SBP_OP08_5GUC_TIMER_PERIOD"
+      },
+      {
+        "offset": "0x22237d0",
+        "text": "SBP_5G_EHC_MAX_CONTEXT_NUMBER"
+      },
+      {
+        "offset": "0x222389c",
+        "text": "SBP_NR_IMS_EMC_ENH_CELL_BAR_TIME"
+      },
+      {
+        "offset": "0x22238c0",
+        "text": "SBP_NR_UDC"
+      },
+      {
+        "offset": "0x22238cc",
+        "text": "SBP_NR_UDC_BUF_SIZE"
+      },
+      {
+        "offset": "0x2223a50",
+        "text": "SBP_ENABLE_NAS_TRIGGERED_LOW_SNR_MODE_SEARCH"
+      },
+      {
+        "offset": "0x2223a80",
+        "text": "SBP_NR_POWER_LEVEL_IND_PERIOD_CONN"
+      },
+      {
+        "offset": "0x2223aa4",
+        "text": "SBP_NR_POWER_LEVEL_IND_PERIOD_IDLE"
+      },
+      {
+        "offset": "0x2223f04",
+        "text": "SBP_DR_SEARCH_NR_MAX_TIMES"
+      },
+      {
+        "offset": "0x2224054",
+        "text": "SBP_REDCAP_LTE_TO_NR_IRAT_FAIL_BAR_TIME"
+      },
+      {
+        "offset": "0x2224158",
+        "text": "SBP_TRUSTABLE_B1_NR_TTT_QUANTIZATION_THRESHOLD"
+      },
+      {
+        "offset": "0x2224230",
+        "text": "SBP_ERRC_SKIP_NR_IRAT_RESEL_DURING_IMS_CALL"
+      },
+      {
+        "offset": "0x222425c",
+        "text": "SBP_CALL_SIP_MSG_RETRY_AFTER_5G4"
+      },
+      {
+        "offset": "0x2224280",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_PC2"
+      },
+      {
+        "offset": "0x22242a0",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_PC1DOT5"
+      },
+      {
+        "offset": "0x22242c4",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_FR2"
+      },
+      {
+        "offset": "0x22242e4",
+        "text": "SBP_NR_RX_SAWLESS_ENTER_RSRP_THD"
+      },
+      {
+        "offset": "0x2224308",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_INTERBAND_PC2"
+      },
+      {
+        "offset": "0x2224330",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_SUL_PC2"
+      },
+      {
+        "offset": "0x2224354",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_ENDC_TDD_PC2"
+      },
+      {
+        "offset": "0x22243b0",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_ENDC_FDD_TDD_PC2"
+      },
+      {
+        "offset": "0x2224450",
+        "text": "SBP_5GUW_NR_SERVING_CHANGE"
+      },
+      {
+        "offset": "0x222446c",
+        "text": "SBP_5GUW_LTE_SERVING_CHANGE"
+      },
+      {
+        "offset": "0x2224488",
+        "text": "SBP_5GUW_HIGH_BW_THRESHOLD"
+      },
+      {
+        "offset": "0x222458c",
+        "text": "SBP_NR_R17_PDCCH_MON_ADAPT"
+      },
+      {
+        "offset": "0x22245a8",
+        "text": "SBP_NR_CALL_STATUS_CHECK_POINT"
+      },
+      {
+        "offset": "0x22246d0",
+        "text": "SBP_ENABLE_SA_HST_ENHANCEMENT_2024_IND_1"
+      },
+      {
+        "offset": "0x22246fc",
+        "text": "SBP_ENABLE_SA_HST_ENHANCEMENT_2024_IND_2"
+      },
+      {
+        "offset": "0x222476c",
+        "text": "SBP_NR_CALL_STATUS_CHECK_POINT_FOR_FORCE"
+      },
+      {
+        "offset": "0x2224798",
+        "text": "SBP_NR_POWER_SCAN_THRESHOLD_DELTA"
+      },
+      {
+        "offset": "0x22247bc",
+        "text": "SBP_NR_IDLE_STRONG_INTERFERENCE_BAR"
+      },
+      {
+        "offset": "0x22247e0",
+        "text": "SBP_NR_IDLE_NL1RX_PAGING_BLER_BAR"
+      },
+      {
+        "offset": "0x2224860",
+        "text": "SBP_NR_TDD_PC2_WITH_TXD"
+      },
+      {
+        "offset": "0x22248c4",
+        "text": "SBP_NL1_ENABLE_NR_UL_CA_TYPE"
+      },
+      {
+        "offset": "0x2224924",
+        "text": "SBP_NRRC_CAP_BC_WHITELIST_ENDC_NUM"
+      },
+      {
+        "offset": "0x2224948",
+        "text": "SBP_NRRC_CAP_BC_WHITELIST_SA_NUM"
+      },
+      {
+        "offset": "0x222496c",
+        "text": "SBP_NRRC_ERM_ERROR_RECOVERY_RELEASE_PENALTY_TIMER_VALUE"
+      },
+      {
+        "offset": "0x22249a4",
+        "text": "SBP_NRRC_ESCAPE_NR_WHEN_DATA_STALL_UNDER_CONNECTED"
+      },
+      {
+        "offset": "0x2224a04",
+        "text": "SBP_NR_CAP_SIZE_RATIO_FOR_MAXIMIZING_BC"
+      },
+      {
+        "offset": "0x2224a54",
+        "text": "SBP_NR_MEAS_REPORT_HO_RECOVERY_SAF"
+      },
+      {
+        "offset": "0x2224ac4",
+        "text": "SBP_SRS_AS_CAP_N41_NSA"
+      },
+      {
+        "offset": "0x2224af4",
+        "text": "SBP_SRS_AS_CAP_N77_NSA"
+      },
+      {
+        "offset": "0x2224b24",
+        "text": "SBP_SRS_AS_CAP_N78_NSA"
+      },
+      {
+        "offset": "0x2224da8",
+        "text": "SBP_NR_UE_CAP_FR1_FR2_ULCC_FR1_UPPER_BOUND"
+      },
+      {
+        "offset": "0x2224dd4",
+        "text": "SBP_NR_UE_CAP_LTE_FR1_ULCC_FR1_UPPER_BOUND"
+      },
+      {
+        "offset": "0x2224e2c",
+        "text": "SBP_CHECK_CALL_DOMAIN_WHEN_DISABLE_NR_B1"
+      },
+      {
+        "offset": "0x2224e58",
+        "text": "SBP_NR_BWP_SAME_NUMEROLOGY_FDD"
+      },
+      {
+        "offset": "0x2224e78",
+        "text": "SBP_NR_BWP_SAME_NUMEROLOGY_TDD"
+      },
+      {
+        "offset": "0x2224eb8",
+        "text": "SBP_NR_HIGHWAY_CONNECTION_FAIL_ENH"
+      },
+      {
+        "offset": "0x2224edc",
+        "text": "SBP_NR_BAD_QUALITY_CELL_BARRING_IN_V_IDLE"
+      },
+      {
+        "offset": "0x2225008",
+        "text": "SBP_NR_VIRTUAL_PATTERN_FOR_DUAL_SIM_OOS_RECOVERY_SEARCH"
+      },
+      {
+        "offset": "0x22250a0",
+        "text": "SBP_NR_TX_CANCEL"
+      },
+      {
+        "offset": "0x22250b4",
+        "text": "SBP_NR_PARTIAL_TX"
+      },
+      {
+        "offset": "0x22250f8",
+        "text": "SBP_RTP_SILENCE_TRIGGER_NRRC_RELEASE_NOTIFY"
+      },
+      {
+        "offset": "0x222535c",
+        "text": "SBP_MML1_MSCC_DR_RECONFIG_SNR_THRD"
+      },
+      {
+        "offset": "0x22253a4",
+        "text": "SBP_MML1_MSCC_DYN_TUNER_SNR_THRD"
+      },
+      {
+        "offset": "0x22254f0",
+        "text": "SBP_NR_FDD_PC2_WITH_1TX"
+      },
+      {
+        "offset": "0x2225508",
+        "text": "SBP_NR_MANDATORY_GAP_PATTERN_GP2_3"
+      },
+      {
+        "offset": "0x222552c",
+        "text": "SBP_NR_MANDATORY_GAP_PATTERN_GP4_11"
+      },
+      {
+        "offset": "0x2225550",
+        "text": "SBP_NR_BWP_RFCC_RM"
+      },
+      {
+        "offset": "0x2225564",
+        "text": "SBP_NR_IDLE_RESELECTION_S_CRITERIA_JUDGE_FAIL_BAR_TIMER"
+      },
+      {
+        "offset": "0x222559c",
+        "text": "SBP_NRRC_BAR_CELL_WITH_ERROR_RECOVERY"
+      },
+      {
+        "offset": "0x2225840",
+        "text": "SBP_ENABLE_NR_CC_CONTROL"
+      },
+      {
+        "offset": "0x222585c",
+        "text": "SBP_LOCAL_RELEASE_FOR_VOWIFI_DISABLE_5G_SA"
+      },
+      {
+        "offset": "0x222595c",
+        "text": "SBP_NRRC_PPOWERCLASS_CUSTOMIZATION_WITH_CORRESPONDING_BAND_FOR_S_CRITERIA"
+      },
+      {
+        "offset": "0x2226500",
+        "text": "SBP_GMM_TMSI_BASED_NRI_CONTAINER"
+      },
+      {
+        "offset": "0x2229e44",
+        "text": "SBP_AFR_TO_5G_REQUIRE_EPSFB"
+      },
+      {
+        "offset": "0x2229e60",
+        "text": "SBP_AFR_TO_5G_REQUIRE_SRVCC"
+      },
+      {
+        "offset": "0x222a294",
+        "text": "SBP_SEARCH_NR_FIRST_EVEN_NO_ACT_IN_SIM"
+      },
+      {
+        "offset": "0x222a5c4",
+        "text": "SBP_NR_ENHANCED_PRIORITY_BAND"
+      },
+      {
+        "offset": "0x222ac40",
+        "text": "SBP_NR_DELAY_BUDGET_REPORTING"
+      },
+      {
+        "offset": "0x222ac60",
+        "text": "SBP_NR_OVERHEATING_ASSISTANCE"
+      },
+      {
+        "offset": "0x222ace8",
+        "text": "SBP_GNSS_MD_TIME_SYNC_NR"
+      },
+      {
+        "offset": "0x222ad24",
+        "text": "SBP_GNSS_MD_TIME_SYNC_NR_SIB"
+      },
+      {
+        "offset": "0x222af40",
+        "text": "SBP_DUAL_NSA_SUPPORT"
+      },
+      {
+        "offset": "0x222af58",
+        "text": "SBP_NR_REPORT_FALLBACK_CA"
+      },
+      {
+        "offset": "0x222b038",
+        "text": "SBP_5GMM_DISABLE_PARTIAL_CIPHER"
+      },
+      {
+        "offset": "0x222b118",
+        "text": "SBP_VONR_ENH"
+      },
+      {
+        "offset": "0x222b328",
+        "text": "SBP_NR_SUL"
+      },
+      {
+        "offset": "0x222b55c",
+        "text": "SBP_NAS_ROAMING_DISABLE_ENDC"
+      },
+      {
+        "offset": "0x222b634",
+        "text": "SBP_EMM_RELEASE_RRC_CONNECTION_DIRECTLY_FOR_AFR_TO_NR"
+      },
+      {
+        "offset": "0x222b6a0",
+        "text": "SBP_AFR_TO_5G_WITH_MORE_OPPORTUNITY"
+      },
+      {
+        "offset": "0x222b6c4",
+        "text": "SBP_AFR_REDUCE_23G_TO_5G_IF_POSSIBLE"
+      },
+      {
+        "offset": "0x222b760",
+        "text": "SBP_ENDC_PREFER_SEARCH"
+      },
+      {
+        "offset": "0x222bca0",
+        "text": "SBP_EMM_R15_SET_RAT_NO_DETACH_NOT_APPLY_FOR_45G_TO_4G"
+      },
+      {
+        "offset": "0x222be20",
+        "text": "SBP_ERRC_DYNAMIC_NR_CAP_ADJUST"
+      },
+      {
+        "offset": "0x222bfac",
+        "text": "SBP_NR_PLMN_BASED_BAND_41_AMPR"
+      },
+      {
+        "offset": "0x222bfcc",
+        "text": "SBP_NR_DCI_IN_MEAS_GAP_WORKAROUND"
+      },
+      {
+        "offset": "0x222bff0",
+        "text": "SBP_ENDC_DISABLE_NR_B1_DURING_VOLTE"
+      },
+      {
+        "offset": "0x222c148",
+        "text": "SBP_NR_MIB_INTRA_FREQ_RESEL_NOTALLOWED_IGNORE_WHEN_SIB1_FAIL"
+      },
+      {
+        "offset": "0x222c3fc",
+        "text": "SBP_AFR_TO_5G_IGNORE_LTE_REDIRECT"
+      },
+      {
+        "offset": "0x222c430",
+        "text": "SBP_NRDC"
+      },
+      {
+        "offset": "0x222c4c4",
+        "text": "SBP_MODEM_LTE_ENDC_ELEVATOR_MODE"
+      },
+      {
+        "offset": "0x222c664",
+        "text": "SBP_NRRC_CONN_EST_FAILURE_CONTROL_PARAMS"
+      },
+      {
+        "offset": "0x222c6dc",
+        "text": "SBP_ENDC_PREFER_A2_ENH"
+      },
+      {
+        "offset": "0x222c7c0",
+        "text": "SBP_CONFIG_ENDC_COMB_BY_SBPID"
+      },
+      {
+        "offset": "0x222c818",
+        "text": "SBP_NR_CA"
+      },
+      {
+        "offset": "0x222cb3c",
+        "text": "SBP_5G_SA_ROHC_TCP_PROFILE_SUPPORT"
+      },
+      {
+        "offset": "0x222cb60",
+        "text": "SBP_5G_SA_UPLINK_ONLY_ROHC_TCP_PROFILE_SUPPORT"
+      },
+      {
+        "offset": "0x222cd5c",
+        "text": "SBP_NR_RRC_CONNECTED_SIB1_FAIL_ENHANCEMENT"
+      },
+      {
+        "offset": "0x222cdb8",
+        "text": "SBP_MODEM_LTE_NON_ENDC_TO_ENDC_RESEL_THRESHOLD"
+      },
+      {
+        "offset": "0x222cde8",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN"
+      },
+      {
+        "offset": "0x222ce0c",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO"
+      },
+      {
+        "offset": "0x222cfdc",
+        "text": "SBP_DEFAULT_RPT_QUAN_NR_AS_TRIG"
+      },
+      {
+        "offset": "0x222d068",
+        "text": "SBP_MODEM_HST_ENDC_BAND_PERFERENCE"
+      },
+      {
+        "offset": "0x222d104",
+        "text": "SBP_NA_ENDC_PWR_24DBM"
+      },
+      {
+        "offset": "0x222d11c",
+        "text": "SBP_LTE_WITH_NR_NEIGHBOR_PREFER"
+      },
+      {
+        "offset": "0x222d13c",
+        "text": "SBP_NR_SON_GNSS_LOCATION"
+      },
+      {
+        "offset": "0x222d158",
+        "text": "SBP_NR_SON_RACH_REPORT"
+      },
+      {
+        "offset": "0x222d170",
+        "text": "SBP_NR_MDT_UL_PDCP_DELAY"
+      },
+      {
+        "offset": "0x222d18c",
+        "text": "SBP_LTE_GAPLESS_MEAS_FOR_INTERRAT_NR_TEST_MODE"
+      },
+      {
+        "offset": "0x222d1bc",
+        "text": "SBP_NR_CHO_EXECUTION"
+      },
+      {
+        "offset": "0x222d1d4",
+        "text": "SBP_NR_EMR"
+      },
+      {
+        "offset": "0x222d1e0",
+        "text": "SBP_NR_NEED_FOR_GAP"
+      },
+      {
+        "offset": "0x222d234",
+        "text": "SBP_NR_EPS_VOICE_FALLBACK"
+      },
+      {
+        "offset": "0x222d270",
+        "text": "SBP_LTE_ENDC_SCG_OVERHEATING_ASSISTANCE"
+      },
+      {
+        "offset": "0x222d2f0",
+        "text": "SBP_NRRC_BAR_CELL_WITH_CONNECTION_FAILURE"
+      },
+      {
+        "offset": "0x222d454",
+        "text": "SBP_ELEVATOR_MODE_SA_4G5"
+      },
+      {
+        "offset": "0x222d498",
+        "text": "SBP_IGNORE_NR_EF_RAT_MODE"
+      },
+      {
+        "offset": "0x222d538",
+        "text": "SBP_NR_REL16_DL_DEDIC_MSG_SEGMENTATION"
+      },
+      {
+        "offset": "0x222d588",
+        "text": "SBP_DISABLE_NR_B1_BEFORE_VOLTE_SETUP"
+      },
+      {
+        "offset": "0x222d5b0",
+        "text": "SBP_R13_DOS_PLMN_SPECIFIC_ATTEMPT_COUNTER_FOR_NR"
+      },
+      {
+        "offset": "0x222d624",
+        "text": "SBP_NR_BW_SETTING_LIST"
+      },
+      {
+        "offset": "0x222d6c4",
+        "text": "SBP_NR_ON_DEMAND_SIB_CONNECTED"
+      },
+      {
+        "offset": "0x222d72c",
+        "text": "SBP_NR_PCELL_T312"
+      },
+      {
+        "offset": "0x222d740",
+        "text": "SBP_NR_PSCELL_T312"
+      },
+      {
+        "offset": "0x222d7c0",
+        "text": "SBP_ENABLE_SA_SLIENCE_ENH"
+      },
+      {
+        "offset": "0x222d7dc",
+        "text": "SBP_AFR_TO_5G_FOR_SA_SILENCE_OFF"
+      },
+      {
+        "offset": "0x222d9c0",
+        "text": "SBP_DISABLE_NR_B1_WHEN_PEER_SIM_CONNECTED"
+      },
+      {
+        "offset": "0x222d9ec",
+        "text": "SBP_NR_BWP_SWITCH"
+      },
+      {
+        "offset": "0x222daa8",
+        "text": "SBP_ENDC_EMR"
+      },
+      {
+        "offset": "0x222db0c",
+        "text": "SBP_ENABLE_NR_BW_SETTING_LIST_FOR_SIMPLIFICATION_SCENARIO"
+      },
+      {
+        "offset": "0x222dd64",
+        "text": "SBP_NR_IDLE_MODE_SECOND_SMTC"
+      },
+      {
+        "offset": "0x222dd9c",
+        "text": "SBP_MEA_RPT_IRAT_NR_PRIORITY_FR2_FR1TDD_FR1FDD"
+      },
+      {
+        "offset": "0x222deb0",
+        "text": "SBP_LBS_LPP_NR_ECID_FEATURE"
+      },
+      {
+        "offset": "0x222decc",
+        "text": "SBP_LBS_LPP_NR_UL_SRS_FEATURE"
+      },
+      {
+        "offset": "0x222df6c",
+        "text": "SBP_NR_RELEASE_PREFERENCE_ASSISTANCE_INFO"
+      },
+      {
+        "offset": "0x222dffc",
+        "text": "SBP_DISABLE_ENDC_PREFER_WHEN_ENDC_DEACTIVATED"
+      },
+      {
+        "offset": "0x222e050",
+        "text": "SBP_ENDC_PREFER_SEARCH_IN_FR"
+      },
+      {
+        "offset": "0x222e23c",
+        "text": "SBP_NR_BG_SEARCH_CUSTOM_THRESHOLD"
+      },
+      {
+        "offset": "0x222e260",
+        "text": "SBP_NR_REL16_UL_DEDIC_MSG_SEGMENTATION"
+      },
+      {
+        "offset": "0x222e288",
+        "text": "SBP_ENABLE_PINGPONG_AVOIDANCE_CONN_NR"
+      },
+      {
+        "offset": "0x222e2d0",
+        "text": "SBP_ENABLE_NR_CRS_IC"
+      },
+      {
+        "offset": "0x222e358",
+        "text": "SBP_NR_CAP_DISABLE_RF_TRACE"
+      },
+      {
+        "offset": "0x222e374",
+        "text": "SBP_LTE_DISABLE_B1_NR_IN_SA_MODE"
+      },
+      {
+        "offset": "0x222e3b4",
+        "text": "SBP_ERRC_DISABLE_NR_B1_DURING_EMR_CALL_DOMAIN_SELECT"
+      },
+      {
+        "offset": "0x222e40c",
+        "text": "SBP_ENABLE_SA_HST_ENHANCEMENT"
+      },
+      {
+        "offset": "0x222e42c",
+        "text": "SBP_ENABLE_SA_HST_R15"
+      },
+      {
+        "offset": "0x222e444",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_WITH_SIM"
+      },
+      {
+        "offset": "0x222e49c",
+        "text": "SBP_ENABLE_NR_CSI_RS_RRM_FOR_OP01_MDT"
+      },
+      {
+        "offset": "0x222e4e8",
+        "text": "SBP_MEA_RPT_IRAT_NR_PRIORITY_FR1TDD_FR1FDD"
+      },
+      {
+        "offset": "0x222e514",
+        "text": "SBP_MEA_RPT_IRAT_NR_PRIORITY_FR2_X1_FR1"
+      },
+      {
+        "offset": "0x222e584",
+        "text": "SBP_NR_DISABLE_TX_PORT_SWITCH_FOR_N77"
+      },
+      {
+        "offset": "0x222e5fc",
+        "text": "SBP_ERRC_ENDC_CELL_OFFSET_OPTIMIZATION"
+      },
+      {
+        "offset": "0x222e744",
+        "text": "SBP_CHECK_NW_ASSIGNMENT_NR_BW_SETTING_BY_NVRAM_VALUE"
+      },
+      {
+        "offset": "0x222e790",
+        "text": "SBP_NR_MDT_IMMEDIATE_MEAS"
+      },
+      {
+        "offset": "0x222e7ac",
+        "text": "SBP_NR_MDT_LOGGED_MEAS"
+      },
+      {
+        "offset": "0x222e7c4",
+        "text": "SBP_NR_MDT_BT_LOCATION"
+      },
+      {
+        "offset": "0x222e7dc",
+        "text": "SBP_NR_MDT_WLAN_LOCATION"
+      },
+      {
+        "offset": "0x222e7f8",
+        "text": "SBP_NR_ENABLE_HST_PARAM_ENH"
+      },
+      {
+        "offset": "0x222e814",
+        "text": "SBP_R17_NR_ENABLE_HST_PARAM_ENH"
+      },
+      {
+        "offset": "0x222e8b4",
+        "text": "SBP_NR_SON_RLF_REPORT"
+      },
+      {
+        "offset": "0x222e8cc",
+        "text": "SBP_NR_SON_CEF_REPORT"
+      },
+      {
+        "offset": "0x222e8e4",
+        "text": "SBP_OP12_5GUW_DSPL"
+      },
+      {
+        "offset": "0x222e8f8",
+        "text": "SBP_LBS_5G_ELCS"
+      },
+      {
+        "offset": "0x222e920",
+        "text": "SBP_EMM_ENABLE_TMSI_BASED_NRI"
+      },
+      {
+        "offset": "0x222e974",
+        "text": "SBP_REPORT_NR_CA_WHEN_SIMPLIFICATION_SCENARIO"
+      },
+      {
+        "offset": "0x222eab4",
+        "text": "SBP_VGMM_BYPASS_EF_5GAUTHKEYS_CHECK"
+      },
+      {
+        "offset": "0x222ead8",
+        "text": "SBP_VGSM_CALL_END_45G_IRAT_DEDICATED_BEARER_RELEASE"
+      },
+      {
+        "offset": "0x222eba8",
+        "text": "SBP_EMM_5G4_NOT_DELETE_STMSI_IN_REGISTERED_MME"
+      },
+      {
+        "offset": "0x222ebd8",
+        "text": "SBP_EMM_5G4_NOT_DELETE_STMSI_AND_UPDATE_WITH_MAPPED_VG_GUMMEI_IN_REGISTERED_MME"
+      },
+      {
+        "offset": "0x222ecb8",
+        "text": "SBP_UE_CAP_CUSTOM_ENDC_BC_LIST"
+      },
+      {
+        "offset": "0x222ecd8",
+        "text": "SBP_UE_CAP_CUSTOM_NRCA_BC_LIST"
+      },
+      {
+        "offset": "0x222ecf8",
+        "text": "SBP_UE_CAP_CUSTOM_NR_CAP_BY_NW_OTA"
+      },
+      {
+        "offset": "0x222ed9c",
+        "text": "SBP_NR_HARQ_ACK_CODEBOOK_TYPE_AND_SPATIAL_BUNDLING_CONFIG_PER_PUCCH_GROUP"
+      },
+      {
+        "offset": "0x222ede8",
+        "text": "SBP_NR_PRACH_PRIO_FOR_MPS_MCS"
+      },
+      {
+        "offset": "0x222ee08",
+        "text": "SBP_NR_RACH_RETX_FOR_SRS_SWITCH"
+      },
+      {
+        "offset": "0x222ee28",
+        "text": "SBP_NR_SCELL_BFR_FEATURE"
+      },
+      {
+        "offset": "0x222ee44",
+        "text": "SBP_NR_SRS_TX_SWITCH_DOWNGRADE"
+      },
+      {
+        "offset": "0x222ee64",
+        "text": "SBP_NR_FULL_TX_PWR"
+      },
+      {
+        "offset": "0x222ee8c",
+        "text": "SBP_NR_MIMO_LAYER_REDUCTION"
+      },
+      {
+        "offset": "0x222eecc",
+        "text": "SBP_NR_UL_POS"
+      },
+      {
+        "offset": "0x222eedc",
+        "text": "SBP_NR_UL_SRS"
+      },
+      {
+        "offset": "0x222eeec",
+        "text": "SBP_DISABLE_N1_WHEN_NOT_SUPPORT_ECC_ON_NR"
+      },
+      {
+        "offset": "0x222ef58",
+        "text": "SBP_ENABLE_NR_LTE_BC_TRACE"
+      },
+      {
+        "offset": "0x222f01c",
+        "text": "SBP_ENABLE_NR_MANDATORY_GAP_PATTERN"
+      },
+      {
+        "offset": "0x222f040",
+        "text": "SBP_ENABLE_NR_SCELL_DEFAULT_REPORT"
+      },
+      {
+        "offset": "0x222f0fc",
+        "text": "SBP_NR_RELEASE_PREFERENCE_ASSISTANCE_INFO_ALLOW_SAME_AS_PREVIOUS"
+      },
+      {
+        "offset": "0x222f198",
+        "text": "SBP_REMOVE_NR_RAT_FOR_OP196"
+      },
+      {
+        "offset": "0x222f1b4",
+        "text": "SBP_LTE_ENABLE_ENDC_SEARCH_PRIOIRTY_CONTROL"
+      },
+      {
+        "offset": "0x222f1e0",
+        "text": "SBP_ENPDCP_ENDC_DL_RCV_OPT"
+      },
+      {
+        "offset": "0x222f298",
+        "text": "SBP_LTE_SI_REQUEST_FOR_HO_RCGI_ENDC"
+      },
+      {
+        "offset": "0x222f2bc",
+        "text": "SBP_LTE_AUTO_GAP_RCGI_ENDC_FR1"
+      },
+      {
+        "offset": "0x222f2dc",
+        "text": "SBP_LTE_AUTO_GAP_RCGI_NR_FR1"
+      },
+      {
+        "offset": "0x222f2fc",
+        "text": "SBP_NR_HST_ENH_NW"
+      },
+      {
+        "offset": "0x222f34c",
+        "text": "SBP_ENDC_ICON_CONSIDER_BAND_COMB"
+      },
+      {
+        "offset": "0x222f590",
+        "text": "SBP_NR_R16_SIMULTANEOUS_TCI"
+      },
+      {
+        "offset": "0x222f5e4",
+        "text": "SBP_ENABLE_PINGPONG_BAR_NR"
+      },
+      {
+        "offset": "0x222f600",
+        "text": "SBP_REL16_DISABLE_N1_WHEN_NOT_SUPPORT_ECC_ON_NR"
+      },
+      {
+        "offset": "0x222f6a8",
+        "text": "SBP_RPT_FAKE_NR_RECONFIG_COMP"
+      },
+      {
+        "offset": "0x222f6c8",
+        "text": "SBP_ERRC_DYNAMIC_NR_CAP_ADJUST_WITH_SCENARIO"
+      },
+      {
+        "offset": "0x222f724",
+        "text": "SBP_ERRC_THRESH_BASED_SKIP_NR_CELL_RESEL"
+      },
+      {
+        "offset": "0x222f750",
+        "text": "SBP_ERRC_THRESH_BASED_SKIP_NR_CELL_REPORT"
+      },
+      {
+        "offset": "0x222f7d8",
+        "text": "SBP_ERRC_SKIP_EVT_OFFSET_ENH_FOR_NBR_ENDC_CELL"
+      },
+      {
+        "offset": "0x222f834",
+        "text": "SBP_DYNAMIC_NR_CAP_SIZE_REDUCTION"
+      },
+      {
+        "offset": "0x222f858",
+        "text": "SBP_DEFAULT_NR_CAP_SIZE"
+      },
+      {
+        "offset": "0x222f870",
+        "text": "SBP_NRRC_BAR_CELL_BLOCK_MEASURE_REPORT"
+      },
+      {
+        "offset": "0x222f8c8",
+        "text": "SBP_NR_CELL_SELECTION_SHARING"
+      },
+      {
+        "offset": "0x222f8e8",
+        "text": "SBP_NR_PCELL_POOR_SINR_ESCAPE"
+      },
+      {
+        "offset": "0x222f908",
+        "text": "SBP_CUSTOM_QRXLEVMIN_ADJ_NR"
+      },
+      {
+        "offset": "0x222f924",
+        "text": "SBP_NRRC_CAMP_ON_CRITERIA"
+      },
+      {
+        "offset": "0x222fa48",
+        "text": "SBP_NR_DAPS_HANDOVER"
+      },
+      {
+        "offset": "0x222fa60",
+        "text": "SBP_OP08_5GUC_DSPL"
+      },
+      {
+        "offset": "0x222fa74",
+        "text": "SBP_OP08_5GUC_DSPL_BW_CHECK"
+      },
+      {
+        "offset": "0x222fab8",
+        "text": "SBP_LTE_IGNORE_IR_REDIRECT_DURING_SA_SILENCE_MODE"
+      },
+      {
+        "offset": "0x222faec",
+        "text": "SBP_NR_PARTIAL_BAND_UNDER_MCC"
+      },
+      {
+        "offset": "0x222fb54",
+        "text": "SBP_NR_UL_MIMO_CAPABILITY_ADJUSTMENT"
+      },
+      {
+        "offset": "0x222fba8",
+        "text": "SBP_NR_IMMEDIATE_MDT_LOCAT_INFO_CHG_ONLY"
+      },
+      {
+        "offset": "0x222fbd4",
+        "text": "SBP_NR_FORCE_REPORT_RANDOM_SIGNAL_VALUE"
+      },
+      {
+        "offset": "0x222fc18",
+        "text": "SBP_NR_RE_EST_SEARCH_OPT_STORED_ONLY"
+      },
+      {
+        "offset": "0x222fc40",
+        "text": "SBP_NR_RE_EST_SEARCH_OPT_STRONGEST_ONLY"
+      },
+      {
+        "offset": "0x222fc68",
+        "text": "SBP_NR_CUSTOMIZED_PAGING_CYCLE"
+      },
+      {
+        "offset": "0x222fccc",
+        "text": "SBP_NR_R16_EMIMO_ETYPE2_CB_SUPPORT"
+      },
+      {
+        "offset": "0x222fd7c",
+        "text": "SBP_NR_PARALLEL_ESI_DECODING"
+      },
+      {
+        "offset": "0x222fe20",
+        "text": "SBP_NR_2_STEP_RA"
+      },
+      {
+        "offset": "0x222fe7c",
+        "text": "SBP_VGMM_APPLY_NON_CURRENT_TO_CURRENT_AFTER_5G4"
+      },
+      {
+        "offset": "0x222ffbc",
+        "text": "SBP_NR_SUPPORT_EXTENDED_BAND_77_USA"
+      },
+      {
+        "offset": "0x22300b8",
+        "text": "SBP_LTE_IGNORE_IR_REDIRECT_NR_DURING_CSFB"
+      },
+      {
+        "offset": "0x2230180",
+        "text": "SBP_NR_LARGE_BW_CELL_PREFER_FOR_NON_CA"
+      },
+      {
+        "offset": "0x223022c",
+        "text": "SBP_DISABLE_NR_RRC_INACTIVE_STATUS"
+      },
+      {
+        "offset": "0x2230250",
+        "text": "SBP_NR_ENABLE_RRM_RX_TIME_DIFF_OOS_RECOVER"
+      },
+      {
+        "offset": "0x223027c",
+        "text": "SBP_NR_ENABLE_ASSERT_RRM_RX_TIME_DIFF_LARGE"
+      },
+      {
+        "offset": "0x22302a8",
+        "text": "SBP_EMM_CARRY_EPSB_ON_ANY_5G4_TAU"
+      },
+      {
+        "offset": "0x22302cc",
+        "text": "SBP_NR_ONLY_REPORT_REQ_FREQ_BAND_OP12_ROAMING"
+      },
+      {
+        "offset": "0x2230524",
+        "text": "SBP_ENDC_OVERHEATING_EMPTY_IE_V1670"
+      },
+      {
+        "offset": "0x2230548",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_FOR_ROAMING"
+      },
+      {
+        "offset": "0x2230578",
+        "text": "SBP_FR2_B1_NR_RSRP_OFFSET"
+      },
+      {
+        "offset": "0x22305e0",
+        "text": "SBP_MEA_RPT_IRAT_NR_PRIORITY_CBAND_SAME_FR2"
+      },
+      {
+        "offset": "0x2230654",
+        "text": "SBP_5G_EHC_SUPPORT"
+      },
+      {
+        "offset": "0x2230668",
+        "text": "SBP_5G_EHC_CONTINUE_EHC_CONTEXT_SUPPORT"
+      },
+      {
+        "offset": "0x2230690",
+        "text": "SBP_5G_EHC_ROHC_JOINT_CONFIG_SUPPORT"
+      },
+      {
+        "offset": "0x22306c8",
+        "text": "SBP_NR_FR2_A2_RSRP_OFFSET"
+      },
+      {
+        "offset": "0x2230730",
+        "text": "SBP_DISABLE_ADDITIONAL_NR_MEASUREMENT_DURING_VOLTE"
+      },
+      {
+        "offset": "0x2230788",
+        "text": "SBP_NR_RA_SDT_R17"
+      },
+      {
+        "offset": "0x223079c",
+        "text": "SBP_NR_CG_SDT_R17"
+      },
+      {
+        "offset": "0x22307b0",
+        "text": "SBP_NR_SRB_SDT_R17"
+      },
+      {
+        "offset": "0x22307c4",
+        "text": "SBP_NR_IRAT_MEAS_ALLOWED_IN_IDLE"
+      },
+      {
+        "offset": "0x2230804",
+        "text": "SBP_SA_LTE_B1_MEAS_SKIP_SERVING_MEAS_OBJECT_CHECK"
+      },
+      {
+        "offset": "0x2230990",
+        "text": "SBP_DR_SEARCH_NR"
+      },
+      {
+        "offset": "0x22309a4",
+        "text": "SBP_DDS_DR_SEARCH_NR"
+      },
+      {
+        "offset": "0x22309bc",
+        "text": "SBP_NDDS_DR_SEARCH_NR"
+      },
+      {
+        "offset": "0x2230a18",
+        "text": "SBP_LOCAL_DEACTIVATE_NR_SCG"
+      },
+      {
+        "offset": "0x2230a34",
+        "text": "SBP_LOCAL_DEACTIVATE_NR_SCC"
+      },
+      {
+        "offset": "0x2230a8c",
+        "text": "SBP_ERRC_HST_ENDC_DEACTIVATE"
+      },
+      {
+        "offset": "0x2230aac",
+        "text": "SBP_CUSTOM_NR_CAP_SIZE_FROM_NVRAM"
+      },
+      {
+        "offset": "0x2230af0",
+        "text": "SBP_NR_PARTIAL_BAND_USE_NVRAM"
+      },
+      {
+        "offset": "0x2230c08",
+        "text": "SBP_DISABLE_NR_RRM_INDEPENDENT_GAP_CONFIG"
+      },
+      {
+        "offset": "0x2230c98",
+        "text": "SBP_NR_CA_WHITE_LIST_FALLBACK"
+      },
+      {
+        "offset": "0x2230e14",
+        "text": "SBP_NR_UE_CAP_PER_BC_SIZE_REDUCE"
+      },
+      {
+        "offset": "0x223101c",
+        "text": "SBP_NR_CAP_MAXIMIZE_CAPABILITY_SIZE"
+      },
+      {
+        "offset": "0x2231040",
+        "text": "SBP_NRRC_MEAS_REEST_UPON_CHECK_IE_ERROR"
+      },
+      {
+        "offset": "0x2231068",
+        "text": "SBP_NR_CGI_GNB_ID_LENGTH_REPORTING"
+      },
+      {
+        "offset": "0x2231154",
+        "text": "SBP_DISABLE_ROAMING_BAND_WHEN_VONR_NOT_SUPPORT"
+      },
+      {
+        "offset": "0x223123c",
+        "text": "SBP_PWR_ENH_NR"
+      },
+      {
+        "offset": "0x2231278",
+        "text": "SBP_NR_EDRX_INACTIVE"
+      },
+      {
+        "offset": "0x2231290",
+        "text": "SBP_DR_SEARCH_LTE_WHEN_NR"
+      },
+      {
+        "offset": "0x223132c",
+        "text": "SBP_NR_UE_CAP_CBW_CHECK"
+      },
+      {
+        "offset": "0x2231384",
+        "text": "SBP_NR_SPECIAL_IGNORE_B1_REPORT_DURING_VONR"
+      },
+      {
+        "offset": "0x22313b0",
+        "text": "SBP_NR_ECELLMEAS_FAST_SCAN"
+      },
+      {
+        "offset": "0x22313cc",
+        "text": "SBP_NR_BAR_CELL_NW_REJECT_WITH_LONG_WAIT_TIME"
+      },
+      {
+        "offset": "0x22313fc",
+        "text": "SBP_NRRC_BAR_CELL_WITH_REEST"
+      },
+      {
+        "offset": "0x223141c",
+        "text": "SBP_NR_UE_CAP_OPERATOR_BC_PRIORITY"
+      },
+      {
+        "offset": "0x2231440",
+        "text": "SBP_NR_PAGING_SHARING"
+      },
+      {
+        "offset": "0x2231458",
+        "text": "SBP_NR_MEASUREMENT_SHARING"
+      },
+      {
+        "offset": "0x223153c",
+        "text": "SBP_NR_CAP_PRIORITIZE_SERVING_BAND_IN_BAND_LIST"
+      },
+      {
+        "offset": "0x2231624",
+        "text": "SBP_NR_REDIRECTION_CUSTOM_THRESHOLD"
+      },
+      {
+        "offset": "0x2231648",
+        "text": "SBP_NR_MOBILITY_STATE_REPORT"
+      },
+      {
+        "offset": "0x2231694",
+        "text": "SBP_NR_R17_PDCCH_SKIPPING_POWER_SAVING"
+      },
+      {
+        "offset": "0x22316bc",
+        "text": "SBP_RRC_DELAY_PROTECTION_FOR_NR_R17_PDCCH_SKIPPING_POWER_SAVING"
+      },
+      {
+        "offset": "0x223172c",
+        "text": "SBP_NR_R17_RLM_RELAXATION"
+      },
+      {
+        "offset": "0x2231748",
+        "text": "SBP_NR_R17_BFD_RELAXATION"
+      },
+      {
+        "offset": "0x22317bc",
+        "text": "SBP_NR_DRX_RTT_LAST_TRANS_R17"
+      },
+      {
+        "offset": "0x2231878",
+        "text": "SBP_E911_ENDC_DEACTIVATION"
+      },
+      {
+        "offset": "0x2231894",
+        "text": "SBP_THERMAL_LOW_BATTERY_DISABLE_NSA"
+      },
+      {
+        "offset": "0x2231c24",
+        "text": "SBP_OP129_REGARD_NR_EMC_AS_NOT_SUPPORTED"
+      },
+      {
+        "offset": "0x2232a4c",
+        "text": "SBP_NRRC_VONR_ENH_EARLY_CEL_RESEL"
+      },
+      {
+        "offset": "0x2232a70",
+        "text": "SBP_NRRC_IGNORE_A2_FOR_HST_Enable_CHECK"
+      },
+      {
+        "offset": "0x2232a98",
+        "text": "SBP_NRRC_HST_OFFSET_CELL_Enable_CHECK"
+      },
+      {
+        "offset": "0x2232ac0",
+        "text": "SBP_NRRC_IGNORE_B1B2_FOR_HST_Enable_CHECK"
+      },
+      {
+        "offset": "0x2232f38",
+        "text": "SBP_NR_ASYMMETRIC_BCS_ENABLE"
+      },
+      {
+        "offset": "0x2232fbc",
+        "text": "SBP_EMM_DISABLE_DCNR_BY_ENDC_BLACKLIST"
+      },
+      {
+        "offset": "0x2233034",
+        "text": "SBP_SA_MODE_SWITCH_BY_SIM_5GS3GPPLOCI"
+      },
+      {
+        "offset": "0x22331cc",
+        "text": "SBP_PWR_ENH_NR_TRS"
+      },
+      {
+        "offset": "0x2233228",
+        "text": "SBP_NR_COV_ENH_R17"
+      },
+      {
+        "offset": "0x22333dc",
+        "text": "SBP_ENABLE_NR_CONFIGURED_UL_GRANT_TYPE1"
+      },
+      {
+        "offset": "0x2233404",
+        "text": "SBP_ENABLE_NR_CONFIGURED_UL_GRANT_TYPE2"
+      },
+      {
+        "offset": "0x223342c",
+        "text": "SBP_NR_UE_CAP_BCS4"
+      },
+      {
+        "offset": "0x223347c",
+        "text": "SBP_NR_OH_UAI_RECOVERY_INCLUDING_R14"
+      },
+      {
+        "offset": "0x22334c0",
+        "text": "SBP_5G_SA_ROHC_IP_PROFILE_SUPPORT"
+      },
+      {
+        "offset": "0x22334e4",
+        "text": "SBP_5G_SA_ROHC_UDP_PROFILE_SUPPORT"
+      },
+      {
+        "offset": "0x2233508",
+        "text": "SBP_5G_SA_ROHC_RTP_PROFILE_SUPPORT"
+      },
+      {
+        "offset": "0x223352c",
+        "text": "SBP_5G_SA_ROHC_NO_COMPRESSION_PROFILE_SUPPORT"
+      },
+      {
+        "offset": "0x223355c",
+        "text": "SBP_NR_MOBILITY_BAND_PREFERENCE"
+      },
+      {
+        "offset": "0x22335cc",
+        "text": "SBP_NR_VSIM3"
+      },
+      {
+        "offset": "0x22335f4",
+        "text": "SBP_NR17_HSDN"
+      },
+      {
+        "offset": "0x2233604",
+        "text": "SBP_NR_SUPPORT_EXTENDED_BAND_77_CANADA"
+      },
+      {
+        "offset": "0x223362c",
+        "text": "SBP_GMSS_NO_SIM_SKIP_LTE_NR_SEARCH"
+      },
+      {
+        "offset": "0x22336a0",
+        "text": "SBP_ENABLE_CELL_BARRING_FOR_5G4_HO_FAIL"
+      },
+      {
+        "offset": "0x22336c8",
+        "text": "SBP_NR_REDIRECTION_FOR_MPS"
+      },
+      {
+        "offset": "0x2233720",
+        "text": "SBP_NR_CONFIG_BARRING"
+      },
+      {
+        "offset": "0x2233738",
+        "text": "SBP_OP07_RESERVE_SIZE_FOR_ENDC_FR2"
+      },
+      {
+        "offset": "0x223375c",
+        "text": "SBP_NR_ENABLE_FAST_PRESYNC_ENHANCEMENT"
+      },
+      {
+        "offset": "0x22337ac",
+        "text": "SBP_NR_SMART_IDLE_RRC_RELEASE_UAI"
+      },
+      {
+        "offset": "0x22337d0",
+        "text": "SBP_TRUSTABLE_B1_NR_TTT_REDUCTION"
+      },
+      {
+        "offset": "0x2233830",
+        "text": "SBP_ENDC_BC_CHECK_LTE_CA_REPORTED"
+      },
+      {
+        "offset": "0x2233e6c",
+        "text": "SBP_MOB_BAD_SINR_EARLY_CELL_RESEL"
+      },
+      {
+        "offset": "0x2234080",
+        "text": "SBP_ERRC_DISABLE_NR_B1_DURING_EMR_CALL_EPS_VOICE_FALLBACK"
+      },
+      {
+        "offset": "0x22340bc",
+        "text": "SBP_NRRC_KEEP_CUSTOM_BAR_LIST_DURING_PLMN_SEARCH"
+      },
+      {
+        "offset": "0x2234204",
+        "text": "SBP_DISABLE_NR_MAX_UL_DUTY_CYCLE_ENDC_FDD_TDD_PC2_REPORT"
+      },
+      {
+        "offset": "0x2234298",
+        "text": "SBP_ENABLE_NR_CA_BY_PLMN"
+      },
+      {
+        "offset": "0x22343b0",
+        "text": "SBP_NR_SHARED_NETWORK_FREQUENCY_RETRIAL"
+      },
+      {
+        "offset": "0x22343d8",
+        "text": "SBP_NRAS_ADDITIONAL_PLMN_IN_BAND_STORED_SEARCH"
+      },
+      {
+        "offset": "0x2234560",
+        "text": "SBP_DISABLE_NR_FOR_VOICE_WHEN_NO_LOW_RAT"
+      },
+      {
+        "offset": "0x223458c",
+        "text": "SBP_NR_LTE_CELL_SELECTION_SHARING"
+      },
+      {
+        "offset": "0x2234658",
+        "text": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN"
+      },
+      {
+        "offset": "0x223467c",
+        "text": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO"
+      },
+      {
+        "offset": "0x22346bc",
+        "text": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_FOR_ROAMING"
+      },
+      {
+        "offset": "0x2234710",
+        "text": "SBP_SA_MODE_SWITCH_BY_UST_124_AND_125"
+      },
+      {
+        "offset": "0x223477c",
+        "text": "SBP_NWSEL_SKIP_NR_SEARCH_WHEN_SA_DISABLE_BY_MCC"
+      },
+      {
+        "offset": "0x22348c8",
+        "text": "SBP_ENABLE_NR_IDLE_EDRX"
+      },
+      {
+        "offset": "0x2234a28",
+        "text": "SBP_NR_HIGHER_POWER_LIMIT_ENABLE"
+      },
+      {
+        "offset": "0x2234ac0",
+        "text": "SBP_NR_RESEL_IGNORE_HIGHER_PRIO_BAD_CELL"
+      },
+      {
+        "offset": "0x2234c3c",
+        "text": "SBP_NR_FAST_PLMN_LIST_BY_CROSS_SIM_SERVING"
+      },
+      {
+        "offset": "0x2234db8",
+        "text": "SBP_AFR_SKIP_4G5_UNDER_5G_SHARE_4G_HOME_IP_CONTINUITY_PROBLEM"
+      },
+      {
+        "offset": "0x2234ea8",
+        "text": "SBP_ENDC_LTE_CA_DISABLE"
+      },
+      {
+        "offset": "0x2234f28",
+        "text": "SBP_OP12_CONFIGURE_RAT_MODE_FOR_ENDC_SUPPORT_DEVICE"
+      },
+      {
+        "offset": "0x2234f88",
+        "text": "SBP_NR_EARLY_HANDOVER_FAILURE"
+      },
+      {
+        "offset": "0x2235110",
+        "text": "SBP_NRRC_SKIP_DR_OOS_SEARCH"
+      },
+      {
+        "offset": "0x223512c",
+        "text": "SBP_NR_MDT_FOLLOW_ATCMD"
+      },
+      {
+        "offset": "0x2235168",
+        "text": "SBP_NR_EXTENDED_BAND_77_USA_REPORT"
+      },
+      {
+        "offset": "0x223518c",
+        "text": "SBP_NR_EXTENDED_BAND_77_CANADA_REPORT"
+      },
+      {
+        "offset": "0x2235448",
+        "text": "SBP_NRRC_EE_DOS_SOLUTION"
+      },
+      {
+        "offset": "0x2235490",
+        "text": "SBP_IGNORE_5G_PWS_DUP_CHECK"
+      },
+      {
+        "offset": "0x2235570",
+        "text": "SBP_SA_HIGHER_THAN_DA_PREFER"
+      },
+      {
+        "offset": "0x2235590",
+        "text": "SBP_NRRC_OOS_SNIFFER_JUDGE_ENHANCE"
+      },
+      {
+        "offset": "0x22355b4",
+        "text": "SBP_ENABLE_NR_CA_BY_PLMN_FOR_SA"
+      },
+      {
+        "offset": "0x22355d4",
+        "text": "SBP_ENABLE_NR_CA_BY_PLMN_FOR_NSA"
+      },
+      {
+        "offset": "0x2235710",
+        "text": "SBP_TRIGGER_BLIND_REDIR_TO_LTE_IF_NR_REEST_SEARCH_FAILS"
+      },
+      {
+        "offset": "0x2235774",
+        "text": "SBP_DISABLE_ENDC_PRFER_SEARCH_IN_ROAMING"
+      },
+      {
+        "offset": "0x22357c4",
+        "text": "SBP_LTE_IGNORE_IR_REDIRECT_NR_DURING_VOLTE_RETRIAL"
+      },
+      {
+        "offset": "0x2235964",
+        "text": "SBP_DISABLE_NR_SERVICE_AVAILABILITY"
+      },
+      {
+        "offset": "0x22359c8",
+        "text": "SBP_NR_RE_EST_SKIP_OF_SKIPPING_SIB1_REC_FAIL_CELL"
+      },
+      {
+        "offset": "0x2235a7c",
+        "text": "SBP_NRAS_IGNORE_NAS_REQUEST_BAND"
+      },
+      {
+        "offset": "0x2235e60",
+        "text": "SBP_NR_BAND_REPORT_WHEN_ROAMING_OP12"
+      },
+      {
+        "offset": "0x2236330",
+        "text": "SBP_NR_FAKE_RI_ENABLED"
+      },
+      {
+        "offset": "0x2236398",
+        "text": "SBP_SA_SUBWAY_MODE_ENABLE"
+      },
+      {
+        "offset": "0x22363b4",
+        "text": "SBP_NR_LTE_SUBWAY_MODE_ENABLE"
+      },
+      {
+        "offset": "0x22363d4",
+        "text": "SBP_NRRC_RPT_RESEL_REMAIN_TRIG_TIME"
+      },
+      {
+        "offset": "0x223646c",
+        "text": "SBP_DR_SEARCH_NR_SNIFFER"
+      },
+      {
+        "offset": "0x2236488",
+        "text": "SBP_ENDC_DEACTIVATE_ALLOW_NON_REAL_SIM"
+      },
+      {
+        "offset": "0x2236504",
+        "text": "SBP_NR_DISABLE_SERV_SET_LOWEST_PRIORITY"
+      },
+      {
+        "offset": "0x223652c",
+        "text": "SBP_NRRC_BAR_CELL_CONNECTION_FAILURE_WEAK_SIGNAL"
+      },
+      {
+        "offset": "0x22365ec",
+        "text": "SBP_OP12_NR_IMS_NOT_ALLOWED_FOR_WPS_CALL"
+      },
+      {
+        "offset": "0x2236650",
+        "text": "SBP_OPTIMIZE_5G4_HO_SRCH_DURING_VONR"
+      },
+      {
+        "offset": "0x2236678",
+        "text": "SBP_NR_A3A4A5_IGNORE_SINR_DIFF"
+      },
+      {
+        "offset": "0x223734c",
+        "text": "SBP_NR_MAX_UL_DUTY_CYCLE_CUSTOM_ENABLE"
+      },
+      {
+        "offset": "0x22373fc",
+        "text": "SBP_NR_IRAT_REDIRECTION_ULTRAFAST"
+      },
+      {
+        "offset": "0x2237458",
+        "text": "SBP_VGMM_SET_NSAG_INFO_IE_TWO_BYTES"
+      },
+      {
+        "offset": "0x22374b8",
+        "text": "SBP_DISABLE_SA_SA_DSDA"
+      },
+      {
+        "offset": "0x22374d0",
+        "text": "SBP_DISABLE_SA_LTE_DSDA"
+      },
+      {
+        "offset": "0x22374e8",
+        "text": "SBP_DISABLE_SA_SA_DR_DSDA"
+      },
+      {
+        "offset": "0x2237504",
+        "text": "SBP_DISABLE_NSA_SA_DR_DSDA"
+      },
+      {
+        "offset": "0x2237520",
+        "text": "SBP_DISABLE_SA_LTE_DR_DSDA"
+      },
+      {
+        "offset": "0x223753c",
+        "text": "SBP_DISABLE_NSA_LTE_DR_DSDA"
+      },
+      {
+        "offset": "0x2237574",
+        "text": "SBP_DISABLE_SA_SA_DR_DSDS"
+      },
+      {
+        "offset": "0x2237590",
+        "text": "SBP_DISABLE_SA_LTE_DR_DSDS"
+      },
+      {
+        "offset": "0x22375ac",
+        "text": "SBP_DISABLE_NSA_SA_DR_DSDS"
+      },
+      {
+        "offset": "0x22375c8",
+        "text": "SBP_DISABLE_NSA_LTE_DR_DSDS"
+      },
+      {
+        "offset": "0x22375e4",
+        "text": "SBP_DISABLE_LTE_SA_DR_DSDS"
+      },
+      {
+        "offset": "0x2237744",
+        "text": "SBP_DISABLE_SA_INTERNATIONAL_ROAMING"
+      },
+      {
+        "offset": "0x22377dc",
+        "text": "SBP_NR_INTRA_BAND_UDC_COM_NO_CFG"
+      },
+      {
+        "offset": "0x2237954",
+        "text": "SBP_OP12_5GUW_DSPL_OPT_B"
+      },
+      {
+        "offset": "0x2237990",
+        "text": "SBP_NR_BWP_SAME_DIFF_NUMEROLOGY"
+      },
+      {
+        "offset": "0x2237ca8",
+        "text": "SBP_NR_IDLE_RESEL_OFFSET_TUNING_BY_NL1CM_SINR"
+      },
+      {
+        "offset": "0x2237cd8",
+        "text": "SBP_NR_IDLE_RESEL_OFFSET_TUNING_BY_NL1RX_PAGING"
+      },
+      {
+        "offset": "0x2237e2c",
+        "text": "SBP_ENDC_HIGHER_POWER_LIMIT_ENABLE"
+      },
+      {
+        "offset": "0x2237f78",
+        "text": "SBP_PERFORM_ENDC_SEARCH_FOR_NON_ENDC_CELL"
+      },
+      {
+        "offset": "0x2238070",
+        "text": "SBP_PINGPONG_AVOID_NR_ADJUST_LOWEST_A2_RSRP"
+      },
+      {
+        "offset": "0x223809c",
+        "text": "SBP_NR_SKIP_STORED_BY_CHECK_BAND_PRIORITY"
+      },
+      {
+        "offset": "0x2238148",
+        "text": "SBP_NR_UE_CAP_BC_CHECK"
+      },
+      {
+        "offset": "0x223827c",
+        "text": "SBP_ERRC_DISABLE_NR_B1_DURING_EPS_VOICE_FALLBACK"
+      },
+      {
+        "offset": "0x223832c",
+        "text": "SBP_NRRC_IRAT_BLIND_REDIRECT_FAIL_ENH"
+      },
+      {
+        "offset": "0x22383f8",
+        "text": "SBP_NWSEL_SKIP_NR_MANUAL_PLMN_LIST_WHEN_SA_DISABLE_BY_MCC"
+      },
+      {
+        "offset": "0x2238434",
+        "text": "SBP_DISABLE_NSA_HPUE_BY_OP"
+      },
+      {
+        "offset": "0x2238450",
+        "text": "SBP_NRRC_NAS_SNIFFER_FREQ_PRIORITIZE"
+      },
+      {
+        "offset": "0x2238478",
+        "text": "SBP_SET_HIGH_DVFS_GEAR_FOR_45G_REDIR"
+      },
+      {
+        "offset": "0x223850c",
+        "text": "SBP_NR_CAP_HPUE_BC_FALLBACK"
+      },
+      {
+        "offset": "0x22385d8",
+        "text": "SBP_EPBSEH_NSA_BAND_RETAIN"
+      },
+      {
+        "offset": "0x22385f4",
+        "text": "SBP_NR_UECAP_PRIORITISE_SORTING_ENHANCE"
+      },
+      {
+        "offset": "0x2238790",
+        "text": "SBP_NRRC_BAR_CELL_WITH_EXTEND_BAR_TIME"
+      },
+      {
+        "offset": "0x2238808",
+        "text": "SBP_NR_CAP_ENABLE_AS_REL_R17_RESTRICTION"
+      },
+      {
+        "offset": "0x22388ac",
+        "text": "SBP_DISABLE_SA_HPUE_BY_OP"
+      },
+      {
+        "offset": "0x2238950",
+        "text": "SBP_NR_EXT_RXQ_FOR_VONR"
+      },
+      {
+        "offset": "0x22389ac",
+        "text": "SBP_NR_EXCLUDE_LTE_CELL_FOR_LONG_STANDBY_MODE"
+      },
+      {
+        "offset": "0x2238a04",
+        "text": "SBP_5G4_REDIRECTION_FOR_MPS"
+      },
+      {
+        "offset": "0x2238a4c",
+        "text": "SBP_NRRC_SA_MR_PRIORITIZATION_WITH_TTT"
+      },
+      {
+        "offset": "0x2238ba8",
+        "text": "SBP_NR_RAS_ENABLE_FR1"
+      },
+      {
+        "offset": "0x2238bc0",
+        "text": "SBP_NR_RAS_ENABLE_FR2"
+      },
+      {
+        "offset": "0x2238bd8",
+        "text": "SBP_NR_ARX_ENABLE_FR1"
+      },
+      {
+        "offset": "0x2238bf0",
+        "text": "SBP_NR_ARX_ENABLE_FR2"
+      },
+      {
+        "offset": "0x2238c08",
+        "text": "SBP_NR_LORX_ENABLE_FR1"
+      },
+      {
+        "offset": "0x2238c20",
+        "text": "SBP_NR_LORX_ENABLE_FR2"
+      },
+      {
+        "offset": "0x2238c54",
+        "text": "SBP_NR_UE_CAP_BW_V1710"
+      },
+      {
+        "offset": "0x2238c6c",
+        "text": "SBP_NR_UE_CAP_AGGBW_BCS5"
+      },
+      {
+        "offset": "0x2238d10",
+        "text": "SBP_OP12_ECC_NOT_ALLOW_NORMAL_SCAN_IF_NR_FAIL"
+      },
+      {
+        "offset": "0x2238d78",
+        "text": "SBP_ENDC_ECAPABILITY_SUPPORT"
+      },
+      {
+        "offset": "0x2238e00",
+        "text": "SBP_CUSTOM_SETTING_FOR_SMS_OVER_NAS5G_SUPPORT"
+      },
+      {
+        "offset": "0x2238ec0",
+        "text": "SBP_NR_ENABLE_ONE_SLOT_PERIODIC_TRS"
+      },
+      {
+        "offset": "0x2238f30",
+        "text": "SBP_ERRC_MOB_SKIP_MR_FOR_EXCLUDE_LIST_NR_CELL"
+      },
+      {
+        "offset": "0x22392a8",
+        "text": "SBP_NR_PINGPONG_AI_PREDICT"
+      },
+      {
+        "offset": "0x2239314",
+        "text": "SBP_SUPPORT_IMS_IA_HANDLE_CASE_5G4_HO"
+      },
+      {
+        "offset": "0x2239438",
+        "text": "SBP_NR_RE_EST_SEARCH_SKIP_ACC_PHASE"
+      },
+      {
+        "offset": "0x2239478",
+        "text": "SBP_NR_SON_RLF_REPORT_2022SEP"
+      },
+      {
+        "offset": "0x22396d8",
+        "text": "SBP_ENABLE_ENDC_HIGHER_POWER_LIMIT_REPORT"
+      },
+      {
+        "offset": "0x2239880",
+        "text": "SBP_5G_NR_FR1_FR2_RF_OTA"
+      },
+      {
+        "offset": "0x2239a44",
+        "text": "SBP_NR_POSTPONE_B1B2_FOR_CUSTOM_TTT_DURING_VONR"
+      },
+      {
+        "offset": "0x2239a74",
+        "text": "SBP_NRRC_ASN1_ENCODE_ERROR_FORCE_ASSERT"
+      },
+      {
+        "offset": "0x2239b5c",
+        "text": "SBP_NR_HST_A3_RECOVERY_DISABLE_DURING_VONR"
+      },
+      {
+        "offset": "0x2239b88",
+        "text": "SBP_DISABLE_UL_256_QAM_ENDC_B2_B66_FR2"
+      },
+      {
+        "offset": "0x2239bdc",
+        "text": "SBP_NR_UE_CAP_UL_CBW_CHECK"
+      },
+      {
+        "offset": "0x2239cd8",
+        "text": "SBP_OP12_BAR_NR_BAND_WHEN_ESFB_FAIL"
+      },
+      {
+        "offset": "0x2239dfc",
+        "text": "SBP_LIMIT_DR_DSDA_WHEN_LTE_DATASIM_AND_NR_CALL"
+      },
+      {
+        "offset": "0x2239e9c",
+        "text": "SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_ENDC_CELL"
+      },
+      {
+        "offset": "0x2239ecc",
+        "text": "SBP_ENDC_PRIORITIZE_WHEN_LTE_SEARCH_LEGACY_CELL"
+      },
+      {
+        "offset": "0x2239f54",
+        "text": "SBP_LTE_NR_BG_PINGPONG_AVOIDANCE"
+      },
+      {
+        "offset": "0x223a040",
+        "text": "SBP_NR_UE_CAP_TT_BW_CHECK"
+      },
+      {
+        "offset": "0x223a1dc",
+        "text": "SBP_NRRC_INTRA_RAT_BLIND_REDIRECT_BY_A2_ENH"
+      },
+      {
+        "offset": "0x223a234",
+        "text": "SBP_NR_REPLACE_CELL_SIGNAL_BY_BEST_BEAM_IN_ECSQ"
+      },
+      {
+        "offset": "0x223a288",
+        "text": "SBP_NR_UECAP_PRIORITISE_SORTING_WITH_ALL_FILTER_BANDS"
+      },
+      {
+        "offset": "0x223a614",
+        "text": "SBP_NR_LPWR_AI_CCEAL_PREDICTION_ENABLE"
+      },
+      {
+        "offset": "0x223a63c",
+        "text": "SBP_NR_LPWR_AI_PDCCH_ONLY_PREDICTION_ENABLE"
+      },
+      {
+        "offset": "0x223a710",
+        "text": "SBP_NR_HIGHWAY_S_CRITERIA_RELAX"
+      },
+      {
+        "offset": "0x223a8ec",
+        "text": "SBP_NRRC_BLOCK_LOWEST_A2_BY_CUSTOM_THRES"
+      },
+      {
+        "offset": "0x223a960",
+        "text": "SBP_NR_BAD_GAME_CELL_ESCAPE"
+      },
+      {
+        "offset": "0x223a9f4",
+        "text": "SBP_NR_PREFER_LARGE_BW_IN_CONNECTED"
+      },
+      {
+        "offset": "0x223aa18",
+        "text": "SBP_HIGH_PRIORITY_CELL_NR_A2"
+      },
+      {
+        "offset": "0x223aa6c",
+        "text": "SBP_HIGH_PRIORITY_CELL_NR_B1"
+      }
+    ],
+    "nr_plmn_gate": [
+      {
+        "offset": "0x2128fd4",
+        "text": "cdm_user_ps_nrrc_main_o_u_plmn"
+      },
+      {
+        "offset": "0x2129134",
+        "text": "cdm_user_nrrc_bg_plmnlist_ongoing_cag_result"
+      },
+      {
+        "offset": "0x21291b0",
+        "text": "cdm_user_ps_nrrc_idle_disaster_roaming_plmn"
+      },
+      {
+        "offset": "0x212ae70",
+        "text": "cdm_user_ps_nrrc_idle_allowed_cag_plmn"
+      },
+      {
+        "offset": "0x212b730",
+        "text": "cdm_user_custom__nrrc_band_support_plmn"
+      },
+      {
+        "offset": "0x21c40f4",
+        "text": "Plmn search is aborted for rat switch, req transaction"
+      },
+      {
+        "offset": "0x21c459c",
+        "text": "Need wait plmn search aborted, transaction"
+      },
+      {
+        "offset": "0x21e7888",
+        "text": "mrs_get_endc_prefer_by_mcc()"
+      },
+      {
+        "offset": "0x21e78a8",
+        "text": "mrs_get_endc_prefer_by_plmn()"
+      },
+      {
+        "offset": "0x21e8210",
+        "text": "NULL plmn or NULL nras capability"
+      },
+      {
+        "offset": "0x21e8244",
+        "text": "mrs_nras_is_supported_partial_band_under_mcc"
+      },
+      {
+        "offset": "0x21e92e0",
+        "text": "tac-lb%02x.tac-mb%02x.tac-hb%02x.5gstac.%sepdg.epc.mnc%03d.mcc%03d.pub.3gppnetwork.org"
+      },
+      {
+        "offset": "0x220aa74",
+        "text": "set_or_check_custom_5g_band_by_cplmn"
+      },
+      {
+        "offset": "0x220b70c",
+        "text": "[NRRC IDLE] In nrrc_idle_exclude_list_is_plmn_search_keep_cause(), input exclude_cause enum type is not defined"
+      },
+      {
+        "offset": "0x220b77c",
+        "text": "[NRRC IDLE] In nrrc_idle_exclude_list_is_plmn_search_keep_cause(), cause_to_keep is NULL."
+      },
+      {
+        "offset": "0x220de8c",
+        "text": "[NRRC SI] No valid MCC in SIB1, the number of PLMN list is [%u]"
+      },
+      {
+        "offset": "0x222bfac",
+        "text": "SBP_NR_PLMN_BASED_BAND_41_AMPR"
+      },
+      {
+        "offset": "0x222cde8",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN"
+      },
+      {
+        "offset": "0x222ce0c",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO"
+      },
+      {
+        "offset": "0x222d5b0",
+        "text": "SBP_R13_DOS_PLMN_SPECIFIC_ATTEMPT_COUNTER_FOR_NR"
+      },
+      {
+        "offset": "0x222e444",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_WITH_SIM"
+      },
+      {
+        "offset": "0x222faec",
+        "text": "SBP_NR_PARTIAL_BAND_UNDER_MCC"
+      },
+      {
+        "offset": "0x2230548",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_FOR_ROAMING"
+      },
+      {
+        "offset": "0x22340bc",
+        "text": "SBP_NRRC_KEEP_CUSTOM_BAR_LIST_DURING_PLMN_SEARCH"
+      },
+      {
+        "offset": "0x2234298",
+        "text": "SBP_ENABLE_NR_CA_BY_PLMN"
+      },
+      {
+        "offset": "0x22343d8",
+        "text": "SBP_NRAS_ADDITIONAL_PLMN_IN_BAND_STORED_SEARCH"
+      },
+      {
+        "offset": "0x2234658",
+        "text": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN"
+      },
+      {
+        "offset": "0x223467c",
+        "text": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO"
+      },
+      {
+        "offset": "0x22346bc",
+        "text": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_FOR_ROAMING"
+      },
+      {
+        "offset": "0x223477c",
+        "text": "SBP_NWSEL_SKIP_NR_SEARCH_WHEN_SA_DISABLE_BY_MCC"
+      },
+      {
+        "offset": "0x2234c3c",
+        "text": "SBP_NR_FAST_PLMN_LIST_BY_CROSS_SIM_SERVING"
+      },
+      {
+        "offset": "0x22355b4",
+        "text": "SBP_ENABLE_NR_CA_BY_PLMN_FOR_SA"
+      },
+      {
+        "offset": "0x22355d4",
+        "text": "SBP_ENABLE_NR_CA_BY_PLMN_FOR_NSA"
+      },
+      {
+        "offset": "0x22383f8",
+        "text": "SBP_NWSEL_SKIP_NR_MANUAL_PLMN_LIST_WHEN_SA_DISABLE_BY_MCC"
+      },
+      {
+        "offset": "0x2263d60",
+        "text": "[CODE DMF] nr_mcc = %d"
+      },
+      {
+        "offset": "0x2263d78",
+        "text": "[CODE DMF] nr_mnc = %d"
+      },
+      {
+        "offset": "0x2263e44",
+        "text": "[MPS-bigdata][%d]nr_scg_fail[%d] lte_plmn = %d, %d, lte_tac = %d, lte_cell_id = %d, lte_dl_freq = %d, lte_freq_band = %d, lte_pci = %d"
+      },
+      {
+        "offset": "0x2263ecc",
+        "text": "[MPS-bigdata] nr_mcc = %d, nr_mnc = %d, nr_dl_nrarfcn = %d, nr_dl_freq_band = %d, nr_pci = %d, ssb_scs = %d, scg_fail_counts = %d"
+      },
+      {
+        "offset": "0x2264240",
+        "text": "[CODE DMF][SLOT %d]oos_record:nrrc_serv:serv_rat=%d,rsrp=%d,sinr=%d,mcc/mnc=%d/%d,serv_tag=%d/%d,rat=%d/%d"
+      },
+      {
+        "offset": "0x22642f4",
+        "text": "[CODE DMF][SLOT %d]oos_record:errc_serv:serv_rat=%d,rsrp=%d,sinr=%d,mcc/mnc=%d/%d,serv_tag=%d/%d,rat=%d/%d"
+      },
+      {
+        "offset": "0x226570c",
+        "text": "[CODE DMF] ps_id = %d, nr_plmn_serach_total_duration = %d"
+      },
+      {
+        "offset": "0x22657ec",
+        "text": "[CODE DMF][SLOT %d]drop_nr_record:plmn_search:nr_no_found_flag=%d,nr_no_found_time=%d,rat=%d"
+      },
+      {
+        "offset": "0x22658c4",
+        "text": "[CODE DMF][SLOT %d]no_nr_record:plmn_search:cell_status=%d/%d,cell_rat=%d,cell_time=%d,flag=%d"
+      },
+      {
+        "offset": "0x226b0e8",
+        "text": "[MPS-bigdata][%d] vgnas_mm_failure[%d] mcc = %d, mnc = %d, dl_nrarfcn = %d, dl_freq_band = %d, pci = %d"
+      },
+      {
+        "offset": "0x226de4c",
+        "text": "[CODE DMF POWER] dl_nrarfcn/band/mcc/mcc/scs_279 = %d, %d, %d, %d, %d"
+      },
+      {
+        "offset": "0x226def8",
+        "text": "[MPS-power][reg]dl_band=%d,dl_nrarfcn=%d,pci=%d,rplmn_mcc=%d,rplmn_mnc=%d,scs=%d"
+      },
+      {
+        "offset": "0x226e00c",
+        "text": "[MPS-power][data]dl_band=%d,dl_nrarfcn=%d,pci=%d,rplmn_mcc=%d,rplmn_mnc=%d,scs=%d,cell_group_type=%d"
+      },
+      {
+        "offset": "0x226e424",
+        "text": "[CODE DMF][SLOT %d]oos_record:nr_cell_mcc-mnc=%d-%d, cell_rat=%d, nr_time=%d"
+      },
+      {
+        "offset": "0x226f9c4",
+        "text": "[MPS-bigdata][%d] nl2_ul_grant[%d] mcc=%d, mnc=%d, dl_nrarfcn=%d, dl_freq_band=%d, pci=%d, scs=%d, cnt=%d"
+      },
+      {
+        "offset": "0x226fdec",
+        "text": "[MPS-bigdata][%d]nl1_mimo_pdsch_tput[%d] mcc=%d, mnc=%d, dl_nrarfcn=%d, dl_freq_band=%d, pci=%d, scs=%d, bler_cnt=%d"
+      },
+      {
+        "offset": "0x2270d9c",
+        "text": "[MPS-bigdata][%d] nrrc_rlf[%d] mcc = %d, mnc = %d, dl_nrarfcn = %d"
+      },
+      {
+        "offset": "0x227148c",
+        "text": "[MPS-bigdata][%d] nr_rach[%d] mcc = %d, mnc = %d, tac = %d, dl_nrarfcn = %d, dl_freq_band = %d, pci = %d"
+      },
+      {
+        "offset": "0x2271554",
+        "text": "[MPS-bigdata][%d] nr_rach[%d] mcc = %d, mnc = %d, dl_nrarfcn = %d, dl_freq_band = %d, pci = %d"
+      },
+      {
+        "offset": "0x2272284",
+        "text": "[CODE DMF] mcc/mnc=%d-%d,dl_nrarfcn=%d,l_frequency_band=%d,physical_cell_id=%d"
+      },
+      {
+        "offset": "0x2277968",
+        "text": "[MPS-bigdata]oos_record:sev_sig:serv_mcc/mnc=%d/%d,serv_tag=%d,serv_rat=%d,serv_rsrp=%d,serv_sinr=%d"
+      },
+      {
+        "offset": "0x2277df0",
+        "text": "[MPS-bigdata]drop_nr_record:serv_rsrp=%d,serv_sinr=%d,serv_mcc/mnc=%d/%d,data_size=%d,temp_size=%d"
+      },
+      {
+        "offset": "0x22790ec",
+        "text": "[CODE DMF][SLOT %d]nrca_info:reg_count=%d/%d,ver=%d,length_buf=%d,nr_ca_band_len=%d,mcc=%d/%d,mnc=%d/%d"
+      },
+      {
+        "offset": "0x2279428",
+        "text": "[CODE DMF][SLOT %d]NR UECapEnq reset:cnt=%d, mcc/mnc=%d-%d, enq_src_rat = %d"
+      },
+      {
+        "offset": "0x2279478",
+        "text": "[CODE DMF][SLOT %d]NR UECapEnq_temp[ver:%d]:mcc/mnc=%d-%d, rrc_seg_allowed=%d, omit_endc=%d, include_nrdc/nedc=%d/%d"
+      },
+      {
+        "offset": "0x2279790",
+        "text": "[CODE DMF][SLOT %d] data_reset:find_flag_nr = %d, reg_count = %d, mnc = %d"
+      },
+      {
+        "offset": "0x22797dc",
+        "text": "[CODE DMF][SLOT %d]NR UECapEnq[ver:%d]:cnt=%d, mcc/mnc=%d-%d, rrc_seg_allowed=%d, omit_endc=%d, include_nrdc/nedc=%d/%d"
+      },
+      {
+        "offset": "0x27b0148",
+        "text": "vgmm_nssai_get_4g_5g_rplmn"
+      },
+      {
+        "offset": "0x6cb8677",
+        "text": "PROTOCOL_SECTION__NR_RRC_MCCH(1315)"
+      }
+    ],
+    "roam_gate": [
+      {
+        "offset": "0x21291b0",
+        "text": "cdm_user_ps_nrrc_idle_disaster_roaming_plmn"
+      },
+      {
+        "offset": "0x2131360",
+        "text": "NL1_SM_5GSleepDisable"
+      },
+      {
+        "offset": "0x2131390",
+        "text": "NL1_SM_5GStressDisable"
+      },
+      {
+        "offset": "0x21313c0",
+        "text": "NL1_SM_5GSleepDisable_FR2"
+      },
+      {
+        "offset": "0x21313f8",
+        "text": "NL1_SM_5GStressDisable_FR2"
+      },
+      {
+        "offset": "0x2131b04",
+        "text": "ERRC_SET_RESTRICTED_NR_BREPORT"
+      },
+      {
+        "offset": "0x218632c",
+        "text": "disable_nr_capability_ongoing"
+      },
+      {
+        "offset": "0x21874c4",
+        "text": "[GL1TST] L1ITST_VOLTCOM_Disable, disable temperature compensate"
+      },
+      {
+        "offset": "0x218e05c",
+        "text": "nr_quick_disable_support"
+      },
+      {
+        "offset": "0x21a227c",
+        "text": "[IWLAN][INFO] IMS NR/WiFi Handover disabled during call"
+      },
+      {
+        "offset": "0x21a22f4",
+        "text": "[IWLAN][INFO] IMS NR/WLAN Handover disabled in idle mode"
+      },
+      {
+        "offset": "0x21a2404",
+        "text": "[IWLAN][INFO] 5G-to-WLAN handover disabled during call"
+      },
+      {
+        "offset": "0x21a243c",
+        "text": "[IWLAN][INFO] 5G-to-WLAN handover disabled in idle mode"
+      },
+      {
+        "offset": "0x21a2474",
+        "text": "[IWLAN][INFO] WLAN-to-5G handover disabled during call"
+      },
+      {
+        "offset": "0x21a24ac",
+        "text": "[IWLAN][INFO] WLAN-to-5G handover disabled in idle mode"
+      },
+      {
+        "offset": "0x21c4250",
+        "text": "is disable 5g"
+      },
+      {
+        "offset": "0x21c42b8",
+        "text": "remove rat disable by IO, is disable 5g"
+      },
+      {
+        "offset": "0x21f2bd4",
+        "text": "NrTas_forbid_state"
+      },
+      {
+        "offset": "0x220a898",
+        "text": "NRRC_BG_SEARCH_DISABLE_IN_TEST_MODE"
+      },
+      {
+        "offset": "0x220a8d8",
+        "text": "NRRC_AFR_ENHANCEMENT_DISABLE"
+      },
+      {
+        "offset": "0x220a924",
+        "text": "NRRC_AFR_ENHANCEMENT_DISABLE_IN_TEST_MODE"
+      },
+      {
+        "offset": "0x2222b70",
+        "text": "SBP_SET_AS_REL_5G_DISABLE"
+      },
+      {
+        "offset": "0x2224e2c",
+        "text": "SBP_CHECK_CALL_DOMAIN_WHEN_DISABLE_NR_B1"
+      },
+      {
+        "offset": "0x222585c",
+        "text": "SBP_LOCAL_RELEASE_FOR_VOWIFI_DISABLE_5G_SA"
+      },
+      {
+        "offset": "0x222b038",
+        "text": "SBP_5GMM_DISABLE_PARTIAL_CIPHER"
+      },
+      {
+        "offset": "0x222b55c",
+        "text": "SBP_NAS_ROAMING_DISABLE_ENDC"
+      },
+      {
+        "offset": "0x222bff0",
+        "text": "SBP_ENDC_DISABLE_NR_B1_DURING_VOLTE"
+      },
+      {
+        "offset": "0x222cde8",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN"
+      },
+      {
+        "offset": "0x222ce0c",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_UNDER_SIMPLIFICATION_SCENARIO"
+      },
+      {
+        "offset": "0x222d588",
+        "text": "SBP_DISABLE_NR_B1_BEFORE_VOLTE_SETUP"
+      },
+      {
+        "offset": "0x222d9c0",
+        "text": "SBP_DISABLE_NR_B1_WHEN_PEER_SIM_CONNECTED"
+      },
+      {
+        "offset": "0x222dffc",
+        "text": "SBP_DISABLE_ENDC_PREFER_WHEN_ENDC_DEACTIVATED"
+      },
+      {
+        "offset": "0x222e358",
+        "text": "SBP_NR_CAP_DISABLE_RF_TRACE"
+      },
+      {
+        "offset": "0x222e374",
+        "text": "SBP_LTE_DISABLE_B1_NR_IN_SA_MODE"
+      },
+      {
+        "offset": "0x222e3b4",
+        "text": "SBP_ERRC_DISABLE_NR_B1_DURING_EMR_CALL_DOMAIN_SELECT"
+      },
+      {
+        "offset": "0x222e444",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_WITH_SIM"
+      },
+      {
+        "offset": "0x222e584",
+        "text": "SBP_NR_DISABLE_TX_PORT_SWITCH_FOR_N77"
+      },
+      {
+        "offset": "0x223022c",
+        "text": "SBP_DISABLE_NR_RRC_INACTIVE_STATUS"
+      },
+      {
+        "offset": "0x22302cc",
+        "text": "SBP_NR_ONLY_REPORT_REQ_FREQ_BAND_OP12_ROAMING"
+      },
+      {
+        "offset": "0x2230548",
+        "text": "SBP_NR_CUSTOM_DISABLE_BAND_BY_PLMN_FOR_ROAMING"
+      },
+      {
+        "offset": "0x2230730",
+        "text": "SBP_DISABLE_ADDITIONAL_NR_MEASUREMENT_DURING_VOLTE"
+      },
+      {
+        "offset": "0x2230c08",
+        "text": "SBP_DISABLE_NR_RRM_INDEPENDENT_GAP_CONFIG"
+      },
+      {
+        "offset": "0x2231154",
+        "text": "SBP_DISABLE_ROAMING_BAND_WHEN_VONR_NOT_SUPPORT"
+      },
+      {
+        "offset": "0x2231894",
+        "text": "SBP_THERMAL_LOW_BATTERY_DISABLE_NSA"
+      },
+      {
+        "offset": "0x2232fbc",
+        "text": "SBP_EMM_DISABLE_DCNR_BY_ENDC_BLACKLIST"
+      },
+      {
+        "offset": "0x2234080",
+        "text": "SBP_ERRC_DISABLE_NR_B1_DURING_EMR_CALL_EPS_VOICE_FALLBACK"
+      },
+      {
+        "offset": "0x2234204",
+        "text": "SBP_DISABLE_NR_MAX_UL_DUTY_CYCLE_ENDC_FDD_TDD_PC2_REPORT"
+      },
+      {
+        "offset": "0x2234560",
+        "text": "SBP_DISABLE_NR_FOR_VOICE_WHEN_NO_LOW_RAT"
+      },
+      {
+        "offset": "0x22346bc",
+        "text": "SBP_NR_CUSTOM_ENABLE_BAND_BY_PLMN_FOR_ROAMING"
+      },
+      {
+        "offset": "0x223477c",
+        "text": "SBP_NWSEL_SKIP_NR_SEARCH_WHEN_SA_DISABLE_BY_MCC"
+      },
+      {
+        "offset": "0x2234ea8",
+        "text": "SBP_ENDC_LTE_CA_DISABLE"
+      },
+      {
+        "offset": "0x2235774",
+        "text": "SBP_DISABLE_ENDC_PRFER_SEARCH_IN_ROAMING"
+      },
+      {
+        "offset": "0x2235964",
+        "text": "SBP_DISABLE_NR_SERVICE_AVAILABILITY"
+      },
+      {
+        "offset": "0x2235e60",
+        "text": "SBP_NR_BAND_REPORT_WHEN_ROAMING_OP12"
+      },
+      {
+        "offset": "0x2236504",
+        "text": "SBP_NR_DISABLE_SERV_SET_LOWEST_PRIORITY"
+      },
+      {
+        "offset": "0x2237504",
+        "text": "SBP_DISABLE_NSA_SA_DR_DSDA"
+      },
+      {
+        "offset": "0x223753c",
+        "text": "SBP_DISABLE_NSA_LTE_DR_DSDA"
+      },
+      {
+        "offset": "0x22375ac",
+        "text": "SBP_DISABLE_NSA_SA_DR_DSDS"
+      },
+      {
+        "offset": "0x22375c8",
+        "text": "SBP_DISABLE_NSA_LTE_DR_DSDS"
+      },
+      {
+        "offset": "0x223827c",
+        "text": "SBP_ERRC_DISABLE_NR_B1_DURING_EPS_VOICE_FALLBACK"
+      },
+      {
+        "offset": "0x22383f8",
+        "text": "SBP_NWSEL_SKIP_NR_MANUAL_PLMN_LIST_WHEN_SA_DISABLE_BY_MCC"
+      },
+      {
+        "offset": "0x2238434",
+        "text": "SBP_DISABLE_NSA_HPUE_BY_OP"
+      },
+      {
+        "offset": "0x2238808",
+        "text": "SBP_NR_CAP_ENABLE_AS_REL_R17_RESTRICTION"
+      },
+      {
+        "offset": "0x2239b5c",
+        "text": "SBP_NR_HST_A3_RECOVERY_DISABLE_DURING_VONR"
+      },
+      {
+        "offset": "0x2239b88",
+        "text": "SBP_DISABLE_UL_256_QAM_ENDC_B2_B66_FR2"
+      },
+      {
+        "offset": "0x223b60c",
+        "text": "SBP_DISABLE_NR_B2_DURING_CALL"
+      },
+      {
+        "offset": "0x223b62c",
+        "text": "SBP_DISABLE_NR_B2_BEFORE_CALL_SETUP"
+      },
+      {
+        "offset": "0x223b84c",
+        "text": "SBP_DISABLE_TRUSTABLE_B1_NR_TTT_REDUCTION_DUR_TAU"
+      },
+      {
+        "offset": "0x223bcfc",
+        "text": "SBP_NR_DISABLE_8RX_CUSTOM"
+      },
+      {
+        "offset": "0x223bda4",
+        "text": "SBP_MODEM_DISABLE_HPUE_FOR_N41_NSA"
+      },
+      {
+        "offset": "0x223bdc8",
+        "text": "SBP_MODEM_DISABLE_HPUE_FOR_N77_NSA"
+      },
+      {
+        "offset": "0x223bdec",
+        "text": "SBP_MODEM_DISABLE_HPUE_FOR_N78_NSA"
+      },
+      {
+        "offset": "0x223be10",
+        "text": "SBP_MODEM_DISABLE_HPUE_FOR_N79_NSA"
+      },
+      {
+        "offset": "0x223c8e0",
+        "text": "SBP_VOWIFI_DISABLE_5G_SA"
+      },
+      {
+        "offset": "0x223c8fc",
+        "text": "SBP_VOWIFI_DISABLE_5G_SA_CHECK_VONR_BIT"
+      },
+      {
+        "offset": "0x223c924",
+        "text": "SBP_DISABLE_5G_SA_CALL_HO_TO_VOWIFI"
+      },
+      {
+        "offset": "0x2267354",
+        "text": "[CODE DMF] nr_roaming_status = %d, %d"
+      },
+      {
+        "offset": "0x226737c",
+        "text": "[MPS-bigdata][%d] nrrc_oos[%d] version_m = %d, time = %d, cause = %d, roaming_status = %d"
+      },
+      {
+        "offset": "0x226de94",
+        "text": "[MPS-power][%d][reg]NR_power_servcell_para[%d][ver:%d]time=%d,slot_id=%d,roaming_status=%d,rat=%d"
+      },
+      {
+        "offset": "0x226dfa8",
+        "text": "[MPS-power][%d][data]NR_power_servcell_para[%d][ver:%d]time=%d,slot_id=%d,roaming_status=%d,rat=%d"
+      },
+      {
+        "offset": "0x2270178",
+        "text": "[CODE DMF][SLOT %d]no_nr_record:sim_plug_out:event=%d,slot_id=%d,roaming_status=%d,ims_rat=%d"
+      },
+      {
+        "offset": "0x227852c",
+        "text": "[CODE DMF][SLOT %d]no_nr_record:in_service:slot_id=%d,no_nr_flag=%d,rat=%d/%d,roaming_status=%d"
+      },
+      {
+        "offset": "0x22ce5c8",
+        "text": "tmc_ctrl_nr_ri_restriction_handler"
+      },
+      {
+        "offset": "0x22cf464",
+        "text": "tmc_ctrl_block_5g_disable_a2_state"
+      },
+      {
+        "offset": "0x277e9f8",
+        "text": "VoWiFiDisable5GSA"
+      },
+      {
+        "offset": "0x277f32c",
+        "text": "sase_client_nr_ri_restriction_ind"
+      },
+      {
+        "offset": "0x27800c0",
+        "text": "sase_client_is_nr_ri_restriction_support"
+      },
+      {
+        "offset": "0x27d5fc4",
+        "text": "TMC_STATE_BLOCK_5G_DISABLE_A2"
+      },
+      {
+        "offset": "0x2822bf8",
+        "text": "NrTas_forbid_state"
+      },
+      {
+        "offset": "0x2823464",
+        "text": "VoWiFiDisable5GSA"
+      }
+    ],
+    "operator_names": [
+      {
+        "offset": "0x243e70c",
+        "text": "Viettel Peru"
+      },
+      {
+        "offset": "0x2445eac",
+        "text": "VN VINAPHONE"
+      },
+      {
+        "offset": "0x244d2dc",
+        "text": "VIETTEL"
+      },
+      {
+        "offset": "0x244d30c",
+        "text": "VIETTEL"
+      },
+      {
+        "offset": "0x24509dc",
+        "text": "VN Mobifone"
+      },
+      {
+        "offset": "0x2450a0c",
+        "text": "Mobifone"
+      }
+    ]
+  }
+}

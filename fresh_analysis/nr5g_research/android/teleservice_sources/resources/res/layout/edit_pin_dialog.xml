@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:scrollableView="@+id/scrollView">
+    <miuix.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/DialogLayout">
+            <TextView
+                android:id="@+id/edit_pin_dialog_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                style="@style/PromptText"/>
+            <EditText
+                android:id="@+id/edit_pin_dialog_old_pin_puk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_pin_dialog_prompt"
+                android:inputType="textPassword"
+                style="@style/Widget.EditText.Dialog"/>
+            <EditText
+                android:id="@+id/edit_pin_dialog_new_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/edittext_spacing_margin_top"
+                android:layout_below="@+id/edit_pin_dialog_old_pin_puk"
+                android:inputType="textPassword"
+                style="@style/Widget.EditText.Dialog"/>
+            <EditText
+                android:id="@+id/edit_pin_dialog_confirm_new_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/edittext_spacing_margin_top"
+                android:layout_below="@+id/edit_pin_dialog_new_pin"
+                android:inputType="textPassword"
+                style="@style/Widget.EditText.Dialog"/>
+        </RelativeLayout>
+    </miuix.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/answer_state_setting_title">
+    <PreferenceCategory>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/turnover_mute_title"
+            android:key="button_turnover_mute"
+            android:summary="@string/turnover_mute_summary"
+            android:defaultValue="false"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/handon_ringer_title"
+            android:key="button_handon_ringer"
+            android:summary="@string/handon_ringer_summary"
+            android:defaultValue="false"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/crescendo_ringer_title"
+            android:key="button_crescendo_ringer"
+            android:summary="@string/crescendo_ringer_summary"
+            android:defaultValue="true"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/flash_when_ring_title"
+            android:key="button_flash_when_ring"
+            android:summary="@string/flash_when_ring_summary"
+            android:defaultValue="false"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/enable_proximity_title"
+            android:key="button_enable_proximity"
+            android:summary="@string/enable_proximity_summary"
+            android:defaultValue="true"/>
+        <com.android.phone.custompreferences.CustomCheckBoxPreference
+            android:persistent="false"
+            android:title="@string/enable_antispam_strange_title"
+            android:key="button_enable_antispam_strange"
+            android:summary="@string/enable_antispam_strange_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

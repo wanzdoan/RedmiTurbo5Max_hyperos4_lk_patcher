@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policies>
+    <policy name="setnvconfigforvops">
+        <condition
+            key="errorCode"
+            value="5001"/>
+        <condition
+            key="roam"
+            value="false"/>
+        <condition
+            key="pdpStatus"
+            value="true"/>
+    </policy>
+    <policy name="resetvolte">
+        <condition
+            key="errorCode"
+            value="408,500,508,0xFFF"/>
+    </policy>
+    <policy name="setnvconfig">
+        <condition
+            key="errorCode"
+            value="403,481"/>
+    </policy>
+    <policy name="resetradio">
+        <condition
+            key="pdnEndType"
+            value="6"/>
+        <condition
+            key="errorCode"
+            value="19"/>
+        <condition
+            key="rat"
+            value="18"/>
+        <condition
+            key="delay"
+            value="360000"/>
+    </policy>
+    <policy name="resetradio">
+        <condition
+            key="pdnEndType"
+            value="6"/>
+        <condition
+            key="errorCode"
+            value="8"/>
+        <condition
+            key="delay"
+            value="360000"/>
+    </policy>
+    <policy name="resetradio">
+        <condition
+            key="pdnEndType"
+            value="6"/>
+        <condition
+            key="errorCode"
+            value="27"/>
+        <condition
+            key="delay"
+            value="360000"/>
+    </policy>
+    <policy name="resetradio">
+        <condition
+            key="pdnEndType"
+            value="6"/>
+        <condition
+            key="errorCode"
+            value="32"/>
+        <condition
+            key="delay"
+            value="360000"/>
+    </policy>
+    <policy name="resetradio">
+        <condition
+            key="pdnEndType"
+            value="6"/>
+        <condition
+            key="errorCode"
+            value="33"/>
+        <condition
+            key="delay"
+            value="360000"/>
+    </policy>
+</policies>

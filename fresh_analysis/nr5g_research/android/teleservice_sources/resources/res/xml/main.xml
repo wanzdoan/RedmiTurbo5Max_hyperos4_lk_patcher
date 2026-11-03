@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="fakecell_category">
+        <CheckBoxPreference
+            android:persistent="true"
+            android:title="@string/forbidden_fakecell"
+            android:key="forbidden_fakecell"
+            android:summary="@string/forbidden_fakecell_summary"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <miuix.preference.CommentPreference
+        android:persistent="false"
+        android:text="@string/support_forbidden_fakecell"
+        android:key="forbidden_fakecell_details"/>
+</PreferenceScreen>

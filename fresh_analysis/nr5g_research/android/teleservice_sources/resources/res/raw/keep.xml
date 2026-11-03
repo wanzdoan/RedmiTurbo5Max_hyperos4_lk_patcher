@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Resource-shrinker keep list for com.android.phone (TeleService).
+  These resources are referenced ONLY at runtime via
+  Resources.getIdentifier(), so the resource shrinker cannot see a static
+  reference and would strip them. Keep them explicitly.
+  - @xml/carrier_ss_string_*
+      CarrierXmlParser looks up "carrier_ss_string_<carrierId>" (e.g.
+      carrier_ss_string_850) by name; only the base carrier_ss_string is
+      statically referenced. Wildcard covers all current/future carrierId
+      variants.
+  - @string/preferred_network_type_pref_entries_*
+      PreferredNetworkTypeListPreference resolves string names supplied by
+      runtime carrier customization (HyperOSCustFeatureResolve). Names are
+      build-time-unknown but share this prefix. Non-existent names in the
+      pattern are a harmless no-op for the shrinker.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@xml/carrier_ss_string_*,@string/preferred_network_type_pref_entries_*" />
+
