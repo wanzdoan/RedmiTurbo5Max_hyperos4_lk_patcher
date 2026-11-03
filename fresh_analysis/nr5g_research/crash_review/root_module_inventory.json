@@ -1,0 +1,123 @@
+[
+  {
+    "id": "zygisksu",
+    "name": "Zygisk Next",
+    "version": "1.5.2 (864-a4a72ce-release)",
+    "author": "LSPosed Developers",
+    "description": "[✅zygote, Root: ✅KernelSU (33355), UM, AM, ZL, 1 service(s) injected] Standalone implementation of Zygisk.",
+    "directory": "zygisksu",
+    "disabled": false
+  },
+  {
+    "id": "zygisk_lsposed",
+    "name": "LSPosed",
+    "version": "v2.2.1 (7912)",
+    "author": "LSPosed Developers",
+    "description": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+    "directory": "zygisk_lsposed",
+    "disabled": false
+  },
+  {
+    "id": "playintegrityfix",
+    "name": "Play Integrity Fix [INJECT]",
+    "version": "v4.9-inject-s",
+    "author": "chiteroman, KOWX712",
+    "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
+    "directory": "playintegrityfix",
+    "disabled": false
+  },
+  {
+    "id": "tricky_store",
+    "name": "TEESimulator-RS",
+    "version": "v6.0.1-307",
+    "author": "JingMatrix, Enginex0",
+    "description": "Software simulation for Android hardware-backed key pairs with key attestation",
+    "directory": "tricky_store",
+    "disabled": false
+  },
+  {
+    "directory": "specter",
+    "disabled": false
+  },
+  {
+    "id": "YetAnotherBootloopProtector",
+    "name": "Yet Another Bootloop Protector",
+    "version": "8.138 (138-6537c16-release)",
+    "author": "rhythmcache.t.me",
+    "description": " SystemUI Monitor ✅ | Bootloop Monitor ✅ | Module is Working ✨",
+    "directory": "YetAnotherBootloopProtector",
+    "disabled": false
+  },
+  {
+    "version": "oss-173",
+    "id": "hma_oss_zygisk",
+    "name": "HMA-OSS Zygisk",
+    "author": "frknkrc44",
+    "description": "[✅ System service loaded] A Zygisk backend for HMA-OSS",
+    "directory": "hma_oss_zygisk",
+    "disabled": false
+  },
+  {
+    "id": "zygisk-detach",
+    "name": "zygisk-detach",
+    "version": "v1.24.0",
+    "author": "j-hc",
+    "description": "Detaches installed apps from Play Store",
+    "directory": "zygisk-detach",
+    "disabled": false
+  },
+  {
+    "id": "hyperos4_tb5m_vip",
+    "name": "HyperOS 4 - Turbo 5 Max Vip",
+    "version": "1.1.0",
+    "author": "WanzDoan",
+    "description": "Authenticated FCM push wake + balanced notifications + CorePatch + FLAG_SECURE disabled. OS4.0.3.0.XPLCNXM. Experimental.",
+    "directory": "hyperos4_tb5m_vip",
+    "disabled": false
+  },
+  {
+    "id": "youtube-morphe-jhc",
+    "name": "YouTube Morphe",
+    "version": "v21.30.216 (patches 2.0.0.mpp)",
+    "author": "j-hc",
+    "description": "YouTube Morphe module",
+    "directory": "youtube-morphe-jhc",
+    "disabled": false
+  },
+  {
+    "id": "nomount",
+    "name": "NoMount",
+    "version": "v2.2.0 (605)",
+    "author": "maxsteeel",
+    "description": "A metamodule that replaces OverlayFS/MagicMount with VFS path redirection.",
+    "directory": "nomount",
+    "disabled": false
+  },
+  {
+    "id": "VietHoaHyperOS4",
+    "name": "Viet Hoa HyperOS 4 (OS4.0.3.0 dash - validated strings)",
+    "version": "OS4.0.3.0-strings1",
+    "author": "NothingProject (donor translations), WanzDoan (OS4 adaptation)",
+    "description": "Vietnamese string-only overlays for dash OS4.0.3.0.XPLCNXM API 37. Resource names and format arguments checked against installed APKs. Requires Meta-Overlayfsx. Experimental; no boot test yet.",
+    "directory": "VietHoaHyperOS4",
+    "disabled": false
+  },
+  {
+    "id": "miui_theme_mod",
+    "name": "Modded Theme Manager",
+    "version": "v7",
+    "author": "🅺🅰🆂🅷🅸",
+    "description": "Modified Theme Manager by Mods Center. Join channel for more interesting stuffs: https://t.me/kashis_cringey_stuffs",
+    "directory": "miui_theme_mod",
+    "disabled": false
+  },
+  {
+    "id": "VietHoaGallery5",
+    "name": "Viet Hoa Gallery 5 - HyperOS 4 (OEM strings)",
+    "version": "5.4.2.29-cn-vi1",
+    "author": "Xiaomi (OEM translations), WanzDoan (version-locked adaptation)",
+    "description": "Vietnamese native UI strings for Gallery 5.4.2.29-1016-cn on dash OS4.0.3.0.XPLCNXM. OEM Global/current translations. Experimental, partial coverage. No APK replacement or media-data clearing.",
+    "directory": "VietHoaGallery5",
+    "disabled": false
+  }
+]

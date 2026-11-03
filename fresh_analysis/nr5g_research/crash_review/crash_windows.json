@@ -1,0 +1,175 @@
+{
+  "SYSTEM_LAST_KMSG.txt": {
+    "windows": [
+      [
+        {
+          "line": 2587,
+          "text": "X   70.47710?][ T)4!?] ba20:?3?435000#faFffd80 5dA\"6ff0 fbbfbf81 A?0db`c( ff&ffF#0 a?#`\"abC b?f ffb??[   70.05'=11"
+        },
+        {
+          "line": 2588,
+          "text": "[ ?(436Y ba40: a83D`aa0 fb&ffbc0 ?15#c?a0 8`9543e8 $`0a82000&4f&ff8? 37#`%D00?f?&ff?+0"
+        },
+        {
+          "line": 2589,
+          "text": "Y   40.575115U[ T90#6U?a`60: 000? 020 000000?0 %d`24bf? bbfffe(1?6<26d844?F&FfbBe8 `83`bac `fddf?$c0"
+        },
+        {
+          "line": 2590,
+          "text": "?   ?0?437!1?][ T94?6U ?S   70.577123][ ?94?.] CPU: 1 PID:?143& ?oeM: T(reaD%43 Tain�ed: P     \"  W  O       6.6?118,�Ldrohd!5%8=gb1cA6ec!6bc8"
+        },
+        {
+          "line": 2591,
+          "text": "abiek!5?656?621-0k #? 3ceb1d3v010?48?3%bfe?5Dd4162d3b4$8431563"
+        },
+        {
+          "line": 2592,
+          "text": "[   ?0�%7??20][ T10!6] Dardt`Re f`Ee0?LT6991 (DT)"
+        },
+        {
+          "line": 2593,
+          "text": "Y ? ?0.576133][ T9416] C!ll t�`ba?"
+        },
+        {
+          "line": 2594,
+          "text": "K   70.525!36\\X T?4#6X ?`U-p_ba\"ktra#e+ x%8'0x0p8?S ? 70.0#7103\\[ P90?4Y  whcw_Cta`A+0X18/0h08?[   70.47714&][ T\t416I  d4mpOs$!#-Whv,+0x10??86a?K   7 .5'71?6]S T)�#6Y ?duiP]stabk!0x19.0x\"4??   #0.475161]Z?T?4?6Q? irDUMP[cmm`knWdi%+0H\"8("
+        },
+        {
+          "line": 2595,
+          "text": " x?a8 [l\"dem???8cd32 3?4?95b29D3e2d2e91c!62f%6???89122_?K? ?'?*177??9Y[?T?4??]? ipAhi`N`)e( x�?'0p;4 QmRdUm0 ??ae7082!44!%b2!d3d6D\"`81cA6?&e!?28(9102]"
+        },
+        {
+          "line": 2596,
+          "text": "[  ?? .437?01Y? T9?14]  not\tfid@Wbald[A@a(l# x?0?!p1%4"
+        },
+        {
+          "line": 2597,
+          "text": "[   70.%?7238][ P9434]? L.tHdq?`h`!0850/p�8c"
+        },
+        {
+          "line": 2598,
+          "text": "[   60.5?'0$%\\X T�43&]  dia# x1?/?`S08?R  ?7 .%%72?8]S D94?2]  [^do�jer.el_f!el?)0x254/0x080"
+        },
+        {
+          "line": 2599,
+          "text": "K   7?.57720 Y[�T9?32?  d/_page_f!5lt+0x94#?X48c"
+        },
+        {
+          "line": 2600,
+          "text": "[   70"
+        },
+        {
+          "line": 2601,
+          "text": "5'52'0U[ ?84#6]  Do_traJS,AticnS&ault+0x3(?0?54"
+        },
+        {
+          "line": 2602,
+          "text": "[?? 70.%1527$]O T94?4M? $n_%emMaboRP#?x%8'0p118"
+        },
+        {
+          "line": 2603,
+          "text": "Z  ??0.5772(1]K T9436]  el?_Abort*0x3`.0x5a?[?  1?.577286]Y T)$36] �El?h_64_8ync_h!ndDer+0h?4/0x) "
+        },
+        {
+          "line": 2604,
+          "text": "[?  '0.??6091]S T?43&?  el1h_74O{yN@+0x?8-0x&c"
+        },
+        {
+          "line": 2605,
+          "text": "[  ?7<.561294L[ T9?32]  .vL_!.codaO2d`l_fh+0x4?-0x1?$"
+        },
+        {
+          "line": 2606,
+          "text": "S?  60"
+        },
+        {
+          "line": 2607,
+          "text": "517?99][?T9426]  mtl_?nco$E_fh+0xc#/0h3`("
+        },
+        {
+          "line": 2608,
+          "text": "[ ` 70.57?3 3]? D1402Q  ex`/rtfs^hfcode_inode?f(�0x%4/0xd3?K   3 .57?312][ T9434"
+        },
+        {
+          "line": 2609,
+          "text": "  k.Gt)?y?c(o7GFdh.bo+0x150.0x044"
+        },
+        {
+          "line": 2610,
+          "text": "[   70.173324U[ T9436] ?sdQOshlw+?x1d /0h22#"
+        },
+        {
+          "line": 2611,
+          "text": "S  !&0.!#7#30][ T94!6] ?SEq_raad"
+        }
+      ]
+    ],
+    "prefix_after_header": [
+      "2026-11-03 20:13:25 SYSTEM_LAST_KMSG (compressed text, 15397 bytes)",
+      "isPrevious: true",
+      "Build: Redmi/dash/dash:17/CP2A.260605.016/OS4.0.3.0.XPLCNXM:user/release-keys",
+      "Hardware: dash",
+      "Revision: 0"
+    ]
+  },
+  "tombstone_31": {
+    "windows": [],
+    "prefix_after_header": [
+      "    0000007ff08f0080 aeadf344bd272e68 073f9e6f711d3428  h.'.D...(4.qo.?.",
+      "    0000007ff08f0090 00000001c7ef02a0 029000003a447353  ........SsD:....",
+      "    0000007ff08f00a0 713aa32e38d47353 004ee77da426c1d8  Ss.8..:q..&.}.N.",
+      "    0000007ff08f00b0 0000007ff08f0690 0000007a3ef8cd8c  ...........>z...",
+      "    0000007ff08f00c0 000000003000d032 0000007a3eae0930  2..0....0..>z..."
+    ]
+  },
+  "data_app_native_crash.txt": {
+    "windows": [],
+    "prefix_after_header": [
+      "2026-11-03 22:18:10 data_app_native_crash (text, 12720 bytes)",
+      "????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+      ""
+    ]
+  },
+  "SYSTEM_TOMBSTONE.txt": {
+    "windows": [],
+    "prefix_after_header": [
+      "2026-11-03 22:18:12 SYSTEM_TOMBSTONE (compressed text, 10079 bytes)",
+      "*** java.util.zip.ZipException: Not in GZIP format",
+      ""
+    ]
+  },
+  "current_dmesg": {
+    "status": 0,
+    "selected": [
+      {
+        "line": 198,
+        "text": "[   23.287644] [disp_aal][leds -> aal] led type changed: 1"
+      },
+      {
+        "line": 3523,
+        "text": "[   23.643767] init: processing action (ro.vendor.mtk.gpu.service=1 && boot) from (/vendor/etc/init/gpuserv-default.rc:7)"
+      },
+      {
+        "line": 3525,
+        "text": "[   23.644069] init: starting service 'vendor.gpuserv-default'..."
+      },
+      {
+        "line": 3531,
+        "text": "[   23.648677] init: ... started service 'vendor.gpuserv-default' has pid 1774"
+      },
+      {
+        "line": 3626,
+        "text": "[   23.695856] servicemanager: Caller(pid=1774,uid=1000,sid=u:r:mtk_hal_gpuserv:s0) Found vendor.mediatek.hardware.gpuserv.IGpuService/default in device VINTF manifest."
+      },
+      {
+        "line": 5226,
+        "text": "[   24.315252] [disp_aal][leds -> aal] led type changed: 1"
+      },
+      {
+        "line": 14908,
+        "text": "[   38.204192] servicemanager: Caller(pid=3098,uid=1000,sid=u:r:system_server:s0) Found vendor.mediatek.hardware.gpuserv.IGpuService/default in device VINTF manifest."
+      }
+    ],
+    "total_selected": 7
+  }
+}

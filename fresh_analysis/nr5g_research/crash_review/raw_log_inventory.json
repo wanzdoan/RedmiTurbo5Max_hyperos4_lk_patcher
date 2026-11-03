@@ -1,0 +1,1935 @@
+{
+  "aee_history": {
+    "bytes": 7923,
+    "sha256": "0eedccdacf88d1de18ddade6b296c1a6e0f83847fe71399c10cad9e23a06991a",
+    "first_nonzero_offset": 0,
+    "zero_fraction": 0.0,
+    "selected_hits": [
+      {
+        "line": 27,
+        "text": "/data/vendor/aee_exp/db.fatal.00.RebootException,RebootException,0,0,99,/data/vendor/core/,0,,REBOOT_EXCEPTION,Mon Sep 21 21:39:05 +07 2026,1,2742496"
+      },
+      {
+        "line": 77,
+        "text": "androidboot.bootreason=reboot_longkey @ 2026-09-27 10:14:18.132582"
+      },
+      {
+        "line": 95,
+        "text": "androidboot.bootreason=reboot_longkey @ 2026-10-16 16:43:59.594490"
+      },
+      {
+        "line": 98,
+        "text": "androidboot.bootreason=reboot_longkey @ 2026-10-17 12:15:34.347858"
+      },
+      {
+        "line": 99,
+        "text": "androidboot.bootreason=reboot_longkey @ 2026-10-17 12:17:26.285020"
+      },
+      {
+        "line": 131,
+        "text": "androidboot.bootreason=reboot_longkey @ 2026-11-03 22:17:17.168483"
+      },
+      {
+        "line": 132,
+        "text": "androidboot.bootreason=reboot_longkey @ 2026-11-03 22:19:04.763527"
+      }
+    ],
+    "total_selected_hits": 7,
+    "tombstone_markers": [
+      {
+        "marker": "Build fingerprint",
+        "offset": -1
+      },
+      {
+        "marker": "Cmdline:",
+        "offset": -1
+      },
+      {
+        "marker": "Abort message",
+        "offset": -1
+      },
+      {
+        "marker": "backtrace:",
+        "offset": -1
+      },
+      {
+        "marker": "*** ***",
+        "offset": -1
+      },
+      {
+        "marker": "surfaceflinger",
+        "offset": -1
+      },
+      {
+        "marker": "graphics.composer",
+        "offset": -1
+      },
+      {
+        "marker": "signal ",
+        "offset": -1
+      }
+    ]
+  },
+  "boot_201512.gz": {
+    "bytes": 2220469,
+    "sha256": "0ee31931e57d3419fbaa79749fef40fc41f483208f174d3b95f30788147cf0eb",
+    "first_nonzero_offset": 0,
+    "zero_fraction": 0.0035,
+    "gzip_decoded_bytes": 16916480,
+    "selected_hits": [
+      {
+        "line": 494,
+        "text": "[    0.282641] [    T1] iommu: Default domain type: Translated"
+      },
+      {
+        "line": 565,
+        "text": "[    0.378939] [   T50] watchdog: Delayed init of the lockup detector failed: -19"
+      },
+      {
+        "line": 566,
+        "text": "[    0.378943] [   T50] watchdog: Hard watchdog permanently disabled"
+      },
+      {
+        "line": 716,
+        "text": "[    0.808986] [    T1] enable_action_panic: enable mkp panic"
+      },
+      {
+        "line": 838,
+        "text": "[    0.821210] [    T1] mtk-wdt 1c010000.watchdog: error -ENXIO: IRQ index 0 not found"
+      },
+      {
+        "line": 839,
+        "text": "[    0.821224] [    T1] [wdtk] kick watchdog"
+      },
+      {
+        "line": 840,
+        "text": "[    0.821356] [    T1] mtk-wdt 1c010000.watchdog: Watchdog enabled (timeout=31 sec, nowayout=0)"
+      },
+      {
+        "line": 841,
+        "text": "[    0.821369] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 846,
+        "text": "[    0.823984] [    T1] hangdet_init: compatible node found: watchdog"
+      },
+      {
+        "line": 2259,
+        "text": "[    1.286340] [    T1] [cmdq] dump_buf_size 1 error irq 0 tfa_read_dbg:1 proc_debug_off:0 print_debug:1 cmdq_res_wa_chk:0"
+      },
+      {
+        "line": 2317,
+        "text": "[    1.296291] [    T1] [cmdq] dump_buf_size 1 error irq 0 tfa_read_dbg:1 proc_debug_off:0 print_debug:1 cmdq_res_wa_chk:0"
+      },
+      {
+        "line": 2322,
+        "text": "[    1.296385] [    T1]  mtk_smi_dbg(O) emi(O) mtk_smi(O) smmu_secure(O) iommu_debug(O) clk_fmeter_mt6991(O) mt6991_dcm(O) mtk_dcm(O) mtk_emi(O) mtk_dvfsrc_devfreq(O) mtk_dvfsrc_regulator(O) mtk_dvfsrc(O) mtk_scpsys(O) clk_common(O) smap_mt6991(O) pinctrl_mt6991(O) pinctrl_mtk_v2(O) ise_lpm(O) tinysys_scmi(O) mtk_mbox_mailbox(O) device_apc_mt6991(O) device_apc_common(O) sec_rng(O) aee_hangdet(O) timer_mediatek(O) mtk_wdt(O) nvmem_mtk_devinfo(O) mtk_printk_ctrl(O) log_store(O) mtk_disp_notify(O) mtk_sync(O) last_bus(O) bus_parity(O) dbg_error_flag(O) irq_dbg(O) dbgtop_drm(O) mkp(O) monitor_hang(O) aee_aed(O) mrdump(O) bootprof(O) kernelsu(O)"
+      },
+      {
+        "line": 2781,
+        "text": "[    1.390624] [    T1] mtk_drm_probe: get disp_plat_dbg_addr fail"
+      },
+      {
+        "line": 2782,
+        "text": "[    1.390627] [    T1] mtk_drm_probe: get disp_plat_dbg_size fail"
+      },
+      {
+        "line": 2889,
+        "text": "[    1.405337] [    T1] [DISP][E]mtk_ddp_comp_init, VDISP_AO get clock fail!"
+      },
+      {
+        "line": 2925,
+        "text": "[    1.425798] [    T1] [DISP][E]mtk_ddp_comp_set_larb OVL_EXDMA0 failed to parse mediatek,larb"
+      },
+      {
+        "line": 2945,
+        "text": "[    1.426472] [    T1] mtk_iommu: debug mtk_iommu_register_fault_callback fail, port=208"
+      },
+      {
+        "line": 3046,
+        "text": "[    1.451432] [    T1] mediatek-disp-oddmr 32500000.disp-oddmr0: failed to request oddmr irq resource"
+      },
+      {
+        "line": 3065,
+        "text": "[    1.454644] [    T1] [DISP][E]mtk_ddp_comp_init, DPTX get clock fail!"
+      },
+      {
+        "line": 3225,
+        "text": "[    1.474995] [   T10] [DISP]mtk_disp_wdma_bind,2649, comp:72 failed to create qos_req, name:DDP_COMPONENT_WDMA1_qos"
+      },
+      {
+        "line": 3228,
+        "text": "[    1.475186] [   T10] [DISP]mtk_disp_wdma_bind,2649, comp:73 failed to create qos_req, name:DDP_COMPONENT_WDMA2_qos"
+      },
+      {
+        "line": 3234,
+        "text": "[    1.475375] [   T10] [DISP]mtk_disp_wdma_bind,2649, comp:75 failed to create qos_req, name:DDP_COMPONENT_WDMA4_qos"
+      },
+      {
+        "line": 3299,
+        "text": "[    1.480187] [   T10] [DISP]mtk_disp_wdma_bind,2649, comp:312 failed to create qos_req, name:DDP_COMPONENT_OVLSYS_WDMA0_qos"
+      },
+      {
+        "line": 3353,
+        "text": "[    1.484596] [   T10] [DISP]mtk_disp_wdma_bind,2649, comp:314 failed to create qos_req, name:DDP_COMPONENT_OVLSYS_WDMA2_qos"
+      },
+      {
+        "line": 3441,
+        "text": "[    1.493433] [   T10] [DISP][E]lookup state 'err_flag_init' failed"
+      },
+      {
+        "line": 3531,
+        "text": "[    1.496651] [   T10] [DISP]init the refresh rate property fail!! of_property_read_u32 not found : -22"
+      },
+      {
+        "line": 3532,
+        "text": "[    1.496656] [   T10] [DISP]init the refresh rate property fail!! of_property_read_u32 not found : -22"
+      },
+      {
+        "line": 3533,
+        "text": "[    1.496662] [   T10] [DISP]init the refresh rate property fail!! of_property_read_u32 not found : -22"
+      },
+      {
+        "line": 3567,
+        "text": "[    1.497395] [   T10] hw_item_add_child: cmdq_timeout_times:0"
+      },
+      {
+        "line": 3618,
+        "text": "[    1.511512] [  T287] [DISP]mtk_drm_crtc_init_para, 15946, failed to get default timing"
+      },
+      {
+        "line": 3619,
+        "text": "[    1.511533] [  T287] [DISP]mtk_drm_crtc_init_para, 15946, failed to get default timing"
+      },
+      {
+        "line": 6446,
+        "text": "[    3.895810] [    T1] init: Parsing file /system/etc/init/surfaceflinger.rc..."
+      },
+      {
+        "line": 6545,
+        "text": "[    3.901607] [    T1] init: Parsing file /vendor/etc/init/android.hardware.graphics.composer@3.3-service.rc..."
+      },
+      {
+        "line": 6583,
+        "text": "[    3.902952] [    T1] init: Parsing file /vendor/etc/init/gpuserv-default.rc..."
+      },
+      {
+        "line": 8575,
+        "text": "[    4.682347] [  T553] [ccci1/pot]ccci_port_init: hook register_spmi_md_force_assert done"
+      },
+      {
+        "line": 8736,
+        "text": "[    4.738837] [  T553] [GPU/GED][INFO]@ged_gpufreq_init: default g_ud_mask_bit: 7ff"
+      },
+      {
+        "line": 9332,
+        "text": "[    5.305104] [  T553] lvts_probe: compatible node found: watchdog"
+      },
+      {
+        "line": 9406,
+        "text": "[    5.377602] [  T553] fs3002_haptic:foursemi_parse_chipid:254: FSERROR: failed to read FS3002_ID: -6"
+      },
+      {
+        "line": 9407,
+        "text": "[    5.377604] [  T553] fs3002_haptic:foursemi_i2c_probe:449: FSERROR: read_chipid failed ret=-22"
+      },
+      {
+        "line": 10240,
+        "text": "[    5.639014] [  T553] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[1]"
+      },
+      {
+        "line": 14036,
+        "text": "[    7.321259] [  T421] init: SysPropSet: persist.vendor.aeev.fatal.underrun.dbnumber to 0"
+      },
+      {
+        "line": 14037,
+        "text": "[    7.321401] [  T421] init: SysPropSet: persist.vendor.aeev.fatal.underrun.lasttime to 0"
+      },
+      {
+        "line": 15897,
+        "text": "[   16.321393] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 18352,
+        "text": "[   24.346988] [    T1] init: Command 'write /sys/class/mi_display/disp-DSI-0/calib 1' action=post-fs-data (/odm/etc/init/display.rc:4) took 0ms and failed: Unable to write to file '/sys/class/mi_display/disp-DSI-0/calib': open() failed: Permission denied"
+      },
+      {
+        "line": 19119,
+        "text": "[   24.906570] [  T421] init: SysPropSet: persist.vendor.aeev.fatal.underrun.dbnumber to 0"
+      },
+      {
+        "line": 19120,
+        "text": "[   24.906677] [  T421] init: SysPropSet: persist.vendor.aeev.fatal.underrun.lasttime to 0"
+      },
+      {
+        "line": 19481,
+        "text": "[   24.956979] [ T1497] KernelSU: hook_manager: unmark 1497 exec /vendor/bin/hw/android.hardware.graphics.composer@3.3-service"
+      },
+      {
+        "line": 19718,
+        "text": "[   25.064751] [ T1497] [disp_aal][leds -> aal] led type changed: 1"
+      },
+      {
+        "line": 19726,
+        "text": "[   25.068118] [  T753] type=1400 audit([long-number redacted].800:649): avc:  denied  { read } for  comm=\"composer@3.3-se\" name=\"u:object_r:system_prop:s0\" dev=\"tmpfs\" ino=556 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:system_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 20180,
+        "text": "[   25.247188] [    T1] init: starting service 'surfaceflinger'..."
+      },
+      {
+        "line": 20183,
+        "text": "[   25.247788] [    T1] init: Could not create socket 'pdx/system/vr/display/client': Failed to bind socket 'pdx/system/vr/display/client': No such file or directory"
+      },
+      {
+        "line": 20184,
+        "text": "[   25.247893] [    T1] init: Could not create socket 'pdx/system/vr/display/manager': Failed to bind socket 'pdx/system/vr/display/manager': No such file or directory"
+      },
+      {
+        "line": 20185,
+        "text": "[   25.247995] [    T1] init: Could not create socket 'pdx/system/vr/display/vsync': Failed to bind socket 'pdx/system/vr/display/vsync': No such file or directory"
+      },
+      {
+        "line": 20191,
+        "text": "[   25.251835] [    T1] init: ... started service 'surfaceflinger' has pid 1632"
+      },
+      {
+        "line": 20201,
+        "text": "[   25.252322] [ T1632] KernelSU: hook_manager: unmark 1632 exec /system/bin/surfaceflinger"
+      },
+      {
+        "line": 22949,
+        "text": "[   25.397617] [    T1] init: processing action (ro.vendor.mtk.gpu.service=1 && boot) from (/vendor/etc/init/gpuserv-default.rc:7)"
+      },
+      {
+        "line": 22950,
+        "text": "[   25.397835] [    T1] init: starting service 'vendor.gpuserv-default'..."
+      },
+      {
+        "line": 22959,
+        "text": "[   25.403633] [    T1] init: ... started service 'vendor.gpuserv-default' has pid 1779"
+      },
+      {
+        "line": 23110,
+        "text": "[   25.445657] [    T1] init: processing action (persist.vendor.aeev.fatal.underrun=enable) from (/vendor/etc/init/hw/init.aee.rc:47)"
+      },
+      {
+        "line": 23177,
+        "text": "[   25.466770] [  T730] servicemanager: Caller(pid=1779,uid=1000,sid=u:r:mtk_hal_gpuserv:s0) Found vendor.mediatek.hardware.gpuserv.IGpuService/default in device VINTF manifest."
+      },
+      {
+        "line": 23240,
+        "text": "[   25.502742] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23242,
+        "text": "[   25.503473] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23245,
+        "text": "[   25.506532] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23249,
+        "text": "[   25.509763] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23412,
+        "text": "[   25.579982] [ T1810] __get_mi_task_struct: ALLOCATED for pid=1810 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23414,
+        "text": "[   25.580587] [ T1810] __get_mi_task_struct: ALLOCATED for pid=1810 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23415,
+        "text": "[   25.580704] [ T1810] __get_mi_task_struct: ALLOCATED for pid=1810 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23497,
+        "text": "[   25.618316] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.graphics.composer3.IComposer/default in device VINTF manifest."
+      },
+      {
+        "line": 23498,
+        "text": "[   25.618801] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Since 'android.hardware.graphics.composer3.IComposer/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting)."
+      },
+      {
+        "line": 23504,
+        "text": "[   25.619012] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Trying to trace 'android.hardware.graphics.composer3.IComposer/default'."
+      },
+      {
+        "line": 23523,
+        "text": "[   25.625097] [    T1] init: Control message: Could not find 'aidl/android.hardware.graphics.composer3.IComposer/default' for ctl.interface_start from pid: 730 (/system/bin/servicemanager)"
+      },
+      {
+        "line": 23525,
+        "text": "[   25.625232] [ T1858] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Tried to start aidl service android.hardware.graphics.composer3.IComposer/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly."
+      },
+      {
+        "line": 23526,
+        "text": "[   25.625648] [    T1] init: Control message: Could not find 'aidl/android.hardware.graphics.composer3.IComposer/default' for ctl.interface_trace from pid: 730 (/system/bin/servicemanager)"
+      },
+      {
+        "line": 23541,
+        "text": "[   25.631517] [ T1859] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Failed to trace aidl service android.hardware.graphics.composer3.IComposer/default."
+      },
+      {
+        "line": 24871,
+        "text": "[   26.098111] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.mediatek.hardware.composer_ext.IComposerExt/default in device VINTF manifest."
+      },
+      {
+        "line": 24872,
+        "text": "[   26.098598] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.mediatek.hardware.composer_ext.IComposerExt/default in device VINTF manifest."
+      },
+      {
+        "line": 24874,
+        "text": "[   26.098879] [ T1497] [disp_aal][leds -> aal] led type changed: 1"
+      },
+      {
+        "line": 24876,
+        "text": "[   26.099150] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 24878,
+        "text": "[   26.099980] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 24882,
+        "text": "[   26.100510] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found mapper/mediatek in device VINTF manifest."
+      },
+      {
+        "line": 24887,
+        "text": "[   26.108700] [  T753] type=1400 audit([long-number redacted].844:755): avc:  denied  { read } for  comm=\"composer@3.3-se\" name=\"u:object_r:system_prop:s0\" dev=\"tmpfs\" ino=556 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:system_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 24895,
+        "text": "[   26.111843] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.composer3.IComposer/default in device VINTF manifest."
+      },
+      {
+        "line": 24896,
+        "text": "[   26.113345] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.xiaomi.hardware.display.mihwcextension.IMiHwcExtension/default in device VINTF manifest."
+      },
+      {
+        "line": 25615,
+        "text": "[   26.202858] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.hardware.composer_ext.IComposerExt/default in device VINTF manifest."
+      },
+      {
+        "line": 25621,
+        "text": "[   26.214053] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 25622,
+        "text": "[   26.215421] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 25623,
+        "text": "[   26.215712] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found mapper/mediatek in device VINTF manifest."
+      },
+      {
+        "line": 25628,
+        "text": "[   26.227921] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25632,
+        "text": "[   26.230254] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25634,
+        "text": "[   26.230345] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25643,
+        "text": "[   26.235652] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25644,
+        "text": "[   26.235747] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25645,
+        "text": "[   26.235832] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25646,
+        "text": "[   26.235885] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25647,
+        "text": "[   26.236260] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25648,
+        "text": "[   26.236503] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25649,
+        "text": "[   26.237615] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25650,
+        "text": "[   26.237782] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25653,
+        "text": "[   26.238218] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25657,
+        "text": "[   26.238355] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25658,
+        "text": "[   26.238419] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25661,
+        "text": "[   26.238539] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25662,
+        "text": "[   26.238794] [  T753] type=1400 audit([long-number redacted].976:770): avc:  denied  { read } for  comm=\"surfaceflinger\" name=\"u:object_r:vendor_video_mi_prop:s0\" dev=\"tmpfs\" ino=929 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:vendor_video_mi_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 25663,
+        "text": "[   26.238865] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25664,
+        "text": "[   26.240949] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.framework.mtksf_ext.IMtkSF_ext/default in framework VINTF manifest."
+      },
+      {
+        "line": 25671,
+        "text": "[   26.246136] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 25681,
+        "text": "[   26.252551] [    T1] init: Control message: Processed ctl.start for 'bootanim' from pid: 1632 (/system/bin/surfaceflinger)"
+      },
+      {
+        "line": 25755,
+        "text": "[   26.274955] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.hardware.mbrain.IMBrain/default in device VINTF manifest."
+      },
+      {
+        "line": 25774,
+        "text": "[   26.278772] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.hardware.mtkpower.IMtkPowerService/default in device VINTF manifest."
+      },
+      {
+        "line": 25993,
+        "text": "[   26.593797] [  T777] [wlan][777]wlanCheckWifiFunc:(INIT INFO) Ready bit asserted"
+      },
+      {
+        "line": 26678,
+        "text": "[   27.190389] [  T776] [btmtk_info] btmtk_sp_pre_open: init bt assert_state[0], dump_comp"
+      },
+      {
+        "line": 29601,
+        "text": "[   29.228189] [  T777] [wlan][777]wlanCheckWifiFunc:(INIT INFO) Ready bit asserted"
+      },
+      {
+        "line": 29877,
+        "text": "[   29.321835] [  T776] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[0]"
+      },
+      {
+        "line": 29878,
+        "text": "[   29.321840] [  T776] [btmtk_info] btmtk_uart_open_done mtk8250_uart_hub_assert_bit_ctrl(0)"
+      },
+      {
+        "line": 29946,
+        "text": "[   29.362224] [  T776] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[1]"
+      },
+      {
+        "line": 29947,
+        "text": "[   29.362229] [  T776] [btmtk_uart_unify][btmtk_info] btmtk_sp_close mtk8250_uart_hub_assert_bit_ctrl(1)"
+      },
+      {
+        "line": 31843,
+        "text": "[   31.821442] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 32603,
+        "text": "[   36.445559] [    T7] __get_mi_task_struct: ALLOCATED for pid=85 comm=watchdogd uid=0"
+      },
+      {
+        "line": 33168,
+        "text": "[   36.449201] [    T7] __get_mi_task_struct: ALLOCATED for pid=752 comm=lmkd_watchdog uid=1069"
+      },
+      {
+        "line": 33582,
+        "text": "[   38.286061] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 33583,
+        "text": "[   38.286521] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 33585,
+        "text": "[   38.290690] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 33600,
+        "text": "[   38.292856] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default in device VINTF manifest."
+      },
+      {
+        "line": 33601,
+        "text": "[   38.294137] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Since 'vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting)."
+      },
+      {
+        "line": 33603,
+        "text": "[   38.294302] [  T730] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Trying to trace 'vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default'."
+      },
+      {
+        "line": 33608,
+        "text": "[   38.295763] [ T4206] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Tried to start aidl service vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly."
+      },
+      {
+        "line": 33610,
+        "text": "[   38.296283] [ T4207] servicemanager: Caller(pid=1497,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Failed to trace aidl service vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default."
+      },
+      {
+        "line": 34859,
+        "text": "[   41.632598] [  T730] servicemanager: Caller(pid=3160,uid=1000,sid=u:r:system_server:s0) Found vendor.mediatek.hardware.gpuserv.IGpuService/default in device VINTF manifest."
+      },
+      {
+        "line": 34915,
+        "text": "[   41.693104] [  T195] [btmtk_info] btmtk_sp_pre_open: init bt assert_state[0], dump_comp"
+      },
+      {
+        "line": 36101,
+        "text": "[   42.248632] [  T781] [wlan][781]wlanCheckWifiFunc:(INIT INFO) Ready bit asserted"
+      },
+      {
+        "line": 36521,
+        "text": "[   42.608701] [  T195] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[0]"
+      },
+      {
+        "line": 36522,
+        "text": "[   42.608704] [  T195] [btmtk_info] btmtk_uart_open_done mtk8250_uart_hub_assert_bit_ctrl(0)"
+      },
+      {
+        "line": 36545,
+        "text": "[   42.613089] [  T195] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[1]"
+      },
+      {
+        "line": 36546,
+        "text": "[   42.613091] [  T195] [btmtk_uart_unify][btmtk_info] btmtk_sp_close mtk8250_uart_hub_assert_bit_ctrl(1)"
+      },
+      {
+        "line": 37581,
+        "text": "[   45.764434] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 37801,
+        "text": "[   46.079818] [ T1632] __get_mi_task_struct: ALLOCATED for pid=1632 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 38100,
+        "text": "[   47.321502] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 39279,
+        "text": "[   53.185202] [  T730] servicemanager: Caller(pid=1632,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.power.IPower/default in device VINTF manifest."
+      },
+      {
+        "line": 39927,
+        "text": "11-03 20:14:22.051   885   885 I AEE_AED :   fatal db count '4'"
+      },
+      {
+        "line": 39997,
+        "text": "11-03 20:14:22.068   886   886 I AEE_AEDV:   fatal db count '4'"
+      },
+      {
+        "line": 40013,
+        "text": "11-03 20:14:22.073   900   900 I AEE_AEDV: ipanic_blk_open, expdb, 1000 x 8000 = 8000000"
+      },
+      {
+        "line": 40014,
+        "text": "11-03 20:14:22.073   900   900 W AEE_AEDV: ipanic heahder: magic:0, version:0, size:0, datas:0"
+      },
+      {
+        "line": 40015,
+        "text": "11-03 20:14:22.073   900   900 W AEE_AEDV: ipanic heahder: dhblk:0, blksize:0, partsize:0, bufsize:0"
+      },
+      {
+        "line": 40016,
+        "text": "11-03 20:14:22.073   900   900 W AEE_AEDV: aed_reboot_session, no valid ipanic header, ignored"
+      },
+      {
+        "line": 40024,
+        "text": "11-03 20:14:22.074   900   900 I AEE_AEDV: ipanic_blk_open, expdb, 1000 x 8000 = 8000000"
+      },
+      {
+        "line": 43309,
+        "text": "11-03 20:14:40.800  1497  1497 W composer@3.3-se: type=1400 audit(0.0:649): avc:  denied  { read } for  name=\"u:object_r:system_prop:s0\" dev=\"tmpfs\" ino=556 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:system_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 46750,
+        "text": "11-03 20:14:41.070  1547  1547 E DisplayFeatureHal: readPanelWhiteXYCoordinate, open fb disp_param node failed!"
+      },
+      {
+        "line": 46751,
+        "text": "11-03 20:14:41.070  1547  1547 E DisplayFeatureHal: calibrateWhitePoint readPanelWhiteXYCoordinate fail!"
+      },
+      {
+        "line": 47073,
+        "text": "11-03 20:14:41.206  1779  1779 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: vendor.mediatek.hardware.gpuserv.IGpuService/default"
+      },
+      {
+        "line": 47265,
+        "text": "11-03 20:14:41.239  1632  1632 I SurfaceFlinger: release 6.6.118-android15-8-gb9cc6ec16bc8-abogki536571621-4k enabled 1"
+      },
+      {
+        "line": 47288,
+        "text": "11-03 20:14:41.245  1632  1632 I SurfaceFlinger: Using HWComposer service: default"
+      },
+      {
+        "line": 47295,
+        "text": "11-03 20:14:41.246  1632  1632 I SurfaceFlinger: SurfaceFlinger is starting"
+      },
+      {
+        "line": 47298,
+        "text": "11-03 20:14:41.246  1632  1632 I SurfaceFlinger: Disabling backpressure propagation"
+      },
+      {
+        "line": 47305,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger: [setMTKProperties]"
+      },
+      {
+        "line": 47306,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger: ========================================================================"
+      },
+      {
+        "line": 47307,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     debug.sf.showupdates (mDebugFlashDelay): 0"
+      },
+      {
+        "line": 47308,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     debug.sf.ddms (mDebugDDMS): 0"
+      },
+      {
+        "line": 47309,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger: [MediaTek SF]"
+      },
+      {
+        "line": 47310,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.slowmotion (mDelayTime ms): 0"
+      },
+      {
+        "line": 47311,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.downgrade_vsync (min vsync ns): 0"
+      },
+      {
+        "line": 47312,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.rpt_fbthint (mFBTHitHint): 0"
+      },
+      {
+        "line": 47313,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.log_transaction (mLogTransaction): 0"
+      },
+      {
+        "line": 47314,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.log_repaint (mLogRepaint): 0"
+      },
+      {
+        "line": 47315,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.line_g3d (mLineG3D): 0"
+      },
+      {
+        "line": 47316,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.dump_ss (mDumpScreenShot): 0"
+      },
+      {
+        "line": 47317,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.backdoor_set_display_mode_interval (mSettingDisplayModeInterval): [long-number redacted]"
+      },
+      {
+        "line": 47318,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.dejitter_process.switch (mDejitterProcessSwitch): 0"
+      },
+      {
+        "line": 47319,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.extend_sf_duration.threadhold (mExtendSfDurationThreadhold): 12"
+      },
+      {
+        "line": 47320,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.sf.extend_sf_duration.time (mExtendTime): 8300000"
+      },
+      {
+        "line": 47321,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger: [MediaTek GUI]"
+      },
+      {
+        "line": 47322,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.bq.dump: NULL"
+      },
+      {
+        "line": 47323,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     vendor.debug.bq.line: 0"
+      },
+      {
+        "line": 47324,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:     *** dynamic modification ***"
+      },
+      {
+        "line": 47325,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:         vendor.debug.bq.line_p (set fixed index): 0"
+      },
+      {
+        "line": 47326,
+        "text": "11-03 20:14:41.246  1632  1632 D surfaceflinger:       "
+      },
+      {
+        "line": 47327,
+        "text": "11-03 20:14:41.246  1632  1632 D SurfaceFlinger: MTK_SF_SCHEDULE_DELAY is enable"
+      },
+      {
+        "line": 47328,
+        "text": "11-03 20:14:41.246  1632  1632 D SurfaceFlinger: MTK_DYNAMIC_REGION_SAMPLING is enable"
+      },
+      {
+        "line": 47335,
+        "text": "11-03 20:14:41.246  1632  1632 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W..."
+      },
+      {
+        "line": 47349,
+        "text": "11-03 20:14:41.249  1632  1632 D SurfaceFlinger: chooseRenderEngine, useGraphite is 0, useVulkan is 0"
+      },
+      {
+        "line": 47350,
+        "text": "11-03 20:14:41.249  1632  1632 D SurfaceFlinger: Threaded RenderEngine with SkiaGL Backend (Ganesh)"
+      },
+      {
+        "line": 47353,
+        "text": "11-03 20:14:41.249  1632  1810 E SurfaceFlinger: Failed to setTidQosLevel for RenderEngine, tid 1810"
+      },
+      {
+        "line": 47354,
+        "text": "11-03 20:14:41.249  1632  1810 D SurfaceFlinger: Waited 0.0032ms for disk to be ready"
+      },
+      {
+        "line": 47409,
+        "text": "11-03 20:14:41.253  1792  1792 I adbd    : persist.adb.watchdog set to ''"
+      },
+      {
+        "line": 47411,
+        "text": "11-03 20:14:41.254  1792  1792 I adbd    : adb watchdog timeout set to 600 seconds"
+      },
+      {
+        "line": 48066,
+        "text": "11-03 20:14:41.295  1632  1810 D libMEOW : applied 0 plugin for [surfaceflinger]."
+      },
+      {
+        "line": 48067,
+        "text": "11-03 20:14:41.295  1632  1810 D libMEOW : applied 0 plugin for [surfaceflinger]."
+      },
+      {
+        "line": 48221,
+        "text": "11-03 20:14:41.318  1632  1810 D MMUD    : mtk_memory_debug_init surfaceflinger 0xb400007f2270d210"
+      },
+      {
+        "line": 48423,
+        "text": "11-03 20:14:41.340  1632  1810 D SurfaceFlinger: HDRDimmer init..."
+      },
+      {
+        "line": 48424,
+        "text": "11-03 20:14:41.340  1632  1810 D SurfaceFlinger: HDRDimmer: lut file not found."
+      },
+      {
+        "line": 48425,
+        "text": "11-03 20:14:41.340  1632  1810 D SurfaceFlinger: initLightScreenEffect completed."
+      },
+      {
+        "line": 48426,
+        "text": "11-03 20:14:41.340  1632  1810 D SurfaceFlinger: Background Blurs Enabled (MiGaussian algorithm)"
+      },
+      {
+        "line": 48471,
+        "text": "11-03 20:14:41.346  1632  1810 D SurfaceFlinger: ShaderCache::initShaderDiskCache: merging 0 runtime cache entries from /data/misc/surfaceflinger/skia_runtime_shaders"
+      },
+      {
+        "line": 48472,
+        "text": "11-03 20:14:41.346  1632  1810 D SurfaceFlinger: ShaderCache::initShaderDiskCache: total cache entries after merge: 321"
+      },
+      {
+        "line": 48559,
+        "text": "11-03 20:14:41.354  1632  1810 D SurfaceFlinger: SkiaGLRenderEngine::createContexts,glesVersion=OpenGL ES 3.2 v1.r49p1-03bet0.4505ac1771886c7c25f13653ad4cdff7.Ifcdf2ee9a0ed567f64b4028c9b784d259, size=97"
+      },
+      {
+        "line": 48565,
+        "text": "11-03 20:14:41.354  1632  1810 I SurfaceFlinger: OpenGL ES informations:"
+      },
+      {
+        "line": 48566,
+        "text": "11-03 20:14:41.354  1632  1810 I SurfaceFlinger: vendor    : ARM"
+      },
+      {
+        "line": 48567,
+        "text": "11-03 20:14:41.354  1632  1810 I SurfaceFlinger: renderer  : Mali-G925-Immortalis MC12"
+      },
+      {
+        "line": 48568,
+        "text": "11-03 20:14:41.354  1632  1810 I SurfaceFlinger: version   : OpenGL ES 3.2 v1.r49p1-03bet0.4505ac1771886c7c25f13653ad4cdff7.Ifcdf2ee9a0ed567f64b4028c9b784d259"
+      },
+      {
+        "line": 48569,
+        "text": "11-03 20:14:41.354  1632  1810 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_ARM_debug_assert GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_EXT_texture_compression_astc_decode_mode GL_EXT_texture_compression_astc_decode_mode_rgb9e5 GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_blend_minmax GL_EXT_discard_framebuf"
+      },
+      {
+        "line": 48570,
+        "text": "11-03 20:14:41.354  1632  1810 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 16384"
+      }
+    ],
+    "total_selected_hits": 1428,
+    "tombstone_markers": [
+      {
+        "marker": "Build fingerprint",
+        "offset": -1
+      },
+      {
+        "marker": "Cmdline:",
+        "offset": -1
+      },
+      {
+        "marker": "Abort message",
+        "offset": -1
+      },
+      {
+        "marker": "backtrace:",
+        "offset": -1
+      },
+      {
+        "marker": "*** ***",
+        "offset": 11075384
+      },
+      {
+        "marker": "surfaceflinger",
+        "offset": 573905
+      },
+      {
+        "marker": "graphics.composer",
+        "offset": 583122
+      },
+      {
+        "marker": "signal ",
+        "offset": 4902101
+      }
+    ]
+  },
+  "boot_221801.gz": {
+    "bytes": 2289075,
+    "sha256": "c6e47999651e659fd39274e805dea74f145c1a7b07a8ce20897fa7c68327ac14",
+    "first_nonzero_offset": null,
+    "zero_fraction": 1.0,
+    "gzip_error": "Not a gzipped file (b'\\x00\\x00')",
+    "selected_hits": [],
+    "total_selected_hits": 0,
+    "tombstone_markers": [
+      {
+        "marker": "Build fingerprint",
+        "offset": -1
+      },
+      {
+        "marker": "Cmdline:",
+        "offset": -1
+      },
+      {
+        "marker": "Abort message",
+        "offset": -1
+      },
+      {
+        "marker": "backtrace:",
+        "offset": -1
+      },
+      {
+        "marker": "*** ***",
+        "offset": -1
+      },
+      {
+        "marker": "surfaceflinger",
+        "offset": -1
+      },
+      {
+        "marker": "graphics.composer",
+        "offset": -1
+      },
+      {
+        "marker": "signal ",
+        "offset": -1
+      }
+    ]
+  },
+  "boot_221947.gz": {
+    "bytes": 2849686,
+    "sha256": "607c7ce2b6bf0882a28c8c8c548532a7d3d9276c0720240ef7d7b6dd305b5f6b",
+    "first_nonzero_offset": 0,
+    "zero_fraction": 0.0036,
+    "gzip_decoded_bytes": 32166400,
+    "selected_hits": [
+      {
+        "line": 174,
+        "text": "[    0.000000] [    T0] Kernel command line: ramoops.mem_size=0x410000 ramoops.pmsg_size=0x200000 ramoops.console_size=0x200000 hwid.project_name=dash hwid.hwid_value=589824 hwid.project=8 aee_aed.pureason=reboot_longkey aee_aed.poffreason=Normal_shutdown block2mtd.block2mtd=/dev/block/by-name/oops,2097152,0 mtdoops.mtddev=0 mtdoops.record_size=2097152 mtdoops.dump_oops=1 printk.always_kmsg_dump=1 mtdoops.boot_mode=0 bootconfig"
+      },
+      {
+        "line": 494,
+        "text": "[    0.282786] [    T1] iommu: Default domain type: Translated"
+      },
+      {
+        "line": 557,
+        "text": "[    0.372688] [   T88] watchdog: Delayed init of the lockup detector failed: -19"
+      },
+      {
+        "line": 558,
+        "text": "[    0.372693] [   T88] watchdog: Hard watchdog permanently disabled"
+      },
+      {
+        "line": 703,
+        "text": "[    0.805820] [    T1] init: Loading module /lib/modules/aee_aed.ko with args 'pureason=reboot_longkey poffreason=Normal_shutdown'"
+      },
+      {
+        "line": 705,
+        "text": "[    0.807089] [    T1] powerup reason:reboot_longkey"
+      },
+      {
+        "line": 716,
+        "text": "[    0.810796] [    T1] enable_action_panic: enable mkp panic"
+      },
+      {
+        "line": 838,
+        "text": "[    0.822872] [    T1] mtk-wdt 1c010000.watchdog: error -ENXIO: IRQ index 0 not found"
+      },
+      {
+        "line": 839,
+        "text": "[    0.822882] [    T1] [wdtk] kick watchdog"
+      },
+      {
+        "line": 840,
+        "text": "[    0.823008] [    T1] mtk-wdt 1c010000.watchdog: Watchdog enabled (timeout=31 sec, nowayout=0)"
+      },
+      {
+        "line": 841,
+        "text": "[    0.823024] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 846,
+        "text": "[    0.825639] [    T1] hangdet_init: compatible node found: watchdog"
+      },
+      {
+        "line": 2259,
+        "text": "[    1.284004] [    T1] [cmdq] dump_buf_size 1 error irq 0 tfa_read_dbg:1 proc_debug_off:0 print_debug:1 cmdq_res_wa_chk:0"
+      },
+      {
+        "line": 2398,
+        "text": "[    1.294284] [    T1] [cmdq] dump_buf_size 1 error irq 0 tfa_read_dbg:1 proc_debug_off:0 print_debug:1 cmdq_res_wa_chk:0"
+      },
+      {
+        "line": 2403,
+        "text": "[    1.294388] [    T1]  mtk_smi_dbg(O) emi(O) mtk_smi(O) smmu_secure(O) iommu_debug(O) clk_fmeter_mt6991(O) mt6991_dcm(O) mtk_dcm(O) mtk_emi(O) mtk_dvfsrc_devfreq(O) mtk_dvfsrc_regulator(O) mtk_dvfsrc(O) mtk_scpsys(O) clk_common(O) smap_mt6991(O) pinctrl_mt6991(O) pinctrl_mtk_v2(O) ise_lpm(O) tinysys_scmi(O) mtk_mbox_mailbox(O) device_apc_mt6991(O) device_apc_common(O) sec_rng(O) aee_hangdet(O) timer_mediatek(O) mtk_wdt(O) nvmem_mtk_devinfo(O) mtk_printk_ctrl(O) log_store(O) mtk_disp_notify(O) mtk_sync(O) last_bus(O) bus_parity(O) dbg_error_flag(O) irq_dbg(O) dbgtop_drm(O) mkp(O) monitor_hang(O) aee_aed(O) mrdump(O) bootprof(O) kernelsu(O)"
+      },
+      {
+        "line": 2781,
+        "text": "[    1.388754] [    T1] mtk_drm_probe: get disp_plat_dbg_addr fail"
+      },
+      {
+        "line": 2782,
+        "text": "[    1.388757] [    T1] mtk_drm_probe: get disp_plat_dbg_size fail"
+      },
+      {
+        "line": 2889,
+        "text": "[    1.403384] [    T1] [DISP][E]mtk_ddp_comp_init, VDISP_AO get clock fail!"
+      },
+      {
+        "line": 2925,
+        "text": "[    1.423756] [    T1] [DISP][E]mtk_ddp_comp_set_larb OVL_EXDMA0 failed to parse mediatek,larb"
+      },
+      {
+        "line": 2945,
+        "text": "[    1.424407] [    T1] mtk_iommu: debug mtk_iommu_register_fault_callback fail, port=208"
+      },
+      {
+        "line": 3046,
+        "text": "[    1.449316] [    T1] mediatek-disp-oddmr 32500000.disp-oddmr0: failed to request oddmr irq resource"
+      },
+      {
+        "line": 3065,
+        "text": "[    1.452497] [    T1] [DISP][E]mtk_ddp_comp_init, DPTX get clock fail!"
+      },
+      {
+        "line": 3228,
+        "text": "[    1.473631] [   T82] [DISP]mtk_disp_wdma_bind,2649, comp:72 failed to create qos_req, name:DDP_COMPONENT_WDMA1_qos"
+      },
+      {
+        "line": 3231,
+        "text": "[    1.473809] [   T82] [DISP]mtk_disp_wdma_bind,2649, comp:73 failed to create qos_req, name:DDP_COMPONENT_WDMA2_qos"
+      },
+      {
+        "line": 3236,
+        "text": "[    1.473988] [   T82] [DISP]mtk_disp_wdma_bind,2649, comp:75 failed to create qos_req, name:DDP_COMPONENT_WDMA4_qos"
+      },
+      {
+        "line": 3299,
+        "text": "[    1.478844] [   T82] [DISP]mtk_disp_wdma_bind,2649, comp:312 failed to create qos_req, name:DDP_COMPONENT_OVLSYS_WDMA0_qos"
+      },
+      {
+        "line": 3353,
+        "text": "[    1.483416] [   T82] [DISP]mtk_disp_wdma_bind,2649, comp:314 failed to create qos_req, name:DDP_COMPONENT_OVLSYS_WDMA2_qos"
+      },
+      {
+        "line": 3441,
+        "text": "[    1.492526] [   T82] [DISP][E]lookup state 'err_flag_init' failed"
+      },
+      {
+        "line": 3531,
+        "text": "[    1.496649] [   T82] [DISP]init the refresh rate property fail!! of_property_read_u32 not found : -22"
+      },
+      {
+        "line": 3532,
+        "text": "[    1.496656] [   T82] [DISP]init the refresh rate property fail!! of_property_read_u32 not found : -22"
+      },
+      {
+        "line": 3533,
+        "text": "[    1.496662] [   T82] [DISP]init the refresh rate property fail!! of_property_read_u32 not found : -22"
+      },
+      {
+        "line": 3568,
+        "text": "[    1.497502] [   T82] hw_item_add_child: cmdq_timeout_times:0"
+      },
+      {
+        "line": 3618,
+        "text": "[    1.510169] [  T283] [DISP]mtk_drm_crtc_init_para, 15946, failed to get default timing"
+      },
+      {
+        "line": 3619,
+        "text": "[    1.510190] [  T283] [DISP]mtk_drm_crtc_init_para, 15946, failed to get default timing"
+      },
+      {
+        "line": 5811,
+        "text": "[    3.484519] [    T1] init: Parsing file /system/etc/init/surfaceflinger.rc..."
+      },
+      {
+        "line": 5910,
+        "text": "[    3.490328] [    T1] init: Parsing file /vendor/etc/init/android.hardware.graphics.composer@3.3-service.rc..."
+      },
+      {
+        "line": 5948,
+        "text": "[    3.491706] [    T1] init: Parsing file /vendor/etc/init/gpuserv-default.rc..."
+      },
+      {
+        "line": 7933,
+        "text": "[    4.285725] [  T553] [ccci1/pot]ccci_port_init: hook register_spmi_md_force_assert done"
+      },
+      {
+        "line": 8086,
+        "text": "[    4.337528] [  T553] [GPU/GED][INFO]@ged_gpufreq_init: default g_ud_mask_bit: 7ff"
+      },
+      {
+        "line": 9221,
+        "text": "[    4.663156] [  T553] lvts_probe: compatible node found: watchdog"
+      },
+      {
+        "line": 9432,
+        "text": "[    4.736689] [  T553] fs3002_haptic:foursemi_parse_chipid:254: FSERROR: failed to read FS3002_ID: -6"
+      },
+      {
+        "line": 9433,
+        "text": "[    4.736692] [  T553] fs3002_haptic:foursemi_i2c_probe:449: FSERROR: read_chipid failed ret=-22"
+      },
+      {
+        "line": 10606,
+        "text": "[    5.015230] [  T553] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[1]"
+      },
+      {
+        "line": 11606,
+        "text": "[    5.501705] [  T411] init: SysPropSet: persist.sys.boot.reason.history to reboot,longkey,[long-number redacted]"
+      },
+      {
+        "line": 11656,
+        "text": "[    5.503189] [  T411] init: SysPropSet: persist.vendor.aeev.last.boot.reason to reboot,longkey"
+      },
+      {
+        "line": 11853,
+        "text": "[    5.506205] [  T411] init: SysPropSet: persist.vendor.aeev.fatal.underrun.dbnumber to 0"
+      },
+      {
+        "line": 11854,
+        "text": "[    5.506214] [  T411] init: SysPropSet: persist.vendor.aeev.fatal.underrun.lasttime to 0"
+      },
+      {
+        "line": 14505,
+        "text": "[   16.323047] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 16425,
+        "text": "[   22.577353] [    T1] init: Command 'write /sys/class/mi_display/disp-DSI-0/calib 1' action=post-fs-data (/odm/etc/init/display.rc:4) took 0ms and failed: Unable to write to file '/sys/class/mi_display/disp-DSI-0/calib': open() failed: Permission denied"
+      },
+      {
+        "line": 16877,
+        "text": "[   23.105494] [  T411] init: SysPropSet: persist.sys.boot.reason.history to reboot,longkey,[long-number redacted]"
+      },
+      {
+        "line": 16927,
+        "text": "[   23.105969] [  T411] init: SysPropSet: persist.vendor.aeev.last.boot.reason to reboot,longkey"
+      },
+      {
+        "line": 17104,
+        "text": "[   23.107612] [  T411] init: SysPropSet: persist.vendor.aeev.fatal.underrun.dbnumber to 0"
+      },
+      {
+        "line": 17105,
+        "text": "[   23.107620] [  T411] init: SysPropSet: persist.vendor.aeev.fatal.underrun.lasttime to 0"
+      },
+      {
+        "line": 17511,
+        "text": "[   23.190762] [ T1491] KernelSU: hook_manager: unmark 1491 exec /vendor/bin/hw/android.hardware.graphics.composer@3.3-service"
+      },
+      {
+        "line": 17701,
+        "text": "[   23.287644] [ T1491] [disp_aal][leds -> aal] led type changed: 1"
+      },
+      {
+        "line": 17703,
+        "text": "[   23.288402] [  T692] type=1400 audit([long-number redacted].024:643): avc:  denied  { read } for  comm=\"composer@3.3-se\" name=\"u:object_r:system_prop:s0\" dev=\"tmpfs\" ino=556 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:system_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 18185,
+        "text": "[   23.472149] [    T1] init: starting service 'surfaceflinger'..."
+      },
+      {
+        "line": 18187,
+        "text": "[   23.472343] [    T1] init: Could not create socket 'pdx/system/vr/display/client': Failed to bind socket 'pdx/system/vr/display/client': No such file or directory"
+      },
+      {
+        "line": 18188,
+        "text": "[   23.472447] [    T1] init: Could not create socket 'pdx/system/vr/display/manager': Failed to bind socket 'pdx/system/vr/display/manager': No such file or directory"
+      },
+      {
+        "line": 18189,
+        "text": "[   23.472552] [    T1] init: Could not create socket 'pdx/system/vr/display/vsync': Failed to bind socket 'pdx/system/vr/display/vsync': No such file or directory"
+      },
+      {
+        "line": 18197,
+        "text": "[   23.476834] [    T1] init: ... started service 'surfaceflinger' has pid 1622"
+      },
+      {
+        "line": 18200,
+        "text": "[   23.477413] [ T1622] KernelSU: hook_manager: unmark 1622 exec /system/bin/surfaceflinger"
+      },
+      {
+        "line": 21026,
+        "text": "[   23.643767] [    T1] init: processing action (ro.vendor.mtk.gpu.service=1 && boot) from (/vendor/etc/init/gpuserv-default.rc:7)"
+      },
+      {
+        "line": 21028,
+        "text": "[   23.644069] [    T1] init: starting service 'vendor.gpuserv-default'..."
+      },
+      {
+        "line": 21034,
+        "text": "[   23.648677] [    T1] init: ... started service 'vendor.gpuserv-default' has pid 1774"
+      },
+      {
+        "line": 21129,
+        "text": "[   23.695856] [  T672] servicemanager: Caller(pid=1774,uid=1000,sid=u:r:mtk_hal_gpuserv:s0) Found vendor.mediatek.hardware.gpuserv.IGpuService/default in device VINTF manifest."
+      },
+      {
+        "line": 21194,
+        "text": "[   23.711773] [    T1] init: processing action (persist.vendor.aeev.fatal.underrun=enable) from (/vendor/etc/init/hw/init.aee.rc:47)"
+      },
+      {
+        "line": 21222,
+        "text": "[   23.721233] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 21224,
+        "text": "[   23.721499] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 21227,
+        "text": "[   23.724054] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 21243,
+        "text": "[   23.731449] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 21333,
+        "text": "[   23.784109] [ T1802] __get_mi_task_struct: ALLOCATED for pid=1802 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 21336,
+        "text": "[   23.784595] [ T1802] __get_mi_task_struct: ALLOCATED for pid=1802 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 21337,
+        "text": "[   23.784692] [ T1802] __get_mi_task_struct: ALLOCATED for pid=1802 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 21419,
+        "text": "[   23.829455] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.graphics.composer3.IComposer/default in device VINTF manifest."
+      },
+      {
+        "line": 21420,
+        "text": "[   23.829724] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Since 'android.hardware.graphics.composer3.IComposer/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting)."
+      },
+      {
+        "line": 21422,
+        "text": "[   23.829889] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Trying to trace 'android.hardware.graphics.composer3.IComposer/default'."
+      },
+      {
+        "line": 21430,
+        "text": "[   23.831485] [    T1] init: Control message: Could not find 'aidl/android.hardware.graphics.composer3.IComposer/default' for ctl.interface_start from pid: 672 (/system/bin/servicemanager)"
+      },
+      {
+        "line": 21433,
+        "text": "[   23.831774] [ T1837] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Tried to start aidl service android.hardware.graphics.composer3.IComposer/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly."
+      },
+      {
+        "line": 21434,
+        "text": "[   23.831906] [    T1] init: Control message: Could not find 'aidl/android.hardware.graphics.composer3.IComposer/default' for ctl.interface_trace from pid: 672 (/system/bin/servicemanager)"
+      },
+      {
+        "line": 21436,
+        "text": "[   23.831973] [ T1838] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Failed to trace aidl service android.hardware.graphics.composer3.IComposer/default."
+      },
+      {
+        "line": 21536,
+        "text": "[   23.876991] [  T413] init: ReapLogP Persist PropSet [persist.sys.boot.reason.history] = [reboot,longkey,[long-number redacted]"
+      },
+      {
+        "line": 21537,
+        "text": "[   23.877004] [  T413] init: reboot,longkey,[long-number redacted]"
+      },
+      {
+        "line": 22720,
+        "text": "[   24.314472] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.mediatek.hardware.composer_ext.IComposerExt/default in device VINTF manifest."
+      },
+      {
+        "line": 22721,
+        "text": "[   24.314960] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.mediatek.hardware.composer_ext.IComposerExt/default in device VINTF manifest."
+      },
+      {
+        "line": 22723,
+        "text": "[   24.315252] [ T1491] [disp_aal][leds -> aal] led type changed: 1"
+      },
+      {
+        "line": 22724,
+        "text": "[   24.315557] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 22725,
+        "text": "[   24.316366] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 22726,
+        "text": "[   24.316669] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found mapper/mediatek in device VINTF manifest."
+      },
+      {
+        "line": 22735,
+        "text": "[   24.324458] [  T692] type=1400 audit([long-number redacted].060:753): avc:  denied  { read } for  comm=\"composer@3.3-se\" name=\"u:object_r:system_prop:s0\" dev=\"tmpfs\" ino=556 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:system_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 22739,
+        "text": "[   24.328290] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.composer3.IComposer/default in device VINTF manifest."
+      },
+      {
+        "line": 22748,
+        "text": "[   24.329959] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.xiaomi.hardware.display.mihwcextension.IMiHwcExtension/default in device VINTF manifest."
+      },
+      {
+        "line": 22999,
+        "text": "[   24.420881] [  T413] init: ReapLogP Persist PropSet [persist.vendor.aeev.last.boot.reason] = [reboot,longkey] at 24419, Done"
+      },
+      {
+        "line": 23020,
+        "text": "[   24.431265] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.hardware.composer_ext.IComposerExt/default in device VINTF manifest."
+      },
+      {
+        "line": 23071,
+        "text": "[   24.435407] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 23076,
+        "text": "[   24.437012] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 23077,
+        "text": "[   24.439213] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found mapper/mediatek in device VINTF manifest."
+      },
+      {
+        "line": 23572,
+        "text": "[   24.456007] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23583,
+        "text": "[   24.460425] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23584,
+        "text": "[   24.460545] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23591,
+        "text": "[   24.469547] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23592,
+        "text": "[   24.469885] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23593,
+        "text": "[   24.470035] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23594,
+        "text": "[   24.470131] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23596,
+        "text": "[   24.470620] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23597,
+        "text": "[   24.471035] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23598,
+        "text": "[   24.473580] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23600,
+        "text": "[   24.473840] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23604,
+        "text": "[   24.474177] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23605,
+        "text": "[   24.474252] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23607,
+        "text": "[   24.474338] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23609,
+        "text": "[   24.474411] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23611,
+        "text": "[   24.474730] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23616,
+        "text": "[   24.475660] [  T692] type=1400 audit([long-number redacted].212:768): avc:  denied  { read } for  comm=\"surfaceflinger\" name=\"u:object_r:vendor_video_mi_prop:s0\" dev=\"tmpfs\" ino=929 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:vendor_video_mi_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 23617,
+        "text": "[   24.477102] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.framework.mtksf_ext.IMtkSF_ext/default in framework VINTF manifest."
+      },
+      {
+        "line": 23624,
+        "text": "[   24.482687] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 23632,
+        "text": "[   24.489476] [    T1] init: Control message: Processed ctl.start for 'bootanim' from pid: 1622 (/system/bin/surfaceflinger)"
+      },
+      {
+        "line": 23640,
+        "text": "[   24.492403] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.hardware.mbrain.IMBrain/default in device VINTF manifest."
+      },
+      {
+        "line": 23652,
+        "text": "[   24.506730] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found vendor.mediatek.hardware.mtkpower.IMtkPowerService/default in device VINTF manifest."
+      },
+      {
+        "line": 23957,
+        "text": "[   24.973102] [  T879] [wlan][879]wlanCheckWifiFunc:(INIT INFO) Ready bit asserted"
+      },
+      {
+        "line": 25002,
+        "text": "[   25.690663] [  T878] [btmtk_info] btmtk_sp_pre_open: init bt assert_state[0], dump_comp"
+      },
+      {
+        "line": 27639,
+        "text": "[   27.715848] [  T879] [wlan][879]wlanCheckWifiFunc:(INIT INFO) Ready bit asserted"
+      },
+      {
+        "line": 27896,
+        "text": "[   27.811256] [  T878] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[0]"
+      },
+      {
+        "line": 27897,
+        "text": "[   27.811260] [  T878] [btmtk_info] btmtk_uart_open_done mtk8250_uart_hub_assert_bit_ctrl(0)"
+      },
+      {
+        "line": 28004,
+        "text": "[   27.873537] [  T878] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[1]"
+      },
+      {
+        "line": 28005,
+        "text": "[   27.873541] [  T878] [btmtk_uart_unify][btmtk_info] btmtk_sp_close mtk8250_uart_hub_assert_bit_ctrl(1)"
+      },
+      {
+        "line": 30120,
+        "text": "[   31.823091] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 30480,
+        "text": "[   34.887166] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 30481,
+        "text": "[   34.887621] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest."
+      },
+      {
+        "line": 30484,
+        "text": "[   34.891808] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 30488,
+        "text": "[   34.893434] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Found vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default in device VINTF manifest."
+      },
+      {
+        "line": 30502,
+        "text": "[   34.894186] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Since 'vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting)."
+      },
+      {
+        "line": 30504,
+        "text": "[   34.894359] [  T672] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Trying to trace 'vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default'."
+      },
+      {
+        "line": 30507,
+        "text": "[   34.895761] [ T4695] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Tried to start aidl service vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly."
+      },
+      {
+        "line": 30509,
+        "text": "[   34.896453] [ T4696] servicemanager: Caller(pid=1491,uid=1000,sid=u:r:hal_graphics_composer_default:s0) Failed to trace aidl service vendor.xiaomi.sensor.citsensorservice.ICitSensorService/default."
+      },
+      {
+        "line": 30892,
+        "text": "[   35.825566] [  T333] __get_mi_task_struct: ALLOCATED for pid=85 comm=watchdogd uid=0"
+      },
+      {
+        "line": 31399,
+        "text": "[   35.827780] [  T333] tsk lmkd_watchdog 699 alloc mi_task failed"
+      },
+      {
+        "line": 32411,
+        "text": "[   38.204192] [  T672] servicemanager: Caller(pid=3098,uid=1000,sid=u:r:system_server:s0) Found vendor.mediatek.hardware.gpuserv.IGpuService/default in device VINTF manifest."
+      },
+      {
+        "line": 33399,
+        "text": "[   42.215375] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 33466,
+        "text": "[   42.399442] [ T1622] __get_mi_task_struct: ALLOCATED for pid=1622 comm=surfaceflinger uid=1000"
+      },
+      {
+        "line": 33696,
+        "text": "[   42.818848] [ T1485] [btmtk_info] btmtk_sp_pre_open: init bt assert_state[0], dump_comp"
+      },
+      {
+        "line": 34970,
+        "text": "[   43.574431] [  T137] [wlan][137]wlanCheckWifiFunc:(INIT INFO) Ready bit asserted"
+      },
+      {
+        "line": 35207,
+        "text": "[   43.731780] [ T1485] [uarthub_assert_state_ctrl_mt6991] assert_ctrl=[0]"
+      },
+      {
+        "line": 35208,
+        "text": "[   43.731784] [ T1485] [btmtk_info] btmtk_uart_open_done mtk8250_uart_hub_assert_bit_ctrl(0)"
+      },
+      {
+        "line": 36063,
+        "text": "[   47.323164] [   T85] [wdtk] kick watchdog"
+      },
+      {
+        "line": 36571,
+        "text": "[   50.054500] [  T672] servicemanager: Caller(pid=1622,uid=1000,sid=u:r:surfaceflinger:s0) Found android.hardware.power.IPower/default in device VINTF manifest."
+      },
+      {
+        "line": 36942,
+        "text": "11-03 22:18:59.490   770   770 I AEE_AED :   fatal db count '4'"
+      },
+      {
+        "line": 37006,
+        "text": "11-03 22:18:59.495   771   771 I AEE_AEDV:   fatal db count '4'"
+      },
+      {
+        "line": 37024,
+        "text": "11-03 22:18:59.501   777   777 I AEE_AEDV: ipanic_blk_open, expdb, 1000 x 8000 = 8000000"
+      },
+      {
+        "line": 37025,
+        "text": "11-03 22:18:59.501   777   777 W AEE_AEDV: ipanic heahder: magic:0, version:0, size:0, datas:0"
+      },
+      {
+        "line": 37026,
+        "text": "11-03 22:18:59.501   777   777 W AEE_AEDV: ipanic heahder: dhblk:0, blksize:0, partsize:0, bufsize:0"
+      },
+      {
+        "line": 37027,
+        "text": "11-03 22:18:59.502   777   777 W AEE_AEDV: aed_reboot_session, no valid ipanic header, ignored"
+      },
+      {
+        "line": 37029,
+        "text": "11-03 22:18:59.502   777   777 I AEE_AEDV: get_value_from_proc_bootconfig: Get Tmp_value from proc bootconfig: reboot_longkey"
+      },
+      {
+        "line": 37035,
+        "text": "11-03 22:18:59.502   777   777 I AEE_AEDV: ipanic_blk_open, expdb, 1000 x 8000 = 8000000"
+      },
+      {
+        "line": 40327,
+        "text": "11-03 22:19:18.024  1491  1491 W composer@3.3-se: type=1400 audit(0.0:643): avc:  denied  { read } for  name=\"u:object_r:system_prop:s0\" dev=\"tmpfs\" ino=556 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:system_prop:s0 tclass=file permissive=0"
+      },
+      {
+        "line": 43930,
+        "text": "11-03 22:19:18.303  1553  1553 E DisplayFeatureHal: readPanelWhiteXYCoordinate, open fb disp_param node failed!"
+      },
+      {
+        "line": 43931,
+        "text": "11-03 22:19:18.303  1553  1553 E DisplayFeatureHal: calibrateWhitePoint readPanelWhiteXYCoordinate fail!"
+      },
+      {
+        "line": 44244,
+        "text": "11-03 22:19:18.435  1774  1774 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: vendor.mediatek.hardware.gpuserv.IGpuService/default"
+      },
+      {
+        "line": 44319,
+        "text": "11-03 22:19:18.457  1622  1622 I SurfaceFlinger: release 6.6.118-android15-8-gb9cc6ec16bc8-abogki536571621-4k enabled 1"
+      },
+      {
+        "line": 44427,
+        "text": "11-03 22:19:18.462  1622  1622 I SurfaceFlinger: Using HWComposer service: default"
+      },
+      {
+        "line": 44428,
+        "text": "11-03 22:19:18.463  1622  1622 I SurfaceFlinger: SurfaceFlinger is starting"
+      },
+      {
+        "line": 44429,
+        "text": "11-03 22:19:18.463  1622  1622 I SurfaceFlinger: Disabling backpressure propagation"
+      },
+      {
+        "line": 44433,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger: [setMTKProperties]"
+      },
+      {
+        "line": 44434,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger: ========================================================================"
+      },
+      {
+        "line": 44435,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     debug.sf.showupdates (mDebugFlashDelay): 0"
+      },
+      {
+        "line": 44436,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     debug.sf.ddms (mDebugDDMS): 0"
+      },
+      {
+        "line": 44437,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger: [MediaTek SF]"
+      },
+      {
+        "line": 44438,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.slowmotion (mDelayTime ms): 0"
+      },
+      {
+        "line": 44439,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.downgrade_vsync (min vsync ns): 0"
+      },
+      {
+        "line": 44440,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.rpt_fbthint (mFBTHitHint): 0"
+      },
+      {
+        "line": 44441,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.log_transaction (mLogTransaction): 0"
+      },
+      {
+        "line": 44442,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.log_repaint (mLogRepaint): 0"
+      },
+      {
+        "line": 44443,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.line_g3d (mLineG3D): 0"
+      },
+      {
+        "line": 44444,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.dump_ss (mDumpScreenShot): 0"
+      },
+      {
+        "line": 44445,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.backdoor_set_display_mode_interval (mSettingDisplayModeInterval): [long-number redacted]"
+      },
+      {
+        "line": 44446,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.dejitter_process.switch (mDejitterProcessSwitch): 0"
+      },
+      {
+        "line": 44447,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.extend_sf_duration.threadhold (mExtendSfDurationThreadhold): 12"
+      },
+      {
+        "line": 44448,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.sf.extend_sf_duration.time (mExtendTime): 8300000"
+      },
+      {
+        "line": 44449,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger: [MediaTek GUI]"
+      },
+      {
+        "line": 44450,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.bq.dump: NULL"
+      },
+      {
+        "line": 44451,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     vendor.debug.bq.line: 0"
+      },
+      {
+        "line": 44452,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:     *** dynamic modification ***"
+      },
+      {
+        "line": 44453,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:         vendor.debug.bq.line_p (set fixed index): 0"
+      },
+      {
+        "line": 44454,
+        "text": "11-03 22:19:18.463  1622  1622 D surfaceflinger:       "
+      },
+      {
+        "line": 44455,
+        "text": "11-03 22:19:18.463  1622  1622 D SurfaceFlinger: MTK_SF_SCHEDULE_DELAY is enable"
+      },
+      {
+        "line": 44456,
+        "text": "11-03 22:19:18.463  1622  1622 D SurfaceFlinger: MTK_DYNAMIC_REGION_SAMPLING is enable"
+      },
+      {
+        "line": 44459,
+        "text": "11-03 22:19:18.464  1622  1622 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W..."
+      },
+      {
+        "line": 44462,
+        "text": "11-03 22:19:18.470  1622  1622 D SurfaceFlinger: chooseRenderEngine, useGraphite is 0, useVulkan is 0"
+      },
+      {
+        "line": 44463,
+        "text": "11-03 22:19:18.470  1622  1622 D SurfaceFlinger: Threaded RenderEngine with SkiaGL Backend (Ganesh)"
+      },
+      {
+        "line": 44465,
+        "text": "11-03 22:19:18.472  1622  1802 E SurfaceFlinger: Failed to setTidQosLevel for RenderEngine, tid 1802"
+      },
+      {
+        "line": 44466,
+        "text": "11-03 22:19:18.472  1622  1802 D SurfaceFlinger: Waited 0.0027ms for disk to be ready"
+      },
+      {
+        "line": 44896,
+        "text": "11-03 22:19:18.506  1794  1794 I adbd    : persist.adb.watchdog set to ''"
+      },
+      {
+        "line": 44899,
+        "text": "11-03 22:19:18.506  1794  1794 I adbd    : adb watchdog timeout set to 600 seconds"
+      },
+      {
+        "line": 44916,
+        "text": "11-03 22:19:18.507  1622  1802 D libMEOW : applied 0 plugin for [surfaceflinger]."
+      },
+      {
+        "line": 44936,
+        "text": "11-03 22:19:18.508  1622  1802 D libMEOW : applied 0 plugin for [surfaceflinger]."
+      },
+      {
+        "line": 45101,
+        "text": "11-03 22:19:18.522  1622  1802 D MMUD    : mtk_memory_debug_init surfaceflinger 0xb4000071f9654210"
+      },
+      {
+        "line": 45343,
+        "text": "11-03 22:19:18.551  1622  1802 D SurfaceFlinger: HDRDimmer init..."
+      },
+      {
+        "line": 45344,
+        "text": "11-03 22:19:18.551  1622  1802 D SurfaceFlinger: HDRDimmer: lut file not found."
+      },
+      {
+        "line": 45346,
+        "text": "11-03 22:19:18.551  1622  1802 D SurfaceFlinger: initLightScreenEffect completed."
+      },
+      {
+        "line": 45350,
+        "text": "11-03 22:19:18.551  1622  1802 D SurfaceFlinger: Background Blurs Enabled (MiGaussian algorithm)"
+      }
+    ],
+    "total_selected_hits": 1247,
+    "tombstone_markers": [
+      {
+        "marker": "Build fingerprint",
+        "offset": -1
+      },
+      {
+        "marker": "Cmdline:",
+        "offset": -1
+      },
+      {
+        "marker": "Abort message",
+        "offset": -1
+      },
+      {
+        "marker": "backtrace:",
+        "offset": -1
+      },
+      {
+        "marker": "*** ***",
+        "offset": 15622905
+      },
+      {
+        "marker": "surfaceflinger",
+        "offset": 519297
+      },
+      {
+        "marker": "graphics.composer",
+        "offset": 528514
+      },
+      {
+        "marker": "signal ",
+        "offset": 4619134
+      }
+    ]
+  },
+  "console-ramoops-0": {
+    "bytes": 1637364,
+    "sha256": "e6b917e8943392df61dbb68fa5ff594932a12d22a12bd18cdb86591635dacb16",
+    "first_nonzero_offset": 0,
+    "zero_fraction": 0.0149,
+    "selected_hits": [
+      {
+        "line": 4520,
+        "text": "#trl_}t&\t91] assert\u001fatrl9S0M\b[   2\u0018,5\u0013\u00028\u00178\u0005[  T8\u00110]\ufffd[@4dDk\ufffdan&lT btetcWtardWypelWdo.e M\u0014k\u00182\u00110OuaP4\u001fh5\u0002_assEbT\u001fb!D_C`B\ufffd(0)"
+      }
+    ],
+    "total_selected_hits": 1,
+    "tombstone_markers": [
+      {
+        "marker": "Build fingerprint",
+        "offset": -1
+      },
+      {
+        "marker": "Cmdline:",
+        "offset": -1
+      },
+      {
+        "marker": "Abort message",
+        "offset": -1
+      },
+      {
+        "marker": "backtrace:",
+        "offset": -1
+      },
+      {
+        "marker": "*** ***",
+        "offset": -1
+      },
+      {
+        "marker": "surfaceflinger",
+        "offset": -1
+      },
+      {
+        "marker": "graphics.composer",
+        "offset": -1
+      },
+      {
+        "marker": "signal ",
+        "offset": -1
+      }
+    ]
+  },
+  "tombstone_31": {
+    "bytes": 1441203,
+    "sha256": "bbc2087f686664e05367108e489a4445f87c588e749348b45201609161fe7c38",
+    "first_nonzero_offset": 57344,
+    "zero_fraction": 0.676,
+    "selected_hits": [],
+    "total_selected_hits": 0,
+    "tombstone_markers": [
+      {
+        "marker": "Build fingerprint",
+        "offset": -1
+      },
+      {
+        "marker": "Cmdline:",
+        "offset": -1
+      },
+      {
+        "marker": "Abort message",
+        "offset": -1
+      },
+      {
+        "marker": "backtrace:",
+        "offset": -1
+      },
+      {
+        "marker": "*** ***",
+        "offset": -1
+      },
+      {
+        "marker": "surfaceflinger",
+        "offset": -1
+      },
+      {
+        "marker": "graphics.composer",
+        "offset": -1
+      },
+      {
+        "marker": "signal ",
+        "offset": 447863
+      }
+    ]
+  },
+  "tombstone_31.pb": {
+    "bytes": 761893,
+    "sha256": "ba9233314b9ccaef7ba72ca4f416fd25ca51f65f5fde3efcc71f989ca3b58b80",
+    "first_nonzero_offset": null,
+    "zero_fraction": 1.0,
+    "selected_hits": [],
+    "total_selected_hits": 0,
+    "tombstone_markers": [
+      {
+        "marker": "Build fingerprint",
+        "offset": -1
+      },
+      {
+        "marker": "Cmdline:",
+        "offset": -1
+      },
+      {
+        "marker": "Abort message",
+        "offset": -1
+      },
+      {
+        "marker": "backtrace:",
+        "offset": -1
+      },
+      {
+        "marker": "*** ***",
+        "offset": -1
+      },
+      {
+        "marker": "surfaceflinger",
+        "offset": -1
+      },
+      {
+        "marker": "graphics.composer",
+        "offset": -1
+      },
+      {
+        "marker": "signal ",
+        "offset": -1
+      }
+    ]
+  }
+}

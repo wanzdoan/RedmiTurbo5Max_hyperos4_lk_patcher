@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-11-03T15:32:36.373228+00:00",
+  "boot_reason": "reboot_longkey",
+  "uptime": "22:32:35 up 13 min,  0 users,  load average: 21.11, 19.01, 12.20",
+  "ro.vendor.radio.5g": "2",
+  "5g_sa_mode_disabled": "null",
+  "preferred_network_mode": "33,33",
+  "gsm.network.type": "LTE,Unknown",
+  "last_selected_radio_events": [
+    "11-03 22:23:40.697  5437 18017 D MtkRILJ : [1194]> OEM_HOOK_STRINGS strings = AT+E5GOPT=1   [PHONE0]",
+    "11-03 22:23:40.698  1865  2625 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+E5GOPT=1",
+    "11-03 22:23:40.699  1865  2732 I AT      : [0] AT> AT+E5GOPT=1 (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "11-03 22:23:40.700  5437 18018 D MtkRILJ : [1195]> OEM_HOOK_STRINGS strings = AT+E5GOPT=1   [PHONE1]",
+    "11-03 22:23:40.700  1865  2625 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+E5GOPT=1",
+    "11-03 22:23:40.701  1865  2744 I AT      : [1] AT> AT+E5GOPT=1 (RIL_CMD2_READER_1 tid:[long-number redacted])",
+    "11-03 22:23:40.708  5437  6484 D MtkRILJ : [1196]> OEM_HOOK_STRINGS strings = AT+E5GOPT? +E5GOPT:  [PHONE0]",
+    "11-03 22:23:40.708  1865  2625 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+E5GOPT?",
+    "11-03 22:23:40.709  1865  2732 I AT      : [0] AT> AT+E5GOPT? (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "11-03 22:23:40.710  5437  6484 D MtkRILJ : [1197]> OEM_HOOK_STRINGS strings = AT+E5GOPT? +E5GOPT:  [PHONE1]",
+    "11-03 22:23:40.711  1865  2625 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+E5GOPT?",
+    "11-03 22:23:40.711  1865  2744 I AT      : [1] AT> AT+E5GOPT? (RIL_CMD2_READER_1 tid:[long-number redacted])"
+  ]
+}

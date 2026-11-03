@@ -1,0 +1,107 @@
+{
+  "status": 0,
+  "raw_characters": 201044,
+  "selected": [
+    {
+      "line": 8,
+      "text": "2026-11-03 20:13:25 SYSTEM_LAST_KMSG (compressed text, 15397 bytes)"
+    },
+    {
+      "line": 751,
+      "text": "2026-11-03 20:15:15 SYSTEM_LAST_KMSG (compressed text, 16539 bytes)"
+    },
+    {
+      "line": 782,
+      "text": "[  110.424373][    T1] init: pid: 1891 name: (supervisor) ppid: 1 pgrp: 0 state: Z"
+    },
+    {
+      "line": 783,
+      "text": "[  110.424426][    T1] init: pid: 2193 name: (main) ppid: 1 pgrp: 0 state: Z"
+    },
+    {
+      "line": 784,
+      "text": "[  110.424649][    T1] init: pid: 3722 name: (inotifyd) ppid: 1 pgrp: 0 state: S"
+    },
+    {
+      "line": 785,
+      "text": "[  110.424701][    T1] init: pid: 3723 name: (inotifyd) ppid: 1 pgrp: 0 state: S"
+    },
+    {
+      "line": 838,
+      "text": "[  110.462631][    T1] init: pid: 1891 name: (supervisor) ppid: 1 pgrp: 0 state: Z"
+    },
+    {
+      "line": 839,
+      "text": "[  110.462697][    T1] init: pid: 2193 name: (main) ppid: 1 pgrp: 0 state: Z"
+    },
+    {
+      "line": 840,
+      "text": "[  110.462898][    T1] init: pid: 3722 name: (inotifyd) ppid: 1 pgrp: 0 state: Z"
+    },
+    {
+      "line": 841,
+      "text": "[  110.462952][    T1] init: pid: 3723 name: (inotifyd) ppid: 1 pgrp: 0 state: Z"
+    },
+    {
+      "line": 843,
+      "text": "[  110.465052][    T1] init: Untracked process (pid: 1891 name: (supervisor) ppid: 1 pgrp: 0 state: Z) exited with status 0"
+    },
+    {
+      "line": 844,
+      "text": "[  110.465061][    T1] init: Untracked process (pid: 1891 name: (supervisor) ppid: 1 pgrp: 0 state: Z) did not have an associated service entry and will not be reaped"
+    },
+    {
+      "line": 845,
+      "text": "[  110.465270][    T1] init: Untracked process (pid: 2193 name: (main) ppid: 1 pgrp: 0 state: Z) received SIGTERM from uid 0 pid 2193"
+    },
+    {
+      "line": 846,
+      "text": "[  110.465277][    T1] init: Untracked process (pid: 2193 name: (main) ppid: 1 pgrp: 0 state: Z) did not have an associated service entry and will not be reaped"
+    },
+    {
+      "line": 847,
+      "text": "[  110.465764][    T1] init: Untracked process (pid: 3722 name: (inotifyd) ppid: 1 pgrp: 0 state: Z) received SIGKILL from uid 0 pid 3722"
+    },
+    {
+      "line": 848,
+      "text": "[  110.465770][    T1] init: Untracked process (pid: 3722 name: (inotifyd) ppid: 1 pgrp: 0 state: Z) did not have an associated service entry and will not be reaped"
+    },
+    {
+      "line": 849,
+      "text": "[  110.465876][    T1] init: Untracked process (pid: 3723 name: (inotifyd) ppid: 1 pgrp: 0 state: Z) received SIGKILL from uid 0 pid 3723"
+    },
+    {
+      "line": 850,
+      "text": "[  110.465882][    T1] init: Untracked process (pid: 3723 name: (inotifyd) ppid: 1 pgrp: 0 state: Z) did not have an associated service entry and will not be reaped"
+    },
+    {
+      "line": 1421,
+      "text": "[  112.556222][  T661] [ccci1/fsm]exception 4, from fsm_main_thread [ccci_md_all]"
+    },
+    {
+      "line": 1425,
+      "text": "[  112.556361][  T661] [ccci1/fsm]command 4 is completed -1 by fsm_routine_exception [ccci_md_all]"
+    },
+    {
+      "line": 1426,
+      "text": "[  112.556460][  T661] [ccci1/fsm]unexpected FSM state 1->1, from fsm_routine_exception [ccci_md_all]"
+    },
+    {
+      "line": 1454,
+      "text": "2026-11-03 22:19:58 SYSTEM_LAST_KMSG (compressed text, 46452 bytes)"
+    },
+    {
+      "line": 1675,
+      "text": " `0I`:09\u00045\u0000Z   \u00068\u0006\u001079100]\u001b  ( T\u0016] P-varDat8Bpu UsagE20\ufffd% us%2\u0000+ 2! kdpnel( c/i-:a/andboId$Ph/ne, phd(49!\b, `coma:,.a\ufffddr/aD. hc*d, ppit8$9!9\u0002Y\u0000  6 &05911$][ 0  D4M P-wer@et:CpQ uR!\u0004d:0\u0001 53dr +\u0000Y$ i%rneh, Bn-m:mHtde\u0002uor#e2. , piD:\ufffd04, 0cjmm"
+    },
+    {
+      "line": 1676,
+      "text": "i)xde_coR\ufffder/0, ppid:\u0013\u00104"
+    },
+    {
+      "line": 2590,
+      "text": "\u0019   \u00130\u000e437!1\u0019][ T94\u00136U \bS   70.577123][ \u001494\u0012.] CPU: 1 PID:\u0000143& \u0003oeM: T(reaD%43 Tain\ufffded: P     \"  W  O       6.6\u000e118,\ufffdLdrohd!5%8=gb1cA6ec!6bc8"
+    }
+  ],
+  "total_selected": 25
+}

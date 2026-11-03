@@ -1,0 +1,42 @@
+{
+  "installed_bank_packages": [
+    "package:com.mbmobile"
+  ],
+  "bank_version_fields": [
+    "versionCode=768 minSdk=24 targetSdk=36",
+    "versionName=6.5.20",
+    "lastUpdateTime=2026-09-21 19:15:40",
+    "firstInstallTime=2026-09-21 00:11:42",
+    "firstInstallTime=1970-01-01 08:00:00"
+  ],
+  "artifact_app_marker_hits": {
+    "tombstone_31": [
+      {
+        "marker": "com.mbmobile",
+        "count": 37,
+        "first_offsets": [
+          62013,
+          63307,
+          67842,
+          72323,
+          78701
+        ]
+      }
+    ],
+    "data_app_native_crash.txt": [],
+    "boot_221947.gz": [
+      {
+        "marker": "com.mbmobile",
+        "count": 46,
+        "first_offsets": [
+          1525569,
+          1525660,
+          7013394,
+          7065438,
+          7251946
+        ]
+      }
+    ],
+    "SYSTEM_LAST_KMSG.txt": []
+  }
+}
