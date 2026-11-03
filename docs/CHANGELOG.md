@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-03 — LK-only: modem handoff và chốt vùng ROM
+
+- Giữ checkpoint nghiên cứu `363ee37`, tag `before-lk-global-region-patch-20261103` trước tạo firmware mới.
+- Lần từ LK image_type13 sang kernel thật: mask0x7b đã có N/NR0x40; không tạo patch 5G giả dựa trên descriptor.
+- Tạo riêng LK thử bỏ chốt SKU và cho khóa CN/GL đi qua hai đường xác thực vùng, giữ unlock và xác thực chain/khóa lạ trong nhánh được kiểm tra.
+- 532 ca CPU, 10 DER signature, 6 ca parser và kiểm deterministic/input identity đạt. Chưa có ROM Global đích hoặc máy thật xác nhận; không flash hay sửa Android/modem/preloader.
+
 ## 2026-11-03 — Hoàn nguyên radio và bộ thử region riêng
 
 - Người dùng báo hai lần sọc màu/đen màn, có mở MBBank; evidence còn lại không đủ xác định nguyên nhân. Lưu log thô riêng tư ngoài Git và metadata chọn lọc trong crash_review.

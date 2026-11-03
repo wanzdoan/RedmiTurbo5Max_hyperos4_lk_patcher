@@ -2,6 +2,8 @@
 
 Cập nhật 2026-11-03. **Chưa có bằng chứng đăng ký NR thành công.** Sau hai lần sọc màu/đen màn, người dùng yêu cầu hoàn nguyên; các thay đổi thử SA/NSA đã được trả về cấu hình trước thử. Bộ thử vùng radio mới được đóng gói riêng, chưa cài lên máy.
 
+Kết quả mới trong [docs08](08-lk-rom-region.md): kernel thực đã diễn giải descriptor LK type13 với bit NR có sẵn. Đã định vị và tạo bản thử LK bỏ chốt ROM CN/Global theo yêu cầu LK-only; chưa flash, chưa chứng minh sửa 5G. Bộ module phía Android ở đợt trước không được cài hoặc tiếp tục áp dụng.
+
 ## Trạng thái hiện tại được để lại
 
 | Mục | Giá trị |

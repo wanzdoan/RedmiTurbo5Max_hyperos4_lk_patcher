@@ -22,3 +22,5 @@ Giữ nguyên tên và bytes sau xác nhận boot. Tên `EXPERIMENTAL` là tên 
 Nghiên cứu tiếp theo: [5G/NR và biên bản hoàn nguyên](docs/07-nr5g-investigation.md). Các thử nghiệm SA/NSA đã hoàn nguyên theo yêu cầu sau hai lần treo màn hình, nguyên nhân chưa xác định. Chưa có bản patch 5G hoạt động được xác nhận.
 
 Bộ thử tách riêng: [radio region global v1](experiments/radio_region_global_v1/README_VI.md), gồm LK đã boot giữ nguyên byte và module đổi một thuộc tính Android `ro.vendor.radio.build_region=global`. Chưa cài hoặc kiểm thử NR trên máy thật; không phải LK có thêm patch 5G.
+
+Theo yêu cầu tiếp theo chỉ sửa LK: [bản thử bỏ chốt ROM CN/Global](experiments/lk_global_region_v1/README_VI.md) đã qua mô phỏng logic vùng, giữ unlock cũ, chưa flash hoặc boot test. [Docs 08](docs/08-lk-rom-region.md) giải thích ba chốt đã sửa và bằng chứng mới: descriptor modem LK truyền xuống đã chứa bit hỗ trợ NR. Chưa chứng minh bản thử này mở được 5G.

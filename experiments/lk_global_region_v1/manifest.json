@@ -1,0 +1,44 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEVICE_TESTED",
+  "artifact": "lk_h4_unlock_CN_GLOBAL_REGION_TEST.img",
+  "input_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "output_sha256": "782df4cb90d2bc773a1a599d6d1c77dfc765c62efe3357185013ebbd2e731095",
+  "size": 4083424,
+  "lk_only": true,
+  "is_5g_fix": false,
+  "nr_registration_verified": false,
+  "previous_unlock_preserved": true,
+  "patches": [
+    {
+      "payload_offset": "0x6904c",
+      "whole_file_offset": "0x6924c",
+      "original": "40110035",
+      "replacement": "04000014",
+      "purpose": "CN software-SKU rejection"
+    },
+    {
+      "payload_offset": "0x888d0",
+      "whole_file_offset": "0x88ad0",
+      "original": "e00200d0000c369111d6ff97a87340391f010071f4139f5adbffff17",
+      "replacement": "e003049101d044700220805283d8ff971f000071f4039f5adbffff17",
+      "purpose": "CN image key accepts the embedded GL key as an alternate"
+    },
+    {
+      "payload_offset": "0xc5a50",
+      "whole_file_offset": "0xc5c50",
+      "original": "61020054",
+      "replacement": "13000014",
+      "purpose": "AVB key trust is the union of existing CN and GL keys"
+    }
+  ],
+  "main_cert_prefix_recomputed": true,
+  "retained_signed_der_unchanged": true,
+  "all_other_members_byte_identical": true,
+  "limits": [
+    "No target Global ROM supplied; model/layout/firmware compatibility unknown",
+    "CN hardware region experiment; non-CN unknown image-key mismatch becomes stricter",
+    "No efuse writes added; original EP/production logic remains unchanged",
+    "No modem, radio property, Android or persistent data changes",
+    "No hardware boot or NR test; original H3 signed BL2 remains required"
+  ]
+}

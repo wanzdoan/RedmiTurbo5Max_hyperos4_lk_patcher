@@ -9,6 +9,7 @@
 | [05 — Git/rollback](05-versioning-and-rollback.md) | Repo private, checkpoint, tags và khôi phục bản cũ |
 | [06 — Evidence/giới hạn](06-evidence-and-limits.md) | Các test, mocks, báo cáo reverse và source phục hồi |
 | [07 — Nghiên cứu 5G/NR](07-nr5g-investigation.md) | Policy, các phép thử đã hoàn nguyên, sự cố màn hình và bộ thử region riêng |
+| [08 — Chốt vùng ROM trong LK](08-lk-rom-region.md) | Chốt CN/Global thật, bản thử LK riêng, kiểm thử CPU và giới hạn về 5G |
 | [Changelog](CHANGELOG.md) | Các mốc phát hiện, boot và versioning |
 
 Ngày cập nhật: 2026-11-03. Tài liệu hiện tại ưu tiên bộ `docs`; các báo cáo reverse trong `fresh_analysis` lưu quá trình điều tra và phạm vi tại lúc chạy.
