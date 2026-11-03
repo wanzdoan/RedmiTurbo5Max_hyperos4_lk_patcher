@@ -1,3 +1,5 @@
+> Cập nhật 2026-11-03: người dùng đã báo hybrid boot thành công, fastboot unlocked yes với ENG H3; sau đó báo test thay stock H4 được và yêu cầu dừng kiểm tra. Phần bên dưới giữ phạm vi/lịch sử của bước phân tích gốc. Tài liệu hiện tại: [docs](../../docs/README.md).
+
 ﻿# Fresh HyperOS 3 patch comparison
 
 This report uses only the supplied original and patched H3 files and the supplied H4 original. It does not use earlier project reports or patched H4 outputs. All offsets below are whole-file offsets, unless explicitly labelled otherwise.

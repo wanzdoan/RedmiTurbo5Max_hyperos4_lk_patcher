@@ -1,3 +1,5 @@
+> Cập nhật 2026-11-03: người dùng đã báo hybrid boot thành công, fastboot unlocked yes với ENG H3; sau đó báo test thay stock H4 được và yêu cầu dừng kiểm tra. Phần bên dưới giữ phạm vi/lịch sử của bước phân tích gốc. Tài liệu hiện tại: [docs](../../docs/README.md).
+
 ﻿# Container and certificate findings
 
 All analysis here reads only the three user-designated LK inputs. It does not use historical project outputs or execute firmware.

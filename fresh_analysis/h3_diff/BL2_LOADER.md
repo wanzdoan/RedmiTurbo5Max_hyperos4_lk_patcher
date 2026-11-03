@@ -1,3 +1,5 @@
+> Cập nhật 2026-11-03: người dùng đã báo hybrid boot thành công, fastboot unlocked yes với ENG H3; sau đó báo test thay stock H4 được và yêu cầu dừng kiểm tra. Phần bên dưới giữ phạm vi/lịch sử của bước phân tích gốc. Tài liệu hiện tại: [docs](../../docs/README.md).
+
 ﻿# Independent H4 BL2 -> BL33 load/auth trace
 
 Inputs: read-only fresh extraction `fresh_analysis/container_chain/h4_original_03_bl2_ext.bin` and its Ghidra export. No BL2 or main image was patched by this investigation. All short offsets below are BL2-payload offsets with inferred linked VA `0xffff0000b8000000 + offset`.

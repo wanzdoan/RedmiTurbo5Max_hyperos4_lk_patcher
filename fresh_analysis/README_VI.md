@@ -1,3 +1,5 @@
+> Cập nhật 2026-11-03: người dùng đã báo hybrid boot thành công, fastboot unlocked yes với ENG H3; sau đó báo test thay stock H4 được và yêu cầu dừng kiểm tra. Phần bên dưới giữ phạm vi/lịch sử của bước phân tích gốc. Tài liệu hiện tại: [docs](../docs/README.md).
+
 # Reverse và patch LK HyperOS 4 — kết quả mới từ đầu
 
 Ngày: 2026-11-03. Công việc mới nằm trong `fresh_analysis`; không dùng kết luận hoặc patch cũ của dự án.

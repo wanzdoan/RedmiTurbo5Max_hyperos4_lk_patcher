@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-11-03",
+  "evidence_type": "user_reported_runtime",
+  "artifact": "lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img",
+  "artifact_sha256_on_host": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "firmware_bytes_unchanged": true,
+  "device": "Redmi Turbo 5 Max, Dimensity 9500s (user supplied identity)",
+  "rom_build": "OS4.0.3.0.XPLCNXM",
+  "rom_path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0",
+  "reports": [
+    {
+      "configuration": "hybrid LK + ENG H3 preloader",
+      "boot_success": true,
+      "fastboot_unlocked": "yes",
+      "source": "User explicitly confirmed ROM, ENG preloader and fastboot unlock yes."
+    },
+    {
+      "configuration": "hybrid LK + stock H4 preloader, context of requested replacement test",
+      "user_reported_test_success": true,
+      "source_quote": "thôi không cần kiểm tra nữa, tôi test và thấy được rồi. cập nhập docs thôi.",
+      "interpretation": "User reports replacement test worked and cancels further investigation. No tool-observed flash or separate post-replacement fastboot output was supplied."
+    }
+  ],
+  "not_measured_by_agent": [
+    "on-device partition SHA256 readback",
+    "flash/boot logs",
+    "cold boot/reboot counts",
+    "OTA/relock",
+    "fuse/RPMB readback"
+  ],
+  "scope": "User-reported success on this device/ROM/artifact; not a universal compatibility claim. Agent performed no flashing."
+}

@@ -1,3 +1,5 @@
+> Cập nhật 2026-11-03: người dùng đã báo hybrid boot thành công, fastboot unlocked yes với ENG H3; sau đó báo test thay stock H4 được và yêu cầu dừng kiểm tra. Phần bên dưới giữ phạm vi/lịch sử của bước phân tích gốc. Tài liệu hiện tại: [docs](../../docs/README.md).
+
 # Fresh preloader comparison
 
 Evidence scope: supplied files only. No flashing or device execution. No original source recovered. Ghidra output is pseudocode with explicit function-boundary/PIC warnings. Raw instruction offsets in this report are file offsets.

@@ -1,3 +1,5 @@
+> Cập nhật 2026-11-03: người dùng đã báo hybrid boot thành công, fastboot unlocked yes với ENG H3; sau đó báo test thay stock H4 được và yêu cầu dừng kiểm tra. Phần bên dưới giữ phạm vi/lịch sử của bước phân tích gốc. Tài liệu hiện tại: [docs](../../../docs/README.md).
+
 ﻿# HyperOS 4 AEE payload: fresh native analysis
 
 The input is the `aee` member of supplied `lk_hyperos4_original/lk.img`, extracted from whole-file offset `0x244750` for `0xf57b0` bytes. `manifest.json` records exact parent/member hashes and mapping evidence. Inputs and previous work were not changed.

@@ -1,4 +1,8 @@
-EXPERIMENTAL HYBRID: H4 BL33/AEE/DTBs + intact signed H3 BL2.
-Not full H4. Not hardware boot verified. Stock H4 preloader compatibility unverified.
-See ../README_VI.md for findings and tests.
+USER-REPORTED BOOT SUCCESS, 2026-11-03.
+ROM OS4.0.3.0.XPLCNXM; ENG H3 preloader: boot success and fastboot unlocked yes.
+User subsequently reported the stock H4 preloader replacement test worked and stopped further investigation.
+Hybrid: H4 patched main BL33 + intact signed H3 BL2 + H4 AEE/DTB/DTBO.
+Filename and firmware bytes are unchanged. Not a pure-H4 chain or universal compatibility claim.
+Current docs: ../../docs/README.md
+Runtime record: runtime_confirmation.json
 SHA256 f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171
