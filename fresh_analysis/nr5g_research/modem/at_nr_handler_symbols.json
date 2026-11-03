@@ -1,0 +1,88 @@
+{
+  "format": "CATICTNR decoded symbol names and declared address ranges only",
+  "table_end": "0x564607",
+  "symbols": [
+    {
+      "name": "atp_sase_get_e5gopt_cnf_encode_func",
+      "address": "0x9119f01a",
+      "end": "0x9119f050",
+      "size": 54
+    },
+    {
+      "name": "atp_sase_set_e5gopt_cnf_encode_func",
+      "address": "0x9119f050",
+      "end": "0x9119f0a6",
+      "size": 86
+    },
+    {
+      "name": "atp_e5gopt_hdlr",
+      "address": "0x9119f0a6",
+      "end": "0x9119f190",
+      "size": 234
+    },
+    {
+      "name": "l5ath_e5gopt_set_rsp_handle",
+      "address": "0x911a981a",
+      "end": "0x911a9844",
+      "size": 42
+    },
+    {
+      "name": "l5ath_e5gopt_get_rsp_handle",
+      "address": "0x911a9976",
+      "end": "0x911a99ca",
+      "size": 84
+    },
+    {
+      "name": "l5ath_e5gopt_set_req",
+      "address": "0x911abd5c",
+      "end": "0x911abe02",
+      "size": 166
+    },
+    {
+      "name": "l5ath_e5gopt_read_req",
+      "address": "0x911abe02",
+      "end": "0x911abe3a",
+      "size": 56
+    },
+    {
+      "name": "l5ath_e5gopt_cmd_handle",
+      "address": "0x911abe3a",
+      "end": "0x911abe80",
+      "size": 70
+    },
+    {
+      "name": "l5unw_5gicon_5gopt_cnf",
+      "address": "0x9123f416",
+      "end": "0x9123f42e",
+      "size": 24
+    },
+    {
+      "name": "nw_query_e5gopt",
+      "address": "0x9123f42e",
+      "end": "0x9123f47c",
+      "size": 78
+    },
+    {
+      "name": "parse_e5gopt",
+      "address": "0x91252e1c",
+      "end": "0x91252e64",
+      "size": 72
+    },
+    {
+      "name": "NL1_MPC_MOB_Meas_Enhance_Get_NR_Mode",
+      "address": "0x916e6a0e",
+      "end": "0x916e6a32",
+      "size": 36
+    },
+    {
+      "name": "nrrc_main_is_nr_supported",
+      "address": "0x919f97c4",
+      "end": "0x919f97c8",
+      "size": 4
+    }
+  ],
+  "limits": [
+    "No instruction decode or execution established",
+    "ELF/file mapping and processor mode not established for these ranges"
+  ]
+}

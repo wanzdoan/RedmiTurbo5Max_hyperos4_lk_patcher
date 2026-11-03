@@ -1,0 +1,23 @@
+{
+  "trial": {
+    "property": "3",
+    "sa_setting": "0"
+  },
+  "user_approval": "Explicit approval for enabling/checking network mode, followed by continue instruction",
+  "initial": {
+    "property": "2",
+    "sa_setting": "null"
+  },
+  "observed_commands": {
+    "AT+E5GOPT=5": "ERROR",
+    "AT+E5GOPT=7,2": "ERROR"
+  },
+  "observed_query_after_rejection": "+E5GOPT: 1 on both slots",
+  "result": "No NR registration; Android branch changed but radio/modem path rejected enabling NSA",
+  "rollback": {
+    "property_restored": "2",
+    "sa_setting_restored": "null"
+  },
+  "scope": "No firmware flash, no manual NVRAM write, no persistent root module installed; requests sent by existing phone app after approved built-in event",
+  "transactions_reference": "e5gopt_transactions.json"
+}

@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-11-03T15:04:35.500318+00:00",
+  "property": "ro.vendor.radio.5g",
+  "original_property": "2",
+  "setting": "5g_sa_mode_disabled",
+  "original_setting": "null",
+  "original_setting_absent": true,
+  "scope": "runtime memory property and built-in SA-setting override, user approved network trial"
+}

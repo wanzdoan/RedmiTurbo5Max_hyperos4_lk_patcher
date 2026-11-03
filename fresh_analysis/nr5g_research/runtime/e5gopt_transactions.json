@@ -1,0 +1,186 @@
+{
+  "method": "Track next AT terminal status on same reader channel and slot; an intervening command resets pending association",
+  "transactions": [
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT=1",
+      "time": "11-03 21:56:10.693",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT=1",
+      "time": "11-03 21:56:10.697",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 21:56:10.700",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 21:56:10.704",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT=3,2",
+      "time": "11-03 21:56:10.931",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT=1",
+      "time": "11-03 21:56:10.932",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 21:56:10.937",
+      "response": "+E5GOPT: 3",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 21:56:10.940",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT=1",
+      "time": "11-03 21:58:43.768",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT=1",
+      "time": "11-03 21:58:43.768",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 21:58:43.775",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 21:58:43.780",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT=5",
+      "time": "11-03 22:04:35.930",
+      "status": "ERROR"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT=5",
+      "time": "11-03 22:04:35.931",
+      "status": "ERROR"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 22:04:35.945",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 22:04:35.948",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT=5",
+      "time": "11-03 22:04:36.195",
+      "status": "ERROR"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT=7,2",
+      "time": "11-03 22:04:36.199",
+      "status": "ERROR"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 22:04:36.209",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 22:04:36.213",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT=1",
+      "time": "11-03 22:05:11.472",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT=1",
+      "time": "11-03 22:05:11.472",
+      "status": "OK"
+    },
+    {
+      "slot": 1,
+      "channel": "RIL_CMD2_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 22:05:11.478",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    },
+    {
+      "slot": 0,
+      "channel": "RIL_CMD_READER_1",
+      "command": "AT+E5GOPT?",
+      "time": "11-03 22:05:11.482",
+      "response": "+E5GOPT: 1",
+      "status": "OK"
+    }
+  ],
+  "read_only_log_parse": true
+}

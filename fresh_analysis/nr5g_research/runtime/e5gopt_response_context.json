@@ -1,0 +1,112 @@
+[
+  {
+    "command": "11-03 21:56:10.693  1865  2730 I AT      : [0] AT> AT+E5GOPT=1 (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 21:56:10.696  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.700  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.702  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.705  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.934  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 21:56:10.697  1865  2748 I AT      : [1] AT> AT+E5GOPT=1 (RIL_CMD2_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 21:56:10.700  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.702  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.705  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.934  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.934  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 21:56:10.931  1865  2748 I AT      : [1] AT> AT+E5GOPT=3,2 (RIL_CMD2_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 21:56:10.934  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.934  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.939  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.942  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 21:56:10.932  1865  2730 I AT      : [0] AT> AT+E5GOPT=1 (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 21:56:10.934  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.934  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.939  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:56:10.942  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 21:58:43.768  1865  2730 I AT      : [0] AT> AT+E5GOPT=1 (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 21:58:43.771  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:58:43.772  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:58:43.778  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:58:43.781  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 21:58:43.768  1865  2748 I AT      : [1] AT> AT+E5GOPT=1 (RIL_CMD2_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 21:58:43.771  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:58:43.772  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 21:58:43.778  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 21:58:43.781  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 22:04:35.930  1865  2748 I AT      : [1] AT> AT+E5GOPT=5 (RIL_CMD2_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 22:04:35.934  1865  2748 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:35.934  1865  2730 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:35.947  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:35.950  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 22:04:35.931  1865  2730 I AT      : [0] AT> AT+E5GOPT=5 (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 22:04:35.934  1865  2748 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:35.934  1865  2730 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:35.947  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:35.950  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:36.197  1865  2730 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 22:04:36.195  1865  2730 I AT      : [0] AT> AT+E5GOPT=5 (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 22:04:36.197  1865  2730 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:36.200  1865  2748 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:36.210  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:36.214  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 22:04:36.199  1865  2748 I AT      : [1] AT> AT+E5GOPT=7,2 (RIL_CMD2_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 22:04:36.200  1865  2748 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:36.210  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:04:36.214  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 22:05:11.472  1865  2748 I AT      : [1] AT> AT+E5GOPT=1 (RIL_CMD2_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 22:05:11.475  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:05:11.477  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:05:11.479  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:05:11.483  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])"
+    ]
+  },
+  {
+    "command": "11-03 22:05:11.472  1865  2730 I AT      : [0] AT> AT+E5GOPT=1 (RIL_CMD_READER_1 tid:[long-number redacted])",
+    "nearby_status_not_transaction_proof": [
+      "11-03 22:05:11.475  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:05:11.477  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])",
+      "11-03 22:05:11.479  1865  2748 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:[long-number redacted])",
+      "11-03 22:05:11.483  1865  2730 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:[long-number redacted])"
+    ]
+  }
+]
