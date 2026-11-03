@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "meaning": "Structure and retained certificate math validated; overall image authentication NOT established",
+  "certificates": [
+    {
+      "member": 1,
+      "name": "cert1",
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "name": "cert2",
+      "retained_der_signature_valid": true,
+      "component": "lk",
+      "signed_header_matches": true,
+      "signed_payload_matches": false,
+      "unsigned_prefix_hashes_match": true,
+      "retained_signed_payload_mismatch_expected": true,
+      "requires_parser_or_auth_bypass": true
+    },
+    {
+      "member": 4,
+      "name": "cert1",
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "name": "cert2",
+      "retained_der_signature_valid": true,
+      "component": "bl2_ext",
+      "signed_header_matches": true,
+      "signed_payload_matches": true
+    },
+    {
+      "member": 7,
+      "name": "cert1",
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "name": "cert2",
+      "retained_der_signature_valid": true,
+      "component": "aee",
+      "signed_header_matches": true,
+      "signed_payload_matches": true
+    },
+    {
+      "member": 10,
+      "name": "cert1",
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "name": "cert2",
+      "retained_der_signature_valid": true,
+      "component": "lk_main_dtb",
+      "signed_header_matches": true,
+      "signed_payload_matches": true
+    },
+    {
+      "member": 13,
+      "name": "cert1",
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "name": "cert2",
+      "retained_der_signature_valid": true,
+      "component": "lk_dtbo",
+      "signed_header_matches": true,
+      "signed_payload_matches": true
+    }
+  ],
+  "unmodified_records_byte_identical": 13,
+  "modified_main_payload_bytes": 16
+}

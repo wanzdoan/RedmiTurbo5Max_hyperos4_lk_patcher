@@ -1,0 +1,10 @@
+// ffff00009075aa80  size=28  FUN_ffff00009075aa80
+
+undefined8 FUN_ffff00009075aa80(void)
+
+{
+  FUN_ffff00009075496c();
+  return 0;
+}
+
+

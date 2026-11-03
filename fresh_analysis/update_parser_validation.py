@@ -1,0 +1,2 @@
+﻿from pathlib import Path
+p=Path('fresh_analysis/preloader/validate_candidate_parser.py');s=p.read_text().replace('fresh_analysis/output/lk_hyperos4_EXPERIMENTAL.img','fresh_analysis/output/lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img').replace("'candidate_H4'","'candidate_H4_BL33_H3_BL2'").replace('Captured candidate was pure H4 at capture; replacing other members does not alter this cert2 record but requires separate identity verification.','Captured candidate is the actual hybrid file; original signed H3 BL2 member identity is validated separately.');p.write_text(s)

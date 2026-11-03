@@ -1,0 +1,60 @@
+// ffff000090761aa4  size=416  FUN_ffff000090761aa4
+
+void FUN_ffff000090761aa4(undefined8 *param_1)
+
+{
+  ulong uVar1;
+  long lVar2;
+  
+  FUN_ffff00009077de54
+            (s__s__d__black_box_exception_shutd_ffff0000907d198e,
+             s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3ab);
+  FUN_ffff00009077de54
+            (s__s__d__magic__0x_llx_ffff0000907db46d,
+             s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3ac,*param_1);
+  FUN_ffff00009077de54
+            (s__s__d__next_index___d_ffff0000907e6860,
+             s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3ad,*(undefined4 *)(param_1 + 1));
+  FUN_ffff00009077de54
+            (s__s__d__next_position___llu_ffff0000907dcf6e,
+             s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3ae,
+             *(undefined8 *)((long)param_1 + 0xc));
+  FUN_ffff00009077de54
+            (s__s__d__log_count___d_ffff0000907d1978,
+             s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3af,
+             *(undefined4 *)((long)param_1 + 0x14));
+  FUN_ffff00009077de54
+            (s__s__d__header_size__0x_x_ffff0000907f4fe2,
+             s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3b0,*(undefined4 *)(param_1 + 3));
+  FUN_ffff00009077de54
+            (s__s__d__one_log_size__0x_llx_ffff0000907d35a0,
+             s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3b1,
+             *(undefined8 *)((long)param_1 + 0x1c));
+  if (*(int *)((long)param_1 + 0x14) != 0) {
+    uVar1 = 0;
+    lVar2 = 0x9c;
+    do {
+      FUN_ffff00009077de54
+                (s__s__d__log_size__u____llu_ffff0000907e1bb6,
+                 s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3b3,uVar1 & 0xffffffff,
+                 *(undefined8 *)((long)param_1 + uVar1 * 8 + 0x24));
+      FUN_ffff00009077de54
+                (s__s__d__log_offset__u___0x_llx_ffff0000907d81f1,
+                 s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3b4,uVar1 & 0xffffffff,
+                 *(undefined8 *)((long)param_1 + uVar1 * 8 + 0x4c));
+      FUN_ffff00009077de54
+                (s__s__d__log_boot_index__u____llu_ffff0000907dcf8a,
+                 s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3b5,uVar1 & 0xffffffff,
+                 *(undefined8 *)((long)param_1 + uVar1 * 8 + 0x74));
+      FUN_ffff00009077de54
+                (s__s__d__log_time__u____s_ffff0000907f0204,
+                 s_PrintExceptionShutdownlogHeader_ffff0000907e5129,0x3b6,uVar1 & 0xffffffff,
+                 (long)param_1 + lVar2);
+      uVar1 = uVar1 + 1;
+      lVar2 = lVar2 + 0x30;
+    } while (uVar1 < *(uint *)((long)param_1 + 0x14));
+  }
+  return;
+}
+
+

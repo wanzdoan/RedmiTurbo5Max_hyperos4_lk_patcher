@@ -1,0 +1,194 @@
+[
+  {
+    "offset": 37544,
+    "func": 37236,
+    "string_offset": 628960,
+    "string": "load bl33"
+  },
+  {
+    "offset": 84900,
+    "func": 84056,
+    "string_offset": 629319,
+    "string": "image auth fail. (0x%x)"
+  },
+  {
+    "offset": 84928,
+    "func": 84056,
+    "string_offset": 580690,
+    "string": "%s cert chain vfy fail. (0x%x)"
+  },
+  {
+    "offset": 256096,
+    "func": 254496,
+    "string_offset": 647299,
+    "string": "[%s] %s cert chain vfy fail (0x%x)"
+  },
+  {
+    "offset": 332064,
+    "func": 331448,
+    "string_offset": 590704,
+    "string": "[SEC] %s cert parsing fail (0x%x)"
+  },
+  {
+    "offset": 332064,
+    "func": 331448,
+    "string_offset": 590704,
+    "string": "[SEC] %s cert parsing fail (0x%x)"
+  },
+  {
+    "offset": 332196,
+    "func": 331448,
+    "string_offset": 635014,
+    "string": "[SEC] %s Image Auth Fail (0x%x)"
+  },
+  {
+    "offset": 332488,
+    "func": 331448,
+    "string_offset": 657800,
+    "string": "[SEC] %s Cert Chain Verify Fail (0x%x)"
+  },
+  {
+    "offset": 339332,
+    "func": 339004,
+    "string_offset": 620714,
+    "string": "lk verify with GL imgkey"
+  },
+  {
+    "offset": 339368,
+    "func": 339004,
+    "string_offset": 590786,
+    "string": "lk verify with CN imgkey"
+  },
+  {
+    "offset": 437368,
+    "func": 436864,
+    "string_offset": 647299,
+    "string": "[%s] %s cert chain vfy fail (0x%x)"
+  },
+  {
+    "offset": 437776,
+    "func": 436864,
+    "string_offset": 647270,
+    "string": "[%s] %s cert chain vfy pass"
+  },
+  {
+    "offset": 438612,
+    "func": 438120,
+    "string_offset": 661613,
+    "string": "[%s] %s cert parsing fail (0x%x)"
+  },
+  {
+    "offset": 438904,
+    "func": 438120,
+    "string_offset": 628278,
+    "string": "[%s] %s cert parsing pass."
+  },
+  {
+    "offset": 441484,
+    "func": 441056,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 442588,
+    "func": 442516,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 443216,
+    "func": 442872,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 445780,
+    "func": 444760,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 445964,
+    "func": 445892,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 446772,
+    "func": 446384,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 447180,
+    "func": 446816,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 448144,
+    "func": 447756,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 449372,
+    "func": 448188,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 449788,
+    "func": 449460,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 450188,
+    "func": 449908,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 450680,
+    "func": 450324,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 451068,
+    "func": 450772,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 451456,
+    "func": 451160,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 452024,
+    "func": 451548,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 453084,
+    "func": 452964,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 455656,
+    "func": 455428,
+    "string_offset": 643489,
+    "string": "[%s] end of cert, not found:"
+  },
+  {
+    "offset": 460208,
+    "func": 459728,
+    "string_offset": 635014,
+    "string": "[SEC] %s Image Auth Fail (0x%x)"
+  }
+]

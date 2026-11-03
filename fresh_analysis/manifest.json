@@ -1,0 +1,20 @@
+[
+  {
+    "path": "lk_hyperos3_original/lk.img",
+    "size": 4082944,
+    "sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+    "head": "88168858289b13006c6b000000000000000000000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "path": "lk_hyperos3_patched_unlockBL/dash.img",
+    "size": 4082928,
+    "sha256": "e164fb22511d93584afab2183c275374d7ab892dd22e3a2132c4f3b1e245ac18",
+    "head": "88168858289b13006c6b000000000000000000000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  },
+  {
+    "path": "lk_hyperos4_original/lk.img",
+    "size": 4087536,
+    "sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+    "head": "88168858489b13006c6b000000000000000000000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  }
+]

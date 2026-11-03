@@ -1,0 +1,604 @@
+[
+  {
+    "h3_call": "0xa300",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0xa28c",
+        "target": "#0x88c10",
+        "window": [
+          "a25c: cbnz w0, #0xa238",
+          "a260: add x2, x28, x22",
+          "a264: adrp x0, #0xf5000",
+          "a268: add x0, x0, #0xc59",
+          "a26c: mov x1, x19",
+          "a270: bl #0x7e31c",
+          "a274: mov w8, #4",
+          "a278: sub x0, x29, #4",
+          "a27c: stur w24, [x29, #-4]",
+          "a280: str w8, [sp, #8]",
+          "a284: bl #0xadd54",
+          "a288: add x0, sp, #8",
+          "a28c: bl #0x88c10",
+          "a290: ldur w8, [x29, #-4]",
+          "a294: cbz w8, #0xa2a0",
+          "a298: ldr w8, [x25, #0x14]",
+          "a29c: cbz w8, #0xa2d4",
+          "a2a0: ldr w8, [x25, #0x18]",
+          "a2a4: cbz w8, #0xa2b4",
+          "a2a8: ldr w8, [sp, #8]",
+          "a2ac: cmp w8, #3",
+          "a2b0: b.ne #0xa2d4",
+          "a2b4: ldr w8, [x25, #0x10]",
+          "a2b8: adrp x10, #0x13d000",
+          "a2bc: ldr x9, [x25, #0x20]"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0xc704",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0xc77c",
+        "target": "#0x88c10",
+        "window": [
+          "c74c: add sp, sp, #0x30",
+          "c750: autiasp ",
+          "c754: ret ",
+          "c758: paciasp ",
+          "c75c: sub sp, sp, #0x40",
+          "c760: stp x29, x30, [sp, #0x20]",
+          "c764: stp x20, x19, [sp, #0x30]",
+          "c768: add x29, sp, #0x20",
+          "c76c: add x0, sp, #4",
+          "c770: mov w19, w2",
+          "c774: mov x20, x1",
+          "c778: str xzr, [sp]",
+          "c77c: bl #0x88c10",
+          "c780: adrp x0, #0xda000",
+          "c784: add x0, x0, #0x558",
+          "c788: bl #0x9dec",
+          "c78c: add x0, sp, #8",
+          "c790: stur wzr, [x29, #-4]",
+          "c794: stp x20, xzr, [sp, #8]",
+          "c798: str w19, [sp, #0x10]",
+          "c79c: bl #0x891f8",
+          "c7a0: mov w0, wzr",
+          "c7a4: bl #0x88b50",
+          "c7a8: cbz w0, #0xc7e0",
+          "c7ac: mov w19, w0"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0xc7d4",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0xc84c",
+        "target": "#0x88c10",
+        "window": [
+          "c81c: bl #0x7d0a0",
+          "c820: bl #0x9ef4",
+          "c824: ldp x20, x19, [sp, #0x30]",
+          "c828: ldp x29, x30, [sp, #0x20]",
+          "c82c: add sp, sp, #0x40",
+          "c830: autiasp ",
+          "c834: ret ",
+          "c838: bl #0xc5ac",
+          "c83c: adrp x0, #0xdf000",
+          "c840: add x0, x0, #0x338",
+          "c844: bl #0x9edc",
+          "c848: mov x0, sp",
+          "c84c: bl #0x88c10",
+          "c850: ldp w9, w8, [sp]",
+          "c854: cmp w8, w9",
+          "c858: b.ne #0xc86c",
+          "c85c: adrp x0, #0xf3000",
+          "c860: add x0, x0, #0xf70",
+          "c864: bl #0x9e9c",
+          "c868: b #0xc87c",
+          "c86c: adrp x0, #0xdf000",
+          "c870: add x0, x0, #0x338",
+          "c874: bl #0x9edc",
+          "c878: bl #0x87990",
+          "c87c: adrp x0, #0xf2000"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0xc830",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0xc8a8",
+        "target": "#0x88c10",
+        "window": [
+          "c878: bl #0x87990",
+          "c87c: adrp x0, #0xf2000",
+          "c880: add x0, x0, #0x661",
+          "c884: b #0xc810",
+          "c888: paciasp ",
+          "c88c: sub sp, sp, #0x40",
+          "c890: stp x29, x30, [sp, #0x20]",
+          "c894: str x19, [sp, #0x30]",
+          "c898: add x29, sp, #0x20",
+          "c89c: add x0, x29, #0x18",
+          "c8a0: str wzr, [x29, #0x18]",
+          "c8a4: str wzr, [sp, #0xc]",
+          "c8a8: bl #0x88c10",
+          "c8ac: adrp x0, #0xd5000",
+          "c8b0: add x0, x0, #0x7af",
+          "c8b4: bl #0x9dec",
+          "c8b8: adrp x8, #0x116000",
+          "c8bc: add x8, x8, #0xd60",
+          "c8c0: add x0, sp, #0x10",
+          "c8c4: str wzr, [x29, #0x1c]",
+          "c8c8: ldp x9, x8, [x8]",
+          "c8cc: stp x9, x8, [sp, #0x10]",
+          "c8d0: bl #0x891f8",
+          "c8d4: mov w0, #1",
+          "c8d8: bl #0x88b50"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0xc8b0",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0xc928",
+        "target": "#0x88c10",
+        "window": [
+          "c8f8: add x0, x29, #0x1c",
+          "c8fc: bl #0x88b5c",
+          "c900: mov w19, w0",
+          "c904: adrp x0, #0xdf000",
+          "c908: add x0, x0, #0x338",
+          "c90c: bl #0x9edc",
+          "c910: cbnz w19, #0xc964",
+          "c914: bl #0xc5ac",
+          "c918: adrp x0, #0xdf000",
+          "c91c: add x0, x0, #0x338",
+          "c920: bl #0x9edc",
+          "c924: add x0, sp, #0xc",
+          "c928: bl #0x88c10",
+          "c92c: ldr w8, [x29, #0x18]",
+          "c930: ldr w9, [sp, #0xc]",
+          "c934: cmp w8, w9",
+          "c938: b.ne #0xc97c",
+          "c93c: adrp x0, #0xf3000",
+          "c940: add x0, x0, #0xf70",
+          "c944: bl #0x9e9c",
+          "c948: b #0xc9a8",
+          "c94c: adrp x0, #0xe2000",
+          "c950: add x0, x0, #0x4df",
+          "c954: bl #0x7e31c",
+          "c958: adrp x0, #0xfc000"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0xca8c",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0xcb04",
+        "target": "#0x88c10",
+        "window": [
+          "cad4: add sp, sp, #0xc0",
+          "cad8: autiasp ",
+          "cadc: ret ",
+          "cae0: paciasp ",
+          "cae4: sub sp, sp, #0x40",
+          "cae8: stp x29, x30, [sp, #0x30]",
+          "caec: add x29, sp, #0x30",
+          "caf0: sub x0, x29, #4",
+          "caf4: stur wzr, [x29, #-4]",
+          "caf8: stp xzr, xzr, [sp, #0x18]",
+          "cafc: stp xzr, xzr, [sp, #8]",
+          "cb00: str xzr, [sp]",
+          "cb04: bl #0x88c10",
+          "cb08: cbz w0, #0xcb1c",
+          "cb0c: adrp x0, #0xd8000",
+          "cb10: add x0, x0, #0xc93",
+          "cb14: bl #0x9e9c",
+          "cb18: b #0xcb5c",
+          "cb1c: ldur w8, [x29, #-4]",
+          "cb20: adrp x9, #0xe8000",
+          "cb24: add x9, x9, #0xd08",
+          "cb28: adrp x10, #0xd2000",
+          "cb2c: add x10, x10, #0x58e",
+          "cb30: mov x0, sp",
+          "cb34: cmp w8, #3"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x13d04",
+    "h3_target": "#0x88950",
+    "h4_candidates": []
+  },
+  {
+    "h3_call": "0x14c58",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0x14d9c",
+        "target": "#0x88c10",
+        "window": [
+          "14d6c: bl #0x16b18",
+          "14d70: mov w19, w0",
+          "14d74: bl #0x10dd4",
+          "14d78: str wzr, [x29, #0x1c]",
+          "14d7c: bl #0x10dc0",
+          "14d80: and w8, w0, #0xff",
+          "14d84: cmp w8, #0x63",
+          "14d88: b.ne #0x14d98",
+          "14d8c: mov w0, wzr",
+          "14d90: bl #0x86ba0",
+          "14d94: b #0x14dbc",
+          "14d98: add x0, x29, #0x1c",
+          "14d9c: bl #0x88c10",
+          "14da0: ldr w8, [x29, #0x1c]",
+          "14da4: cmp w8, #3",
+          "14da8: b.ne #0x14db8",
+          "14dac: mov w0, #1",
+          "14db0: bl #0x86ba0",
+          "14db4: b #0x14dbc",
+          "14db8: bl #0x863dc",
+          "14dbc: bl #0x605f8",
+          "14dc0: bl #0x10dc0",
+          "14dc4: and w8, w0, #0xff",
+          "14dc8: cmp w8, #0x63",
+          "14dcc: b.ne #0x14ddc"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x6884c",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0x68b14",
+        "target": "#0x88c10",
+        "window": [
+          "68ae4: movk w20, #0x10, lsl #16",
+          "68ae8: b #0x68e2c",
+          "68aec: adrp x0, #0xd0000",
+          "68af0: add x0, x0, #0xa72",
+          "68af4: bl #0x8891c",
+          "68af8: b #0x68b08",
+          "68afc: adrp x0, #0xe3000",
+          "68b00: add x0, x0, #0x8c2",
+          "68b04: bl #0x7e31c",
+          "68b08: mov w8, #4",
+          "68b0c: sub x0, x29, #4",
+          "68b10: stur w8, [x29, #-4]",
+          "68b14: bl #0x88c10",
+          "68b18: ldur w8, [x29, #-4]",
+          "68b1c: adrp x0, #0xf5000",
+          "68b20: add x0, x0, #0x3f0",
+          "68b24: cmp w8, #3",
+          "68b28: mov w8, #2",
+          "68b2c: cset w1, ne",
+          "68b30: cset w22, eq",
+          "68b34: cinc w21, w8, ne",
+          "68b38: bl #0x7e31c",
+          "68b3c: mov w0, w21",
+          "68b40: bl #0x697bc",
+          "68b44: cmp w19, #1"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x68af0",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0x68db8",
+        "target": "#0x88c10",
+        "window": [
+          "68d88: mov w23, #8",
+          "68d8c: mov x0, x21",
+          "68d90: bl #0x7d864",
+          "68d94: ldur x8, [x29, #-0x10]",
+          "68d98: cbz x8, #0x68da4",
+          "68d9c: ldr w8, [x8, #0x130]",
+          "68da0: stur w8, [x29, #-0x14]",
+          "68da4: adrp x0, #0xde000",
+          "68da8: add x0, x0, #0xa86",
+          "68dac: mov w1, w23",
+          "68db0: bl #0x7e31c",
+          "68db4: add x0, sp, #0x14",
+          "68db8: bl #0x88c10",
+          "68dbc: mov w20, w0",
+          "68dc0: cbnz w0, #0x68dd8",
+          "68dc4: ldr w8, [sp, #0x14]",
+          "68dc8: cmp w8, #3",
+          "68dcc: b.ne #0x68dd8",
+          "68dd0: mov w0, #2",
+          "68dd4: bl #0x697bc",
+          "68dd8: bl #0x69768",
+          "68ddc: cbz w19, #0x68df8",
+          "68de0: cmp w19, #1",
+          "68de4: b.ne #0x68e08",
+          "68de8: adrp x0, #0xe5000"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x68c20",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0x68ee8",
+        "target": "#0x88c10",
+        "window": [
+          "68eb8: bl #0x8891c",
+          "68ebc: b #0x68edc",
+          "68ec0: adrp x0, #0xd0000",
+          "68ec4: add x0, x0, #0xa72",
+          "68ec8: bl #0x8891c",
+          "68ecc: b #0x68edc",
+          "68ed0: adrp x0, #0xe3000",
+          "68ed4: add x0, x0, #0x8c2",
+          "68ed8: bl #0x7e31c",
+          "68edc: mov w8, #4",
+          "68ee0: add x0, x29, #0x1c",
+          "68ee4: str w8, [x29, #0x1c]",
+          "68ee8: bl #0x88c10",
+          "68eec: ldr w8, [x29, #0x1c]",
+          "68ef0: adrp x0, #0xf5000",
+          "68ef4: add x0, x0, #0x3f0",
+          "68ef8: cmp w8, #3",
+          "68efc: cset w19, ne",
+          "68f00: mov w1, w19",
+          "68f04: bl #0x7e31c",
+          "68f08: mov w0, w19",
+          "68f0c: ldr x19, [sp, #0x10]",
+          "68f10: ldp x29, x30, [sp], #0x20",
+          "68f14: autiasp ",
+          "68f18: ret "
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x86b94",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0x86e5c",
+        "target": "#0x88c10",
+        "window": [
+          "86e2c: stp xzr, xzr, [x19, #0x78]",
+          "86e30: stp xzr, xzr, [x19, #0x68]",
+          "86e34: str xzr, [x19, #0x60]",
+          "86e38: stp xzr, xzr, [sp, #0x78]",
+          "86e3c: stp xzr, xzr, [sp, #0x68]",
+          "86e40: stp xzr, xzr, [sp, #0x58]",
+          "86e44: stp xzr, xzr, [sp, #0x48]",
+          "86e48: stp xzr, xzr, [sp, #0x38]",
+          "86e4c: stp xzr, xzr, [sp, #0x28]",
+          "86e50: stp xzr, xzr, [sp, #0x18]",
+          "86e54: stp xzr, xzr, [sp, #8]",
+          "86e58: str wzr, [sp, #4]",
+          "86e5c: bl #0x88c10",
+          "86e60: cbz w0, #0x86e78",
+          "86e64: mov w20, w0",
+          "86e68: adrp x0, #0xeb000",
+          "86e6c: add x0, x0, #0x8a2",
+          "86e70: bl #0x7e31c",
+          "86e74: b #0x86f30",
+          "86e78: ldr w1, [sp, #4]",
+          "86e7c: adrp x0, #0xf7000",
+          "86e80: add x0, x0, #0x35e",
+          "86e84: bl #0x7e31c",
+          "86e88: adrp x0, #0xdd000",
+          "86e8c: add x0, x0, #0x416"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x88964",
+    "h3_target": "#0x88f60",
+    "h4_candidates": [
+      {
+        "file_offset": "0x88c24",
+        "target": "#0x89220",
+        "window": [
+          "88bf4: paciasp ",
+          "88bf8: mov w0, wzr",
+          "88bfc: autiasp ",
+          "88c00: ret ",
+          "88c04: paciasp ",
+          "88c08: autiasp ",
+          "88c0c: b #0xb68e8",
+          "88c10: paciasp ",
+          "88c14: stp x29, x30, [sp, #-0x20]!",
+          "88c18: stp x20, x19, [sp, #0x10]",
+          "88c1c: mov x29, sp",
+          "88c20: mov x19, x0",
+          "88c24: bl #0x89220",
+          "88c28: mov w20, w0",
+          "88c2c: ldr w2, [x19]",
+          "88c30: adrp x0, #0xe5000",
+          "88c34: add x0, x0, #0x568",
+          "88c38: mov w1, w20",
+          "88c3c: bl #0x7e31c",
+          "88c40: mov w0, w20",
+          "88c44: ldp x20, x19, [sp, #0x10]",
+          "88c48: ldp x29, x30, [sp], #0x20",
+          "88c4c: autiasp ",
+          "88c50: ret ",
+          "88c54: paciasp "
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x88f90",
+    "h3_target": "#0x89a2c",
+    "h4_candidates": [
+      {
+        "file_offset": "0x89250",
+        "target": "#0x89cec",
+        "window": [
+          "89220: paciasp ",
+          "89224: stp x29, x30, [sp, #-0x20]!",
+          "89228: str x19, [sp, #0x10]",
+          "8922c: mov x29, sp",
+          "89230: mov x19, x0",
+          "89234: adrp x0, #0xe3000",
+          "89238: add x0, x0, #0xb6e",
+          "8923c: bl #0x7e31c",
+          "89240: mov x0, x19",
+          "89244: ldr x19, [sp, #0x10]",
+          "89248: ldp x29, x30, [sp], #0x20",
+          "8924c: autiasp ",
+          "89250: b #0x89cec",
+          "89254: paciasp ",
+          "89258: stp x29, x30, [sp, #-0x20]!",
+          "8925c: str x19, [sp, #0x10]",
+          "89260: mov x29, sp",
+          "89264: mov w19, w0",
+          "89268: adrp x0, #0xfc000",
+          "8926c: add x0, x0, #0x665",
+          "89270: bl #0x7e31c",
+          "89274: mov w0, w19",
+          "89278: ldr x19, [sp, #0x10]",
+          "8927c: ldp x29, x30, [sp], #0x20",
+          "89280: autiasp "
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x989f8",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0x98cb8",
+        "target": "#0x88c10",
+        "window": [
+          "98c88: stp x29, x30, [sp, #-0x20]!",
+          "98c8c: str x19, [sp, #0x10]",
+          "98c90: mov x29, sp",
+          "98c94: add x0, x29, #0x1c",
+          "98c98: str xzr, [x29, #0x18]",
+          "98c9c: bl #0xadd54",
+          "98ca0: cbz w0, #0x98cb4",
+          "98ca4: mov w19, w0",
+          "98ca8: adrp x0, #0xea000",
+          "98cac: add x0, x0, #0x317",
+          "98cb0: b #0x98ccc",
+          "98cb4: add x0, x29, #0x18",
+          "98cb8: bl #0x88c10",
+          "98cbc: mov w19, w0",
+          "98cc0: cbz w0, #0x98cd4",
+          "98cc4: adrp x0, #0xd8000",
+          "98cc8: add x0, x0, #0x899",
+          "98ccc: mov w1, w19",
+          "98cd0: bl #0x7e31c",
+          "98cd4: ldp w1, w2, [x29, #0x18]",
+          "98cd8: adrp x0, #0xed000",
+          "98cdc: add x0, x0, #0x654",
+          "98ce0: bl #0x7e31c",
+          "98ce4: mov w0, w19",
+          "98ce8: ldr x19, [sp, #0x10]"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0x98b50",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0x98e10",
+        "target": "#0x88c10",
+        "window": [
+          "98de0: str x19, [sp, #0x10]",
+          "98de4: mov x29, sp",
+          "98de8: mov w19, w0",
+          "98dec: add x0, x29, #0x1c",
+          "98df0: str xzr, [x29, #0x18]",
+          "98df4: bl #0xadd54",
+          "98df8: cbz w0, #0x98e0c",
+          "98dfc: mov w1, w0",
+          "98e00: adrp x0, #0xea000",
+          "98e04: add x0, x0, #0x317",
+          "98e08: b #0x98e24",
+          "98e0c: add x0, x29, #0x18",
+          "98e10: bl #0x88c10",
+          "98e14: cbz w0, #0x98e54",
+          "98e18: mov w1, w0",
+          "98e1c: adrp x0, #0xd8000",
+          "98e20: add x0, x0, #0x899",
+          "98e24: bl #0x7e31c",
+          "98e28: mov w19, #1",
+          "98e2c: mov w8, #4",
+          "98e30: adrp x0, #0xd8000",
+          "98e34: add x0, x0, #0x8bd",
+          "98e38: stp w8, w19, [x29, #0x18]",
+          "98e3c: bl #0x7e31c",
+          "98e40: mov w0, w19"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0xb6170",
+    "h3_target": "#0x88950",
+    "h4_candidates": [
+      {
+        "file_offset": "0xb67e0",
+        "target": "#0x88c10",
+        "window": [
+          "b67b0: ldp x24, x23, [sp, #0x30]",
+          "b67b4: ldp x29, x30, [sp, #0x20]",
+          "b67b8: add sp, sp, #0x60",
+          "b67bc: autiasp ",
+          "b67c0: ret ",
+          "b67c4: paciasp ",
+          "b67c8: stp x29, x30, [sp, #-0x20]!",
+          "b67cc: str x19, [sp, #0x10]",
+          "b67d0: mov x29, sp",
+          "b67d4: mov x19, x0",
+          "b67d8: add x0, x29, #0x1c",
+          "b67dc: str wzr, [x29, #0x1c]",
+          "b67e0: bl #0x88c10",
+          "b67e4: ldr w8, [x29, #0x1c]",
+          "b67e8: mov w0, wzr",
+          "b67ec: cmp w8, #3",
+          "b67f0: cset w8, ne",
+          "b67f4: str w8, [x19]",
+          "b67f8: ldr x19, [sp, #0x10]",
+          "b67fc: ldp x29, x30, [sp], #0x20",
+          "b6800: autiasp ",
+          "b6804: ret ",
+          "b6808: paciasp ",
+          "b680c: stp x29, x30, [sp, #-0x20]!",
+          "b6810: str x19, [sp, #0x10]"
+        ]
+      }
+    ]
+  },
+  {
+    "h3_call": "0xb61b8",
+    "h3_target": "#0x88950",
+    "h4_candidates": []
+  }
+]

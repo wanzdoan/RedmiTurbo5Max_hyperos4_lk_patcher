@@ -1,0 +1,5 @@
+# Runtime caches and active tool locks only; keep firmware, reports and databases.
+__pycache__/
+*.pyc
+*.lock
+*.lock~

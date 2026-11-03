@@ -1,0 +1,21 @@
+{
+  "parent": "lk_hyperos4_original\\lk.img",
+  "parent_sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+  "member_header_offset": 2377040,
+  "payload_offset": 2377552,
+  "payload_size": 1005488,
+  "sha256": "fd54015acd29b326feb61614f9f8cef973e0f8277a3e1dd195a42ad9e4d25861",
+  "architecture": "AArch64 little-endian",
+  "inferred_link_base": "0xffff0000be000000",
+  "mapping_evidence": {
+    "literal_0x310": "0xffff0000be000000",
+    "literal_0x338": "0xffff0000be0001a8 referenced from adr x15 at0x1a8",
+    "literal_0x350": "0xffff0000be001000 used for vector base",
+    "literal_0x358": "0xffff0000be0f9010 used as stack pointer"
+  },
+  "mapping_status": "derived from entry literal pool; not observed at runtime",
+  "analysis_carrier_sha256": "0b7817baf24f0a033adf92119a988fc3a73a4f3e2382831e86174d0d1255c736",
+  "analysis_carrier_file_payload_offset": 4096,
+  "analysis_carrier_memory_size": 4194304,
+  "memory_size_status": "analyst-imposed to allow BSS; not recovered original segment extent"
+}

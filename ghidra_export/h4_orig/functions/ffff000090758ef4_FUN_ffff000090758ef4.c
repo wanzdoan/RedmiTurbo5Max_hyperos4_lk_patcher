@@ -1,0 +1,12 @@
+// ffff000090758ef4  size=52  FUN_ffff000090758ef4
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_ffff000090758ef4(void)
+
+{
+  _DAT_ffff000032400160 = _DAT_ffff000032400160 & 0xfffe3fff | 0x1c000;
+  return 0;
+}
+
+

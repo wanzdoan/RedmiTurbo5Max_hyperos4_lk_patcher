@@ -1,0 +1,675 @@
+{
+  "evidence_id": "PL-REVIEW-POLICY-001",
+  "va_mapping": "linked VA = file offset + 0x02000f00; entry file0x100 ->VA0x02001000. Validated by all policy name pointers and stack-guard indirection.",
+  "scope": "Read-only supplied files; actual ARM64 policy accessor with SBC and device-state queries injected; no device execution.",
+  "images": [
+    {
+      "version": 3,
+      "path": "D:\\RedmiTurbo5Max_hyperos4_lk_patcher\\preloader_hyperos3\\preloader_dash.bin",
+      "sha256": "bcde516c37a8845287cc57441780391e89c16c51eabfd4c5e3c625ecbdf4ad8b",
+      "rows": [
+        {
+          "row": 0,
+          "file_offset": "0xed110",
+          "names": [
+            "default",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 1,
+          "file_offset": "0xed148",
+          "names": [
+            "preloader",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 2,
+          "file_offset": "0xed180",
+          "names": [
+            "lk",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 3,
+          "file_offset": "0xed1b8",
+          "names": [
+            "logo",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 4,
+          "file_offset": "0xed1f0",
+          "names": [
+            "boot",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 5,
+          "file_offset": "0xed228",
+          "names": [
+            "system",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 6,
+          "file_offset": "0xed260",
+          "names": [
+            "tee1",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 7,
+          "file_offset": "0xed298",
+          "names": [
+            "tee2",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 8,
+          "file_offset": "0xed2d0",
+          "names": [
+            "oemkeystore",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 9,
+          "file_offset": "0xed308",
+          "names": [
+            "keystore",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 10,
+          "file_offset": "0xed340",
+          "names": [
+            "userdata",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 11,
+          "file_offset": "0xed378",
+          "names": [
+            "modem",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 12,
+          "file_offset": "0xed3b0",
+          "names": [
+            "md1dsp",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 13,
+          "file_offset": "0xed3e8",
+          "names": [
+            "md1arm7",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 14,
+          "file_offset": "0xed420",
+          "names": [
+            "md3img",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 15,
+          "file_offset": "0xed458",
+          "names": [
+            "",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 16,
+          "file_offset": "0xed490",
+          "names": [
+            "",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 17,
+          "file_offset": "0xed4c8",
+          "names": [
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          "policy_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "policy_cases": [
+        {
+          "sbc_query_value": 0,
+          "device_state_query_value": 3,
+          "lk_partition_policy": 0,
+          "authentication_required": 0
+        },
+        {
+          "sbc_query_value": 0,
+          "device_state_query_value": 4,
+          "lk_partition_policy": 1,
+          "authentication_required": 0
+        },
+        {
+          "sbc_query_value": 1,
+          "device_state_query_value": 3,
+          "lk_partition_policy": 2,
+          "authentication_required": 1
+        },
+        {
+          "sbc_query_value": 1,
+          "device_state_query_value": 4,
+          "lk_partition_policy": 3,
+          "authentication_required": 1
+        },
+        {
+          "sbc_query_error": 1,
+          "device_state_query_value": 4,
+          "authentication_required": 1
+        },
+        {
+          "sbc_query_value": 1,
+          "device_state_query_error": 1,
+          "authentication_required": 1
+        }
+      ]
+    },
+    {
+      "version": 4,
+      "path": "D:\\RedmiTurbo5Max_hyperos4_lk_patcher\\preloader_hyperos4\\preloader_dash.bin",
+      "sha256": "104bb972383b39771ec5bcc4bc79207244306de1d40f370ed2ab3863fb7ceb77",
+      "rows": [
+        {
+          "row": 0,
+          "file_offset": "0xed110",
+          "names": [
+            "default",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 1,
+          "file_offset": "0xed148",
+          "names": [
+            "preloader",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 2,
+          "file_offset": "0xed180",
+          "names": [
+            "lk",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 3,
+          "file_offset": "0xed1b8",
+          "names": [
+            "logo",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 4,
+          "file_offset": "0xed1f0",
+          "names": [
+            "boot",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 5,
+          "file_offset": "0xed228",
+          "names": [
+            "system",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 6,
+          "file_offset": "0xed260",
+          "names": [
+            "tee1",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 7,
+          "file_offset": "0xed298",
+          "names": [
+            "tee2",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "row": 8,
+          "file_offset": "0xed2d0",
+          "names": [
+            "oemkeystore",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 9,
+          "file_offset": "0xed308",
+          "names": [
+            "keystore",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 10,
+          "file_offset": "0xed340",
+          "names": [
+            "userdata",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 11,
+          "file_offset": "0xed378",
+          "names": [
+            "modem",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 12,
+          "file_offset": "0xed3b0",
+          "names": [
+            "md1dsp",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 13,
+          "file_offset": "0xed3e8",
+          "names": [
+            "md1arm7",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 14,
+          "file_offset": "0xed420",
+          "names": [
+            "md3img",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            1,
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "row": 15,
+          "file_offset": "0xed458",
+          "names": [
+            "",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 16,
+          "file_offset": "0xed490",
+          "names": [
+            "",
+            null,
+            null,
+            null
+          ],
+          "policy_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "row": 17,
+          "file_offset": "0xed4c8",
+          "names": [
+            "NULL",
+            "NULL",
+            "NULL",
+            "NULL"
+          ],
+          "policy_bytes": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "policy_cases": [
+        {
+          "sbc_query_value": 0,
+          "device_state_query_value": 3,
+          "lk_partition_policy": 0,
+          "authentication_required": 0
+        },
+        {
+          "sbc_query_value": 0,
+          "device_state_query_value": 4,
+          "lk_partition_policy": 1,
+          "authentication_required": 0
+        },
+        {
+          "sbc_query_value": 1,
+          "device_state_query_value": 3,
+          "lk_partition_policy": 2,
+          "authentication_required": 1
+        },
+        {
+          "sbc_query_value": 1,
+          "device_state_query_value": 4,
+          "lk_partition_policy": 3,
+          "authentication_required": 1
+        },
+        {
+          "sbc_query_error": 1,
+          "device_state_query_value": 4,
+          "authentication_required": 1
+        },
+        {
+          "sbc_query_value": 1,
+          "device_state_query_error": 1,
+          "authentication_required": 1
+        }
+      ]
+    }
+  ],
+  "lk_row_equal": true,
+  "limitations": [
+    "Device state values are reported as raw enum3/4; do not assume fastboot unlocked maps directly without device evidence.",
+    "SBC/device-state query results on user hardware are unknown.",
+    "This experiment mocks only hardware-state query outputs; it does not prove they have these values."
+  ]
+}

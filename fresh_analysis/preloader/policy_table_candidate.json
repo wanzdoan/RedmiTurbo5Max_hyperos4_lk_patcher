@@ -1,0 +1,113 @@
+{
+  "scope": "Candidate policy bytes at ADR-derived table; partition-name pointer mapping not resolved; no runtime state values measured.",
+  "rows": [
+    {
+      "index": 0,
+      "offset": "0xed110",
+      "policy4bytes": "01000302",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 1,
+      "offset": "0xed148",
+      "policy4bytes": "01000302",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 2,
+      "offset": "0xed180",
+      "policy4bytes": "01000302",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 3,
+      "offset": "0xed1b8",
+      "policy4bytes": "01000302",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 4,
+      "offset": "0xed1f0",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 5,
+      "offset": "0xed228",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 6,
+      "offset": "0xed260",
+      "policy4bytes": "01000302",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 7,
+      "offset": "0xed298",
+      "policy4bytes": "01000302",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 8,
+      "offset": "0xed2d0",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 9,
+      "offset": "0xed308",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 10,
+      "offset": "0xed340",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 11,
+      "offset": "0xed378",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 12,
+      "offset": "0xed3b0",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 13,
+      "offset": "0xed3e8",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 14,
+      "offset": "0xed420",
+      "policy4bytes": "01000300",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 15,
+      "offset": "0xed458",
+      "policy4bytes": "00000000",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 16,
+      "offset": "0xed490",
+      "policy4bytes": "00000000",
+      "same_policy_bytes_h3_h4": true
+    },
+    {
+      "index": 17,
+      "offset": "0xed4c8",
+      "policy4bytes": "00000000",
+      "same_policy_bytes_h3_h4": true
+    }
+  ]
+}

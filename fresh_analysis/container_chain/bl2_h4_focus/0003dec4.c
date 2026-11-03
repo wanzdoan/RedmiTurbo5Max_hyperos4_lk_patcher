@@ -1,0 +1,21 @@
+// File offset entry: 0x3dec4
+
+long FUN_ffff0000b803dec4(long *param_1)
+
+{
+  long lVar1;
+  
+  lVar1 = 0;
+  if (param_1 != (long *)0x0) {
+    if (*param_1 == 0) {
+      return 0;
+    }
+    lVar1 = 0;
+    if (param_1[1] != 0) {
+      lVar1 = *param_1;
+    }
+  }
+  return lVar1;
+}
+
+

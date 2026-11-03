@@ -1,0 +1,44 @@
+2026-11-03 16:06:53 INFO  (LoggingInitialization) Using log config file: jar:file:/D:/Tools/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-03 16:06:53 INFO  (LoggingInitialization) Using log file: fresh_analysis\container_chain\ghidra_bl2_h4_focus2.log  
+2026-11-03 16:06:53 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-03 16:06:53 INFO  (Preferences) Loading user preferences: C:\Users\Administrator\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences  
+2026-11-03 16:06:53 INFO  (ClassSearcher) Searching for classes...  
+2026-11-03 16:06:57 INFO  (ClassSearcher) Class search complete (3758 ms)  
+2026-11-03 16:06:57 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-03 16:06:58 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-03 16:06:58 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-03 16:06:58 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-11-03 16:06:59 INFO  (AnalyzeHeadless) Headless startup complete (8071 ms)  
+2026-11-03 16:06:59 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-11-03 16:07:00 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    D:\Tools\ghidra\Ghidra\Debug\Debugger\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\VersionTracking\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BytePatterns\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FileFormats\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PyGhidra\ghidra_scripts
+    D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain
+    D:\Tools\ghidra\Ghidra\Features\SystemEmulation\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\8051\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\GnuDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BSim\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\DATA\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\JVM\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\PIC\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FunctionID\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PDB\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Decompiler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Base\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\Atmel\ghidra_scripts  
+2026-11-03 16:07:00 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-03 16:07:00 INFO  (HeadlessAnalyzer) Opening existing project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h4  
+2026-11-03 16:07:00 INFO  (HeadlessProject) Opening project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h4  
+2026-11-03 16:07:07 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /h4_bl2_ext.elf  
+2026-11-03 16:07:08 INFO  (HeadlessAnalyzer) REPORT: Execute script: Bl2FocusH4.java 'D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h4_focus'   
+2026-11-03 16:07:13 INFO  (HeadlessAnalyzer) SCRIPT: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\Bl2FocusH4.java  
+2026-11-03 16:07:21 INFO  (GhidraScript) Bl2FocusH4.java> Exported functions: 130  
+2026-11-03 16:07:21 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /h4_bl2_ext.elf  

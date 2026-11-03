@@ -1,0 +1,21 @@
+// ffff0000907a4d78  size=96  FUN_ffff0000907a4d78
+
+void FUN_ffff0000907a4d78(undefined8 param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_ffff00009071c55c();
+  if (iVar1 == 2) {
+    FUN_ffff0000907a5a1c();
+    return;
+  }
+  if (iVar1 == 1) {
+    FUN_ffff0000907a577c(param_1);
+    return;
+  }
+  FUN_ffff0000907a4f68(param_1);
+  return;
+}
+
+

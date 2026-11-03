@@ -1,0 +1,64 @@
+2026-11-03 16:06:01 INFO  (LoggingInitialization) Using log config file: jar:file:/D:/Tools/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-03 16:06:01 INFO  (LoggingInitialization) Using log file: fresh_analysis\container_chain\ghidra_bl2_h4_focus.log  
+2026-11-03 16:06:01 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-03 16:06:01 INFO  (Preferences) Loading user preferences: C:\Users\Administrator\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences  
+2026-11-03 16:06:01 INFO  (ClassSearcher) Searching for classes...  
+2026-11-03 16:06:04 INFO  (ClassSearcher) Class search complete (2650 ms)  
+2026-11-03 16:06:04 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-03 16:06:04 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-03 16:06:04 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-03 16:06:04 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-11-03 16:06:05 INFO  (AnalyzeHeadless) Headless startup complete (6410 ms)  
+2026-11-03 16:06:05 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-11-03 16:06:06 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    D:\Tools\ghidra\Ghidra\Debug\Debugger\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\VersionTracking\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BytePatterns\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FileFormats\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PyGhidra\ghidra_scripts
+    D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain
+    D:\Tools\ghidra\Ghidra\Features\SystemEmulation\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\8051\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\GnuDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BSim\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\DATA\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\JVM\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\PIC\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FunctionID\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PDB\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Decompiler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Base\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\Atmel\ghidra_scripts  
+2026-11-03 16:06:06 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-03 16:06:06 INFO  (HeadlessAnalyzer) Opening existing project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h4  
+2026-11-03 16:06:06 INFO  (HeadlessProject) Opening project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h4  
+2026-11-03 16:06:12 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /h4_bl2_ext.elf  
+2026-11-03 16:06:13 INFO  (HeadlessAnalyzer) REPORT: Execute script: Bl2FocusH4.java 'D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h4_focus'   
+2026-11-03 16:06:16 ERROR (HeadlessAnalyzer) REPORT SCRIPT ERROR: Bl2FocusH4.java : The class could not be found. It must be the public class of the .java file: Bl2FocusH4 not found by 26c5b159 [1] ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: Bl2FocusH4 not found by 26c5b159 [1]
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:114)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:927)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1097)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileNoImport(HeadlessAnalyzer.java:1195)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFolderNoImport(HeadlessAnalyzer.java:1367)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processNoImport(HeadlessAnalyzer.java:1396)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:461)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+Caused by: java.lang.ClassNotFoundException: Bl2FocusH4 not found by 26c5b159 [1]
+	at org.apache.felix.framework.BundleWiringImpl.findClassOrResourceByDelegation(BundleWiringImpl.java:1591)
+	at org.apache.felix.framework.BundleWiringImpl.access$300(BundleWiringImpl.java:79)
+	at org.apache.felix.framework.BundleWiringImpl$BundleClassLoader.loadClass(BundleWiringImpl.java:1976)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at org.apache.felix.framework.Felix.loadBundleClass(Felix.java:2116)
+	at org.apache.felix.framework.BundleImpl.loadClass(BundleImpl.java:986)
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:166)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	... 9 more
+ 
+2026-11-03 16:06:16 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /h4_bl2_ext.elf  

@@ -1,0 +1,267 @@
+{
+  "rom": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0",
+  "files": [
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\flash_all.bat",
+      "size": 5669,
+      "sha256": "85f770d3ff7101fb256f0e6997fceadd41307b166d4ecc424edd0d67d250d725",
+      "relevant_script_lines": [
+        {
+          "line": 1,
+          "text": "if exist %~dp0images\\anti_version.txt (for /f \"delims==\" %%a in (%~dp0images\\anti_version.txt) do (set CURRENT_ANTI_VER=%%a))"
+        },
+        {
+          "line": 2,
+          "text": "if [%CURRENT_ANTI_VER%] EQU [] set CURRENT_ANTI_VER=0"
+        },
+        {
+          "line": 3,
+          "text": "for /f \"tokens=2 delims=: \" %%i in ('fastboot %* getvar anti 2^>^&1 ^| findstr /r /c:\"anti:\"') do (set version=%%i)"
+        },
+        {
+          "line": 5,
+          "text": "set anticheck=\"antirollback check pass\""
+        },
+        {
+          "line": 6,
+          "text": "if %version% GTR %CURRENT_ANTI_VER% set anticheck=\"Current device antirollback version is greater than this pakcage\""
+        },
+        {
+          "line": 7,
+          "text": "echo %anticheck% | findstr /r /c:\"pass\" || @echo \"Antirollback check error\" && exit /B 1"
+        },
+        {
+          "line": 27,
+          "text": "fastboot %* flash preloader_a      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_a error\" && exit /B 1"
+        },
+        {
+          "line": 28,
+          "text": "fastboot %* flash preloader_b      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_b error\" && exit /B 1"
+        },
+        {
+          "line": 48,
+          "text": "fastboot %* flash lk_ab            %~dp0images\\lk.img             || @echo \"Flash lk_ab error\" && exit /B 1"
+        }
+      ]
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\flash_all.sh",
+      "size": 5676,
+      "sha256": "fdc7587024d5949a28f132a36eee38f84e3d22fc87c73536052d3a9d34934b42",
+      "relevant_script_lines": [
+        {
+          "line": 1,
+          "text": "if [ -e $(dirname $0)/images/anti_version.txt ]; then"
+        },
+        {
+          "line": 2,
+          "text": "CURRENT_ANTI_VER=`cat $(dirname $0)/images/anti_version.txt`"
+        },
+        {
+          "line": 4,
+          "text": "if [ -z \"$CURRENT_ANTI_VER\" ]; then CURRENT_ANTI_VER=0; fi"
+        },
+        {
+          "line": 5,
+          "text": "ver=`fastboot $* getvar anti 2>&1 | grep -oP \"anti: \\K[0-9]+\"`"
+        },
+        {
+          "line": 7,
+          "text": "if [ $ver -gt $CURRENT_ANTI_VER ]; then echo \"Current device antirollback version is greater than this pakcage\"; exit 1; fi"
+        },
+        {
+          "line": 36,
+          "text": "fastboot $* flash preloader_a      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_a error"
+        },
+        {
+          "line": 37,
+          "text": "fastboot $* flash preloader_b      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_b error"
+        },
+        {
+          "line": 57,
+          "text": "fastboot $* flash lk_ab            ${SCRIPT_PATH}/images/lk.img             || handle_error flash lk_ab error"
+        }
+      ]
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\flash_all_except_storage.bat",
+      "size": 5153,
+      "sha256": "c3894a1b6eb6cf5feb9917f2d4085e0892e1301ac2710c0fe9078c5ff3abaee7",
+      "relevant_script_lines": [
+        {
+          "line": 1,
+          "text": "if exist %~dp0images\\anti_version.txt (for /f \"delims==\" %%a in (%~dp0images\\anti_version.txt) do (set CURRENT_ANTI_VER=%%a))"
+        },
+        {
+          "line": 2,
+          "text": "if [%CURRENT_ANTI_VER%] EQU [] set CURRENT_ANTI_VER=0"
+        },
+        {
+          "line": 3,
+          "text": "for /f \"tokens=2 delims=: \" %%i in ('fastboot %* getvar anti 2^>^&1 ^| findstr /r /c:\"anti:\"') do (set version=%%i)"
+        },
+        {
+          "line": 5,
+          "text": "set anticheck=\"antirollback check pass\""
+        },
+        {
+          "line": 6,
+          "text": "if %version% GTR %CURRENT_ANTI_VER% set anticheck=\"Current device antirollback version is greater than this pakcage\""
+        },
+        {
+          "line": 7,
+          "text": "echo %anticheck% | findstr /r /c:\"pass\" || @echo \"Antirollback check error\" && exit /B 1"
+        }
+      ]
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\flash_all_except_storage.sh",
+      "size": 5498,
+      "sha256": "9d6e8442f1589fec0e2d74d27a6681e09487de69f12d198ef7cd0617abfead14",
+      "relevant_script_lines": [
+        {
+          "line": 1,
+          "text": "if [ -e $(dirname $0)/images/anti_version.txt ]; then"
+        },
+        {
+          "line": 2,
+          "text": "CURRENT_ANTI_VER=`cat $(dirname $0)/images/anti_version.txt`"
+        },
+        {
+          "line": 4,
+          "text": "if [ -z \"$CURRENT_ANTI_VER\" ]; then CURRENT_ANTI_VER=0; fi"
+        },
+        {
+          "line": 5,
+          "text": "ver=`fastboot $* getvar anti 2>&1 | grep -oP \"anti: \\K[0-9]+\"`"
+        },
+        {
+          "line": 7,
+          "text": "if [ $ver -gt $CURRENT_ANTI_VER ]; then echo \"Current device antirollback version is greater than this pakcage\"; exit 1; fi"
+        },
+        {
+          "line": 35,
+          "text": "fastboot $* flash preloader_a      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_a error"
+        },
+        {
+          "line": 36,
+          "text": "fastboot $* flash preloader_b      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_b error"
+        },
+        {
+          "line": 56,
+          "text": "fastboot $* flash lk_ab            ${SCRIPT_PATH}/images/lk.img             || handle_error flash lk_ab error"
+        }
+      ]
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\flash_all_lock.bat",
+      "size": 5673,
+      "sha256": "854c0fda8ac62ddf8ce9396324bb50c1ad26d6cdcb4e2afbb8d790fd8d2b9943",
+      "relevant_script_lines": [
+        {
+          "line": 1,
+          "text": "if exist %~dp0images\\anti_version.txt (for /f \"delims==\" %%a in (%~dp0images\\anti_version.txt) do (set CURRENT_ANTI_VER=%%a))"
+        },
+        {
+          "line": 2,
+          "text": "if [%CURRENT_ANTI_VER%] EQU [] set CURRENT_ANTI_VER=0"
+        },
+        {
+          "line": 3,
+          "text": "for /f \"tokens=2 delims=: \" %%i in ('fastboot %* getvar anti 2^>^&1 ^| findstr /r /c:\"anti:\"') do (set version=%%i)"
+        },
+        {
+          "line": 5,
+          "text": "set anticheck=\"antirollback check pass\""
+        },
+        {
+          "line": 6,
+          "text": "if %version% GTR %CURRENT_ANTI_VER% set anticheck=\"Current device antirollback version is greater than this pakcage\""
+        },
+        {
+          "line": 7,
+          "text": "echo %anticheck% | findstr /r /c:\"pass\" || @echo \"Antirollback check error\" && exit /B 1"
+        },
+        {
+          "line": 27,
+          "text": "fastboot %* flash preloader_a      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_a error\" && exit /B 1"
+        },
+        {
+          "line": 28,
+          "text": "fastboot %* flash preloader_b      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_b error\" && exit /B 1"
+        },
+        {
+          "line": 48,
+          "text": "fastboot %* flash lk_ab            %~dp0images\\lk.img             || @echo \"Flash lk_ab error\" && exit /B 1"
+        },
+        {
+          "line": 64,
+          "text": "fastboot %* oem lock || @echo \"oem lock error\" && exit /B 1"
+        }
+      ]
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\flash_all_lock.sh",
+      "size": 5593,
+      "sha256": "6aa9dbb074bb5b160dd6d7421827aa07d93064ee9928d2a0a43ff6a6e9442900",
+      "relevant_script_lines": [
+        {
+          "line": 1,
+          "text": "if [ -e $(dirname $0)/images/anti_version.txt ]; then"
+        },
+        {
+          "line": 2,
+          "text": "CURRENT_ANTI_VER=`cat $(dirname $0)/images/anti_version.txt`"
+        },
+        {
+          "line": 4,
+          "text": "if [ -z \"$CURRENT_ANTI_VER\" ]; then CURRENT_ANTI_VER=0; fi"
+        },
+        {
+          "line": 5,
+          "text": "ver=`fastboot $* getvar anti 2>&1 | grep -oP \"anti: \\K[0-9]+\"`"
+        },
+        {
+          "line": 7,
+          "text": "if [ $ver -gt $CURRENT_ANTI_VER ]; then echo \"Current device antirollback version is greater than this pakcage\"; exit 1; fi"
+        },
+        {
+          "line": 36,
+          "text": "fastboot $* flash preloader_a      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_a error"
+        },
+        {
+          "line": 37,
+          "text": "fastboot $* flash preloader_b      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_b error"
+        },
+        {
+          "line": 57,
+          "text": "fastboot $* flash lk_ab            ${SCRIPT_PATH}/images/lk.img             || handle_error flash lk_ab error"
+        },
+        {
+          "line": 73,
+          "text": "fastboot $* oem lock || handle_error oem lock error"
+        }
+      ]
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\misc.txt",
+      "size": 152,
+      "sha256": "a067c98ac4390a12972de9803017cf14ec922beca11ea147058ce8b57f51c464"
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\anti_version.txt",
+      "size": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\lk.img",
+      "size": 4087536,
+      "sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b"
+    },
+    {
+      "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\preloader_dash.bin",
+      "size": 1064924,
+      "sha256": "104bb972383b39771ec5bcc4bc79207244306de1d40f370ed2ab3863fb7ceb77"
+    }
+  ]
+}

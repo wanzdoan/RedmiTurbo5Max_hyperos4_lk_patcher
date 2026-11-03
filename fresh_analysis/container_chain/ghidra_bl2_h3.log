@@ -1,0 +1,98 @@
+2026-11-03 16:05:40 INFO  (LoggingInitialization) Using log config file: jar:file:/D:/Tools/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-03 16:05:40 INFO  (LoggingInitialization) Using log file: fresh_analysis\container_chain\ghidra_bl2_h3.log  
+2026-11-03 16:05:40 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-03 16:05:40 INFO  (Preferences) Loading user preferences: C:\Users\Administrator\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences  
+2026-11-03 16:05:40 INFO  (ClassSearcher) Searching for classes...  
+2026-11-03 16:05:42 INFO  (ClassSearcher) Class search complete (1634 ms)  
+2026-11-03 16:05:42 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-03 16:05:42 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-03 16:05:42 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-03 16:05:42 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-11-03 16:05:43 INFO  (AnalyzeHeadless) Headless startup complete (3929 ms)  
+2026-11-03 16:05:43 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-11-03 16:05:43 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    D:\Tools\ghidra\Ghidra\Debug\Debugger\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\VersionTracking\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BytePatterns\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FileFormats\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PyGhidra\ghidra_scripts
+    D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain
+    D:\Tools\ghidra\Ghidra\Features\SystemEmulation\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\8051\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\GnuDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BSim\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\DATA\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\JVM\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\PIC\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FunctionID\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PDB\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Decompiler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Base\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\Atmel\ghidra_scripts  
+2026-11-03 16:05:43 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-03 16:05:43 INFO  (HeadlessAnalyzer) Creating project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h3  
+2026-11-03 16:05:44 INFO  (DefaultProject) Creating project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h3  
+2026-11-03 16:05:44 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-11-03 16:05:44 INFO  (HeadlessAnalyzer)      project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h3  
+2026-11-03 16:05:44 INFO  (HeadlessAnalyzer) IMPORTING: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/container_chain/h3_bl2_ext.elf  
+2026-11-03 16:05:46 INFO  (ProgramLoader) Using Loader: Executable and Linking Format (ELF)  
+2026-11-03 16:05:46 INFO  (ProgramLoader) Using Language/Compiler: AARCH64:LE:64:v8A:default  
+2026-11-03 16:05:46 INFO  (ProgramLoader) Using Library Search Path: [., C:\Windows\SysWOW64, C:\Program Files\Eclipse Adoptium\jdk-25.0.4.7-hotspot\bin, C:\Windows\Sun\Java\bin, C:\Windows\system32, C:\Windows, C:\Users\Administrator\.codex\tmp\arg0-windows\codex-arg0aDtPOR, C:\Users\Administrator\AppData\Roaming\npm\node_modules\@openai\codex\node_modules\@openai\codex-win32-x64\vendor\x86_64-pc-windows-msvc\codex-path, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\dotnet\, C:\Program Files\GitHub CLI\, C:\Program Files\Microsoft VS Code\bin, C:\Program Files (x86)\cloudflared\, C:\Program Files\Cloudflare\Cloudflare WARP\, C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Scripts\, C:\Users\Administrator\AppData\Local\Programs\Python\Python312\, C:\msys64\ucrt64\bin, C:\Users\Administrator\AppData\Local\agy\bin, C:\Users\Administrator\AppData\Local\Programs\Python\Launcher\, C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps, C:\Users\Administrator\AppData\Roaming\npm, C:\Program Files\platform-tools, C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Links, C:\Users\Administrator\.dotnet\tools, D:\Android\cmdline-tools\latest\bin, D:\Android\Sdk\platform-tools, D:\Android\Sdk\build-tools\35.0.0, C:\Users\Administrator\.bun\bin, C:\Users\Administrator\AppData\Local\spicetify, C:\Users\Administrator\AppData\Local\Programs\orca\resources\bin, C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\poppler-25.07.0\Library\bin, C:\Users\Administrator\.local\bin]  
+2026-11-03 16:05:47 INFO  (ProgramLoader) Additional info:
+Loading file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/container_chain/h3_bl2_ext.elf?MD5=a5ea7e591134de135e155c90dad906f7...
+------------------------------------------------
+
+  
+2026-11-03 16:05:47 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-11-03 16:05:48 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/container_chain/h3_bl2_ext.elf  
+2026-11-03 16:06:18 DEBUG (FidAnalyzer) No FID Libraries apply for language AARCH64:LE:64:v8A  
+2026-11-03 16:06:18 INFO  (PackedDatabaseCache) Packed database cache: C:\Users\Administrator\AppData\Local\ghidra\packed-db-cache  
+2026-11-03 16:06:18 DEBUG (PackedDatabaseCache) Using cached packed database: D:\Tools\ghidra\Ghidra\Features\Base\data\typeinfo\generic\generic_clib_64.gdt  
+2026-11-03 16:06:18 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2026-11-03 16:06:35 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    AARCH64 ELF PLT Thunks                     0.000 secs
+    ASCII Strings                              0.932 secs
+    Apply Data Archives                        0.706 secs
+    Basic Constant Reference Analyzer         10.017 secs
+    Call Convention ID                         0.022 secs
+    Call-Fixup Installer                       0.064 secs
+    Create Address Tables                      0.244 secs
+    Create Address Tables - One Time           0.808 secs
+    Create Function                            0.891 secs
+    Data Reference                             0.870 secs
+    Decompiler Switch Analysis                16.663 secs
+    Demangler GNU                              0.044 secs
+    Disassemble                                3.032 secs
+    Disassemble Entry Points                   1.045 secs
+    Embedded Media                             0.189 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.056 secs
+    Function Start Search                      0.256 secs
+    Function Start Search After Code           0.125 secs
+    Function Start Search After Data           0.224 secs
+    Function Start Search delayed - One Time   0.100 secs
+    Non-Returning Functions - Discovered       0.943 secs
+    Non-Returning Functions - Known            0.001 secs
+    Reference                                  1.586 secs
+    Shared Return Calls                        0.411 secs
+    Stack                                      6.538 secs
+    Subroutine References                      1.517 secs
+    Subroutine References - One Time           0.003 secs
+-----------------------------------------------------
+     Total Time   47 secs
+-----------------------------------------------------
+  
+2026-11-03 16:06:35 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/container_chain/h3_bl2_ext.elf  
+2026-11-03 16:06:35 INFO  (HeadlessAnalyzer) REPORT: Execute script: Bl2Focus.java 'D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\bl2_h3_focus'   
+2026-11-03 16:06:37 INFO  (HeadlessAnalyzer) SCRIPT: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\container_chain\Bl2Focus.java  
+2026-11-03 16:06:41 INFO  (GhidraScript) Bl2Focus.java> Exported functions: 130  
+2026-11-03 16:06:41 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/container_chain/h3_bl2_ext.elf  
+2026-11-03 16:06:41 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///D:/RedmiTurbo5Max_hyperos4_lk_patcher/fresh_analysis/container_chain/h3_bl2_ext.elf  
+2026-11-03 16:06:41 INFO  (LocalFileSystem) /h3_bl2_ext.elf: file created (Administrator)  
+2026-11-03 16:06:41 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /h3_bl2_ext.elf (bl2_h3:/h3_bl2_ext.elf)  
+2026-11-03 16:06:41 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  

@@ -1,0 +1,93 @@
+{
+  "kind": "isolated execution of supplied BL2 machine code; hardware/strcmp/logging helpers mocked",
+  "subject": "h4_original_03_bl2_ext.bin",
+  "limits": [
+    "SBC value mocked; not device observation",
+    "No loader/certificate/decryption execution",
+    "Two override cases intentionally replace unsupported getter only in emulator hooks; no artifact modified"
+  ],
+  "cases": [
+    {
+      "sboot_value": 0,
+      "sboot_helper_status": 0,
+      "custom_getter_replaced_by_mock_success": false,
+      "auth_required": 1,
+      "visited": [
+        "0x5b018",
+        "0x5b04c",
+        "0x5b0f8",
+        "0x52e70",
+        "0x52f04"
+      ],
+      "pc": "0x20000000"
+    },
+    {
+      "sboot_value": 1,
+      "sboot_helper_status": 0,
+      "custom_getter_replaced_by_mock_success": false,
+      "auth_required": 1,
+      "visited": [
+        "0x5b018",
+        "0x5b04c",
+        "0x5b0f8",
+        "0x52e70",
+        "0x52f04"
+      ],
+      "pc": "0x20000000"
+    },
+    {
+      "sboot_value": 2,
+      "sboot_helper_status": 0,
+      "custom_getter_replaced_by_mock_success": false,
+      "auth_required": 1,
+      "visited": [
+        "0x5b018",
+        "0x5b04c",
+        "0x5b0f8",
+        "0x52e70",
+        "0x52f04"
+      ],
+      "pc": "0x20000000"
+    },
+    {
+      "sboot_value": 0,
+      "sboot_helper_status": 5,
+      "custom_getter_replaced_by_mock_success": false,
+      "auth_required": 1,
+      "visited": [
+        "0x5b018",
+        "0x5b04c",
+        "0x5b0f8"
+      ],
+      "pc": "0x20000000"
+    },
+    {
+      "sboot_value": 0,
+      "sboot_helper_status": 0,
+      "custom_getter_replaced_by_mock_success": true,
+      "auth_required": 0,
+      "visited": [
+        "0x5b018",
+        "0x5b04c",
+        "0x5b0f8",
+        "0x52e70",
+        "0x52f04"
+      ],
+      "pc": "0x20000000"
+    },
+    {
+      "sboot_value": 1,
+      "sboot_helper_status": 0,
+      "custom_getter_replaced_by_mock_success": true,
+      "auth_required": 1,
+      "visited": [
+        "0x5b018",
+        "0x5b04c",
+        "0x5b0f8",
+        "0x52e70",
+        "0x52f04"
+      ],
+      "pc": "0x20000000"
+    }
+  ]
+}

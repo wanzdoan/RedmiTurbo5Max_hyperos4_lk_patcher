@@ -1,0 +1,195 @@
+{
+  "input_sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+  "output_sha256": "079161101778d288d5c43b860504320a394df3a363c50cf1054d94e8b417362b",
+  "input_size": 4087536,
+  "output_size": 4087712,
+  "patch_offset": "0x89cec",
+  "original": "3f2303d5ff4305d1fd7b12a9fc5713a9",
+  "replacement": "68008052080000b900008052c0035fd6",
+  "cert2_prefix": "a058060760867693160204032100c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81060760867693160201032100848759443d2c436306e77df20bdcf87856fec4cb8806386c670db7a239385373a058060760867693160204032100c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81060760867693160201032100848759443d2c436306e77df20bdcf87856fec4cb8806386c670db7a239385373",
+  "original_members": [
+    {
+      "offset": 0,
+      "size": 1284936,
+      "name": "lk",
+      "end": 1285456
+    },
+    {
+      "offset": 1285456,
+      "size": 1733,
+      "name": "cert1",
+      "end": 1287712
+    },
+    {
+      "offset": 1287712,
+      "size": 982,
+      "name": "cert2",
+      "end": 1289216
+    },
+    {
+      "offset": 1289216,
+      "size": 1083552,
+      "name": "bl2_ext",
+      "end": 2373280
+    },
+    {
+      "offset": 2373280,
+      "size": 1733,
+      "name": "cert1",
+      "end": 2375536
+    },
+    {
+      "offset": 2375536,
+      "size": 982,
+      "name": "cert2",
+      "end": 2377040
+    },
+    {
+      "offset": 2377040,
+      "size": 1005488,
+      "name": "aee",
+      "end": 3383040
+    },
+    {
+      "offset": 3383040,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3385296
+    },
+    {
+      "offset": 3385296,
+      "size": 982,
+      "name": "cert2",
+      "end": 3386800
+    },
+    {
+      "offset": 3386800,
+      "size": 536097,
+      "name": "lk_main_dtb",
+      "end": 3923424
+    },
+    {
+      "offset": 3923424,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3925680
+    },
+    {
+      "offset": 3925680,
+      "size": 982,
+      "name": "cert2",
+      "end": 3927184
+    },
+    {
+      "offset": 3927184,
+      "size": 156075,
+      "name": "lk_dtbo",
+      "end": 4083776
+    },
+    {
+      "offset": 4083776,
+      "size": 1733,
+      "name": "cert1",
+      "end": 4086032
+    },
+    {
+      "offset": 4086032,
+      "size": 982,
+      "name": "cert2",
+      "end": 4087536
+    }
+  ],
+  "output_members": [
+    {
+      "offset": 0,
+      "size": 1284936,
+      "name": "lk",
+      "end": 1285456
+    },
+    {
+      "offset": 1285456,
+      "size": 1733,
+      "name": "cert1",
+      "end": 1287712
+    },
+    {
+      "offset": 1287712,
+      "size": 1162,
+      "name": "cert2",
+      "end": 1289392
+    },
+    {
+      "offset": 1289392,
+      "size": 1083552,
+      "name": "bl2_ext",
+      "end": 2373456
+    },
+    {
+      "offset": 2373456,
+      "size": 1733,
+      "name": "cert1",
+      "end": 2375712
+    },
+    {
+      "offset": 2375712,
+      "size": 982,
+      "name": "cert2",
+      "end": 2377216
+    },
+    {
+      "offset": 2377216,
+      "size": 1005488,
+      "name": "aee",
+      "end": 3383216
+    },
+    {
+      "offset": 3383216,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3385472
+    },
+    {
+      "offset": 3385472,
+      "size": 982,
+      "name": "cert2",
+      "end": 3386976
+    },
+    {
+      "offset": 3386976,
+      "size": 536097,
+      "name": "lk_main_dtb",
+      "end": 3923600
+    },
+    {
+      "offset": 3923600,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3925856
+    },
+    {
+      "offset": 3925856,
+      "size": 982,
+      "name": "cert2",
+      "end": 3927360
+    },
+    {
+      "offset": 3927360,
+      "size": 156075,
+      "name": "lk_dtbo",
+      "end": 4083952
+    },
+    {
+      "offset": 4083952,
+      "size": 1733,
+      "name": "cert1",
+      "end": 4086208
+    },
+    {
+      "offset": 4086208,
+      "size": 982,
+      "name": "cert2",
+      "end": 4087712
+    }
+  ],
+  "status": "EXPERIMENTAL_NOT_HARDWARE_VERIFIED"
+}

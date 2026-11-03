@@ -1,0 +1,13 @@
+// ffff000090709d3c  size=32  FUN_ffff000090709d3c
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_ffff000090709d3c(void)
+
+{
+  _DAT_ffff00009083d0f8 = 4;
+  FUN_ffff00009077e11c(s_fastboot__set_state_to_STATE_RET_ffff0000907cf0db);
+  return;
+}
+
+

@@ -1,0 +1,326 @@
+[
+  {
+    "firmware_version": 3,
+    "carrier": "h3_original",
+    "status": "returned",
+    "error": null,
+    "last_offsets": [
+      "0xa6968",
+      "0xa696c",
+      "0xa6970",
+      "0xa6974",
+      "0xa6978",
+      "0xa697c",
+      "0xa6980",
+      "0xa6984",
+      "0xa6988",
+      "0xa6758",
+      "0xa675c",
+      "0xa65e0",
+      "0xa65e4",
+      "0xa65ec",
+      "0xa65f0",
+      "0xa65f4",
+      "0xa65f8",
+      "0xa65fc",
+      "0xa6600",
+      "0xa6604"
+    ],
+    "instructions": 72675,
+    "return_status": "0x0",
+    "hash_primitive_calls": [
+      {
+        "input_offset": "0x204",
+        "length": 645,
+        "sha256": "961f69537ac22bad1953eb345a19b419da9613ab1690306607a368d2117205d7",
+        "equals_signed_tbs": true
+      }
+    ],
+    "mocks": [
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa5c68"
+      },
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa6760"
+      },
+      {
+        "mock": "RSA result gated on exact known signed TBS hash",
+        "valid": true
+      }
+    ],
+    "extracted_header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+    "extracted_payload_hash": "3b3bc47ef6f6bf34944f25ea76affac7de482c62de473cfa05a0fe7899e9fcbb"
+  },
+  {
+    "firmware_version": 3,
+    "carrier": "h3_patched",
+    "status": "returned",
+    "error": null,
+    "last_offsets": [
+      "0xa6968",
+      "0xa696c",
+      "0xa6970",
+      "0xa6974",
+      "0xa6978",
+      "0xa697c",
+      "0xa6980",
+      "0xa6984",
+      "0xa6988",
+      "0xa6758",
+      "0xa675c",
+      "0xa65e0",
+      "0xa65e4",
+      "0xa65ec",
+      "0xa65f0",
+      "0xa65f4",
+      "0xa65f8",
+      "0xa65fc",
+      "0xa6600",
+      "0xa6604"
+    ],
+    "instructions": 75447,
+    "return_status": "0x0",
+    "hash_primitive_calls": [
+      {
+        "input_offset": "0x2b8",
+        "length": 645,
+        "sha256": "b29776abe5b329d84cb299e10907853710ce21067c39e390ad243077f1271910",
+        "equals_signed_tbs": true
+      }
+    ],
+    "mocks": [
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa5c68"
+      },
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa6760"
+      },
+      {
+        "mock": "RSA result gated on exact known signed TBS hash",
+        "valid": true
+      }
+    ],
+    "extracted_header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+    "extracted_payload_hash": "77af9712f9533da9e85c629bbe5a63a7a40da08526c579b853b1256ba3f9a841"
+  },
+  {
+    "firmware_version": 3,
+    "carrier": "h4_original",
+    "status": "returned",
+    "error": null,
+    "last_offsets": [
+      "0xa6968",
+      "0xa696c",
+      "0xa6970",
+      "0xa6974",
+      "0xa6978",
+      "0xa697c",
+      "0xa6980",
+      "0xa6984",
+      "0xa6988",
+      "0xa6758",
+      "0xa675c",
+      "0xa65e0",
+      "0xa65e4",
+      "0xa65ec",
+      "0xa65f0",
+      "0xa65f4",
+      "0xa65f8",
+      "0xa65fc",
+      "0xa6600",
+      "0xa6604"
+    ],
+    "instructions": 72675,
+    "return_status": "0x0",
+    "hash_primitive_calls": [
+      {
+        "input_offset": "0x204",
+        "length": 645,
+        "sha256": "ec45eaf70b15064f32973248eef284cb3f21597b79365b2b8d694a15fb4d1c81",
+        "equals_signed_tbs": true
+      }
+    ],
+    "mocks": [
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa5c68"
+      },
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa6760"
+      },
+      {
+        "mock": "RSA result gated on exact known signed TBS hash",
+        "valid": true
+      }
+    ],
+    "extracted_header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+    "extracted_payload_hash": "db3e02a56f7e114b33631376128ef997c931f1111af0cf0f97f2aeb75f13a8e4"
+  },
+  {
+    "firmware_version": 4,
+    "carrier": "h3_original",
+    "status": "returned",
+    "error": null,
+    "last_offsets": [
+      "0xa6968",
+      "0xa696c",
+      "0xa6970",
+      "0xa6974",
+      "0xa6978",
+      "0xa697c",
+      "0xa6980",
+      "0xa6984",
+      "0xa6988",
+      "0xa6758",
+      "0xa675c",
+      "0xa65e0",
+      "0xa65e4",
+      "0xa65ec",
+      "0xa65f0",
+      "0xa65f4",
+      "0xa65f8",
+      "0xa65fc",
+      "0xa6600",
+      "0xa6604"
+    ],
+    "instructions": 72675,
+    "return_status": "0x0",
+    "hash_primitive_calls": [
+      {
+        "input_offset": "0x204",
+        "length": 645,
+        "sha256": "961f69537ac22bad1953eb345a19b419da9613ab1690306607a368d2117205d7",
+        "equals_signed_tbs": true
+      }
+    ],
+    "mocks": [
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa5c68"
+      },
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa6760"
+      },
+      {
+        "mock": "RSA result gated on exact known signed TBS hash",
+        "valid": true
+      }
+    ],
+    "extracted_header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+    "extracted_payload_hash": "3b3bc47ef6f6bf34944f25ea76affac7de482c62de473cfa05a0fe7899e9fcbb"
+  },
+  {
+    "firmware_version": 4,
+    "carrier": "h3_patched",
+    "status": "returned",
+    "error": null,
+    "last_offsets": [
+      "0xa6968",
+      "0xa696c",
+      "0xa6970",
+      "0xa6974",
+      "0xa6978",
+      "0xa697c",
+      "0xa6980",
+      "0xa6984",
+      "0xa6988",
+      "0xa6758",
+      "0xa675c",
+      "0xa65e0",
+      "0xa65e4",
+      "0xa65ec",
+      "0xa65f0",
+      "0xa65f4",
+      "0xa65f8",
+      "0xa65fc",
+      "0xa6600",
+      "0xa6604"
+    ],
+    "instructions": 75447,
+    "return_status": "0x0",
+    "hash_primitive_calls": [
+      {
+        "input_offset": "0x2b8",
+        "length": 645,
+        "sha256": "b29776abe5b329d84cb299e10907853710ce21067c39e390ad243077f1271910",
+        "equals_signed_tbs": true
+      }
+    ],
+    "mocks": [
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa5c68"
+      },
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa6760"
+      },
+      {
+        "mock": "RSA result gated on exact known signed TBS hash",
+        "valid": true
+      }
+    ],
+    "extracted_header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+    "extracted_payload_hash": "77af9712f9533da9e85c629bbe5a63a7a40da08526c579b853b1256ba3f9a841"
+  },
+  {
+    "firmware_version": 4,
+    "carrier": "h4_original",
+    "status": "returned",
+    "error": null,
+    "last_offsets": [
+      "0xa6968",
+      "0xa696c",
+      "0xa6970",
+      "0xa6974",
+      "0xa6978",
+      "0xa697c",
+      "0xa6980",
+      "0xa6984",
+      "0xa6988",
+      "0xa6758",
+      "0xa675c",
+      "0xa65e0",
+      "0xa65e4",
+      "0xa65ec",
+      "0xa65f0",
+      "0xa65f4",
+      "0xa65f8",
+      "0xa65fc",
+      "0xa6600",
+      "0xa6604"
+    ],
+    "instructions": 72675,
+    "return_status": "0x0",
+    "hash_primitive_calls": [
+      {
+        "input_offset": "0x204",
+        "length": 645,
+        "sha256": "ec45eaf70b15064f32973248eef284cb3f21597b79365b2b8d694a15fb4d1c81",
+        "equals_signed_tbs": true
+      }
+    ],
+    "mocks": [
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa5c68"
+      },
+      {
+        "mock": "key extraction/equality",
+        "offset": "0xa6760"
+      },
+      {
+        "mock": "RSA result gated on exact known signed TBS hash",
+        "valid": true
+      }
+    ],
+    "extracted_header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+    "extracted_payload_hash": "db3e02a56f7e114b33631376128ef997c931f1111af0cf0f97f2aeb75f13a8e4"
+  }
+]

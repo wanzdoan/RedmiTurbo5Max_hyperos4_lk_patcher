@@ -1,0 +1,130 @@
+HyperOS 3; file offsets, not runtime addresses
+0006a578: 3f2303d5 paciasp 
+0006a57c: ff8301d1 sub sp, sp, #0x60
+0006a580: fd7b04a9 stp x29, x30, [sp, #0x40]
+0006a584: f44f05a9 stp x20, x19, [sp, #0x50]
+0006a588: fd030191 add x29, sp, #0x40
+0006a58c: c80400b0 adrp x8, #0x103000
+0006a590: 1f2003d5 nop 
+0006a594: 403b2870 adr x0, #0xbacff
+0006a598: 084141f9 ldr x8, [x8, #0x280]
+0006a59c: 080140f9 ldr x8, [x8]
+0006a5a0: a8831ff8 stur x8, [x29, #-8]
+0006a5a4: b74f0094 bl #0x7e480
+0006a5a8: a00300b4 cbz x0, #0x6a61c
+0006a5ac: f40300aa mov x20, x0
+0006a5b0: 20008052 mov w0, #1
+0006a5b4: 8564fe97 bl #0x37c8
+0006a5b8: a00300b4 cbz x0, #0x6a62c
+0006a5bc: ff3300b9 str wzr, [sp, #0x30]
+0006a5c0: f30300aa mov x19, x0
+0006a5c4: 60008052 mov w0, #3
+0006a5c8: ff7f02a9 stp xzr, xzr, [sp, #0x20]
+0006a5cc: ff7f01a9 stp xzr, xzr, [sp, #0x10]
+0006a5d0: ff7f00a9 stp xzr, xzr, [sp]
+0006a5d4: 882640a9 ldp x8, x9, [x20]
+0006a5d8: 2801088b add x8, x9, x8
+0006a5dc: 08cd74d3 lsl x8, x8, #0xc
+0006a5e0: 140540d1 sub x20, x8, #1, lsl #12
+0006a5e4: 6c9b0094 bl #0x91394
+0006a5e8: e403002a mov w4, w0
+0006a5ec: e3030091 mov x3, sp
+0006a5f0: e00313aa mov x0, x19
+0006a5f4: e10314aa mov x1, x20
+0006a5f8: 82068052 mov w2, #0x34
+0006a5fc: 7165fe97 bl #0x3bc0
+0006a600: e0020034 cbz w0, #0x6a65c
+0006a604: 800200d0 adrp x0, #0xbc000
+0006a608: 004c2e91 add x0, x0, #0xb93
+0006a60c: 810200d0 adrp x1, #0xbc000
+0006a610: 21c02e91 add x1, x1, #0xbb0
+0006a614: 23820094 bl #0x8aea0
+0006a618: 09000014 b #0x6a63c
+0006a61c: 000300b0 adrp x0, #0xcb000
+0006a620: 00dc1291 add x0, x0, #0x4b7
+0006a624: 1f820094 bl #0x8aea0
+0006a628: 05000014 b #0x6a63c
+0006a62c: 200300b0 adrp x0, #0xcf000
+0006a630: 00482491 add x0, x0, #0x912
+0006a634: 21008052 mov w1, #1
+0006a638: 1a820094 bl #0x8aea0
+0006a63c: e0031f2a mov w0, wzr
+0006a640: ef030094 bl #0x6b5fc
+0006a644: 81010054 b.ne #0x6a674
+0006a648: f44f45a9 ldp x20, x19, [sp, #0x50]
+0006a64c: fd7b44a9 ldp x29, x30, [sp, #0x40]
+0006a650: ff830191 add sp, sp, #0x60
+0006a654: bf2303d5 autiasp 
+0006a658: c0035fd6 ret 
+0006a65c: e82740b9 ldr w8, [sp, #0x24]
+0006a660: c9a98852 mov w9, #0x454e
+0006a664: c9a9a872 movk w9, #0x454e, lsl #16
+0006a668: 1f01096b cmp w8, w9
+0006a66c: e0179f1a cset w0, eq
+0006a670: f4ffff17 b #0x6a640
+0006a674: c79a0094 bl #0x91190
+HyperOS 4; file offsets, not runtime addresses
+0006a578: 3f2303d5 paciasp 
+0006a57c: ff8301d1 sub sp, sp, #0x60
+0006a580: fd7b04a9 stp x29, x30, [sp, #0x40]
+0006a584: f44f05a9 stp x20, x19, [sp, #0x50]
+0006a588: fd030191 add x29, sp, #0x40
+0006a58c: c80400b0 adrp x8, #0x103000
+0006a590: 1f2003d5 nop 
+0006a594: 403b2870 adr x0, #0xbacff
+0006a598: 084141f9 ldr x8, [x8, #0x280]
+0006a59c: 080140f9 ldr x8, [x8]
+0006a5a0: a8831ff8 stur x8, [x29, #-8]
+0006a5a4: b74f0094 bl #0x7e480
+0006a5a8: a00300b4 cbz x0, #0x6a61c
+0006a5ac: f40300aa mov x20, x0
+0006a5b0: 20008052 mov w0, #1
+0006a5b4: 8564fe97 bl #0x37c8
+0006a5b8: a00300b4 cbz x0, #0x6a62c
+0006a5bc: ff3300b9 str wzr, [sp, #0x30]
+0006a5c0: f30300aa mov x19, x0
+0006a5c4: 60008052 mov w0, #3
+0006a5c8: ff7f02a9 stp xzr, xzr, [sp, #0x20]
+0006a5cc: ff7f01a9 stp xzr, xzr, [sp, #0x10]
+0006a5d0: ff7f00a9 stp xzr, xzr, [sp]
+0006a5d4: 882640a9 ldp x8, x9, [x20]
+0006a5d8: 2801088b add x8, x9, x8
+0006a5dc: 08cd74d3 lsl x8, x8, #0xc
+0006a5e0: 140540d1 sub x20, x8, #1, lsl #12
+0006a5e4: 6c9b0094 bl #0x91394
+0006a5e8: e403002a mov w4, w0
+0006a5ec: e3030091 mov x3, sp
+0006a5f0: e00313aa mov x0, x19
+0006a5f4: e10314aa mov x1, x20
+0006a5f8: 82068052 mov w2, #0x34
+0006a5fc: 7165fe97 bl #0x3bc0
+0006a600: e0020034 cbz w0, #0x6a65c
+0006a604: 800200d0 adrp x0, #0xbc000
+0006a608: 004c2e91 add x0, x0, #0xb93
+0006a60c: 810200d0 adrp x1, #0xbc000
+0006a610: 21c02e91 add x1, x1, #0xbb0
+0006a614: 23820094 bl #0x8aea0
+0006a618: 09000014 b #0x6a63c
+0006a61c: 000300b0 adrp x0, #0xcb000
+0006a620: 00dc1291 add x0, x0, #0x4b7
+0006a624: 1f820094 bl #0x8aea0
+0006a628: 05000014 b #0x6a63c
+0006a62c: 200300b0 adrp x0, #0xcf000
+0006a630: 00482491 add x0, x0, #0x912
+0006a634: 21008052 mov w1, #1
+0006a638: 1a820094 bl #0x8aea0
+0006a63c: e0031f2a mov w0, wzr
+0006a640: ef030094 bl #0x6b5fc
+0006a644: 81010054 b.ne #0x6a674
+0006a648: f44f45a9 ldp x20, x19, [sp, #0x50]
+0006a64c: fd7b44a9 ldp x29, x30, [sp, #0x40]
+0006a650: ff830191 add sp, sp, #0x60
+0006a654: bf2303d5 autiasp 
+0006a658: c0035fd6 ret 
+0006a65c: e82740b9 ldr w8, [sp, #0x24]
+0006a660: 29688a52 mov w9, #0x5341
+0006a664: 2989a872 movk w9, #0x4449, lsl #16
+0006a668: 1f01096b cmp w8, w9
+0006a66c: e0079f1a cset w0, ne
+0006a670: f4ffff17 b #0x6a640
+0006a674: c79a0094 bl #0x91190

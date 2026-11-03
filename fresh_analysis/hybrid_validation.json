@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "artifact": "lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img",
+  "size": 4083424,
+  "sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "deterministic_rebuild": true,
+  "final_main_and_cert_bytes_equal_cpu_tested_candidate": true,
+  "final_cert_record_equal_parser_tested_snapshot": true,
+  "all_10_retained_der_signatures_valid": true,
+  "all_non_main_signed_payloads_match": true,
+  "retained_bl2_is_exact_signed_H3": true,
+  "certificates": [
+    {
+      "member": 1,
+      "name": "cert1",
+      "embedded_der_rsa_pss_valid": true
+    },
+    {
+      "member": 2,
+      "name": "cert2",
+      "embedded_der_rsa_pss_valid": true,
+      "component": "lk",
+      "header_hash_matches": true,
+      "signed_payload_hash_matches": false,
+      "payload_sha256": "848759443d2c436306e77df20bdcf87856fec4cb8806386c670db7a239385373"
+    },
+    {
+      "member": 4,
+      "name": "cert1",
+      "embedded_der_rsa_pss_valid": true
+    },
+    {
+      "member": 5,
+      "name": "cert2",
+      "embedded_der_rsa_pss_valid": true,
+      "component": "bl2_ext",
+      "header_hash_matches": true,
+      "signed_payload_hash_matches": true,
+      "payload_sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6"
+    },
+    {
+      "member": 7,
+      "name": "cert1",
+      "embedded_der_rsa_pss_valid": true
+    },
+    {
+      "member": 8,
+      "name": "cert2",
+      "embedded_der_rsa_pss_valid": true,
+      "component": "aee",
+      "header_hash_matches": true,
+      "signed_payload_hash_matches": true,
+      "payload_sha256": "fd54015acd29b326feb61614f9f8cef973e0f8277a3e1dd195a42ad9e4d25861"
+    },
+    {
+      "member": 10,
+      "name": "cert1",
+      "embedded_der_rsa_pss_valid": true
+    },
+    {
+      "member": 11,
+      "name": "cert2",
+      "embedded_der_rsa_pss_valid": true,
+      "component": "lk_main_dtb",
+      "header_hash_matches": true,
+      "signed_payload_hash_matches": true,
+      "payload_sha256": "4d1d376e64e08a70a09bd5ff1e779176fe7708b1efc76c42062b09c709150966"
+    },
+    {
+      "member": 13,
+      "name": "cert1",
+      "embedded_der_rsa_pss_valid": true
+    },
+    {
+      "member": 14,
+      "name": "cert2",
+      "embedded_der_rsa_pss_valid": true,
+      "component": "lk_dtbo",
+      "header_hash_matches": true,
+      "signed_payload_hash_matches": true,
+      "payload_sha256": "b8768143217a494b7d8872708aef8fd36635117556a84cea97c605320c5d3692"
+    }
+  ],
+  "limits": [
+    "Main signed digest differs by design: successful boot relies on actual H3 BL2 parser behavior, tested separately",
+    "No full SoC simulation, physical boot, antirollback/fuse or cross-version handoff validation"
+  ]
+}

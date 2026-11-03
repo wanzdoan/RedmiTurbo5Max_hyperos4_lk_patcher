@@ -1,0 +1,19 @@
+// ffff000090749b90  size=92  FUN_ffff000090749b90
+
+undefined8 FUN_ffff000090749b90(int param_1)
+
+{
+  undefined8 local_30;
+  undefined8 uStack_28;
+  undefined8 local_20;
+  undefined8 uStack_18;
+  
+  local_20 = 0;
+  uStack_18 = 0;
+  local_30 = 0;
+  uStack_28 = 0;
+  FUN_ffff00009071ebf4(0xc2000417,(long)param_1,0x400,0,0,0,0,0,&local_30);
+  return 0;
+}
+
+

@@ -1,0 +1,9 @@
+{
+  "pseudocode_file_counts": {
+    "h4_pseudocode": 2328,
+    "container_chain\\bl2_decompile": 1526,
+    "h3_diff\\aee_analysis\\pseudocode": 1827,
+    "preloader\\decompile_h4": 220
+  },
+  "meaning": "Tool-recognized and focused pseudocode, not original source or complete control-flow coverage"
+}

@@ -1,0 +1,108 @@
+{
+  "status": "EXPERIMENTAL_HYBRID_NOT_HARDWARE_VERIFIED",
+  "description": "H4 main LK force-unlock + observed H3 cert prefix; H3 intact signed BL2 triple; all H4 AEE/DTB/DTBO triples intact",
+  "input_h4_sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+  "input_h3_sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+  "output_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "output_size": 4083424,
+  "donor_triple_sha256": "c3f0595fcc4a0b52ea70a4fce8e368ded61025c9b85788be3f718f16953a00c6",
+  "donor_triple_bytes": 1083536,
+  "main_patch_offset": "0x89cec",
+  "members": [
+    {
+      "offset": 0,
+      "size": 1284936,
+      "name": "lk",
+      "end": 1285456
+    },
+    {
+      "offset": 1285456,
+      "size": 1733,
+      "name": "cert1",
+      "end": 1287712
+    },
+    {
+      "offset": 1287712,
+      "size": 1162,
+      "name": "cert2",
+      "end": 1289392
+    },
+    {
+      "offset": 1289392,
+      "size": 1079256,
+      "name": "bl2_ext",
+      "end": 2369168
+    },
+    {
+      "offset": 2369168,
+      "size": 1733,
+      "name": "cert1",
+      "end": 2371424
+    },
+    {
+      "offset": 2371424,
+      "size": 982,
+      "name": "cert2",
+      "end": 2372928
+    },
+    {
+      "offset": 2372928,
+      "size": 1005488,
+      "name": "aee",
+      "end": 3378928
+    },
+    {
+      "offset": 3378928,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3381184
+    },
+    {
+      "offset": 3381184,
+      "size": 982,
+      "name": "cert2",
+      "end": 3382688
+    },
+    {
+      "offset": 3382688,
+      "size": 536097,
+      "name": "lk_main_dtb",
+      "end": 3919312
+    },
+    {
+      "offset": 3919312,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3921568
+    },
+    {
+      "offset": 3921568,
+      "size": 982,
+      "name": "cert2",
+      "end": 3923072
+    },
+    {
+      "offset": 3923072,
+      "size": 156075,
+      "name": "lk_dtbo",
+      "end": 4079664
+    },
+    {
+      "offset": 4079664,
+      "size": 1733,
+      "name": "cert1",
+      "end": 4081920
+    },
+    {
+      "offset": 4081920,
+      "size": 982,
+      "name": "cert2",
+      "end": 4083424
+    }
+  ],
+  "limitations": [
+    "Not a full-H4 boot chain: deliberately uses signed H3 BL2",
+    "Parser selection verified separately; full signature/load boot not emulated",
+    "No evidence yet for physical boot, stock H4 preloader handoff or rollback compatibility"
+  ]
+}

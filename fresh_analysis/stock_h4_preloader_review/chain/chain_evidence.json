@@ -1,0 +1,272 @@
+{
+  "evidence_id": "STOCKH4-CHAIN-001",
+  "inputs": {
+    "hybrid": {
+      "path": "fresh_analysis/output/lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img",
+      "size": 4083424,
+      "sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171"
+    },
+    "h3": {
+      "path": "lk_hyperos3_original/lk.img",
+      "size": 4082944,
+      "sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb"
+    },
+    "h4": {
+      "path": "lk_hyperos4_original/lk.img",
+      "size": 4087536,
+      "sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b"
+    }
+  },
+  "stage": {
+    "hybrid": {
+      "tuple_offset": "0x13acb0",
+      "tuple_size": 1083536,
+      "tuple_sha256": "c3f0595fcc4a0b52ea70a4fce8e368ded61025c9b85788be3f718f16953a00c6",
+      "payload_size": 1079256,
+      "aligned_payload_sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "header_sha256": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+      "header_hex": "88168858d8771000626c325f65787400000000000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "cert1_sha256": "618277366ef443b01200d4ede8fcc12edc58ce08e40c23b118b10ffdeb67dba2",
+      "cert2_sha256": "80598b9c5e94f35465855c1b0034d027689b6ce02aeeef248b795776369b3a89",
+      "cert1_pss_sha256_valid_embedded_key": true,
+      "cert2_pss_sha256_valid_embedded_key": true,
+      "cert1_embedded_image_spki_equals_cert2_spki": true,
+      "cert1_spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05",
+      "cert2_spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "cert2_custom_fields": {
+        "2.16.886.2454.3.1": {
+          "tag": "0x2",
+          "value": "00",
+          "size": 1
+        },
+        "2.16.886.2454.2.1": {
+          "tag": "0x3",
+          "value": "0059bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+          "size": 33
+        },
+        "2.16.886.2454.2.2": {
+          "tag": "0x2",
+          "value": "01",
+          "size": 1
+        },
+        "2.16.886.2454.2.4": {
+          "tag": "0x3",
+          "value": "00bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+          "size": 33
+        },
+        "2.16.886.2454.2.6": {
+          "tag": "0x3",
+          "value": "0000",
+          "size": 2
+        },
+        "2.16.886.2454.3.2": {
+          "tag": "0x2",
+          "value": "01",
+          "size": 1
+        },
+        "2.16.886.2454.2.7": {
+          "tag": "0x13",
+          "value": "30",
+          "size": 1
+        },
+        "2.16.886.2454.2.8": {
+          "tag": "0x3",
+          "value": "0000",
+          "size": 2
+        },
+        "2.16.886.2454.2.9": {
+          "tag": "0x2",
+          "value": "00",
+          "size": 1
+        }
+      },
+      "entry_link_literals": {
+        "0x310": "0xffff0000b8000000",
+        "0x318": "0x40000000000788",
+        "0x320": "0xffff0000b8084000",
+        "0x328": "0xffff0000b80ac000",
+        "0x330": "0xffff0000b81b9000",
+        "0x338": "0xffff0000b80001a8"
+      }
+    },
+    "h3": {
+      "tuple_offset": "0x13abe0",
+      "tuple_size": 1083536,
+      "tuple_sha256": "c3f0595fcc4a0b52ea70a4fce8e368ded61025c9b85788be3f718f16953a00c6",
+      "payload_size": 1079256,
+      "aligned_payload_sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "header_sha256": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+      "header_hex": "88168858d8771000626c325f65787400000000000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "cert1_sha256": "618277366ef443b01200d4ede8fcc12edc58ce08e40c23b118b10ffdeb67dba2",
+      "cert2_sha256": "80598b9c5e94f35465855c1b0034d027689b6ce02aeeef248b795776369b3a89",
+      "cert1_pss_sha256_valid_embedded_key": true,
+      "cert2_pss_sha256_valid_embedded_key": true,
+      "cert1_embedded_image_spki_equals_cert2_spki": true,
+      "cert1_spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05",
+      "cert2_spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "cert2_custom_fields": {
+        "2.16.886.2454.3.1": {
+          "tag": "0x2",
+          "value": "00",
+          "size": 1
+        },
+        "2.16.886.2454.2.1": {
+          "tag": "0x3",
+          "value": "0059bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+          "size": 33
+        },
+        "2.16.886.2454.2.2": {
+          "tag": "0x2",
+          "value": "01",
+          "size": 1
+        },
+        "2.16.886.2454.2.4": {
+          "tag": "0x3",
+          "value": "00bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+          "size": 33
+        },
+        "2.16.886.2454.2.6": {
+          "tag": "0x3",
+          "value": "0000",
+          "size": 2
+        },
+        "2.16.886.2454.3.2": {
+          "tag": "0x2",
+          "value": "01",
+          "size": 1
+        },
+        "2.16.886.2454.2.7": {
+          "tag": "0x13",
+          "value": "30",
+          "size": 1
+        },
+        "2.16.886.2454.2.8": {
+          "tag": "0x3",
+          "value": "0000",
+          "size": 2
+        },
+        "2.16.886.2454.2.9": {
+          "tag": "0x2",
+          "value": "00",
+          "size": 1
+        }
+      },
+      "entry_link_literals": {
+        "0x310": "0xffff0000b8000000",
+        "0x318": "0x40000000000788",
+        "0x320": "0xffff0000b8084000",
+        "0x328": "0xffff0000b80ac000",
+        "0x330": "0xffff0000b81b9000",
+        "0x338": "0xffff0000b80001a8"
+      }
+    },
+    "h4": {
+      "tuple_offset": "0x13ac00",
+      "tuple_size": 1087824,
+      "tuple_sha256": "515ff3a158f443fc97c8f7a9aebfea28970caea32110a35c86f342a5d5391226",
+      "payload_size": 1083552,
+      "aligned_payload_sha256": "d0cfaeaf24603f9fb8dda8bc6e2a7634377bcf13f76b7af8545cb0fca7aff24f",
+      "header_sha256": "73df9168cac4a9c72a618824e28a08c698ea826b1b336f622f9576f87d461073",
+      "header_hex": "88168858a0881000626c325f65787400000000000000000000000000000000000000000000000000ffffffffffffffff8916895800020000010000000000000000000000100000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "cert1_sha256": "618277366ef443b01200d4ede8fcc12edc58ce08e40c23b118b10ffdeb67dba2",
+      "cert2_sha256": "91d2ee1114bb8be950203235e3c69100041f3e27ce0ac33fa31e2cd08140599b",
+      "cert1_pss_sha256_valid_embedded_key": true,
+      "cert2_pss_sha256_valid_embedded_key": true,
+      "cert1_embedded_image_spki_equals_cert2_spki": true,
+      "cert1_spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05",
+      "cert2_spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "cert2_custom_fields": {
+        "2.16.886.2454.3.1": {
+          "tag": "0x2",
+          "value": "00",
+          "size": 1
+        },
+        "2.16.886.2454.2.1": {
+          "tag": "0x3",
+          "value": "00d0cfaeaf24603f9fb8dda8bc6e2a7634377bcf13f76b7af8545cb0fca7aff24f",
+          "size": 33
+        },
+        "2.16.886.2454.2.2": {
+          "tag": "0x2",
+          "value": "01",
+          "size": 1
+        },
+        "2.16.886.2454.2.4": {
+          "tag": "0x3",
+          "value": "0073df9168cac4a9c72a618824e28a08c698ea826b1b336f622f9576f87d461073",
+          "size": 33
+        },
+        "2.16.886.2454.2.6": {
+          "tag": "0x3",
+          "value": "0000",
+          "size": 2
+        },
+        "2.16.886.2454.3.2": {
+          "tag": "0x2",
+          "value": "01",
+          "size": 1
+        },
+        "2.16.886.2454.2.7": {
+          "tag": "0x13",
+          "value": "30",
+          "size": 1
+        },
+        "2.16.886.2454.2.8": {
+          "tag": "0x3",
+          "value": "0000",
+          "size": 2
+        },
+        "2.16.886.2454.2.9": {
+          "tag": "0x2",
+          "value": "00",
+          "size": 1
+        }
+      },
+      "entry_link_literals": {
+        "0x310": "0xffff0000b8000000",
+        "0x318": "0x40000000000788",
+        "0x320": "0xffff0000b8085000",
+        "0x328": "0xffff0000b80ad000",
+        "0x330": "0xffff0000b81ba000",
+        "0x338": "0xffff0000b80001a8"
+      }
+    }
+  },
+  "checks": {
+    "hybrid_bl2_triple_exact_h3": true,
+    "h3_h4_cert1_byte_identical": true,
+    "h3_h4_cert2_same_spki": true,
+    "h3_h4_cert2_custom_differences": {
+      "2.16.886.2454.2.1": {
+        "h3": {
+          "tag": "0x3",
+          "value": "0059bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+          "size": 33
+        },
+        "h4": {
+          "tag": "0x3",
+          "value": "00d0cfaeaf24603f9fb8dda8bc6e2a7634377bcf13f76b7af8545cb0fca7aff24f",
+          "size": 33
+        }
+      },
+      "2.16.886.2454.2.4": {
+        "h3": {
+          "tag": "0x3",
+          "value": "00bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+          "size": 33
+        },
+        "h4": {
+          "tag": "0x3",
+          "value": "0073df9168cac4a9c72a618824e28a08c698ea826b1b336f622f9576f87d461073",
+          "size": 33
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Signatures checked against artifact embedded keys, not actual device efuse root",
+    "No preloader hardware-policy, rollback counter, rootkey/SOCID validation",
+    "No BROM acceptance test for H4 preloader or hardware boot test",
+    "Link-layout observations do not prove full ABI/handoff equivalence"
+  ]
+}

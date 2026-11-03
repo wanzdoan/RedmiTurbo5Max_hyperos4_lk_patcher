@@ -1,0 +1,24 @@
+
+void FUN_ffff0000be01e844(long param_1)
+
+{
+  undefined4 uVar1;
+  
+  if (param_1 != 0) {
+    *(undefined4 *)(param_1 + 4) = 0x42414342;
+    *(undefined1 *)(param_1 + 8) = 1;
+    *(undefined1 *)(param_1 + 0xc) = 0x77;
+    *(ushort *)(param_1 + 9) = *(ushort *)(param_1 + 9) & 0xfff8 | 2;
+    *(undefined1 *)(param_1 + 0xe) = 0x77;
+    uVar1 = FUN_ffff0000be0553a4(0,param_1,0x1c);
+    *(undefined4 *)(param_1 + 0x1c) = uVar1;
+    return;
+  }
+  FUN_ffff0000be05fd98
+            (s__s__d___LK_AB___s_check_args_fai_ffff0000be0be166,
+             s_initDefaultBootControl_ffff0000be0b9a9e,0x75,
+             s_initDefaultBootControl_ffff0000be0b9a9e);
+  return;
+}
+
+

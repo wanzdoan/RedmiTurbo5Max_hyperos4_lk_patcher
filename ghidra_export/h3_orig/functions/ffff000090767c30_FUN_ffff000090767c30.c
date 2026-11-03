@@ -1,0 +1,21 @@
+// ffff000090767c30  size=72  FUN_ffff000090767c30
+
+void FUN_ffff000090767c30(void)
+
+{
+  uint uVar1;
+  char *pcVar2;
+  
+  uVar1 = FUN_ffff000090783624();
+  if (uVar1 < 0x14) {
+    pcVar2 = &DAT_ffff00009080e27c + *(int *)(&DAT_ffff00009080e27c + (long)(int)uVar1 * 4);
+  }
+  else {
+    pcVar2 = s_unknown_error_ffff0000907e82c0;
+  }
+  FUN_ffff000090709c60(pcVar2);
+  FUN_ffff000090709d50(&DAT_ffff0000907df295);
+  return;
+}
+
+

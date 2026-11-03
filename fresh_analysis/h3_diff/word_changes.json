@@ -1,0 +1,30 @@
+[
+  {
+    "offset": "0x89a2c",
+    "old": "paciasp ",
+    "new": "mov w8, #3",
+    "oldhex": "3f2303d5",
+    "newhex": "68008052"
+  },
+  {
+    "offset": "0x89a30",
+    "old": "sub sp, sp, #0x150",
+    "new": "str w8, [x0]",
+    "oldhex": "ff4305d1",
+    "newhex": "080000b9"
+  },
+  {
+    "offset": "0x89a34",
+    "old": "stp x29, x30, [sp, #0x120]",
+    "new": "mov w0, #0",
+    "oldhex": "fd7b12a9",
+    "newhex": "00008052"
+  },
+  {
+    "offset": "0x89a38",
+    "old": "stp x28, x21, [sp, #0x130]",
+    "new": "ret ",
+    "oldhex": "fc5713a9",
+    "newhex": "c0035fd6"
+  }
+]

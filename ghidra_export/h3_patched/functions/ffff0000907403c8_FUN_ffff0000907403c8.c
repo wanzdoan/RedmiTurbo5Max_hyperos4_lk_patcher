@@ -1,0 +1,34 @@
+// ffff0000907403c8  size=192  FUN_ffff0000907403c8
+
+undefined8 FUN_ffff0000907403c8(byte *param_1,int param_2)
+
+{
+  byte bVar1;
+  undefined8 uVar2;
+  
+  uVar2 = 0xfffffff8;
+  if ((param_1 != (byte *)0x0) && (-1 < param_2)) {
+    for (; param_2 != 0; param_2 = param_2 + -1) {
+      bVar1 = *param_1;
+      if (bVar1 < 0x10) {
+        if (*(long *)((ulong)(uint)bVar1 * 8 + -0xffff6f790dd0) != 0) {
+          FUN_ffff00009077de54
+                    (s__s__d___SPMI__duplicated_slave_i_ffff0000907dfb2d,
+                     s_spmi_device_register_ffff0000907d9393,0xa0);
+          return 0xfffffff8;
+        }
+        *(byte **)((ulong)bVar1 * 8 + -0xffff6f790dd0) = param_1;
+      }
+      else {
+        FUN_ffff00009077de54
+                  (s__s__d___SPMI__invalid_slave_id___ffff0000907f82e5,
+                   s_spmi_device_register_ffff0000907d9393,0x9a);
+      }
+      param_1 = param_1 + 0x30;
+    }
+    uVar2 = 0;
+  }
+  return uVar2;
+}
+
+

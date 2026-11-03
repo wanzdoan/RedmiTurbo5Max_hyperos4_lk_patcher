@@ -1,0 +1,38 @@
+CALL 88964
+00088934 paciasp 
+00088938 mov w0, wzr
+0008893c autiasp 
+00088940 ret 
+00088944 paciasp 
+00088948 autiasp 
+0008894c b #0xb6274
+00088950 paciasp 
+00088954 stp x29, x30, [sp, #-0x20]!
+00088958 stp x20, x19, [sp, #0x10]
+0008895c mov x29, sp
+00088960 mov x19, x0
+00088964 bl #0x88f60
+00088968 mov w20, w0
+0008896c ldr w2, [x19]
+00088970 adrp x0, #0xe5000
+00088974 add x0, x0, #0x464
+00088978 mov w1, w20
+0008897c bl #0x7e054
+00088980 mov w0, w20
+00088984 ldp x20, x19, [sp, #0x10]
+00088988 ldp x29, x30, [sp], #0x20
+0008898c autiasp 
+00088990 ret 
+00088994 paciasp 
+00088998 stp x29, x30, [sp, #-0x20]!
+0008899c stp x20, x19, [sp, #0x10]
+000889a0 mov x29, sp
+000889a4 mov w19, w0
+000889a8 bl #0x88f94
+000889ac mov w20, w0
+000889b0 adrp x0, #0xf8000
+000889b4 add x0, x0, #0xcf7
+000889b8 mov w1, w20
+000889bc mov w2, w19
+000889c0 bl #0x7e054
+000889c4 mov w0, w20

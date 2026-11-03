@@ -1,0 +1,8 @@
+
+undefined4 FUN_ffff000090738e0c(ulong param_1)
+
+{
+  return (&DAT_ffff00009086dea8)[param_1 & 0xffffffff];
+}
+
+

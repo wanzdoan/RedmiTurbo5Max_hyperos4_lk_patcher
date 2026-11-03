@@ -1,0 +1,9 @@
+{
+  "boundary": "payload offsets0..0xa3000",
+  "mnemonics": {
+    "('add', 'add')": 3429,
+    "('adr', 'adr')": 11,
+    "('adrp', 'adrp')": 12
+  },
+  "non_address_changes": []
+}

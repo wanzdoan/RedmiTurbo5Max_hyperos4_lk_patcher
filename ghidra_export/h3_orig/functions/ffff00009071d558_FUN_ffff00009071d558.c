@@ -1,0 +1,23 @@
+// ffff00009071d558  size=80  FUN_ffff00009071d558
+
+undefined8 FUN_ffff00009071d558(long param_1)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  
+  if (param_1 == 0) {
+    uVar2 = 0xfffffff9;
+  }
+  else {
+    iVar1 = FUN_ffff00009071d2ac();
+    if (-1 < iVar1) {
+      uVar2 = FUN_ffff00009071d328(param_1);
+      return uVar2;
+    }
+    uVar2 = 0;
+  }
+  return uVar2;
+}
+
+

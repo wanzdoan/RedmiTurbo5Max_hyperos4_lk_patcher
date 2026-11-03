@@ -1,0 +1,2972 @@
+{
+  "status": "PASS",
+  "cpu_cases": 328,
+  "actual_code": "H4 16-byte patch plus original custom/state wrappers and AVB predicate",
+  "stubs": [
+    "logging file0x7e31c",
+    "boot partition selection file0x8891c",
+    "getter only in explicit mocked-state controls"
+  ],
+  "prefix_matches_observed_h3": true,
+  "deterministic_build": true,
+  "wrong_input_rejected": true,
+  "limitations": [
+    "No BootROM, preloader whole boot, TEE, RPMB, UFS, rollback or physical phone execution",
+    "CPU mapping relocated to low address; actual instructions preserved; ABI subset and bounded paths only",
+    "Cryptographic signature acceptance of prefixed cert remains a separate parser investigation"
+  ],
+  "cases": [
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 4,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 4,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 4,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2605181158,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2605181158,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2605181158,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 4094382150,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 4094382150,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 4094382150,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2846443543,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2846443543,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2846443543,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2788344660,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2788344660,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2788344660,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1216625969,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1216625969,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1216625969,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 585488236,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 585488236,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 585488236,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 367837533,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 367837533,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 367837533,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2510937567,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2510937567,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2510937567,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 196965001,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 196965001,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 196965001,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3839085648,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3839085648,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3839085648,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2974195877,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2974195877,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2974195877,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2098723635,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2098723635,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2098723635,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1832010777,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1832010777,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1832010777,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3372537382,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3372537382,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3372537382,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 479670988,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 479670988,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 479670988,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1418239866,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1418239866,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1418239866,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3966979322,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3966979322,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3966979322,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2121924625,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2121924625,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2121924625,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 4050816506,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 4050816506,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 4050816506,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 988504619,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 988504619,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 988504619,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3619277397,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3619277397,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3619277397,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 149856084,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 149856084,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 149856084,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1104431223,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1104431223,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1104431223,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 4154718838,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 4154718838,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 4154718838,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 318791876,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 318791876,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 318791876,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2673302822,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2673302822,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2673302822,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1156862043,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1156862043,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1156862043,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3842265094,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3842265094,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3842265094,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1927929470,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1927929470,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1927929470,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2683949861,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2683949861,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2683949861,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3275873585,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3275873585,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3275873585,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 727397605,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 727397605,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 727397605,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1254740243,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1254740243,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1254740243,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1607218823,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1607218823,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1607218823,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 867256505,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 867256505,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 867256505,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 548876030,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 548876030,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 548876030,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1872193059,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1872193059,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1872193059,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1936586893,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1936586893,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1936586893,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3051900929,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3051900929,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3051900929,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 22941651,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 22941651,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 22941651,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 954080173,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 954080173,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 954080173,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2557289386,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2557289386,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2557289386,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1123497830,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1123497830,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1123497830,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3536405149,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3536405149,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3536405149,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3177483506,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3177483506,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3177483506,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1850079795,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1850079795,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1850079795,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3057903669,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3057903669,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3057903669,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1779733608,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1779733608,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1779733608,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 744544101,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 744544101,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 744544101,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 599704291,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 599704291,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 599704291,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1519510224,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1519510224,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1519510224,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3513452869,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3513452869,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3513452869,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1245476598,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1245476598,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1245476598,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3012894907,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3012894907,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3012894907,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1865171668,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1865171668,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1865171668,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3401812746,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3401812746,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3401812746,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1048973421,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1048973421,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1048973421,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3387684074,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3387684074,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3387684074,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3436481201,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3436481201,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3436481201,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2773897174,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2773897174,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2773897174,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2462695699,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2462695699,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2462695699,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3358844584,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3358844584,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3358844584,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3530764769,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3530764769,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3530764769,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 476728426,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 476728426,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 476728426,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2573437389,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2573437389,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2573437389,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 840220526,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 840220526,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 840220526,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1613947239,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1613947239,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1613947239,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1121189334,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1121189334,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1121189334,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 4271343417,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 4271343417,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 4271343417,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 185615389,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 185615389,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 185615389,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 538707476,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 538707476,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 538707476,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3566134239,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3566134239,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3566134239,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1077031434,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1077031434,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1077031434,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1594492488,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1594492488,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1594492488,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1351274238,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1351274238,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1351274238,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1543525008,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1543525008,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1543525008,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1110901994,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1110901994,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1110901994,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2860675219,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2860675219,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2860675219,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3903294783,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3903294783,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3903294783,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 531522769,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 531522769,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 531522769,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 377691947,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 377691947,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 377691947,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 4275136752,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 4275136752,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 4275136752,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3173336501,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3173336501,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3173336501,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 3663597033,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 3663597033,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 3663597033,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 145738868,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 145738868,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 145738868,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 249544977,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 249544977,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 249544977,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2247280073,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2247280073,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2247280073,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1542862452,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1542862452,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1542862452,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2351960794,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2351960794,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2351960794,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 2509453940,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 2509453940,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 2509453940,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 445151821,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 445151821,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 445151821,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 1911355091,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 1911355091,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 1911355091,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 959173655,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 959173655,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 959173655,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89cec",
+      "kind": "getter_or_wrapper",
+      "initial": 339368724,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x89220",
+      "kind": "getter_or_wrapper",
+      "initial": 339368724,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x88c10",
+      "kind": "getter_or_wrapper",
+      "initial": 339368724,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": 0,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": 1,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": 2,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": 3,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": 4,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mocked_state": 4294967295,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mocked_state": 0,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mocked_state": 1,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mocked_state": 2,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mocked_state": 3,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mocked_state": 4,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mocked_state": 4294967295,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mocked_state": 0,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mocked_state": 1,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mocked_state": 2,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mocked_state": 3,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mocked_state": 4,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mocked_state": 4294967295,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mocked_state": null,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mocked_state": 0,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mocked_state": 1,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mocked_state": 2,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mocked_state": 3,
+      "return_x0": 0,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mocked_state": 4,
+      "return_x0": 1,
+      "pass_result": true
+    },
+    {
+      "entry": "0x68e94",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mocked_state": 4294967295,
+      "return_x0": 1,
+      "pass_result": true
+    }
+  ]
+}

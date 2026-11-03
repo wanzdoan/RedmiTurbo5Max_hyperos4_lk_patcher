@@ -1,0 +1,8063 @@
+# H3 vs H4 - changed functions
+
+- H3 functions: 2805, H4 functions: 2814
+- identical decompiled content: 2789
+- H3-only: 16, H4-only: 25
+
+| H3 | H4 | similarity | H3 size | H4 size |
+|---|---|---|---|---|
+| ffff0000907034f8 | ffff00009071c6a0 | 0.27 | 136 | 44 |
+| ffff000090706f84 | ffff000090706ee0 | 0.92 | 680 | 728 |
+| ffff00009070a494 | ffff00009070a420 | 0.96 | 1912 | 2148 |
+| ffff000090710b5c | ffff000090710bd4 | 0.79 | 792 | 900 |
+| ffff000090713930 | ffff000090713a14 | 0.97 | 2708 | 2804 |
+| ffff00009072203c | ffff00009072227c | 1.00 | 1044 | 1048 |
+| ffff000090768270 | ffff000090768508 | 0.59 | 248 | 304 |
+| ffff000090768368 | ffff000090768638 | 0.99 | 340 | 332 |
+| ffff000090787050 | ffff000090787318 | 0.73 | 164 | 156 |
+| ffff0000907ad910 | ffff0000907adbd0 | 0.99 | 144 | 152 |
+| ffff0000907afe98 | ffff0000907b0160 | 0.79 | 1388 | 1132 |
+| ffff0000907b0960 | ffff0000907b0ec4 | 0.50 | 2840 | 1272 |
+| ffff0000907b1478 | ffff0000907b1be4 | 0.82 | 1276 | 1416 |
+| ffff0000907b1974 | ffff0000907b216c | 0.58 | 1508 | 1096 |
+| ffff0000907b1f58 | ffff0000907b25b4 | 0.99 | 956 | 976 |
+| ffff0000907b5f98 | ffff0000907b6608 | 0.93 | 220 | 224 |
+
+
+## ffff0000907034f8 -> ffff00009071c6a0  (similarity 0.27)
+
+```diff
+--- H3 ffff0000907034f8
++++ H4 ffff00009071c6a0
+@@ -1,45 +1,15 @@
+ void
+ SYMR(T
+ P)
+ {
+-T
+-uVar1;
+-SYMR(P,&DAT_ADDR,N);
+-SYMR(P
+-+
+-N,NR,N);
+-SYMR(P
+-+
+-N,NR,N);
+-SYMR(P
+-+
+-N,NR,N);
+-uVar1
+-=
+-_DAT_ADDR;
+-*(T
+-*)(P
+-+
++if
++(P
++!=
+ N)
+-=
+-_DAT_ADDR;
+-*(T
+-*)(P
+-+
+-N)
+-=
+-uVar1;
+-*(T
+-*)(P
+-+
+-N)
+-=
+-_DAT_ADDR;
+-*(T
+-*)(P
+-+
+-N)
+-=
+-_DAT_ADDR;
++{
++SYMR(P,NR,N);
+ return;
+ }
++SYMR(STR);
++return;
++}
+```
+
+## ffff000090706f84 -> ffff000090706ee0  (similarity 0.92)
+
+```diff
+--- H3 ffff000090706f84
++++ H4 ffff000090706ee0
+@@ -9,112 +9,124 @@
+ T
+ uVar3;
+ T
+ iVar4;
+ T
+ iVar5;
++T
++iVar6;
+ ulong
+-uVar6;
+-T
+ uVar7;
+ T
+-lVar8;
+-T
+-*puVar9;
+-T
+-**ppuVar10;
++uVar8;
++T
++lVar9;
++T
++*puVar10;
++T
++**ppuVar11;
+ ulong
+-uVar11;
++uVar12;
++T
++local_6c;
++T
++local_68;
+ T
+ local_64;
++local_68
++=
++N;
++local_6c
++=
++N;
+ if
+ ((P
+ !=
+ N)
+ &&
+ (iVar2
+ =
+ SYMR(),
+ iVar2
+ !=
+ N))
+ {
+-uVar11
+-=
+-N;
+-puVar9
++uVar12
++=
++N;
++puVar10
+ =
+ &DAT_ADDR;
+-ppuVar10
++ppuVar11
+ =
+ &PTR_FUN_ADDR;
+ do
+ {
+ uVar3
+ =
+ SYMR
+-(P,puVar9,(&PTR_s_mediatek_mt6379_gauge_1_ADDR)[uVar11]);
++(P,puVar10,(&PTR_s_mediatek_mt6379_gauge_1_ADDR)[uVar12]);
+ iVar2
+ =
+-(T)uVar11;
++(T)uVar12;
+ if
+ (uVar3
+ <
+ N)
+ {
+-uVar7
++uVar8
+ =
+ SYMR();
+ *(T
+-*)(puVar9
+-+
+--N)
+-=
+-uVar7;
++*)(puVar10
+++
++-N)
++=
++uVar8;
+ iVar4
+ =
+ SYMR(P,NR,STR);
+ if
+ ((iVar4
+ <
+ N)
+ &&
+ (iVar4
+ =
+ (*(T
+-*)*ppuVar10)(P),
++*)*ppuVar11)(P),
+ iVar4
+ <
+ N))
+ {
+ SYMR
+ (STR,
+ STR,N,*(T
+-*)(puVar9
++*)(puVar10
+ +
+ N));
+ }
+ else
+ {
+ uVar3
+ =
+ (*(T
+ *)(*(T
+-*)(puVar9
++*)(puVar10
+ +
+ -N)
+ +
+ N)
+ &
+ NR)
+ >>
+ N
+ |
+ (*(T
+ *)(*(T
+-*)(puVar9
++*)(puVar10
+ +
+ -N)
+ +
+ N)
+ &
+ N)
+@@ -145,25 +157,25 @@
+ N,iVar5);
+ }
+ uVar3
+ =
+ (*(T
+ *)(*(T
+-*)(puVar9
++*)(puVar10
+ +
+ -N)
+ +
+ N)
+ &
+ NR)
+ >>
+ N
+ |
+ (*(T
+ *)(*(T
+-*)(puVar9
++*)(puVar10
+ +
+ -N)
+ +
+ N)
+ &
+ N)
+@@ -194,25 +206,25 @@
+ N,iVar5);
+ }
+ uVar3
+ =
+ (*(T
+ *)(*(T
+-*)(puVar9
++*)(puVar10
+ +
+ -N)
+ +
+ N)
+ &
+ NR)
+ >>
+ N
+ |
+ (*(T
+ *)(*(T
+-*)(puVar9
++*)(puVar10
+ +
+ -N)
+ +
+ N)
+ &
+ N)
+@@ -250,14 +262,22 @@
+ SYMR();
+ if
+ (iVar5
+ ==
+ N)
+ {
++SYMR(&local_6c,N);
++iVar6
++=
++SYMR(&local_6c,&DAT_ADDR,N);
+ bVar1
+ =
++(iVar6
++!=
++N)
++<<
+ N;
+ }
+ else
+ if
+ (iVar5
+ ==
+@@ -278,33 +298,33 @@
+ local_64
+ =
+ (T)bVar1
+ <<
+ N;
+ SYMR(P,iVar4,STR,&local_64,N);
+-lVar8
++lVar9
+ =
+ *(T
+-*)(puVar9
++*)(puVar10
+ +
+ -N);
+ SYMR
+ (STR,
+ STR,N,*(T
+-*)(puVar9
++*)(puVar10
+ +
+ N),
+ *(T
+-*)(lVar8
++*)(lVar9
+ +
+ N),*(T
+-*)(lVar8
++*)(lVar9
+ +
+ N),
+ *(T
+-*)(lVar8
++*)(lVar9
+ +
+ N),bVar1,iVar2,iVar5);
+ }
+ }
+ else
+ {
+@@ -312,34 +332,34 @@
+ (STR,
+ STR,N,
+ STR,iVar2
+ +
+ N);
+ }
+-uVar11
+-=
+-uVar11
+-+
+-N;
+-uVar6
++uVar12
++=
++uVar12
+++
++N;
++uVar7
+ =
+ SYMR();
+-puVar9
+-=
+-puVar9
+-+
+-N;
+-ppuVar10
+-=
+-ppuVar10
++puVar10
++=
++puVar10
+++
++N;
++ppuVar11
++=
++ppuVar11
+ +
+ N;
+ }
+ while
+-(uVar11
++(uVar12
+ <
+-(uVar6
++(uVar7
+ &
+ NR));
+ }
+ return;
+ }
+```
+
+## ffff00009070a494 -> ffff00009070a420  (similarity 0.96)
+
+```diff
+--- H3 ffff00009070a494
++++ H4 ffff00009070a420
+@@ -462,12 +462,46 @@
+ else
+ {
+ SYMR
+ (STR,
+ STR,N);
+ }
++SYMR(NR);
++SYMR(&DAT_ADDR,NR);
++SYMR(STR,NR);
++SYMR(STR,NR);
++SYMR(NR,N,N);
++iVar3
++=
++SYMR(NR,&DAT_ADDR,_DAT_ADDR);
++if
++(iVar3
++<
++N)
++{
++SYMR(STR);
++}
++else
++{
++SYMR(STR,NR);
++}
++SYMR(NR,N,N);
++iVar3
++=
++SYMR(NR,&DAT_ADDR,_DAT_ADDR);
++if
++(iVar3
++<
++N)
++{
++SYMR(STR);
++}
++else
++{
++SYMR(STR,NR);
++}
+ lVar9
+ =
+ SYMR
+ (N,N,NR,N,N,STR);
+ if
+ (lVar9
+```
+
+## ffff000090710b5c -> ffff000090710bd4  (similarity 0.79)
+
+```diff
+--- H3 ffff000090710b5c
++++ H4 ffff000090710bd4
+@@ -4,20 +4,22 @@
+ T
+ iVar1;
+ T
+ cVar2;
+ T
+ uVar3;
++T
++iVar4;
+ ulong
+-uVar4;
+-T
+ uVar5;
+ T
+-lVar6;
+-T
+-*pcVar7;
++uVar6;
++T
++lVar7;
++T
++*pcVar8;
+ ulong
+ local_48;
+ ulong
+ local_40;
+ T
+ local_38;
+@@ -45,47 +47,63 @@
+ !=
+ N))
+ {
+ DAT_ADDR
+ =
+ (T)uVar3;
+-}
+-else
+-{
+-uVar4
++return;
++}
++uVar5
+ =
+ SYMR(N);
+ if
+-((uVar4
+-&
+-N)
+-==
+-N)
+-{
+-uVar4
+-=
++((uVar5
++&
++N)
++!=
++N)
++{
+ SYMR(N);
+-if
+-((uVar4
+-&
+-N)
+-==
+-N)
+-{
++SYMR(N);
++DAT_ADDR
++=
++N;
++return;
++}
++uVar5
++=
++SYMR(N);
++if
++((uVar5
++&
++N)
++!=
++N)
++{
++uVar6
++=
++N;
++SYMR:
++SYMR(uVar6);
++DAT_ADDR
++=
++N;
++return;
++}
+ cVar2
+ =
+ SYMR();
+ if
+ ((cVar2
+ ==
+ '\x02')
+ ||
+-(uVar4
++(uVar5
+ =
+ SYMR(),
+-(uVar4
++(uVar5
+ &
+ N)
+ !=
+ N))
+ {
+ DAT_ADDR
+@@ -95,53 +113,59 @@
+ }
+ cVar2
+ =
+ SYMR();
+ if
+ (cVar2
+-!=
++==
+ '\x03')
+ {
++uVar6
++=
++N;
++goto
++SYMR;
++}
+ local_28
+ =
+ N;
++local_48
++=
++NR;
++local_40
++=
++N;
+ local_38
+ =
+ NR;
+ local_30
+ =
+ NR;
+-local_48
+-=
+-NR;
+-local_40
+-=
+-NR;
+-lVar6
++lVar7
+ =
+ SYMR(STR);
+ if
+-(lVar6
++(lVar7
+ ==
+ N)
+ {
+ SYMR
+ (STR,
+ STR,N);
+ }
+-uVar5
+-=
+-SYMR(lVar6,&local_38,N,N);
+-SYMR
+-(STR,
+-STR,N,uVar5,local_38
+-&
+-NR,
+-local_38._4_4_,local_30
+-&
+-NR,local_30._4_4_,local_28);
++uVar6
++=
++SYMR(lVar7,&local_38,N,N);
++SYMR
++(STR,STR,
++N,uVar6,local_38
++&
++NR,local_38._4_4_,local_30
++&
++NR,local_30._4_4_,
++local_28);
+ if
+ ((T)local_38
+ !=
+ NR)
+ {
+ SYMR
+@@ -149,123 +173,146 @@
+ STR,N);
+ return;
+ }
+ local_38
+ =
+ NR;
+-SYMR(lVar6,&local_38,N,N);
+-uVar5
+-=
+-SYMR(lVar6,&local_38,N,N);
+-SYMR
+-(STR,
+-STR,N,uVar5,local_38
+-&
+-NR,
+-local_38._4_4_,local_30
+-&
+-NR,local_30._4_4_,local_28);
+-uVar5
+-=
+-SYMR(lVar6,&local_48,N,N);
+-SYMR
+-(STR,
+-STR,N,uVar5,local_48
++SYMR(lVar7,&local_38,N,N);
++uVar6
++=
++SYMR(lVar7,&local_38,N,N);
++SYMR
++(STR,STR,
++N,uVar6,local_38
++&
++NR,local_38._4_4_,local_30
++&
++NR,local_30._4_4_,
++local_28);
++uVar6
++=
++SYMR(lVar7,&local_48,N,N);
++SYMR
++(STR,STR,
++N,uVar6,local_48
+ &
+ NR);
+ iVar1
+ =
+ (T)local_48;
+ if
+ ((T)local_48
+ ==
+ N)
+ {
+-pcVar7
++pcVar8
+ =
+ STR;
++uVar6
++=
++N;
++}
++else
++{
++pcVar8
++=
++STR;
++uVar6
++=
++N;
++}
++SYMR(pcVar8,STR,uVar6);
++local_48
++=
++CONCAT44(local_48._4_4_,N);
++SYMR(lVar7,&local_48,N,N);
++uVar6
++=
++SYMR(lVar7,&local_48,N,N);
++SYMR
++(STR,STR,
++N,uVar6,local_48
++&
++NR,local_40
++&
++NR);
+ uVar5
+ =
++SYMR();
++if
++((uVar5
++&
++N)
++==
++N)
++{
++local_40
++=
++local_40
++&
++NR;
++iVar4
++=
++SYMR(lVar7,&local_48,N,N);
++if
++(iVar4
++==
++N)
++{
++pcVar8
++=
++STR;
++uVar6
++=
+ N;
+ }
+ else
+ {
+-pcVar7
++pcVar8
+ =
+ STR;
++uVar6
++=
++N;
++}
++SYMR(pcVar8,STR,uVar6);
++}
++else
++if
++((T)local_40
++==
++N)
++{
++SYMR
++(STR,
++STR,N);
++goto
++SYMR;
++}
++SYMR(lVar7);
++if
++(iVar1
++!=
++N)
++{
++return;
++}
++SYMR:
+ uVar5
+ =
+-N;
+-}
+-SYMR(pcVar7,STR,uVar5);
+-local_48
+-=
+-CONCAT44(local_48._4_4_,N);
+-local_40
+-=
+-CONCAT44(local_40._4_4_,NR);
+-SYMR(lVar6,&local_48,N,N);
+-uVar5
+-=
+-SYMR(lVar6,&local_48,N,N);
+-SYMR
+-(STR,
+-STR,N,uVar5,local_48
+-&
+-NR,
+-local_40
+-&
+-NR);
+-SYMR(lVar6);
+-if
+-(iVar1
+-!=
+-N)
+-{
+-return;
+-}
+-uVar4
+-=
+-SYMR();
+-if
+-((uVar4
+-&
+-N)
+-==
+-N)
+-{
+-return;
+-}
++SYMR();
++if
++((uVar5
++&
++N)
++!=
++N)
++{
+ DAT_ADDR
+ =
+ N;
+ SYMR
+ (STR,
+ STR,N,STR);
+-return;
+-}
+-uVar5
+-=
+-N;
+-}
+-else
+-{
+-uVar5
+-=
+-N;
+-}
+-SYMR(uVar5);
+-DAT_ADDR
+-=
+-N;
+-}
+-else
+-{
+-SYMR(N);
+-SYMR(N);
+-DAT_ADDR
+-=
+-N;
+-}
+-}
+-return;
+-}
++}
++return;
++}
+```
+
+## ffff000090713930 -> ffff000090713a14  (similarity 0.97)
+
+```diff
+--- H3 ffff000090713930
++++ H4 ffff000090713a14
+@@ -16,18 +16,18 @@
+ T
+ uVar7;
+ T
+ uVar8;
+ T
+ lVar9;
++T
++lVar10;
++T
++*pcVar11;
+ ulong
+-uVar10;
+-T
+-lVar11;
+-T
+-*pcVar12;
++uVar12;
+ T
+ local_270;
+ ulong
+ uStack_268;
+ T
+ local_260;
+@@ -391,27 +391,13 @@
+ SYMR(&local_1c0,&DAT_ADDR);
+ if
+ (iVar2
+ !=
+ N)
+ {
+-uVar10
+-=
+ SYMR();
+-if
+-((uVar10
+-&
+-N)
+-!=
+-N)
+-{
+-SYMR
+-(STR,
+-STR,N);
+-SYMR(STR);
+-}
+ goto
+ SYMR;
+ }
+ goto
+ SYMR;
+ }
+@@ -675,13 +661,13 @@
+ ==
+ N)
+ {
+ SYMR
+ (STR,
+ STR,N);
+-pcVar12
++pcVar11
+ =
+ STR;
+ goto
+ SYMR;
+ }
+ SYMR
+@@ -736,17 +722,17 @@
+ {
+ SYMR(&local_160);
+ }
+ }
+ else
+ {
+-pcVar12
++pcVar11
+ =
+ STR;
+ SYMR:
+-SYMR(pcVar12);
++SYMR(pcVar11);
+ }
+ local_270
+ =
+ N;
+ uStack_268
+ =
+@@ -802,25 +788,25 @@
+ N)
+ {
+ SYMR(STR,&local_98);
+ }
+ else
+ {
+-lVar11
++lVar10
+ =
+ SYMR(lVar9,&local_270,N,N);
+ if
+-(lVar11
++(lVar10
+ ==
+ N)
+ {
+-lVar11
++lVar10
+ =
+ SYMR(&local_270);
+ if
+-(lVar11
++(lVar10
+ !=
+ N)
+ {
+ SYMR(STR,&local_270);
+ SYMR(lVar9);
+ uStack_268
+@@ -832,47 +818,65 @@
+ SYMR
+ (&local_160,N,STR,&local_270);
+ SYMR(&local_160);
+ goto
+ SYMR;
+ }
+-pcVar12
+-=
+-STR;
+-}
+-else
+-{
+-pcVar12
+-=
+-STR;
+-}
+-SYMR(pcVar12);
++pcVar11
++=
++STR;
++}
++else
++{
++pcVar11
++=
++STR;
++}
++SYMR(pcVar11);
+ SYMR(lVar9);
+ }
+ }
+ SYMR:
+ local_98
+ =
+ local_98
+ &
+ NR;
+ SYMR(&local_160,N,N);
+ SYMR(N,&local_98);
+-pcVar12
++pcVar11
+ =
+ STR;
+ if
+ ((T)local_98
+ <
+ N)
+ {
+-pcVar12
+-=
+-STR;
+-}
+-SYMR(&local_160,N,pcVar12);
++pcVar11
++=
++STR;
++}
++SYMR(&local_160,N,pcVar11);
++SYMR(&local_160);
++SYMR(&local_160,N,N);
++iVar2
++=
++SYMR();
++pcVar11
++=
++STR;
++if
++(iVar2
++!=
++NR)
++{
++pcVar11
++=
++STR;
++}
++SYMR(&local_160,N,pcVar11);
+ SYMR(&local_160);
+ SYMR(&local_160,N,N);
+ uVar4
+ =
+ SYMR(&uStack_1b0);
+ switch(uVar4)
+@@ -892,109 +896,109 @@
+ goto
+ SYMR;
+ case
+ N:
+ SYMR(&local_160,N,STR);
+ SYMR(&local_160);
+-uVar10
++uVar12
+ =
+ local_1a0
+ &
+ NR;
+-pcVar12
++pcVar11
+ =
+ STR;
+ uVar8
+ =
+ N;
+ break;
+ case
+ N:
+ SYMR(&local_160,N,STR);
+ SYMR(&local_160);
+-pcVar12
++pcVar11
+ =
+ STR;
+ uVar8
+ =
+ N;
+ goto
+ SYMR;
+ case
+ N:
+ SYMR(&local_160,N,STR);
+ SYMR(&local_160);
+-pcVar12
++pcVar11
+ =
+ STR;
+ uVar8
+ =
+ N;
+ SYMR:
+-SYMR(&local_160,N,pcVar12,(T)local_1a0,uVar8);
++SYMR(&local_160,N,pcVar11,(T)local_1a0,uVar8);
+ SYMR(&local_160);
+ goto
+ SYMR;
+ case
+ N:
+ SYMR(&local_160,N,STR);
+ SYMR(&local_160);
+-uVar10
++uVar12
+ =
+ local_1a0
+ &
+ NR;
+-pcVar12
++pcVar11
+ =
+ STR;
+ uVar8
+ =
+ N;
+ break;
+ case
+ N:
+ SYMR(&local_160,N,STR);
+ SYMR(&local_160);
+-uVar10
++uVar12
+ =
+ local_1a0
+ &
+ NR;
+-pcVar12
++pcVar11
+ =
+ STR;
+ uVar8
+ =
+ N;
+ break;
+ case
+ N:
+ SYMR(&local_160,N,STR);
+ SYMR(&local_160);
+-uVar10
++uVar12
+ =
+ local_1a0
+ &
+ NR;
+-pcVar12
++pcVar11
+ =
+ STR;
+ uVar8
+ =
+ N;
+ break;
+ case
+ N:
+ SYMR(&local_160,N,STR);
+ SYMR(&local_160);
+-uVar10
++uVar12
+ =
+ local_1a0
+ &
+ NR;
+-pcVar12
++pcVar11
+ =
+ STR;
+ uVar8
+ =
+ N;
+ break;
+@@ -1015,12 +1019,27 @@
+ }
+ SYMR:
+ SYMR(&local_160,N,N);
+ SYMR(&local_160,N,STR);
+ goto
+ SYMR;
+-}
+-SYMR(&local_160,N,pcVar12,uVar10,uVar8);
++case
++N:
++SYMR(&local_160,N,STR);
++SYMR(&local_160);
++uVar12
++=
++local_1a0
++&
++NR;
++pcVar11
++=
++STR;
++uVar8
++=
++N;
++}
++SYMR(&local_160,N,pcVar11,uVar12,uVar8);
+ SYMR:
+ SYMR(&local_160);
+ return;
+ }
+```
+
+## ffff00009072203c -> ffff00009072227c  (similarity 1.00)
+
+```diff
+--- H3 ffff00009072203c
++++ H4 ffff00009072227c
+@@ -225,12 +225,13 @@
+ pcVar7
+ =
+ STR;
+ goto
+ SYMR;
+ }
++SYMR();
+ SYMR
+ (STR,P,N);
+ }
+ iVar2
+ =
+ SYMUN_ADDR(piVar5,N);
+```
+
+## ffff000090768270 -> ffff000090768508  (similarity 0.59)
+
+```diff
+--- H3 ffff000090768270
++++ H4 ffff000090768508
+@@ -2,94 +2,103 @@
+ SYMR(T
+ *P)
+ {
+ T
+ iVar1;
+ T
++iVar2;
++T
+ local_34;
++iVar2
++=
++_DAT_ADDR;
+ if
+ (P
+ ==
+ (T
+ *)N)
+ {
+-iVar1
++iVar2
+ =
+ N;
+ }
+ else
++{
+ if
+-((_DAT_ADDR
+-&
+-N)
++(_DAT_ADDR
+ ==
+-N)
++NR)
+ {
++SYMR
++(STR,
++STR);
++SYMR(N);
++}
++SYMR
++(STR,STR,
++N,_DAT_ADDR);
+ local_34
+ =
+ N;
+ iVar1
+ =
+ SYMR(&local_34);
++if
++(iVar2
++==
++NR)
++{
++iVar2
++=
++SYMR(N);
++if
++(iVar2
++==
++N)
++{
++_DAT_ADDR
++=
++N;
++SYMR
++(STR,
++STR,N,N);
++*P
++=
++N;
++}
++else
++{
++SYMR
++(STR,
++STR,iVar2);
++}
++}
++else
+ if
+ (iVar1
+ ==
+ N
+ &&
+ local_34
+ ==
+ N)
+ {
+-iVar1
++iVar2
+ =
+ N;
+ *P
+ =
+ N;
+ }
+ else
+ {
+-iVar1
++iVar2
+ =
+ N;
+ *P
+ =
+ N;
+ }
+ }
+-else
+-{
+-SYMR
+-(STR,
+-STR);
+-SYMR(N);
+-local_34
+-=
+-N;
+-SYMR(&local_34);
+-iVar1
+-=
+-SYMR(N);
+-if
+-(iVar1
+-==
+-N)
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+-&
+-NR;
+-*P
+-=
+-N;
++return
++iVar2;
+ }
+-else
+-{
+-SYMR
+-(STR,
+-STR,iVar1);
+-}
+-}
+-return
+-iVar1;
+-}
+```
+
+## ffff000090768368 -> ffff000090768638  (similarity 0.99)
+
+```diff
+--- H3 ffff000090768368
++++ H4 ffff000090768638
+@@ -26,15 +26,13 @@
+ N;
+ uStack_38
+ =
+ N;
+ _DAT_ADDR
+ =
+-_DAT_ADDR
+-&
+-NR;
++N;
+ iVar1
+ =
+ SYMR(N);
+ if
+ (iVar1
+ ==
+```
+
+## ffff000090787050 -> ffff000090787318  (similarity 0.73)
+
+```diff
+--- H3 ffff000090787050
++++ H4 ffff000090787318
+@@ -5,33 +5,24 @@
+ T
+ iVar1;
+ T
+ *pcVar2;
+ iVar1
+ =
+-SYMR(*DAT_ADDR,&DAT_ADDR,N);
++SYMR(P,&DAT_ADDR,N);
+ if
+ (iVar1
+ ==
+ N)
+ {
+ iVar1
+ =
+-N;
+-pcVar2
+-=
+-STR;
+-}
+-else
+-{
+-iVar1
+-=
+-SYMR(P,&DAT_ADDR,N);
++SYMR(*DAT_ADDR,&DAT_ADDR,N);
+ if
+ (iVar1
+-==
++!=
+ N)
+ {
+ SYMR(STR);
+ iVar1
+ =
+ SYMR();
+@@ -51,11 +42,20 @@
+ =
+ N;
+ pcVar2
+ =
+ STR;
+ }
++else
++{
++iVar1
++=
++N;
++pcVar2
++=
++STR;
++}
+ SYMR:
+ SYMR(pcVar2);
+ return
+ iVar1;
+ }
+```
+
+## ffff0000907ad910 -> ffff0000907adbd0  (similarity 0.99)
+
+```diff
+--- H3 ffff0000907ad910
++++ H4 ffff0000907adbd0
+@@ -2,13 +2,15 @@
+ SYMR(void)
+ {
+ T
+ iVar1;
+ T
+ *pcVar2;
+-SYMR(STR,&DAT_ADDR);
++SYMR
++(STR,&DAT_ADDR,
++STR);
+ iVar1
+ =
+ SYMR();
+ if
+ (iVar1
+ ==
+```
+
+## ffff0000907afe98 -> ffff0000907b0160  (similarity 0.79)
+
+```diff
+--- H3 ffff0000907afe98
++++ H4 ffff0000907b0160
+@@ -27,44 +27,86 @@
+ T
+ lVar11;
+ T
+ *pbVar12;
+ ulong
+ uVar13;
++T
++local_4c;
++T
++*local_48;
+ uVar7
+ =
+ *(T
+ *)(P
+ +
+ N);
++local_48
++=
++(T
++*)N;
++local_4c
++=
++N;
+ _DAT_ADDR
+ =
+ (T
+ *)(P
+ +
+ (ulong)uVar7);
+ _DAT_ADDR
+ =
+ (ulong)(P
+ -
+ uVar7);
+ if
++(P
++<
++uVar7
++||
++P
++-
++uVar7
++==
++N)
++{
++return
++N;
++}
++uVar5
++=
++SYMR(&local_48,&local_4c);
++if
++((T)uVar5
++!=
++N)
++{
++return
++uVar5;
++}
++_DAT_ADDR
++=
++(ulong)local_4c;
++_DAT_ADDR
++=
++local_48;
++if
+ ((P
+ &
+ N)
+ !=
+ N)
+ {
+-if
+-(uVar7
+-!=
+-P)
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
++_DAT_ADDR
++=
++local_48;
++if
++(local_4c
++!=
++N)
++{
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+ iVar4
+ =
+ SYMR(N);
+@@ -186,20 +228,53 @@
+ N))
+ {
+ return
+ uVar5;
+ }
+ if
++(((P
++>>
++N
++&
++N)
++!=
++N)
++&&
++(uVar5
++=
++SYMR(),
++(T)uVar5
++!=
++N))
++{
++return
++uVar5;
++}
++if
+ ((P
+ >>
+ N
+ &
+ N)
+ !=
+ N)
+ {
++uVar5
++=
++SYMR(DAT_ADDR
+++
++N,N,DAT_ADDR
+++
++N)
++;
++return
++uVar5;
++}
++return
++N;
++}
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+@@ -465,13 +540,13 @@
+ +
+ N;
+ SYMR:
+ _DAT_ADDR
+ =
+ uVar2;
+-SYMR(&DAT_ADDR,pbVar6,_DAT_ADDR);
++SYMR(NR,pbVar6,_DAT_ADDR);
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+ =
+@@ -496,45 +571,15 @@
+ =
+ uVar2;
+ }
+ while
+ (bVar3);
+ }
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-joined_r0xADDR:
+-if
+-((P
+->>
+-N
+-&
+-N)
+-==
+-N)
+-{
+-return
+-N;
+-}
+-uVar5
+-=
+-SYMR(DAT_ADDR
+-+
+-N,N,DAT_ADDR
+-+
+-N);
+-return
+-uVar5;
+-}
++}
++else
++{
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+@@ -827,316 +872,16 @@
+ uVar2;
+ }
+ while
+ (bVar3);
+ }
+ }
+-else
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-do
+-{
+-iVar4
+-=
+-SYMR(N);
+-if
+-(iVar4
+-!=
+-N)
+-{
++_DAT_ADDR
++=
++N;
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-if
+-(_DAT_ADDR
+-==
+-N)
+-goto
+-SYMR;
+-pbVar6
+-=
+-_DAT_ADDR
+-+
+-N;
+-bVar1
+-=
+-*pbVar6;
+-uVar7
+-=
+-(T)bVar1;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-((bVar1
+-&
+-N)
+-!=
+-N))
+-{
+-iVar4
+-=
+-(uVar7
+-&
+-N)
+-+
+-N;
+-uVar10
+-=
+-uVar7
+-&
+-N;
+-uVar7
+-=
+-N;
+-pbVar12
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar10
+-=
+-uVar10
+--
+-N;
+-uVar7
+-=
+-(T)*pbVar12
+-|
+-uVar7
+-<<
+-N;
+-pbVar12
+-=
+-pbVar12
+-+
+-N;
+-}
+-while
+-(uVar10
+-!=
+-N);
+-}
+-else
+-{
+-iVar4
+-=
+-N;
+-}
+-if
+-((*_DAT_ADDR
+-&
+-N)
+-!=
+-N)
+-{
+-uVar7
+-=
+-N;
+-}
+-uVar8
+-=
+-(ulong)(iVar4
+-+
+-uVar7
+-+
+-N);
+-uVar2
+-=
+-_DAT_ADDR
+--
+-uVar8;
+-if
+-(_DAT_ADDR
+-<
+-uVar8)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar12
+-=
+-_DAT_ADDR
+-+
+-uVar8;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-pbVar12;
+-_DAT_ADDR
+-=
+-uVar2;
+-return
+-N;
+-}
+-bVar1
+-=
+-*pbVar6;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar13
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar13
+-!=
+-N))
+-{
+-_DAT_ADDR
+-=
+-N;
+-lVar11
+-=
+-uVar13
+-+
+-N;
+-pbVar9
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar7
+-=
+-(T)uVar13
+--
+-N;
+-uVar13
+-=
+-(ulong)uVar7;
+-_DAT_ADDR
+-=
+-(T)*pbVar9
+-|
+-_DAT_ADDR
+-<<
+-N;
+-pbVar9
+-=
+-pbVar9
+-+
+-N;
+-}
+-while
+-(uVar7
+-!=
+-N);
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-(T)bVar1;
+-lVar11
+-=
+-N;
+-}
+-pbVar6
+-=
+-pbVar6
+-+
+-lVar11;
+-_DAT_ADDR
+-=
+-pbVar12;
+-if
+-((*pbVar6
+-==
+-N)
+-&&
+-((T)pbVar6[N]
+-<
+-'\N'))
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-N;
+-if
+-(_DAT_ADDR
+-<
+-N)
+-{
+-pbVar6
+-=
+-pbVar6
+-+
+-N;
+-SYMR:
+-_DAT_ADDR
+-=
+-uVar2;
+-SYMR(NR,pbVar6,_DAT_ADDR);
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-goto
+-joined_r0xADDR;
+-}
+-}
+-else
+-if
+-(_DAT_ADDR
+-<
+-N)
+-goto
+-SYMR;
+-bVar3
+-=
+-_DAT_ADDR
+-!=
+-uVar8;
+-_DAT_ADDR
+-=
+-uVar2;
+-}
+-while
+-(bVar3);
+-}
+-}
+-_DAT_ADDR
+-=
+-N;
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-return
+-N;
+-}
++return
++N;
++}
+```
+
+## ffff0000907b0960 -> ffff0000907b0ec4  (similarity 0.50)
+
+```diff
+--- H3 ffff0000907b0960
++++ H4 ffff0000907b0ec4
+@@ -7,47 +7,86 @@
+ T
+ bVar1;
+ T
+ bVar2;
+ T
+ iVar3;
++T
++uVar4;
+ ulong
+-uVar4;
++uVar5;
+ T
+-*pbVar5;
++*pbVar6;
+ ulong
+-uVar6;
+-T
+-lVar7;
++uVar7;
+ T
+ *pbVar8;
+ T
+ uVar9;
+ T
+-uVar10;
++lVar10;
++ulong
++uVar11;
+ T
+-*pbVar11;
+-ulong
+-uVar12;
+-uVar10
++*pbVar12;
++T
++local_4c;
++T
++*local_48;
++uVar4
+ =
+ *(T
+ *)(P
+ +
+ N);
++local_48
++=
++(T
++*)N;
++local_4c
++=
++N;
+ _DAT_ADDR
+ =
+ (T
+ *)(P
+ +
+-(ulong)uVar10);
++(ulong)uVar4);
+ _DAT_ADDR
+ =
+ (ulong)(P
+ -
+-uVar10);
++uVar4);
++if
++(uVar4
++<=
++P
++&&
++P
++-
++uVar4
++!=
++N)
++{
++uVar5
++=
++SYMR(&local_48,&local_4c);
++if
++((T)uVar5
++!=
++N)
++{
++return
++uVar5;
++}
++_DAT_ADDR
++=
++(ulong)local_4c;
++_DAT_ADDR
++=
++local_48;
+ if
+ ((P
+ >>
+ N
+ &
+ N)
+@@ -71,98 +110,496 @@
+ N
+ &
+ N)
+ !=
+ N)
+ &&
+-(uVar4
++(uVar5
+ =
+ SYMR(&DAT_ADDR,&DAT_ADDR),
+-(T)uVar4
+-!=
+-N
+-))
+-{
+-return
+-uVar4;
++(T)uVar5
++!=
++N))
++{
++return
++uVar5;
+ }
+ if
+ ((P
+ >>
+ N
+ &
+ N)
++!=
++N)
++{
++_DAT_ADDR
++=
++_DAT_ADDR;
++_DAT_ADDR
++=
++_DAT_ADDR;
++if
++(_DAT_ADDR
++!=
++N)
++{
++do
++{
++iVar3
++=
++SYMR(N);
++if
++(iVar3
++!=
++N)
++{
++_DAT_ADDR
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++return
++N;
++}
++if
++(_DAT_ADDR
+ ==
+ N)
+ {
++SYMR:
++SYMR
++(STR,&DAT_ADDR);
++return
++N;
++}
++pbVar6
++=
++_DAT_ADDR
+++
++N;
++bVar1
++=
++*pbVar6;
++uVar4
++=
++(T)bVar1;
++if
++(((T)bVar1
++<
++'\N')
++&&
++((bVar1
++&
++N)
++!=
++N))
++{
++iVar3
++=
++(uVar4
++&
++N)
+++
++N;
++uVar9
++=
++uVar4
++&
++N;
++uVar4
++=
++N;
++pbVar12
++=
++_DAT_ADDR
+++
++N;
++do
++{
++uVar9
++=
++uVar9
++-
++N;
++uVar4
++=
++(T)*pbVar12
++|
++uVar4
++<<
++N;
++pbVar12
++=
++pbVar12
+++
++N;
++}
++while
++(uVar9
++!=
++N);
++}
++else
++{
++iVar3
++=
++N;
++}
++if
++((*_DAT_ADDR
++&
++N)
++!=
++N)
++{
++uVar4
++=
++N;
++}
++uVar7
++=
++(ulong)(iVar3
+++
++uVar4
+++
++N);
++uVar5
++=
++_DAT_ADDR
++-
++uVar7;
++if
++(_DAT_ADDR
++<
++uVar7)
++{
++_DAT_ADDR
++=
++N;
++return
++N;
++}
++pbVar12
++=
++_DAT_ADDR
+++
++uVar7;
++if
++(*_DAT_ADDR
++!=
++N)
++{
++_DAT_ADDR
++=
++pbVar12;
++_DAT_ADDR
++=
++uVar5;
++return
++N;
++}
++bVar1
++=
++*pbVar6;
++if
++(((T)bVar1
++<
++'\N')
++&&
++(uVar11
++=
++(ulong)bVar1
++&
++N,
++(T)uVar11
++!=
++N))
++{
++_DAT_ADDR
++=
++N;
++lVar10
++=
++uVar11
+++
++N;
++pbVar8
++=
++_DAT_ADDR
+++
++N;
++do
++{
++uVar4
++=
++(T)uVar11
++-
++N;
++uVar11
++=
++(ulong)uVar4;
++_DAT_ADDR
++=
++(T)*pbVar8
++|
++_DAT_ADDR
++<<
++N;
++pbVar8
++=
++pbVar8
+++
++N;
++}
++while
++(uVar4
++!=
++N);
++}
++else
++{
++_DAT_ADDR
++=
++(T)bVar1;
++lVar10
++=
++N;
++}
++pbVar6
++=
++pbVar6
+++
++lVar10;
++_DAT_ADDR
++=
++pbVar12;
++if
++((*pbVar6
++==
++N)
++&&
++((T)pbVar6[N]
++<
++'\N'))
++{
++_DAT_ADDR
++=
++_DAT_ADDR
++-
++N;
++if
++(_DAT_ADDR
++<
++N)
++{
++pbVar6
++=
++pbVar6
+++
++N;
++SYMR:
++_DAT_ADDR
++=
++uVar5;
++SYMR(NR,pbVar6,_DAT_ADDR);
++_DAT_ADDR
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++goto
++joined_r0xADDR;
++}
++}
++else
++if
++(_DAT_ADDR
++<
++N)
++goto
++SYMR;
++bVar2
++=
++_DAT_ADDR
++!=
++uVar7;
++_DAT_ADDR
++=
++uVar5;
++}
++while
++(bVar2);
++}
++_DAT_ADDR
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++return
++N;
++}
+ joined_r0xADDR:
+ if
+ (((P
+ >>
+ N
+ &
+ N)
+ !=
+ N)
+ &&
+-(uVar4
++(uVar5
+ =
+ SYMR(DAT_ADDR,DAT_ADDR
+ +
+ N,N),
+-(T)uVar4
++(T)uVar5
+ !=
+ N))
+ {
+ return
+-uVar4;
++uVar5;
++}
++if
++(((P
++>>
++N
++&
++N)
++!=
++N)
++&&
++(uVar5
++=
++SYMR(),
++(T)uVar5
++!=
++N))
++{
++return
++uVar5;
+ }
+ if
+ ((P
+ >>
+ N
+ &
+ N)
+ !=
+ N)
+ {
++SYMR();
++}
++if
++(((P
++>>
++N
++&
++N)
++!=
++N)
++&&
++(uVar5
++=
++SYMR(),
++(T)uVar5
++!=
++N))
++{
++return
++uVar5;
++}
++if
++(((P
++>>
++N
++&
++N)
++!=
++N)
++&&
++(uVar5
++=
++SYMR(),
++(T)uVar5
++!=
++N))
++{
++return
++uVar5;
++}
++if
++(((P
++>>
++N
++&
++N)
++!=
++N)
++&&
++(uVar5
++=
++SYMR(),
++(T)uVar5
++!=
++N))
++{
++return
++uVar5;
++}
++return
++N;
++}
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+ if
+ (_DAT_ADDR
+-==
+-N)
+-{
+-uVar4
+-=
+-N;
+-}
+-else
+-{
+-while
+-(uVar4
+-=
+-SYMR(N),
+-(T)uVar4
+-==
+-N)
+-{
++!=
++N)
++{
++do
++{
++iVar3
++=
++SYMR(N);
++if
++(iVar3
++!=
++N)
++{
++_DAT_ADDR
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++return
++N;
++}
+ if
+ (_DAT_ADDR
+ ==
+ N)
+ goto
+ SYMR;
+ bVar1
+ =
+ _DAT_ADDR[N];
+-uVar10
++uVar4
+ =
+ (T)bVar1;
+ if
+ (((T)bVar1
+ <
+ '\N')
+@@ -172,47 +609,47 @@
+ N)
+ !=
+ N))
+ {
+ iVar3
+ =
+-(uVar10
++(uVar4
+ &
+ N)
+ +
+ N;
+ uVar9
+ =
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar5
++uVar4
++&
++N;
++uVar4
++=
++N;
++pbVar6
+ =
+ _DAT_ADDR
+ +
+ N;
+ do
+ {
+ uVar9
+ =
+ uVar9
+ -
+ N;
+-uVar10
+-=
+-(T)*pbVar5
++uVar4
++=
++(T)*pbVar6
+ |
+-uVar10
++uVar4
+ <<
+ N;
+-pbVar5
+-=
+-pbVar5
++pbVar6
++=
++pbVar6
+ +
+ N;
+ }
+ while
+ (uVar9
+ !=
+@@ -228,122 +665,117 @@
+ ((*_DAT_ADDR
+ &
+ N)
+ !=
+ N)
+ {
+-uVar10
+-=
+-N;
+-}
+-uVar6
++uVar4
++=
++N;
++}
++uVar7
+ =
+ (ulong)(iVar3
+ +
+-uVar10
++uVar4
+ +
+ N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
++uVar5
++=
++_DAT_ADDR
++-
++uVar7;
+ if
+ (_DAT_ADDR
+ <
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-uVar6;
++uVar7)
++goto
++SYMR;
++pbVar6
++=
++_DAT_ADDR
+++
++uVar7;
+ if
+ (*_DAT_ADDR
+ !=
+ N)
+ {
+ _DAT_ADDR
+ =
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
++pbVar6;
++_DAT_ADDR
++=
++uVar5;
+ return
+ N;
+ }
+ bVar1
+ =
+ _DAT_ADDR[N];
+ if
+ (((T)bVar1
+ <
+ '\N')
+ &&
+-(uVar12
++(uVar11
+ =
+ (ulong)bVar1
+ &
+ N,
+-(T)uVar12
++(T)uVar11
+ !=
+ N))
+ {
+ _DAT_ADDR
+ =
+ N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar11
++lVar10
++=
++uVar11
+++
++N;
++pbVar12
+ =
+ _DAT_ADDR
+ +
+ N;
+ do
+ {
+-uVar10
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar10;
+-_DAT_ADDR
+-=
+-(T)*pbVar11
++uVar4
++=
++(T)uVar11
++-
++N;
++uVar11
++=
++(ulong)uVar4;
++_DAT_ADDR
++=
++(T)*pbVar12
+ |
+ _DAT_ADDR
+ <<
+ N;
+-pbVar11
+-=
+-pbVar11
++pbVar12
++=
++pbVar12
+ +
+ N;
+ }
+ while
+-(uVar10
++(uVar4
+ !=
+ N);
+ }
+ else
+ {
+ _DAT_ADDR
+ =
+ (T)bVar1;
+-lVar7
++lVar10
+ =
+ N;
+ }
+ _DAT_ADDR
+ =
+ _DAT_ADDR
+@@ -351,456 +783,95 @@
+ N;
+ if
+ (_DAT_ADDR
+ <
+ N)
+ {
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-lVar7
+-+
+-N;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar11);
++pbVar12
++=
++_DAT_ADDR
+++
++lVar10
+++
++N;
++_DAT_ADDR
++=
++pbVar6;
++_DAT_ADDR
++=
++uVar5;
++SYMR(NR,pbVar12);
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+ =
+ N;
+ goto
+-SYMR;
++joined_r0xADDR;
+ }
+ bVar2
+ =
+ _DAT_ADDR
+-==
+-uVar6;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-if
+-(bVar2)
+-{
+-uVar10
+-=
+-N;
+-if
+-(*DAT_ADDR
+-!=
+-N)
+-{
+-uVar10
+-=
+-N;
+-}
++!=
++uVar7;
++_DAT_ADDR
++=
++pbVar6;
++_DAT_ADDR
++=
++uVar5;
++}
++while
++(bVar2);
++}
++}
++else
++{
++_DAT_ADDR
++=
++local_48;
++_DAT_ADDR
++=
++_DAT_ADDR;
++if
++(local_4c
++!=
++N)
++{
++do
++{
++iVar3
++=
++SYMR(N);
++if
++(iVar3
++!=
++N)
++{
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+ =
+ N;
+ return
+-(ulong)uVar10;
+-}
+-}
+-}
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-if
+-((T)uVar4
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-uVar4;
+-}
+-}
+-SYMR:
+-if
+-((P
+->>
+-N
+-&
+-N)
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-pbVar5
+-=
+-_DAT_ADDR;
+-uVar4
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-do
+-{
+-iVar3
+-=
+-SYMR(N);
+-pbVar5
+-=
+-_DAT_ADDR;
+-uVar4
+-=
+-_DAT_ADDR;
+-if
+-(iVar3
+-!=
+-N)
+-break;
+-if
+-(_DAT_ADDR
+-==
+-N)
+-{
+-SYMR
+-(STR,&DAT_ADDR);
+-pbVar5
+-=
+-_DAT_ADDR;
+-uVar4
+-=
+-_DAT_ADDR;
+-break;
+-}
+-bVar1
+-=
+-_DAT_ADDR[N];
+-uVar10
+-=
+-(T)bVar1;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-((bVar1
+-&
+-N)
+-!=
+-N))
+-{
+-iVar3
+-=
+-(uVar10
+-&
+-N)
+-+
+-N;
+-uVar9
+-=
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-(T)*pbVar11
+-|
+-uVar10
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar3
+-=
+-N;
+-}
+-if
+-((*_DAT_ADDR
+-&
+-N)
+-!=
+-N)
+-{
+-uVar10
+-=
+-N;
+-}
+-uVar6
+-=
+-(ulong)(iVar3
+-+
+-uVar10
+-+
+-N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
+-if
+-(_DAT_ADDR
+-<
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-uVar4
+-=
+-_DAT_ADDR;
+-break;
+-}
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-uVar6;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-break;
+-bVar1
+-=
+-_DAT_ADDR[N];
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar12
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar12
+-!=
+-N))
+-{
+-uVar10
+-=
+-N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar9;
+-uVar10
+-=
+-(T)*pbVar11
+-|
+-uVar10
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-uVar10
+-=
+-(T)bVar1;
+-lVar7
+-=
+-N;
+-}
+-if
+-(uVar10
+--
+-N
+-<
+-N)
+-{
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-lVar7
+-+
+-N;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar11);
+-goto
+-SYMR;
+-}
+-bVar2
+-=
+-_DAT_ADDR
+-!=
+-uVar6;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-}
+-while
+-(bVar2);
+-}
+-_DAT_ADDR
+-=
+-uVar4;
+-_DAT_ADDR
+-=
+-pbVar5;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-SYMR(DAT_ADDR
+-+
+-N,N,N);
+-SYMR
+-(STR,&DAT_ADDR);
+-}
+-SYMR:
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-}
+-if
+-((P
+->>
+-N
+-&
+-N)
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-do
+-{
+-iVar3
+-=
+-SYMR(N);
+-if
+-(iVar3
+-!=
+-N)
+-break;
++N;
++}
+ if
+ (_DAT_ADDR
+ ==
+ N)
+ goto
+ SYMR;
+ bVar1
+ =
+ _DAT_ADDR[N];
+-uVar10
++uVar4
+ =
+ (T)bVar1;
+ if
+ (((T)bVar1
+ <
+ '\N')
+@@ -810,47 +881,47 @@
+ N)
+ !=
+ N))
+ {
+ iVar3
+ =
+-(uVar10
++(uVar4
+ &
+ N)
+ +
+ N;
+ uVar9
+ =
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar5
++uVar4
++&
++N;
++uVar4
++=
++N;
++pbVar6
+ =
+ _DAT_ADDR
+ +
+ N;
+ do
+ {
+ uVar9
+ =
+ uVar9
+ -
+ N;
+-uVar10
+-=
+-(T)*pbVar5
++uVar4
++=
++(T)*pbVar6
+ |
+-uVar10
++uVar4
+ <<
+ N;
+-pbVar5
+-=
+-pbVar5
++pbVar6
++=
++pbVar6
+ +
+ N;
+ }
+ while
+ (uVar9
+ !=
+@@ -866,1618 +937,192 @@
+ ((*_DAT_ADDR
+ &
+ N)
+ !=
+ N)
+ {
+-uVar10
+-=
+-N;
+-}
+-uVar6
++uVar4
++=
++N;
++}
++uVar7
+ =
+ (ulong)(iVar3
+ +
+-uVar10
++uVar4
+ +
+ N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
++uVar5
++=
++_DAT_ADDR
++-
++uVar7;
+ if
+ (_DAT_ADDR
+ <
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-uVar6;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-return
+-N;
+-}
+-bVar1
+-=
+-_DAT_ADDR[N];
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar12
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar12
+-!=
+-N))
+-{
+-_DAT_ADDR
+-=
+-N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar10
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar10;
+-_DAT_ADDR
+-=
+-(T)*pbVar11
+-|
+-_DAT_ADDR
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar10
+-!=
+-N);
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-(T)bVar1;
+-lVar7
+-=
+-N;
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-N;
+-if
+-(_DAT_ADDR
+-<
+-N)
+-{
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-lVar7
+-+
+-N;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar11);
++uVar7)
+ goto
+ SYMR;
++pbVar6
++=
++_DAT_ADDR
+++
++uVar7;
++if
++(*_DAT_ADDR
++!=
++N)
++{
++_DAT_ADDR
++=
++pbVar6;
++_DAT_ADDR
++=
++uVar5;
++return
++N;
++}
++bVar1
++=
++_DAT_ADDR[N];
++if
++(((T)bVar1
++<
++'\N')
++&&
++(uVar11
++=
++(ulong)bVar1
++&
++N,
++(T)uVar11
++!=
++N))
++{
++_DAT_ADDR
++=
++N;
++lVar10
++=
++uVar11
+++
++N;
++pbVar12
++=
++_DAT_ADDR
+++
++N;
++do
++{
++uVar4
++=
++(T)uVar11
++-
++N;
++uVar11
++=
++(ulong)uVar4;
++_DAT_ADDR
++=
++(T)*pbVar12
++|
++_DAT_ADDR
++<<
++N;
++pbVar12
++=
++pbVar12
+++
++N;
++}
++while
++(uVar4
++!=
++N);
++}
++else
++{
++_DAT_ADDR
++=
++(T)bVar1;
++lVar10
++=
++N;
++}
++_DAT_ADDR
++=
++_DAT_ADDR
++-
++N;
++if
++(_DAT_ADDR
++<
++N)
++{
++pbVar12
++=
++_DAT_ADDR
+++
++lVar10
+++
++N;
++_DAT_ADDR
++=
++pbVar6;
++_DAT_ADDR
++=
++uVar5;
++SYMR(NR,pbVar12);
++_DAT_ADDR
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++goto
++joined_r0xADDR;
+ }
+ bVar2
+ =
+ _DAT_ADDR
+ !=
+-uVar6;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
++uVar7;
++_DAT_ADDR
++=
++pbVar6;
++_DAT_ADDR
++=
++uVar5;
+ }
+ while
+ (bVar2);
+ }
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-SYMR(DAT_ADDR
+-+
+-N,N,N);
+-SYMR
+-(STR,&DAT_ADDR);
+-}
+-SYMR:
++}
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+ =
+ N;
+-}
+-if
+-((P
+->>
+-N
+-&
+-N)
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-do
+-{
+-iVar3
+-=
+-SYMR(N);
+-if
+-(iVar3
+-!=
+-N)
+-break;
+-if
+-(_DAT_ADDR
+-==
+-N)
++return
++N;
++}
++uVar4
++=
++N;
++SYMR:
++return
++(ulong)(uVar4
++|
++N);
++SYMR:
++uVar4
++=
++N;
++_DAT_ADDR
++=
++N;
+ goto
+ SYMR;
+-bVar1
+-=
+-_DAT_ADDR[N];
+-uVar10
+-=
+-(T)bVar1;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-((bVar1
+-&
+-N)
+-!=
+-N))
+-{
+-iVar3
+-=
+-(uVar10
+-&
+-N)
+-+
+-N;
+-uVar9
+-=
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-(T)*pbVar5
+-|
+-uVar10
+-<<
+-N;
+-pbVar5
+-=
+-pbVar5
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar3
+-=
+-N;
+-}
+-if
+-((*_DAT_ADDR
+-&
+-N)
+-!=
+-N)
+-{
+-uVar10
+-=
+-N;
+-}
+-uVar6
+-=
+-(ulong)(iVar3
+-+
+-uVar10
+-+
+-N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
+-if
+-(_DAT_ADDR
+-<
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-uVar6;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-return
+-N;
+-}
+-bVar1
+-=
+-_DAT_ADDR[N];
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar12
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar12
+-!=
+-N))
+-{
+-_DAT_ADDR
+-=
+-N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar10
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar10;
+-_DAT_ADDR
+-=
+-(T)*pbVar11
+-|
+-_DAT_ADDR
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar10
+-!=
+-N);
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-(T)bVar1;
+-lVar7
+-=
+-N;
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-N;
+-if
+-(_DAT_ADDR
+-<
+-N)
+-{
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-lVar7
+-+
+-N;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar11);
+-break;
+-}
+-bVar2
+-=
+-_DAT_ADDR
+-!=
+-uVar6;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-}
+-while
+-(bVar2);
+-}
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-}
+-if
+-((P
+->>
+-N
+-&
+-N)
+-==
+-N)
+-{
+-return
+-N;
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-do
+-{
+-iVar3
+-=
+-SYMR(N);
+-if
+-(iVar3
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-if
+-(_DAT_ADDR
+-==
+-N)
+-{
+-SYMR:
+-SYMR
+-(STR,&DAT_ADDR);
+-return
+-N;
+-}
+-bVar1
+-=
+-_DAT_ADDR[N];
+-uVar10
+-=
+-(T)bVar1;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-((bVar1
+-&
+-N)
+-!=
+-N))
+-{
+-iVar3
+-=
+-(uVar10
+-&
+-N)
+-+
+-N;
+-uVar9
+-=
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-(T)*pbVar5
+-|
+-uVar10
+-<<
+-N;
+-pbVar5
+-=
+-pbVar5
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar3
+-=
+-N;
+-}
+-if
+-((*_DAT_ADDR
+-&
+-N)
+-!=
+-N)
+-{
+-uVar10
+-=
+-N;
+-}
+-uVar6
+-=
+-(ulong)(iVar3
+-+
+-uVar10
+-+
+-N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
+-if
+-(_DAT_ADDR
+-<
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-uVar6;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-uVar4;
+-_DAT_ADDR
+-=
+-pbVar5;
+-return
+-N;
+-}
+-bVar1
+-=
+-_DAT_ADDR[N];
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar12
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar12
+-!=
+-N))
+-{
+-_DAT_ADDR
+-=
+-N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar10
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar10;
+-_DAT_ADDR
+-=
+-(T)*pbVar11
+-|
+-_DAT_ADDR
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar10
+-!=
+-N);
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-(T)bVar1;
+-lVar7
+-=
+-N;
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-N;
+-if
+-(_DAT_ADDR
+-<
+-N)
+-{
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-lVar7
+-+
+-N;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar11);
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-bVar2
+-=
+-_DAT_ADDR
+-!=
+-uVar6;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-}
+-while
+-(bVar2);
+-}
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-do
+-{
+-iVar3
+-=
+-SYMR(N);
+-if
+-(iVar3
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-if
+-(_DAT_ADDR
+-==
+-N)
+-goto
+-SYMR;
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-N;
+-bVar1
+-=
+-*pbVar5;
+-uVar10
+-=
+-(T)bVar1;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-((bVar1
+-&
+-N)
+-!=
+-N))
+-{
+-iVar3
+-=
+-(uVar10
+-&
+-N)
+-+
+-N;
+-uVar9
+-=
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-(T)*pbVar11
+-|
+-uVar10
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar3
+-=
+-N;
+-}
+-if
+-((*_DAT_ADDR
+-&
+-N)
+-!=
+-N)
+-{
+-uVar10
+-=
+-N;
+-}
+-uVar6
+-=
+-(ulong)(iVar3
+-+
+-uVar10
+-+
+-N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
+-if
+-(_DAT_ADDR
+-<
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-uVar6;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-pbVar11;
+-_DAT_ADDR
+-=
+-uVar4;
+-return
+-N;
+-}
+-bVar1
+-=
+-*pbVar5;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar12
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar12
+-!=
+-N))
+-{
+-_DAT_ADDR
+-=
+-N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar8
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar10
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar10;
+-_DAT_ADDR
+-=
+-(T)*pbVar8
+-|
+-_DAT_ADDR
+-<<
+-N;
+-pbVar8
+-=
+-pbVar8
+-+
+-N;
+-}
+-while
+-(uVar10
+-!=
+-N);
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-(T)bVar1;
+-lVar7
+-=
+-N;
+-}
+-pbVar5
+-=
+-pbVar5
+-+
+-lVar7;
+-_DAT_ADDR
+-=
+-pbVar11;
+-if
+-((*pbVar5
+-==
+-N)
+-&&
+-((T)pbVar5[N]
+-<
+-'\N'))
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-N;
+-if
+-(_DAT_ADDR
+-<
+-N)
+-{
+-pbVar5
+-=
+-pbVar5
+-+
+-N;
+-SYMR:
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar5,_DAT_ADDR);
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-goto
+-joined_r0xADDR;
+-}
+-}
+-else
+-if
+-(_DAT_ADDR
+-<
+-N)
+-goto
+-SYMR;
+-bVar2
+-=
+-_DAT_ADDR
+-!=
+-uVar6;
+-_DAT_ADDR
+-=
+-uVar4;
+-}
+-while
+-(bVar2);
+-}
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-do
+-{
+-iVar3
+-=
+-SYMR(N);
+-if
+-(iVar3
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-if
+-(_DAT_ADDR
+-==
+-N)
+-goto
+-SYMR;
+-bVar1
+-=
+-_DAT_ADDR[N];
+-uVar10
+-=
+-(T)bVar1;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-((bVar1
+-&
+-N)
+-!=
+-N))
+-{
+-iVar3
+-=
+-(uVar10
+-&
+-N)
+-+
+-N;
+-uVar9
+-=
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-(T)*pbVar5
+-|
+-uVar10
+-<<
+-N;
+-pbVar5
+-=
+-pbVar5
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar3
+-=
+-N;
+-}
+-if
+-((*_DAT_ADDR
+-&
+-N)
+-!=
+-N)
+-{
+-uVar10
+-=
+-N;
+-}
+-uVar6
+-=
+-(ulong)(iVar3
+-+
+-uVar10
+-+
+-N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
+-if
+-(_DAT_ADDR
+-<
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-uVar6;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-return
+-N;
+-}
+-bVar1
+-=
+-_DAT_ADDR[N];
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar12
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar12
+-!=
+-N))
+-{
+-_DAT_ADDR
+-=
+-N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar10
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar10;
+-_DAT_ADDR
+-=
+-(T)*pbVar11
+-|
+-_DAT_ADDR
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar10
+-!=
+-N);
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-(T)bVar1;
+-lVar7
+-=
+-N;
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-N;
+-if
+-(_DAT_ADDR
+-<
+-N)
+-{
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-lVar7
+-+
+-N;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar11);
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-goto
+-joined_r0xADDR;
+-}
+-bVar2
+-=
+-_DAT_ADDR
+-!=
+-uVar6;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-}
+-while
+-(bVar2);
+-}
+-}
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-if
+-(uVar10
+-!=
+-P)
+-{
+-do
+-{
+-iVar3
+-=
+-SYMR(N);
+-if
+-(iVar3
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-if
+-(_DAT_ADDR
+-==
+-N)
+-goto
+-SYMR;
+-bVar1
+-=
+-_DAT_ADDR[N];
+-uVar10
+-=
+-(T)bVar1;
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-((bVar1
+-&
+-N)
+-!=
+-N))
+-{
+-iVar3
+-=
+-(uVar10
+-&
+-N)
+-+
+-N;
+-uVar9
+-=
+-uVar10
+-&
+-N;
+-uVar10
+-=
+-N;
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-(T)*pbVar5
+-|
+-uVar10
+-<<
+-N;
+-pbVar5
+-=
+-pbVar5
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar3
+-=
+-N;
+-}
+-if
+-((*_DAT_ADDR
+-&
+-N)
+-!=
+-N)
+-{
+-uVar10
+-=
+-N;
+-}
+-uVar6
+-=
+-(ulong)(iVar3
+-+
+-uVar10
+-+
+-N);
+-uVar4
+-=
+-_DAT_ADDR
+--
+-uVar6;
+-if
+-(_DAT_ADDR
+-<
+-uVar6)
+-{
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar5
+-=
+-_DAT_ADDR
+-+
+-uVar6;
+-if
+-(*_DAT_ADDR
+-!=
+-N)
+-{
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-return
+-N;
+-}
+-bVar1
+-=
+-_DAT_ADDR[N];
+-if
+-(((T)bVar1
+-<
+-'\N')
+-&&
+-(uVar12
+-=
+-(ulong)bVar1
+-&
+-N,
+-(T)uVar12
+-!=
+-N))
+-{
+-_DAT_ADDR
+-=
+-N;
+-lVar7
+-=
+-uVar12
+-+
+-N;
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar10
+-=
+-(T)uVar12
+--
+-N;
+-uVar12
+-=
+-(ulong)uVar10;
+-_DAT_ADDR
+-=
+-(T)*pbVar11
+-|
+-_DAT_ADDR
+-<<
+-N;
+-pbVar11
+-=
+-pbVar11
+-+
+-N;
+-}
+-while
+-(uVar10
+-!=
+-N);
+-}
+-else
+-{
+-_DAT_ADDR
+-=
+-(T)bVar1;
+-lVar7
+-=
+-N;
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-N;
+-if
+-(_DAT_ADDR
+-<
+-N)
+-{
+-pbVar11
+-=
+-_DAT_ADDR
+-+
+-lVar7
+-+
+-N;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-SYMR(NR,pbVar11);
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-goto
+-joined_r0xADDR;
+-}
+-bVar2
+-=
+-_DAT_ADDR
+-!=
+-uVar6;
+-_DAT_ADDR
+-=
+-pbVar5;
+-_DAT_ADDR
+-=
+-uVar4;
+-}
+-while
+-(bVar2);
+-}
+-}
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
++}
+```
+
+## ffff0000907b1478 -> ffff0000907b1be4  (similarity 0.82)
+
+```diff
+--- H3 ffff0000907b1478
++++ H4 ffff0000907b1be4
+@@ -1,74 +1,121 @@
+-T
++ulong
+ SYMR(T
+ P,T
+ P)
+ {
+ T
+ uVar1;
+ T
+ bVar2;
+ T
+-lVar3;
+-T
+-bVar4;
++bVar3;
++T
++uVar4;
+ T
+ iVar5;
+-T
++ulong
+ uVar6;
+ T
+ uVar7;
+ ushort
+ uVar8;
++T
++lVar9;
++T
++*puVar10;
++T
++uVar11;
+ ulong
+-uVar9;
+-T
+-lVar10;
+-T
+-*puVar11;
+-T
+ uVar12;
+ T
+-uVar13;
+-ulong
+-uVar14;
+-T
+-*pbVar15;
++*pbVar13;
++T
++local_6c;
++T
++*local_68;
++uVar4
++=
++N;
+ SYMR(&DAT_ADDR,N,N);
+-lVar3
+-=
+-DAT_ADDR;
+-_DAT_ADDR
+-=
+-N;
+-_DAT_ADDR
+-=
+-N;
+-DAT_ADDR
++local_68
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++_DAT_ADDR
++=
++N;
++uVar11
+ =
+ *(T
+ *)(P
+ +
+ N);
+-_DAT_ADDR
+-=
+-(T
+-*)(P
+-+
+-(ulong)*(T
+-*)(P
+-+
+-N));
+-_DAT_ADDR
+-=
+-(ulong)(P
+--
++local_6c
++=
++N;
++DAT_ADDR
++=
+ *(T
+ *)(P
+ +
+-N));
++N);
++_DAT_ADDR
++=
++(T
++*)(P
+++
++(ulong)uVar11);
++_DAT_ADDR
++=
++(ulong)(P
++-
++uVar11);
++if
++(P
++<
++uVar11
++||
++P
++-
++uVar11
++==
++N)
++{
++uVar11
++=
++N;
++SYMR:
++return
++(ulong)(uVar11
++|
++N);
++}
++uVar6
++=
++SYMR(&local_68,&local_6c);
++lVar9
++=
++DAT_ADDR;
++if
++((T)uVar6
++!=
++N)
++{
++return
++uVar6;
++}
++_DAT_ADDR
++=
++(ulong)local_6c;
++_DAT_ADDR
++=
++local_68;
+ uVar6
+ =
+ SYMR(DAT_ADDR
+ +
+ N,DAT_ADDR
+ +
+@@ -80,39 +127,19 @@
+ {
+ return
+ uVar6;
+ }
+ if
+ (DAT_ADDR
+-==
+-N)
+-{
+-uVar6
+-=
+-SYMR(P,P,N);
+-if
+-((T)uVar6
+-!=
+-N)
+-{
+-return
+-uVar6;
+-}
++!=
++N)
++{
+ uVar7
+ =
+-*(T
+-*)(lVar3
+-+
+-N);
+-}
+-else
+-{
+-uVar7
+-=
+-N;
+-}
++N;
++SYMR:
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+ _DAT_ADDR
+ =
+ _DAT_ADDR;
+@@ -182,13 +209,13 @@
+ ==
+ N)
+ break;
+ bVar2
+ =
+ _DAT_ADDR[N];
+-uVar12
++uVar11
+ =
+ (T)bVar2;
+ if
+ (((T)bVar2
+ <
+ '\N')
+@@ -198,52 +225,52 @@
+ N)
+ !=
+ N))
+ {
+ iVar5
+ =
+-(uVar12
++(uVar11
+ &
+ N)
+ +
+ N;
+-uVar13
+-=
+-uVar12
++uVar4
++=
++uVar11
+ &
+ N;
+-uVar12
+-=
+-N;
+-pbVar15
++uVar11
++=
++N;
++pbVar13
+ =
+ _DAT_ADDR
+ +
+ N;
+ do
+ {
+-uVar13
+-=
+-uVar13
+--
+-N;
+-uVar12
+-=
+-(T)*pbVar15
++uVar4
++=
++uVar4
++-
++N;
++uVar11
++=
++(T)*pbVar13
+ |
+-uVar12
++uVar11
+ <<
+ N;
+-pbVar15
+-=
+-pbVar15
++pbVar13
++=
++pbVar13
+ +
+ N;
+ }
+ while
+-(uVar13
++(uVar4
+ !=
+ N);
+ }
+ else
+ {
+ iVar5
+@@ -254,35 +281,35 @@
+ ((*_DAT_ADDR
+ &
+ N)
+ !=
+ N)
+ {
+-uVar12
+-=
+-N;
+-}
+-uVar9
++uVar11
++=
++N;
++}
++uVar6
+ =
+ (ulong)(iVar5
+ +
+-uVar12
+-+
+-N);
+-bVar4
++uVar11
+++
++N);
++bVar3
+ =
+ _DAT_ADDR
+ <
+-uVar9;
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-uVar9;
+-if
+-(bVar4)
++uVar6;
++_DAT_ADDR
++=
++_DAT_ADDR
++-
++uVar6;
++if
++(bVar3)
+ {
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+@@ -301,94 +328,94 @@
+ _DAT_ADDR[N];
+ if
+ (((T)bVar2
+ <
+ '\N')
+ &&
+-(uVar14
++(uVar12
+ =
+ (ulong)bVar2
+ &
+ N,
+-(T)uVar14
++(T)uVar12
+ !=
+ N))
+ {
++uVar11
++=
++N;
++lVar9
++=
+ uVar12
+-=
+-N;
+-lVar10
+-=
+-uVar14
+-+
+-N;
+-pbVar15
+++
++N;
++pbVar13
+ =
+ _DAT_ADDR
+ +
+ N;
+ do
+ {
+-uVar13
+-=
+-(T)uVar14
+--
+-N;
+-uVar14
+-=
+-(ulong)uVar13;
++uVar4
++=
++(T)uVar12
++-
++N;
+ uVar12
+ =
+-(T)*pbVar15
++(ulong)uVar4;
++uVar11
++=
++(T)*pbVar13
+ |
+-uVar12
++uVar11
+ <<
+ N;
+-pbVar15
+-=
+-pbVar15
++pbVar13
++=
++pbVar13
+ +
+ N;
+ }
+ while
+-(uVar13
++(uVar4
+ !=
+ N);
+ }
+ else
+ {
+-uVar12
++uVar11
+ =
+ (T)bVar2;
+-lVar10
+-=
+-N;
+-}
+-uVar12
+-=
+-uVar12
+--
+-N;
+-if
+-(uVar12
++lVar9
++=
++N;
++}
++uVar11
++=
++uVar11
++-
++N;
++if
++(uVar11
+ <
+ N)
+ {
+-pbVar15
+-=
+-_DAT_ADDR
+-+
+-lVar10
+-+
+-N;
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+-+
+-uVar9;
+-SYMR(&DAT_ADDR,pbVar15,uVar12);
++pbVar13
++=
++_DAT_ADDR
+++
++lVar9
+++
++N;
++_DAT_ADDR
++=
++_DAT_ADDR
+++
++uVar6;
++SYMR(&DAT_ADDR,pbVar13,uVar11);
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+ =
+@@ -397,25 +424,25 @@
+ (_DAT_ADDR
+ ==
+ N)
+ {
+ uVar6
+ =
+-SYMR(&DAT_ADDR,uVar12,&DAT_ADDR);
+-goto
+-SYMR;
+-}
+-uVar13
++SYMR(&DAT_ADDR,uVar11,&DAT_ADDR);
++}
++else
++{
++uVar4
+ =
+ _DAT_ADDR
+ +
+ N
+ >>
+ N;
+ if
+-(uVar13
++(uVar4
+ !=
+ _DAT_ADDR)
+ {
+ _DAT_ADDR
+ =
+ (T
+@@ -430,13 +457,13 @@
+ (N
+ <
+ _DAT_ADDR
+ +
+ N)
+ {
+-lVar10
++lVar9
+ =
+ N;
+ do
+ {
+ if
+ ((_DAT_ADDR
+@@ -447,44 +474,44 @@
+ {
+ uVar8
+ =
+ *(ushort
+ *)(&DAT_ADDR
+ +
+-lVar10)
++lVar9)
+ >>
+ N
+ |
+ *(ushort
+ *)(&DAT_ADDR
+ +
+-lVar10)
++lVar9)
+ <<
+ N;
+ }
+ else
+ {
+ uVar8
+ =
+ (ushort)DAT_ADDR;
+ if
+-(lVar10
++(lVar9
+ !=
+ N)
+ {
+ uVar8
+ =
+-CONCAT11((&DAT_ADDR)[(T)lVar10
++CONCAT11((&DAT_ADDR)[(T)lVar9
+ -
+ N],
+-(&DAT_ADDR)[lVar10]);
++(&DAT_ADDR)[lVar9]);
+ }
+ }
+ if
+ (*(ushort
+-*)(lVar10
++*)(lVar9
+ +
+ -NR)
+ !=
+ uVar8)
+ {
+ _DAT_ADDR
+@@ -494,45 +521,55 @@
+ _DAT_ADDR
+ =
+ N;
+ return
+ N;
+ }
+-lVar10
+-=
+-lVar10
++lVar9
++=
++lVar9
+ +
+ N;
+ }
+ while
+-((ulong)uVar13
++((ulong)uVar4
+ <<
+ N
+ !=
+-lVar10);
+-}
+-uVar13
++lVar9);
++}
++uVar4
+ =
+ _DAT_ADDR
+ +
+ N
+ >>
+ N;
+ if
+-(uVar13
+-==
++(uVar4
++!=
+ _DAT_ADDR)
+ {
++_DAT_ADDR
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++return
++N;
++}
+ if
+ (N
+ <
+ _DAT_ADDR
+ +
+ N)
+ {
+-lVar10
++lVar9
+ =
+ N;
+ do
+ {
+ if
+ ((_DAT_ADDR
+@@ -543,44 +580,44 @@
+ {
+ uVar8
+ =
+ *(ushort
+ *)(&DAT_ADDR
+ +
+-lVar10)
++lVar9)
+ >>
+ N
+ |
+ *(ushort
+ *)(&DAT_ADDR
+ +
+-lVar10)
++lVar9)
+ <<
+ N;
+ }
+ else
+ {
+ uVar8
+ =
+ (ushort)DAT_ADDR;
+ if
+-(lVar10
++(lVar9
+ !=
+ N)
+ {
+ uVar8
+ =
+-CONCAT11((&DAT_ADDR)[(T)lVar10
++CONCAT11((&DAT_ADDR)[(T)lVar9
+ -
+ N],
+-(&DAT_ADDR)[lVar10]);
++(&DAT_ADDR)[lVar9]);
+ }
+ }
+ if
+ (*(ushort
+-*)(lVar10
++*)(lVar9
+ +
+ -NR)
+ !=
+ uVar8)
+ {
+ _DAT_ADDR
+@@ -590,174 +627,170 @@
+ _DAT_ADDR
+ =
+ N;
+ return
+ N;
+ }
+-lVar10
+-=
+-lVar10
++lVar9
++=
++lVar9
+ +
+ N;
+ }
+ while
+-((ulong)uVar13
++((ulong)uVar4
+ <<
+ N
+ !=
+-lVar10);
+-}
+-uVar6
+-=
+-SYMR(&DAT_ADDR,uVar12,&DAT_ADDR);
+-SYMR:
+-uVar12
++lVar9);
++}
++uVar6
++=
++SYMR(&DAT_ADDR,uVar11,&DAT_ADDR);
++}
++uVar11
+ =
+ _DAT_ADDR;
+ if
+ ((T)uVar6
+-==
+-N)
+-{
++!=
++N)
++{
++return
++uVar6;
++}
+ iVar5
+ =
+ SYMR(_DAT_ADDR);
+ if
+ (iVar5
+-==
+-N)
+-{
+-uVar6
+-=
+-N;
+-}
+-else
++!=
++N)
+ {
+ SYMR(&DAT_ADDR,N,N);
+-SYMR(&DAT_ADDR,&DAT_ADDR,uVar12);
+-_DAT_ADDR
+-=
+-uVar12;
++SYMR(&DAT_ADDR,&DAT_ADDR,uVar11);
++_DAT_ADDR
++=
++uVar11;
+ if
+ (N
+ <
+-uVar12)
+-{
+-uVar9
+-=
+-(ulong)(uVar12
++uVar11)
++{
++uVar6
++=
++(ulong)(uVar11
+ >>
+ N);
+-puVar11
++puVar10
+ =
+ &DAT_ADDR;
+ do
+ {
+-uVar12
+-=
+-uVar12
+--
+-N;
+-uVar9
+-=
+-uVar9
++uVar11
++=
++uVar11
++-
++N;
++uVar6
++=
++uVar6
+ -
+ N;
+ uVar1
+ =
+-*puVar11;
+-*puVar11
+-=
+-(&DAT_ADDR)[uVar12];
+-(&DAT_ADDR)[uVar12]
++*puVar10;
++*puVar10
++=
++(&DAT_ADDR)[uVar11];
++(&DAT_ADDR)[uVar11]
+ =
+ uVar1;
+-puVar11
+-=
+-puVar11
++puVar10
++=
++puVar10
+ +
+ N;
+ }
+ while
+-(uVar9
+-!=
+-N);
+-}
+-uVar6
+-=
+-SYMR();
+-if
+-((T)uVar6
+-==
+-N)
+-{
+-_DAT_ADDR
+-=
+-(ulong)_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-uVar6
+-=
+-SYMR(P,P,N);
+-if
+-(((T)uVar6
+-==
+-N)
+-&&
+-(DAT_ADDR
+-==
+-N))
+-{
++(uVar6
++!=
++N);
++}
+ _DAT_ADDR
+ =
+ (T
+ *)(P
+ +
+ (ulong)*(T
+ *)(P
+ +
+-N))
+-;
++N));
+ _DAT_ADDR
+ =
+ (ulong)(P
+ -
+ *(T
+ *)(P
+ +
+ N));
+ uVar6
+ =
+-SYMR(lVar3
+-+
+-N,N,lVar3
+-+
+-N);
+-return
+-uVar6;
+-}
+-}
+-}
+-}
+-}
+-else
+-{
+-uVar6
+-=
+-N;
+-}
+-return
+-uVar6;
+-}
+-}
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+-+
+-uVar9;
++SYMR();
++if
++((T)uVar6
++!=
++N)
++{
++return
++uVar6;
++}
++_DAT_ADDR
++=
++(ulong)_DAT_ADDR;
++_DAT_ADDR
++=
++(T
++*)_DAT_ADDR;
++uVar6
++=
++SYMR(P,P,N);
++if
++((T)uVar6
++!=
++N)
++{
++return
++uVar6;
++}
++if
++(DAT_ADDR
++==
++N)
++{
++uVar6
++=
++SYMR(P,P,N);
++return
++uVar6;
++}
++return
++uVar6;
++}
++uVar11
++=
++N;
++goto
++SYMR;
++}
++}
++_DAT_ADDR
++=
++_DAT_ADDR
+++
++uVar6;
+ if
+ (_DAT_ADDR
+ ==
+ N)
+ {
+ _DAT_ADDR
+@@ -768,20 +801,90 @@
+ =
+ N;
+ return
+ N;
+ }
+ }
+-SYMR(STR,&DAT_ADDR);
+-}
+-}
+-}
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
++SYMR
++(STR,&DAT_ADDR);
++}
++}
++}
++_DAT_ADDR
++=
++(T
++*)N;
++_DAT_ADDR
++=
++N;
++return
++N;
++}
++uVar11
++=
++*(T
++*)(P
+++
++N);
++local_68
++=
++(T
++*)N;
++local_6c
++=
++N;
++_DAT_ADDR
++=
++(T
++*)(P
+++
++(ulong)uVar11);
++_DAT_ADDR
++=
++(ulong)(P
++-
++uVar11);
++if
++((uVar11
++<=
++P
++&&
++P
++-
++uVar11
++!=
++N)
++&&
++(uVar4
++=
++SYMR(&local_68,&local_6c),
++uVar4
++==
++N))
++{
++_DAT_ADDR
++=
++(ulong)local_6c;
++_DAT_ADDR
++=
++local_68;
++uVar4
++=
++SYMR();
++if
++(uVar4
++==
++N)
++{
++uVar7
++=
++*(T
++*)(lVar9
+++
++N);
++goto
++SYMR;
++}
++}
++return
++(ulong)uVar4;
++}
+```
+
+## ffff0000907b1974 -> ffff0000907b216c  (similarity 0.58)
+
+```diff
+--- H3 ffff0000907b1974
++++ H4 ffff0000907b216c
+@@ -3,847 +3,533 @@
+ {
+ T
+ *pbVar1;
+ T
+ uVar2;
+ T
+-bVar3;
+-T
+-*puVar4;
+-T
+-bVar5;
+-T
+-iVar6;
+-T
+-*pbVar7;
+-T
+-lVar8;
++uVar3;
++T
++bVar4;
++T
++*puVar5;
++T
++bVar6;
++T
++iVar7;
++T
++uVar8;
+ T
+ uVar9;
++T
++lVar10;
++T
++uVar11;
++T
++uVar12;
++T
++*puVar13;
+ ulong
+-uVar10;
+-T
+-iVar11;
+-T
+-uVar12;
+-T
+-*puVar13;
+-T
+ uVar14;
+ T
+ *pbVar15;
+ ulong
+ uVar16;
+-T
++ulong
+ uVar17;
+ T
+ *pbVar18;
+ T
+-auStack_6c8
++auStack_6d4
+ [N];
++T
++local_4d4;
++T
++local_4d0;
+ T
+ local_4c8;
+ T
+ local_4c0
+ [N];
+ T
+ local_2c0
+ [N];
+ T
++local_c0;
++T
++local_b8;
++T
++local_b0;
++T
++local_a8;
++T
++local_a0;
++T
++local_98;
++T
+ local_90;
+ T
+ local_88;
+-T
+-local_80;
+-T
+-local_78;
+-T
+-local_70;
+-T
+-local_68;
+-T
+-local_60;
+-T
+-local_58;
+-SYMR(auStack_6c8,N,N);
+-pbVar7
+-=
+-_DAT_ADDR;
+-uVar10
+-=
+-_DAT_ADDR;
++local_4d4
++=
++N;
++local_4d0
++=
++N;
++SYMR(auStack_6d4,N,N);
++uVar8
++=
++SYMR(&local_4d0,&local_4d4);
++pbVar18
++=
++_DAT_ADDR;
++uVar16
++=
++_DAT_ADDR;
++if
++((T)uVar8
++!=
++N)
++{
++return
++uVar8;
++}
++joined_r0xADDR:
+ do
+ {
+ while(
+ true
+ )
+ {
+-while(
+-true
+-)
+-{
+-do
+-{
+-pbVar18
+-=
+-pbVar7;
+-if
+-(uVar10
++_DAT_ADDR
++=
++uVar16;
++_DAT_ADDR
++=
++pbVar18;
++if
++((_DAT_ADDR
+ ==
+ N)
++||
++(iVar7
++=
++SYMR(N),
++iVar7
++!=
++N))
+ {
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+ =
+ N;
+ return
+ N;
+ }
+-bVar3
+-=
+-pbVar18[N];
+-uVar12
+-=
+-(T)bVar3;
+-if
+-(((T)bVar3
++pbVar1
++=
++_DAT_ADDR;
++if
++(_DAT_ADDR
++!=
++N)
++break;
++SYMR:
++_DAT_ADDR
++=
++pbVar1;
++SYMR(STR,&DAT_ADDR);
++pbVar18
++=
++_DAT_ADDR;
++uVar16
++=
++_DAT_ADDR;
++}
++bVar4
++=
++_DAT_ADDR[N];
++uVar12
++=
++(T)bVar4;
++if
++(((T)bVar4
+ <
+ '\N')
+ &&
+-((bVar3
++((bVar4
+ &
+ N)
+ !=
+ N))
+ {
+-iVar11
++iVar7
+ =
+ (uVar12
+ &
+ N)
+ +
+ N;
+-uVar9
++uVar11
+ =
+ uVar12
+ &
+ N;
+ uVar12
+ =
+ N;
+-pbVar7
+-=
+-pbVar18
++pbVar18
++=
++_DAT_ADDR
+ +
+ N;
+ do
+ {
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar12
+-=
+-(T)*pbVar7
++uVar11
++=
++uVar11
++-
++N;
++uVar12
++=
++(T)*pbVar18
+ |
+ uVar12
+ <<
+ N;
+-pbVar7
+-=
+-pbVar7
++pbVar18
++=
++pbVar18
+ +
+ N;
+ }
+ while
+-(uVar9
++(uVar11
+ !=
+ N);
+ }
+ else
+ {
+-iVar11
+-=
+-N;
+-}
+-if
+-((*pbVar18
+-&
+-N)
+-!=
+-N)
+-{
+-uVar12
+-=
+-N;
+-}
+-uVar16
+-=
+-(ulong)(iVar11
+-+
+-uVar12
+-+
+-N);
+-_DAT_ADDR
+-=
+-uVar10
+--
+-uVar16;
+-if
+-(uVar10
++iVar7
++=
++N;
++}
++uVar14
++=
++(ulong)(iVar7
+++
++uVar12
+++
++N);
++bVar6
++=
++_DAT_ADDR
+ <
+-uVar16)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
++uVar14;
++_DAT_ADDR
++=
++_DAT_ADDR
++-
++uVar14;
++if
++(bVar6)
++{
++SYMR:
++_DAT_ADDR
++=
++pbVar1;
++_DAT_ADDR
++=
++N;
++pbVar18
++=
++_DAT_ADDR;
++uVar16
++=
++_DAT_ADDR;
++goto
++joined_r0xADDR;
+ }
+ pbVar1
+ =
+-pbVar18
+-+
+-uVar16;
+-pbVar7
++_DAT_ADDR
+++
++uVar14;
++pbVar18
+ =
+ pbVar1;
+-uVar10
+-=
+-_DAT_ADDR;
+-}
+-while
+-(*pbVar18
+-!=
+-N);
++uVar16
++=
++_DAT_ADDR;
++if
++(*_DAT_ADDR
++!=
++N)
++goto
++joined_r0xADDR;
+ if
+ (_DAT_ADDR
+-!=
+-N)
+-break;
+-_DAT_ADDR
+-=
+-pbVar1;
+-SYMR(STR,&DAT_ADDR);
+-pbVar7
+-=
+-_DAT_ADDR;
+-uVar10
+-=
+-_DAT_ADDR;
+-}
+-bVar3
++==
++N)
++goto
++SYMR;
++bVar4
+ =
+ pbVar1[N];
+-uVar9
+-=
+-(T)bVar3;
+-if
+-(((T)bVar3
++uVar12
++=
++(T)bVar4;
++if
++(((T)bVar4
+ <
+ '\N')
+ &&
+-((bVar3
++((bVar4
+ &
+ N)
+ !=
+ N))
+ {
+-uVar17
+-=
+-uVar9
++uVar11
++=
++uVar12
+ &
+ N;
+-iVar6
+-=
+-(uVar9
++iVar7
++=
++(uVar12
+ &
+ N)
+ +
+ N;
+-uVar9
+-=
+-N;
+-pbVar15
+-=
+-pbVar18
+-+
+-uVar16
++uVar12
++=
++N;
++pbVar18
++=
++_DAT_ADDR
+++
++uVar14
+ +
+ N;
+ do
+ {
+-uVar17
+-=
+-uVar17
+--
+-N;
+-uVar9
+-=
+-(T)*pbVar15
++uVar11
++=
++uVar11
++-
++N;
++uVar12
++=
++(T)*pbVar18
+ |
+-uVar9
++uVar12
+ <<
+ N;
+-pbVar15
+-=
+-pbVar15
++pbVar18
++=
++pbVar18
+ +
+ N;
+ }
+ while
+-(uVar17
++(uVar11
+ !=
+ N);
+ }
+ else
+ {
+-iVar6
+-=
+-N;
+-}
+-uVar16
+-=
+-(ulong)(iVar6
+-+
+-uVar9
+-+
+-N);
+-uVar10
+-=
+-_DAT_ADDR
+--
++iVar7
++=
++N;
++}
++if
++((*pbVar1
++&
++N)
++!=
++N)
++{
++uVar12
++=
++N;
++}
++uVar16
++=
++(ulong)(iVar7
+++
++uVar12
+++
++N);
++bVar6
++=
++_DAT_ADDR
++<
+ uVar16;
+-if
+-(uVar16
+-<=
+-_DAT_ADDR)
+-break;
+-uVar10
+-=
+-N;
+-}
+-pbVar7
++_DAT_ADDR
++=
++_DAT_ADDR
++-
++uVar16;
++if
++(bVar6)
++goto
++SYMR;
++pbVar18
+ =
+ pbVar1
+ +
+ uVar16;
+-}
+-while
++uVar16
++=
++_DAT_ADDR;
++if
+ (*pbVar1
+ !=
+-N);
+-bVar3
++N)
++goto
++joined_r0xADDR;
++bVar4
+ =
+ pbVar1[N];
+-uVar9
+-=
+-(T)bVar3;
+-if
+-(((T)bVar3
++if
++(((T)bVar4
+ <
+ '\N')
+ &&
+ (uVar17
+ =
+-uVar9
++(ulong)bVar4
+ &
+ N,
+-(bVar3
+-&
+-N)
++(T)uVar17
+ !=
+ N))
+ {
++uVar12
++=
++N;
++lVar10
++=
++uVar17
+++
++N;
++pbVar15
++=
++_DAT_ADDR
+++
+ uVar14
+-=
+-uVar9
+-&
+-N;
+-uVar9
+-=
+-N;
+-pbVar7
+-=
+-pbVar18
+-+
+-(ulong)(uVar12
+-+
+-iVar11
+-+
+-N)
+ +
+ N;
+ do
+ {
+-uVar14
+-=
+-uVar14
+--
+-N;
+-uVar9
+-=
+-(T)*pbVar7
++uVar11
++=
++(T)uVar17
++-
++N;
++uVar17
++=
++(ulong)uVar11;
++uVar12
++=
++(T)*pbVar15
+ |
+-uVar9
++uVar12
+ <<
+ N;
+-pbVar7
+-=
+-pbVar7
++pbVar15
++=
++pbVar15
+ +
+ N;
+ }
+ while
+-(uVar14
+-!=
+-N);
+-iVar11
+-=
+-uVar17
+-+
+-N;
++(uVar11
++!=
++N);
+ }
+ else
+ {
+-iVar11
+-=
+-N;
+-}
+-if
+-(_DAT_ADDR
+-!=
+-N)
+-{
+-iVar11
+-=
+-uVar9
+-+
+-iVar11;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-_DAT_ADDR
+-=
+-_DAT_ADDR;
+-do
+-{
+-iVar6
+-=
+-SYMR(N);
+-if
+-(iVar6
+-!=
+-N)
+-{
++uVar12
++=
++(T)bVar4;
++lVar10
++=
++N;
++}
++uVar12
++=
++uVar12
++-
++N;
++}
++while
++(N
++<
++uVar12);
++_DAT_ADDR
++=
++pbVar18;
++SYMR(auStack_6d4,pbVar1
+++
++lVar10
+++
++N,uVar12);
++uVar8
++=
++local_4d0;
++uVar2
++=
++local_4d4;
+ _DAT_ADDR
+ =
+ (T
+ *)N;
+ _DAT_ADDR
+ =
+ N;
+-return
+-N;
+-}
+-pbVar7
+-=
+-_DAT_ADDR;
+-if
+-(_DAT_ADDR
+-==
+-N)
+-{
+-SYMR:
+-_DAT_ADDR
+-=
+-pbVar7;
+-SYMR(STR,&DAT_ADDR);
+-pbVar18
+-=
+-_DAT_ADDR;
+-}
+-else
+-{
+-bVar3
+-=
+-_DAT_ADDR[N];
+-uVar12
+-=
+-(T)bVar3;
+-if
+-(((T)bVar3
+-<
+-'\N')
+-&&
+-((bVar3
+-&
+-N)
+-!=
+-N))
+-{
+-iVar6
+-=
+-(uVar12
+-&
+-N)
+-+
+-N;
+-uVar9
+-=
+-uVar12
+-&
+-N;
+-uVar12
+-=
+-N;
+-pbVar7
+-=
+-_DAT_ADDR
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar12
+-=
+-(T)*pbVar7
+-|
+-uVar12
+-<<
+-N;
+-pbVar7
+-=
+-pbVar7
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar6
+-=
+-N;
+-}
+-uVar10
+-=
+-(ulong)(iVar6
+-+
+-uVar12
+-+
+-N);
+-bVar5
+-=
+-_DAT_ADDR
+-<
+-uVar10;
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-uVar10;
+-if
+-(bVar5)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar7
+-=
+-_DAT_ADDR
+-+
+-uVar10;
+-pbVar18
+-=
+-pbVar7;
+-if
+-(*_DAT_ADDR
+-==
+-N)
+-{
+-if
+-(_DAT_ADDR
+-==
+-N)
+-goto
+-SYMR;
+-bVar3
+-=
+-pbVar7[N];
+-uVar12
+-=
+-(T)bVar3;
+-if
+-(((T)bVar3
+-<
+-'\N')
+-&&
+-((bVar3
+-&
+-N)
+-!=
+-N))
+-{
+-uVar9
+-=
+-uVar12
+-&
+-N;
+-iVar6
+-=
+-(uVar12
+-&
+-N)
+-+
+-N;
+-uVar12
+-=
+-N;
+-pbVar18
+-=
+-_DAT_ADDR
+-+
+-uVar10
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar12
+-=
+-(T)*pbVar18
+-|
+-uVar12
+-<<
+-N;
+-pbVar18
+-=
+-pbVar18
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-iVar6
+-=
+-N;
+-}
+-if
+-((*pbVar7
+-&
+-N)
+-!=
+-N)
+-{
+-uVar12
+-=
+-N;
+-}
+-uVar16
+-=
+-(ulong)(iVar6
+-+
+-uVar12
+-+
+-N);
+-bVar5
+-=
+-_DAT_ADDR
+-<
+-uVar16;
+-_DAT_ADDR
+-=
+-_DAT_ADDR
+--
+-uVar16;
+-if
+-(bVar5)
+-{
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-return
+-N;
+-}
+-pbVar18
+-=
+-pbVar7
+-+
+-uVar16;
+-if
+-(*pbVar7
+-==
+-N)
+-{
+-bVar3
+-=
+-pbVar7[N];
+-if
+-(((T)bVar3
+-<
+-'\N')
+-&&
+-(uVar16
+-=
+-(ulong)bVar3
+-&
+-N,
+-(T)uVar16
+-!=
+-N))
+-{
+-uVar12
+-=
+-N;
+-lVar8
+-=
+-uVar16
+-+
+-N;
+-pbVar15
+-=
+-_DAT_ADDR
+-+
+-uVar10
+-+
+-N;
+-do
+-{
+-uVar9
+-=
+-(T)uVar16
+--
+-N;
+-uVar16
+-=
+-(ulong)uVar9;
+-uVar12
+-=
+-(T)*pbVar15
+-|
+-uVar12
+-<<
+-N;
+-pbVar15
+-=
+-pbVar15
+-+
+-N;
+-}
+-while
+-(uVar9
+-!=
+-N);
+-}
+-else
+-{
+-uVar12
+-=
+-(T)bVar3;
+-lVar8
+-=
+-N;
+-}
+-uVar12
+-=
+-uVar12
+--
+-N;
+-if
+-(uVar12
+-<
+-N)
+-{
+-_DAT_ADDR
+-=
+-pbVar18;
+-SYMR(auStack_6c8,pbVar7
+-+
+-lVar8
+-+
+-N,uVar12);
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-_DAT_ADDR
+-=
+-N;
+-local_58
+-=
+-N;
+-local_60
+-=
+-N;
+-local_68
+-=
+-N;
+-local_70
+-=
+-N;
+-local_78
+-=
+-N;
+-local_80
+-=
+-N;
+ local_88
+ =
+ N;
+ local_90
++=
++N;
++local_98
++=
++N;
++local_a0
++=
++N;
++local_a8
++=
++N;
++local_b0
++=
++N;
++local_b8
++=
++N;
++local_c0
+ =
+ N;
+ SYMR(local_2c0,N,N);
+ SYMR(local_4c0,N,N);
+-puVar4
++puVar5
+ =
+ DAT_ADDR;
+ local_4c8
+ =
+ N;
+-iVar6
+-=
+-SYMR(pbVar1,iVar11,&local_90,*DAT_ADDR);
+-if
+-(iVar6
++iVar7
++=
++SYMR(uVar8,uVar2,&local_c0,*DAT_ADDR);
++if
++(iVar7
+ !=
+ N)
+ {
+ return
+ N;
+ }
+@@ -852,139 +538,136 @@
+ !=
+ uVar12)
+ {
+ return
+ N;
+ }
+-SYMR(local_2c0,auStack_6c8,uVar12);
++SYMR(local_2c0,auStack_6d4,uVar12);
+ if
+ (N
+ <
+ DAT_ADDR)
+ {
+-uVar10
++uVar16
+ =
+ (ulong)(DAT_ADDR
+ >>
+ N);
+ puVar13
+ =
+ local_2c0;
+-uVar9
++uVar11
+ =
+ DAT_ADDR;
+ do
+ {
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-uVar10
+--
+-N;
+-uVar2
++uVar11
++=
++uVar11
++-
++N;
++uVar16
++=
++uVar16
++-
++N;
++uVar3
+ =
+ *puVar13;
+ *puVar13
+ =
+-local_2c0[uVar9];
+-local_2c0[uVar9]
+-=
+-uVar2;
++local_2c0[uVar11];
++local_2c0[uVar11]
++=
++uVar3;
+ puVar13
+ =
+ puVar13
+ +
+ N;
+ }
+ while
+-(uVar10
+-!=
+-N);
+-}
+-SYMR(local_2c0,&DAT_ADDR,local_4c0,*puVar4);
++(uVar16
++!=
++N);
++}
++SYMR(local_2c0,&DAT_ADDR,local_4c0,*puVar5);
+ if
+ (N
+ <
+ DAT_ADDR)
+ {
+-uVar10
++uVar16
+ =
+ (ulong)(DAT_ADDR
+ >>
+ N);
+ puVar13
+ =
+ local_4c0;
+-uVar9
++uVar11
+ =
+ DAT_ADDR;
+ do
+ {
+-uVar9
+-=
+-uVar9
+--
+-N;
+-uVar10
+-=
+-uVar10
+--
+-N;
+-uVar2
++uVar11
++=
++uVar11
++-
++N;
++uVar16
++=
++uVar16
++-
++N;
++uVar3
+ =
+ *puVar13;
+ *puVar13
+ =
+-local_4c0[uVar9];
+-local_4c0[uVar9]
+-=
+-uVar2;
++local_4c0[uVar11];
++local_4c0[uVar11]
++=
++uVar3;
+ puVar13
+ =
+ puVar13
+ +
+ N;
+ }
+ while
+-(uVar10
+-!=
+-N);
+-}
+-iVar6
+-=
+-SYMR(&local_90,local_4c0,(T)&local_4c8
+-+
+-N,*puVar4);
+-if
+-((iVar6
++(uVar16
++!=
++N);
++}
++iVar7
++=
++SYMR(&local_c0,local_4c0,(T)&local_4c8
+++
++N,*puVar5);
++if
++((iVar7
++==
++N)
++||
++(iVar7
++=
++SYMR(uVar8,uVar2,auStack_6d4,uVar12),
++iVar7
++==
++N))
++{
++if
++((local_4c8._4_4_
+ !=
+ N)
+ &&
+-(iVar6
+-=
+-SYMR(pbVar1,iVar11,auStack_6c8,uVar12),
+-iVar6
+-!=
+-N))
+-{
+-return
+-N;
+-}
+-if
+-((local_4c8._4_4_
+-!=
+-N)
+-&&
+-(iVar6
+-=
+-SYMR(pbVar1,iVar11,auStack_6c8,uVar12),
+-iVar6
++(iVar7
++=
++SYMR(uVar8,uVar2,auStack_6d4,uVar12),
++iVar7
+ !=
+ N))
+ {
+ return
+ N;
+ }
+@@ -994,59 +677,46 @@
+ N)
+ {
+ SYMR(&local_4c8);
+ SYMR((T)local_4c8
+ %
+ N);
+-iVar6
+-=
+-SYMR(&local_90,local_4c0,(T)&local_4c8
+-+
+-N,*puVar4);
+-if
+-(iVar6
++iVar7
++=
++SYMR(&local_c0,local_4c0,(T)&local_4c8
+++
++N,*puVar5);
++if
++(iVar7
++!=
++N)
++goto
++SYMR;
++if
++(local_4c8._4_4_
+ !=
+ N)
+ {
+ return
+ N;
+ }
+-if
+-(local_4c8._4_4_
+-!=
+-N)
+-{
++}
++uVar9
++=
++N;
++_DAT_ADDR
++=
++uVar8;
++_DAT_ADDR
++=
++uVar2;
++}
++else
++{
++SYMR:
++uVar9
++=
++N;
++}
+ return
+-N;
+-}
+-}
+-_DAT_ADDR
+-=
+-pbVar1;
+-_DAT_ADDR
+-=
+-iVar11;
+-return
+-N;
+-}
+-}
+-}
+-}
+-_DAT_ADDR
+-=
+-pbVar18;
+-}
+-while
+-(_DAT_ADDR
+-!=
+-N);
+-}
+-_DAT_ADDR
+-=
+-N;
+-_DAT_ADDR
+-=
+-(T
+-*)N;
+-return
+-N;
+-}
++uVar9;
++}
+```
+
+## ffff0000907b1f58 -> ffff0000907b25b4  (similarity 0.99)
+
+```diff
+--- H3 ffff0000907b1f58
++++ H4 ffff0000907b25b4
+@@ -318,12 +318,28 @@
+ }
+ while
+ (uVar18
+ !=
+ N);
+ }
++_DAT_ADDR
++=
++P
+++
++(ulong)*(T
++*)(P
+++
++N);
++_DAT_ADDR
++=
++(ulong)(P
++-
++*(T
++*)(P
+++
++N));
+ iVar4
+ =
+ SYMR();
+ if
+ (iVar4
+ !=
+```
+
+## ffff0000907b5f98 -> ffff0000907b6608  (similarity 0.93)
+
+```diff
+--- H3 ffff0000907b5f98
++++ H4 ffff0000907b6608
+@@ -1,79 +1,82 @@
+ T
+ SYMR(T
+ P)
+ {
+ T
+-uVar1;
++iVar1;
+ T
+-*puVar2;
++uVar2;
++T
++*puVar3;
+ T
+ local_4;
+ local_4
+ =
+ N;
+-uVar1
++iVar1
+ =
+ SYMR(&local_4);
+ if
+-((T)uVar1
++(iVar1
+ !=
+ N)
+ {
+-return
+-uVar1;
++local_4
++=
++N;
+ }
+ if
+ (P
+ ==
+ N)
+ {
+-uVar1
++uVar2
+ =
+ SYMR(N);
+ if
+-((T)uVar1
++((T)uVar2
+ !=
+ N)
+ {
+ return
+-uVar1;
++uVar2;
+ }
+ SYMR(STR,&DAT_ADDR);
+-puVar2
++puVar3
+ =
+ &DAT_ADDR;
+ }
+ else
+ {
+ if
+ (local_4
+ ==
+ N)
+ {
+-uVar1
++uVar2
+ =
+ SYMR(N);
+ return
+-uVar1;
++uVar2;
+ }
+-uVar1
++uVar2
+ =
+ SYMR(N);
+ if
+-((T)uVar1
++((T)uVar2
+ !=
+ N)
+ {
+ return
+-uVar1;
++uVar2;
+ }
+ SYMR(STR,&DAT_ADDR);
+-puVar2
++puVar3
+ =
+ &DAT_ADDR;
+ }
+-SYMR(STR,puVar2);
++SYMR(STR,puVar3);
+ SYMR(STR,&DAT_ADDR);
+ return
+ N;
+ }
+```
+
+## Functions only in H4 (no H3 counterpart)
+
+- ffff0000907213d8 size 184 - bq28z610 fuel-gauge driver (new hardware)
+- ffff00009072b0f8 size 84 - logstore/expdb uart_console flag getter (new)
+- ffff0000907b05cc size 492 - SEC refactor helper (split out of a larger H3 function)
+- ffff0000907b0d14 size 432 - SEC refactor helper (split out of a larger H3 function)
+- ffff0000907b13bc size 448 - SEC refactor helper (split out of a larger H3 function)
+- ffff0000907b157c size 416 - SEC refactor helper (split out of a larger H3 function)
+- ffff0000907b171c size 448 - SEC refactor helper (split out of a larger H3 function)
+- ffff0000907b18dc size 388 - SEC refactor helper (split out of a larger H3 function)
+- ffff0000907b1a60 size 388 - SEC refactor helper (split out of a larger H3 function)

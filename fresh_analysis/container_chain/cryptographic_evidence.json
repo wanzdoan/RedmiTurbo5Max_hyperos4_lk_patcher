@@ -1,0 +1,342 @@
+{
+  "scope": "Static supplied artifacts only; no device execution or root-of-trust verification",
+  "certificates": [
+    {
+      "input": "h3_original",
+      "record": 1,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_original",
+      "record": 2,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk",
+      "header_sha256": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "aligned_payload_sha256": "3b3bc47ef6f6bf34944f25ea76affac7de482c62de473cfa05a0fe7899e9fcbb",
+      "signed_payload_digest": "3b3bc47ef6f6bf34944f25ea76affac7de482c62de473cfa05a0fe7899e9fcbb",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_original",
+      "record": 4,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_original",
+      "record": 5,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "bl2_ext",
+      "header_sha256": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+      "aligned_payload_sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "signed_payload_digest": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_original",
+      "record": 7,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_original",
+      "record": 8,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "aee",
+      "header_sha256": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "aligned_payload_sha256": "d5aaa468e291515443c497d76f7b36c81ccb7b829fc583127032b6f0adae78ed",
+      "signed_payload_digest": "d5aaa468e291515443c497d76f7b36c81ccb7b829fc583127032b6f0adae78ed",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_original",
+      "record": 10,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_original",
+      "record": 11,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk_main_dtb",
+      "header_sha256": "eebb8601eea300bb2e02c564bc14e83621b876ea237c37ac5ae4ed5676f5f581",
+      "aligned_payload_sha256": "a5903f9fa9861a84f0ca240c8619c6e5ab26e9ae83f8ff95bd4e26e96fbfbbe4",
+      "signed_payload_digest": "a5903f9fa9861a84f0ca240c8619c6e5ab26e9ae83f8ff95bd4e26e96fbfbbe4",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_original",
+      "record": 13,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_original",
+      "record": 14,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk_dtbo",
+      "header_sha256": "7c2a56675dcf51532fc2f8eb6caf3b244753daa590042bff5d719d88ec02c091",
+      "aligned_payload_sha256": "a3207897acb6977757ec4d0fdd320af93a2651e8959ef59a4cc932d16168456a",
+      "signed_payload_digest": "a3207897acb6977757ec4d0fdd320af93a2651e8959ef59a4cc932d16168456a",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_patched",
+      "record": 1,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_patched",
+      "record": 2,
+      "name": "cert2",
+      "der_start": 180,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk",
+      "header_sha256": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "aligned_payload_sha256": "dc606f8db302a5895482b4f46799d34591a7bb00a777151101ac83812d862d78",
+      "signed_payload_digest": "77af9712f9533da9e85c629bbe5a63a7a40da08526c579b853b1256ba3f9a841",
+      "signed_payload_digest_matches": false,
+      "signed_header_digest_matches": true,
+      "prefix_exactly_duplicate_90_byte_hash_override": true
+    },
+    {
+      "input": "h3_patched",
+      "record": 4,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_patched",
+      "record": 5,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "bl2_ext",
+      "header_sha256": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+      "aligned_payload_sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "signed_payload_digest": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_patched",
+      "record": 7,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_patched",
+      "record": 8,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "aee",
+      "header_sha256": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "aligned_payload_sha256": "d1d65f2d72247dfe4fab4f06d8b247970ea7f864ffc082979e5744b875c21523",
+      "signed_payload_digest": "d1d65f2d72247dfe4fab4f06d8b247970ea7f864ffc082979e5744b875c21523",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_patched",
+      "record": 10,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_patched",
+      "record": 11,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk_main_dtb",
+      "header_sha256": "eebb8601eea300bb2e02c564bc14e83621b876ea237c37ac5ae4ed5676f5f581",
+      "aligned_payload_sha256": "a5903f9fa9861a84f0ca240c8619c6e5ab26e9ae83f8ff95bd4e26e96fbfbbe4",
+      "signed_payload_digest": "a5903f9fa9861a84f0ca240c8619c6e5ab26e9ae83f8ff95bd4e26e96fbfbbe4",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h3_patched",
+      "record": 13,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h3_patched",
+      "record": 14,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk_dtbo",
+      "header_sha256": "87efccaa916e9bec9bfb1093f39d7c305027b539124a7dcbc218c7e93580c8c2",
+      "aligned_payload_sha256": "3ced88791de95a380832d9f98c9285c8a313eb497c4ae2a7b5382909af1563dd",
+      "signed_payload_digest": "3ced88791de95a380832d9f98c9285c8a313eb497c4ae2a7b5382909af1563dd",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h4_original",
+      "record": 1,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h4_original",
+      "record": 2,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk",
+      "header_sha256": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+      "aligned_payload_sha256": "db3e02a56f7e114b33631376128ef997c931f1111af0cf0f97f2aeb75f13a8e4",
+      "signed_payload_digest": "db3e02a56f7e114b33631376128ef997c931f1111af0cf0f97f2aeb75f13a8e4",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h4_original",
+      "record": 4,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h4_original",
+      "record": 5,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "bl2_ext",
+      "header_sha256": "73df9168cac4a9c72a618824e28a08c698ea826b1b336f622f9576f87d461073",
+      "aligned_payload_sha256": "d0cfaeaf24603f9fb8dda8bc6e2a7634377bcf13f76b7af8545cb0fca7aff24f",
+      "signed_payload_digest": "d0cfaeaf24603f9fb8dda8bc6e2a7634377bcf13f76b7af8545cb0fca7aff24f",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h4_original",
+      "record": 7,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h4_original",
+      "record": 8,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "aee",
+      "header_sha256": "a5d0177192e7db202920dc26f688ea93d475ccd2cff9e9de0047f9dad2eea4c2",
+      "aligned_payload_sha256": "fd54015acd29b326feb61614f9f8cef973e0f8277a3e1dd195a42ad9e4d25861",
+      "signed_payload_digest": "fd54015acd29b326feb61614f9f8cef973e0f8277a3e1dd195a42ad9e4d25861",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h4_original",
+      "record": 10,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h4_original",
+      "record": 11,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk_main_dtb",
+      "header_sha256": "230494f4124102df5882486026cc4c1b0b97587732ef9fd62355e502e3a46fa7",
+      "aligned_payload_sha256": "4d1d376e64e08a70a09bd5ff1e779176fe7708b1efc76c42062b09c709150966",
+      "signed_payload_digest": "4d1d376e64e08a70a09bd5ff1e779176fe7708b1efc76c42062b09c709150966",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    },
+    {
+      "input": "h4_original",
+      "record": 13,
+      "name": "cert1",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "0035546f887cdf927378177dddb8356ce28e2c3af34f37b3a450a74b24059b05"
+    },
+    {
+      "input": "h4_original",
+      "record": 14,
+      "name": "cert2",
+      "der_start": 0,
+      "rsa_pss_sha256_salt32_valid_under_embedded_spki": true,
+      "spki_sha256": "775ccfa210b3452180241ebb1cfa7bb0e217be613f2a3a358ca4563b54f03c2e",
+      "component": "lk_dtbo",
+      "header_sha256": "b70892aa7883c78df760480b9cb4dd6640c8b0004e0921e7e8d4eca55790ce60",
+      "aligned_payload_sha256": "b8768143217a494b7d8872708aef8fd36635117556a84cea97c605320c5d3692",
+      "signed_payload_digest": "b8768143217a494b7d8872708aef8fd36635117556a84cea97c605320c5d3692",
+      "signed_payload_digest_matches": true,
+      "signed_header_digest_matches": true
+    }
+  ],
+  "restoring_original_function_prologue_in_donor_h3": {
+    "file_offset": "0x89a2c",
+    "length": 16,
+    "restored_aligned_payload_sha256": "77af9712f9533da9e85c629bbe5a63a7a40da08526c579b853b1256ba3f9a841",
+    "matches_signed_embedded_der": true
+  }
+}

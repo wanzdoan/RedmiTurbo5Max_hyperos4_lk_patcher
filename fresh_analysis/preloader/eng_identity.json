@@ -1,0 +1,7 @@
+{
+  "evidence_id": "PRELOADER-LOCAL-ENG-001",
+  "path": "C:/Users/Administrator/Downloads/preloader_dash.bin",
+  "size": 1064924,
+  "sha256": "bcde516c37a8845287cc57441780391e89c16c51eabfd4c5e3c625ecbdf4ad8b",
+  "byte_for_byte_equal_to_h3_supplied_preloader": true
+}

@@ -1,0 +1,49 @@
+2026-11-03 15:57:20 INFO  (LoggingInitialization) Using log config file: jar:file:/D:/Tools/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-03 15:57:20 INFO  (LoggingInitialization) Using log file: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\ghidra_export.log  
+2026-11-03 15:57:20 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-03 15:57:20 INFO  (Preferences) Loading user preferences: C:\Users\Administrator\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences  
+2026-11-03 15:57:20 INFO  (ClassSearcher) Searching for classes...  
+2026-11-03 15:57:22 INFO  (ClassSearcher) Class search complete (1225 ms)  
+2026-11-03 15:57:22 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-03 15:57:22 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-03 15:57:22 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-03 15:57:22 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-11-03 15:57:22 INFO  (AnalyzeHeadless) Headless startup complete (2889 ms)  
+2026-11-03 15:57:22 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-11-03 15:57:23 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    D:\Tools\ghidra\Ghidra\Debug\Debugger\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\VersionTracking\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BytePatterns\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FileFormats\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PyGhidra\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\SystemEmulation\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\8051\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\GnuDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\BSim\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\DATA\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\JVM\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\PIC\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\FunctionID\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\PDB\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Decompiler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\Base\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    D:\Tools\ghidra\Ghidra\Processors\Atmel\ghidra_scripts  
+2026-11-03 15:57:23 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-03 15:57:23 INFO  (HeadlessAnalyzer) Opening existing project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\ghidra_db\h4_fresh  
+2026-11-03 15:57:23 INFO  (HeadlessProject) Opening project: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\ghidra_db\h4_fresh  
+2026-11-03 15:57:25 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /h4_lk_analysis.elf  
+2026-11-03 15:57:26 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportFresh.java 'D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\h4_pseudocode'   
+2026-11-03 15:57:27 INFO  (HeadlessAnalyzer) SCRIPT: D:\RedmiTurbo5Max_hyperos4_lk_patcher\fresh_analysis\ghidra_scripts\ExportFresh.java  
+2026-11-03 15:57:40 INFO  (GhidraScript) ExportFresh.java> EXPORT 500 / 500  
+2026-11-03 15:57:49 INFO  (GhidraScript) ExportFresh.java> EXPORT 1000 / 1000  
+2026-11-03 15:57:57 INFO  (GhidraScript) ExportFresh.java> EXPORT 1500 / 1500  
+2026-11-03 15:58:06 INFO  (GhidraScript) ExportFresh.java> EXPORT 2000 / 2000  
+2026-11-03 15:58:15 WARN  (DecompileCallback) Decompiling ffff0000907f936c, pcode error at ffff0000907f936c: Unable to resolve constructor at ffff0000907f936c  
+2026-11-03 15:58:15 INFO  (GhidraScript) ExportFresh.java> EXPORT COMPLETE functions=2328 decompiled=2328  
+2026-11-03 15:58:15 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /h4_lk_analysis.elf  

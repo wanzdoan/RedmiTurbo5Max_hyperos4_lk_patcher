@@ -1,0 +1,10 @@
+// ffff0000907c0864  size=12  thunk_FUN_ffff00009077ef88
+
+void thunk_FUN_ffff00009077ef88(void)
+
+{
+  FUN_ffff00009077ef88();
+  return;
+}
+
+

@@ -1,0 +1,9 @@
+// ffff00009074b6f4  size=16  FUN_ffff00009074b6f4
+
+undefined8 FUN_ffff00009074b6f4(void)
+
+{
+  return 0;
+}
+
+
