@@ -1,0 +1,123 @@
+{
+  "registration_sections": [
+    [
+      {
+        "domain": "PS",
+        "transportType": "WLAN",
+        "registrationState": "NOT_REG_OR_SEARCHING",
+        "networkRegistrationState": "NOT_REG_OR_SEARCHING",
+        "accessNetworkTechnology": "UNKNOWN",
+        "nrState": "****",
+        "rejectCause": "0",
+        "isDcNrRestricted": "false",
+        "isNrAvailable": "false",
+        "isEnDcAvailable": "false",
+        "mLteAttachResultType": "0",
+        "mLteAttachExtraInfo": "0"
+      },
+      {
+        "domain": "CS",
+        "transportType": "WWAN",
+        "registrationState": "HOME",
+        "networkRegistrationState": "HOME",
+        "accessNetworkTechnology": "LTE",
+        "nrState": "****",
+        "rejectCause": "0"
+      },
+      {
+        "domain": "PS",
+        "transportType": "WWAN",
+        "registrationState": "HOME",
+        "networkRegistrationState": "HOME",
+        "accessNetworkTechnology": "LTE",
+        "nrState": "****",
+        "rejectCause": "0",
+        "isDcNrRestricted": "false",
+        "isNrAvailable": "false",
+        "isEnDcAvailable": "false",
+        "mLteAttachResultType": "2",
+        "mLteAttachExtraInfo": "0"
+      }
+    ],
+    [
+      {
+        "domain": "PS",
+        "transportType": "WLAN",
+        "registrationState": "NOT_REG_OR_SEARCHING",
+        "networkRegistrationState": "NOT_REG_OR_SEARCHING",
+        "accessNetworkTechnology": "UNKNOWN",
+        "nrState": "****",
+        "rejectCause": "0",
+        "isDcNrRestricted": "false",
+        "isNrAvailable": "false",
+        "isEnDcAvailable": "false",
+        "mLteAttachResultType": "0",
+        "mLteAttachExtraInfo": "0"
+      },
+      {
+        "domain": "CS",
+        "transportType": "WWAN",
+        "registrationState": "NOT_REG_SEARCHING",
+        "networkRegistrationState": "NOT_REG_SEARCHING",
+        "accessNetworkTechnology": "UNKNOWN",
+        "nrState": "****",
+        "rejectCause": "0"
+      },
+      {
+        "domain": "PS",
+        "transportType": "WWAN",
+        "registrationState": "NOT_REG_SEARCHING",
+        "networkRegistrationState": "NOT_REG_SEARCHING",
+        "accessNetworkTechnology": "UNKNOWN",
+        "nrState": "****",
+        "rejectCause": "0",
+        "isDcNrRestricted": "false",
+        "isNrAvailable": "false",
+        "isEnDcAvailable": "false",
+        "mLteAttachResultType": "0",
+        "mLteAttachExtraInfo": "0"
+      }
+    ]
+  ],
+  "allowed_network_values": [
+    {
+      "value": 916479,
+      "hex": "0xdfbff",
+      "android_nr_bit_1_shift_19_present": true
+    },
+    {
+      "value": 916479,
+      "hex": "0xdfbff",
+      "android_nr_bit_1_shift_19_present": true
+    }
+  ],
+  "carrier_nr_values": [
+    {
+      "context": "CarrierConfigLoader: com.android.phone.CarrierConfigLoader@499cfbe",
+      "line": "carrier_config_applied_bool = false"
+    },
+    {
+      "context": "CarrierConfigLoader: com.android.phone.CarrierConfigLoader@499cfbe",
+      "line": "carrier_nr_availabilities_int_array = [1, 2]"
+    }
+  ],
+  "phone_dump_shape": {
+    "characters": 26471,
+    "first_lines": [
+      "------- PhoneGlobals -------",
+      "  FeatureFlags:",
+      "  mCurrentRoamingNotification=0",
+      "  mDefaultDataSubId=2",
+      "  isSmsCapable=true",
+      "  mDataRoamingNotifLog:"
+    ]
+  },
+  "telephony.mtkregistry_dump_shape": {
+    "characters": 0,
+    "first_lines": []
+  },
+  "xm.radio.cdc_dump_shape": {
+    "characters": 0,
+    "first_lines": []
+  }
+}

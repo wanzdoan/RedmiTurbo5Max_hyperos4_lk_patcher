@@ -1,0 +1,14 @@
+{
+  "trial": "built-in SA override only",
+  "user_approval": "Explicit allow enabling and checking, conversation2026-11-03",
+  "initial_key": "absent(null)",
+  "applied_key": "0",
+  "runtime_property_ro_vendor_radio_5g": "2",
+  "observed_modem_command": "AT+E5GOPT=3,2",
+  "observed_sa_state": true,
+  "observed_nsa_state": false,
+  "registration_result": "VinaPhone PS/CS temporarily OUT_OF_SERVICE; no NR success",
+  "rollback": "builtin reset override then delete restored original absent key",
+  "post_rollback_observed_network_types": "LTE,LTE",
+  "interpretation": "Actual device takes SA-only branch; original generic expectation of SA+NSA was incorrect. A separate runtime-property trial is prepared, not yet executed."
+}

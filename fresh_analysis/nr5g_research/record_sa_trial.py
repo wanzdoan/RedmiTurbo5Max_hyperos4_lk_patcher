@@ -1,0 +1,6 @@
+﻿from pathlib import Path
+import json,hashlib
+root=Path('fresh_analysis/nr5g_research');p=root/'sa_mode_trial.py';s=p.read_text(encoding='utf-8-sig').replace('NSA remains enabled in reviewed path','Actual mode depends on ro.vendor.radio.5g: value2 selects SA-only commands; inspect logs.');p.write_text(s,encoding='utf-8')
+r={'trial':'built-in SA override only','user_approval':'Explicit allow enabling and checking, conversation2026-11-03','initial_key':'absent(null)','applied_key':'0','runtime_property_ro_vendor_radio_5g':'2','observed_modem_command':'AT+E5GOPT=3,2','observed_sa_state':True,'observed_nsa_state':False,'registration_result':'VinaPhone PS/CS temporarily OUT_OF_SERVICE; no NR success','rollback':'builtin reset override then delete restored original absent key','post_rollback_observed_network_types':'LTE,LTE','interpretation':'Actual device takes SA-only branch; original generic expectation of SA+NSA was incorrect. A separate runtime-property trial is prepared, not yet executed.'}
+(root/'runtime/sa_only_trial_result.json').write_text(json.dumps(r,indent=2))
+image=Path('fresh_analysis/output/lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img');assert hashlib.sha256(image.read_bytes()).hexdigest()=='f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171'

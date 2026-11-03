@@ -1,4 +1,4 @@
-﻿"""Optional reversible SA trial via the ROM's own secret-code receiver.
+"""Optional reversible SA trial via the ROM's own secret-code receiver.
 Default is inspect-only. --apply/--rollback modify a single Settings.System key
 and ask the existing telephony receiver to refresh SA/NSA operation. Never flashes
 firmware, writes NVRAM files or sends raw AT commands. Run only with user approval.
@@ -42,7 +42,7 @@ def main():
  if args.apply:
   if BACKUP.exists():raise RuntimeError('Backup exists; inspect or rollback previous trial first')
   if normalized(current) not in ('-1','0','1'):raise RuntimeError('Unsupported existing value')
-  backup={'recorded_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'rom':'OS4.0.3.0.XPLCNXM','device':'dash','key':KEY,'original_value':current,'original_absent':current=='null','action':'SA override through built-in receiver; NSA remains enabled in reviewed path'}
+  backup={'recorded_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'rom':'OS4.0.3.0.XPLCNXM','device':'dash','key':KEY,'original_value':current,'original_absent':current=='null','action':'SA override through built-in receiver; Actual mode depends on ro.vendor.radio.5g: value2 selects SA-only commands; inspect logs.'}
   BACKUP.write_text(json.dumps(backup,indent=2));cycle_to('0');print('SA override now 0. This does not prove NR registration; collect logs/state next.')
  else:
   b=json.loads(BACKUP.read_text());assert b['key']==KEY and b['device']=='dash'

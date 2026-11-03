@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-11-03T14:56:10.651936+00:00",
+  "rom": "OS4.0.3.0.XPLCNXM",
+  "device": "dash",
+  "key": "5g_sa_mode_disabled",
+  "original_value": "null",
+  "original_absent": true,
+  "action": "SA override through built-in receiver; NSA remains enabled in reviewed path"
+}

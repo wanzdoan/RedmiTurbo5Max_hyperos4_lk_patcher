@@ -57,24 +57,24 @@
       {
         "domain": "CS",
         "transportType": "WWAN",
-        "registrationState": "HOME",
-        "networkRegistrationState": "HOME",
-        "accessNetworkTechnology": "LTE",
+        "registrationState": "NOT_REG_SEARCHING",
+        "networkRegistrationState": "NOT_REG_SEARCHING",
+        "accessNetworkTechnology": "UNKNOWN",
         "nrState": "****",
         "rejectCause": "0"
       },
       {
         "domain": "PS",
         "transportType": "WWAN",
-        "registrationState": "HOME",
-        "networkRegistrationState": "HOME",
-        "accessNetworkTechnology": "LTE",
+        "registrationState": "NOT_REG_SEARCHING",
+        "networkRegistrationState": "NOT_REG_SEARCHING",
+        "accessNetworkTechnology": "UNKNOWN",
         "nrState": "****",
         "rejectCause": "0",
         "isDcNrRestricted": "false",
         "isNrAvailable": "false",
         "isEnDcAvailable": "false",
-        "mLteAttachResultType": "2",
+        "mLteAttachResultType": "0",
         "mLteAttachExtraInfo": "0"
       }
     ]
