@@ -1,0 +1,68 @@
+{
+  "status": "EXPERIMENTAL_SECURE_HANDOFF_NOT_HARDWARE_TESTED",
+  "artifact": "lk_hyperos3_ENG_UNLOCKBL_FAKELOCK_DEEP_HANDOFF_TEST.img",
+  "input_sha256": "28f7f7b918a5462685eddf5e4814df1c28302bc9450de4d983dea81da58371ec",
+  "output_sha256": "72e17062caf8893b0c6a7c82f6d3c25f0e3ed27544e01b5c47fe3a0234e5b075",
+  "bytes": 4043792,
+  "patches": [
+    {
+      "payload_offset": "0xc4eac",
+      "whole_file_offset": "0xc50ac",
+      "original": "e82f40b9",
+      "new": "28008052",
+      "purpose": "Select the existing real OEM-key hash for secure-handoff packet1, instead of the unlocked zero hash"
+    },
+    {
+      "payload_offset": "0xc4f0c",
+      "whole_file_offset": "0xc510c",
+      "original": "e12f80b9",
+      "new": "210080d2",
+      "purpose": "Packet2 exported lock flag x1=1; local stack word and actual getter stay unlocked"
+    },
+    {
+      "payload_offset": "0xc4f14",
+      "whole_file_offset": "0xc5114",
+      "original": "020149b9",
+      "new": "02008052",
+      "purpose": "Packet2 exported verified-boot state w2=0; actual state/global cache remain unchanged"
+    },
+    {
+      "payload_offset": "0xc838",
+      "whole_file_offset": "0xca38",
+      "original": "a3c35fb8",
+      "new": "23008052",
+      "purpose": "Public seccfg query formats locked state1, without modifying the actual seccfg getter or stored word"
+    },
+    {
+      "payload_offset": "0x69e68",
+      "whole_file_offset": "0x6a068",
+      "original": "61010054",
+      "new": "0b000014",
+      "purpose": "Skip only the orange/unlocked UI warning; retain yellow/red error-warning branches"
+    }
+  ],
+  "main_instruction_patch_span_bytes": 20,
+  "actual_internal_lock_state": 3,
+  "actual_verified_boot_state_unchanged": true,
+  "fastboot_cache_and_permission_code_unchanged": true,
+  "v1_reporting_features_preserved": true,
+  "secure_handoff_packet1": "existing calculated OEM-key hash instead of unlocked zero hash",
+  "secure_handoff_packet2": {
+    "exported_lock_flag": 1,
+    "exported_boot_state": 0
+  },
+  "all_other_eng_members_and_signed_der_unchanged": true,
+  "vendor_attestation_private_keys_or_certificates_forged": false,
+  "persistent_lock_or_efuse_written": false,
+  "phone_flashed": false,
+  "play_integrity_or_vneid_pass_confirmed": false,
+  "limits": [
+    "Outgoing LK values are fake and do not prove that verified boot actually succeeded",
+    "Secure-monitor/TEE consumption and final hardware attestation have not been tested",
+    "Changing secure-handoff root-of-trust data may affect existing hardware-bound keys; exact device behavior is unverified",
+    "Original extraction/hash/read failures are still logged; no cryptographic failure is repaired by this patch",
+    "No complete Integrity verdict report, device readback or physical flash/boot test is available",
+    "This cannot create a trusted attestation certificate chain, device certification or genuine patch levels",
+    "No CN/Global boot-key extension from the separate stock-ENG experiment is merged"
+  ]
+}
