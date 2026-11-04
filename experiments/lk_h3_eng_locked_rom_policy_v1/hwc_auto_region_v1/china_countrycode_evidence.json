@@ -1,0 +1,16 @@
+{
+  "type": "SUPPLIED_CHINA_ROM_IMAGE_NOT_DEVICE_READBACK",
+  "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\countrycode.img",
+  "image_sha256": "065d16b492631a65cd2e90dfcc6608edb168d8177b3eef1161b35142bf26ece6",
+  "countrycode_first32_hex": "636e000000000000000000000000000000000000000000000000000000000000",
+  "vbmeta_sha256": "8b0dc701039cf5b4755313f5d5382855553038d78228aeac18a0559762a52fe7",
+  "countrycode_descriptor": {
+    "tag": 2,
+    "partition": "countrycode",
+    "image_bytes": 32,
+    "algorithm": "sha256",
+    "salt_hex": "436e2002be4b88972e292a9d0042acfe89756150200fe7e5a01e5678cbaf4bb1",
+    "expected_digest_hex": "60f138ad61f100e48333dffa84d35232f76f40eb0c31883d6fa4160609685279"
+  },
+  "actual_hash_matches": true
+}

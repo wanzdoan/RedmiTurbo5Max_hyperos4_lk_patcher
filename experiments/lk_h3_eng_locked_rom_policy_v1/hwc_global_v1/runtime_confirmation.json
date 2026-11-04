@@ -1,0 +1,20 @@
+{
+  "evidence_type": "USER_RUNTIME_REPORT",
+  "reported_date": "2026-11-04",
+  "referenced_artifact": "lk_hyperos3_ENG_STOCK_CN_GLOBAL_HWC_GLOBAL_TEST.img",
+  "referenced_artifact_sha256": "9eabe1a50088d875348270908b5303b89dba0eb49ac40d3c5b09750b9a9605cb",
+  "user_statement": "The HWC-modified image booted; the preceding impression that it failed was mistaken",
+  "boot_success_user_reported": true,
+  "rom_region_user_report": "Global",
+  "associated_rom_build_from_preceding_supplied_files": "OS3.0.304.0.WPLMIXM",
+  "build_independently_read_from_running_device": false,
+  "artifact_hash_readback_from_device_verified": false,
+  "android_hwc_property_readback_verified": false,
+  "bootloader_state_after_flash_independently_measured": false,
+  "agent_flashed_device": false,
+  "automatic_region_variant_boot_tested": false,
+  "limits": [
+    "Applies to the fixed-GLOBAL variant, not original stock-policy v1 or the new automatic variant",
+    "Does not establish EEA/Taiwan/China runtime results or Integrity/app acceptance"
+  ]
+}

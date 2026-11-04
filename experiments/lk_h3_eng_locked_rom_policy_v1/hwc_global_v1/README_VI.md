@@ -1,6 +1,8 @@
 # Bản thử HWC=GLOBAL trên LK ENG giữ cơ chế khóa gốc
 
-Theo yêu cầu người dùng “cứ thử đổi hwc xem sao”, ngày2026-11-04. **Đây là phép thử giả thuyết, chưa xác nhận sửa được lỗi recovery Global.** Không cần chờ đủ ROM để tạo biến thể thử này; việc tìm điều kiện gốc của lỗi vẫn còn mở.
+Theo yêu cầu người dùng “cứ thử đổi hwc xem sao”, ngày2026-11-04. **Cập nhật: người dùng đã xác nhận bản HWC này boot được Global và đính chính nhận định trước đó là lỗi.** [Runtime report](runtime_confirmation.json) ghi rõ phạm vi: chưa readback hash LK/property trên thiết bị, không phải kiểm thử máy thật do agent thực hiện. Không suy rộng kết quả sang mọi ROM/vùng hoặc bản tự động mới.
+
+Theo yêu cầu kế tiếp đã tạo [một LK tự chọn HWC theo countrycode](../hwc_auto_region_v1/README_VI.md), giữ nguyên file fixed-GLOBAL đã boot này.
 
 File: [lk_hyperos3_ENG_STOCK_CN_GLOBAL_HWC_GLOBAL_TEST.img](lk_hyperos3_ENG_STOCK_CN_GLOBAL_HWC_GLOBAL_TEST.img), **4.043.792 byte**.
 
@@ -48,7 +50,7 @@ Override áp dụng mọi lần hàm bootarg này chạy, gồm normal boot/reco
 - **24 ca khóa có control:** AVB predicate, lock boolean và phản hồi fastboot vẫn theo trạng thái getter gốc. Getter được mô hình hóa ở các ca này; không phải đọc RPMB thiết bị.
 - **10 chữ ký DER gốc hợp lệ**, **3 ca bộ đọc hash BL2 ENG thật** chọn đúng hash mới. Build lặp lại trùng byte, input sai hash bị từ chối, chỉ đổi các span lệnh/literal/prefix đã ghi trong manifest.
 
-**Không flash/boot máy thật**, không kiểm chứng toàn bộ Android/recovery hoặc cách ROM nhập bootargs. Các test không chứng minh đã xử lý được nguyên nhân phát `show_version_mismatch`. HWC có consumer khác ngoài recovery; hành vi của chúng sau override chưa được kiểm tra.
+**Agent không flash/boot máy thật**, không kiểm chứng toàn bộ Android/recovery hoặc cách ROM nhập bootargs. Các test tự động không chứng minh đã xử lý được nguyên nhân phát `show_version_mismatch`; kết quả boot thành công là báo cáo người dùng riêng nêu đầu tài liệu. HWC có consumer khác ngoài recovery; hành vi của chúng sau override chưa được kiểm tra.
 
 ## Tái tạo và đối chiếu sau khi người dùng tự thử
 

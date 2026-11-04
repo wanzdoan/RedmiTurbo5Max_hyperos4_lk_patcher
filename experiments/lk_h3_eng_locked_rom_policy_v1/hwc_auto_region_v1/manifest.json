@@ -1,0 +1,60 @@
+{
+  "status": "EXPERIMENTAL_AUTO_REGION_NOT_DEVICE_BOOTED",
+  "artifact": "lk_hyperos3_ENG_STOCK_AUTO_HWC_CN_GLOBAL_EEA_TW_TEST.img",
+  "input_sha256": "9eabe1a50088d875348270908b5303b89dba0eb49ac40d3c5b09750b9a9605cb",
+  "output_sha256": "fe60552c60d3495ad479e34e2610ab37acca064c367f8fce750989f13f4e12a0",
+  "bytes": 4043792,
+  "input_user_reported_boot": true,
+  "input_device_readback_hash_verified": false,
+  "region_source": "Existing native active-slot countrycode partition read in function0x1320c",
+  "mapping": {
+    "cn_case_insensitive_exact": "CN",
+    "nonempty_non_cn_including_global_eea_tw": "GLOBAL",
+    "missing_empty_or_read_error": "original hardware HWC"
+  },
+  "metadata_read_path_preserved": true,
+  "extra_partition_read_added": false,
+  "hwc_emission": "Deferred until after countrycode read; one HWC/level/version emission",
+  "hardware_cache_unchanged": true,
+  "lock_and_key_trust_and_avb_policy_unchanged": true,
+  "force_unlock_or_fakelock_added": false,
+  "stack_frame_layout_unchanged": true,
+  "patches": [
+    {
+      "payload_offset": "0x13364",
+      "whole_file_offset": "0x13564",
+      "old": "e0830491f383049171c0ff97e0030691e1031f2a021980520fb10194a32e591073420091020700d042f82891e0030691e483049101198052e50313aa10b30194f403002ae26b41b9c00500d000c42b91e1030691b3ad01949400f837e0030691bd15009407000014e005009000201e91210600f02158349122208052a9ad0194",
+      "new": "20000014e083049171c0ff97e3130591e803403948010034e80340b9085d001208011b320801133269cc8d521f01096b030a7010e92d59106300899ae003069101198052a2347150e4830491e5c304910bb30194c000f837e0030691be150094f3c30491e00306917e010014c01d5e1001ca635022208052aaad0194f9ffff17",
+      "bytes": 128,
+      "purpose": "Skip early HWC emission; late in-function block selects region and emits HWC/level/version"
+    },
+    {
+      "payload_offset": "0x13960",
+      "whole_file_offset": "0x13b60",
+      "old": "200700f000d83c9113000014",
+      "new": "ff7f00a980ae735013000014",
+      "bytes": 12,
+      "purpose": "Clear partial countrycode data on read failure, retaining original diagnostic/close path"
+    },
+    {
+      "payload_offset": "0x139c0",
+      "whole_file_offset": "0x13bc0",
+      "old": "e0030691",
+      "new": "6afeff17",
+      "bytes": 4,
+      "purpose": "After every countrycode result, run the late block and resume at0x139c4"
+    }
+  ],
+  "code_span_bytes": 144,
+  "all_other_members_and_signed_der_unchanged": true,
+  "device_flashed": false,
+  "limits": [
+    "No boot test of this new automatic variant",
+    "China/Global have actual vbmeta evidence; EEA/Taiwan region inputs are test fixtures until their images are supplied",
+    "EEA/Taiwan map to the already-tested international HWC value GLOBAL, not invented EEA/TW HWC codes",
+    "All nonempty non-CN country strings route to GLOBAL; this is a HWC selection rule, not an expanded signing-key allowlist",
+    "Previously allowed ENG/CN/GL keys are unchanged; another ROM key, model/layout or rollback incompatibility may still fail",
+    "HWC moves later in bootarg construction; actual Android import and all consumers remain unverified",
+    "No efuse, stored lock, RPMB, modem, preloader, Android or countrycode partition writes"
+  ]
+}
