@@ -1,0 +1,44 @@
+{
+  "status": "HYPOTHESIS_TEST_NOT_DEVICE_BOOTED",
+  "artifact": "lk_hyperos3_ENG_STOCK_CN_GLOBAL_HWC_GLOBAL_TEST.img",
+  "input_sha256": "ad3d66e3c374ff3a83fc73ba30880fe1d18ee049b3c2ec54ff6e97e45815760b",
+  "output_sha256": "9eabe1a50088d875348270908b5303b89dba0eb49ac40d3c5b09750b9a9605cb",
+  "bytes": 4043792,
+  "patches": [
+    {
+      "payload_offset": "0x13380",
+      "whole_file_offset": "0x13580",
+      "old": "63920091",
+      "new": "a32e5910",
+      "purpose": "Only the HWC formatting argument x3 points to GLOBAL"
+    },
+    {
+      "payload_offset": "0xc5954",
+      "whole_file_offset": "0xc5b54",
+      "old": "1f2003d51f2003d5",
+      "new": "474c4f42414c0000",
+      "purpose": "GLOBAL string in two unreachable NOP slots after the existing v1 key callback"
+    }
+  ],
+  "new_main_instruction_bytes": 4,
+  "literal_bytes": 8,
+  "outgoing_bootarg": "androidboot.hwc=GLOBAL",
+  "underlying_hardware_record_changed": false,
+  "hwlevel_hwversion_cpuid_and_ptcountrycode_code_changed": false,
+  "original_eng_lock_getter_and_setter_preserved": true,
+  "force_unlock_or_fakelock_added": false,
+  "v1_CN_Global_ENG_boot_key_policy_preserved": true,
+  "avb_verification_or_rollback_disabled": false,
+  "all_other_members_and_signed_der_and_padding_unchanged": true,
+  "main_cert2_prefix_recomputed": true,
+  "device_flashed": false,
+  "limits": [
+    "User explicitly requested trying HWC despite the original mismatch trigger being unresolved",
+    "No claim that changing HWC fixes the Global recovery error",
+    "Android must actually import the outgoing bootarg; its final ro.boot.hwc was not read back",
+    "The HWC override applies to normal boot and recovery, and does not detect ROM region dynamically",
+    "Use as a separate Global-ROM experiment; China-ROM behavior after overriding HWC is untested",
+    "Other Android consumers may change behavior in response to the HWC value",
+    "No phone flash/boot, stored lock change, efuse/RPMB write or Android modification"
+  ]
+}

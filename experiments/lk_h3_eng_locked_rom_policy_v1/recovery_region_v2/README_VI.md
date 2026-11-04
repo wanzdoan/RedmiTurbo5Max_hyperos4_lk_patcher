@@ -2,6 +2,8 @@
 
 Trạng thái: **ANALYSIS_ONLY_PENDING_NORMAL_GLOBAL_ROM_COMPONENTS**. Ngày2026-11-04. Thư mục có tên `recovery_region_v2` để giữ riêng lượt nghiên cứu, **chưa có artifact LK v2** và chưa xác định đủ điều kiện gây lỗi để sửa firmware.
 
+Cập nhật sau đó: người dùng chủ động yêu cầu thử đổi HWC. Đã tạo [biến thể thử HWC=GLOBAL](../hwc_global_v1/README_VI.md) trong thư mục riêng. Đây là phép thử giả thuyết, chưa thay đổi kết luận rằng điều kiện gốc của lỗi chưa được xác định; không có artifact firmware trong thư mục nghiên cứu recovery này.
+
 Người dùng báo bản [LK ENG giữ cơ chế khóa gốc + CN/Global v1](../README_VI.md) vào recovery sau flash ROM Global; ENG unlock chạy cùng ROM thì boot được. Người dùng xác nhận chỉ bỏ `lk` và `preloader`, giữ các ảnh ROM khác. Báo cáo China “test bình thường” chưa được đối chiếu theo từng hash artifact. [Runtime report](runtime_failure_report.json) tách thông tin người dùng khỏi kiểm chứng trên máy tính.
 
 ## Đầu vào thật đã đọc

@@ -8,6 +8,8 @@ SHA256: `ad3d66e3c374ff3a83fc73ba30880fe1d18ee049b3c2ec54ff6e97e45815760b`.
 
 **Cập nhật theo báo cáo người dùng:** ROM Global vào recovery của chính ROM và hiện “This system version can't be installed on this device”; cùng ROM dùng ENG unlock thì boot bình thường. Chưa đối chiếu hash LK đang chạy bằng readback. Bản v1 không được coi là đã hỗ trợ boot Global thành công. Xem [điều tra lỗi recovery](recovery_region_v2/README_VI.md) và [báo cáo người dùng](recovery_region_v2/runtime_failure_report.json). Giữ nguyên file `.img` và hash v1 để đối chiếu; các phép mô phỏng bên dưới không phải xác nhận boot máy thật.
 
+Theo yêu cầu thử tiếp của người dùng: đã tạo [biến thể HWC=GLOBAL riêng](hwc_global_v1/README_VI.md) từ đúng v1 này, giữ cơ chế khóa và cổng nhận khóa cũ. Chưa flash/boot test hoặc xác nhận hết lỗi recovery. File v1 tại đây vẫn nguyên byte.
+
 ## Nguồn và trạng thái khóa
 
 Input nguyên byte: [lk_eng_original.img](../lk_h3_eng_unlock_v1/input/lk_eng_original.img), bản sao bảo toàn của `Downloads/lk.img`, 4.043.616 byte, SHA256 `6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d`.
