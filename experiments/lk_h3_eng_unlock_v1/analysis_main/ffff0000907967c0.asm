@@ -1,0 +1,18 @@
+ffff0000907967c0	paciasp
+ffff0000907967c4	stp x29,x30,[sp, #-0x20]!
+ffff0000907967c8	stp x20,x19,[sp, #0x10]
+ffff0000907967cc	mov x29,sp
+ffff0000907967d0	mov w19,w0
+ffff0000907967d4	and w20,w0,#0xff
+ffff0000907967d8	mov w0,wzr
+ffff0000907967dc	bl 0xffff000090792dbc
+ffff0000907967e0	cmp w20,#0x3
+ffff0000907967e4	b.hi 0xffff0000907967f4
+ffff0000907967e8	add x8,x0,w19, UXTB  #0x3
+ffff0000907967ec	ldr x0,[x8, #0x150]
+ffff0000907967f0	b 0xffff0000907967f8
+ffff0000907967f4	mov x0,xzr
+ffff0000907967f8	ldp x20,x19,[sp, #0x10]
+ffff0000907967fc	ldp x29,x30,[sp], #0x20
+ffff000090796800	autiasp
+ffff000090796804	ret

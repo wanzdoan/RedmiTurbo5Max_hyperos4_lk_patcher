@@ -1,0 +1,171 @@
+{
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "size": 4043616,
+  "members": [
+    {
+      "offset": 0,
+      "size": 1251480,
+      "name": "lk",
+      "end": 1252000,
+      "header_sha256": "b850c000939e7dfa2e9232ef78d785a333655e749746dfb7aeed3fa20a84283a",
+      "payload_sha256": "048754588e3c8d17688dfc321035ccbb4fc04cd700ad2207f492d69ecf639edc"
+    },
+    {
+      "offset": 1252000,
+      "size": 1733,
+      "name": "cert1",
+      "end": 1254256,
+      "header_sha256": "84f1b90fb9620a27edc409b990f3354537a7e2da1147b21bfe4668464b00f080",
+      "payload_sha256": "94ba237e0a601649292a6cfcf5c4f0ccffc1a58e60843d476bc46f9d1956326a"
+    },
+    {
+      "offset": 1254256,
+      "size": 982,
+      "name": "cert2",
+      "end": 1255760,
+      "header_sha256": "e58f8c502e0e8466892b6eb8791c6868239880cd31af81ba3df9481ffdb7ca4c",
+      "payload_sha256": "37fe481f83f27e2b42afae57df4d51dad15789b6a930c184d4d7938c30881696"
+    },
+    {
+      "offset": 1255760,
+      "size": 1095920,
+      "name": "bl2_ext",
+      "end": 2352192,
+      "header_sha256": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8",
+      "payload_sha256": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631"
+    },
+    {
+      "offset": 2352192,
+      "size": 1733,
+      "name": "cert1",
+      "end": 2354448,
+      "header_sha256": "84f1b90fb9620a27edc409b990f3354537a7e2da1147b21bfe4668464b00f080",
+      "payload_sha256": "618277366ef443b01200d4ede8fcc12edc58ce08e40c23b118b10ffdeb67dba2"
+    },
+    {
+      "offset": 2354448,
+      "size": 982,
+      "name": "cert2",
+      "end": 2355952,
+      "header_sha256": "e58f8c502e0e8466892b6eb8791c6868239880cd31af81ba3df9481ffdb7ca4c",
+      "payload_sha256": "0a7e487ffc6946f46692d8790e7d88a5be2d9b7a31d07e1dab3136125329b5d7"
+    },
+    {
+      "offset": 2355952,
+      "size": 984320,
+      "name": "aee",
+      "end": 3340784,
+      "header_sha256": "17644e8b85182c112bb23340101a9d851d7bce0497c12e6e9a45bd0cc25205bc",
+      "payload_sha256": "0fb81fc461dbff590817111ced566c8284bce26ccc6a7e122835f75cd70cb496"
+    },
+    {
+      "offset": 3340784,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3343040,
+      "header_sha256": "84f1b90fb9620a27edc409b990f3354537a7e2da1147b21bfe4668464b00f080",
+      "payload_sha256": "b4903721137f6efba6803c06413f6c35633fbbd447e9e71804cdde7d87a2726d"
+    },
+    {
+      "offset": 3343040,
+      "size": 982,
+      "name": "cert2",
+      "end": 3344544,
+      "header_sha256": "e58f8c502e0e8466892b6eb8791c6868239880cd31af81ba3df9481ffdb7ca4c",
+      "payload_sha256": "4bbf340689c4d8c2dcdb76dd633d4a14239811a1ac4d3aa6ce8e27098e9b0375"
+    },
+    {
+      "offset": 3344544,
+      "size": 535872,
+      "name": "lk_main_dtb",
+      "end": 3880928,
+      "header_sha256": "6537791ae91b12c260594fd1f793cc948fbb2e79e65645ecd17054c22410226a",
+      "payload_sha256": "8e4b32ed2c9dc204d682246548b21d466961c02712d47551a5d48f6d9770881d"
+    },
+    {
+      "offset": 3880928,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3883184,
+      "header_sha256": "84f1b90fb9620a27edc409b990f3354537a7e2da1147b21bfe4668464b00f080",
+      "payload_sha256": "a4bd9eaa92c2596137ac76f8fdd9118fb073c2a1a8b23191389bd4680b2e431c"
+    },
+    {
+      "offset": 3883184,
+      "size": 982,
+      "name": "cert2",
+      "end": 3884688,
+      "header_sha256": "e58f8c502e0e8466892b6eb8791c6868239880cd31af81ba3df9481ffdb7ca4c",
+      "payload_sha256": "013e0d34c51be67f0e0a37c88b4ade5302ff3d1141bc6ce0824f55ee3726de3d"
+    },
+    {
+      "offset": 3884688,
+      "size": 154654,
+      "name": "lk_dtbo",
+      "end": 4039856,
+      "header_sha256": "ab1f9748adae8a167ec7f4e85a63ac2f92141dd0a1120e65156f17e15c41cedf",
+      "payload_sha256": "4c72563341ac87de0f14baf51d5714d9eb71d2ee655ec52bcb1cf23e5d007c51"
+    },
+    {
+      "offset": 4039856,
+      "size": 1733,
+      "name": "cert1",
+      "end": 4042112,
+      "header_sha256": "84f1b90fb9620a27edc409b990f3354537a7e2da1147b21bfe4668464b00f080",
+      "payload_sha256": "6cd2d3f9354f62af034d4898c2f119668c5e3c77366630c1920d2de932843977"
+    },
+    {
+      "offset": 4042112,
+      "size": 982,
+      "name": "cert2",
+      "end": 4043616,
+      "header_sha256": "8994577cde9a931d5775183306457a6f7ac88e5be63148f1c3fd9cc87293dd36",
+      "payload_sha256": "a7f96ed74f59f7e4d13cba118096e62259322310115ea743c2b3b11360c1f104"
+    }
+  ],
+  "selected_main_strings": [
+    {
+      "payload_offset": "0xdc27a",
+      "text": "Custom get lock state..."
+    },
+    {
+      "payload_offset": "0xdc294",
+      "text": "mi_get_lock_state"
+    },
+    {
+      "payload_offset": "0xdf31e",
+      "text": "[AVB] bypass check region img key in userdebug build"
+    },
+    {
+      "payload_offset": "0xdfac5",
+      "text": "com.android.build.system.os_version"
+    },
+    {
+      "payload_offset": "0xe5e2c",
+      "text": "userdebug"
+    },
+    {
+      "payload_offset": "0xf8c5a",
+      "text": "%s:%d: Error: failed to set aee,load_type=userdebug node"
+    }
+  ],
+  "derived_analysis_carriers": [
+    {
+      "name": "eng_main",
+      "base": "0xffff000090700000",
+      "raw_sha256": "048754588e3c8d17688dfc321035ccbb4fc04cd700ad2207f492d69ecf639edc",
+      "elf_sha256": "4c194a62c16b3c54e2a0b7fe7dd2f35d9c6d0b8b666c44ff5721f3126d2dbaba",
+      "not_flashable": true
+    },
+    {
+      "name": "eng_bl2",
+      "base": "0xffff0000b8000000",
+      "raw_sha256": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631",
+      "elf_sha256": "4c6fc4c39e55e670f66759b2f5b0b5aa8726edb2356d72b6cddd6dc0114fe99d",
+      "not_flashable": true
+    }
+  ],
+  "limits": [
+    "ENG/HyperOS3 is user-supplied provenance; strings establish userdebug markers, not full ROM identity"
+  ]
+}

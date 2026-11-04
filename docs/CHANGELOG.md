@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-04 — Unlock bản LK ENG mới
+
+- Lưu input Downloads/lk.img SHA256`6f386241...` nguyên byte; push commit`51bd2ae`, tag`before-h3-eng-unlock-patch-20261104` trước sửa.
+- Tìm lại getter main ở file0x898e4, patch state3/success0; giữ BL2/AEE/DTB và mọi thành phần của ENG, không ghép build khác.
+- Chạy chính BL2 ENG mới: policy vẫn yêu cầu auth, parser chọn được prefix hash ngoài DER. Thêm prefix180 byte, giữ signed DER, output tăng176 byte.
+- Output SHA256`0d237263a24f6bf41fa33b5dc43bb7d71e5b61f1977331c3f9f1812ad5000466`;342 ca CPU main,9 parser,4 policy và10 DER signature đạt. Chưa flash/boot máy thật.
+
 ## 2026-11-03 — Thêm CN/Global trên H3 đã patch
 
 - Checkpoint đã push trước sửa: `before-h3-patched-global-region-20261103`.

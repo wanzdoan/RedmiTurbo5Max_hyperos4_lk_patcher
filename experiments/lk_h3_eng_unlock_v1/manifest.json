@@ -1,0 +1,23 @@
+{
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "output_sha256": "0d237263a24f6bf41fa33b5dc43bb7d71e5b61f1977331c3f9f1812ad5000466",
+  "input_size": 4043616,
+  "output_size": 4043792,
+  "unlock_whole_file_offset": "0x898e4",
+  "unlock_payload_offset": "0x896e4",
+  "original": "3f2303d5ff4305d1fd7b12a9fc5713a9",
+  "replacement": "68008052080000b900008052c0035fd6",
+  "main_cert2_prefix_bytes": 180,
+  "all_other_eng_records_excluding_main_cert2_byte_identical": true,
+  "all_components_from_input_eng": true,
+  "other_build_components_transplanted": false,
+  "region_or_radio_patch_added": false,
+  "device_flashed": false,
+  "status": "EXPERIMENTAL_NOT_HARDWARE_TESTED",
+  "limits": [
+    "Forces runtime lock getter to state3/success0; does not write permanent RPMB unlock",
+    "Retains native ENG BL2; prefix parser behavior tested separately",
+    "Original DER signature retained, not re-signed with a private key",
+    "No full boot, preloader compatibility, rollback-fuse or real-device validation"
+  ]
+}

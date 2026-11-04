@@ -26,3 +26,5 @@ Bộ thử tách riêng: [radio region global v1](experiments/radio_region_globa
 Theo yêu cầu tiếp theo chỉ sửa LK: [bản thử bỏ chốt ROM CN/Global](experiments/lk_global_region_v1/README_VI.md) đã qua mô phỏng logic vùng, giữ unlock cũ, chưa flash hoặc boot test. [Docs 08](docs/08-lk-rom-region.md) giải thích ba chốt đã sửa và bằng chứng mới: descriptor modem LK truyền xuống đã chứa bit hỗ trợ NR. Chưa chứng minh bản thử này mở được 5G.
 
 Biến thể theo file H3 của người dùng: [H3 đã patch unlock + CN/Global](experiments/lk_h3_global_region_v1/README_VI.md), tạo trực tiếp từ `lk_hyperos3_patched_unlockBL/dash.img`, không ghép H4. Đã kiểm thử mô phỏng, chưa xác nhận boot bản mới.
+
+Input mới ngày2026-11-04: [LK ENG H3 patch unlock riêng](experiments/lk_h3_eng_unlock_v1/README_VI.md), từ `Downloads/lk.img` SHA6f386241..., giữ toàn bộ thành phần ENG. [Docs09](docs/09-h3-eng-unlock.md) ghi logic và kiểm thử; chưa flash/boot test.
