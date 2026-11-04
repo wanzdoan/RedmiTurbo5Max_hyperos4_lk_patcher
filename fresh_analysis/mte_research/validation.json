@@ -1,0 +1,2675 @@
+{
+  "status": "PASS_OFFLINE_POLICY_ONLY_NO_FIRMWARE_PATCH_OR_DEVICE_ACCESS",
+  "inputs": {
+    "eng_lk": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+    "supplied_old_eng_preloader": "bcde516c37a8845287cc57441780391e89c16c51eabfd4c5e3c625ecbdf4ad8b",
+    "existing_live_boot_lun": "e987fa22c5ee5d03cf992581b268466e0f557f9e47e6d9580b7283a5e4bdd800"
+  },
+  "lk_native_cases": 48,
+  "preloader_native_cases": 168,
+  "lk_cases": [
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": true,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    }
+  ],
+  "preloader_cases": [
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x407",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x407",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x0",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x7",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x0",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x2",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x487",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x4",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x487",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x8",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x10",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": false,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x0",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": false,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x3",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture",
+        "misc-write-boundary-captured-not-written"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": null,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 0,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    },
+    {
+      "initial_fixture": "0x80",
+      "misc_mode_fixture": "0x1f",
+      "misc_read_error": true,
+      "misc_header_valid": true,
+      "dconfig_fixture": 3,
+      "final_mte_info": "0x87",
+      "storage_boundary_calls": [
+        "misc-read-boundary-fixture"
+      ],
+      "pass": true
+    }
+  ],
+  "candidate_design": {
+    "payload_offset": "0x34d20",
+    "whole_file_offset": "0x34f20",
+    "old": "20020054",
+    "new": "11000014",
+    "effect": "Always take existing native MTE suppression branch at0x34d64",
+    "applied": "Unicorn RAM only; no firmware output written"
+  },
+  "mocks": [
+    "PAC",
+    "LK reserved-memory lookup",
+    "LK MMIO register is plain emulator RAM",
+    "LK cmdline append/log/snprintf boundaries",
+    "Preloader misc read/write boundaries",
+    "Preloader dconfig lookup/integer conversion boundaries"
+  ],
+  "limits": [
+    "No physical boot or downstream kernel execution",
+    "Does not undo earlier preloader tag-memory reservations or secure-world state",
+    "Exact phone kernel interpretation and userspace HWCAP2_MTE unmeasured",
+    "No causal link to earlier screen crashes established",
+    "Only these bounded policy functions run; no full boot chain or ROM compatibility proof"
+  ]
+}

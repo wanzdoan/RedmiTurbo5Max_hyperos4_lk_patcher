@@ -1,0 +1,29 @@
+{
+  "status": "EXPERIMENTAL_KERNEL_MTE_OFF_NOT_DEVICE_BOOTED",
+  "artifact": "lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_MTE_OFF_TEST.img",
+  "variant": "fakelock_v2_auto_hwc",
+  "input": "experiments/lk_h3_eng_auto_hwc_v1/fakelock_v2/lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_TEST.img",
+  "input_sha256": "5345d07edbb65d6519b02d10117ac2e32405faf3dd13c6b54546eb66fa259032",
+  "output_sha256": "9af2950d2df4d5e80905a501c0d1a823f22a97060dd287827d9c3ff7e58103a3",
+  "bytes": 4043792,
+  "patch": {
+    "payload_offset": "0x34d20",
+    "whole_file_offset": "0x34f20",
+    "old": "20020054",
+    "new": "11000014",
+    "instruction": "b.eq 0x34d64 -> b 0x34d64"
+  },
+  "behavior": "Always use existing kernel_mte_init suppression branch; append arm64.nomte",
+  "original_mte_info_preserved": true,
+  "original_booker_off_path_preserved": true,
+  "original_hwc_unlock_and_reporting_bytes_preserved": true,
+  "all_other_members_and_original_der_unchanged": true,
+  "no_preloader_or_device_writes": true,
+  "device_boot_tested": false,
+  "limits": [
+    "Does not retroactively disable MTE in preloader or guarantee secure-world state",
+    "Exact running kernel consumption and downstream re-enablement not hardware verified",
+    "Disables a memory-safety feature for kernels honoring arm64.nomte",
+    "No boot, Android property readback, OTA or attestation success demonstrated"
+  ]
+}

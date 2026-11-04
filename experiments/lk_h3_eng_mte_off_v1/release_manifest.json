@@ -1,0 +1,74 @@
+{
+  "status": "SIX_EXPERIMENTAL_FILES_NOT_DEVICE_BOOTED",
+  "files": [
+    {
+      "variant": "unlocked_auto_hwc",
+      "mte": "DEFAULT_POLICY",
+      "artifact": "lk_hyperos3_ENG_UNLOCKBL_AUTO_HWC_TEST.img",
+      "repository_path": "experiments/lk_h3_eng_auto_hwc_v1/unlocked/lk_hyperos3_ENG_UNLOCKBL_AUTO_HWC_TEST.img",
+      "zip_path": "unlocked_auto_hwc/lk_hyperos3_ENG_UNLOCKBL_AUTO_HWC_TEST.img",
+      "sha256": "64e91b35a058bfff943897157cfb993515ce278a1ff67d3c7fc0d1fb370764e8",
+      "bytes": 4043792,
+      "all_region_hwc": true,
+      "device_boot_tested": false
+    },
+    {
+      "variant": "unlocked_auto_hwc",
+      "mte": "MTE_OFF",
+      "artifact": "lk_hyperos3_ENG_UNLOCKBL_AUTO_HWC_MTE_OFF_TEST.img",
+      "repository_path": "experiments/lk_h3_eng_mte_off_v1/unlocked_auto_hwc/lk_hyperos3_ENG_UNLOCKBL_AUTO_HWC_MTE_OFF_TEST.img",
+      "zip_path": "unlocked_auto_hwc/lk_hyperos3_ENG_UNLOCKBL_AUTO_HWC_MTE_OFF_TEST.img",
+      "sha256": "3cc3dd40d121c1e316295a7552b98c4a6f02a8510fd0d2d7a3f2ffe891152112",
+      "bytes": 4043792,
+      "all_region_hwc": true,
+      "device_boot_tested": false
+    },
+    {
+      "variant": "fakelock_v2_auto_hwc",
+      "mte": "DEFAULT_POLICY",
+      "artifact": "lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_TEST.img",
+      "repository_path": "experiments/lk_h3_eng_auto_hwc_v1/fakelock_v2/lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_TEST.img",
+      "zip_path": "fakelock_v2_auto_hwc/lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_TEST.img",
+      "sha256": "5345d07edbb65d6519b02d10117ac2e32405faf3dd13c6b54546eb66fa259032",
+      "bytes": 4043792,
+      "all_region_hwc": true,
+      "device_boot_tested": false
+    },
+    {
+      "variant": "fakelock_v2_auto_hwc",
+      "mte": "MTE_OFF",
+      "artifact": "lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_MTE_OFF_TEST.img",
+      "repository_path": "experiments/lk_h3_eng_mte_off_v1/fakelock_v2_auto_hwc/lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_MTE_OFF_TEST.img",
+      "zip_path": "fakelock_v2_auto_hwc/lk_hyperos3_ENG_FAKELOCK_V2_AUTO_HWC_MTE_OFF_TEST.img",
+      "sha256": "9af2950d2df4d5e80905a501c0d1a823f22a97060dd287827d9c3ff7e58103a3",
+      "bytes": 4043792,
+      "all_region_hwc": true,
+      "device_boot_tested": false
+    },
+    {
+      "variant": "stock_policy_auto_hwc",
+      "mte": "DEFAULT_POLICY",
+      "artifact": "lk_hyperos3_ENG_STOCK_AUTO_HWC_CN_GLOBAL_EEA_TW_TEST.img",
+      "repository_path": "experiments/lk_h3_eng_locked_rom_policy_v1/hwc_auto_region_v1/lk_hyperos3_ENG_STOCK_AUTO_HWC_CN_GLOBAL_EEA_TW_TEST.img",
+      "zip_path": "stock_policy_auto_hwc/lk_hyperos3_ENG_STOCK_AUTO_HWC_CN_GLOBAL_EEA_TW_TEST.img",
+      "sha256": "fe60552c60d3495ad479e34e2610ab37acca064c367f8fce750989f13f4e12a0",
+      "bytes": 4043792,
+      "all_region_hwc": true,
+      "device_boot_tested": false
+    },
+    {
+      "variant": "stock_policy_auto_hwc",
+      "mte": "MTE_OFF",
+      "artifact": "lk_hyperos3_ENG_STOCK_AUTO_HWC_MTE_OFF_TEST.img",
+      "repository_path": "experiments/lk_h3_eng_mte_off_v1/stock_policy_auto_hwc/lk_hyperos3_ENG_STOCK_AUTO_HWC_MTE_OFF_TEST.img",
+      "zip_path": "stock_policy_auto_hwc/lk_hyperos3_ENG_STOCK_AUTO_HWC_MTE_OFF_TEST.img",
+      "sha256": "b2535248b59fd65c8bb855d6bfa49b86ffbef31bcc7b647df0e8ca34a73df606",
+      "bytes": 4043792,
+      "all_region_hwc": true,
+      "device_boot_tested": false
+    }
+  ],
+  "all_region_scope": "countrycode cn -> CN, nonempty non-cn -> GLOBAL, unavailable -> hardware HWC",
+  "mte_off_scope": "Existing LK arm64.nomte suppression path; does not undo preloader execution",
+  "device_flashed": false
+}

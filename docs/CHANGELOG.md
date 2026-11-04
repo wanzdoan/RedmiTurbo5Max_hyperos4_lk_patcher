@@ -68,3 +68,10 @@
 - Checkpoint0975d26 và tag `before-eng-unlocked-fakelock-auto-hwc-20261105` đã push trước sửa.
 - Hai [biến thể HWC](../experiments/lk_h3_eng_auto_hwc_v1/README_VI.md) giữ nguyên input, callback tin khóa và toàn bộ BL2. Literal GLOBAL nằm trong block thay thế, tránh ghi vào epilogue callback của input.
 - Unlocked64e91b35... đạt486 ca main; fakelockv25345d07e... đạt599 ca main; mỗi ảnh10DER+3parser. Chưa flash/boot test, chưa đổi MTE.
+
+## 2026-11-05 — Ba cặp all-region HWC, MTE mặc định/off
+
+- Theo xác nhận user: ENG unlocked, fakelock v2, stock-policy; mỗi nhánh có hai file riêng. [Docs và ZIP sáu file](../experiments/lk_h3_eng_mte_off_v1/README_VI.md). Các file non-off và input trước giữ nguyên byte.
+- Checkpoint71caf4c/tag `before-eng-three-variants-mte-off-20261105` đã push trước thêm patch MTE. Đổi duy nhất nhánh main0x34d20 và prefix trong từng ảnh off; không sửa preloader.
+- [MTE research](../fresh_analysis/mte_research/README_VI.md) tìm preloader debug OR7 và đường kernel_mte_init → arm64.nomte có thật. 48LK+168preloader native case đạt. Không quy MTE là nguyên nhân crash cũ, không mô tả tắt ngược preloader/secure-world.
+- Final MTE-off: unlocked3cc3dd40...534main, fakelockv29af2950d...647main, stock-policyb2535248...208main; mỗi ảnh10DER+3parser. Chưa flash/boot test.

@@ -78,3 +78,7 @@ Nếu chỉ sửa docs, không cần chạy lại toàn bộ CPU tests; kiểm l
 ## ENG unlocked/fakelock v2 với HWC tự chọn vùng (2026-11-05)
 
 Quy trình, hashes và giới hạn nằm trong [README biến thể](../experiments/lk_h3_eng_auto_hwc_v1/README_VI.md). Chạy `assemble_auto.py`, `build_variants.py`, `validate_variants.py` trong thư mục đó; không chạy lại builder artifact H4 để kiểm các biến thể ENG này. Kết quả main ARM64: unlocked486, fakelockv2 599; mỗi ảnh thêm10 chữ ký DER và3 parser BL2. Chưa boot test.
+
+## Sáu file ENG all-region và biến thể MTE-off (2026-11-05)
+
+Chạy `build_mte_off.py`, `validate_mte_off.py`, `package_six.py` tại `experiments/lk_h3_eng_mte_off_v1`; xem [docs bộ sáu file](../experiments/lk_h3_eng_mte_off_v1/README_VI.md). Kiểm final bytes: unlocked534/fakelockv2647/stock-policy208 ca main, mỗi ảnh10DER+3parser. Bộ probe MTE nền ở `fresh_analysis/mte_research/probe_mte.py` có48 ca LK và168 ca preloader; không cần raw boot-LUN riêng để chạy các test ba file off, nhưng raw đó cần cho replay preloader nền. Gói ZIP chứa đúng6 ảnh, SHA256SUMS và manifest; package script kiểm CRC/hash và tạo ZIP tái lập. Không flash/boot test.

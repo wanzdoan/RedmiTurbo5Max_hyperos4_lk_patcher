@@ -1,0 +1,4094 @@
+{
+  "status": "PASS_BOUNDED_NATIVE_REPLAY_NOT_DEVICE_BOOT",
+  "variant": "stock_policy_auto_hwc",
+  "input_sha256": "fe60552c60d3495ad479e34e2610ab37acca064c367f8fce750989f13f4e12a0",
+  "output_sha256": "b2535248b59fd65c8bb855d6bfa49b86ffbef31bcc7b647df0e8ca34a73df606",
+  "mte_cpu_cases": 48,
+  "hwc_cpu_cases": 144,
+  "internal_policy_cpu_cases": 12,
+  "deep_fakelock_cpu_cases": 0,
+  "public_fakelock_cpu_cases": 0,
+  "key_callback_cpu_cases": 4,
+  "total_main_cpu_cases": 208,
+  "final_image_code_not_modified_by_mte_emulator": true,
+  "retained_der_signatures": [
+    {
+      "member": 1,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 4,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 7,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 10,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 13,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "retained_der_signature_valid": true
+    }
+  ],
+  "native_eng_bl2_parser_cases": [
+    {
+      "kind": "parser",
+      "mask": "0x60",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "b850c000939e7dfa2e9232ef78d785a333655e749746dfb7aeed3fa20a84283a",
+      "payload_hash": "d77a156a8f8cebf07b17fc13ea22f2849beea461c1906056edafa767e620ff7a"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f4e2",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "b850c000939e7dfa2e9232ef78d785a333655e749746dfb7aeed3fa20a84283a",
+      "payload_hash": "d77a156a8f8cebf07b17fc13ea22f2849beea461c1906056edafa767e620ff7a"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f400",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "deterministic_build": true,
+  "wrong_input_rejected": true,
+  "mte_cases": [
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": false,
+      "outgoing_kernel_arguments": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": "0xf",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x0",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x1",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x2",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x3",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x4",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x5",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x6",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x7",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x405",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0x407",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xf07",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": false,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    },
+    {
+      "mte_info_fixture": "0xffffffff",
+      "reserved_memory_present": true,
+      "force_native_suppress_branch_in_emulator_ram": false,
+      "input_image_already_has_suppression_patch": true,
+      "outgoing_kernel_arguments": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": "0xe",
+      "mte_info_global_preserved": true,
+      "pass": true
+    }
+  ],
+  "region_cases": [
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "CN",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "CN",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "CN",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "CN",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "Cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "Cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "Cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "Cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cN",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cN",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cN",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cN",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "GLOBAL",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "GLOBAL",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "GLOBAL",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "GLOBAL",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "EEA",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "EEA",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "EEA",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "EEA",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "TW",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "TW",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "TW",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "TW",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "taiwan",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "taiwan",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "taiwan",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "taiwan",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eu",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eu",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eu",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eu",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "native",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "native",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "native",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "native",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "unknown",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "unknown",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "unknown",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "unknown",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn_extra",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn_extra",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn_extra",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn_extra",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "c",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "c",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "c",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "c",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cnx",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cnx",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cnx",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cnx",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cna",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cna",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cna",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cna",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": " cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": " cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": " cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": " cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn ",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn ",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn ",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn ",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "eea",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "tw",
+      "hardware_hwc": "CN",
+      "hwlevel": "EVT",
+      "hwversion": "V2.3",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "cn",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "CN",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 0,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    },
+    {
+      "automatic": true,
+      "countrycode_fixture": "global",
+      "hardware_hwc": "GLOBAL",
+      "hwlevel": "MP",
+      "hwversion": "1.0",
+      "slot_suffix": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "partition_reads": 1,
+      "hardware_copy_calls": [
+        "countrycode and late HWC"
+      ],
+      "later_hwversion_pointer_preserved": true,
+      "hardware_cache_and_frame_unchanged": true,
+      "pass": true
+    }
+  ],
+  "internal_cases": [
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 0"
+      ],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    }
+  ],
+  "deep_cases": [],
+  "public_cases": [],
+  "key_cases": [
+    {
+      "key": "ENG",
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 1,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "key": "CN",
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 1,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "key": "GL",
+      "bits": 4096,
+      "modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 1,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "key": "unknown",
+      "bits": 4096,
+      "modulus_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    }
+  ],
+  "limits": [
+    "MTE probe MMIO is emulator RAM; kernel and preloader are not executing with this image",
+    "MTE-off does not retroactively change preloader execution or secure-world state",
+    "HWC mapping and lock/report policy probes are bounded; not full device boot/OTA/attestation proof",
+    "Boundary mocks match the referenced HWC/fakelock/MTE probe documentation"
+  ]
+}
