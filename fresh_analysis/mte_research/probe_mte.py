@@ -169,7 +169,7 @@ def main():
         ('existing captured preloader raw offsets', LIVE.read_bytes() if LIVE.exists() else b'',
          0x1ffef00, 0x7e6a0, 0x7e860)]:
         asm.append(label)
-        asm += [f'{i.address-base:08x}: {i.bytes.hex()} {i.mnemonic} {i.op_str}'
+        asm += [f'{i.address-base:08x}: {i.bytes.hex()} {i.mnemonic} {i.op_str}'.rstrip()
                 for i in c.disasm(data[lo:hi], base+lo)]
     (HERE/'policy_disassembly.txt').write_text('\n'.join(asm)+'\n', encoding='utf-8')
     report = {'status': 'PASS_OFFLINE_POLICY_ONLY_NO_FIRMWARE_PATCH_OR_DEVICE_ACCESS',

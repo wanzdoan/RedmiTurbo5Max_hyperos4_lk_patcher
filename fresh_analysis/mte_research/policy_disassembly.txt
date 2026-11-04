@@ -1,5 +1,5 @@
 ENG LK main payload offsets
-00034ca8: 3f2303d5 paciasp 
+00034ca8: 3f2303d5 paciasp
 00034cac: 020840b9 ldr w2, [x0, #8]
 00034cb0: c90900b0 adrp x9, #0x9086d000
 00034cb4: e8050090 adrp x8, #0x907f0000
@@ -8,9 +8,9 @@ ENG LK main payload offsets
 00034cc0: 21302991 add x1, x1, #0xa4c
 00034cc4: e00308aa mov x0, x8
 00034cc8: 22290ab9 str w2, [x9, #0xa28]
-00034ccc: bf2303d5 autiasp 
+00034ccc: bf2303d5 autiasp
 00034cd0: 6d270114 b #0x9077ea84
-00034cd4: 3f2303d5 paciasp 
+00034cd4: 3f2303d5 paciasp
 00034cd8: ff0301d1 sub sp, sp, #0x40
 00034cdc: fd7b02a9 stp x29, x30, [sp, #0x20]
 00034ce0: f44f03a9 stp x20, x19, [sp, #0x30]
@@ -63,7 +63,7 @@ ENG LK main payload offsets
 00034d9c: f44f43a9 ldp x20, x19, [sp, #0x30]
 00034da0: fd7b42a9 ldp x29, x30, [sp, #0x20]
 00034da4: ff030191 add sp, sp, #0x40
-00034da8: bf2303d5 autiasp 
+00034da8: bf2303d5 autiasp
 00034dac: 438fff17 b #0x90718ab8
 00034db0: 200500b0 adrp x0, #0x907d9000
 00034db4: 00982591 add x0, x0, #0x966
@@ -85,10 +85,10 @@ ENG LK main payload offsets
 00034df4: f44f43a9 ldp x20, x19, [sp, #0x30]
 00034df8: fd7b42a9 ldp x29, x30, [sp, #0x20]
 00034dfc: ff030191 add sp, sp, #0x40
-00034e00: bf2303d5 autiasp 
-00034e04: c0035fd6 ret 
+00034e00: bf2303d5 autiasp
+00034e04: c0035fd6 ret
 existing captured preloader raw offsets
-0007e6a0: 3f2303d5 paciasp 
+0007e6a0: 3f2303d5 paciasp
 0007e6a4: fd7bbda9 stp x29, x30, [sp, #-0x30]!
 0007e6a8: f50b00f9 str x21, [sp, #0x10]
 0007e6ac: f44f02a9 stp x20, x19, [sp, #0x20]
@@ -99,7 +99,7 @@ existing captured preloader raw offsets
 0007e6c0: 21443491 add x1, x1, #0xd11
 0007e6c4: 50400094 bl #0x208d704
 0007e6c8: f40400f0 adrp x20, #0x211c000
-0007e6cc: 1f2003d5 nop 
+0007e6cc: 1f2003d5 nop
 0007e6d0: 138c4f10 adr x19, #0x211c750
 0007e6d4: 884e47b9 ldr w8, [x20, #0x74c]
 0007e6d8: e00313aa mov x0, x19
@@ -198,5 +198,5 @@ existing captured preloader raw offsets
 0007e84c: f44f42a9 ldp x20, x19, [sp, #0x20]
 0007e850: f50b40f9 ldr x21, [sp, #0x10]
 0007e854: fd7bc3a8 ldp x29, x30, [sp], #0x30
-0007e858: bf2303d5 autiasp 
-0007e85c: c0035fd6 ret 
+0007e858: bf2303d5 autiasp
+0007e85c: c0035fd6 ret
