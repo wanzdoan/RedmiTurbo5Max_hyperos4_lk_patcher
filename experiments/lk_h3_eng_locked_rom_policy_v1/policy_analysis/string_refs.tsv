@@ -1,0 +1,19 @@
+ffff0000907c8a91	ffff00009070b2cc	ffff00009070b290	command parameter is not allowed!
+ffff0000907d0773	ffff000090768eb4	none	Not allow flashing when rpmb no provision and device locked.
+ffff0000907dc294	ffff00009078970c	ffff0000907896e4	mi_get_lock_state
+ffff0000907dc294	ffff0000907899ec	ffff0000907896e4	mi_get_lock_state
+ffff0000907dc294	ffff000090789a18	ffff0000907896e4	mi_get_lock_state
+ffff0000907dc880	ffff00009070c910	none	Set mtk_lock_state successed.
+ffff0000907ddc28	ffff000090788620	ffff0000907885fc	custom_get_lock_state return = %d, lock_state = %d
+ffff0000907df31e	ffff00009076988c	ffff000090769824	[AVB] bypass check region img key in userdebug build
+ffff0000907df9ae	ffff0000907b3a1c	ffff0000907b393c	[%s] lock_state: %x
+ffff0000907df9ae	ffff0000907b3b60	ffff0000907b393c	[%s] lock_state: %x
+ffff0000907e5e2c	ffff000090784e50	ffff000090784ce8	userdebug
+ffff0000907e5e2c	ffff000090784e6c	ffff000090784ce8	userdebug
+ffff0000907e95f1	ffff0000907b7330	ffff0000907b7170	dump lock_state, 0x%x
+ffff0000907f1b8d	ffff000090788660	ffff000090788640	custom_set_lock_state return = %d, lock_state = %d
+ffff0000907f54d0	ffff000090789a64	ffff000090789a38	mi_set_lock_state
+ffff0000907f54d0	ffff000090789a84	ffff000090789a38	mi_set_lock_state
+ffff0000907f89a9	ffff000090768ef4	none	CN devices do not allow flashing non-CN ROMs.
+ffff0000907f8c5a	ffff000090784e7c	ffff000090784ce8	%s:%d: Error: failed to set aee,load_type=userdebug node
+ffff0000907fa504	ffff000090769880	ffff000090769824	[AVB] bypass check ep rom in factory build

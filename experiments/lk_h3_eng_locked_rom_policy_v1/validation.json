@@ -1,0 +1,5602 @@
+{
+  "status": "PASS",
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "artifact_sha256": "ad3d66e3c374ff3a83fc73ba30880fe1d18ee049b3c2ec54ff6e97e45815760b",
+  "key_trust_cpu_cases": 78,
+  "flash_check_cpu_cases": 224,
+  "original_lock_predicate_cpu_cases": 24,
+  "total_main_cpu_cases": 326,
+  "retained_der_signatures": [
+    {
+      "member": 1,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 4,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 7,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 10,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 13,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "retained_der_signature_valid": true
+    }
+  ],
+  "native_eng_bl2_parser_cases": [
+    {
+      "kind": "parser",
+      "mask": "0x60",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "b850c000939e7dfa2e9232ef78d785a333655e749746dfb7aeed3fa20a84283a",
+      "payload_hash": "dadd726613bb60338fbd59467a925b79f05cf39f24838fe9efe7c9512b5a1d18"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f4e2",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "b850c000939e7dfa2e9232ef78d785a333655e749746dfb7aeed3fa20a84283a",
+      "payload_hash": "dadd726613bb60338fbd59467a925b79f05cf39f24838fe9efe7c9512b5a1d18"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f400",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "original_lock_code_ranges_preserved": [
+    [
+      "0x896e4",
+      "0x89cc0"
+    ],
+    [
+      "0x885fc",
+      "0x88670"
+    ],
+    [
+      "0x88c18",
+      "0x88c80"
+    ],
+    [
+      "0x99dc",
+      "0x9c20"
+    ],
+    [
+      "0xaf90",
+      "0xb070"
+    ],
+    [
+      "0xc208",
+      "0xc3b4"
+    ],
+    [
+      "0xc770",
+      "0xc92c"
+    ],
+    [
+      "0x6935c",
+      "0x69f10"
+    ],
+    [
+      "0xb6588",
+      "0xb66a8"
+    ],
+    [
+      "0xbc77c",
+      "0xbc7b0"
+    ],
+    [
+      "0xc4de0",
+      "0xc5004"
+    ],
+    [
+      "0x1306b0",
+      "0x130828"
+    ]
+  ],
+  "deterministic_build_and_assembly": true,
+  "wrong_input_rejected": true,
+  "key_cases": [
+    {
+      "kind": "ENG",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 1,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "GL",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": false,
+      "bits": 1024,
+      "modulus_sha256": "94cf9a08f1bc8a248874342fada6d0335be17a7d48c053532ab8d1e09ff06a8a",
+      "size": 264,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "a26d642171cde7143c9a5b575a2b7f5ded075c7f2612a9504510638786e3f0e5",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "384760189d7647f853bce5688a8c190c07b614d640c6752cadb247939586f310",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": false,
+      "bits": 8192,
+      "modulus_sha256": "965cf0240c5170de50e6ddfe5c3a36aa3338c94fa25a211246df83e0a45990fc",
+      "size": 2056,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "f1f472f2271b2d752c246c3a75b622f612ba301a21bec58a45e83a979130af4b",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "7cf09a6b555aea103c4bc072d4bafcfca7e770f7cb9e3e1d1628478a48d82a05",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "5ad3d0bd18e40e5a460c29784777bfb14139d07c4702f991000ee6f0f4878d38",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "cce7fcfcd61f4a99019735214d0420cbe33574350303700b437e8567e5f4f860",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "c44d291fa54b7b8c94575ac3ad9dd303031c2af5913da794e2839478e7889847",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "3d6f815f147c3ec2e3bfc42bf47e98a854f683b266dcc19d0533802d6f29314c",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "631fcc62de598c60df450883da777224de87aeb61e803ecf279f62a2dfe41d69",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "b24582353e52cdae358a4d0c989090b9e32fd00cc8e055fe1e2df97937d5e9f4",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "8057c16d284b039cdf6a1137b9d0201fd076e1050b11a6b68189355704a0548f",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "e57e34cc92032a026d016a494a3c9ed5c5dfeb8dc97be8116003e6faa2b12fdf",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "256fd3b27f0e63ebf11ea6a0047fd34e8fd2693a78cb5b501c0128212517cfd2",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "063cefd71e6b695d6062fffa65ef6076f124c6b7344d3af1cab7512401fe813d",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "3e5ab35f2aeab83cb1625e9f26097042669b02312ecb89f54d6c934e73e77b70",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "03a359ac5fb486e4886175eb7b611714fea1372494e1489be18e01ef09ba6d91",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "7097ba5cd81548eca59cf39326e998906f4e8f2a5b8cc3e3e711f087f4ef1741",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "ab160bc7624d231b94f8263df8c894b851e36a56e910bbfadc0bb213099271c5",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "6fc6044fe7716925d8edce6b17145e97b55d144b86e2dfee1ef8810f87b5ec45",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": false,
+      "bits": 2048,
+      "modulus_sha256": "3b5e289613e114ebd937a5ad9e94ed397c9ecad0470454ad8f2f3bdb044b245b",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "null",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": true,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 165,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "null",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": false,
+      "null_output": true,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 165,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "null",
+      "patched": false,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": true,
+      "null_output": true,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 165,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 1,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 1,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "GL",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 1,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": true,
+      "bits": 1024,
+      "modulus_sha256": "31d49bf43e5b688e358c21c5320990075f7d0cfb99192b939c26b89ce5504426",
+      "size": 264,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "70e39e06e60a9d31e0e0447211631bcbfaf11dd5b273caeece7dc9a4440c8d98",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "decea4495f025c6c8272b5b3236402609d1767526f550beb7a1bde98ef5eeb55",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "unknown",
+      "patched": true,
+      "bits": 8192,
+      "modulus_sha256": "94a7d8412adbedd39da7f8d92debcab219e8c0e7df78532711ee45ad66d965c8",
+      "size": 2056,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "f1f472f2271b2d752c246c3a75b622f612ba301a21bec58a45e83a979130af4b",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "7cf09a6b555aea103c4bc072d4bafcfca7e770f7cb9e3e1d1628478a48d82a05",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "5ad3d0bd18e40e5a460c29784777bfb14139d07c4702f991000ee6f0f4878d38",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "cce7fcfcd61f4a99019735214d0420cbe33574350303700b437e8567e5f4f860",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "c44d291fa54b7b8c94575ac3ad9dd303031c2af5913da794e2839478e7889847",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "CN_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "3d6f815f147c3ec2e3bfc42bf47e98a854f683b266dcc19d0533802d6f29314c",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "631fcc62de598c60df450883da777224de87aeb61e803ecf279f62a2dfe41d69",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "b24582353e52cdae358a4d0c989090b9e32fd00cc8e055fe1e2df97937d5e9f4",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8057c16d284b039cdf6a1137b9d0201fd076e1050b11a6b68189355704a0548f",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "e57e34cc92032a026d016a494a3c9ed5c5dfeb8dc97be8116003e6faa2b12fdf",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "256fd3b27f0e63ebf11ea6a0047fd34e8fd2693a78cb5b501c0128212517cfd2",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "GL_one_bit_changed",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "063cefd71e6b695d6062fffa65ef6076f124c6b7344d3af1cab7512401fe813d",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "3e5ab35f2aeab83cb1625e9f26097042669b02312ecb89f54d6c934e73e77b70",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "03a359ac5fb486e4886175eb7b611714fea1372494e1489be18e01ef09ba6d91",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "7097ba5cd81548eca59cf39326e998906f4e8f2a5b8cc3e3e711f087f4ef1741",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "ab160bc7624d231b94f8263df8c894b851e36a56e910bbfadc0bb213099271c5",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "6fc6044fe7716925d8edce6b17145e97b55d144b86e2dfee1ef8810f87b5ec45",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "ENG_one_bit_changed",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "3b5e289613e114ebd937a5ad9e94ed397c9ecad0470454ad8f2f3bdb044b245b",
+      "size": 520,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "null",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": true,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 165,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "null",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": false,
+      "null_output": true,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 165,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "null",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": true,
+      "null_output": true,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 165,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 0,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 4,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 7,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 8,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 263,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 264,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 519,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 521,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 1031,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 2048,
+      "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+      "size": 1033,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 0,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 4,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 7,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 8,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 263,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 264,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 519,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 521,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1031,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "malformed_length",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1033,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 2,
+      "trusted": 0,
+      "native_sha256_executed": false,
+      "pass": true
+    },
+    {
+      "kind": "hash_failure",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": true,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    },
+    {
+      "kind": "stored_CN_hash_corrupted",
+      "patched": true,
+      "bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "size": 1032,
+      "null_key": false,
+      "null_output": false,
+      "injected_hash_error": false,
+      "return": 0,
+      "trusted": 0,
+      "native_sha256_executed": true,
+      "pass": true
+    }
+  ],
+  "region_cases": [
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "CN devices do not allow flashing non-CN ROMs.",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": false,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " cn",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " gl",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GLOBAL",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " ENG",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " unknown",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": "factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 0,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 0,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " factory",
+      "secureboot_bits": 14,
+      "hardware_region": 1,
+      "fuse_error": 7,
+      "rpmb_return": 0,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " CN",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -1,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 0,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": false,
+      "outcome": "Not allow flashing when rpmb no provision and device locked.",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "no",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": false,
+      "outcome": "allowed",
+      "read_calls": [
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "rpmb_read",
+        "secureboot_efuse_read",
+        "region_efuse_read"
+      ],
+      "pass": true
+    },
+    {
+      "patched": true,
+      "region_argument": " GL",
+      "secureboot_bits": 14,
+      "hardware_region": 0,
+      "fuse_error": 0,
+      "rpmb_return": -6,
+      "rpmb_error": 7,
+      "unlocked_cache": "yes",
+      "signed_config_bypass": true,
+      "outcome": "allowed",
+      "read_calls": [],
+      "pass": true
+    }
+  ],
+  "predicate_cases": [
+    {
+      "image": "source",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 0"
+      ],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "source",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 0"
+      ],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "image": "patched",
+      "entry_payload": "0xc770",
+      "kind": "fastboot",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [
+        "lks = 1"
+      ],
+      "pass": true
+    }
+  ],
+  "callback_disassembly": [
+    {
+      "payload_offset": "0xc5888",
+      "bytes": "3f2303d5",
+      "instruction": "paciasp "
+    },
+    {
+      "payload_offset": "0xc588c",
+      "bytes": "fd7bbba9",
+      "instruction": "stp x29, x30, [sp, #-0x50]!"
+    },
+    {
+      "payload_offset": "0xc5890",
+      "bytes": "f44f01a9",
+      "instruction": "stp x20, x19, [sp, #0x10]"
+    },
+    {
+      "payload_offset": "0xc5894",
+      "bytes": "f30305aa",
+      "instruction": "mov x19, x5"
+    },
+    {
+      "payload_offset": "0xc5898",
+      "bytes": "40008052",
+      "instruction": "mov w0, #2"
+    },
+    {
+      "payload_offset": "0xc589c",
+      "bytes": "130500b4",
+      "instruction": "cbz x19, #0xc593c"
+    },
+    {
+      "payload_offset": "0xc58a0",
+      "bytes": "e10400b4",
+      "instruction": "cbz x1, #0xc593c"
+    },
+    {
+      "payload_offset": "0xc58a4",
+      "bytes": "7f020039",
+      "instruction": "strb wzr, [x19]"
+    },
+    {
+      "payload_offset": "0xc58a8",
+      "bytes": "5f2000f1",
+      "instruction": "cmp x2, #8"
+    },
+    {
+      "payload_offset": "0xc58ac",
+      "bytes": "83040054",
+      "instruction": "b.lo #0xc593c"
+    },
+    {
+      "payload_offset": "0xc58b0",
+      "bytes": "280040b9",
+      "instruction": "ldr w8, [x1]"
+    },
+    {
+      "payload_offset": "0xc58b4",
+      "bytes": "0809c05a",
+      "instruction": "rev w8, w8"
+    },
+    {
+      "payload_offset": "0xc58b8",
+      "bytes": "f40301aa",
+      "instruction": "mov x20, x1"
+    },
+    {
+      "payload_offset": "0xc58bc",
+      "bytes": "1f012071",
+      "instruction": "cmp w8, #0x800"
+    },
+    {
+      "payload_offset": "0xc58c0",
+      "bytes": "a0020054",
+      "instruction": "b.eq #0xc5914"
+    },
+    {
+      "payload_offset": "0xc58c4",
+      "bytes": "1f054071",
+      "instruction": "cmp w8, #1, lsl #12"
+    },
+    {
+      "payload_offset": "0xc58c8",
+      "bytes": "81030054",
+      "instruction": "b.ne #0xc5938"
+    },
+    {
+      "payload_offset": "0xc58cc",
+      "bytes": "5f2010f1",
+      "instruction": "cmp x2, #0x408"
+    },
+    {
+      "payload_offset": "0xc58d0",
+      "bytes": "e1030054",
+      "instruction": "b.ne #0xc594c"
+    },
+    {
+      "payload_offset": "0xc58d4",
+      "bytes": "80220091",
+      "instruction": "add x0, x20, #8"
+    },
+    {
+      "payload_offset": "0xc58d8",
+      "bytes": "01408052",
+      "instruction": "mov w1, #0x200"
+    },
+    {
+      "payload_offset": "0xc58dc",
+      "bytes": "e2830091",
+      "instruction": "add x2, sp, #0x20"
+    },
+    {
+      "payload_offset": "0xc58e0",
+      "bytes": "907cff97",
+      "instruction": "bl #0xa4b20"
+    },
+    {
+      "payload_offset": "0xc58e4",
+      "bytes": "a0020035",
+      "instruction": "cbnz w0, #0xc5938"
+    },
+    {
+      "payload_offset": "0xc58e8",
+      "bytes": "e0830091",
+      "instruction": "add x0, sp, #0x20"
+    },
+    {
+      "payload_offset": "0xc58ec",
+      "bytes": "a1aed110",
+      "instruction": "adr x1, #0x68ec0"
+    },
+    {
+      "payload_offset": "0xc58f0",
+      "bytes": "02048052",
+      "instruction": "mov w2, #0x20"
+    },
+    {
+      "payload_offset": "0xc58f4",
+      "bytes": "d7e6fe97",
+      "instruction": "bl #0x7f450"
+    },
+    {
+      "payload_offset": "0xc58f8",
+      "bytes": "c0010034",
+      "instruction": "cbz w0, #0xc5930"
+    },
+    {
+      "payload_offset": "0xc58fc",
+      "bytes": "e0830091",
+      "instruction": "add x0, sp, #0x20"
+    },
+    {
+      "payload_offset": "0xc5900",
+      "bytes": "01afd110",
+      "instruction": "adr x1, #0x68ee0"
+    },
+    {
+      "payload_offset": "0xc5904",
+      "bytes": "02048052",
+      "instruction": "mov w2, #0x20"
+    },
+    {
+      "payload_offset": "0xc5908",
+      "bytes": "d2e6fe97",
+      "instruction": "bl #0x7f450"
+    },
+    {
+      "payload_offset": "0xc590c",
+      "bytes": "60010035",
+      "instruction": "cbnz w0, #0xc5938"
+    },
+    {
+      "payload_offset": "0xc5910",
+      "bytes": "08000014",
+      "instruction": "b #0xc5930"
+    },
+    {
+      "payload_offset": "0xc5914",
+      "bytes": "5f2008f1",
+      "instruction": "cmp x2, #0x208"
+    },
+    {
+      "payload_offset": "0xc5918",
+      "bytes": "a1010054",
+      "instruction": "b.ne #0xc594c"
+    },
+    {
+      "payload_offset": "0xc591c",
+      "bytes": "80220091",
+      "instruction": "add x0, x20, #8"
+    },
+    {
+      "payload_offset": "0xc5920",
+      "bytes": "41703510",
+      "instruction": "adr x1, #0x130728"
+    },
+    {
+      "payload_offset": "0xc5924",
+      "bytes": "02208052",
+      "instruction": "mov w2, #0x100"
+    },
+    {
+      "payload_offset": "0xc5928",
+      "bytes": "cae6fe97",
+      "instruction": "bl #0x7f450"
+    },
+    {
+      "payload_offset": "0xc592c",
+      "bytes": "60000035",
+      "instruction": "cbnz w0, #0xc5938"
+    },
+    {
+      "payload_offset": "0xc5930",
+      "bytes": "28008052",
+      "instruction": "mov w8, #1"
+    },
+    {
+      "payload_offset": "0xc5934",
+      "bytes": "68020039",
+      "instruction": "strb w8, [x19]"
+    },
+    {
+      "payload_offset": "0xc5938",
+      "bytes": "00008052",
+      "instruction": "mov w0, #0"
+    },
+    {
+      "payload_offset": "0xc593c",
+      "bytes": "f44f41a9",
+      "instruction": "ldp x20, x19, [sp, #0x10]"
+    },
+    {
+      "payload_offset": "0xc5940",
+      "bytes": "fd7bc5a8",
+      "instruction": "ldp x29, x30, [sp], #0x50"
+    },
+    {
+      "payload_offset": "0xc5944",
+      "bytes": "bf2303d5",
+      "instruction": "autiasp "
+    },
+    {
+      "payload_offset": "0xc5948",
+      "bytes": "c0035fd6",
+      "instruction": "ret "
+    },
+    {
+      "payload_offset": "0xc594c",
+      "bytes": "40008052",
+      "instruction": "mov w0, #2"
+    },
+    {
+      "payload_offset": "0xc5950",
+      "bytes": "fbffff17",
+      "instruction": "b #0xc593c"
+    },
+    {
+      "payload_offset": "0xc5954",
+      "bytes": "1f2003d5",
+      "instruction": "nop "
+    },
+    {
+      "payload_offset": "0xc5958",
+      "bytes": "1f2003d5",
+      "instruction": "nop "
+    },
+    {
+      "payload_offset": "0xc595c",
+      "bytes": "1f2003d5",
+      "instruction": "nop "
+    }
+  ],
+  "mocks": [
+    "PAC/logging/fastboot response transport",
+    "efuse/RPMB read/boot-device/dconfig/fastboot cache boundaries in labelled region cases",
+    "lock getter only in labelled state controls",
+    "SHA256 failure only in one labelled negative test"
+  ],
+  "actual_code_executed": [
+    "SHA256 software implementation",
+    "memcmp/strcmp/strncmp",
+    "new and original key callbacks",
+    "original full flash_check function"
+  ],
+  "limits": [
+    "No physical flash/boot or persisted lock-state write",
+    "No complete AVB slot verification with a target ROM signature",
+    "Known CN/GL modulus acceptance does not prove every ROM/model/rollback combination boots"
+  ]
+}

@@ -1,0 +1,13 @@
+ffff000090788c4c	paciasp
+ffff000090788c50	stp x29,x30,[sp, #-0x20]!
+ffff000090788c54	str x19,[sp, #0x10]
+ffff000090788c58	mov x29,sp
+ffff000090788c5c	mov w19,w0
+ffff000090788c60	adrp x0,-0xffff6f80b000
+ffff000090788c64	add x0,x0,#0x499
+ffff000090788c68	bl 0xffff00009077ea84
+ffff000090788c6c	mov w0,w19
+ffff000090788c70	ldr x19,[sp, #0x10]
+ffff000090788c74	ldp x29,x30,[sp], #0x20
+ffff000090788c78	autiasp
+ffff000090788c7c	b 0xffff000090789a38

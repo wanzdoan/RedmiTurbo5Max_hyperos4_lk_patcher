@@ -1,0 +1,40 @@
+{
+  "path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\vbmeta.img",
+  "vbmeta_sha256": "8b0dc701039cf5b4755313f5d5382855553038d78228aeac18a0559762a52fe7",
+  "algorithm_id": 2,
+  "public_key_bits": 4096,
+  "public_key_blob_bytes": 1032,
+  "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+  "key_identity": "known H3 CN",
+  "signed_header_auxiliary_hash_valid": true,
+  "rsa_pkcs1_signature_valid": true,
+  "original_eng_callback": {
+    "bits": 4096,
+    "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+    "size": 1032,
+    "null_key": false,
+    "null_output": false,
+    "injected_hash_error": false,
+    "return": 0,
+    "trusted": 0,
+    "native_sha256_executed": false,
+    "pass": true
+  },
+  "patched_callback": {
+    "bits": 4096,
+    "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+    "size": 1032,
+    "null_key": false,
+    "null_output": false,
+    "injected_hash_error": false,
+    "return": 0,
+    "trusted": 1,
+    "native_sha256_executed": true,
+    "pass": true
+  },
+  "limits": [
+    "Own embedded key verifies signature, not the entire partition chain",
+    "No payload descriptor hashes, rollback or hardware compatibility checked",
+    "Accepting an H4 vbmeta key does not prove H3 ENG LK can boot H4 firmware"
+  ]
+}

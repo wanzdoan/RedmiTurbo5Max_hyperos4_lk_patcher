@@ -1,0 +1,66 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEVICE_TESTED",
+  "artifact": "lk_hyperos3_ENG_STOCK_CN_GLOBAL_BOOT_FLASH_TEST.img",
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "output_sha256": "ad3d66e3c374ff3a83fc73ba30880fe1d18ee049b3c2ec54ff6e97e45815760b",
+  "input_bytes": 4043616,
+  "output_bytes": 4043792,
+  "payload_patch_offset": "0x68e7c",
+  "whole_file_patch_offset": "0x6907c",
+  "old": "28020034",
+  "new": "01000014",
+  "instruction": "cbz w8, 0x68ec0 -> b 0x68e80",
+  "purpose": "Retain original ENG lock mechanism; allow known H3 CN/GL boot keys and flash regions",
+  "changed_main_bytes": 259,
+  "main_patch_span_bytes": 284,
+  "patches": [
+    {
+      "payload_offset": "0x68e7c",
+      "bytes": 4,
+      "original": "28020034",
+      "new": "01000014",
+      "purpose": "CN flash-check region branch"
+    },
+    {
+      "payload_offset": "0x68ec0",
+      "bytes": 64,
+      "original": "8103009021c81f91e00313aa62008052575b009460fdff34410400f0214c1391e00313aa62008052515b0094a0fcff348004009000a42691ad83fe97e7ffff17",
+      "new": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+      "purpose": "SHA256 fingerprints in the now-unreachable region-rejection block"
+    },
+    {
+      "payload_offset": "0xc5888",
+      "bytes": 216,
+      "original": "3f2303d5fd7bbda9f65701a9f44f02a9fd03009140008052610500b4f40305aa250500b4f30301aa608640b8dfedff9708701d129f0200391f012071610300541f2003d5e0723510e10313aa02208052dee6fe9740030034200100d00068029167e4fe97f6031faa940100d094ba119175010090b53a019103000014df0204f1a0010054616a7638e00314aa5ce4fe97d6060091df0e40f221ffff54e00315aa57e4fe97f6ffff17200100d00004029153e4fe97e0031f2a030000142800805288020039f44f42a9f65741a9fd7bc3a8bf2303d5c0035fd6",
+      "new": "3f2303d5fd7bbba9f44f01a9f30305aa40008052130500b4e10400b47f0200395f2000f183040054280040b90809c05af40301aa1f012071a00200541f054071810300545f2010f1e10300548022009101408052e2830091907cff97a0020035e0830091a1aed11002048052d7e6fe97c0010034e083009101afd11002048052d2e6fe9760010035080000145f2008f1a1010054802200914170351002208052cae6fe9760000035280080526802003900008052f44f41a9fd7bc5a8bf2303d5c0035fd640008052fbffff171f2003d51f2003d51f2003d5",
+      "purpose": "Original ENG AVB trust plus known stock CN/GL 4096-bit keys"
+    }
+  ],
+  "public_key_reference_sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+  "cn_4096_modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+  "global_4096_modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+  "original_eng_2048_key_preserved": true,
+  "unknown_keys_trusted": false,
+  "original_eng_lock_getter_and_setter_preserved": true,
+  "unlock_or_fakelock_added": false,
+  "persistent_lock_changed": false,
+  "boot_signature_verification_preserved": true,
+  "boot_key_trust_extended": true,
+  "all_other_members_byte_identical": true,
+  "all_signed_der_unchanged": true,
+  "main_cert2_hash_prefix_bytes": 180,
+  "device_flashed": false,
+  "main_cert2_zero_padding_before": 10,
+  "main_cert2_zero_padding_after": 6,
+  "limits": [
+    "The flash-check region restriction is removed for all region strings, not only Global",
+    "RPMB unprovisioned plus locked rejection remains active",
+    "Original stored lock state is respected; this file neither unlocks nor relocks a device",
+    "Signature verification, rollback, hardware model/layout and earlier boot stages remain unchanged",
+    "Only the two known stock H3 CN/GL 4096-bit moduli are added, not all signed ROMs or all Global builds",
+    "The new callback strictly checks serialized AVB key sizes; malformed inputs can be rejected earlier",
+    "No target Global ROM signature/boot chain or physical flash/boot tested",
+    "Passing flash_check and key-trust probes is not proof that a full ROM can be written or booted",
+    "Main hash prefix uses the same native ENG BL2 parser behavior; not a new vendor signature"
+  ]
+}

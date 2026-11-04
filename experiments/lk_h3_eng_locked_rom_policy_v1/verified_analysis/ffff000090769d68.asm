@@ -1,0 +1,15 @@
+ffff000090769d68	paciasp
+ffff000090769d6c	adrp x8,-0xffff6f7e7000
+ffff000090769d70	ldrsw x8,[x8, #0x968]
+ffff000090769d74	cmp w8,#0x3
+ffff000090769d78	b.hi 0xffff000090769d94
+ffff000090769d7c	nop
+ffff000090769d80	adr x9,-0xffff6f7f8b1c
+ffff000090769d84	ldrsw x8,[x9, x8, LSL #0x2]
+ffff000090769d88	add x0,x9,x8
+ffff000090769d8c	autiasp
+ffff000090769d90	b 0xffff00009077ea84
+ffff000090769d94	adrp x0,-0xffff6f824000
+ffff000090769d98	add x0,x0,#0x3e
+ffff000090769d9c	autiasp
+ffff000090769da0	b 0xffff00009077ea84
