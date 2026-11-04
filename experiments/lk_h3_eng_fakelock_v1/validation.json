@@ -1,0 +1,5126 @@
+{
+  "status": "PASS",
+  "artifact_sha256": "28f7f7b918a5462685eddf5e4814df1c28302bc9450de4d983dea81da58371ec",
+  "public_reporting_cpu_cases": 74,
+  "internal_unlock_cpu_cases": 335,
+  "total_main_cpu_cases": 409,
+  "internal_variable_storage_unchanged_in_all_reporting_cases": true,
+  "internal_verified_boot_state_unchanged": true,
+  "deterministic_build": true,
+  "wrong_input_rejected": true,
+  "retained_der_signatures": [
+    {
+      "member": 1,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 4,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 7,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 10,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 13,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "retained_der_signature_valid": true
+    }
+  ],
+  "native_eng_bl2_parser_cases": [
+    {
+      "kind": "parser",
+      "mask": "0x60",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "b850c000939e7dfa2e9232ef78d785a333655e749746dfb7aeed3fa20a84283a",
+      "payload_hash": "818df2afa71e67e732edfe23c429c595d1599f8fbc003ef2359eb0a18b4758ab"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f4e2",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "b850c000939e7dfa2e9232ef78d785a333655e749746dfb7aeed3fa20a84283a",
+      "payload_hash": "818df2afa71e67e732edfe23c429c595d1599f8fbc003ef2359eb0a18b4758ab"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f400",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "patch_disassembly": [
+    {
+      "payload_offset": "0xc770",
+      "bytes": "3f2303d5",
+      "instruction": "paciasp "
+    },
+    {
+      "payload_offset": "0xc774",
+      "bytes": "fd7bbfa9",
+      "instruction": "stp x29, x30, [sp, #-0x10]!"
+    },
+    {
+      "payload_offset": "0xc778",
+      "bytes": "20716a50",
+      "instruction": "adr x0, #0xe159e"
+    },
+    {
+      "payload_offset": "0xc77c",
+      "bytes": "60f5ff97",
+      "instruction": "bl #0x9cfc"
+    },
+    {
+      "payload_offset": "0xc780",
+      "bytes": "60886550",
+      "instruction": "adr x0, #0xd788e"
+    },
+    {
+      "payload_offset": "0xc784",
+      "bytes": "fd7bc1a8",
+      "instruction": "ldp x29, x30, [sp], #0x10"
+    },
+    {
+      "payload_offset": "0xc788",
+      "bytes": "bf2303d5",
+      "instruction": "autiasp "
+    },
+    {
+      "payload_offset": "0xc78c",
+      "bytes": "98f5ff17",
+      "instruction": "b #0x9dec"
+    },
+    {
+      "payload_offset": "0xc790",
+      "bytes": "3f2303d5",
+      "instruction": "paciasp "
+    },
+    {
+      "payload_offset": "0xc794",
+      "bytes": "fd7bbfa9",
+      "instruction": "stp x29, x30, [sp, #-0x10]!"
+    },
+    {
+      "payload_offset": "0xc798",
+      "bytes": "800640f9",
+      "instruction": "ldr x0, [x20, #8]"
+    },
+    {
+      "payload_offset": "0xc79c",
+      "bytes": "210d7110",
+      "instruction": "adr x1, #0xee940"
+    },
+    {
+      "payload_offset": "0xc7a0",
+      "bytes": "7ccc0194",
+      "instruction": "bl #0x7f990"
+    },
+    {
+      "payload_offset": "0xc7a4",
+      "bytes": "e0000034",
+      "instruction": "cbz w0, #0xc7c0"
+    },
+    {
+      "payload_offset": "0xc7a8",
+      "bytes": "800640f9",
+      "instruction": "ldr x0, [x20, #8]"
+    },
+    {
+      "payload_offset": "0xc7ac",
+      "bytes": "81f45e70",
+      "instruction": "adr x1, #0xca63f"
+    },
+    {
+      "payload_offset": "0xc7b0",
+      "bytes": "78cc0194",
+      "instruction": "bl #0x7f990"
+    },
+    {
+      "payload_offset": "0xc7b4",
+      "bytes": "a0000034",
+      "instruction": "cbz w0, #0xc7c8"
+    },
+    {
+      "payload_offset": "0xc7b8",
+      "bytes": "800a40f9",
+      "instruction": "ldr x0, [x20, #0x10]"
+    },
+    {
+      "payload_offset": "0xc7bc",
+      "bytes": "04000014",
+      "instruction": "b #0xc7cc"
+    },
+    {
+      "payload_offset": "0xc7c0",
+      "bytes": "80846e70",
+      "instruction": "adr x0, #0xe9853"
+    },
+    {
+      "payload_offset": "0xc7c4",
+      "bytes": "02000014",
+      "instruction": "b #0xc7cc"
+    },
+    {
+      "payload_offset": "0xc7c8",
+      "bytes": "40876570",
+      "instruction": "adr x0, #0xd78b3"
+    },
+    {
+      "payload_offset": "0xc7cc",
+      "bytes": "e40300aa",
+      "instruction": "mov x4, x0"
+    },
+    {
+      "payload_offset": "0xc7d0",
+      "bytes": "830640f9",
+      "instruction": "ldr x3, [x20, #8]"
+    },
+    {
+      "payload_offset": "0xc7d4",
+      "bytes": "fd7bc1a8",
+      "instruction": "ldp x29, x30, [sp], #0x10"
+    },
+    {
+      "payload_offset": "0xc7d8",
+      "bytes": "bf2303d5",
+      "instruction": "autiasp "
+    },
+    {
+      "payload_offset": "0xc7dc",
+      "bytes": "c0035fd6",
+      "instruction": "ret "
+    },
+    {
+      "payload_offset": "0x69da4",
+      "bytes": "3f2303d5",
+      "instruction": "paciasp "
+    },
+    {
+      "payload_offset": "0x69da8",
+      "bytes": "fd7bbfa9",
+      "instruction": "stp x29, x30, [sp, #-0x10]!"
+    },
+    {
+      "payload_offset": "0x69dac",
+      "bytes": "c0f92f10",
+      "instruction": "adr x0, #0xc9ce4"
+    },
+    {
+      "payload_offset": "0x69db0",
+      "bytes": "42bbfe97",
+      "instruction": "bl #0x18ab8"
+    },
+    {
+      "payload_offset": "0x69db4",
+      "bytes": "60000035",
+      "instruction": "cbnz w0, #0x69dc0"
+    },
+    {
+      "payload_offset": "0x69db8",
+      "bytes": "4051d110",
+      "instruction": "adr x0, #0xc7e0"
+    },
+    {
+      "payload_offset": "0x69dbc",
+      "bytes": "3fbbfe97",
+      "instruction": "bl #0x18ab8"
+    },
+    {
+      "payload_offset": "0x69dc0",
+      "bytes": "fd7bc1a8",
+      "instruction": "ldp x29, x30, [sp], #0x10"
+    },
+    {
+      "payload_offset": "0x69dc4",
+      "bytes": "bf2303d5",
+      "instruction": "autiasp "
+    },
+    {
+      "payload_offset": "0x69dc8",
+      "bytes": "c0035fd6",
+      "instruction": "ret "
+    },
+    {
+      "payload_offset": "0x69dcc",
+      "bytes": "1f2003d5",
+      "instruction": "nop "
+    },
+    {
+      "payload_offset": "0x69dd0",
+      "bytes": "1f2003d5",
+      "instruction": "nop "
+    },
+    {
+      "payload_offset": "0x69dd4",
+      "bytes": "1f2003d5",
+      "instruction": "nop "
+    },
+    {
+      "payload_offset": "0xb014",
+      "bytes": "df050094",
+      "instruction": "bl #0xc790"
+    },
+    {
+      "payload_offset": "0xb040",
+      "bytes": "d4050094",
+      "instruction": "bl #0xc790"
+    },
+    {
+      "payload_offset": "0xbc79c",
+      "bytes": "e2030aaa",
+      "instruction": "mov x2, x10"
+    }
+  ],
+  "reporting_cases": [
+    {
+      "kind": "getvar",
+      "query": "all",
+      "patched": false,
+      "info": [
+        "\tproduct: dash",
+        "\tunlocked: yes",
+        "\tsecure: no",
+        "\tcurrent-slot: a",
+        "\tunlocked-critical: no",
+        "\tslot-count: 2",
+        "\tunlocked-extra: untouched",
+        "\tsecure-extra: untouched"
+      ],
+      "okay": [
+        "Done!!"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "yes"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "no"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "product",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "dash"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "current-slot",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "a"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "missing",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked-extra",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure-extra",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "all",
+      "patched": false,
+      "info": [
+        "\tsecure-extra: untouched",
+        "\tunlocked-extra: untouched",
+        "\tslot-count: 2",
+        "\tunlocked-critical: no",
+        "\tcurrent-slot: a",
+        "\tsecure: no",
+        "\tunlocked: yes",
+        "\tproduct: dash"
+      ],
+      "okay": [
+        "Done!!"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "yes"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "no"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "product",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "dash"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "current-slot",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "a"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "missing",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked-extra",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure-extra",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "all",
+      "patched": false,
+      "info": [],
+      "okay": [
+        "Done!!"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "product",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "current-slot",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "missing",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked-extra",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure-extra",
+      "patched": false,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "oem",
+      "query": "",
+      "patched": false,
+      "info": [
+        "lks = 0"
+      ],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": false,
+      "real_state": 0,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": false,
+      "real_state": 1,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=yellow"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": false,
+      "real_state": 2,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=orange"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": false,
+      "real_state": 3,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=red"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": false,
+      "real_state": 4294967295,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": false,
+      "real_unlocked": 0,
+      "append_return": 0,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "append_failure"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": false,
+      "real_unlocked": 0,
+      "append_return": 1,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "continue"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": false,
+      "real_unlocked": 1,
+      "append_return": 0,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "unlocked"
+        ]
+      ],
+      "outcome": [
+        "append_failure"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": false,
+      "real_unlocked": 1,
+      "append_return": 1,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "unlocked"
+        ]
+      ],
+      "outcome": [
+        "continue"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": false,
+      "real_unlocked": 2,
+      "append_return": 0,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "unlocked"
+        ]
+      ],
+      "outcome": [
+        "append_failure"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": false,
+      "real_unlocked": 2,
+      "append_return": 1,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "unlocked"
+        ]
+      ],
+      "outcome": [
+        "continue"
+      ]
+    },
+    {
+      "kind": "getvar",
+      "query": "all",
+      "patched": true,
+      "info": [
+        "\tproduct: dash",
+        "\tunlocked: no",
+        "\tsecure: yes",
+        "\tcurrent-slot: a",
+        "\tunlocked-critical: no",
+        "\tslot-count: 2",
+        "\tunlocked-extra: untouched",
+        "\tsecure-extra: untouched"
+      ],
+      "okay": [
+        "Done!!"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "no"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "yes"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "product",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "dash"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "current-slot",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "a"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "missing",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked-extra",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure-extra",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "all",
+      "patched": true,
+      "info": [
+        "\tsecure-extra: untouched",
+        "\tunlocked-extra: untouched",
+        "\tslot-count: 2",
+        "\tunlocked-critical: no",
+        "\tcurrent-slot: a",
+        "\tsecure: yes",
+        "\tunlocked: no",
+        "\tproduct: dash"
+      ],
+      "okay": [
+        "Done!!"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "no"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "yes"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "product",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "dash"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "current-slot",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "a"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "missing",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked-extra",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure-extra",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "untouched"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "all",
+      "patched": true,
+      "info": [],
+      "okay": [
+        "Done!!"
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "product",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "current-slot",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "missing",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "unlocked-extra",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "getvar",
+      "query": "secure-extra",
+      "patched": true,
+      "info": [],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "",
+        "secure": "",
+        "product": ""
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "oem",
+      "query": "",
+      "patched": true,
+      "info": [
+        "lks = 1"
+      ],
+      "okay": [
+        ""
+      ],
+      "internal_values_after_reply": {
+        "unlocked": "yes",
+        "secure": "no",
+        "product": "dash"
+      },
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": true,
+      "real_state": 0,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green",
+        "androidboot.flash.locked=1"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": true,
+      "real_state": 1,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green",
+        "androidboot.flash.locked=1"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": true,
+      "real_state": 2,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green",
+        "androidboot.flash.locked=1"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": true,
+      "real_state": 3,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green",
+        "androidboot.flash.locked=1"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": true,
+      "real_state": 4294967295,
+      "first_append_status": 0,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green",
+        "androidboot.flash.locked=1"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": true,
+      "real_unlocked": 0,
+      "append_return": 0,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "append_failure"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": true,
+      "real_unlocked": 0,
+      "append_return": 1,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "continue"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": true,
+      "real_unlocked": 1,
+      "append_return": 0,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "append_failure"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": true,
+      "real_unlocked": 1,
+      "append_return": 1,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "continue"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": true,
+      "real_unlocked": 2,
+      "append_return": 0,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "append_failure"
+      ]
+    },
+    {
+      "kind": "avb_cmdline",
+      "patched": true,
+      "real_unlocked": 2,
+      "append_return": 1,
+      "public": [
+        [
+          "androidboot.vbmeta.device_state",
+          "locked"
+        ]
+      ],
+      "outcome": [
+        "continue"
+      ]
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": true,
+      "real_state": 2,
+      "first_append_status": -8,
+      "second_append_status": 0,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    },
+    {
+      "kind": "android_bootargs",
+      "patched": true,
+      "real_state": 2,
+      "first_append_status": 0,
+      "second_append_status": -8,
+      "bootargs": [
+        "androidboot.verifiedbootstate=green",
+        "androidboot.flash.locked=1"
+      ],
+      "real_state_unchanged": true,
+      "abi_pass": true
+    }
+  ],
+  "internal_cases": [
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 4,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 4,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 4,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2605181158,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2605181158,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2605181158,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 4094382150,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 4094382150,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 4094382150,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2846443543,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2846443543,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2846443543,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2788344660,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2788344660,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2788344660,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1216625969,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1216625969,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1216625969,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 585488236,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 585488236,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 585488236,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 367837533,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 367837533,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 367837533,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2510937567,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2510937567,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2510937567,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 196965001,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 196965001,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 196965001,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3839085648,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3839085648,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3839085648,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2974195877,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2974195877,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2974195877,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2098723635,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2098723635,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2098723635,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1832010777,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1832010777,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1832010777,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3372537382,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3372537382,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3372537382,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 479670988,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 479670988,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 479670988,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1418239866,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1418239866,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1418239866,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3966979322,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3966979322,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3966979322,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2121924625,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2121924625,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2121924625,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 4050816506,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 4050816506,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 4050816506,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 988504619,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 988504619,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 988504619,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3619277397,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3619277397,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3619277397,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 149856084,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 149856084,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 149856084,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1104431223,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1104431223,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1104431223,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 4154718838,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 4154718838,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 4154718838,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 318791876,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 318791876,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 318791876,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2673302822,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2673302822,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2673302822,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1156862043,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1156862043,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1156862043,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3842265094,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3842265094,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3842265094,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1927929470,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1927929470,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1927929470,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2683949861,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2683949861,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2683949861,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3275873585,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3275873585,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3275873585,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 727397605,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 727397605,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 727397605,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1254740243,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1254740243,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1254740243,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1607218823,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1607218823,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1607218823,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 867256505,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 867256505,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 867256505,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 548876030,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 548876030,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 548876030,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1872193059,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1872193059,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1872193059,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1936586893,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1936586893,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1936586893,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3051900929,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3051900929,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3051900929,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 22941651,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 22941651,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 22941651,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 954080173,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 954080173,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 954080173,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2557289386,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2557289386,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2557289386,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1123497830,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1123497830,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1123497830,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3536405149,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3536405149,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3536405149,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3177483506,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3177483506,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3177483506,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1850079795,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1850079795,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1850079795,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3057903669,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3057903669,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3057903669,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1779733608,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1779733608,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1779733608,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 744544101,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 744544101,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 744544101,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 599704291,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 599704291,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 599704291,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1519510224,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1519510224,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1519510224,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3513452869,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3513452869,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3513452869,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1245476598,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1245476598,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1245476598,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3012894907,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3012894907,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3012894907,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1865171668,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1865171668,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1865171668,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3401812746,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3401812746,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3401812746,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1048973421,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1048973421,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1048973421,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3387684074,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3387684074,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3387684074,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3436481201,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3436481201,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3436481201,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2773897174,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2773897174,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2773897174,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2462695699,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2462695699,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2462695699,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3358844584,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3358844584,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3358844584,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3530764769,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3530764769,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3530764769,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 476728426,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 476728426,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 476728426,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2573437389,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2573437389,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2573437389,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 840220526,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 840220526,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 840220526,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1613947239,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1613947239,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1613947239,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1121189334,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1121189334,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1121189334,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 4271343417,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 4271343417,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 4271343417,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 185615389,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 185615389,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 185615389,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 538707476,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 538707476,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 538707476,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3566134239,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3566134239,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3566134239,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1077031434,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1077031434,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1077031434,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1594492488,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1594492488,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1594492488,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1351274238,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1351274238,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1351274238,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1543525008,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1543525008,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1543525008,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1110901994,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1110901994,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1110901994,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2860675219,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2860675219,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2860675219,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3903294783,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3903294783,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3903294783,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 531522769,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 531522769,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 531522769,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 377691947,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 377691947,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 377691947,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 4275136752,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 4275136752,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 4275136752,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3173336501,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3173336501,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3173336501,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 3663597033,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 3663597033,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 3663597033,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 145738868,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 145738868,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 145738868,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 249544977,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 249544977,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 249544977,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2247280073,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2247280073,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2247280073,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1542862452,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1542862452,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1542862452,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2351960794,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2351960794,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2351960794,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 2509453940,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 2509453940,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 2509453940,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 445151821,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 445151821,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 445151821,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 1911355091,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 1911355091,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 1911355091,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 959173655,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 959173655,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 959173655,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x896e4",
+      "kind": "getter",
+      "initial": 339368724,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x88c18",
+      "kind": "getter",
+      "initial": 339368724,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x885fc",
+      "kind": "getter",
+      "initial": 339368724,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 3,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 0,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 0,
+      "mock_state_control": 4294967295,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mock_state_control": 0,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mock_state_control": 1,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mock_state_control": 2,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mock_state_control": 4,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 1,
+      "mock_state_control": 4294967295,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mock_state_control": 0,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mock_state_control": 1,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mock_state_control": 2,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mock_state_control": 4,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 2,
+      "mock_state_control": 4294967295,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mock_state_control": 0,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mock_state_control": 1,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mock_state_control": 2,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mock_state_control": 4,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0x6979c",
+      "kind": "avb",
+      "initial": 0,
+      "boot_type": 4294967295,
+      "mock_state_control": 4294967295,
+      "return": 1,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": null,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": 0,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": 1,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": 2,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": 3,
+      "return": 0,
+      "output_word": 0,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": 4,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    },
+    {
+      "entry_payload": "0xb6588",
+      "kind": "lock_boolean",
+      "initial": 4294967295,
+      "boot_type": 0,
+      "mock_state_control": 4294967295,
+      "return": 0,
+      "output_word": 1,
+      "fastboot_info": [],
+      "pass": true
+    }
+  ],
+  "mocks": [
+    "PAC/logging",
+    "fastboot transmission and snprintf",
+    "cmdline append boundary",
+    "boot-partition selector",
+    "lock getter only in labelled negative/control probes"
+  ],
+  "limits": [
+    "No device flashing/boot, Android property readback or flash/erase execution",
+    "Fastboot permission-related code/storage is unchanged, not whole-command hardware validation",
+    "TEE/hardware attestation remains real and is not forged"
+  ]
+}

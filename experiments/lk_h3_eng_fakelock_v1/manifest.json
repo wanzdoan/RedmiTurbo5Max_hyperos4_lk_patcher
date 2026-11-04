@@ -1,0 +1,74 @@
+{
+  "status": "EXPERIMENTAL_NOT_HARDWARE_TESTED",
+  "artifact": "lk_hyperos3_ENG_UNLOCKBL_FAKELOCK_TEST.img",
+  "input_sha256": "0d237263a24f6bf41fa33b5dc43bb7d71e5b61f1977331c3f9f1812ad5000466",
+  "output_sha256": "28f7f7b918a5462685eddf5e4814df1c28302bc9450de4d983dea81da58371ec",
+  "output_bytes": 4043792,
+  "public_android": {
+    "androidboot.vbmeta.device_state": "locked",
+    "androidboot.verifiedbootstate": "green",
+    "androidboot.flash.locked": "1"
+  },
+  "public_fastboot": {
+    "getvar unlocked": "no",
+    "getvar secure": "yes",
+    "vendor lks": "1",
+    "getvar all": "same formatting overrides"
+  },
+  "internal_unlocked_state": 3,
+  "internal_fastboot_variable_store_unchanged": true,
+  "internal_verified_boot_state_unchanged": true,
+  "hardware_attestation_forged": false,
+  "all_other_eng_members_unchanged": true,
+  "signed_der_unchanged": true,
+  "patches": [
+    {
+      "payload_offset": "0xc770",
+      "whole_file_offset": "0xc970",
+      "bytes": 140,
+      "original": "3f2303d5ff0301d1fd7b03a9fdc30091a01300d1bfc31fb8ffff01a9ffff00a9ff0300f99aef0194a0000034200600b00054019182f5ff9711000014a8c35fb8a90600b029791691ea0500d04a011a91e00300911f0d0071010580524201899a04ce0194e0030091ff9f003948f5ff97400600f00038229181f5ff97fd7b43a9ff030191bf2303d5c0035fd6",
+      "replacement": "3f2303d5fd7bbfa920716a5060f5ff9760886550fd7bc1a8bf2303d598f5ff173f2303d5fd7bbfa9800640f9210d71107ccc0194e0000034800640f981f45e7078cc0194a0000034800a40f90400001480846e700200001440876570e40300aa830640f9fd7bc1a8bf2303d5c0035fd6616e64726f6964626f6f742e666c6173682e6c6f636b65643d310000",
+      "purpose": "Vendor public lock reply plus getvar-only formatting helper/literal"
+    },
+    {
+      "payload_offset": "0xb014",
+      "whole_file_offset": "0xb214",
+      "bytes": 4,
+      "original": "800a40f9",
+      "replacement": "df050094",
+      "purpose": "Single getvar reply formatting"
+    },
+    {
+      "payload_offset": "0xb040",
+      "whole_file_offset": "0xb240",
+      "bytes": 4,
+      "original": "839240a9",
+      "replacement": "d4050094",
+      "purpose": "getvar all reply formatting"
+    },
+    {
+      "payload_offset": "0xbc79c",
+      "whole_file_offset": "0xbc99c",
+      "bytes": 4,
+      "original": "4201899a",
+      "replacement": "e2030aaa",
+      "purpose": "AVB cmdline value locked; callback/internal state untouched"
+    },
+    {
+      "payload_offset": "0x69da4",
+      "whole_file_offset": "0x69fa4",
+      "bytes": 52,
+      "original": "3f2303d588050090086989b91f0d0071e80000541f2003d5c9b94e102879a8b82001088bbf2303d53bbbfe17bf2303d5c0035fd6",
+      "replacement": "3f2303d5fd7bbfa9c0f92f1042bbfe97600000354051d1103fbbfe97fd7bc1a8bf2303d5c0035fd61f2003d51f2003d51f2003d5",
+      "purpose": "Android green/flash.locked bootargs; internal boot-state variable untouched"
+    }
+  ],
+  "device_flashed": false,
+  "limits": [
+    "Display-only values do not relock or change actual verification/TEE/efuse state",
+    "No guarantee for hardware attestation, Play Integrity or app acceptance",
+    "Host flashing tools may independently refuse when told unlocked=no",
+    "Full flash/erase commands and Android property import need physical runtime verification",
+    "No new hardware boot validation; earlier-stage compatibility limitations still apply"
+  ]
+}
