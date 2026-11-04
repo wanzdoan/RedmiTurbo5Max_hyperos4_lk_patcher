@@ -1,0 +1,42 @@
+{
+  "status": "EXPERIMENTAL_NOT_FLASHED",
+  "artifact": "lk_hyperos3_STOCK_TOKEN_KEY_MATCH_TEST.img",
+  "stock_sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+  "reference_sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+  "output_sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+  "output_bytes": 4083104,
+  "changes": [
+    {
+      "component": "lk",
+      "key_payload_offset": "0x1121b2",
+      "key_whole_file_offset_in_stock": "0x1123b2",
+      "rsa_modulus_bytes": 256,
+      "old_key_sha256": "c21c6c4f9b5365facac2287fc27a22e0279b828fbcfb574ac852600c62b5ca44",
+      "new_key_sha256": "a541cc0c42dc1fe116b4706d3d1a3ebdb90048bdd543755928fa81713cd81dca",
+      "certificate_prefix_bytes": 90,
+      "original_signed_der_preserved": true
+    },
+    {
+      "component": "aee",
+      "key_payload_offset": "0xd2464",
+      "key_whole_file_offset_in_stock": "0x315ad4",
+      "rsa_modulus_bytes": 256,
+      "old_key_sha256": "c21c6c4f9b5365facac2287fc27a22e0279b828fbcfb574ac852600c62b5ca44",
+      "new_key_sha256": "a541cc0c42dc1fe116b4706d3d1a3ebdb90048bdd543755928fa81713cd81dca",
+      "certificate_prefix_bytes": 90,
+      "original_signed_der_preserved": true
+    }
+  ],
+  "all_five_executable_or_dtb_payloads_identical_to_reference": true,
+  "stock_code_unchanged": true,
+  "stock_signed_der_unchanged": true,
+  "private_key_available": false,
+  "token_created_or_installed": false,
+  "device_or_rpmb_written": false,
+  "limits": [
+    "Requires an existing compatible signed token; not unconditional unlock",
+    "Public key alone cannot generate a valid new token",
+    "Existing device token has not been read or validated in this task",
+    "No real-device flashing, boot or full-chain authentication test"
+  ]
+}

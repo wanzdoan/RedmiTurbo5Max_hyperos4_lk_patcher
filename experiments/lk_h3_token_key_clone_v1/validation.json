@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "output_sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+  "output_bytes": 4083104,
+  "reconstructed_from_stock": true,
+  "byte_identical_to_current_device_container": true,
+  "stock_code_unchanged": true,
+  "wrong_input_rejected": true,
+  "certificates": [
+    {
+      "member": 1,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "prefix_bytes": 90,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 4,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 7,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "prefix_bytes": 90,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 10,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 13,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "prefix_bytes": 0,
+      "stock_der_identical": true,
+      "retained_der_signature_valid": true
+    }
+  ],
+  "native_bl2_parser_cases": [
+    {
+      "mask": "0x60",
+      "status": 0,
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "1690ac86ea08868566ff9ba5846acb83a519eeb9e3f2d6f26a866a9420eeab11",
+      "component": "lk",
+      "control": false
+    },
+    {
+      "mask": "0x1f4e2",
+      "status": 0,
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "1690ac86ea08868566ff9ba5846acb83a519eeb9e3f2d6f26a866a9420eeab11",
+      "component": "lk",
+      "control": false
+    },
+    {
+      "mask": "0x1f400",
+      "status": 0,
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "component": "lk",
+      "control": false
+    },
+    {
+      "mask": "0x60",
+      "status": 0,
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "1790ac86ea08868566ff9ba5846acb83a519eeb9e3f2d6f26a866a9420eeab11",
+      "component": "lk",
+      "control": true
+    },
+    {
+      "mask": "0x60",
+      "status": 0,
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "98e37c4db759a5449889edf47dae3e2593fa0dcbb3c0ba27ac0ef3c5e1736aae",
+      "component": "aee",
+      "control": false
+    },
+    {
+      "mask": "0x1f4e2",
+      "status": 0,
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "98e37c4db759a5449889edf47dae3e2593fa0dcbb3c0ba27ac0ef3c5e1736aae",
+      "component": "aee",
+      "control": false
+    },
+    {
+      "mask": "0x1f400",
+      "status": 0,
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "component": "aee",
+      "control": false
+    },
+    {
+      "mask": "0x60",
+      "status": 0,
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "99e37c4db759a5449889edf47dae3e2593fa0dcbb3c0ba27ac0ef3c5e1736aae",
+      "component": "aee",
+      "control": true
+    }
+  ],
+  "limits": [
+    "No token read, signed token creation, RPMB write or device flashing",
+    "Existing private key is unavailable; a new valid token cannot be issued",
+    "Same binary as readback is not a separate new hardware boot test",
+    "Parser emulation bypasses PAC/logging; it is not full boot-chain simulation"
+  ]
+}
