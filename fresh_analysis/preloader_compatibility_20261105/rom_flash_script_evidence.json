@@ -1,0 +1,78 @@
+{
+  "scope": "Read script text only; no commands in scripts executed",
+  "rom": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0",
+  "scripts": [
+    {
+      "script": "flash_all.bat",
+      "sha256": "85f770d3ff7101fb256f0e6997fceadd41307b166d4ecc424edd0d67d250d725",
+      "lines": [
+        {
+          "line": 27,
+          "text": "fastboot %* flash preloader_a      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_a error\" && exit /B 1"
+        },
+        {
+          "line": 28,
+          "text": "fastboot %* flash preloader_b      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_b error\" && exit /B 1"
+        },
+        {
+          "line": 48,
+          "text": "fastboot %* flash lk_ab            %~dp0images\\lk.img             || @echo \"Flash lk_ab error\" && exit /B 1"
+        }
+      ]
+    },
+    {
+      "script": "flash_all.sh",
+      "sha256": "fdc7587024d5949a28f132a36eee38f84e3d22fc87c73536052d3a9d34934b42",
+      "lines": [
+        {
+          "line": 36,
+          "text": "fastboot $* flash preloader_a      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_a error"
+        },
+        {
+          "line": 37,
+          "text": "fastboot $* flash preloader_b      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_b error"
+        },
+        {
+          "line": 57,
+          "text": "fastboot $* flash lk_ab            ${SCRIPT_PATH}/images/lk.img             || handle_error flash lk_ab error"
+        }
+      ]
+    },
+    {
+      "script": "flash_all_lock.bat",
+      "sha256": "854c0fda8ac62ddf8ce9396324bb50c1ad26d6cdcb4e2afbb8d790fd8d2b9943",
+      "lines": [
+        {
+          "line": 27,
+          "text": "fastboot %* flash preloader_a      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_a error\" && exit /B 1"
+        },
+        {
+          "line": 28,
+          "text": "fastboot %* flash preloader_b      %~dp0images\\preloader_dash.bin || @echo \"Flash preloader_b error\" && exit /B 1"
+        },
+        {
+          "line": 48,
+          "text": "fastboot %* flash lk_ab            %~dp0images\\lk.img             || @echo \"Flash lk_ab error\" && exit /B 1"
+        }
+      ]
+    },
+    {
+      "script": "flash_all_lock.sh",
+      "sha256": "6aa9dbb074bb5b160dd6d7421827aa07d93064ee9928d2a0a43ff6a6e9442900",
+      "lines": [
+        {
+          "line": 36,
+          "text": "fastboot $* flash preloader_a      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_a error"
+        },
+        {
+          "line": 37,
+          "text": "fastboot $* flash preloader_b      ${SCRIPT_PATH}/images/preloader_dash.bin || handle_error flash preloader_b error"
+        },
+        {
+          "line": 57,
+          "text": "fastboot $* flash lk_ab            ${SCRIPT_PATH}/images/lk.img             || handle_error flash lk_ab error"
+        }
+      ]
+    }
+  ]
+}

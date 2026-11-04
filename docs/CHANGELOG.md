@@ -75,3 +75,10 @@
 - Checkpoint71caf4c/tag `before-eng-three-variants-mte-off-20261105` đã push trước thêm patch MTE. Đổi duy nhất nhánh main0x34d20 và prefix trong từng ảnh off; không sửa preloader.
 - [MTE research](../fresh_analysis/mte_research/README_VI.md) tìm preloader debug OR7 và đường kernel_mte_init → arm64.nomte có thật. 48LK+168preloader native case đạt. Không quy MTE là nguyên nhân crash cũ, không mô tả tắt ngược preloader/secure-world.
 - Final MTE-off: unlocked3cc3dd40...534main, fakelockv29af2950d...647main, stock-policyb2535248...208main; mỗi ảnh10DER+3parser. Chưa flash/boot test.
+
+## 2026-11-05 — Kiểm tra lại tương thích stock preloader theo yêu cầu mới
+
+- Checkpoint `before-eng-stock-preloader-compatibility-20261105` đã push trước nghiên cứu; không flash/sửa firmware. [Docs11](11-eng-preloader-compatibility.md).
+- Xác nhận preloader đúng ROMH4 là104bb...; stockH3China317487.../Global4f43... khác file bcde... từng gọi ENG. Policy3stock qua288 lời gọi native tương đương;66caDFD nêu khác biệt thật về marker/timeout nhưng chưa xác định đó là nguyên nhân brick.
+- 10 chữ ký BL2+5 cặp hash đạt; sáu ENG giữ cùng nền BL2/AEE/DTB. H3patched và H4hybrid cùng BL2code/header/cert1; cert2 cùngTBS nhưng chữ kýPSS khác, đều hợp lệ. Hybrid triple từ H3original.
+- Không suy parser BL2H4 gây ca brick H3patched+H4preloader; không cấp xác nhận flash stockH3/H4 cho sáuENG từ phân tích tĩnh.

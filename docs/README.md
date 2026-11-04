@@ -23,3 +23,5 @@ Repo private: [wanzdoan/RedmiTurbo5Max_hyperos4_lk_patcher](https://github.com/w
 Ngày 2026-11-05: [ENG unlocked/fakelock v2 + HWC tự chọn vùng](../experiments/lk_h3_eng_auto_hwc_v1/README_VI.md), hai artifact riêng, chưa boot test; nghiên cứu lock/OTA đã dừng theo yêu cầu.
 
 Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../experiments/lk_h3_eng_mte_off_v1/README_VI.md). [Luồng preloader → LK → kernel MTE và evidence](../fresh_analysis/mte_research/README_VI.md). Mỗi nhánh unlocked/fakelock v2/stock-policy có hai file riêng, chưa boot test.
+
+[11 — LK ENG và preloader H3/H4](11-eng-preloader-compatibility.md): yêu cầu mở lại ngày05-11; stock input đúng hash, policy/DFD, chứng chỉ, ma trận boot và giới hạn chưa kiểm chứng.

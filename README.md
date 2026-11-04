@@ -34,3 +34,5 @@ Nghiên cứu hiện tại: [khóa thật và OTA stock China](docs/10-stock-rel
 Cập nhật 2026-11-05: đã dừng nghiên cứu relock theo yêu cầu. Hai biến thể mới [ENG unlocked và fakelock v2 thêm HWC tự chọn vùng](experiments/lk_h3_eng_auto_hwc_v1/README_VI.md) giữ riêng tính năng từng bản; đã qua replay ARM64, chưa flash/boot test.
 
 Bộ bàn giao theo xác nhận 2026-11-05: [6 file ENG all-region HWC](experiments/lk_h3_eng_mte_off_v1/README_VI.md), gồm unlocked/fakelock v2/stock-policy, mỗi bản giữ MTE gốc hoặc ép nhánh kernel MTE-off riêng. Đã qua replay, chưa flash/boot test. [Nghiên cứu MTE](fresh_analysis/mte_research/README_VI.md) phân biệt tắt phía kernel với hoạt động preloader đã chạy.
+
+Theo yêu cầu mở lại nghiên cứu preloader ngày2026-11-05: [LK ENG và stock preloader H3/H4](docs/11-eng-preloader-compatibility.md). Đã kiểm đúng input, policy ARM64/DFD và chuỗi chứng chỉ; chưa chốt nguyên nhân brick H3 cũ + stock H4, chưa xác nhận sáu bản ENG boot với stock H3/H4. Không flash hoặc sửa firmware.
