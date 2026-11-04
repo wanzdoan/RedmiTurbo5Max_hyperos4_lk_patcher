@@ -1,0 +1,10 @@
+{
+  "source_path": "C:\\Users\\Administrator\\Downloads\\lk_device_backup_20261104_125548_634354\\lk_current_slot_a.img",
+  "raw_partition_bytes": 16777216,
+  "raw_partition_sha256": "83e1b77417e85ff0f6fb7fb74bc93efbea43e400afc9ca4c851e43ef3c848857",
+  "container_bytes": 4083104,
+  "container_sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+  "removed_tail_bytes": 12694112,
+  "removed_tail_all_zero": true,
+  "original_readback_unchanged": true
+}
