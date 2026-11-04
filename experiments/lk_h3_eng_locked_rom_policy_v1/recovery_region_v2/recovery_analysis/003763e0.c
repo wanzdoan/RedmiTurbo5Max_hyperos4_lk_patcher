@@ -1,0 +1,496 @@
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+/* delete_minidump() */
+
+int delete_minidump(void)
+
+{
+  char *pcVar1;
+  long lVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  char local_70 [72];
+  long local_28;
+
+  lVar2 = tpidr_el0;
+  local_28 = *(long *)(lVar2 + 0x28);
+  local_70[8] = '\0';
+  local_70[9] = '\0';
+  local_70[10] = '\0';
+  local_70[0xb] = '\0';
+  local_70[0xc] = '\0';
+  local_70[0xd] = '\0';
+  local_70[0xe] = '\0';
+  local_70[0xf] = '\0';
+  local_70[0] = '\0';
+  local_70[1] = '\0';
+  local_70[2] = '\0';
+  local_70[3] = '\0';
+  local_70[4] = '\0';
+  local_70[5] = '\0';
+  local_70[6] = '\0';
+  local_70[7] = '\0';
+  local_70[0x18] = '\0';
+  local_70[0x19] = '\0';
+  local_70[0x1a] = '\0';
+  local_70[0x1b] = '\0';
+  local_70[0x1c] = '\0';
+  local_70[0x1d] = '\0';
+  local_70[0x1e] = '\0';
+  local_70[0x1f] = '\0';
+  local_70[0x10] = '\0';
+  local_70[0x11] = '\0';
+  local_70[0x12] = '\0';
+  local_70[0x13] = '\0';
+  local_70[0x14] = '\0';
+  local_70[0x15] = '\0';
+  local_70[0x16] = '\0';
+  local_70[0x17] = '\0';
+  local_70[0x28] = '\0';
+  local_70[0x29] = '\0';
+  local_70[0x2a] = '\0';
+  local_70[0x2b] = '\0';
+  local_70[0x2c] = '\0';
+  local_70[0x2d] = '\0';
+  local_70[0x2e] = '\0';
+  local_70[0x2f] = '\0';
+  local_70[0x20] = '\0';
+  local_70[0x21] = '\0';
+  local_70[0x22] = '\0';
+  local_70[0x23] = '\0';
+  local_70[0x24] = '\0';
+  local_70[0x25] = '\0';
+  local_70[0x26] = '\0';
+  local_70[0x27] = '\0';
+  local_70[0x38] = '\0';
+  local_70[0x39] = '\0';
+  local_70[0x3a] = '\0';
+  local_70[0x3b] = '\0';
+  local_70[0x3c] = '\0';
+  local_70[0x3d] = '\0';
+  local_70[0x3e] = '\0';
+  local_70[0x3f] = '\0';
+  local_70[0x30] = '\0';
+  local_70[0x31] = '\0';
+  local_70[0x32] = '\0';
+  local_70[0x33] = '\0';
+  local_70[0x34] = '\0';
+  local_70[0x35] = '\0';
+  local_70[0x36] = '\0';
+  local_70[0x37] = '\0';
+  sprintf(local_70,(char *)0x40,"%s/%s","/cache/recovery","last_minidump.bin");
+  iVar3 = access(local_70,0);
+  if (iVar3 == 0) {
+    iVar3 = unlink(local_70);
+    pcVar1 = "Delete %s success!\n";
+    if (iVar3 != 0) {
+      pcVar1 = "Delete %s failed!\n";
+    }
+    uVar4 = (uint)(iVar3 == 0);
+    printf(pcVar1,local_70);
+  }
+  else {
+    uVar4 = 1;
+  }
+  local_70[8] = '\0';
+  local_70[9] = '\0';
+  local_70[10] = '\0';
+  local_70[0xb] = '\0';
+  local_70[0xc] = '\0';
+  local_70[0xd] = '\0';
+  local_70[0xe] = '\0';
+  local_70[0xf] = '\0';
+  local_70[0] = '\0';
+  local_70[1] = '\0';
+  local_70[2] = '\0';
+  local_70[3] = '\0';
+  local_70[4] = '\0';
+  local_70[5] = '\0';
+  local_70[6] = '\0';
+  local_70[7] = '\0';
+  local_70[0x18] = '\0';
+  local_70[0x19] = '\0';
+  local_70[0x1a] = '\0';
+  local_70[0x1b] = '\0';
+  local_70[0x1c] = '\0';
+  local_70[0x1d] = '\0';
+  local_70[0x1e] = '\0';
+  local_70[0x1f] = '\0';
+  local_70[0x10] = '\0';
+  local_70[0x11] = '\0';
+  local_70[0x12] = '\0';
+  local_70[0x13] = '\0';
+  local_70[0x14] = '\0';
+  local_70[0x15] = '\0';
+  local_70[0x16] = '\0';
+  local_70[0x17] = '\0';
+  local_70[0x28] = '\0';
+  local_70[0x29] = '\0';
+  local_70[0x2a] = '\0';
+  local_70[0x2b] = '\0';
+  local_70[0x2c] = '\0';
+  local_70[0x2d] = '\0';
+  local_70[0x2e] = '\0';
+  local_70[0x2f] = '\0';
+  local_70[0x20] = '\0';
+  local_70[0x21] = '\0';
+  local_70[0x22] = '\0';
+  local_70[0x23] = '\0';
+  local_70[0x24] = '\0';
+  local_70[0x25] = '\0';
+  local_70[0x26] = '\0';
+  local_70[0x27] = '\0';
+  local_70[0x38] = '\0';
+  local_70[0x39] = '\0';
+  local_70[0x3a] = '\0';
+  local_70[0x3b] = '\0';
+  local_70[0x3c] = '\0';
+  local_70[0x3d] = '\0';
+  local_70[0x3e] = '\0';
+  local_70[0x3f] = '\0';
+  local_70[0x30] = '\0';
+  local_70[0x31] = '\0';
+  local_70[0x32] = '\0';
+  local_70[0x33] = '\0';
+  local_70[0x34] = '\0';
+  local_70[0x35] = '\0';
+  local_70[0x36] = '\0';
+  local_70[0x37] = '\0';
+  sprintf(local_70,(char *)0x40,"%s/%s","/cache/recovery","last_minidump.bin.1");
+  iVar3 = access(local_70,0);
+  uVar5 = uVar4;
+  if (iVar3 == 0) {
+    iVar3 = unlink(local_70);
+    pcVar1 = "Delete %s success!\n";
+    if (iVar3 != 0) {
+      pcVar1 = "Delete %s failed!\n";
+    }
+    uVar5 = 0;
+    if (iVar3 == 0) {
+      uVar5 = uVar4;
+    }
+    printf(pcVar1,local_70);
+  }
+  local_70[8] = '\0';
+  local_70[9] = '\0';
+  local_70[10] = '\0';
+  local_70[0xb] = '\0';
+  local_70[0xc] = '\0';
+  local_70[0xd] = '\0';
+  local_70[0xe] = '\0';
+  local_70[0xf] = '\0';
+  local_70[0] = '\0';
+  local_70[1] = '\0';
+  local_70[2] = '\0';
+  local_70[3] = '\0';
+  local_70[4] = '\0';
+  local_70[5] = '\0';
+  local_70[6] = '\0';
+  local_70[7] = '\0';
+  local_70[0x18] = '\0';
+  local_70[0x19] = '\0';
+  local_70[0x1a] = '\0';
+  local_70[0x1b] = '\0';
+  local_70[0x1c] = '\0';
+  local_70[0x1d] = '\0';
+  local_70[0x1e] = '\0';
+  local_70[0x1f] = '\0';
+  local_70[0x10] = '\0';
+  local_70[0x11] = '\0';
+  local_70[0x12] = '\0';
+  local_70[0x13] = '\0';
+  local_70[0x14] = '\0';
+  local_70[0x15] = '\0';
+  local_70[0x16] = '\0';
+  local_70[0x17] = '\0';
+  local_70[0x28] = '\0';
+  local_70[0x29] = '\0';
+  local_70[0x2a] = '\0';
+  local_70[0x2b] = '\0';
+  local_70[0x2c] = '\0';
+  local_70[0x2d] = '\0';
+  local_70[0x2e] = '\0';
+  local_70[0x2f] = '\0';
+  local_70[0x20] = '\0';
+  local_70[0x21] = '\0';
+  local_70[0x22] = '\0';
+  local_70[0x23] = '\0';
+  local_70[0x24] = '\0';
+  local_70[0x25] = '\0';
+  local_70[0x26] = '\0';
+  local_70[0x27] = '\0';
+  local_70[0x38] = '\0';
+  local_70[0x39] = '\0';
+  local_70[0x3a] = '\0';
+  local_70[0x3b] = '\0';
+  local_70[0x3c] = '\0';
+  local_70[0x3d] = '\0';
+  local_70[0x3e] = '\0';
+  local_70[0x3f] = '\0';
+  local_70[0x30] = '\0';
+  local_70[0x31] = '\0';
+  local_70[0x32] = '\0';
+  local_70[0x33] = '\0';
+  local_70[0x34] = '\0';
+  local_70[0x35] = '\0';
+  local_70[0x36] = '\0';
+  local_70[0x37] = '\0';
+  sprintf(local_70,(char *)0x40,"%s/%s","/cache/recovery","last_minidump.bin.2");
+  iVar3 = access(local_70,0);
+  uVar4 = uVar5;
+  if (iVar3 == 0) {
+    iVar3 = unlink(local_70);
+    pcVar1 = "Delete %s success!\n";
+    if (iVar3 != 0) {
+      pcVar1 = "Delete %s failed!\n";
+    }
+    uVar4 = 0;
+    if (iVar3 == 0) {
+      uVar4 = uVar5;
+    }
+    printf(pcVar1,local_70);
+  }
+  local_70[8] = '\0';
+  local_70[9] = '\0';
+  local_70[10] = '\0';
+  local_70[0xb] = '\0';
+  local_70[0xc] = '\0';
+  local_70[0xd] = '\0';
+  local_70[0xe] = '\0';
+  local_70[0xf] = '\0';
+  local_70[0] = '\0';
+  local_70[1] = '\0';
+  local_70[2] = '\0';
+  local_70[3] = '\0';
+  local_70[4] = '\0';
+  local_70[5] = '\0';
+  local_70[6] = '\0';
+  local_70[7] = '\0';
+  local_70[0x18] = '\0';
+  local_70[0x19] = '\0';
+  local_70[0x1a] = '\0';
+  local_70[0x1b] = '\0';
+  local_70[0x1c] = '\0';
+  local_70[0x1d] = '\0';
+  local_70[0x1e] = '\0';
+  local_70[0x1f] = '\0';
+  local_70[0x10] = '\0';
+  local_70[0x11] = '\0';
+  local_70[0x12] = '\0';
+  local_70[0x13] = '\0';
+  local_70[0x14] = '\0';
+  local_70[0x15] = '\0';
+  local_70[0x16] = '\0';
+  local_70[0x17] = '\0';
+  local_70[0x28] = '\0';
+  local_70[0x29] = '\0';
+  local_70[0x2a] = '\0';
+  local_70[0x2b] = '\0';
+  local_70[0x2c] = '\0';
+  local_70[0x2d] = '\0';
+  local_70[0x2e] = '\0';
+  local_70[0x2f] = '\0';
+  local_70[0x20] = '\0';
+  local_70[0x21] = '\0';
+  local_70[0x22] = '\0';
+  local_70[0x23] = '\0';
+  local_70[0x24] = '\0';
+  local_70[0x25] = '\0';
+  local_70[0x26] = '\0';
+  local_70[0x27] = '\0';
+  local_70[0x38] = '\0';
+  local_70[0x39] = '\0';
+  local_70[0x3a] = '\0';
+  local_70[0x3b] = '\0';
+  local_70[0x3c] = '\0';
+  local_70[0x3d] = '\0';
+  local_70[0x3e] = '\0';
+  local_70[0x3f] = '\0';
+  local_70[0x30] = '\0';
+  local_70[0x31] = '\0';
+  local_70[0x32] = '\0';
+  local_70[0x33] = '\0';
+  local_70[0x34] = '\0';
+  local_70[0x35] = '\0';
+  local_70[0x36] = '\0';
+  local_70[0x37] = '\0';
+  sprintf(local_70,(char *)0x40,"%s/%s","/cache/recovery","last_minidump.bin.3");
+  iVar3 = access(local_70,0);
+  uVar5 = uVar4;
+  if (iVar3 == 0) {
+    iVar3 = unlink(local_70);
+    pcVar1 = "Delete %s success!\n";
+    if (iVar3 != 0) {
+      pcVar1 = "Delete %s failed!\n";
+    }
+    uVar5 = 0;
+    if (iVar3 == 0) {
+      uVar5 = uVar4;
+    }
+    printf(pcVar1,local_70);
+  }
+  local_70[8] = '\0';
+  local_70[9] = '\0';
+  local_70[10] = '\0';
+  local_70[0xb] = '\0';
+  local_70[0xc] = '\0';
+  local_70[0xd] = '\0';
+  local_70[0xe] = '\0';
+  local_70[0xf] = '\0';
+  local_70[0] = '\0';
+  local_70[1] = '\0';
+  local_70[2] = '\0';
+  local_70[3] = '\0';
+  local_70[4] = '\0';
+  local_70[5] = '\0';
+  local_70[6] = '\0';
+  local_70[7] = '\0';
+  local_70[0x18] = '\0';
+  local_70[0x19] = '\0';
+  local_70[0x1a] = '\0';
+  local_70[0x1b] = '\0';
+  local_70[0x1c] = '\0';
+  local_70[0x1d] = '\0';
+  local_70[0x1e] = '\0';
+  local_70[0x1f] = '\0';
+  local_70[0x10] = '\0';
+  local_70[0x11] = '\0';
+  local_70[0x12] = '\0';
+  local_70[0x13] = '\0';
+  local_70[0x14] = '\0';
+  local_70[0x15] = '\0';
+  local_70[0x16] = '\0';
+  local_70[0x17] = '\0';
+  local_70[0x28] = '\0';
+  local_70[0x29] = '\0';
+  local_70[0x2a] = '\0';
+  local_70[0x2b] = '\0';
+  local_70[0x2c] = '\0';
+  local_70[0x2d] = '\0';
+  local_70[0x2e] = '\0';
+  local_70[0x2f] = '\0';
+  local_70[0x20] = '\0';
+  local_70[0x21] = '\0';
+  local_70[0x22] = '\0';
+  local_70[0x23] = '\0';
+  local_70[0x24] = '\0';
+  local_70[0x25] = '\0';
+  local_70[0x26] = '\0';
+  local_70[0x27] = '\0';
+  local_70[0x38] = '\0';
+  local_70[0x39] = '\0';
+  local_70[0x3a] = '\0';
+  local_70[0x3b] = '\0';
+  local_70[0x3c] = '\0';
+  local_70[0x3d] = '\0';
+  local_70[0x3e] = '\0';
+  local_70[0x3f] = '\0';
+  local_70[0x30] = '\0';
+  local_70[0x31] = '\0';
+  local_70[0x32] = '\0';
+  local_70[0x33] = '\0';
+  local_70[0x34] = '\0';
+  local_70[0x35] = '\0';
+  local_70[0x36] = '\0';
+  local_70[0x37] = '\0';
+  sprintf(local_70,(char *)0x40,"%s/%s","/cache/recovery","last_minidump.bin.4");
+  iVar3 = access(local_70,0);
+  uVar4 = uVar5;
+  if (iVar3 == 0) {
+    iVar3 = unlink(local_70);
+    pcVar1 = "Delete %s success!\n";
+    if (iVar3 != 0) {
+      pcVar1 = "Delete %s failed!\n";
+    }
+    uVar4 = 0;
+    if (iVar3 == 0) {
+      uVar4 = uVar5;
+    }
+    printf(pcVar1,local_70);
+  }
+  local_70[8] = '\0';
+  local_70[9] = '\0';
+  local_70[10] = '\0';
+  local_70[0xb] = '\0';
+  local_70[0xc] = '\0';
+  local_70[0xd] = '\0';
+  local_70[0xe] = '\0';
+  local_70[0xf] = '\0';
+  local_70[0] = '\0';
+  local_70[1] = '\0';
+  local_70[2] = '\0';
+  local_70[3] = '\0';
+  local_70[4] = '\0';
+  local_70[5] = '\0';
+  local_70[6] = '\0';
+  local_70[7] = '\0';
+  local_70[0x18] = '\0';
+  local_70[0x19] = '\0';
+  local_70[0x1a] = '\0';
+  local_70[0x1b] = '\0';
+  local_70[0x1c] = '\0';
+  local_70[0x1d] = '\0';
+  local_70[0x1e] = '\0';
+  local_70[0x1f] = '\0';
+  local_70[0x10] = '\0';
+  local_70[0x11] = '\0';
+  local_70[0x12] = '\0';
+  local_70[0x13] = '\0';
+  local_70[0x14] = '\0';
+  local_70[0x15] = '\0';
+  local_70[0x16] = '\0';
+  local_70[0x17] = '\0';
+  local_70[0x28] = '\0';
+  local_70[0x29] = '\0';
+  local_70[0x2a] = '\0';
+  local_70[0x2b] = '\0';
+  local_70[0x2c] = '\0';
+  local_70[0x2d] = '\0';
+  local_70[0x2e] = '\0';
+  local_70[0x2f] = '\0';
+  local_70[0x20] = '\0';
+  local_70[0x21] = '\0';
+  local_70[0x22] = '\0';
+  local_70[0x23] = '\0';
+  local_70[0x24] = '\0';
+  local_70[0x25] = '\0';
+  local_70[0x26] = '\0';
+  local_70[0x27] = '\0';
+  local_70[0x38] = '\0';
+  local_70[0x39] = '\0';
+  local_70[0x3a] = '\0';
+  local_70[0x3b] = '\0';
+  local_70[0x3c] = '\0';
+  local_70[0x3d] = '\0';
+  local_70[0x3e] = '\0';
+  local_70[0x3f] = '\0';
+  local_70[0x30] = '\0';
+  local_70[0x31] = '\0';
+  local_70[0x32] = '\0';
+  local_70[0x33] = '\0';
+  local_70[0x34] = '\0';
+  local_70[0x35] = '\0';
+  local_70[0x36] = '\0';
+  local_70[0x37] = '\0';
+  sprintf(local_70,(char *)0x40,"%s/%s","/cache/recovery","last_minidump.bin.5");
+  iVar3 = access(local_70,0);
+  uVar5 = uVar4;
+  if (iVar3 == 0) {
+    iVar3 = unlink(local_70);
+    pcVar1 = "Delete %s success!\n";
+    if (iVar3 != 0) {
+      pcVar1 = "Delete %s failed!\n";
+    }
+    uVar5 = 0;
+    if (iVar3 == 0) {
+      uVar5 = uVar4;
+    }
+    iVar3 = printf(pcVar1,local_70);
+  }
+  if (*(long *)(lVar2 + 0x28) == local_28) {
+    return uVar5 - 1;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail(iVar3);
+}

@@ -1,0 +1,26 @@
+{
+  "footer_version": [
+    1,
+    0
+  ],
+  "original_image_bytes": 62267392,
+  "vbmeta_offset": 62267392,
+  "vbmeta_bytes": 704,
+  "algorithm_id": 0,
+  "public_key_bytes": 0,
+  "descriptors_bytes": 400,
+  "descriptors": [
+    {
+      "tag": 2,
+      "bytes_following": 192,
+      "partition_name": "vendor_boot",
+      "image_bytes": 62267392,
+      "hash_algorithm": "sha256",
+      "actual_image_hash_matches": true
+    },
+    {
+      "tag": 0,
+      "bytes_following": 176
+    }
+  ]
+}

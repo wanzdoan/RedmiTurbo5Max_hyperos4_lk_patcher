@@ -1,0 +1,13 @@
+00146297	0037c228	0037c070	Get device rom zone.
+00146297	0037c674	0037c660	Get device rom zone.
+00147d36	0037cc9c	0037c950	Failed to verify message, rom zone mismatch.
+00147d36	0037c290	0037c070	Failed to verify message, rom zone mismatch.
+00148289	0022bcf8	00229120	ro.boot.verifiedbootstate
+00148289	002251d8	002251a0	ro.boot.verifiedbootstate
+0015318a	0025f838	0025f720	ro.boot.hwc
+001537bd	0037cc00	0037c950	Failed to verify message, device rom zone invalid.
+001537bd	0037c270	0037c070	Failed to verify message, device rom zone invalid.
+001554de	00242128	002420e0	ro.product.mod_device
+001554de	00242164	002420e0	ro.product.mod_device
+001554de	0024220c	002420e0	ro.product.mod_device
+0015a935	00242318	002420e0	can not get ro.product.mod_device.

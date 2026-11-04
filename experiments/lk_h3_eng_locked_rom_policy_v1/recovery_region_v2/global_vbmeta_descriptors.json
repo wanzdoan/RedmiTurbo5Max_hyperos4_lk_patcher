@@ -1,0 +1,65 @@
+[
+  {
+    "tag": 4,
+    "partition": "boot",
+    "rollback_location": 3,
+    "key_bits": 4096,
+    "key_modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb"
+  },
+  {
+    "tag": 4,
+    "partition": "vbmeta_system",
+    "rollback_location": 2,
+    "key_bits": 4096,
+    "key_modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb"
+  },
+  {
+    "tag": 4,
+    "partition": "vbmeta_vendor",
+    "rollback_location": 4,
+    "key_bits": 4096,
+    "key_modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb"
+  },
+  {
+    "tag": 2,
+    "partition": "countrycode",
+    "image_bytes": 32,
+    "algorithm": "sha256",
+    "salt_hex": "1869a8e6da894c5bf2a09a90f85e106437eb3282056910b07ea7a848c302a960",
+    "expected_digest_hex": "e9df1a430fd0139a2fb6cc9d20e1aa75a2a5b81347d01a9d7fef32cb013abea5",
+    "signed_expected_content": "ASCII global followed by zero padding to32 bytes"
+  },
+  {
+    "tag": 2,
+    "partition": "dtbo",
+    "image_bytes": 159824,
+    "algorithm": "sha256",
+    "salt_hex": "1869a8e6da894c5bf2a09a90f85e106437eb3282056910b07ea7a848c302a960",
+    "expected_digest_hex": "1d48d345ce8571b4a9e2bc57d80b5e1eb51029a463e54dd5cd02f3adf481c3a2"
+  },
+  {
+    "tag": 2,
+    "partition": "init_boot",
+    "image_bytes": 3141632,
+    "algorithm": "sha256",
+    "salt_hex": "1869a8e6da894c5bf2a09a90f85e106437eb3282056910b07ea7a848c302a960",
+    "expected_digest_hex": "d779fa09222fb69b0412eb57e4dcce17b78879256c22463c410c503cc1ae49ee"
+  },
+  {
+    "tag": 2,
+    "partition": "pvmfw",
+    "image_bytes": 782336,
+    "algorithm": "sha256",
+    "salt_hex": "1869a8e6da894c5bf2a09a90f85e106437eb3282056910b07ea7a848c302a960",
+    "expected_digest_hex": "43c7e416bcc29601f79046928bd93c7914d1ef92b6c16b882303176a9d134685"
+  },
+  {
+    "tag": 2,
+    "partition": "vendor_boot",
+    "image_bytes": 62267392,
+    "algorithm": "sha256",
+    "salt_hex": "1869a8e6da894c5bf2a09a90f85e106437eb3282056910b07ea7a848c302a960",
+    "expected_digest_hex": "898781ac9bcd2a228da42d32a3b7fc9ef264405bebcba8609b8f739c1d3f9ecf",
+    "actual_supplied_image_matches": true
+  }
+]

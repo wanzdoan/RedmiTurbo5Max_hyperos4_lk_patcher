@@ -1,0 +1,40 @@
+{
+  "path": "C:\\Users\\Administrator\\Downloads\\vbmeta.img",
+  "vbmeta_sha256": "4d6ad1a94bcbf4edc3cfc3ffb94978b61c8441c94a72c6466e3d4f976e263837",
+  "algorithm_id": 2,
+  "public_key_bits": 4096,
+  "public_key_blob_bytes": 1032,
+  "modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+  "key_identity": "known H3 Global",
+  "signed_header_auxiliary_hash_valid": true,
+  "rsa_pkcs1_signature_valid": true,
+  "original_eng_callback": {
+    "bits": 4096,
+    "modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+    "size": 1032,
+    "null_key": false,
+    "null_output": false,
+    "injected_hash_error": false,
+    "return": 0,
+    "trusted": 0,
+    "native_sha256_executed": false,
+    "pass": true
+  },
+  "patched_callback": {
+    "bits": 4096,
+    "modulus_sha256": "798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb",
+    "size": 1032,
+    "null_key": false,
+    "null_output": false,
+    "injected_hash_error": false,
+    "return": 0,
+    "trusted": 1,
+    "native_sha256_executed": true,
+    "pass": true
+  },
+  "limits": [
+    "The real Global vbmeta signature and existing LK public-key callback were checked",
+    "This is not full AVB slot verification or a readback of flashed partitions",
+    "Android trigger for version_mismatch remains unidentified without normal ROM components"
+  ]
+}

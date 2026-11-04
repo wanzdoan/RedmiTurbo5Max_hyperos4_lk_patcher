@@ -1,0 +1,3 @@
+address	name	seed	decompiled
+001e4f50	_ZN7android4initL21do_reboot_to_recoveryERKNS0_16BuiltinArgumentsE	true	true
+002177d0	_ZN7android4init15SecondStageMainEiPPc	true	false

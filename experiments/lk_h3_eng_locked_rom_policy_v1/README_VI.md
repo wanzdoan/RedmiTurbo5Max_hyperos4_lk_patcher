@@ -6,7 +6,7 @@ Artifact thử: [lk_hyperos3_ENG_STOCK_CN_GLOBAL_BOOT_FLASH_TEST.img](lk_hyperos
 
 SHA256: `ad3d66e3c374ff3a83fc73ba30880fe1d18ee049b3c2ec54ff6e97e45815760b`.
 
-**Chưa flash/boot test. Không mô tả là đã cài/boot được mọi ROM.** Đây là bản mở rộng danh sách khóa boot tin cậy và bỏ chốt vùng của lệnh kiểm tra flash; các điều kiện tương thích khác vẫn tồn tại.
+**Cập nhật theo báo cáo người dùng:** ROM Global vào recovery của chính ROM và hiện “This system version can't be installed on this device”; cùng ROM dùng ENG unlock thì boot bình thường. Chưa đối chiếu hash LK đang chạy bằng readback. Bản v1 không được coi là đã hỗ trợ boot Global thành công. Xem [điều tra lỗi recovery](recovery_region_v2/README_VI.md) và [báo cáo người dùng](recovery_region_v2/runtime_failure_report.json). Giữ nguyên file `.img` và hash v1 để đối chiếu; các phép mô phỏng bên dưới không phải xác nhận boot máy thật.
 
 ## Nguồn và trạng thái khóa
 
@@ -90,4 +90,4 @@ Checkpoint trước sửa đã push vào repo private: tag `before-eng-locked-ro
 
 ## Giới hạn còn lại
 
-Chưa có ROM Global đích được cung cấp để đối chiếu chữ ký thực tế. Một ROM Global đổi khóa, khác model, khác bố cục phân vùng hoặc vi phạm rollback vẫn có thể không boot. Không sửa preloader, vùng bảo mật, modem, Android, trạng thái khóa lưu bền hoặc bất kỳ thiết lập điện thoại nào. Không gọi artifact này là fix5G, relock chính thức hay bản đã chứng minh tương thích mọi ROM.
+Đợt điều tra tiếp đã có `vbmeta.img` và `vendor_boot.img` Global `OS3.0.304.0.WPLMIXM`: khóa ký được v1 chấp nhận và hash hai ảnh khớp nhau, nhưng người dùng vẫn báo vào recovery với lỗi version mismatch. Chưa có đủ thành phần Android normal boot để truy điều kiện phát lỗi; xem [trạng thái nghiên cứu](recovery_region_v2/README_VI.md). Một ROM Global đổi khóa, khác model, khác bố cục phân vùng hoặc vi phạm rollback vẫn có thể không boot. Không sửa preloader, vùng bảo mật, modem, Android, trạng thái khóa lưu bền hoặc bất kỳ thiết lập điện thoại nào. Không gọi artifact này là fix5G, relock chính thức hay bản đã chứng minh tương thích mọi ROM.

@@ -1,0 +1,16 @@
+[
+  {
+    "fragment": 0,
+    "member": "res/images/en/version_mismatch.png",
+    "bytes": 9806,
+    "sha256": "dc6232b6918a7553c925bfbec935cf4c95e883d9eca023e770f853d6dc4587c2",
+    "saved": "experiments\\lk_h3_eng_locked_rom_policy_v1\\recovery_region_v2\\input\\version_mismatch_fragment0.png"
+  },
+  {
+    "fragment": 1,
+    "member": "res/images/en/version_mismatch.png",
+    "bytes": 7681,
+    "sha256": "761f26065c978add5ccccbdce401b03853f62b7b50880ea0ad7e1304d19da449",
+    "saved": "experiments\\lk_h3_eng_locked_rom_policy_v1\\recovery_region_v2\\input\\version_mismatch_fragment1.png"
+  }
+]

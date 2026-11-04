@@ -1,0 +1,18 @@
+{
+  "evidence_type": "USER_REPORT_NOT_AUTOMATED_DEVICE_TEST",
+  "reported_date": "2026-11-04",
+  "referenced_previous_artifact_sha256": "ad3d66e3c374ff3a83fc73ba30880fe1d18ee049b3c2ec54ff6e97e45815760b",
+  "artifact_readback_hash_verified_on_device": false,
+  "global_rom_recovery_result": "This system version can't be installed on this device",
+  "recovery_origin_user_report": "recovery included in the flashed Global ROM",
+  "same_global_rom_with_eng_unlock_user_report": "boots normally",
+  "china_rom_user_report": "previous files tested normally on China ROM; exact per-artifact mapping not supplied",
+  "supplied_recovery_source": "C:\\Users\\Administrator\\Downloads\\vendor_boot.img",
+  "source_vendor_boot_sha256": "381a47c837e67fc46b9442f5a1c9ca0444c4b97f67c9f3b8fa82e7facf84a285",
+  "build_found_in_recovery_properties": "OS3.0.304.0.WPLMIXM",
+  "global_vbmeta_path": "C:\\Users\\Administrator\\Downloads\\vbmeta.img",
+  "global_vbmeta_sha256": "4d6ad1a94bcbf4edc3cfc3ffb94978b61c8441c94a72c6466e3d4f976e263837",
+  "flash_scope_user_report": "omitted only lk and preloader; all other ROM images retained",
+  "device_flashed_by_agent": false,
+  "new_patch_runtime_result": "NO_NEW_FIRMWARE_BUILT_PENDING_NORMAL_ROM_TRIGGER_ANALYSIS"
+}
