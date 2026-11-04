@@ -1,0 +1,166 @@
+{
+  "status": "PASS_CAPTURED_PARTITION_FALLBACK_SIGNATURE_AND_BINDINGS",
+  "device_specific_values_emitted": false,
+  "partition_sha256": "7c41cca5599ab4918be23cffa03ff7c774c9b6c88c93518f1b0fa17f114dd2d8",
+  "record_offset": "0x40f",
+  "tlv_data_bytes": 400,
+  "signed_bytes": 414,
+  "signature_bytes": 64,
+  "stock_magic_matches": true,
+  "signature_checks": [
+    {
+      "source": "H3_stock",
+      "curve": "P-256",
+      "public_xy_sha256": "bf4e4043cd1fc1985c70fd5107d284c0764e0a17f58acde587bfbed20b9506da",
+      "captured_signature_valid": true,
+      "two_tamper_controls_rejected": true
+    },
+    {
+      "source": "H4_stock",
+      "curve": "P-256",
+      "public_xy_sha256": "bf4e4043cd1fc1985c70fd5107d284c0764e0a17f58acde587bfbed20b9506da",
+      "captured_signature_valid": true,
+      "two_tamper_controls_rejected": true
+    }
+  ],
+  "tlv_layout": [
+    {
+      "tag": "0x41",
+      "bytes": 58
+    },
+    {
+      "tag": "0x43",
+      "bytes": 2
+    },
+    {
+      "tag": "0x42",
+      "bytes": 2
+    },
+    {
+      "tag": "0x44",
+      "bytes": 90
+    },
+    {
+      "tag": "0x46",
+      "bytes": 90
+    },
+    {
+      "tag": "0x47",
+      "bytes": 90
+    },
+    {
+      "tag": "0x40",
+      "bytes": 4
+    },
+    {
+      "tag": "0x49",
+      "bytes": 14
+    },
+    {
+      "tag": "0x48",
+      "bytes": 32
+    }
+  ],
+  "mandatory_bindings": [
+    {
+      "tag": "0x41",
+      "bootconfig_key": "androidboot.cpuid",
+      "bytes": 58,
+      "exact_match": true
+    },
+    {
+      "tag": "0x43",
+      "bootconfig_key": "androidboot.hwc",
+      "bytes": 2,
+      "exact_match": true
+    },
+    {
+      "tag": "0x42",
+      "bootconfig_key": "androidboot.hwlevel",
+      "bytes": 2,
+      "exact_match": true
+    }
+  ],
+  "native_matcher_cpu_cases": 12,
+  "native_matcher_results": [
+    {
+      "source": "H3_stock",
+      "tag": "0x41",
+      "altered_expected_binding": false,
+      "return": 0
+    },
+    {
+      "source": "H3_stock",
+      "tag": "0x41",
+      "altered_expected_binding": true,
+      "return": 1
+    },
+    {
+      "source": "H4_stock",
+      "tag": "0x41",
+      "altered_expected_binding": false,
+      "return": 0
+    },
+    {
+      "source": "H4_stock",
+      "tag": "0x41",
+      "altered_expected_binding": true,
+      "return": 1
+    },
+    {
+      "source": "H3_stock",
+      "tag": "0x43",
+      "altered_expected_binding": false,
+      "return": 0
+    },
+    {
+      "source": "H3_stock",
+      "tag": "0x43",
+      "altered_expected_binding": true,
+      "return": 1
+    },
+    {
+      "source": "H4_stock",
+      "tag": "0x43",
+      "altered_expected_binding": false,
+      "return": 0
+    },
+    {
+      "source": "H4_stock",
+      "tag": "0x43",
+      "altered_expected_binding": true,
+      "return": 1
+    },
+    {
+      "source": "H3_stock",
+      "tag": "0x42",
+      "altered_expected_binding": false,
+      "return": 0
+    },
+    {
+      "source": "H3_stock",
+      "tag": "0x42",
+      "altered_expected_binding": true,
+      "return": 1
+    },
+    {
+      "source": "H4_stock",
+      "tag": "0x42",
+      "altered_expected_binding": false,
+      "return": 0
+    },
+    {
+      "source": "H4_stock",
+      "tag": "0x42",
+      "altered_expected_binding": true,
+      "return": 1
+    }
+  ],
+  "full_stock_secure_id_gate_confirmed": false,
+  "limits": [
+    "Primary RPMB Secure ID not read; a valid but wrongly-bound primary record need not fall back",
+    "Bindings compared to current LK-generated kernel bootconfig, not independent fuse/attestation measurement",
+    "No direct RPMB/efuse call, live secure-world operation, full boot or lock command",
+    "Applies to the current phone only, not the friend device"
+  ]
+}

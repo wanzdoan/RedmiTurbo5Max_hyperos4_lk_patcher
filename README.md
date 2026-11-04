@@ -28,3 +28,5 @@ Theo yêu cầu tiếp theo chỉ sửa LK: [bản thử bỏ chốt ROM CN/Glob
 Biến thể theo file H3 của người dùng: [H3 đã patch unlock + CN/Global](experiments/lk_h3_global_region_v1/README_VI.md), tạo trực tiếp từ `lk_hyperos3_patched_unlockBL/dash.img`, không ghép H4. Đã kiểm thử mô phỏng, chưa xác nhận boot bản mới.
 
 Input mới ngày2026-11-04: [LK ENG H3 patch unlock riêng](experiments/lk_h3_eng_unlock_v1/README_VI.md), từ `Downloads/lk.img` SHA6f386241..., giữ toàn bộ thành phần ENG. [Docs09](docs/09-h3-eng-unlock.md) ghi logic và kiểm thử; chưa flash/boot test.
+
+Nghiên cứu hiện tại: [khóa thật và OTA stock China](docs/10-stock-relock-and-ota.md). Đọc ADB/su xác nhận hai LK là token-key clone, kernel unlocked/orange khác props bị che; init_boot_a lệch hash ký, Secinfo fallback hợp lệ. Chưa có quy trình relock an toàn được xác nhận; chưa flash/lock hoặc ghi bảo mật. Raw riêng thiết bị giữ ngoài Git.

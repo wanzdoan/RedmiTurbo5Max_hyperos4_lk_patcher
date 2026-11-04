@@ -1,0 +1,160 @@
+{
+  "status": "PASS_BOUNDED_STOCK_H3_REGION_REPLAY",
+  "stock_input_sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+  "cpu_cases": 20,
+  "sku_cases": [
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 0,
+      "software_sku_mock": "CN",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 0,
+      "software_sku_mock": "GL",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 0,
+      "software_sku_mock": "NATIVE",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 1,
+      "software_sku_mock": "CN",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 1,
+      "software_sku_mock": "GL",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 1,
+      "software_sku_mock": "NATIVE",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 0,
+      "software_sku_mock": "CN",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 0,
+      "software_sku_mock": "GL",
+      "outcome": "panic"
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 0,
+      "software_sku_mock": "NATIVE",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 1,
+      "software_sku_mock": "CN",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 1,
+      "software_sku_mock": "GL",
+      "outcome": "continued"
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 1,
+      "software_sku_mock": "NATIVE",
+      "outcome": "continued"
+    }
+  ],
+  "key_cases": [
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 0,
+      "key": "CN",
+      "callback_return": 0,
+      "trusted_out": 1
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 0,
+      "key": "GL",
+      "callback_return": 0,
+      "trusted_out": 1
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 1,
+      "key": "CN",
+      "callback_return": 0,
+      "trusted_out": 1
+    },
+    {
+      "secure_boot_bits_mock": 0,
+      "hardware_region_byte_mock": 1,
+      "key": "GL",
+      "callback_return": 0,
+      "trusted_out": 1
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 0,
+      "key": "CN",
+      "callback_return": 0,
+      "trusted_out": 1
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 0,
+      "key": "GL",
+      "callback_return": 0,
+      "trusted_out": 0
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 1,
+      "key": "CN",
+      "callback_return": 0,
+      "trusted_out": 0
+    },
+    {
+      "secure_boot_bits_mock": 14,
+      "hardware_region_byte_mock": 1,
+      "key": "GL",
+      "callback_return": 0,
+      "trusted_out": 1
+    }
+  ],
+  "conclusions": [
+    "In the modeled CN+secure-boot case, stock H3 rejects GL software SKU",
+    "Its root-key callback does not trust the GL key under the modeled CN hardware flag",
+    "These gates are independent of successfully storing a lock request"
+  ],
+  "mocks": [
+    "SBC/region reads",
+    "dconfig/config getters",
+    "SKU extraction",
+    "logging/PAC"
+  ],
+  "real_code": [
+    "stock H3 SKU branches",
+    "stock AVB key callback",
+    "memcmp/strcmp and ABI"
+  ],
+  "limits": [
+    "No actual device region/efuse/token state was measured",
+    "The failed friend ROM build is not known to equal this reference",
+    "No complete AVB chain, OTA, recovery or hardware execution"
+  ],
+  "no_device_io": true,
+  "no_firmware_created": true
+}

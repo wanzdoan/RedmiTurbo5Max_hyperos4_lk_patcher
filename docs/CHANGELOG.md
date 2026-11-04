@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-04 — Tiền kiểm lock thật và OTA China
+
+- Push checkpoint `before-stock-relock-ota-research-20261104` ở`e3e27af`, giữ mọi artifact trước.
+- 152 ca native getter/setter và20 ca chốt vùng stock, không I/O thiết bị trong mô phỏng. Xác định lock ghi sentinel thay token, getter lỗi thường về locked4 và có nhánh khởi tạo magic.
+- Theo ủy quyền chỉ đọc bằng su: hai LK live trùng token-key clone69089..., kernel bootconfig unlocked/orange trái props bị che; log ghi token256 byte được chấp nhận và Secure ID bị skip.
+- Secinfo fallback kiểm signature OEM H3/H4 và3 binding đạt;12 ca native matcher đạt. Primary RPMB chưa đọc. Không quy fallback máy này là hỏng hoặc quy ca bạn người dùng từ máy này.
+- 4 metadata AVB ký đúng khóa China;5/6 descriptor đã đọc đạt, init_boot_a lệch hash; init_boot_b và file host sạch trùng nhau. Chưa ghi phục hồi, lock, flash, reboot hoặc gọi RPMB/efuse.
+- Lưu kết quả đã lược thông tin và script; raw riêng thiết bị ở thư mục tạm ngoài Git. Chưa chứng minh lock/OTA máy thật.
+
 ## 2026-11-04 — Unlock bản LK ENG mới
 
 - Lưu input Downloads/lk.img SHA256`6f386241...` nguyên byte; push commit`51bd2ae`, tag`before-h3-eng-unlock-patch-20261104` trước sửa.

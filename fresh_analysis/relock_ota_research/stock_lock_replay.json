@@ -1,0 +1,2571 @@
+{
+  "status": "PASS_HOST_REPLAY_ONLY_NO_DEVICE_IO",
+  "sources": [
+    {
+      "target": "h3_stock",
+      "path": "lk_hyperos3_original/lk.img",
+      "sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+      "profile": "h3"
+    },
+    {
+      "target": "h3_token_key_clone",
+      "path": "experiments/lk_h3_token_key_clone_v1/lk_hyperos3_STOCK_TOKEN_KEY_MATCH_TEST.img",
+      "sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+      "profile": "h3"
+    },
+    {
+      "target": "h3_forced_unlock",
+      "path": "lk_hyperos3_patched_unlockBL/dash.img",
+      "sha256": "e164fb22511d93584afab2183c275374d7ab892dd22e3a2132c4f3b1e245ac18",
+      "profile": "h3"
+    },
+    {
+      "target": "h4_stock",
+      "path": "lk_hyperos4_original/lk.img",
+      "sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+      "profile": "h4"
+    },
+    {
+      "target": "h4_forced_unlock",
+      "path": "fresh_analysis/output/lk_hyperos4_BL33_H3BL2_ENG_EXPERIMENTAL.img",
+      "sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+      "profile": "h4"
+    },
+    {
+      "target": "eng_stock",
+      "path": "experiments/lk_h3_eng_unlock_v1/input/lk_eng_original.img",
+      "sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+      "profile": "eng"
+    },
+    {
+      "target": "eng_forced_unlock",
+      "path": "experiments/lk_h3_eng_unlock_v1/lk_hyperos3_ENG_UNLOCKBL_TEST.img",
+      "sha256": "0d237263a24f6bf41fa33b5dc43bb7d71e5b61f1977331c3f9f1812ad5000466",
+      "profile": "eng"
+    }
+  ],
+  "getter_cases": 119,
+  "setter_cases": 33,
+  "total_cpu_cases": 152,
+  "real_code": [
+    "stock/ENG getter and setter control flow",
+    "memcmp/memcpy/memset",
+    "length checks and fail-state selection",
+    "stack/ABI"
+  ],
+  "mocks": [
+    "magic helper",
+    "storage kind/size/region",
+    "RPMB block read/write wrappers",
+    "token verification RESULT (not a real device token)",
+    "descriptor source",
+    "SBC read and logging",
+    "PAC instructions"
+  ],
+  "no_device_io": true,
+  "no_firmware_output_created": true,
+  "limits": [
+    "Fixture status is not verification of any actual token/RPMB record",
+    "Virtual write attempts are observed calls, not hardware writes or success evidence",
+    "No complete lock command, wipe, secure-ID, AVB, preloader or full boot execution",
+    "Does not determine the cause of the reported brick or establish a safe relock procedure"
+  ],
+  "getter_results": [
+    {
+      "target": "h3_stock",
+      "fixture": "valid_token_status",
+      "config": {},
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "invalid_token_status",
+      "config": {
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "no_signature",
+      "config": {
+        "siglen": 0
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 0
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "lock_sentinel",
+      "config": {
+        "siglen": 10,
+        "signature_fixture": "do nothing",
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "oversized_signature",
+      "config": {
+        "siglen": 257
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "length_read_failure",
+      "config": {
+        "length_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "signature_read_failure",
+      "config": {
+        "signature_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "unsupported_storage",
+      "config": {
+        "storage": 1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "unsupported_rpmb_size",
+      "config": {
+        "rpmb_size": 8388608
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "missing_magic",
+      "config": {
+        "magic_matches": false
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "magic_helper_3",
+      "config": {
+        "magic_status": 3
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "magic_helper_4",
+      "config": {
+        "magic_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "unprovisioned_secure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 14
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "unprovisioned_nonsecure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "other_magic_error_valid_token",
+      "config": {
+        "magic_status": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "magic_initialization_write_failure",
+      "config": {
+        "magic_matches": false,
+        "write_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "sixteen_mib_rpmb",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0xffe1",
+          "length": 4
+        },
+        {
+          "block": "0xffe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "valid_token_status",
+      "config": {},
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "invalid_token_status",
+      "config": {
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "no_signature",
+      "config": {
+        "siglen": 0
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 0
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "lock_sentinel",
+      "config": {
+        "siglen": 10,
+        "signature_fixture": "do nothing",
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "oversized_signature",
+      "config": {
+        "siglen": 257
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "length_read_failure",
+      "config": {
+        "length_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "signature_read_failure",
+      "config": {
+        "signature_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "unsupported_storage",
+      "config": {
+        "storage": 1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "unsupported_rpmb_size",
+      "config": {
+        "rpmb_size": 8388608
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "missing_magic",
+      "config": {
+        "magic_matches": false
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "magic_helper_3",
+      "config": {
+        "magic_status": 3
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "magic_helper_4",
+      "config": {
+        "magic_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "unprovisioned_secure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 14
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "unprovisioned_nonsecure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "other_magic_error_valid_token",
+      "config": {
+        "magic_status": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "magic_initialization_write_failure",
+      "config": {
+        "magic_matches": false,
+        "write_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_token_key_clone",
+      "fixture": "sixteen_mib_rpmb",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0xffe1",
+          "length": 4
+        },
+        {
+          "block": "0xffe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "valid_token_status",
+      "config": {},
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "invalid_token_status",
+      "config": {
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "no_signature",
+      "config": {
+        "siglen": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "lock_sentinel",
+      "config": {
+        "siglen": 10,
+        "signature_fixture": "do nothing",
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "oversized_signature",
+      "config": {
+        "siglen": 257
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "length_read_failure",
+      "config": {
+        "length_read_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "signature_read_failure",
+      "config": {
+        "signature_read_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "unsupported_storage",
+      "config": {
+        "storage": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "unsupported_rpmb_size",
+      "config": {
+        "rpmb_size": 8388608
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "missing_magic",
+      "config": {
+        "magic_matches": false
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "magic_helper_3",
+      "config": {
+        "magic_status": 3
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "magic_helper_4",
+      "config": {
+        "magic_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "unprovisioned_secure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 14
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "unprovisioned_nonsecure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "other_magic_error_valid_token",
+      "config": {
+        "magic_status": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "magic_initialization_write_failure",
+      "config": {
+        "magic_matches": false,
+        "write_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_forced_unlock",
+      "fixture": "sixteen_mib_rpmb",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "valid_token_status",
+      "config": {},
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "invalid_token_status",
+      "config": {
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "no_signature",
+      "config": {
+        "siglen": 0
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 0
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "lock_sentinel",
+      "config": {
+        "siglen": 10,
+        "signature_fixture": "do nothing",
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "oversized_signature",
+      "config": {
+        "siglen": 257
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "length_read_failure",
+      "config": {
+        "length_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "signature_read_failure",
+      "config": {
+        "signature_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "unsupported_storage",
+      "config": {
+        "storage": 1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "unsupported_rpmb_size",
+      "config": {
+        "rpmb_size": 8388608
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "missing_magic",
+      "config": {
+        "magic_matches": false
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "magic_helper_3",
+      "config": {
+        "magic_status": 3
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "magic_helper_4",
+      "config": {
+        "magic_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "unprovisioned_secure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 14
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "unprovisioned_nonsecure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "other_magic_error_valid_token",
+      "config": {
+        "magic_status": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "magic_initialization_write_failure",
+      "config": {
+        "magic_matches": false,
+        "write_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sixteen_mib_rpmb",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0xffe1",
+          "length": 4
+        },
+        {
+          "block": "0xffe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "valid_token_status",
+      "config": {},
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "invalid_token_status",
+      "config": {
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "no_signature",
+      "config": {
+        "siglen": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "lock_sentinel",
+      "config": {
+        "siglen": 10,
+        "signature_fixture": "do nothing",
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "oversized_signature",
+      "config": {
+        "siglen": 257
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "length_read_failure",
+      "config": {
+        "length_read_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "signature_read_failure",
+      "config": {
+        "signature_read_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "unsupported_storage",
+      "config": {
+        "storage": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "unsupported_rpmb_size",
+      "config": {
+        "rpmb_size": 8388608
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "missing_magic",
+      "config": {
+        "magic_matches": false
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "magic_helper_3",
+      "config": {
+        "magic_status": 3
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "magic_helper_4",
+      "config": {
+        "magic_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "unprovisioned_secure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 14
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "unprovisioned_nonsecure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "other_magic_error_valid_token",
+      "config": {
+        "magic_status": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "magic_initialization_write_failure",
+      "config": {
+        "magic_matches": false,
+        "write_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_forced_unlock",
+      "fixture": "sixteen_mib_rpmb",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "valid_token_status",
+      "config": {},
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "invalid_token_status",
+      "config": {
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "no_signature",
+      "config": {
+        "siglen": 0
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 0
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "lock_sentinel",
+      "config": {
+        "siglen": 10,
+        "signature_fixture": "do nothing",
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "oversized_signature",
+      "config": {
+        "siglen": 257
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "length_read_failure",
+      "config": {
+        "length_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "signature_read_failure",
+      "config": {
+        "signature_read_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "unsupported_storage",
+      "config": {
+        "storage": 1
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "unsupported_rpmb_size",
+      "config": {
+        "rpmb_size": 8388608
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "missing_magic",
+      "config": {
+        "magic_matches": false
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "magic_helper_3",
+      "config": {
+        "magic_status": 3
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "magic_helper_4",
+      "config": {
+        "magic_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "unprovisioned_secure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 14
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "unprovisioned_nonsecure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "other_magic_error_valid_token",
+      "config": {
+        "magic_status": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0x3fe1",
+          "length": 4
+        },
+        {
+          "block": "0x3fe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "magic_initialization_write_failure",
+      "config": {
+        "magic_matches": false,
+        "write_status": 4
+      },
+      "return": 0,
+      "state": 4,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe0",
+          "length": 8,
+          "fixture_bytes_hex": "4a7a38504e525546"
+        }
+      ],
+      "boundaries": [
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sixteen_mib_rpmb",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [
+        {
+          "block": "0xffe1",
+          "length": 4
+        },
+        {
+          "block": "0xffe2",
+          "length": 256
+        }
+      ],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "magic_read_boundary",
+        "token_verification_status_boundary"
+      ]
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "valid_token_status",
+      "config": {},
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "invalid_token_status",
+      "config": {
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "no_signature",
+      "config": {
+        "siglen": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "lock_sentinel",
+      "config": {
+        "siglen": 10,
+        "signature_fixture": "do nothing",
+        "verify_status": -1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "oversized_signature",
+      "config": {
+        "siglen": 257
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "length_read_failure",
+      "config": {
+        "length_read_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "signature_read_failure",
+      "config": {
+        "signature_read_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "unsupported_storage",
+      "config": {
+        "storage": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "unsupported_rpmb_size",
+      "config": {
+        "rpmb_size": 8388608
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "missing_magic",
+      "config": {
+        "magic_matches": false
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "magic_helper_3",
+      "config": {
+        "magic_status": 3
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "magic_helper_4",
+      "config": {
+        "magic_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "unprovisioned_secure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 14
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "unprovisioned_nonsecure",
+      "config": {
+        "magic_status": 6,
+        "sbc": 0
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "other_magic_error_valid_token",
+      "config": {
+        "magic_status": 1
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "magic_initialization_write_failure",
+      "config": {
+        "magic_matches": false,
+        "write_status": 4
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_forced_unlock",
+      "fixture": "sixteen_mib_rpmb",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": 3,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    }
+  ],
+  "setter_results": [
+    {
+      "target": "h3_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 0,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 1,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 2,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 3,
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 4,
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 5,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 4294967295,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0xffe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0xffe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "write_status": 4
+      },
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "magic_status": 6
+      },
+      "return": 6,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h3_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "storage": 1
+      },
+      "return": 5,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 0,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 1,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 2,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 3,
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 4,
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 5,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 4294967295,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0xffe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0xffe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "write_status": 4
+      },
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "magic_status": 6
+      },
+      "return": 6,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "h4_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "storage": 1
+      },
+      "return": 5,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 0,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 1,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 2,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 3,
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 4,
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0x3fe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 5,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "sentinel_descriptor",
+      "requested_state": 4294967295,
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": []
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "rpmb_size": 16777216
+      },
+      "return": 0,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0xffe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        },
+        {
+          "block": "0xffe2",
+          "length": 10,
+          "fixture_bytes_hex": "646f206e6f7468696e67"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "write_status": 4
+      },
+      "return": 4,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [
+        {
+          "block": "0x3fe1",
+          "length": 4,
+          "fixture_bytes_hex": "0a000000"
+        }
+      ],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "magic_status": 6
+      },
+      "return": 6,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    },
+    {
+      "target": "eng_stock",
+      "fixture": "setter_boundary_control",
+      "config": {
+        "storage": 1
+      },
+      "return": 5,
+      "state": null,
+      "virtual_reads": [],
+      "virtual_write_attempts": [],
+      "boundaries": [
+        "token_descriptor_boundary",
+        "magic_read_boundary"
+      ]
+    }
+  ]
+}

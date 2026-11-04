@@ -1,0 +1,314 @@
+{
+  "status": "PASS_BOUNDED_OFFLINE_AUDIT",
+  "token_key_changes": [
+    {
+      "member": 0,
+      "modulus_payload_offset": "0x1121b2",
+      "stock_modulus_sha256": "c21c6c4f9b5365facac2287fc27a22e0279b828fbcfb574ac852600c62b5ca44",
+      "current_clone_modulus_sha256": "a541cc0c42dc1fe116b4706d3d1a3ebdb90048bdd543755928fa81713cd81dca",
+      "changed_bytes": 255,
+      "all_other_payload_bytes_identical": true
+    },
+    {
+      "member": 6,
+      "modulus_payload_offset": "0xd2464",
+      "stock_modulus_sha256": "c21c6c4f9b5365facac2287fc27a22e0279b828fbcfb574ac852600c62b5ca44",
+      "current_clone_modulus_sha256": "a541cc0c42dc1fe116b4706d3d1a3ebdb90048bdd543755928fa81713cd81dca",
+      "changed_bytes": 255,
+      "all_other_payload_bytes_identical": true
+    }
+  ],
+  "stock_and_token_clone_BL2_tuple_identical": true,
+  "forced_H3_BL2_only_cert2_signature_differs": true,
+  "forced_H3_cert2_signature_changed_bytes": 255,
+  "bl2_inputs": [
+    {
+      "name": "h3_stock",
+      "image_sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+      "bl2_tuple_sha256": "c3f0595fcc4a0b52ea70a4fce8e368ded61025c9b85788be3f718f16953a00c6",
+      "bl2_payload_sha256": "e9aca46a63376b22daf9150319e27c8fc2da1e176781af8bc1392da4f178e76b",
+      "certificates": [
+        {
+          "member": 4,
+          "embedded_der_rsa_pss_valid": true
+        },
+        {
+          "member": 5,
+          "embedded_der_rsa_pss_valid": true
+        }
+      ]
+    },
+    {
+      "name": "h3_token_clone",
+      "image_sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+      "bl2_tuple_sha256": "c3f0595fcc4a0b52ea70a4fce8e368ded61025c9b85788be3f718f16953a00c6",
+      "bl2_payload_sha256": "e9aca46a63376b22daf9150319e27c8fc2da1e176781af8bc1392da4f178e76b",
+      "certificates": [
+        {
+          "member": 4,
+          "embedded_der_rsa_pss_valid": true
+        },
+        {
+          "member": 5,
+          "embedded_der_rsa_pss_valid": true
+        }
+      ]
+    },
+    {
+      "name": "h3_forced",
+      "image_sha256": "e164fb22511d93584afab2183c275374d7ab892dd22e3a2132c4f3b1e245ac18",
+      "bl2_tuple_sha256": "8d95fc6cce925a1ba536e13718781a97491e63c70e738d9005c1dfb6da09ca83",
+      "bl2_payload_sha256": "e9aca46a63376b22daf9150319e27c8fc2da1e176781af8bc1392da4f178e76b",
+      "certificates": [
+        {
+          "member": 4,
+          "embedded_der_rsa_pss_valid": true
+        },
+        {
+          "member": 5,
+          "embedded_der_rsa_pss_valid": true
+        }
+      ]
+    }
+  ],
+  "available_root_vbmeta": [
+    {
+      "label": "supplied_H3_Global_root",
+      "sha256": "4d6ad1a94bcbf4edc3cfc3ffb94978b61c8441c94a72c6466e3d4f976e263837",
+      "properties": [
+        {
+          "key": "com.android.build.dtbo.fingerprint",
+          "value": "POCO/dash_global/dash:15/AP3A.240905.015.A2/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.init_boot.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.init_boot.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.init_boot.security_patch",
+          "value": "2026-08-01"
+        },
+        {
+          "key": "com.android.build.mi_ext.os_version",
+          "value": "16"
+        },
+        {
+          "key": "com.android.build.mi_ext.fingerprint",
+          "value": "Xiaomi/dash/missi:16/BP2A.250605.031.A3/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.mi_ext.security_patch",
+          "value": "2026-09-01"
+        },
+        {
+          "key": "com.android.build.init_boot.sku",
+          "value": "GL"
+        },
+        {
+          "key": "com.android.build.odm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.odm.fingerprint",
+          "value": "POCO/dash_global/dash:15/AP3A.240905.015.A2/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.odm_dlkm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.odm_dlkm.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.product.os_version",
+          "value": "16"
+        },
+        {
+          "key": "com.android.build.product.fingerprint",
+          "value": "Xiaomi/dash/missi:16/BP2A.250605.031.A3/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.product.security_patch",
+          "value": "2026-09-01"
+        },
+        {
+          "key": "com.android.build.system_dlkm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.system_dlkm.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.system_ext.os_version",
+          "value": "16"
+        },
+        {
+          "key": "com.android.build.system_ext.fingerprint",
+          "value": "Xiaomi/missi/missi:16/BP2A.250605.031.A3/16OS3.1.260922.145821649.MTPEGL.S:user/test-keys"
+        },
+        {
+          "key": "com.android.build.system_ext.security_patch",
+          "value": "2026-09-01"
+        },
+        {
+          "key": "com.android.build.vendor_boot.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS3.0.304.0.WPLMIXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.vendor_dlkm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.vendor_dlkm.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS3.0.304.0.WPLMIXM:user/release-keys"
+        }
+      ],
+      "activation_property_in_this_root_vbmeta": false,
+      "limits": "Only this root descriptor block, not all chained metadata or device efuses"
+    },
+    {
+      "label": "supplied_H4_China_root",
+      "sha256": "8b0dc701039cf5b4755313f5d5382855553038d78228aeac18a0559762a52fe7",
+      "properties": [
+        {
+          "key": "com.android.build.dtbo.fingerprint",
+          "value": "Redmi/dash/dash:15/AP3A.240905.015.A2/OS4.0.3.0.XPLCN:user/release-keys"
+        },
+        {
+          "key": "com.android.build.init_boot.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.init_boot.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS4.0.3.0.XPLCN:user/release-keys"
+        },
+        {
+          "key": "com.android.build.init_boot.security_patch",
+          "value": "2026-10-01"
+        },
+        {
+          "key": "com.android.build.mi_ext.os_version",
+          "value": "17"
+        },
+        {
+          "key": "com.android.build.mi_ext.fingerprint",
+          "value": "Xiaomi/dash/missi:17/CP2A.260605.016/OS4.0.3.0.XPLCNXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.mi_ext.security_patch",
+          "value": "2026-10-01"
+        },
+        {
+          "key": "com.android.build.mi_product.os_version",
+          "value": "17"
+        },
+        {
+          "key": "com.android.build.mi_product.fingerprint",
+          "value": "Xiaomi/dash/missi:17/CP2A.260605.016/OS4.0.3.0.XPLCNXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.mi_product.security_patch",
+          "value": "2026-10-01"
+        },
+        {
+          "key": "com.android.build.init_boot.sku",
+          "value": "CN"
+        },
+        {
+          "key": "com.android.build.odm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.odm.fingerprint",
+          "value": "Redmi/dash/dash:15/AP3A.240905.015.A2/OS4.0.3.0.XPLCN:user/release-keys"
+        },
+        {
+          "key": "com.android.build.odm_dlkm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.odm_dlkm.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS4.0.3.0.XPLCN:user/release-keys"
+        },
+        {
+          "key": "com.android.build.product.os_version",
+          "value": "17"
+        },
+        {
+          "key": "com.android.build.product.fingerprint",
+          "value": "Xiaomi/dash/missi:17/CP2A.260605.016/OS4.0.3.0.XPLCNXM:user/release-keys"
+        },
+        {
+          "key": "com.android.build.product.security_patch",
+          "value": "2026-10-01"
+        },
+        {
+          "key": "com.android.build.system_dlkm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.system_dlkm.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS4.0.3.0.XPLCN:user/release-keys"
+        },
+        {
+          "key": "com.android.build.system_ext.os_version",
+          "value": "17"
+        },
+        {
+          "key": "com.android.build.system_ext.fingerprint",
+          "value": "Xiaomi/missi/missi:17/CP2A.260605.016/17OS4.0.261020.230009638.MTPECN.S:user/release-keys"
+        },
+        {
+          "key": "com.android.build.system_ext.security_patch",
+          "value": "2026-10-01"
+        },
+        {
+          "key": "com.android.build.vendor_boot.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS4.0.3.0.XPLCN:user/release-keys"
+        },
+        {
+          "key": "com.android.build.vendor_dlkm.os_version",
+          "value": "15"
+        },
+        {
+          "key": "com.android.build.vendor_dlkm.fingerprint",
+          "value": "alps/hal_mgvi_64_64only_armv82/mgvi_64_64only_armv82:15/AP3A.240905.015.A2/OS4.0.3.0.XPLCN:user/release-keys"
+        }
+      ],
+      "activation_property_in_this_root_vbmeta": false,
+      "limits": "Only this root descriptor block, not all chained metadata or device efuses"
+    }
+  ],
+  "optional_local_unlock_package": {
+    "archive_sha256": "765ca465fd499cc9b7e46b63bde8b38622dac8587a8924f21acc0a25a7303092",
+    "embedded_image_bytes": 16777216,
+    "embedded_image_sha256": "7b49cc259ce6477d14283c9a43f26a166cb7eef10c354623f0fb9e8b75720b03",
+    "container_bytes": 4043792,
+    "container_sha256": "0d237263a24f6bf41fa33b5dc43bb7d71e5b61f1977331c3f9f1812ad5000466",
+    "container_matches_ENG_forced_unlock": true,
+    "unused_partition_tail_is_all_zero": false,
+    "batch_warns_upgrades_not_supported": true,
+    "batch_targets_both_lk_slots": true,
+    "batch_contains_frp_userdata_metadata_erases": true,
+    "never_executed": true,
+    "limits": [
+      "Not established that the friend used this package",
+      "Batch text and image identity only; preload helper not executed or fully analyzed",
+      "No unique tail contents persisted or interpreted as a cause"
+    ]
+  },
+  "no_device_io": true,
+  "OTA_package_audited": false,
+  "limits": [
+    "No exact failing friend ROM/LK/preloader or preserved boot log supplied",
+    "Current token/RPMB/Secure-ID contents have not been read or validated",
+    "Valid embedded DER signature and identical BL2 are not proof of full hardware chain acceptance",
+    "Public-key mismatch is not proof of physical damage or the hard-brick cause"
+  ]
+}

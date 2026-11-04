@@ -1,0 +1,238 @@
+{
+  "evidence_type": "LIVE_READ_ONLY_AVB_PARTIAL_AUDIT",
+  "active_slot": "_a",
+  "root_key_is_known_China": true,
+  "metadata": [
+    {
+      "partition": "vbmeta_a",
+      "canonical_bytes": 11392,
+      "canonical_sha256": "cf2deb1b22e904ec292425ba24f6208dc71cbfbfe3ba4dbbac7b90155a8bce34",
+      "flags": 0,
+      "rollback_index": 0,
+      "public_key_bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "rsa_signature_valid": true,
+      "descriptors": [
+        {
+          "tag": 4,
+          "partition": "boot",
+          "rollback_location": 3,
+          "expected_modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e"
+        },
+        {
+          "tag": 4,
+          "partition": "vbmeta_system",
+          "rollback_location": 2,
+          "expected_modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e"
+        },
+        {
+          "tag": 4,
+          "partition": "vbmeta_vendor",
+          "rollback_location": 4,
+          "expected_modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e"
+        },
+        {
+          "tag": 2,
+          "partition": "countrycode",
+          "image_bytes": 32,
+          "algorithm": "sha256",
+          "salt_hex": "436e2002be4b88972e292a9d0042acfe89756150200fe7e5a01e5678cbaf4bb1",
+          "expected_hash": "60f138ad61f100e48333dffa84d35232f76f40eb0c31883d6fa4160609685279"
+        },
+        {
+          "tag": 2,
+          "partition": "dtbo",
+          "image_bytes": 159840,
+          "algorithm": "sha256",
+          "salt_hex": "436e2002be4b88972e292a9d0042acfe89756150200fe7e5a01e5678cbaf4bb1",
+          "expected_hash": "c22ce1fb8201a95436e0be728a162d6b8fd7a83db3dfbece905cd05b62aa6686"
+        },
+        {
+          "tag": 2,
+          "partition": "init_boot",
+          "image_bytes": 2797568,
+          "algorithm": "sha256",
+          "salt_hex": "436e2002be4b88972e292a9d0042acfe89756150200fe7e5a01e5678cbaf4bb1",
+          "expected_hash": "6dd38f29954c9b560a9c372905189a474fe14f9f099bb64fa383584954a8d531"
+        },
+        {
+          "tag": 2,
+          "partition": "pvmfw",
+          "image_bytes": 806912,
+          "algorithm": "sha256",
+          "salt_hex": "436e2002be4b88972e292a9d0042acfe89756150200fe7e5a01e5678cbaf4bb1",
+          "expected_hash": "c2071a358651abf9cf3151ebd5895513a5c2f8c5e54814a1d3f6cb65307b0ec5"
+        },
+        {
+          "tag": 2,
+          "partition": "vendor_boot",
+          "image_bytes": 64053248,
+          "algorithm": "sha256",
+          "salt_hex": "436e2002be4b88972e292a9d0042acfe89756150200fe7e5a01e5678cbaf4bb1",
+          "expected_hash": "52d88b251fe09ef861122a78fa65ddbd30e44be053a261e6f2c6c5b65e5bb9d4"
+        },
+        {
+          "tag": 1,
+          "partition": "mi_ext",
+          "hashtree_payload_scanned": false
+        },
+        {
+          "tag": 1,
+          "partition": "mi_product",
+          "hashtree_payload_scanned": false
+        },
+        {
+          "tag": 1,
+          "partition": "odm",
+          "hashtree_payload_scanned": false
+        },
+        {
+          "tag": 1,
+          "partition": "odm_dlkm",
+          "hashtree_payload_scanned": false
+        },
+        {
+          "tag": 1,
+          "partition": "product",
+          "hashtree_payload_scanned": false
+        },
+        {
+          "tag": 1,
+          "partition": "system_dlkm",
+          "hashtree_payload_scanned": false
+        },
+        {
+          "tag": 1,
+          "partition": "system_ext",
+          "hashtree_payload_scanned": false
+        },
+        {
+          "tag": 1,
+          "partition": "vendor_dlkm",
+          "hashtree_payload_scanned": false
+        }
+      ]
+    },
+    {
+      "partition": "boot_a",
+      "canonical_bytes": 2432,
+      "canonical_sha256": "67fc002729cfb839f3d47024f4299c223942c0b2e351bef8a25afc7b4a9c9fc0",
+      "flags": 0,
+      "rollback_index": 0,
+      "public_key_bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "rsa_signature_valid": true,
+      "descriptors": [
+        {
+          "tag": 2,
+          "partition": "boot",
+          "image_bytes": 17338368,
+          "algorithm": "sha256",
+          "salt_hex": "cf7880431ca7ad235cb932c74f13431c6306d809a52087145e5617769cf8817f",
+          "expected_hash": "897b472712cd5ad5536655bce9e1238a3fc429a8250309799f4e1e31bb0e60ec"
+        }
+      ],
+      "chain_key_matches_parent": true
+    },
+    {
+      "partition": "vbmeta_system_a",
+      "canonical_bytes": 2496,
+      "canonical_sha256": "686ea6b0aa724217a6fbc49b59ca2645e04f7b57e18d61a267ddafb16293e69f",
+      "flags": 0,
+      "rollback_index": 0,
+      "public_key_bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "rsa_signature_valid": true,
+      "descriptors": [
+        {
+          "tag": 1,
+          "partition": "system",
+          "hashtree_payload_scanned": false
+        }
+      ],
+      "chain_key_matches_parent": true
+    },
+    {
+      "partition": "vbmeta_vendor_a",
+      "canonical_bytes": 2496,
+      "canonical_sha256": "8bca498d39f25f459eea0eaa65bf5c4275d2fad134449026a83f329139384741",
+      "flags": 0,
+      "rollback_index": 0,
+      "public_key_bits": 4096,
+      "modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+      "rsa_signature_valid": true,
+      "descriptors": [
+        {
+          "tag": 1,
+          "partition": "vendor",
+          "hashtree_payload_scanned": false
+        }
+      ],
+      "chain_key_matches_parent": true
+    }
+  ],
+  "hash_descriptors": [
+    {
+      "partition": "countrycode_a",
+      "bytes_hashed": 32,
+      "algorithm": "sha256",
+      "matches_signed_descriptor": true,
+      "expected_digest": "60f138ad61f100e48333dffa84d35232f76f40eb0c31883d6fa4160609685279",
+      "actual_digest": "60f138ad61f100e48333dffa84d35232f76f40eb0c31883d6fa4160609685279"
+    },
+    {
+      "partition": "dtbo_a",
+      "bytes_hashed": 159840,
+      "algorithm": "sha256",
+      "matches_signed_descriptor": true,
+      "expected_digest": "c22ce1fb8201a95436e0be728a162d6b8fd7a83db3dfbece905cd05b62aa6686",
+      "actual_digest": "c22ce1fb8201a95436e0be728a162d6b8fd7a83db3dfbece905cd05b62aa6686"
+    },
+    {
+      "partition": "init_boot_a",
+      "bytes_hashed": 2797568,
+      "algorithm": "sha256",
+      "matches_signed_descriptor": false,
+      "expected_digest": "6dd38f29954c9b560a9c372905189a474fe14f9f099bb64fa383584954a8d531",
+      "actual_digest": "81f5c4c0b912bd30b5cb7dc37e0d4cfed420c950eb9b12e24b8a50f2994bbb82"
+    },
+    {
+      "partition": "pvmfw_a",
+      "bytes_hashed": 806912,
+      "algorithm": "sha256",
+      "matches_signed_descriptor": true,
+      "expected_digest": "c2071a358651abf9cf3151ebd5895513a5c2f8c5e54814a1d3f6cb65307b0ec5",
+      "actual_digest": "c2071a358651abf9cf3151ebd5895513a5c2f8c5e54814a1d3f6cb65307b0ec5"
+    },
+    {
+      "partition": "vendor_boot_a",
+      "bytes_hashed": 64053248,
+      "algorithm": "sha256",
+      "matches_signed_descriptor": true,
+      "expected_digest": "52d88b251fe09ef861122a78fa65ddbd30e44be053a261e6f2c6c5b65e5bb9d4",
+      "actual_digest": "52d88b251fe09ef861122a78fa65ddbd30e44be053a261e6f2c6c5b65e5bb9d4"
+    },
+    {
+      "partition": "boot_a",
+      "bytes_hashed": 17338368,
+      "algorithm": "sha256",
+      "matches_signed_descriptor": true,
+      "expected_digest": "897b472712cd5ad5536655bce9e1238a3fc429a8250309799f4e1e31bb0e60ec",
+      "actual_digest": "897b472712cd5ad5536655bce9e1238a3fc429a8250309799f4e1e31bb0e60ec"
+    }
+  ],
+  "all_examined_hash_descriptors_match": false,
+  "no_device_mutation": true,
+  "limits": [
+    "Hashtree data blocks, rollback values held in secure storage and earlier boot chain not fully verified",
+    "AVB reads do not replace actual stock locked boot or OTA testing",
+    "Root can affect software observations; no direct hardware attestation is claimed"
+  ],
+  "host_stock_init_boot_reference": {
+    "source_path": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0\\images\\init_boot.img",
+    "file_sha256": "3d2062ae64992885cb4cfba19bac2699d1e07d7b7df91a8f0a770a493622b70a",
+    "signed_bytes": 2797568,
+    "matches_live_signed_descriptor": true,
+    "salted_digest": "6dd38f29954c9b560a9c372905189a474fe14f9f099bb64fa383584954a8d531"
+  }
+}

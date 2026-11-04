@@ -1,0 +1,23 @@
+{
+  "source": "ordinary read-only block access to small UFS boot LUNs",
+  "boot_luns": [
+    {
+      "block": "sda",
+      "bytes": 4194304,
+      "sha256": "e987fa22c5ee5d03cf992581b268466e0f557f9e47e6d9580b7283a5e4bdd800",
+      "known_exact_matches": []
+    },
+    {
+      "block": "sdb",
+      "bytes": 4194304,
+      "sha256": "e987fa22c5ee5d03cf992581b268466e0f557f9e47e6d9580b7283a5e4bdd800",
+      "known_exact_matches": []
+    }
+  ],
+  "no_write_or_ufs_attribute_change": true,
+  "limits": [
+    "Neither boot-LUN selection attribute nor hardware rollback counters were modified",
+    "Exact image identification is not a complete preloader authentication/recovery guarantee"
+  ],
+  "offline_code_window_comparison": []
+}

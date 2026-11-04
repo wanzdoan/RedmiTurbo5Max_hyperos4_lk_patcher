@@ -1,0 +1,23 @@
+{
+  "evidence_type": "USER_REPORT_NOT_DEVICE_FAILURE_TRACE",
+  "date": "2026-11-04",
+  "objective": "Establish genuine lock and stock China OTA compatibility first",
+  "friend_device": {
+    "unlock_method_reported": "forced-unlocked LK getter patch",
+    "rom_reported": "China HyperOS 3; exact build unavailable",
+    "stock_restore_then_reboot_without_lock_command_bricked": true,
+    "stock_restore_with_lock_command_also_bricked": true,
+    "fastboot_or_recovery_available_after_failure": false,
+    "engineering_preloader_trials_also_failed_reported": true,
+    "storage_repair_reported": true,
+    "exact_failed_LK_ROM_preloader_hashes_or_bootlog_available": false
+  },
+  "current_device": {
+    "unlock_method_reported": "custom-token-key LK",
+    "authorization": "Read information using existing ADB/su; do not flash",
+    "target_choice": "Prove stock China lock and OTA first"
+  },
+  "scope": "Read-only device collection plus offline native replay; no relock/flash/erase/reboot or direct RPMB/efuse operation",
+  "status": "STOPPED_AT_USER_REQUEST_READ_ONLY_FINDINGS_PRESERVED",
+  "stopped_date": "2026-11-05"
+}

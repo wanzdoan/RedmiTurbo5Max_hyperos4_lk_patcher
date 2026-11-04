@@ -1,0 +1,128 @@
+{
+  "evidence_type": "LIVE_DEVICE_READ_ONLY",
+  "recorded_utc": "20261104_123518",
+  "serial_persisted": false,
+  "existing_su_used": true,
+  "properties": {
+    "ro.product.device": "dash",
+    "ro.product.model": "2602BRT18C",
+    "ro.build.version.incremental": "OS4.0.3.0.XPLCNXM",
+    "ro.build.version.release": "17",
+    "ro.build.type": "user",
+    "ro.boot.slot_suffix": "_a",
+    "ro.boot.hwc": "CN",
+    "ro.boot.hwlevel": "MP",
+    "ro.boot.hwversion": "8.9.0",
+    "ro.boot.ptcountrycode": "cn",
+    "ro.boot.verifiedbootstate": "green",
+    "ro.boot.vbmeta.device_state": "locked",
+    "ro.boot.flash.locked": "1",
+    "ro.boot.veritymode": "enforcing",
+    "ro.boot.bootreason": "reboot",
+    "ro.boot.avb_version": "1.4",
+    "ro.boot.vbmeta.digest": "08165197633ed761057f6842c98d0f8967385cbd2824f116ed5b659c8713ce55",
+    "ro.boot.vbmeta.hash_alg": "sha256",
+    "ro.boot.vbmeta.size": "18816",
+    "ro.boot.secureboot": "1"
+  },
+  "captures": [
+    {
+      "partition": "lk_a",
+      "captured_bytes": 16777216,
+      "sha256": "83e1b77417e85ff0f6fb7fb74bc93efbea43e400afc9ca4c851e43ef3c848857",
+      "container_bytes": 4083104,
+      "container_sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+      "known_artifact_matches": [
+        "experiments/lk_h3_token_key_clone_v1/lk_hyperos3_STOCK_TOKEN_KEY_MATCH_TEST.img",
+        "experiments/lk_h3_token_key_clone_v1/input/reference_current_lk_container.img"
+      ],
+      "tail_all_zero": true
+    },
+    {
+      "partition": "lk_b",
+      "captured_bytes": 16777216,
+      "sha256": "83e1b77417e85ff0f6fb7fb74bc93efbea43e400afc9ca4c851e43ef3c848857",
+      "container_bytes": 4083104,
+      "container_sha256": "69089ebb26e070c202213b19615cad5dcd9202a0ea35e521e4dce18a25599a90",
+      "known_artifact_matches": [
+        "experiments/lk_h3_token_key_clone_v1/lk_hyperos3_STOCK_TOKEN_KEY_MATCH_TEST.img",
+        "experiments/lk_h3_token_key_clone_v1/input/reference_current_lk_container.img"
+      ],
+      "tail_all_zero": true
+    },
+    {
+      "partition": "secinfo",
+      "captured_bytes": 131072,
+      "sha256": "7c41cca5599ab4918be23cffa03ff7c774c9b6c88c93518f1b0fa17f114dd2d8",
+      "has_nonzero_bytes": true,
+      "stock_h3_partition_magic_matches": true
+    },
+    {
+      "partition": "seccfg",
+      "captured_bytes": 4096,
+      "sha256": "27f941645803e903f7e6e7bb627d4475656c19f1ab6190e8682bd2f357edb680"
+    },
+    {
+      "partition": "vbmeta_a",
+      "captured_bytes": 65536,
+      "sha256": "44f5d5f2fbc9e28a712d30665b93e1ec09c73a51de0606bbe28bc45172f881bc"
+    },
+    {
+      "partition": "vbmeta_b",
+      "captured_bytes": 65536,
+      "sha256": "44f5d5f2fbc9e28a712d30665b93e1ec09c73a51de0606bbe28bc45172f881bc"
+    },
+    {
+      "partition": "vbmeta_system_a",
+      "captured_bytes": 65536,
+      "sha256": "4300dca392e3902a7e6d6e9940668b7ce385eb2de47156e1ca4c87f2ba58db77"
+    },
+    {
+      "partition": "vbmeta_vendor_a",
+      "captured_bytes": 65536,
+      "sha256": "33606687858fdee4e1c290414ebbe8843209f08271f781e72652730093ac9499"
+    }
+  ],
+  "private_raw_directory": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\dash-relock-readonly-20261104_123518",
+  "device_mutations": [],
+  "limits": [
+    "Properties may be spoofed by the active LK/root setup",
+    "secinfo content not yet signature/binding validated",
+    "No direct RPMB/efuse read, LK getter call or lock command",
+    "Captures do not identify the friend device failure"
+  ],
+  "kernel_bootconfig_selected": {
+    "androidboot.vbmeta.device_state": "unlocked",
+    "androidboot.verifiedbootstate": "orange",
+    "androidboot.slot_suffix": "_a",
+    "androidboot.hwc": "CN",
+    "androidboot.hwlevel": "MP",
+    "androidboot.secureboot": "1",
+    "androidboot.ptcountrycode": "cn"
+  },
+  "secinfo_layout_check": {
+    "bytes": 131072,
+    "nonzero_bytes": 488,
+    "first_3087_all_zero": false,
+    "avb_footer_present": false,
+    "stock_magic_match": true,
+    "stock_magic_offsets": [
+      0
+    ],
+    "note": "Compared raw literal bytes from stock H3; underscore-sanitized decompiler label is not the literal."
+  },
+  "additional_private_backups": [
+    {
+      "partition": "init_boot_a",
+      "bytes": 8388608,
+      "sha256": "10d9002949cde4259597e077ad79c24bea759e74740223c856cfea54b78521a2",
+      "stored_outside_git": true
+    },
+    {
+      "partition": "init_boot_b",
+      "bytes": 8388608,
+      "sha256": "3d2062ae64992885cb4cfba19bac2699d1e07d7b7df91a8f0a770a493622b70a",
+      "stored_outside_git": true
+    }
+  ]
+}

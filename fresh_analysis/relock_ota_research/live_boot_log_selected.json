@@ -1,0 +1,131 @@
+{
+  "source": "/proc/pl_lk",
+  "captured_bytes": 262244,
+  "raw_sha256": "ee6f4d87bbcd69761574933f983ea8f826ac8979388a1272585da1d7cd4f4ab9",
+  "selected_status_lines_deduplicated": [
+    {
+      "text": "[SEC] custom_get_lock_state...",
+      "count": 2,
+      "first_line": 1953,
+      "last_line": 2353
+    },
+    {
+      "text": "[SEC_POLICY] lock_state(default) = 0x4",
+      "count": 2,
+      "first_line": 1955,
+      "last_line": 2355
+    },
+    {
+      "text": "custom_get_lock_state return = 4, lock_state = 0",
+      "count": 13,
+      "first_line": 2936,
+      "last_line": 3441
+    },
+    {
+      "text": "mi_get_lock_state IN",
+      "count": 37,
+      "first_line": 3665,
+      "last_line": 5393
+    },
+    {
+      "text": "mi_check_magic IN",
+      "count": 37,
+      "first_line": 3666,
+      "last_line": 5394
+    },
+    {
+      "text": "mi_check_magic PASS",
+      "count": 37,
+      "first_line": 3669,
+      "last_line": 5397
+    },
+    {
+      "text": "mi_get_sig IN",
+      "count": 37,
+      "first_line": 3670,
+      "last_line": 5398
+    },
+    {
+      "text": "mi_get_sig OUT",
+      "count": 37,
+      "first_line": 3671,
+      "last_line": 5399
+    },
+    {
+      "text": "mi_get_lock_state sig_len = 256",
+      "count": 37,
+      "first_line": 3672,
+      "last_line": 5400
+    },
+    {
+      "text": "mi_get_lock_state OUT",
+      "count": 37,
+      "first_line": 3678,
+      "last_line": 5405
+    },
+    {
+      "text": "custom_get_lock_state return = 0, lock_state = 3",
+      "count": 37,
+      "first_line": 3679,
+      "last_line": 5406
+    },
+    {
+      "text": "[AVB] sbc_enabled : 1",
+      "count": 1,
+      "first_line": 4127,
+      "last_line": 4127
+    },
+    {
+      "text": "[AVB] vbmeta ep check end.",
+      "count": 1,
+      "first_line": 4128,
+      "last_line": 4128
+    },
+    {
+      "text": "[AVB]efuse sku : CN",
+      "count": 1,
+      "first_line": 4131,
+      "last_line": 4131
+    },
+    {
+      "text": "[AVB]vbmeta sku match!",
+      "count": 1,
+      "first_line": 4132,
+      "last_line": 4132
+    },
+    {
+      "text": "Is_Secure_ID IN",
+      "count": 1,
+      "first_line": 4248,
+      "last_line": 4248
+    },
+    {
+      "text": "lock_state:3",
+      "count": 1,
+      "first_line": 4264,
+      "last_line": 4264
+    },
+    {
+      "text": "sbc_status:1, yes",
+      "count": 1,
+      "first_line": 4266,
+      "last_line": 4266
+    },
+    {
+      "text": "no need to verify secure id. countinue boot.",
+      "count": 1,
+      "first_line": 4267,
+      "last_line": 4267
+    }
+  ],
+  "main_getter_state3_success_count": 37,
+  "signature_length256_count": 37,
+  "secure_id_skip_observed": true,
+  "mi_set_sig_log_observed": false,
+  "raw_stored_outside_git": true,
+  "limits": [
+    "Current phone boot only; default state4/error4 lines before main are not its final lock state",
+    "No identified complete token signature or primary RPMB Secure ID exported",
+    "No hardware write or lock command was executed by this research"
+  ]
+}

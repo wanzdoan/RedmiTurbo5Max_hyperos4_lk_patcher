@@ -11,6 +11,7 @@
 | [07 — Nghiên cứu 5G/NR](07-nr5g-investigation.md) | Policy, các phép thử đã hoàn nguyên, sự cố màn hình và bộ thử region riêng |
 | [08 — Chốt vùng ROM trong LK](08-lk-rom-region.md) | Chốt CN/Global thật, bản thử LK riêng, kiểm thử CPU và giới hạn về 5G |
 | [09 — Unlock LK ENG mới](09-h3-eng-unlock.md) | Input ngày04-11, getter riêng, BL2 ENG giữ nguyên và kiểm thử |
+| [10 — Lock thật và OTA China](10-stock-relock-and-ota.md) | Đọc máy qua su, hash init_boot lệch, Secinfo hợp lệ và điều kiện còn thiếu trước lock |
 | [Changelog](CHANGELOG.md) | Các mốc phát hiện, boot và versioning |
 
 Ngày cập nhật: 2026-11-03. Tài liệu hiện tại ưu tiên bộ `docs`; các báo cáo reverse trong `fresh_analysis` lưu quá trình điều tra và phạm vi tại lúc chạy.
