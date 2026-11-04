@@ -74,3 +74,7 @@ python fresh_analysis/package_results.py
 ZIP gồm root README, docs và fresh_analysis. Input firmware root đã được giữ trong Git; ZIP evidence không nhất thiết chứa toàn bộ input root, nên khi chuyển workspace cần clone repo private hoặc đặt lại đúng input.
 
 Nếu chỉ sửa docs, không cần chạy lại toàn bộ CPU tests; kiểm link/tính nhất quán metadata, firmware hash và archive là đủ. Khi đổi firmware hoặc builder, chạy lại kiểm thử phù hợp và tạo commit/tag riêng trước khi thử máy.
+
+## ENG unlocked/fakelock v2 với HWC tự chọn vùng (2026-11-05)
+
+Quy trình, hashes và giới hạn nằm trong [README biến thể](../experiments/lk_h3_eng_auto_hwc_v1/README_VI.md). Chạy `assemble_auto.py`, `build_variants.py`, `validate_variants.py` trong thư mục đó; không chạy lại builder artifact H4 để kiểm các biến thể ENG này. Kết quả main ARM64: unlocked486, fakelockv2 599; mỗi ảnh thêm10 chữ ký DER và3 parser BL2. Chưa boot test.

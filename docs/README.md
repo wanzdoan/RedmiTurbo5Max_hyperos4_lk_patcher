@@ -19,3 +19,5 @@ Ngày cập nhật: 2026-11-03. Tài liệu hiện tại ưu tiên bộ `docs`; 
 Quan sát binary, replay ARM64 có mô hình hóa, suy luận và báo cáo người dùng là những loại evidence riêng. Các JSON test ghi “no hardware execution” vẫn đúng đối với probe đó. [runtime_confirmation.json](../fresh_analysis/output/runtime_confirmation.json) bổ sung kết quả máy thật do người dùng xác nhận; không biến các probe cũ thành whole-device tests.
 
 Repo private: [wanzdoan/RedmiTurbo5Max_hyperos4_lk_patcher](https://github.com/wanzdoan/RedmiTurbo5Max_hyperos4_lk_patcher). Không tiếp tục điều tra hoặc tự flash preloader sau yêu cầu dừng của người dùng.
+
+Ngày 2026-11-05: [ENG unlocked/fakelock v2 + HWC tự chọn vùng](../experiments/lk_h3_eng_auto_hwc_v1/README_VI.md), hai artifact riêng, chưa boot test; nghiên cứu lock/OTA đã dừng theo yêu cầu.

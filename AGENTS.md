@@ -39,3 +39,5 @@
 - Raw private (LK/init_boot/secinfo/log) chỉ giữ ngoài Git ở đường dẫn trong live_readonly_snapshot.json. Không đưa CPUID/token/provisioning raw vào repo. Getter LK gốc có nhánh ghi magic nên không coi mọi getvar gọi getter là chỉ đọc. Ca bạn user brick cả không chạy lock nhưng thiếu đúng build/log; không gán nguyên nhân từ máy hiện tại.
 
 - Ngày2026-11-05 user yêu cầu dừng nghiên cứu lock/OTA. Bảo tồn kết quả, không tiếp tục thu thập live hoặc thử lock. Nhiệm vụ mới: hai biến thể HWC tự động trên fakelockv2 và ENGunlocked, cùng nghiên cứu MTE của preloader ENG; chưa có ủy quyền flash.
+
+- 2026-11-05: hai bản HWC tự chọn vùng từ ENG unlocked0d237... và fakelockv272e170... ở experiments/lk_h3_eng_auto_hwc_v1. Output64e91b35... và5345d07e..., chưa flash/boot test, chưa sửa MTE. Xem README/manifest/validation; giữ nguyên callback gốc, GLOBAL literal trong block0x133dc, không dùng0xc5954 của bản stock-policy tham chiếu.

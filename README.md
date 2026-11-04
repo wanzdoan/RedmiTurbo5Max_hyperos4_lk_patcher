@@ -30,3 +30,5 @@ Biến thể theo file H3 của người dùng: [H3 đã patch unlock + CN/Globa
 Input mới ngày2026-11-04: [LK ENG H3 patch unlock riêng](experiments/lk_h3_eng_unlock_v1/README_VI.md), từ `Downloads/lk.img` SHA6f386241..., giữ toàn bộ thành phần ENG. [Docs09](docs/09-h3-eng-unlock.md) ghi logic và kiểm thử; chưa flash/boot test.
 
 Nghiên cứu hiện tại: [khóa thật và OTA stock China](docs/10-stock-relock-and-ota.md). Đọc ADB/su xác nhận hai LK là token-key clone, kernel unlocked/orange khác props bị che; init_boot_a lệch hash ký, Secinfo fallback hợp lệ. Chưa có quy trình relock an toàn được xác nhận; chưa flash/lock hoặc ghi bảo mật. Raw riêng thiết bị giữ ngoài Git.
+
+Cập nhật 2026-11-05: đã dừng nghiên cứu relock theo yêu cầu. Hai biến thể mới [ENG unlocked và fakelock v2 thêm HWC tự chọn vùng](experiments/lk_h3_eng_auto_hwc_v1/README_VI.md) giữ riêng tính năng từng bản; đã qua replay ARM64, chưa flash/boot test.

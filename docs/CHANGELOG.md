@@ -62,3 +62,9 @@
 - Người dùng cho phép thử mạng. Đã thử SA override, thử runtime SA+NSA; modem từ chối NSA và các thử trước đã rollback.
 - Theo yêu cầu mới, bật lại SA cho VinaPhone để người dùng mang ra ngoài thử; trạng thái cuối lưu trong vina_outdoor_setup.json. Chưa xác nhận đăng ký NR.
 - LK và firmware giữ nguyên SHA256. Không flash hoặc chỉnh NVRAM/cài module persistent.
+
+## 2026-11-05 — HWC tự chọn vùng cho ENG unlocked và fakelock v2
+
+- Checkpoint0975d26 và tag `before-eng-unlocked-fakelock-auto-hwc-20261105` đã push trước sửa.
+- Hai [biến thể HWC](../experiments/lk_h3_eng_auto_hwc_v1/README_VI.md) giữ nguyên input, callback tin khóa và toàn bộ BL2. Literal GLOBAL nằm trong block thay thế, tránh ghi vào epilogue callback của input.
+- Unlocked64e91b35... đạt486 ca main; fakelockv25345d07e... đạt599 ca main; mỗi ảnh10DER+3parser. Chưa flash/boot test, chưa đổi MTE.
