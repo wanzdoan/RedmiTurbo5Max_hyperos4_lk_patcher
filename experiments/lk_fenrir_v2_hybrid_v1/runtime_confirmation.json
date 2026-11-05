@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "source": "User reports in conversation; no device operations by agent",
+  "source_reports": [
+    {
+      "artifact": "Fenrir external input previously supplied",
+      "reference_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+      "user_report": "Boots and can use root-patched init_boot",
+      "device_readback_hash_verified": false
+    },
+    {
+      "artifact": "stock-policy variant; exact flashed hash not supplied",
+      "user_report": "Flashing root init_boot succeeds, but device boots recovery; restoring original init_boot restores normal boot",
+      "exact_failure_log_available": false,
+      "hash_mismatch_cause": "Consistent inference from native AVB path, not log-proven"
+    }
+  ],
+  "new_hybrid_stock_boot_tested": false,
+  "new_hybrid_debug_boot_tested": false,
+  "new_hybrids_root_success_confirmed": false,
+  "flashed_by_agent": false
+}

@@ -1,0 +1,463 @@
+{
+  "status": "PASS_FINAL_NATIVE_INIT_BOOT_HASH_PATH_NOT_BOOT_PROOF",
+  "base": "stock_h3",
+  "image_sha256": "41125a4c832b9490f563756e18ae951383b9a06094733ca82f87c80657ec6d30",
+  "code_ram_modified": false,
+  "native_flag_case": {
+    "base": "stock_h3",
+    "control_state": null,
+    "allow_verification_error_flag": 1,
+    "common_wrapper_native": true,
+    "stored_verified_boot_state": 0,
+    "pass_case": true
+  },
+  "hash_cases": [
+    {
+      "base": "stock_h3",
+      "mode": "original",
+      "flags": 0,
+      "return_code": 0,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [],
+      "loaded_partition": {
+        "name": "init_boot",
+        "data_size": 4160,
+        "result": 0
+      },
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [
+        {
+          "bytes": 4177,
+          "digest": "eed90d2c9059b336b95c9fa1c1450d2b1004c2869068a302191de7cd30efd3b6"
+        }
+      ],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "original",
+      "flags": 1,
+      "return_code": 0,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [
+        "init_boot_a"
+      ],
+      "loaded_partition": {
+        "name": "init_boot",
+        "data_size": 4160,
+        "result": 0
+      },
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [
+        {
+          "bytes": 4177,
+          "digest": "eed90d2c9059b336b95c9fa1c1450d2b1004c2869068a302191de7cd30efd3b6"
+        }
+      ],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "mutated_ramdisk",
+      "flags": 0,
+      "return_code": 3,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [],
+      "loaded_partition": {
+        "name": "init_boot",
+        "data_size": 4160,
+        "result": 3
+      },
+      "hash_mismatch_logged": true,
+      "native_software_sha256_calls": [
+        {
+          "bytes": 4177,
+          "digest": "d72a88071b9a98c88e21df188c60665e643d1c3e000e62f8805ef1790d64c655"
+        }
+      ],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "mutated_ramdisk",
+      "flags": 1,
+      "return_code": 3,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [
+        "init_boot_a"
+      ],
+      "loaded_partition": {
+        "name": "init_boot",
+        "data_size": 4160,
+        "result": 3
+      },
+      "hash_mismatch_logged": true,
+      "native_software_sha256_calls": [
+        {
+          "bytes": 4177,
+          "digest": "d72a88071b9a98c88e21df188c60665e643d1c3e000e62f8805ef1790d64c655"
+        }
+      ],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "grown_ramdisk",
+      "flags": 0,
+      "return_code": 3,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [],
+      "loaded_partition": {
+        "name": "init_boot",
+        "data_size": 4160,
+        "result": 3
+      },
+      "hash_mismatch_logged": true,
+      "native_software_sha256_calls": [
+        {
+          "bytes": 4177,
+          "digest": "756e09e3bc6cae9a0a0842afb0d0e04fcfa8ab02a247b823394a60b9fc193433"
+        }
+      ],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "grown_ramdisk",
+      "flags": 1,
+      "return_code": 3,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4304
+        }
+      ],
+      "partition_size_queries": [
+        "init_boot_a"
+      ],
+      "loaded_partition": {
+        "name": "init_boot",
+        "data_size": 4304,
+        "result": 3
+      },
+      "hash_mismatch_logged": true,
+      "native_software_sha256_calls": [
+        {
+          "bytes": 4177,
+          "digest": "756e09e3bc6cae9a0a0842afb0d0e04fcfa8ab02a247b823394a60b9fc193433"
+        }
+      ],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "bad_algorithm",
+      "flags": 0,
+      "return_code": 6,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [],
+      "loaded_partition": {},
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "bad_algorithm",
+      "flags": 1,
+      "return_code": 6,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [
+        "init_boot_a"
+      ],
+      "loaded_partition": {},
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "bad_descriptor",
+      "flags": 0,
+      "return_code": 6,
+      "read_requests": [],
+      "partition_size_queries": [],
+      "loaded_partition": {},
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "bad_descriptor",
+      "flags": 1,
+      "return_code": 6,
+      "read_requests": [],
+      "partition_size_queries": [],
+      "loaded_partition": {},
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "io_error",
+      "flags": 0,
+      "return_code": 2,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [],
+      "loaded_partition": {},
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "mode": "io_error",
+      "flags": 1,
+      "return_code": 2,
+      "read_requests": [
+        {
+          "partition": "init_boot_a",
+          "bytes": 4160
+        }
+      ],
+      "partition_size_queries": [
+        "init_boot_a"
+      ],
+      "loaded_partition": {},
+      "hash_mismatch_logged": false,
+      "native_software_sha256_calls": [],
+      "descriptor_and_digest_comparison_code_native": true,
+      "pass_case": true
+    }
+  ],
+  "filter_cases": [
+    {
+      "base": "stock_h3",
+      "result": 0,
+      "flags": 0,
+      "eligible": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 0,
+      "flags": 1,
+      "eligible": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 1,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 1,
+      "flags": 1,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 2,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 2,
+      "flags": 1,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 3,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 3,
+      "flags": 1,
+      "eligible": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 4,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 4,
+      "flags": 1,
+      "eligible": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 5,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 5,
+      "flags": 1,
+      "eligible": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 6,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 6,
+      "flags": 1,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 7,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 7,
+      "flags": 1,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 8,
+      "flags": 0,
+      "eligible": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 8,
+      "flags": 1,
+      "eligible": false,
+      "pass_case": true
+    }
+  ],
+  "caller_cases": [
+    {
+      "base": "stock_h3",
+      "result": 0,
+      "flags": 0,
+      "reaches_post_slot_load": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 0,
+      "flags": 1,
+      "reaches_post_slot_load": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 3,
+      "flags": 0,
+      "reaches_post_slot_load": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 3,
+      "flags": 1,
+      "reaches_post_slot_load": true,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 6,
+      "flags": 0,
+      "reaches_post_slot_load": false,
+      "pass_case": true
+    },
+    {
+      "base": "stock_h3",
+      "result": 6,
+      "flags": 1,
+      "reaches_post_slot_load": true,
+      "pass_case": true
+    }
+  ],
+  "hash_cpu_cases": 12,
+  "filter_cpu_cases": 18,
+  "caller_cpu_cases": 6,
+  "flag_cpu_cases": 1,
+  "total_cpu_cases": 37
+}

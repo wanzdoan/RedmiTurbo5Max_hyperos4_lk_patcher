@@ -1,0 +1,95 @@
+{
+  "status": "EXPERIMENTAL_HYBRID_NOT_DEVICE_BOOTED",
+  "variant": "debug_h3",
+  "artifact": "lk_H3_DEBUG_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
+  "input": "experiments/lk_h3_eng_unlock_v1/input/lk_eng_original.img",
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "output_sha256": "c2c2ebd818158eec3decf7be46de6ac1ce71b480b4b8fcf7e7acb5328899abe6",
+  "bytes": 4043792,
+  "features": [
+    "Fenrir common locked4 and RAM boot-state0",
+    "AVB allow-error flag for root-modified init_boot path",
+    "Public LKS1, explicit flash.locked1 and seccfg reply1 from v2",
+    "Automatic countrycode HWC"
+  ],
+  "inherited_fenrir_main_and_aee_gates": false,
+  "debug_equivalent_gates_already_omitted": true,
+  "original_backing_lock_getter_unchanged": true,
+  "no_persistent_lock_write": true,
+  "own_bl2_aee_dtb_certificates_unchanged": true,
+  "mte_force_off_added": false,
+  "main_certificate_prefix_bytes": 180,
+  "patches": [
+    {
+      "payload_offset": "0x88c18",
+      "old": "3f2303d5fd7bbea9f30b00f9fd030091f30300aaa0020090",
+      "new": "88008052080000b900008052c0035fd61f2003d51f2003d5",
+      "bytes": 24,
+      "purpose": "Fenrir-style common lock wrapper returns locked4/success0, backing getter unchanged"
+    },
+    {
+      "payload_offset": "0x69438",
+      "old": "f6179f1a",
+      "new": "36008052",
+      "bytes": 4,
+      "purpose": "Allow verification-error flag for modified init_boot path"
+    },
+    {
+      "payload_offset": "0x69df4",
+      "old": "006909b9",
+      "new": "1f6909b9",
+      "bytes": 4,
+      "purpose": "Fenrir-style RAM boot-state setter0"
+    },
+    {
+      "payload_offset": "0xc770",
+      "old": "3f2303d5ff0301d1fd7b03a9fdc30091a01300d1bfc31fb8ffff01a9ffff00a9ff0300f99aef0194a0000034200600b00054019182f5ff9711000014a8c35fb8a90600b029791691ea0500d04a011a91e00300911f0d0071010580524201899a04ce0194e0030091ff9f003948f5ff97400600f00038229181f5ff97fd7b43a9ff030191bf2303d5c0035fd6",
+      "new": "3f2303d5fd7bbfa920716a5060f5ff9760886550fd7bc1a8bf2303d598f5ff17616e64726f6964626f6f742e666c6173682e6c6f636b65643d3100001f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5",
+      "bytes": 140,
+      "purpose": "Compact public LKS1 reply and explicit flash.locked=1 literal"
+    },
+    {
+      "payload_offset": "0x69da4",
+      "old": "3f2303d588050090086989b91f0d0071e80000541f2003d5c9b94e102879a8b82001088bbf2303d53bbbfe17bf2303d5c0035fd6",
+      "new": "3f2303d5fd7bbfa9c0f92f1042bbfe9760000035c04ed1103fbbfe97fd7bc1a8bf2303d5c0035fd61f2003d51f2003d51f2003d5",
+      "bytes": 52,
+      "purpose": "V2 green/flash.locked bootargs using original append ABI"
+    },
+    {
+      "payload_offset": "0xc838",
+      "old": "a3c35fb8",
+      "new": "23008052",
+      "bytes": 4,
+      "purpose": "V2 public seccfg reply1; no stored-state write"
+    },
+    {
+      "payload_offset": "0x13364",
+      "old": "e0830491f383049171c0ff97e0030691e1031f2a021980520fb101946392009173420091020700d042f82891e0030691e483049101198052e50313aa10b30194f403002ae26b41b9c00500d000c42b91e1030691b3ad01949400f837e0030691bd15009407000014e005009000201e91210600f02158349122208052a9ad0194e0030691e1031f2a",
+      "new": "e083049172c0ff97e0030691e1031f2a1e000014e3130591e803403948010034e80340b9085d001208011b320801133269cc8d521f01096bc3097010290200106300899ae00306910119805262347150e4830491e5c3049109b30194c000f837e0030691bc150094f3c30491e00306917c010014a01d5e70aaad0194fbffff17474c4f42414c0000",
+      "bytes": 136,
+      "purpose": "Keep native early hardware copy; defer HWC emission and select countrycode region"
+    },
+    {
+      "payload_offset": "0x13960",
+      "old": "200700f000d83c9113000014",
+      "new": "ff7f00a980ae735013000014",
+      "bytes": 12,
+      "purpose": "Clear partial countrycode read before native error log and close"
+    },
+    {
+      "payload_offset": "0x139c0",
+      "old": "e0030691",
+      "new": "6efeff17",
+      "bytes": 4,
+      "purpose": "Common countrycode result enters late HWC formatter"
+    }
+  ],
+  "root_boot_hardware_verified": false,
+  "device_flashed": false,
+  "limits": [
+    "Native AVB probes cover hash mismatch allowance, not actual Magisk/KernelSU/device boot",
+    "Forced green is software fakelock and can hide warning states; not actual verified boot or lock",
+    "No claim OTA, attestation, bank apps or stock H4 preloader compatibility",
+    "Non-CN countrycodes map to GLOBAL; HWC mapping does not prove every ROM compatible"
+  ]
+}

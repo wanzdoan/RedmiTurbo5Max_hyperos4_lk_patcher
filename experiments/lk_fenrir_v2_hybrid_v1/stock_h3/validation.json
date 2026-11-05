@@ -1,0 +1,6045 @@
+{
+  "status": "PASS_BOUNDED_NATIVE_HYBRID_NOT_DEVICE_BOOT",
+  "variant": "stock_h3",
+  "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+  "output_sha256": "41125a4c832b9490f563756e18ae951383b9a06094733ca82f87c80657ec6d30",
+  "deterministic_build": true,
+  "wrong_input_rejected": true,
+  "common_state_cases": [
+    {
+      "kind": "common",
+      "initial": 0,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 4,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 4294967295,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2605181158,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 4094382150,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2846443543,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2788344660,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1216625969,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 585488236,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 367837533,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2510937567,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 196965001,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3839085648,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2974195877,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2098723635,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1832010777,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3372537382,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 479670988,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1418239866,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3966979322,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2121924625,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 4050816506,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 988504619,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3619277397,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 149856084,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1104431223,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 4154718838,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 318791876,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2673302822,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1156862043,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3842265094,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1927929470,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2683949861,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3275873585,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 727397605,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1254740243,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1607218823,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 867256505,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 548876030,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1872193059,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1936586893,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3051900929,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 22941651,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 954080173,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2557289386,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1123497830,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3536405149,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3177483506,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1850079795,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3057903669,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1779733608,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 744544101,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 599704291,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1519510224,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3513452869,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1245476598,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3012894907,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1865171668,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3401812746,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1048973421,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3387684074,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3436481201,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2773897174,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2462695699,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3358844584,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3530764769,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 476728426,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2573437389,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 840220526,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1613947239,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1121189334,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 4271343417,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 185615389,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 538707476,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3566134239,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1077031434,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1594492488,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1351274238,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1543525008,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1110901994,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2860675219,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3903294783,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 531522769,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 377691947,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 4275136752,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3173336501,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 3663597033,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 145738868,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 249544977,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2247280073,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1542862452,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2351960794,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 2509453940,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 445151821,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 1911355091,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 959173655,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "common",
+      "initial": 339368724,
+      "boot_fixture": 0,
+      "result": 4,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "boolean",
+      "initial": 0,
+      "boot_fixture": 0,
+      "result": 1,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "auth",
+      "initial": 0,
+      "boot_fixture": 0,
+      "result": 1,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "auth",
+      "initial": 0,
+      "boot_fixture": 1,
+      "result": 1,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "auth",
+      "initial": 0,
+      "boot_fixture": 2,
+      "result": 1,
+      "backing_getter_not_called": true
+    },
+    {
+      "kind": "auth",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "result": 1,
+      "backing_getter_not_called": true
+    }
+  ],
+  "native_publication_cases": [
+    {
+      "existing_cache": false,
+      "native_published_values": [
+        [
+          "secure",
+          "yes"
+        ],
+        [
+          "unlocked",
+          "no"
+        ]
+      ]
+    },
+    {
+      "existing_cache": true,
+      "native_published_values": [
+        [
+          "secure",
+          "yes"
+        ],
+        [
+          "unlocked",
+          "no"
+        ]
+      ]
+    }
+  ],
+  "public_export_cases": [
+    {
+      "channel": "lks",
+      "fixture": 0,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          40032,
+          "lks = 1"
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 0,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 0,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ],
+        [
+          "append",
+          "androidboot.flash.locked=1"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 0,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          40208,
+          "Get seccfg_state failed."
+        ],
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 0,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 1,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 1,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ],
+        [
+          "append",
+          "androidboot.flash.locked=1"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 1,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          40208,
+          "Get seccfg_state failed."
+        ],
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 1,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 3,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 3,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ],
+        [
+          "append",
+          "androidboot.flash.locked=1"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 3,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          40208,
+          "Get seccfg_state failed."
+        ],
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 3,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 4,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 4,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ],
+        [
+          "append",
+          "androidboot.flash.locked=1"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 4,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          40208,
+          "Get seccfg_state failed."
+        ],
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 4,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 4294967295,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 4294967295,
+      "status_fixture": 0,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ],
+        [
+          "append",
+          "androidboot.flash.locked=1"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    },
+    {
+      "channel": "seccfg",
+      "fixture": 4294967295,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          40208,
+          "Get seccfg_state failed."
+        ],
+        [
+          40032,
+          "seccfg_state is 1"
+        ],
+        [
+          40032,
+          "mtkrpmb_state is 4."
+        ],
+        [
+          40272,
+          ""
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": true
+    },
+    {
+      "channel": "android",
+      "fixture": 4294967295,
+      "status_fixture": 7,
+      "outputs": [
+        [
+          "append",
+          "androidboot.verifiedbootstate=green"
+        ]
+      ],
+      "cache_unchanged_by_reporting": true,
+      "seccfg_stack_word_unchanged": false
+    }
+  ],
+  "root_handoff_cases": [
+    {
+      "input_boot_state": 0,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 0,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 0,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 5,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 0,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 0,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 0,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 5,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 1,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 0,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 1,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 5,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 1,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 0,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 1,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 5,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 2,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 0,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 2,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 5,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 2,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 0,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 2,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 5,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 3,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 0,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 3,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 5,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 3,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 0,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 3,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 5,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 4294967295,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 0,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 4294967295,
+      "key_error_fixture": 0,
+      "sink_status_fixture": 5,
+      "root_key_hash": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 4294967295,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 0,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    },
+    {
+      "input_boot_state": 4294967295,
+      "key_error_fixture": 9,
+      "sink_status_fixture": 5,
+      "root_key_hash": "5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1",
+      "lock_boolean": 1,
+      "boot_state": 0,
+      "all_five_packets_match": true,
+      "actual_common_wrapper_used": true,
+      "secure_sink_is_mock": true
+    }
+  ],
+  "hwc_cases": [
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "CN",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "CN",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "CN",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "CN",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=CN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "Cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "Cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "Cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "Cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=Cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cN",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cN",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cN",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cN",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cN"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "GLOBAL",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "GLOBAL",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "GLOBAL",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "GLOBAL",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=GLOBAL"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "EEA",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "EEA",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "EEA",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "EEA",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=EEA"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "TW",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "TW",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "TW",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "TW",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=TW"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "taiwan",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "taiwan",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "taiwan",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "taiwan",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=taiwan"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eu",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eu",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eu",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eu",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eu"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "native",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "native",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "native",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "native",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=native"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "unknown",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "unknown",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "unknown",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "unknown",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=unknown"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn_extra",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn_extra",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn_extra",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn_extra",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn_extra"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "c",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "c",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "c",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "c",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=c"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cnx",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cnx",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cnx",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cnx",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cnx"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cna",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cna",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cna",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cna",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cna"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": " cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": " cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": " cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": " cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode= cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn ",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn ",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn ",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn ",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn "
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "eea",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=eea"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "tw",
+      "hardware": "CN",
+      "level": "EVT",
+      "version": "V2.3",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=EVT androidboot.hwversion=V2.3"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=tw"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "missing",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "empty",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "short",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_b",
+      "read_mode": "io_error",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "name",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "country",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "GLOBAL",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": "hwc",
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": false,
+      "outgoing_hwc": [],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "cn",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": true,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=cn"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "global",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": true,
+      "outgoing_hwc": [
+        "androidboot.hwc=GLOBAL androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [
+        "androidboot.ptcountrycode=global"
+      ],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    },
+    {
+      "kind": "stock",
+      "automatic": true,
+      "country": "",
+      "hardware": "CN",
+      "level": "MP",
+      "version": "1.0",
+      "slot": "_a",
+      "read_mode": "ok",
+      "formatter_failure": null,
+      "early_hardware_snapshot_preserved": true,
+      "cache_changed_fixture": true,
+      "outgoing_hwc": [
+        "androidboot.hwc=CN androidboot.hwlevel=MP androidboot.hwversion=1.0"
+      ],
+      "outgoing_countrycode": [],
+      "native_getter_calls": [
+        "early"
+      ],
+      "pass_case": true
+    }
+  ],
+  "root_modified_init_boot_probe": {
+    "status": "PASS_FINAL_NATIVE_INIT_BOOT_HASH_PATH_NOT_BOOT_PROOF",
+    "base": "stock_h3",
+    "image_sha256": "41125a4c832b9490f563756e18ae951383b9a06094733ca82f87c80657ec6d30",
+    "code_ram_modified": false,
+    "native_flag_case": {
+      "base": "stock_h3",
+      "control_state": null,
+      "allow_verification_error_flag": 1,
+      "common_wrapper_native": true,
+      "stored_verified_boot_state": 0,
+      "pass_case": true
+    },
+    "hash_cases": [
+      {
+        "base": "stock_h3",
+        "mode": "original",
+        "flags": 0,
+        "return_code": 0,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [],
+        "loaded_partition": {
+          "name": "init_boot",
+          "data_size": 4160,
+          "result": 0
+        },
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [
+          {
+            "bytes": 4177,
+            "digest": "eed90d2c9059b336b95c9fa1c1450d2b1004c2869068a302191de7cd30efd3b6"
+          }
+        ],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "original",
+        "flags": 1,
+        "return_code": 0,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [
+          "init_boot_a"
+        ],
+        "loaded_partition": {
+          "name": "init_boot",
+          "data_size": 4160,
+          "result": 0
+        },
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [
+          {
+            "bytes": 4177,
+            "digest": "eed90d2c9059b336b95c9fa1c1450d2b1004c2869068a302191de7cd30efd3b6"
+          }
+        ],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "mutated_ramdisk",
+        "flags": 0,
+        "return_code": 3,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [],
+        "loaded_partition": {
+          "name": "init_boot",
+          "data_size": 4160,
+          "result": 3
+        },
+        "hash_mismatch_logged": true,
+        "native_software_sha256_calls": [
+          {
+            "bytes": 4177,
+            "digest": "d72a88071b9a98c88e21df188c60665e643d1c3e000e62f8805ef1790d64c655"
+          }
+        ],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "mutated_ramdisk",
+        "flags": 1,
+        "return_code": 3,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [
+          "init_boot_a"
+        ],
+        "loaded_partition": {
+          "name": "init_boot",
+          "data_size": 4160,
+          "result": 3
+        },
+        "hash_mismatch_logged": true,
+        "native_software_sha256_calls": [
+          {
+            "bytes": 4177,
+            "digest": "d72a88071b9a98c88e21df188c60665e643d1c3e000e62f8805ef1790d64c655"
+          }
+        ],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "grown_ramdisk",
+        "flags": 0,
+        "return_code": 3,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [],
+        "loaded_partition": {
+          "name": "init_boot",
+          "data_size": 4160,
+          "result": 3
+        },
+        "hash_mismatch_logged": true,
+        "native_software_sha256_calls": [
+          {
+            "bytes": 4177,
+            "digest": "756e09e3bc6cae9a0a0842afb0d0e04fcfa8ab02a247b823394a60b9fc193433"
+          }
+        ],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "grown_ramdisk",
+        "flags": 1,
+        "return_code": 3,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4304
+          }
+        ],
+        "partition_size_queries": [
+          "init_boot_a"
+        ],
+        "loaded_partition": {
+          "name": "init_boot",
+          "data_size": 4304,
+          "result": 3
+        },
+        "hash_mismatch_logged": true,
+        "native_software_sha256_calls": [
+          {
+            "bytes": 4177,
+            "digest": "756e09e3bc6cae9a0a0842afb0d0e04fcfa8ab02a247b823394a60b9fc193433"
+          }
+        ],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "bad_algorithm",
+        "flags": 0,
+        "return_code": 6,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [],
+        "loaded_partition": {},
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "bad_algorithm",
+        "flags": 1,
+        "return_code": 6,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [
+          "init_boot_a"
+        ],
+        "loaded_partition": {},
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "bad_descriptor",
+        "flags": 0,
+        "return_code": 6,
+        "read_requests": [],
+        "partition_size_queries": [],
+        "loaded_partition": {},
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "bad_descriptor",
+        "flags": 1,
+        "return_code": 6,
+        "read_requests": [],
+        "partition_size_queries": [],
+        "loaded_partition": {},
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "io_error",
+        "flags": 0,
+        "return_code": 2,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [],
+        "loaded_partition": {},
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "mode": "io_error",
+        "flags": 1,
+        "return_code": 2,
+        "read_requests": [
+          {
+            "partition": "init_boot_a",
+            "bytes": 4160
+          }
+        ],
+        "partition_size_queries": [
+          "init_boot_a"
+        ],
+        "loaded_partition": {},
+        "hash_mismatch_logged": false,
+        "native_software_sha256_calls": [],
+        "descriptor_and_digest_comparison_code_native": true,
+        "pass_case": true
+      }
+    ],
+    "filter_cases": [
+      {
+        "base": "stock_h3",
+        "result": 0,
+        "flags": 0,
+        "eligible": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 0,
+        "flags": 1,
+        "eligible": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 1,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 1,
+        "flags": 1,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 2,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 2,
+        "flags": 1,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 3,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 3,
+        "flags": 1,
+        "eligible": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 4,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 4,
+        "flags": 1,
+        "eligible": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 5,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 5,
+        "flags": 1,
+        "eligible": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 6,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 6,
+        "flags": 1,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 7,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 7,
+        "flags": 1,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 8,
+        "flags": 0,
+        "eligible": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 8,
+        "flags": 1,
+        "eligible": false,
+        "pass_case": true
+      }
+    ],
+    "caller_cases": [
+      {
+        "base": "stock_h3",
+        "result": 0,
+        "flags": 0,
+        "reaches_post_slot_load": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 0,
+        "flags": 1,
+        "reaches_post_slot_load": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 3,
+        "flags": 0,
+        "reaches_post_slot_load": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 3,
+        "flags": 1,
+        "reaches_post_slot_load": true,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 6,
+        "flags": 0,
+        "reaches_post_slot_load": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "result": 6,
+        "flags": 1,
+        "reaches_post_slot_load": true,
+        "pass_case": true
+      }
+    ],
+    "hash_cpu_cases": 12,
+    "filter_cpu_cases": 18,
+    "caller_cpu_cases": 6,
+    "flag_cpu_cases": 1,
+    "total_cpu_cases": 37
+  },
+  "command_gate_probe": {
+    "status": "PASS_FENRIR_GATES_RETAINED",
+    "total_native_cases": 62,
+    "cases": [
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "boot_para",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "init_boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "lk",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "boot_para",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "init_boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "lk",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "scratch_word": 0,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "scratch_word": 1,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "scratch_word": 4,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "scratch_word": 0,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "scratch_word": 1,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "scratch_word": 4,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 0,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 1,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "dispatcher",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 1,
+        "command_flag14_fixture": 1,
+        "command_flag18_fixture": 1,
+        "query_result_fixture": 0,
+        "observed": [
+          "handler"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "allowed_continuation"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 0,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 5,
+        "observed": [
+          "deny_log"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "allowed_continuation"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 1,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 5,
+        "observed": [
+          "deny_log"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "allowed_continuation"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 3,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 5,
+        "observed": [
+          "deny_log"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 0,
+        "observed": [
+          "allowed_continuation"
+        ],
+        "pass_": true
+      },
+      {
+        "kind": "flash_gate",
+        "patched": true,
+        "state_fixture": 4,
+        "query_fixture": 0,
+        "command_flag14_fixture": 0,
+        "command_flag18_fixture": 0,
+        "query_result_fixture": 5,
+        "observed": [
+          "deny_log"
+        ],
+        "pass_": true
+      }
+    ]
+  },
+  "native_bl2_parser_cases": [
+    {
+      "component": 0,
+      "version": 3,
+      "carrier": "hybrid-final",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 3053,
+      "last_offsets": [
+        "0x6d00c",
+        "0x6d690",
+        "0x6d80c",
+        "0x6d940",
+        "0x6d944",
+        "0x6d948",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "6f2de101e81222ed4f3b030089112de065389a3a96ac035c914b44e52da940d5"
+    },
+    {
+      "component": 0,
+      "version": 3,
+      "carrier": "hybrid-final",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 30266,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "6f2de101e81222ed4f3b030089112de065389a3a96ac035c914b44e52da940d5"
+    },
+    {
+      "component": 0,
+      "version": 3,
+      "carrier": "hybrid-final",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 21506,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "component": 6,
+      "version": 3,
+      "carrier": "hybrid-final",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 3053,
+      "last_offsets": [
+        "0x6d00c",
+        "0x6d690",
+        "0x6d80c",
+        "0x6d940",
+        "0x6d944",
+        "0x6d948",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "6894a1341f3c4404057130c224a1832923695c6d999806d454326ae9b200647d"
+    },
+    {
+      "component": 6,
+      "version": 3,
+      "carrier": "hybrid-final",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 30266,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "6894a1341f3c4404057130c224a1832923695c6d999806d454326ae9b200647d"
+    },
+    {
+      "component": 6,
+      "version": 3,
+      "carrier": "hybrid-final",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 21506,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "retained_der_signatures": [
+    {
+      "member": 1,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 4,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 7,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 10,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 13,
+      "retained_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "retained_der_signature_valid": true
+    }
+  ],
+  "cpu_counts": {
+    "common_state": 105,
+    "publication": 2,
+    "public_exports": 21,
+    "root_handoff": 20,
+    "hwc": 147,
+    "gates": 62
+  },
+  "limits": [
+    "No actual phone boot/root, TEE, storage writes, OTA or attestation tested",
+    "Root descriptor test uses synthetic image/hash mutation, not actual root installation",
+    "AVB result filters and descriptor paths are bounded; not a full verifier/SoC simulation",
+    "Fenrir green override hides software warning states by design",
+    "HWC is countrycode mapping, not universal ROM/preloader compatibility"
+  ]
+}

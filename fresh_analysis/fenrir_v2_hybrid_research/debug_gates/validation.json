@@ -1,0 +1,1682 @@
+{
+  "status": "PASS_DEBUG_GATE_SLICES_NOT_PARTITION_WRITE_OR_FULL_COMMAND",
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "total_native_cases": 128,
+  "cases": [
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "main",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 0,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 1,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 3,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 0,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 0,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 0,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "dispatcher_callback_slice",
+      "common_lock_fixture": 4,
+      "secure_fixture": 1,
+      "descriptor_flag14": 1,
+      "descriptor_flag18": 1,
+      "callback_arguments": [
+        50339843,
+        50348032,
+        1234
+      ],
+      "lock_query_calls": [],
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "flash_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 0,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 1,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 3,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot",
+      "observed_partition_name": "boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "init_boot",
+      "observed_partition_name": "init_boot",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "lk",
+      "observed_partition_name": "lk",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    },
+    {
+      "surface": "aee",
+      "kind": "erase_entry_to_partition_query",
+      "common_lock_fixture": 4,
+      "target": "boot_para",
+      "observed_partition_name": "boot_para",
+      "lock_query_calls": [],
+      "native_string_copy_search_length_executed": true,
+      "pass_case": true
+    }
+  ],
+  "static_dispatcher_observations": [
+    {
+      "surface": "main",
+      "dispatcher_scan_span": [
+        "0x9e6c",
+        "0xa3f0"
+      ],
+      "descriptor_x25_accesses": [
+        {
+          "payload_offset": "0xa148",
+          "instruction": "ldr x25, [x25]"
+        },
+        {
+          "payload_offset": "0xa150",
+          "instruction": "ldr x19, [x25, #8]"
+        },
+        {
+          "payload_offset": "0xa158",
+          "instruction": "ldr w22, [x25, #0x10]"
+        },
+        {
+          "payload_offset": "0xa184",
+          "instruction": "ldr w8, [x25, #0x10]"
+        },
+        {
+          "payload_offset": "0xa18c",
+          "instruction": "ldr x9, [x25, #0x20]"
+        }
+      ],
+      "direct_lock_query_calls": []
+    },
+    {
+      "surface": "aee",
+      "dispatcher_scan_span": [
+        "0x13a24",
+        "0x13fb0"
+      ],
+      "descriptor_x25_accesses": [
+        {
+          "payload_offset": "0x13d00",
+          "instruction": "ldr x25, [x25]"
+        },
+        {
+          "payload_offset": "0x13d08",
+          "instruction": "ldr x19, [x25, #8]"
+        },
+        {
+          "payload_offset": "0x13d10",
+          "instruction": "ldr w22, [x25, #0x10]"
+        },
+        {
+          "payload_offset": "0x13d3c",
+          "instruction": "ldr w8, [x25, #0x10]"
+        },
+        {
+          "payload_offset": "0x13d44",
+          "instruction": "ldr x9, [x25, #0x20]"
+        }
+      ],
+      "direct_lock_query_calls": []
+    }
+  ],
+  "recommended_gate_patches": [],
+  "facts": [
+    "Debug main and AEE already compile out the early locked-flash/erase gates patched by Fenrir on release H3",
+    "Debug command callback slice directly loads descriptor and calls callback without the release +0x14/+0x18 checks",
+    "All checked state fixtures reach the partition query with no common-lock query in these entry paths"
+  ],
+  "limits": [
+    "Dispatcher replay is a bounded callback slice, not the entire command parsing loop",
+    "Flash/erase replay stops before partition-specific eligibility/storage routines and performs no writes",
+    "No new gate patches needed here does not mean all later protections or query errors are absent",
+    "Common state is a labelled fixture that these particular paths never query; this is not a fake-lock getter test",
+    "No hardware, secure monitor, root/boot success or full flash/erase commands tested"
+  ]
+}
