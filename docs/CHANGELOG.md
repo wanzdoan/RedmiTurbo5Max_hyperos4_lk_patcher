@@ -109,3 +109,9 @@
 - User báo bản8d616...trênROMPOCOH3 chỉ vềpreloader. Localuserfilelk_fakeloc_vip.img trùnghash8d616..., đượccheckpoint5d029fe/tagbefore-fenrir-full-region-audit-20261105. Không cóROMđích/log/readbackđểchốtstage.
 - Xác nhận HWC-only chưa mở CN/Global; không gọi đó là full all-region. [Bản sửa gate riêng](../experiments/lk_fenrir_cn_global_gates_v2/README_VI.md) SHAe6bd99c91854a916fc675a57f5f18c139b72868a5ebdafd7b72088b03afd3e2f, thêmSKU68d84,imagekey88610,AVBkeyc53dc vàSecureIDregion-recovery87098. Fenrirlocked4khiếnchốtcuốicònreachable, khácunlocked3.
 - 768gate+147HWC+24MTE+3parser=942native,10DERđạt; giữchain/error/unknownkeychecks. ChưaPOCOdeviceboot, chưaquyđâylànguyênnhânhayđãchữalỗipreloader.
+
+## 2026-11-05 — Trở lại H4 hybrid đã boot, chỉ thêm MTE-off
+
+- Input f57d19c9... đúng artifact user từng báo chạy; giữ nguyên source vàruntime report. Checkpointc84149f/tag `before-h4-booted-hybrid-mte-off-20261105` đã push trước sửa.
+- [Bản riêng](../experiments/lk_h4_booted_hybrid_mte_off_v1/README_VI.md) SHA7873361e63ade5e6840d985c23c44bbb01fe449e7f89fd3ebbdba0d3d244e2a4,4083424bytes. H4branch34740/file34940 b.eq→b34784; chỉmainprefix180 đổi kèm theo. Unlock16byte/H3BL2/H4AEE-DTB/DER nguyênbyte.
+- 48MTE+328unlockcontrols+3H3BL2parser=379native và10DER đạt. Không thêm region/HWC/fakelock; không flash, bản mới chưa boot test.

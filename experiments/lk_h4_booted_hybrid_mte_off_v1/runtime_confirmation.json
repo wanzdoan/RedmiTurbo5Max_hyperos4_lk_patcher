@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-05",
+  "source_image_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "source_user_report": "H4 OS4.0.3.0 boot success, unlocked yes; subsequently user reported stock H4 preloader test succeeded",
+  "source_report_reference": "../../fresh_analysis/output/runtime_confirmation.json",
+  "new_image_sha256": "7873361e63ade5e6840d985c23c44bbb01fe449e7f89fd3ebbdba0d3d244e2a4",
+  "new_image_user_boot_report_available": false,
+  "new_image_device_boot_tested": false,
+  "agent_flashed": false,
+  "scope": "Source success does not automatically confirm modified MTE-off image"
+}

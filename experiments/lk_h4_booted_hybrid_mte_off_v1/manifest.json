@@ -1,0 +1,24 @@
+{
+  "status": "EXPERIMENTAL_MTE_OFF_DERIVED_FROM_BOOT_CONFIRMED_H4_NOT_DEVICE_TESTED",
+  "artifact": "lk_hyperos4_BL33_H3BL2_MTE_OFF_TEST.img",
+  "input_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "output_sha256": "7873361e63ade5e6840d985c23c44bbb01fe449e7f89fd3ebbdba0d3d244e2a4",
+  "bytes": 4083424,
+  "source": "Exact H4 main + H3 signed BL2 hybrid f57 reported booting by user",
+  "patch": {
+    "payload_offset": "0x34740",
+    "whole_file_offset": "0x34940",
+    "original": "20020054",
+    "replacement": "11000014",
+    "instruction": "b.eq 0x34784 -> b 0x34784"
+  },
+  "main_certificate_prefix_bytes": 180,
+  "original_h4_unlock_patch_preserved": true,
+  "all_other_bytes_unchanged": true,
+  "bl2_aee_dtb_certificates_and_der_unchanged": true,
+  "no_extra_hwc_region_fakelock_or_boot_policy_patch": true,
+  "mte_scope": "Use native H4 suppression path to append arm64.nomte; does not undo preloader execution",
+  "device_flashed": false,
+  "new_image_device_boot_tested": false,
+  "source_runtime_report": "../../fresh_analysis/output/runtime_confirmation.json"
+}

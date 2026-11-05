@@ -1,0 +1,3299 @@
+{
+  "status": "PASS_BOUNDED_H4_MTE_AND_RETAINED_UNLOCK_NOT_DEVICE_BOOT",
+  "input_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "output_sha256": "7873361e63ade5e6840d985c23c44bbb01fe449e7f89fd3ebbdba0d3d244e2a4",
+  "deterministic_build": true,
+  "wrong_input_rejected": true,
+  "native_mte_cases": [
+    {
+      "mte_off": false,
+      "bits_fixture": "0x0",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x0",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x1",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x1",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x2",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x2",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x3",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x3",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x4",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x4",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x5",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x5",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x6",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x6",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x7",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x7",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x405",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x405",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x407",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0x407",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0xf07",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0xf07",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0xffffffff",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": false,
+      "bits_fixture": "0xffffffff",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x0",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x0",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x1",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x1",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x2",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x2",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x3",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x3",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x4",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x4",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x5",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x5",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x6",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x6",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x7",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x7",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x405",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x405",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x407",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0x407",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0xf07",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0xf07",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0xffffffff",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "mte_off": true,
+      "bits_fixture": "0xffffffff",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    }
+  ],
+  "native_unlock_and_control_cases": [
+    {
+      "entry": "0x89aec",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 4,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 4,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 4,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 4294967295,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 4294967295,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 4294967295,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2605181158,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2605181158,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2605181158,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 4094382150,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 4094382150,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 4094382150,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2846443543,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2846443543,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2846443543,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2788344660,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2788344660,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2788344660,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1216625969,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1216625969,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1216625969,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 585488236,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 585488236,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 585488236,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 367837533,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 367837533,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 367837533,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2510937567,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2510937567,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2510937567,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 196965001,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 196965001,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 196965001,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3839085648,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3839085648,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3839085648,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2974195877,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2974195877,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2974195877,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2098723635,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2098723635,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2098723635,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1832010777,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1832010777,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1832010777,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3372537382,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3372537382,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3372537382,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 479670988,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 479670988,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 479670988,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1418239866,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1418239866,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1418239866,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3966979322,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3966979322,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3966979322,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2121924625,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2121924625,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2121924625,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 4050816506,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 4050816506,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 4050816506,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 988504619,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 988504619,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 988504619,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3619277397,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3619277397,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3619277397,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 149856084,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 149856084,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 149856084,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1104431223,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1104431223,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1104431223,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 4154718838,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 4154718838,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 4154718838,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 318791876,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 318791876,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 318791876,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2673302822,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2673302822,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2673302822,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1156862043,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1156862043,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1156862043,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3842265094,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3842265094,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3842265094,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1927929470,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1927929470,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1927929470,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2683949861,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2683949861,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2683949861,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3275873585,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3275873585,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3275873585,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 727397605,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 727397605,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 727397605,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1254740243,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1254740243,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1254740243,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1607218823,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1607218823,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1607218823,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 867256505,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 867256505,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 867256505,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 548876030,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 548876030,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 548876030,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1872193059,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1872193059,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1872193059,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1936586893,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1936586893,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1936586893,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3051900929,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3051900929,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3051900929,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 22941651,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 22941651,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 22941651,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 954080173,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 954080173,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 954080173,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2557289386,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2557289386,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2557289386,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1123497830,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1123497830,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1123497830,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3536405149,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3536405149,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3536405149,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3177483506,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3177483506,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3177483506,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1850079795,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1850079795,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1850079795,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3057903669,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3057903669,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3057903669,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1779733608,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1779733608,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1779733608,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 744544101,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 744544101,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 744544101,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 599704291,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 599704291,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 599704291,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1519510224,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1519510224,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1519510224,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3513452869,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3513452869,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3513452869,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1245476598,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1245476598,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1245476598,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3012894907,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3012894907,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3012894907,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1865171668,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1865171668,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1865171668,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3401812746,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3401812746,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3401812746,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1048973421,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1048973421,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1048973421,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3387684074,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3387684074,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3387684074,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3436481201,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3436481201,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3436481201,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2773897174,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2773897174,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2773897174,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2462695699,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2462695699,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2462695699,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3358844584,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3358844584,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3358844584,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3530764769,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3530764769,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3530764769,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 476728426,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 476728426,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 476728426,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2573437389,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2573437389,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2573437389,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 840220526,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 840220526,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 840220526,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1613947239,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1613947239,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1613947239,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1121189334,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1121189334,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1121189334,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 4271343417,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 4271343417,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 4271343417,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 185615389,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 185615389,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 185615389,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 538707476,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 538707476,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 538707476,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3566134239,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3566134239,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3566134239,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1077031434,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1077031434,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1077031434,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1594492488,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1594492488,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1594492488,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1351274238,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1351274238,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1351274238,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1543525008,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1543525008,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1543525008,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1110901994,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1110901994,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1110901994,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2860675219,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2860675219,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2860675219,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3903294783,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3903294783,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3903294783,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 531522769,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 531522769,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 531522769,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 377691947,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 377691947,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 377691947,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 4275136752,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 4275136752,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 4275136752,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3173336501,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3173336501,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3173336501,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 3663597033,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 3663597033,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 3663597033,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 145738868,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 145738868,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 145738868,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 249544977,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 249544977,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 249544977,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2247280073,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2247280073,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2247280073,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1542862452,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1542862452,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1542862452,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2351960794,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2351960794,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2351960794,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 2509453940,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 2509453940,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 2509453940,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 445151821,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 445151821,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 445151821,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 1911355091,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 1911355091,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 1911355091,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 959173655,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 959173655,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 959173655,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89aec",
+      "initial": 339368724,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x89020",
+      "initial": 339368724,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x88a10",
+      "initial": 339368724,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": 0,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": 1,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": 2,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": 3,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": 4,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 0,
+      "mocked_state_control": 4294967295,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 1,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 1,
+      "mocked_state_control": 0,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 1,
+      "mocked_state_control": 1,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 1,
+      "mocked_state_control": 2,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 1,
+      "mocked_state_control": 3,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 1,
+      "mocked_state_control": 4,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 1,
+      "mocked_state_control": 4294967295,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 2,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 2,
+      "mocked_state_control": 0,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 2,
+      "mocked_state_control": 1,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 2,
+      "mocked_state_control": 2,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 2,
+      "mocked_state_control": 3,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 2,
+      "mocked_state_control": 4,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 2,
+      "mocked_state_control": 4294967295,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "mocked_state_control": null,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "mocked_state_control": 0,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "mocked_state_control": 1,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "mocked_state_control": 2,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "mocked_state_control": 3,
+      "result": 0,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "mocked_state_control": 4,
+      "result": 1,
+      "pass_case": true
+    },
+    {
+      "entry": "0x68c94",
+      "initial": 0,
+      "boot_fixture": 4294967295,
+      "mocked_state_control": 4294967295,
+      "result": 1,
+      "pass_case": true
+    }
+  ],
+  "retained_der_signatures": [
+    {
+      "member": 1,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 4,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 7,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 10,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 13,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "original_der_signature_valid": true
+    }
+  ],
+  "actual_h3_bl2_parser_cases": [
+    {
+      "version": 3,
+      "carrier": "h4-booted-hybrid-mte-off",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 3053,
+      "last_offsets": [
+        "0x6d00c",
+        "0x6d690",
+        "0x6d80c",
+        "0x6d940",
+        "0x6d944",
+        "0x6d948",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+      "payload_hash": "ea23699cf27585c999c9adcc9722546d4274fab7e7068138ea60a2557f75cc71"
+    },
+    {
+      "version": 3,
+      "carrier": "h4-booted-hybrid-mte-off",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 31954,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+      "payload_hash": "ea23699cf27585c999c9adcc9722546d4274fab7e7068138ea60a2557f75cc71"
+    },
+    {
+      "version": 3,
+      "carrier": "h4-booted-hybrid-mte-off",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 22772,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "counts": {
+    "mte_baseline_and_off": 48,
+    "unlock_and_controls": 328,
+    "bl2_parser": 3
+  },
+  "original_boot_confirmed_input_unchanged": true,
+  "limits": [
+    "Source runtime success is user reported; this modified file not booted on device",
+    "MTE MMIO, reserved lookup, bootarg/log/formatter, boot selector and PAC modeled",
+    "Getter mocked only in labelled negative AVB controls; actual unlock code runs otherwise",
+    "No kernel/HWCAP, preloader, secure-world, device flash or complete boot simulation",
+    "DER verification is against embedded keys; main signed digest differs by original hybrid design"
+  ]
+}

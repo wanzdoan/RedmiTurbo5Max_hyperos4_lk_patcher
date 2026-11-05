@@ -44,3 +44,5 @@ Theo yêu cầu kết hợp Fenrir và v2: [hai hybrid mới trên H3 stock và 
 Yêu cầu mới nhất sau khi user báo các hybrid không dùng được: [Fenrir gốc chỉ thêm HWC auto và MTE-off](experiments/lk_fenrir_only_auto_hwc_mte_off_v1/README_VI.md), một file riêng SHA8d616abb..., không ghép v2/guard bảo trì. Chưa boot test; giữ nguyên các bản cũ làm lịch sử.
 
 Cập nhật lỗi POCO H3: user báo bản8d616abb... chỉ về preloader. Bản đó chỉ đổi HWC, chưa mở các chốt CN/Global; không coi là all-region boot. [Audit và bản sửa bốn chốt CN/Global](experiments/lk_fenrir_cn_global_gates_v2/README_VI.md), SHAe6bd99c9..., chưa xác nhận boot hoặc nguyên nhân thực tế.
+
+Theo yêu cầu quay lại đúng H4 đã boot: [biến thể H4 hybrid f57 chỉ thêm MTE-off](experiments/lk_h4_booted_hybrid_mte_off_v1/README_VI.md), SHA7873361e.... Chỉ một instruction H4 và main hash prefix thay đổi; nguồn đã boot giữ nguyên, bản mới chưa boot test.
