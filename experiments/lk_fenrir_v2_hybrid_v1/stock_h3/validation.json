@@ -2,7 +2,7 @@
   "status": "PASS_BOUNDED_NATIVE_HYBRID_NOT_DEVICE_BOOT",
   "variant": "stock_h3",
   "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
-  "output_sha256": "41125a4c832b9490f563756e18ae951383b9a06094733ca82f87c80657ec6d30",
+  "output_sha256": "50e1fe9d598da67021ba22fe4e67c52ccd539a076ada116ccbdd2f66a7daec02",
   "deterministic_build": true,
   "wrong_input_rejected": true,
   "common_state_cases": [
@@ -4679,7 +4679,7 @@
   "root_modified_init_boot_probe": {
     "status": "PASS_FINAL_NATIVE_INIT_BOOT_HASH_PATH_NOT_BOOT_PROOF",
     "base": "stock_h3",
-    "image_sha256": "41125a4c832b9490f563756e18ae951383b9a06094733ca82f87c80657ec6d30",
+    "image_sha256": "50e1fe9d598da67021ba22fe4e67c52ccd539a076ada116ccbdd2f66a7daec02",
     "code_ram_modified": false,
     "native_flag_case": {
       "base": "stock_h3",
@@ -5138,6 +5138,92 @@
     "caller_cpu_cases": 6,
     "flag_cpu_cases": 1,
     "total_cpu_cases": 37
+  },
+  "post_load_maintenance_skip_probe": {
+    "status": "PASS_FINAL_TARGETED_ROLLBACK_MAINTENANCE_SKIP",
+    "base": "stock_h3",
+    "image_sha256": "50e1fe9d598da67021ba22fe4e67c52ccd539a076ada116ccbdd2f66a7daec02",
+    "native_cpu_cases": 6,
+    "cases": [
+      {
+        "base": "stock_h3",
+        "boot_fixture": 0,
+        "flags_fixture": 0,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "boot_fixture": 0,
+        "flags_fixture": 1,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "boot_fixture": 1,
+        "flags_fixture": 0,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "boot_fixture": 1,
+        "flags_fixture": 1,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "boot_fixture": 99,
+        "flags_fixture": 0,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "stock_h3",
+        "boot_fixture": 99,
+        "flags_fixture": 1,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      }
+    ],
+    "only_targeted_caller_nop": true,
+    "limits": [
+      "Post-slot-load success is a fixture; predicate and callsite execute natively",
+      "No persistent counter was read or written; original maintenance is stopped at entry in controls",
+      "This does not disable every possible antirollback/OTP routine in the whole firmware"
+    ]
   },
   "command_gate_probe": {
     "status": "PASS_FENRIR_GATES_RETAINED",
@@ -5852,7 +5938,7 @@
       ],
       "status": "0x0",
       "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
-      "payload_hash": "6f2de101e81222ed4f3b030089112de065389a3a96ac035c914b44e52da940d5"
+      "payload_hash": "92c8b823f565b39b9c79d1e7989131efce9507b58fa53457aef4e3856e893d65"
     },
     {
       "component": 0,
@@ -5878,7 +5964,7 @@
       ],
       "status": "0x0",
       "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
-      "payload_hash": "6f2de101e81222ed4f3b030089112de065389a3a96ac035c914b44e52da940d5"
+      "payload_hash": "92c8b823f565b39b9c79d1e7989131efce9507b58fa53457aef4e3856e893d65"
     },
     {
       "component": 0,
@@ -6033,8 +6119,19 @@
     "public_exports": 21,
     "root_handoff": 20,
     "hwc": 147,
-    "gates": 62
+    "gates": 62,
+    "init_boot_hash_path": 37,
+    "maintenance_skip": 6,
+    "bl2_parser": 6
   },
+  "total_native_cpu_cases": 406,
+  "mocks": [
+    "PAC/logging and boot selector boundary",
+    "Public variable-cache lookup/update and formatter",
+    "Partition/slot/append/UI/callback boundaries and seccfg value fixtures",
+    "Secure-monitor sink and OEM-key extraction; native software SHA256 runs",
+    "See init_boot hash probe for synthetic-image and same-image crypto-engine boundary model"
+  ],
   "limits": [
     "No actual phone boot/root, TEE, storage writes, OTA or attestation tested",
     "Root descriptor test uses synthetic image/hash mutation, not actual root installation",

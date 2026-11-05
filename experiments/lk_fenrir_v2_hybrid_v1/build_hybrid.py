@@ -17,6 +17,7 @@ BASES = {
                      oem=0xc868, lks=0xe8bc4, empty=0xdf295, info=0x9c60, okay=0x9d50,
                      report=0x692ac, green=0xd1c87, append=0x18f34, seccfg=0xc930,
                      common=0x88750, avb_flag=0x68668, setter=0x692fc, cache=0x121990,
+                     maintenance_call=0x688b8, maintenance_original='c6010094',
                      prefix_length=90),
     'debug_h3': dict(path='experiments/lk_h3_eng_unlock_v1/input/lk_eng_original.img',
                      sha256='6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d',
@@ -24,6 +25,7 @@ BASES = {
                      oem=0xc770, lks=0xe159e, empty=0xd788e, info=0x9cfc, okay=0x9dec,
                      report=0x69da4, green=0xc9ce4, append=0x18ab8, seccfg=0xc838,
                      common=0x88c18, avb_flag=0x69438, setter=0x69df4, cache=0x119968,
+                     maintenance_call=0x69688, maintenance_original='05010094',
                      prefix_length=180),
 }
 
@@ -121,6 +123,9 @@ def build(kind, source):
             raise ValueError('Fenrir base AVB allow-error flag missing')
         if main[cfg['setter']:cfg['setter'] + 4] != bytes.fromhex('1f9109b9'):
             raise ValueError('Fenrir base zero state setter missing')
+    patch(cfg['maintenance_call'], bytes.fromhex('1f2003d5'),
+          'Preserve v2 unlocked-style skip of this post-load rollback/OTP maintenance call despite fake locked4',
+          bytes.fromhex(cfg['maintenance_original']))
     for off, code, purpose in public_blocks(cfg): patch(off, code, purpose)
     hwc = hwc_module()
     hwc_kind = 'stock' if kind == 'stock_h3' else 'debug'
@@ -157,6 +162,8 @@ def build(kind, source):
                     inherited_fenrir_main_and_aee_gates=(kind == 'stock_h3'),
                     debug_equivalent_gates_already_omitted=(kind == 'debug_h3'),
                     original_backing_lock_getter_unchanged=True, no_persistent_lock_write=True,
+                    post_load_rollback_maintenance_call_skipped=True,
+                    global_otp_and_version_helpers_unchanged=True,
                     own_bl2_aee_dtb_certificates_unchanged=True, mte_force_off_added=False,
                     main_certificate_prefix_bytes=cfg['prefix_length'], patches=changes,
                     root_boot_hardware_verified=False, device_flashed=False,

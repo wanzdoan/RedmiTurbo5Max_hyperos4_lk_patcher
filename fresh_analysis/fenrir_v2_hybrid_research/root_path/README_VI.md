@@ -54,9 +54,27 @@ Hai file cuối do parent tạo đã qua API:
 
 | Nền | SHA256 | Report |
 |---|---|---|
-| Stock H3 hybrid | `41125a4c832b9490f563756e18ae951383b9a06094733ca82f87c80657ec6d30` | [stock_h3_final_validation.json](stock_h3_final_validation.json) |
-| Debug H3 hybrid | `c2c2ebd818158eec3decf7be46de6ac1ce71b480b4b8fcf7e7acb5328899abe6` | [debug_final_validation.json](debug_final_validation.json) |
+| Stock H3 hybrid | `50e1fe9d598da67021ba22fe4e67c52ccd539a076ada116ccbdd2f66a7daec02` | [stock_h3_final_validation.json](stock_h3_final_validation.json) |
+| Debug H3 hybrid | `a8b894d476d8af889b0f82f746a523d19591d4e30c2a122dd0c7b17302692a62` | [debug_final_validation.json](debug_final_validation.json) |
 
 Cả hai dựng bit1 bằng mã final thật và cho mismatch3 đi qua filter/caller trong các fixture. Không có lệnh khóa, ghi RPMB/efuse hoặc thao tác điện thoại.
 
 Giới hạn: đây là kiểm tra hash descriptor và các đoạn điều khiển liên quan, không thực thi toàn bộ chuỗi ký vbmeta, loader boot image, secure monitor, kernel hoặc ứng dụng root. Không xác nhận root/OTA/Integrity hoặc tương thích preloader trên máy thật. Root-capable ở thiết kế này là cho phép luồng kiểm hash đi tiếp như Fenrir, không phải biến ảnh đã sửa thành ảnh được OEM ký hợp lệ.
+
+
+## Nhánh sau predicate auth và bảo toàn cơ chế bỏ maintenance của v2
+
+Tên predicate `image_auth_required` không có nghĩa lệnh kế tiếp luôn xác thực lại init_boot. Trong caller đang xét:
+
+- H3 gọi predicate `0x689cc`, rồi nếu true gọi `0x68fd0` tại `0x688b8`.
+- Debug gọi predicate `0x6979c`, rồi nếu true gọi `0x69a9c` tại `0x69688`.
+- Hai hàm sau cùng đọc `AvbSlotVerifyData` phần rollback indexes (`+0x30..+0x128`), tính index nhỏ nhất và gọi helper maintenance nhóm recovery/AVB nếu giá trị nằm trong giới hạn. Debug thêm log rõ `Rollback index` và các lỗi update nhóm; không phải lần hash hay ký lại init_boot.
+- Kết quả trả từ maintenance không được caller kiểm: H3 nhảy `0x6884c`, debug nhảy `0x6961c`, đều ghi `w23=0` trước phần cleanup. Đổi riêng lệnh call thành NOP không bỏ một giá trị trả cần cho nhánh sau.
+
+Để giữ hành vi v2 nội bộ unlocked3 vốn bỏ nhánh maintenance này, parent đã thêm đúng **một NOP ở call site** cho mỗi hybrid: H3 `0x688b8: c6010094 -> 1f2003d5`; debug `0x69688: 05010094 -> 1f2003d5`. Không sửa helper OTP/rollback dùng chung, không vô hiệu mọi kiểm rollback trong firmware. Không khẳng định Fenrir gốc luôn ghi fuse: bản thân maintenance còn các điều kiện và helper phía sau.
+
+`probe_rollback_skip.py` có API `validate_rollback_skip(image,kind)`. 24 ca nền xác nhận native predicate dẫn state4 tới maintenance entry, state3 bỏ entry. Maintenance được dừng ngay ở entry khi làm control; không chạy OTP helper. Mỗi file cuối thêm6 ca native (boot-mode và flags fixtures) xác nhận code chứa NOP, không vào maintenance/OTP helper và vẫn đến continuation với `w23=0`. Code RAM không bị sửa.
+
+Hai report final trên đã được cập nhật SHA sau NOP này; mỗi report ghi37 ca hash/filter/caller trước đó +6 ca guard, tổng43. Các report nền76 ca giữ nguyên phạm vi đối chứng.
+
+Ngoài ra loader debug `0x69824` còn kiểm/copy header của các image đã load (helper `0xf8c0` nhận dạng magic Android/vendor và sao chép header), tìm boot/vendor/init_boot trong các record đã xác minh rồi bàn giao buffer qua `0x10588`. Các kiểm header/partition/data hợp lệ vẫn tồn tại; probe không chạy toàn bộ loader. Hai nền không được coi là có loader byte-identical. Chưa thấy tại nhánh predicate true nêu trên một cơ chế hash lại init_boot có thể đảo ngược allow-error3; điều đó vẫn không thay thế boot test.

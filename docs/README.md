@@ -27,3 +27,5 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 [11 — LK ENG và preloader H3/H4](11-eng-preloader-compatibility.md): yêu cầu mở lại ngày05-11; stock input đúng hash, policy/DFD, chứng chỉ, ma trận boot và giới hạn chưa kiểm chứng.
 
 [Fenrir so với fakelock v2](../fresh_analysis/fenrir_review/README_VI.md): nhận diện nền H3 stock, toàn bộ diff main/AEE, certificate/parser, root handoff và seccfg; chưa xác nhận boot/TEE/Integrity.
+
+[Hai hybrid Fenrir + v2, nền H3 stock/debug](../experiments/lk_fenrir_v2_hybrid_v1/README_VI.md): input tách riêng, root init_boot hash path, public locked/green/seccfg, HWC và guard bảo trì phiên bản; chưa boot test.

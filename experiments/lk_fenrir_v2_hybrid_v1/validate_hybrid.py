@@ -21,6 +21,7 @@ sys.path.insert(0, str(ROOT / 'fresh_analysis/fenrir_v2_hybrid_research/debug_ga
 from probe_debug_gates import validate as debug_gate_validate
 sys.path.insert(0, str(ROOT / 'fresh_analysis/fenrir_v2_hybrid_research/root_path'))
 from probe_init_boot_hash import validate as root_validate
+from probe_rollback_skip import validate_rollback_skip
 sys.path.insert(0, str(ROOT / 'fresh_analysis/preloader'))
 from emulate_bl2_parser import run as release_bl2_parser
 sys.path.insert(0, str(ROOT / 'experiments/lk_h3_eng_unlock_v1'))
@@ -185,6 +186,7 @@ def check(kind):
     hwc = cases_for(hwc_kind, out)
     assert check_external_branches(source, hwc_kind)
     root_report = root_validate(out, kind='stock_h3' if kind == 'stock_h3' else 'debug')
+    maintenance = validate_rollback_skip(out, 'stock_h3' if kind == 'stock_h3' else 'debug')
     if kind == 'debug_h3':
         gates = debug_gate_validate(out)
     else:
@@ -230,11 +232,13 @@ def check(kind):
             parsers.append(dict(component=component, **got))
     counts = dict(common_state=len(states), publication=len(public), public_exports=len(exports),
                   root_handoff=len(roots), hwc=len(hwc), gates=gates['total_native_cases'],
-                  init_boot_hash_path=root_report['total_cpu_cases'], bl2_parser=len(parsers))
+                  init_boot_hash_path=root_report['total_cpu_cases'],
+                  maintenance_skip=maintenance['native_cpu_cases'], bl2_parser=len(parsers))
     report = dict(status='PASS_BOUNDED_NATIVE_HYBRID_NOT_DEVICE_BOOT', variant=kind,
                   input_sha256=cfg['sha256'], output_sha256=sha(out), deterministic_build=True, wrong_input_rejected=True,
                   common_state_cases=states, native_publication_cases=public, public_export_cases=exports,
                   root_handoff_cases=roots, hwc_cases=hwc, root_modified_init_boot_probe=root_report,
+                  post_load_maintenance_skip_probe=maintenance,
                   command_gate_probe=gates, native_bl2_parser_cases=parsers, retained_der_signatures=certs,
                   cpu_counts=counts, total_native_cpu_cases=sum(counts.values()),
                   mocks=['PAC/logging and boot selector boundary', 'Public variable-cache lookup/update and formatter',

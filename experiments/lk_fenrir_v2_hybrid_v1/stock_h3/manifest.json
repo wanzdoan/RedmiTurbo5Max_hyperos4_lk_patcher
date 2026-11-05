@@ -4,7 +4,7 @@
   "artifact": "lk_H3_STOCK_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
   "input": "fresh_analysis/fenrir_review/input/dash-fenrir-versioned.bin",
   "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
-  "output_sha256": "41125a4c832b9490f563756e18ae951383b9a06094733ca82f87c80657ec6d30",
+  "output_sha256": "50e1fe9d598da67021ba22fe4e67c52ccd539a076ada116ccbdd2f66a7daec02",
   "bytes": 4083872,
   "features": [
     "Fenrir common locked4 and RAM boot-state0",
@@ -16,10 +16,19 @@
   "debug_equivalent_gates_already_omitted": false,
   "original_backing_lock_getter_unchanged": true,
   "no_persistent_lock_write": true,
+  "post_load_rollback_maintenance_call_skipped": true,
+  "global_otp_and_version_helpers_unchanged": true,
   "own_bl2_aee_dtb_certificates_unchanged": true,
   "mte_force_off_added": false,
   "main_certificate_prefix_bytes": 90,
   "patches": [
+    {
+      "payload_offset": "0x688b8",
+      "old": "c6010094",
+      "new": "1f2003d5",
+      "bytes": 4,
+      "purpose": "Preserve v2 unlocked-style skip of this post-load rollback/OTP maintenance call despite fake locked4"
+    },
     {
       "payload_offset": "0xc868",
       "old": "3f2303d5ff0301d1fd7b03a9fdc30091a01300d1bfc31fb8ffff01a9ffff00a9ff0300f9b1ef0194a00000346006009000f02f911df5ff9711000014a8c35fb8e906009029112f912a0600d04a451591e00300911f0d0071010580524201899adbca0194e0030091ff9f0039e3f4ff97800600f000540a911cf5ff97fd7b43a9ff030191bf2303d5c0035fd6",

@@ -38,3 +38,5 @@ Bộ bàn giao theo xác nhận 2026-11-05: [6 file ENG all-region HWC](experime
 Theo yêu cầu mở lại nghiên cứu preloader ngày2026-11-05: [LK ENG và stock preloader H3/H4](docs/11-eng-preloader-compatibility.md). Đã kiểm đúng input, policy ARM64/DFD và chuỗi chứng chỉ; chưa chốt nguyên nhân brick H3 cũ + stock H4, chưa xác nhận sáu bản ENG boot với stock H3/H4. Không flash hoặc sửa firmware.
 
 Phân tích file bên ngoài theo yêu cầu: [Fenrir so với fakelock v2](fresh_analysis/fenrir_review/README_VI.md). Nền H3 stock, fake locked/green ở nguồn chung và thêm gate AEE; native probes chỉ ra cả điểm mở rộng lẫn các kênh v2 bao phủ tốt hơn. Không flash, không đưa patch vào các bản hiện có.
+
+Theo yêu cầu kết hợp Fenrir và v2: [hai hybrid mới trên H3 stock và H3 debug](experiments/lk_fenrir_v2_hybrid_v1/README_VI.md), mỗi nền một file, HWC tự chọn vùng và MTE gốc. Native init_boot hash/filter/caller và public status đã kiểm; chưa boot/root test. Hai ảnh có guard bỏ riêng call bảo trì phiên bản sau load để fake locked không kéo theo đường đó.

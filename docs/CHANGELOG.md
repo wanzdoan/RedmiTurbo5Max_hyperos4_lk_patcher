@@ -89,3 +89,11 @@
 - MainFenrir chỉ khác63byte trên H3stock, AEE11byte; BL2/DTB/DTBO nguyên byte. Commonwrapperstate4, setterverifiedbootzero; mở gate main/AEE. Certificateprefixđơn90,10DERgốcvalid,12parsernative; không ký OEM mới.
 - 199main(publicseccfg/LKSgồm10),80AEE,160H3/Fenrirroot+20v2rootnativecases đạt. 80crosscheckpacket cho hashOEM/lock1/state0 giốngv2; không chứng minh attestation tốt hơn. Fenrirche cachelỗi; publicseccfg giữactualgetter khác LKS1, v2 cóoverride riêng.
 - Không patch v2, không flash, không boot/OTA/Integrity claim. [Docs](../fresh_analysis/fenrir_review/README_VI.md) và findings.json tách evidence/gaps.
+
+## 2026-11-05 — Hai hybrid Fenrir/v2 trên nền stock H3 và debug H3
+
+- User cho biết Fenrir root được; stock-policy flash init_boot root thành công nhưng boot recovery, phục hồi init_boot gốc thì vào OS. Không quy đây là lỗi v2 hoặc nguyên nhân đã log-proven. Báo cáo riêng trong runtime_confirmation.json.
+- Checkpoint552072a/tag `before-fenrir-v2-hybrid-two-bases-20261105`; prototype chưa boot tại46c11af/tag `before-hybrid-rollback-maintenance-guard-20261105`. Không sửa artifact đã boot hoặc sáu file trước.
+- Tạo đúng2[ảnh hybrid](../experiments/lk_fenrir_v2_hybrid_v1/README_VI.md): stock50e1fe9d... vàdebuga8b894d4..., từFenrir vàdebug6f386 riêng, không ghép BL2 chéo. Commonlocked4/cachegreen0/AVBallow1 +v2publicseccfg/flash.locked +HWCauto; MTEgốc. Debug vốn không có cácgateFenrir phải bỏ trênrelease nênAEEdebug giữ nguyên.
+- Rootpathnative hashmismatch3 đượcfilter/callerflags1 cho qua; lỗiIO/descriptorvẫnloại. Predicate theo locked còn có đườngmaintenance rollback, không phảiinitbootverifylần2; NOP riêngcall688b8/69688 giữ skip của v2, helperOTP chung nguyênbyte.
+- Finalnative406stock/472debug, mỗiảnh10DERgiữlại; chưa boot/root/OTA/Integrity. ZIP2ảnh cómanifest/CRC/SHA kiểm.

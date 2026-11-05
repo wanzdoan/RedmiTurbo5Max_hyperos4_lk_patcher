@@ -1,0 +1,32 @@
+{
+  "status": "TWO_EXPERIMENTAL_HYBRIDS_NOT_DEVICE_BOOTED",
+  "images": [
+    {
+      "variant": "stock_h3",
+      "artifact": "lk_H3_STOCK_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
+      "sha256": "50e1fe9d598da67021ba22fe4e67c52ccd539a076ada116ccbdd2f66a7daec02",
+      "bytes": 4083872,
+      "zip_path": "stock_h3/lk_H3_STOCK_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
+      "repository_path": "experiments/lk_fenrir_v2_hybrid_v1/stock_h3/lk_H3_STOCK_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
+      "native_cpu_cases": 406,
+      "device_boot_tested": false,
+      "root_success_hardware_confirmed": false
+    },
+    {
+      "variant": "debug_h3",
+      "artifact": "lk_H3_DEBUG_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
+      "sha256": "a8b894d476d8af889b0f82f746a523d19591d4e30c2a122dd0c7b17302692a62",
+      "bytes": 4043792,
+      "zip_path": "debug_h3/lk_H3_DEBUG_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
+      "repository_path": "experiments/lk_fenrir_v2_hybrid_v1/debug_h3/lk_H3_DEBUG_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
+      "native_cpu_cases": 472,
+      "device_boot_tested": false,
+      "root_success_hardware_confirmed": false
+    }
+  ],
+  "hwc_auto_region": true,
+  "mte_force_off_added": false,
+  "common_locked_is_software_fake": true,
+  "post_load_maintenance_call_skipped": true,
+  "no_agent_device_operations": true
+}

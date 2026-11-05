@@ -4,7 +4,7 @@
   "artifact": "lk_H3_DEBUG_FENRIR_V2_HYBRID_AUTO_HWC_TEST.img",
   "input": "experiments/lk_h3_eng_unlock_v1/input/lk_eng_original.img",
   "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
-  "output_sha256": "c2c2ebd818158eec3decf7be46de6ac1ce71b480b4b8fcf7e7acb5328899abe6",
+  "output_sha256": "a8b894d476d8af889b0f82f746a523d19591d4e30c2a122dd0c7b17302692a62",
   "bytes": 4043792,
   "features": [
     "Fenrir common locked4 and RAM boot-state0",
@@ -16,6 +16,8 @@
   "debug_equivalent_gates_already_omitted": true,
   "original_backing_lock_getter_unchanged": true,
   "no_persistent_lock_write": true,
+  "post_load_rollback_maintenance_call_skipped": true,
+  "global_otp_and_version_helpers_unchanged": true,
   "own_bl2_aee_dtb_certificates_unchanged": true,
   "mte_force_off_added": false,
   "main_certificate_prefix_bytes": 180,
@@ -40,6 +42,13 @@
       "new": "1f6909b9",
       "bytes": 4,
       "purpose": "Fenrir-style RAM boot-state setter0"
+    },
+    {
+      "payload_offset": "0x69688",
+      "old": "05010094",
+      "new": "1f2003d5",
+      "bytes": 4,
+      "purpose": "Preserve v2 unlocked-style skip of this post-load rollback/OTP maintenance call despite fake locked4"
     },
     {
       "payload_offset": "0xc770",

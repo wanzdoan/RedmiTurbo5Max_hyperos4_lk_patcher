@@ -1,0 +1,24 @@
+{
+  "status": "PASS_BOUNDED_DIRECT_BRANCH_SCAN",
+  "artifact_sha256": "50e1fe9d598da67021ba22fe4e67c52ccd539a076ada116ccbdd2f66a7daec02",
+  "source_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+  "scan": "main payload0x3000..0xc8000 aligned Capstone disassembly",
+  "rewritten_regions": [
+    {
+      "start": "0xc868",
+      "end": "0xc8f4"
+    },
+    {
+      "start": "0x692ac",
+      "end": "0x692e0"
+    },
+    {
+      "start": "0x88750",
+      "end": "0x88768"
+    }
+  ],
+  "no_external_direct_branch_into_rewritten_interior": true,
+  "limits": [
+    "Computed indirect branches and whole program control flow are not proved"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "status": "PASS_FINAL_NATIVE_INIT_BOOT_HASH_PATH_NOT_BOOT_PROOF",
   "base": "debug",
-  "image_sha256": "c2c2ebd818158eec3decf7be46de6ac1ce71b480b4b8fcf7e7acb5328899abe6",
+  "image_sha256": "a8b894d476d8af889b0f82f746a523d19591d4e30c2a122dd0c7b17302692a62",
   "code_ram_modified": false,
   "native_flag_case": {
     "base": "debug",
@@ -459,5 +459,92 @@
   "filter_cpu_cases": 18,
   "caller_cpu_cases": 6,
   "flag_cpu_cases": 1,
-  "total_cpu_cases": 37
+  "total_cpu_cases": 37,
+  "rollback_maintenance_guard": {
+    "status": "PASS_FINAL_TARGETED_ROLLBACK_MAINTENANCE_SKIP",
+    "base": "debug",
+    "image_sha256": "a8b894d476d8af889b0f82f746a523d19591d4e30c2a122dd0c7b17302692a62",
+    "native_cpu_cases": 6,
+    "cases": [
+      {
+        "base": "debug",
+        "boot_fixture": 0,
+        "flags_fixture": 0,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "debug",
+        "boot_fixture": 0,
+        "flags_fixture": 1,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "debug",
+        "boot_fixture": 1,
+        "flags_fixture": 0,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "debug",
+        "boot_fixture": 1,
+        "flags_fixture": 1,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "debug",
+        "boot_fixture": 99,
+        "flags_fixture": 0,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      },
+      {
+        "base": "debug",
+        "boot_fixture": 99,
+        "flags_fixture": 1,
+        "lock_state_control": null,
+        "final_nop_present": true,
+        "maintenance_entry_reached": false,
+        "otp_helper_executed": false,
+        "continuation_status_w23": 0,
+        "code_ram_modified": false,
+        "pass_case": true
+      }
+    ],
+    "only_targeted_caller_nop": true,
+    "limits": [
+      "Post-slot-load success is a fixture; predicate and callsite execute natively",
+      "No persistent counter was read or written; original maintenance is stopped at entry in controls",
+      "This does not disable every possible antirollback/OTP routine in the whole firmware"
+    ]
+  },
+  "combined_cpu_cases": 43
 }
