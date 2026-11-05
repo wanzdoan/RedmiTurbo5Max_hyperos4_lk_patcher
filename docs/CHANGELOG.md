@@ -103,3 +103,9 @@
 - User báo file hybrid không dùng được, giống LK gốc; chưa cung cấp exact flashedhash/log. Theo yêu cầu mới không tiếp tục ghép v2 hoặc guard bảo trì.
 - Checkpointdafba4f/tag `before-fenrir-only-hwc-mte-20261105`; inputFenrirdee32..., output8d616abb51cd48373d7a892013c080b902a811983133bfc42d1a0accd73e30e8,4083872bytes. [Docs](../experiments/lk_fenrir_only_auto_hwc_mte_off_v1/README_VI.md).
 - Chỉ3spanHWC152bytes+MTEbranch4bytes stock344a8, mainprefix90 cập nhật. Toàn bộ byte khác/Fenrircore/AEE/BL2/cert/DTB/trailer nguyên byte. 230native+10DERpass, chưa flash/boot/root test.
+
+## 2026-11-05 — Sửa cách gọi all-region và audit lỗi POCO H3
+
+- User báo bản8d616...trênROMPOCOH3 chỉ vềpreloader. Localuserfilelk_fakeloc_vip.img trùnghash8d616..., đượccheckpoint5d029fe/tagbefore-fenrir-full-region-audit-20261105. Không cóROMđích/log/readbackđểchốtstage.
+- Xác nhận HWC-only chưa mở CN/Global; không gọi đó là full all-region. [Bản sửa gate riêng](../experiments/lk_fenrir_cn_global_gates_v2/README_VI.md) SHAe6bd99c91854a916fc675a57f5f18c139b72868a5ebdafd7b72088b03afd3e2f, thêmSKU68d84,imagekey88610,AVBkeyc53dc vàSecureIDregion-recovery87098. Fenrirlocked4khiếnchốtcuốicònreachable, khácunlocked3.
+- 768gate+147HWC+24MTE+3parser=942native,10DERđạt; giữchain/error/unknownkeychecks. ChưaPOCOdeviceboot, chưaquyđâylànguyênnhânhayđãchữalỗipreloader.

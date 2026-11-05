@@ -42,3 +42,5 @@ Phân tích file bên ngoài theo yêu cầu: [Fenrir so với fakelock v2](fres
 Theo yêu cầu kết hợp Fenrir và v2: [hai hybrid mới trên H3 stock và H3 debug](experiments/lk_fenrir_v2_hybrid_v1/README_VI.md), mỗi nền một file, HWC tự chọn vùng và MTE gốc. Native init_boot hash/filter/caller và public status đã kiểm; chưa boot/root test. Hai ảnh có guard bỏ riêng call bảo trì phiên bản sau load để fake locked không kéo theo đường đó.
 
 Yêu cầu mới nhất sau khi user báo các hybrid không dùng được: [Fenrir gốc chỉ thêm HWC auto và MTE-off](experiments/lk_fenrir_only_auto_hwc_mte_off_v1/README_VI.md), một file riêng SHA8d616abb..., không ghép v2/guard bảo trì. Chưa boot test; giữ nguyên các bản cũ làm lịch sử.
+
+Cập nhật lỗi POCO H3: user báo bản8d616abb... chỉ về preloader. Bản đó chỉ đổi HWC, chưa mở các chốt CN/Global; không coi là all-region boot. [Audit và bản sửa bốn chốt CN/Global](experiments/lk_fenrir_cn_global_gates_v2/README_VI.md), SHAe6bd99c9..., chưa xác nhận boot hoặc nguyên nhân thực tế.

@@ -31,3 +31,5 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 [Hai hybrid Fenrir + v2, nền H3 stock/debug](../experiments/lk_fenrir_v2_hybrid_v1/README_VI.md): input tách riêng, root init_boot hash path, public locked/green/seccfg, HWC và guard bảo trì phiên bản; chưa boot test.
 
 [Mới nhất: Fenrir gốc chỉ thêm HWC auto/MTE-off](../experiments/lk_fenrir_only_auto_hwc_mte_off_v1/README_VI.md). User báo hybrid trước không dùng được; bản mới chưa boot test và không kế thừa các patch thêm của hybrid.
+
+[Audit lỗi POCO H3 và chốt CN/Global còn thiếu](../experiments/lk_fenrir_cn_global_gates_v2/README_VI.md): bản HWC-only8d616... bị user báo chỉ về preloader; bốn chốt vùng đã tái hiện/sửa offline, chưa boot test e6bd99c9....

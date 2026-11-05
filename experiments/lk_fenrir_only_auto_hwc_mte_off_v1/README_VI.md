@@ -8,7 +8,7 @@ SHA256: `8d616abb51cd48373d7a892013c080b902a811983133bfc42d1a0accd73e30e8`.
 
 Input giữ nguyên: [Fenrir gốc](../../fresh_analysis/fenrir_review/input/dash-fenrir-versioned.bin), SHA256 `dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113`.
 
-**Chưa flash hoặc boot/root test file mới.** Các probe offline không được coi là bảo đảm hoạt động trên điện thoại. Không tiếp tục sửa cơ chế khóa hoặc chẩn đoán lại lock/OTA trong đợt này.
+**Cập nhật: người dùng báo nạp bản này trên ROM POCO H3 thì chỉ về preloader, không boot.** File local đổi tên `lk_fakeloc_vip.img` trùng hash ảnh này; chưa có readback/log để xác định stage lỗi. Bản này chỉ đổi HWC, chưa mở các chốt CN/Global. [Bản sửa chốt vùng riêng](../lk_fenrir_cn_global_gates_v2/README_VI.md) chưa boot test. Các probe offline không được coi là bảo đảm hoạt động trên điện thoại. Không tiếp tục sửa cơ chế khóa hoặc chẩn đoán lại lock/OTA trong đợt này.
 
 ## Phạm vi thay đổi chính xác
 

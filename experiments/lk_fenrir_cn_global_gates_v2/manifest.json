@@ -1,0 +1,49 @@
+{
+  "status": "EXPERIMENTAL_CN_GLOBAL_GATES_NOT_POCO_DEVICE_TESTED",
+  "artifact": "lk_FENRIR_CN_GLOBAL_GATES_HWC_MTE_OFF_V2_TEST.img",
+  "input_sha256": "8d616abb51cd48373d7a892013c080b902a811983133bfc42d1a0accd73e30e8",
+  "output_sha256": "e6bd99c91854a916fc675a57f5f18c139b72868a5ebdafd7b72088b03afd3e2f",
+  "bytes": 4083872,
+  "patches": [
+    {
+      "payload_offset": "0x68d84",
+      "whole_file_offset": "0x68f84",
+      "original": "40110035",
+      "replacement": "04000014",
+      "bytes": 4,
+      "purpose": "Remove CN/NATIVE-only init_boot SKU panic; keep preceding production/efuse checks"
+    },
+    {
+      "payload_offset": "0x88610",
+      "whole_file_offset": "0x88810",
+      "original": "e00200d000fc30910fd6ff97a87340391f010071f4139f5adbffff17",
+      "replacement": "e0030491c1d444700220805281d8ff971f000071f4039f5adbffff17",
+      "bytes": 28,
+      "purpose": "After selected image-key mismatch, also accept the embedded Global256 key; retain chain/key extraction"
+    },
+    {
+      "payload_offset": "0xc53dc",
+      "whole_file_offset": "0xc55dc",
+      "original": "61020054",
+      "replacement": "13000014",
+      "bytes": 4,
+      "purpose": "Use the existing CN/Global4096 AVB-key union regardless of hardware region"
+    },
+    {
+      "payload_offset": "0x87098",
+      "whole_file_offset": "0x87298",
+      "original": "20010034",
+      "replacement": "01000014",
+      "bytes": 4,
+      "purpose": "Skip only CN-hardware/non-CN-software region-triggered recovery inside the Secure-ID path"
+    }
+  ],
+  "previous_hwc_and_mte_changes_preserved": true,
+  "fenrir_fake_lock_and_boot_policy_preserved": true,
+  "all_other_members_and_signed_der_unchanged": true,
+  "key_scope": "Embedded CN/Global keys, not arbitrary/unknown keys or every POCO model",
+  "poco_rom_build_and_images_not_available": true,
+  "actual_failure_stage_not_proven": true,
+  "device_boot_tested": false,
+  "device_flashed": false
+}
