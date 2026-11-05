@@ -29,3 +29,5 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 [Fenrir so với fakelock v2](../fresh_analysis/fenrir_review/README_VI.md): nhận diện nền H3 stock, toàn bộ diff main/AEE, certificate/parser, root handoff và seccfg; chưa xác nhận boot/TEE/Integrity.
 
 [Hai hybrid Fenrir + v2, nền H3 stock/debug](../experiments/lk_fenrir_v2_hybrid_v1/README_VI.md): input tách riêng, root init_boot hash path, public locked/green/seccfg, HWC và guard bảo trì phiên bản; chưa boot test.
+
+[Mới nhất: Fenrir gốc chỉ thêm HWC auto/MTE-off](../experiments/lk_fenrir_only_auto_hwc_mte_off_v1/README_VI.md). User báo hybrid trước không dùng được; bản mới chưa boot test và không kế thừa các patch thêm của hybrid.

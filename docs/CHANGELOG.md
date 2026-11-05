@@ -97,3 +97,9 @@
 - Tạo đúng2[ảnh hybrid](../experiments/lk_fenrir_v2_hybrid_v1/README_VI.md): stock50e1fe9d... vàdebuga8b894d4..., từFenrir vàdebug6f386 riêng, không ghép BL2 chéo. Commonlocked4/cachegreen0/AVBallow1 +v2publicseccfg/flash.locked +HWCauto; MTEgốc. Debug vốn không có cácgateFenrir phải bỏ trênrelease nênAEEdebug giữ nguyên.
 - Rootpathnative hashmismatch3 đượcfilter/callerflags1 cho qua; lỗiIO/descriptorvẫnloại. Predicate theo locked còn có đườngmaintenance rollback, không phảiinitbootverifylần2; NOP riêngcall688b8/69688 giữ skip của v2, helperOTP chung nguyênbyte.
 - Finalnative406stock/472debug, mỗiảnh10DERgiữlại; chưa boot/root/OTA/Integrity. ZIP2ảnh cómanifest/CRC/SHA kiểm.
+
+## 2026-11-05 — Quay về Fenrir gốc, chỉ HWC và MTE-off
+
+- User báo file hybrid không dùng được, giống LK gốc; chưa cung cấp exact flashedhash/log. Theo yêu cầu mới không tiếp tục ghép v2 hoặc guard bảo trì.
+- Checkpointdafba4f/tag `before-fenrir-only-hwc-mte-20261105`; inputFenrirdee32..., output8d616abb51cd48373d7a892013c080b902a811983133bfc42d1a0accd73e30e8,4083872bytes. [Docs](../experiments/lk_fenrir_only_auto_hwc_mte_off_v1/README_VI.md).
+- Chỉ3spanHWC152bytes+MTEbranch4bytes stock344a8, mainprefix90 cập nhật. Toàn bộ byte khác/Fenrircore/AEE/BL2/cert/DTB/trailer nguyên byte. 230native+10DERpass, chưa flash/boot/root test.

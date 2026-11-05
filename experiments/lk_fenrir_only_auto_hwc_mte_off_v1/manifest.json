@@ -1,0 +1,56 @@
+{
+  "status": "EXPERIMENTAL_FENRIR_ONLY_HWC_MTE_OFF_NOT_DEVICE_BOOTED",
+  "artifact": "lk_FENRIR_ONLY_AUTO_HWC_MTE_OFF_TEST.img",
+  "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+  "output_sha256": "8d616abb51cd48373d7a892013c080b902a811983133bfc42d1a0accd73e30e8",
+  "bytes": 4083872,
+  "patches": [
+    {
+      "payload_offset": "0x13a78",
+      "whole_file_offset": "0x13c78",
+      "old": "e0c30291f3c302919ebeff97e0430491e1031f2a021980523eac01946392009173420091420700b042a82a91e0430491e4c3029101198052e50313aa60ae01948000f837e04304911d150094070000142006009000c01291610600f0212c159122208052dea80194e005009000bc0791610600f0212c1591e3c3029162218052bf1f00b9d6a80194",
+      "new": "e0c302919fbeff97bf1f00b91f000014e3530391e803403948010034e80340b9085d001208011b320801133269cc8d521f01096b23e05f30290200106300899ae043049101198052427f7450e4c30291e50303915aae0194c000f837e043049117150094f3030391e04304917401001460ce6170daa80194fbffff17474c4f42414c00001f2003d5",
+      "bytes": 136,
+      "purpose": "Keep native early hardware copy; defer HWC emission and select countrycode region"
+    },
+    {
+      "payload_offset": "0x14050",
+      "whole_file_offset": "0x14250",
+      "old": "600700b00070389113000014",
+      "new": "ff7f00a940ee761013000014",
+      "bytes": 12,
+      "purpose": "Clear partial countrycode read before native error log and close"
+    },
+    {
+      "payload_offset": "0x140b0",
+      "whole_file_offset": "0x142b0",
+      "old": "e0430491",
+      "new": "76feff17",
+      "bytes": 4,
+      "purpose": "Common countrycode result enters late HWC formatter"
+    },
+    {
+      "payload_offset": "0x344a8",
+      "whole_file_offset": "0x346a8",
+      "old": "20020054",
+      "new": "11000014",
+      "bytes": 4,
+      "purpose": "Force existing kernel_mte_init suppression branch at0x344ec"
+    }
+  ],
+  "main_hash_prefix_bytes": 90,
+  "all_other_bytes_unchanged": true,
+  "no_v2_exports_added": true,
+  "no_maintenance_guard_added": true,
+  "fenrir_lock_avb_root_flash_erase_reports_unchanged": true,
+  "bl2_aee_dtb_certificates_and_zero_trailer_unchanged": true,
+  "hwc_mapping": {
+    "cn_case_insensitive_exact": "CN",
+    "nonempty_non_cn": "GLOBAL",
+    "missing_empty_read_error": "original hardware HWC"
+  },
+  "mte_off_scope": "Native LK suppression path emits arm64.nomte to kernel; does not undo earlier preloader execution",
+  "device_flashed": false,
+  "device_boot_tested": false,
+  "root_success_device_confirmed": false
+}

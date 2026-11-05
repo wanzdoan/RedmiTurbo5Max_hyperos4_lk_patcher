@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "source": "User reports; no agent device operations",
+  "previous_hybrids": {
+    "user_report": "file build kh\u00f4ng d\u00f9ng \u0111\u01b0\u1ee3c, c\u1ee9 nh\u01b0 LK g\u1ed1c",
+    "exact_flashed_file_and_hash_not_provided": true,
+    "root_cause_not_proven": true
+  },
+  "new_minimal_fenrir": {
+    "sha256": "8d616abb51cd48373d7a892013c080b902a811983133bfc42d1a0accd73e30e8",
+    "boot_tested": false,
+    "root_success_confirmed": false,
+    "agent_flashed": false
+  }
+}
