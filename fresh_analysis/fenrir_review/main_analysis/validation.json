@@ -1,0 +1,1609 @@
+{
+  "status": "PASS_BOUNDED_NATIVE_NOT_DEVICE_BOOT",
+  "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+  "stock_sha256": "e23e07cab7754cc99c9484765b9ec758b2c8d5110dfb3e0eb6009415719bf4cb",
+  "main_payload_size": 1284904,
+  "changed_main_bytes": 63,
+  "changed_words": [
+    {
+      "payload_offset": "0xa110",
+      "whole_file_offset": "0xa310",
+      "original": "c8010034",
+      "fenrir": "1f2003d5",
+      "original_disassembly": [
+        "cbz w8, #0xa148"
+      ],
+      "fenrir_disassembly": [
+        "nop "
+      ]
+    },
+    {
+      "payload_offset": "0xa124",
+      "whole_file_offset": "0xa324",
+      "original": "21010054",
+      "fenrir": "1f2003d5",
+      "original_disassembly": [
+        "b.ne #0xa148"
+      ],
+      "fenrir_disassembly": [
+        "nop "
+      ]
+    },
+    {
+      "payload_offset": "0xce04",
+      "whole_file_offset": "0xd004",
+      "original": "80000034",
+      "fenrir": "04000014",
+      "original_disassembly": [
+        "cbz w0, #0xce14"
+      ],
+      "fenrir_disassembly": [
+        "b #0xce14"
+      ]
+    },
+    {
+      "payload_offset": "0xd1d0",
+      "whole_file_offset": "0xd3d0",
+      "original": "e80740b9",
+      "fenrir": "e80f40b9",
+      "original_disassembly": [
+        "ldr w8, [sp, #4]"
+      ],
+      "fenrir_disassembly": [
+        "ldr w8, [sp, #0xc]"
+      ]
+    },
+    {
+      "payload_offset": "0xd1d8",
+      "whole_file_offset": "0xd3d8",
+      "original": "81000054",
+      "fenrir": "04000014",
+      "original_disassembly": [
+        "b.ne #0xd1e8"
+      ],
+      "fenrir_disassembly": [
+        "b #0xd1e8"
+      ]
+    },
+    {
+      "payload_offset": "0x68668",
+      "whole_file_offset": "0x68868",
+      "original": "f6179f1a",
+      "fenrir": "36008052",
+      "original_disassembly": [
+        "cset w22, eq"
+      ],
+      "fenrir_disassembly": [
+        "mov w22, #1"
+      ]
+    },
+    {
+      "payload_offset": "0x692fc",
+      "whole_file_offset": "0x694fc",
+      "original": "009109b9",
+      "fenrir": "1f9109b9",
+      "original_disassembly": [
+        "str w0, [x8, #0x990]"
+      ],
+      "fenrir_disassembly": [
+        "str wzr, [x8, #0x990]"
+      ]
+    },
+    {
+      "payload_offset": "0x88750",
+      "whole_file_offset": "0x88950",
+      "original": "3f2303d5",
+      "fenrir": "88008052",
+      "original_disassembly": [
+        "paciasp "
+      ],
+      "fenrir_disassembly": [
+        "mov w8, #4"
+      ]
+    },
+    {
+      "payload_offset": "0x88754",
+      "whole_file_offset": "0x88954",
+      "original": "fd7bbea9",
+      "fenrir": "080000b9",
+      "original_disassembly": [
+        "stp x29, x30, [sp, #-0x20]!"
+      ],
+      "fenrir_disassembly": [
+        "str w8, [x0]"
+      ]
+    },
+    {
+      "payload_offset": "0x88758",
+      "whole_file_offset": "0x88958",
+      "original": "f44f01a9",
+      "fenrir": "00008052",
+      "original_disassembly": [
+        "stp x20, x19, [sp, #0x10]"
+      ],
+      "fenrir_disassembly": [
+        "mov w0, #0"
+      ]
+    },
+    {
+      "payload_offset": "0x8875c",
+      "whole_file_offset": "0x8895c",
+      "original": "fd030091",
+      "fenrir": "c0035fd6",
+      "original_disassembly": [
+        "mov x29, sp"
+      ],
+      "fenrir_disassembly": [
+        "ret "
+      ]
+    },
+    {
+      "payload_offset": "0x88760",
+      "whole_file_offset": "0x88960",
+      "original": "f30300aa",
+      "fenrir": "1f2003d5",
+      "original_disassembly": [
+        "mov x19, x0"
+      ],
+      "fenrir_disassembly": [
+        "nop "
+      ]
+    },
+    {
+      "payload_offset": "0x88764",
+      "whole_file_offset": "0x88964",
+      "original": "7f010094",
+      "fenrir": "1f2003d5",
+      "original_disassembly": [
+        "bl #0x88d60"
+      ],
+      "fenrir_disassembly": [
+        "nop "
+      ]
+    },
+    {
+      "payload_offset": "0xd9cec",
+      "whole_file_offset": "0xd9eec",
+      "original": "20006237",
+      "fenrir": "20007961",
+      "original_disassembly": [
+        "tbnz w0, #0xc, #0xddcf0"
+      ],
+      "fenrir_disassembly": []
+    },
+    {
+      "payload_offset": "0xd9cf0",
+      "whole_file_offset": "0xd9ef0",
+      "original": "38346265",
+      "fenrir": "6b61796e",
+      "original_disassembly": [
+        "fmls z24.h, p5/m, z1.h, z2.h"
+      ],
+      "fenrir_disassembly": [
+        "rsubhn2 v11.8h, v11.4s, v25.4s"
+      ]
+    },
+    {
+      "payload_offset": "0xd9cf4",
+      "whole_file_offset": "0xd9ef4",
+      "original": "3363655f",
+      "fenrir": "5f426f4d",
+      "original_disassembly": [],
+      "fenrir_disassembly": []
+    },
+    {
+      "payload_offset": "0xd9cf8",
+      "whole_file_offset": "0xd9ef8",
+      "original": "32303236",
+      "fenrir": "61794461",
+      "original_disassembly": [
+        "tbz w18, #6, #0xde2fc"
+      ],
+      "fenrir_disassembly": []
+    },
+    {
+      "payload_offset": "0xd9cfc",
+      "whole_file_offset": "0xd9efc",
+      "original": "30373032",
+      "fenrir": "6e674361",
+      "original_disassembly": [
+        "orr w16, w25, #0x3fff0000"
+      ],
+      "fenrir_disassembly": []
+    },
+    {
+      "payload_offset": "0xd9d00",
+      "whole_file_offset": "0xd9f00",
+      "original": "31343439",
+      "fenrir": "70000000",
+      "original_disassembly": [
+        "strb w17, [x1, #0xd0d]"
+      ],
+      "fenrir_disassembly": [
+        "udf #0x70"
+      ]
+    }
+  ],
+  "cpu_case_counts": {
+    "getter": 100,
+    "lock_and_auth": 12,
+    "fastboot_publication": 6,
+    "dispatch_permissions": 24,
+    "flash_gate": 16,
+    "erase_gate": 12,
+    "AVB_flag_selection": 3,
+    "setter_and_warning": 16
+  },
+  "total_cpu_cases": 189,
+  "cases": {
+    "getter": [
+      {
+        "initial": 0,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 4,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 4294967295,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2605181158,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 4094382150,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2846443543,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2788344660,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1216625969,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 585488236,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 367837533,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2510937567,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 196965001,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3839085648,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2974195877,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2098723635,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1832010777,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3372537382,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 479670988,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1418239866,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3966979322,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2121924625,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 4050816506,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 988504619,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3619277397,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 149856084,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1104431223,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 4154718838,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 318791876,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2673302822,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1156862043,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3842265094,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1927929470,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2683949861,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3275873585,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 727397605,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1254740243,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1607218823,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 867256505,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 548876030,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1872193059,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1936586893,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3051900929,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 22941651,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 954080173,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2557289386,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1123497830,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3536405149,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3177483506,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1850079795,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3057903669,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1779733608,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 744544101,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 599704291,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1519510224,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3513452869,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1245476598,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3012894907,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1865171668,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3401812746,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1048973421,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3387684074,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3436481201,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2773897174,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2462695699,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3358844584,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3530764769,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 476728426,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2573437389,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 840220526,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1613947239,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1121189334,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 4271343417,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 185615389,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 538707476,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3566134239,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1077031434,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1594492488,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1351274238,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1543525008,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1110901994,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2860675219,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3903294783,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 531522769,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 377691947,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 4275136752,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3173336501,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 3663597033,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 145738868,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 249544977,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2247280073,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1542862452,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2351960794,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 2509453940,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 445151821,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 1911355091,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 959173655,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      },
+      {
+        "initial": 339368724,
+        "returned_state": 4,
+        "status": 0,
+        "pass_case": true
+      }
+    ],
+    "lock_and_auth": [
+      {
+        "stock_control_state": null,
+        "kind": "locked_boolean",
+        "boot_mode": 0,
+        "value": 1,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "kind": "image_auth_required",
+        "boot_mode": 0,
+        "value": 1,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "kind": "image_auth_required",
+        "boot_mode": 1,
+        "value": 1,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "kind": "image_auth_required",
+        "boot_mode": 99,
+        "value": 1,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "kind": "locked_boolean",
+        "boot_mode": 0,
+        "value": 0,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "kind": "image_auth_required",
+        "boot_mode": 0,
+        "value": 0,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "kind": "image_auth_required",
+        "boot_mode": 1,
+        "value": 0,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "kind": "image_auth_required",
+        "boot_mode": 99,
+        "value": 0,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "kind": "locked_boolean",
+        "boot_mode": 0,
+        "value": 1,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "kind": "image_auth_required",
+        "boot_mode": 0,
+        "value": 1,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "kind": "image_auth_required",
+        "boot_mode": 1,
+        "value": 1,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "kind": "image_auth_required",
+        "boot_mode": 99,
+        "value": 1,
+        "pass_case": true
+      }
+    ],
+    "fastboot_publication": [
+      {
+        "stock_control_state": null,
+        "existing_cache_entry": false,
+        "updates": [
+          [
+            "secure",
+            "yes"
+          ],
+          [
+            "unlocked",
+            "no"
+          ]
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "existing_cache_entry": true,
+        "updates": [
+          [
+            "secure",
+            "yes"
+          ],
+          [
+            "unlocked",
+            "no"
+          ]
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "existing_cache_entry": false,
+        "updates": [
+          [
+            "secure",
+            "no"
+          ],
+          [
+            "unlocked",
+            "yes"
+          ]
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "existing_cache_entry": true,
+        "updates": [
+          [
+            "secure",
+            "no"
+          ],
+          [
+            "unlocked",
+            "yes"
+          ]
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "existing_cache_entry": false,
+        "updates": [
+          [
+            "secure",
+            "yes"
+          ],
+          [
+            "unlocked",
+            "no"
+          ]
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "existing_cache_entry": true,
+        "updates": [
+          [
+            "secure",
+            "yes"
+          ],
+          [
+            "unlocked",
+            "no"
+          ]
+        ],
+        "pass_case": true
+      }
+    ],
+    "dispatch_permissions": [
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": null,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": false,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": false,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 0,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": false,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 0,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": false,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 0,
+        "command_callback_invoked": false,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 1,
+        "permitted_secure": 0,
+        "needs_unlock": 1,
+        "command_callback_invoked": false,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 0,
+        "command_callback_invoked": true,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "secure_fixture": 1,
+        "permitted_secure": 1,
+        "needs_unlock": 1,
+        "command_callback_invoked": false,
+        "pass_case": true
+      }
+    ],
+    "flash_gate": [
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "boot_para",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "init_boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "target": "lk",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "boot_para",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "init_boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "target": "lk",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 0,
+        "target": "boot_para",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 0,
+        "target": "boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 0,
+        "target": "init_boot",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 0,
+        "target": "lk",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 1,
+        "target": "boot_para",
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 1,
+        "target": "boot",
+        "gate_passed": false,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 1,
+        "target": "init_boot",
+        "gate_passed": false,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 1,
+        "target": "lk",
+        "gate_passed": false,
+        "pass_case": true
+      }
+    ],
+    "erase_gate": [
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "scratch_word": 0,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "scratch_word": 1,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 0,
+        "scratch_word": 4,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "scratch_word": 0,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "scratch_word": 1,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "locked_fixture": 1,
+        "scratch_word": 4,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 0,
+        "scratch_word": 0,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 0,
+        "scratch_word": 1,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 0,
+        "scratch_word": 4,
+        "gate_passed": true,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 1,
+        "scratch_word": 0,
+        "gate_passed": false,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 1,
+        "scratch_word": 1,
+        "gate_passed": false,
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "locked_fixture": 1,
+        "scratch_word": 4,
+        "gate_passed": false,
+        "pass_case": true
+      }
+    ],
+    "AVB_flag_selection": [
+      {
+        "stock_control_state": null,
+        "allow_verification_error_flag": 1,
+        "selected_initial_boot_state": 3,
+        "stored_verified_boot_state": 0,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 3,
+        "allow_verification_error_flag": 1,
+        "selected_initial_boot_state": 2,
+        "stored_verified_boot_state": 2,
+        "pass_case": true
+      },
+      {
+        "stock_control_state": 4,
+        "allow_verification_error_flag": 0,
+        "selected_initial_boot_state": 3,
+        "stored_verified_boot_state": 3,
+        "pass_case": true
+      }
+    ],
+    "setter_and_warning": [
+      {
+        "stock_control": false,
+        "setter_input": 0,
+        "stored_state": 0,
+        "boot_mode": 0,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "setter_input": 0,
+        "stored_state": 0,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "setter_input": 1,
+        "stored_state": 0,
+        "boot_mode": 0,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "setter_input": 1,
+        "stored_state": 0,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "setter_input": 2,
+        "stored_state": 0,
+        "boot_mode": 0,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "setter_input": 2,
+        "stored_state": 0,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "setter_input": 3,
+        "stored_state": 0,
+        "boot_mode": 0,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": false,
+        "setter_input": 3,
+        "stored_state": 0,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 0,
+        "stored_state": 0,
+        "boot_mode": 0,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 0,
+        "stored_state": 0,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 1,
+        "stored_state": 1,
+        "boot_mode": 0,
+        "warning_ids": [
+          2
+        ],
+        "fatal_handler_calls": [
+          "boot"
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 1,
+        "stored_state": 1,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [
+          "boot"
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 2,
+        "stored_state": 2,
+        "boot_mode": 0,
+        "warning_ids": [
+          1
+        ],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 2,
+        "stored_state": 2,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 3,
+        "stored_state": 3,
+        "boot_mode": 0,
+        "warning_ids": [
+          2
+        ],
+        "fatal_handler_calls": [
+          "boot"
+        ],
+        "pass_case": true
+      },
+      {
+        "stock_control": true,
+        "setter_input": 3,
+        "stored_state": 3,
+        "boot_mode": 1,
+        "warning_ids": [],
+        "fatal_handler_calls": [
+          "boot"
+        ],
+        "pass_case": true
+      }
+    ]
+  },
+  "mocks": [
+    "PAC/logging",
+    "Original common lock getter only in explicitly labelled stock controls",
+    "Public-variable lookup/update and strcmp boundaries",
+    "Command callback sink",
+    "Boot selector, UI/timing and fatal-handler sinks"
+  ],
+  "limits": [
+    "No full flash/erase or AVB slot verification execution",
+    "No phone/TEE/secure world or boot proof",
+    "Build identity bytes are data, despite incidental instruction disassembly"
+  ]
+}

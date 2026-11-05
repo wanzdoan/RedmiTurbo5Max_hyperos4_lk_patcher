@@ -1,0 +1,132 @@
+{
+  "status": "PASS_BOUNDED_PUBLIC_QUERY_ONLY_NOT_DEVICE_STATE",
+  "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+  "seccfg_function_original_bytes_unchanged": true,
+  "seccfg_cpu_cases": [
+    {
+      "seccfg_state_fixture": 0,
+      "getter_status_fixture": 0,
+      "getter_writes_result": true,
+      "actual_result_word_preserved": true,
+      "info": [
+        "seccfg_state is 0",
+        "mtkrpmb_state is 4."
+      ],
+      "errors": [],
+      "pass_case": true
+    },
+    {
+      "seccfg_state_fixture": 0,
+      "getter_status_fixture": 7,
+      "getter_writes_result": true,
+      "actual_result_word_preserved": true,
+      "info": [
+        "seccfg_state is 0",
+        "mtkrpmb_state is 4."
+      ],
+      "errors": [
+        "Get seccfg_state failed."
+      ],
+      "pass_case": true
+    },
+    {
+      "seccfg_state_fixture": 1,
+      "getter_status_fixture": 0,
+      "getter_writes_result": true,
+      "actual_result_word_preserved": true,
+      "info": [
+        "seccfg_state is 1",
+        "mtkrpmb_state is 4."
+      ],
+      "errors": [],
+      "pass_case": true
+    },
+    {
+      "seccfg_state_fixture": 1,
+      "getter_status_fixture": 7,
+      "getter_writes_result": true,
+      "actual_result_word_preserved": true,
+      "info": [
+        "seccfg_state is 1",
+        "mtkrpmb_state is 4."
+      ],
+      "errors": [
+        "Get seccfg_state failed."
+      ],
+      "pass_case": true
+    },
+    {
+      "seccfg_state_fixture": 3,
+      "getter_status_fixture": 0,
+      "getter_writes_result": true,
+      "actual_result_word_preserved": true,
+      "info": [
+        "seccfg_state is 3",
+        "mtkrpmb_state is 4."
+      ],
+      "errors": [],
+      "pass_case": true
+    },
+    {
+      "seccfg_state_fixture": 3,
+      "getter_status_fixture": 7,
+      "getter_writes_result": true,
+      "actual_result_word_preserved": true,
+      "info": [
+        "seccfg_state is 3",
+        "mtkrpmb_state is 4."
+      ],
+      "errors": [
+        "Get seccfg_state failed."
+      ],
+      "pass_case": true
+    },
+    {
+      "seccfg_state_fixture": 0,
+      "getter_status_fixture": 7,
+      "getter_writes_result": false,
+      "actual_result_word_preserved": true,
+      "info": [
+        "seccfg_state is 4",
+        "mtkrpmb_state is 4."
+      ],
+      "errors": [
+        "Get seccfg_state failed."
+      ],
+      "pass_case": true
+    }
+  ],
+  "lks_cpu_cases": [
+    {
+      "independent_seccfg_fixture": 0,
+      "seccfg_read": false,
+      "info": [
+        "lks = 1"
+      ],
+      "pass_case": true
+    },
+    {
+      "independent_seccfg_fixture": 1,
+      "seccfg_read": false,
+      "info": [
+        "lks = 1"
+      ],
+      "pass_case": true
+    },
+    {
+      "independent_seccfg_fixture": 3,
+      "seccfg_read": false,
+      "info": [
+        "lks = 1"
+      ],
+      "pass_case": true
+    }
+  ],
+  "total_cpu_cases": 10,
+  "finding": "Fenrir LKS locked1 does not imply its separate seccfg query is fake-locked1; seccfg prints actual getter word or initialized4 on no-write error",
+  "comparison": "Our v2 explicitly changes this separate public seccfg formatting value to1 while preserving the getter word and error",
+  "limits": [
+    "seccfg getter is an explicit boundary fixture; no physical partition read",
+    "No actual device lock/flash/boot or stored state inferred"
+  ]
+}

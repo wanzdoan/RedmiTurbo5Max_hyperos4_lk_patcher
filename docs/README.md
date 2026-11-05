@@ -25,3 +25,5 @@ Ngày 2026-11-05: [ENG unlocked/fakelock v2 + HWC tự chọn vùng](../experime
 Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../experiments/lk_h3_eng_mte_off_v1/README_VI.md). [Luồng preloader → LK → kernel MTE và evidence](../fresh_analysis/mte_research/README_VI.md). Mỗi nhánh unlocked/fakelock v2/stock-policy có hai file riêng, chưa boot test.
 
 [11 — LK ENG và preloader H3/H4](11-eng-preloader-compatibility.md): yêu cầu mở lại ngày05-11; stock input đúng hash, policy/DFD, chứng chỉ, ma trận boot và giới hạn chưa kiểm chứng.
+
+[Fenrir so với fakelock v2](../fresh_analysis/fenrir_review/README_VI.md): nhận diện nền H3 stock, toàn bộ diff main/AEE, certificate/parser, root handoff và seccfg; chưa xác nhận boot/TEE/Integrity.

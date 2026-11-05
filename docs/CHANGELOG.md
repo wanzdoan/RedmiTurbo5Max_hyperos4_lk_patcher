@@ -82,3 +82,10 @@
 - Xác nhận preloader đúng ROMH4 là104bb...; stockH3China317487.../Global4f43... khác file bcde... từng gọi ENG. Policy3stock qua288 lời gọi native tương đương;66caDFD nêu khác biệt thật về marker/timeout nhưng chưa xác định đó là nguyên nhân brick.
 - 10 chữ ký BL2+5 cặp hash đạt; sáu ENG giữ cùng nền BL2/AEE/DTB. H3patched và H4hybrid cùng BL2code/header/cert1; cert2 cùngTBS nhưng chữ kýPSS khác, đều hợp lệ. Hybrid triple từ H3original.
 - Không suy parser BL2H4 gây ca brick H3patched+H4preloader; không cấp xác nhận flash stockH3/H4 cho sáuENG từ phân tích tĩnh.
+
+## 2026-11-05 — Phân tích Fenrir bên ngoài so với fakelock v2
+
+- Checkpoint53e9a62/tag `before-fenrir-fakelock-analysis-20261105` đã push trước công việc. Inputdee32d18... giữ nguyên trong fresh_analysis/fenrir_review/input.
+- MainFenrir chỉ khác63byte trên H3stock, AEE11byte; BL2/DTB/DTBO nguyên byte. Commonwrapperstate4, setterverifiedbootzero; mở gate main/AEE. Certificateprefixđơn90,10DERgốcvalid,12parsernative; không ký OEM mới.
+- 199main(publicseccfg/LKSgồm10),80AEE,160H3/Fenrirroot+20v2rootnativecases đạt. 80crosscheckpacket cho hashOEM/lock1/state0 giốngv2; không chứng minh attestation tốt hơn. Fenrirche cachelỗi; publicseccfg giữactualgetter khác LKS1, v2 cóoverride riêng.
+- Không patch v2, không flash, không boot/OTA/Integrity claim. [Docs](../fresh_analysis/fenrir_review/README_VI.md) và findings.json tách evidence/gaps.

@@ -1,0 +1,45 @@
+{
+  "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+  "scope": "Offline native binary comparison; no phone access, no firmware patching, no actual secure-world execution",
+  "findings": [
+    {
+      "id": "FENRIR-BASE-001",
+      "status": "confirmed_static",
+      "finding": "Exact H3 stock layout;63 changed main bytes,11 AEE bytes; BL2/DTB/DTBO unchanged; main/AEE90-byte prefixes and768-byte zero trailer",
+      "evidence": "chain_analysis/chain_evidence.json"
+    },
+    {
+      "id": "FENRIR-MAIN-001",
+      "status": "confirmed_bounded_native",
+      "finding": "Common wrapper4, RAMbootstate0, patchedAVBallowflag andmaincommand gates",
+      "evidence": "main_analysis/validation.json"
+    },
+    {
+      "id": "FENRIR-AEE-001",
+      "status": "confirmed_bounded_native",
+      "finding": "Four AEE instruction changes open specific command/flash gates; helper-error paths retained",
+      "evidence": "chain_analysis/chain_evidence.json"
+    },
+    {
+      "id": "FENRIR-ROT-001",
+      "status": "confirmed_bounded_native",
+      "finding": "No new handoff instructions; rootkeyhash/lock1/state0 agree withv2 in80crosscheckedcases; Fenrirchangesinternalcache whereasv2retainsit",
+      "evidence": "root_handoff_validation.json"
+    },
+    {
+      "id": "FENRIR-SECCFG-001",
+      "status": "confirmed_bounded_native",
+      "finding": "Independent public seccfg channel reports getter fixture whileLKSreports1; V2hasexplicitseccfgreportoverride",
+      "evidence": "main_analysis/seccfg_validation.json"
+    },
+    {
+      "id": "FENRIR-ATTESTATION-001",
+      "status": "unresolved_not_measured",
+      "finding": "No device boot, secure-world acceptance, actual attestation, application verdict, OTA or stockH4preloadercompatibility measured",
+      "evidence": "README_VI.md"
+    }
+  ],
+  "input_is_analysis_only": true,
+  "current_firmware_changed": false,
+  "no_merge_into_v2": true
+}

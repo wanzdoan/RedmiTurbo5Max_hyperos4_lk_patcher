@@ -1,0 +1,1598 @@
+{
+  "status": "PASS_OFFLINE_CONTAINER_SIGNATURES_BOUNDED_PARSER_AND_AEE",
+  "input_sha256": "dee32d186b36b07f7e49b2d67a708c84ef94eb7d4b0147548eea3bd450ccf113",
+  "input_bytes": 4083872,
+  "trailing_zero_bytes": 768,
+  "member_comparisons": [
+    {
+      "member": 0,
+      "name": "lk",
+      "payload_sha256": "1285d8bbd635d783e54f6d70965eb28f4466713edb369b3c84b635f6eb5cecb3",
+      "source_payload_sha256": "57ee08e2ae62070cb16ac68515d42f987cca5d9ddf04f590e99017fedee55dbe",
+      "payload_identical": false,
+      "payload_size": 1284904,
+      "source_size": 1284904
+    },
+    {
+      "member": 1,
+      "name": "cert1",
+      "payload_sha256": "94ba237e0a601649292a6cfcf5c4f0ccffc1a58e60843d476bc46f9d1956326a",
+      "source_payload_sha256": "94ba237e0a601649292a6cfcf5c4f0ccffc1a58e60843d476bc46f9d1956326a",
+      "payload_identical": true,
+      "payload_size": 1733,
+      "source_size": 1733
+    },
+    {
+      "member": 2,
+      "name": "cert2",
+      "payload_sha256": "f5f553b27ebe3eaafad4bc090bf4f9bc1d43e20a09b834579c08517cfe541449",
+      "source_payload_sha256": "9ee72b29b0fdbaa95d33be24768d7592be5b00d391659b5d73fb10a7edbbec2a",
+      "payload_identical": false,
+      "payload_size": 1072,
+      "source_size": 982
+    },
+    {
+      "member": 3,
+      "name": "bl2_ext",
+      "payload_sha256": "e9aca46a63376b22daf9150319e27c8fc2da1e176781af8bc1392da4f178e76b",
+      "source_payload_sha256": "e9aca46a63376b22daf9150319e27c8fc2da1e176781af8bc1392da4f178e76b",
+      "payload_identical": true,
+      "payload_size": 1079256,
+      "source_size": 1079256
+    },
+    {
+      "member": 4,
+      "name": "cert1",
+      "payload_sha256": "618277366ef443b01200d4ede8fcc12edc58ce08e40c23b118b10ffdeb67dba2",
+      "source_payload_sha256": "618277366ef443b01200d4ede8fcc12edc58ce08e40c23b118b10ffdeb67dba2",
+      "payload_identical": true,
+      "payload_size": 1733,
+      "source_size": 1733
+    },
+    {
+      "member": 5,
+      "name": "cert2",
+      "payload_sha256": "80598b9c5e94f35465855c1b0034d027689b6ce02aeeef248b795776369b3a89",
+      "source_payload_sha256": "80598b9c5e94f35465855c1b0034d027689b6ce02aeeef248b795776369b3a89",
+      "payload_identical": true,
+      "payload_size": 982,
+      "source_size": 982
+    },
+    {
+      "member": 6,
+      "name": "aee",
+      "payload_sha256": "0fb6c126e6570a2c3bafc32b64e9c728c069350e5316660743b988b54a4aa75b",
+      "source_payload_sha256": "464f9fd1c286217be034e22a0ec86fedf97b114e3f7a3d2de5f807bafe45d7ad",
+      "payload_identical": false,
+      "payload_size": 1005432,
+      "source_size": 1005432
+    },
+    {
+      "member": 7,
+      "name": "cert1",
+      "payload_sha256": "b4903721137f6efba6803c06413f6c35633fbbd447e9e71804cdde7d87a2726d",
+      "source_payload_sha256": "b4903721137f6efba6803c06413f6c35633fbbd447e9e71804cdde7d87a2726d",
+      "payload_identical": true,
+      "payload_size": 1733,
+      "source_size": 1733
+    },
+    {
+      "member": 8,
+      "name": "cert2",
+      "payload_sha256": "88a5361427696a7ce561450b2a6337df00d0c4d41d9a1144cc653c2699acc974",
+      "source_payload_sha256": "c4f26366798bbb6c3aca19e68cef3da0d58e6ddc8f3ac718e5aafd7ac4c328c9",
+      "payload_identical": false,
+      "payload_size": 1072,
+      "source_size": 982
+    },
+    {
+      "member": 9,
+      "name": "lk_main_dtb",
+      "payload_sha256": "b81598e62568f76b9c3d50e937431b7f39d5af36fa42cb30aed8c2824a4818df",
+      "source_payload_sha256": "b81598e62568f76b9c3d50e937431b7f39d5af36fa42cb30aed8c2824a4818df",
+      "payload_identical": true,
+      "payload_size": 535899,
+      "source_size": 535899
+    },
+    {
+      "member": 10,
+      "name": "cert1",
+      "payload_sha256": "a4bd9eaa92c2596137ac76f8fdd9118fb073c2a1a8b23191389bd4680b2e431c",
+      "source_payload_sha256": "a4bd9eaa92c2596137ac76f8fdd9118fb073c2a1a8b23191389bd4680b2e431c",
+      "payload_identical": true,
+      "payload_size": 1733,
+      "source_size": 1733
+    },
+    {
+      "member": 11,
+      "name": "cert2",
+      "payload_sha256": "af73ab9bf85808b0b7ad4333b523278946864382e9fa6bc82f5e2a3cde3514e2",
+      "source_payload_sha256": "af73ab9bf85808b0b7ad4333b523278946864382e9fa6bc82f5e2a3cde3514e2",
+      "payload_identical": true,
+      "payload_size": 982,
+      "source_size": 982
+    },
+    {
+      "member": 12,
+      "name": "lk_dtbo",
+      "payload_sha256": "5fc282e6fd777b3194cd9a140894e3238fffcbafdaecb8486b07d054d4e40506",
+      "source_payload_sha256": "5fc282e6fd777b3194cd9a140894e3238fffcbafdaecb8486b07d054d4e40506",
+      "payload_identical": true,
+      "payload_size": 156063,
+      "source_size": 156063
+    },
+    {
+      "member": 13,
+      "name": "cert1",
+      "payload_sha256": "6cd2d3f9354f62af034d4898c2f119668c5e3c77366630c1920d2de932843977",
+      "source_payload_sha256": "6cd2d3f9354f62af034d4898c2f119668c5e3c77366630c1920d2de932843977",
+      "payload_identical": true,
+      "payload_size": 1733,
+      "source_size": 1733
+    },
+    {
+      "member": 14,
+      "name": "cert2",
+      "payload_sha256": "cdc25826a17a7d8e2c69bfb7789ebf20c60e958e12d623de544920384a12bb33",
+      "source_payload_sha256": "cdc25826a17a7d8e2c69bfb7789ebf20c60e958e12d623de544920384a12bb33",
+      "payload_identical": true,
+      "payload_size": 982,
+      "source_size": 982
+    }
+  ],
+  "retained_der_signatures": [
+    {
+      "member": 1,
+      "name": "cert1",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 2,
+      "name": "cert2",
+      "prefix_bytes": 90,
+      "original_der_identical": true,
+      "original_der_signature_valid": true,
+      "actual_aligned_payload_sha256": "331a6fa6649a6f4c546715d471e96048db2e852e351e5ff96fb1c0f3dcbb2e45",
+      "signed_payload_sha256": "3b3bc47ef6f6bf34944f25ea76affac7de482c62de473cfa05a0fe7899e9fcbb",
+      "signed_payload_hash_matches": false,
+      "signed_header_hash_matches": true,
+      "prefix_exact_single_90_byte_hash_block": true
+    },
+    {
+      "member": 4,
+      "name": "cert1",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 5,
+      "name": "cert2",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true,
+      "actual_aligned_payload_sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "signed_payload_sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+      "signed_payload_hash_matches": true,
+      "signed_header_hash_matches": true
+    },
+    {
+      "member": 7,
+      "name": "cert1",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 8,
+      "name": "cert2",
+      "prefix_bytes": 90,
+      "original_der_identical": true,
+      "original_der_signature_valid": true,
+      "actual_aligned_payload_sha256": "6894a1341f3c4404057130c224a1832923695c6d999806d454326ae9b200647d",
+      "signed_payload_sha256": "d5aaa468e291515443c497d76f7b36c81ccb7b829fc583127032b6f0adae78ed",
+      "signed_payload_hash_matches": false,
+      "signed_header_hash_matches": true,
+      "prefix_exact_single_90_byte_hash_block": true
+    },
+    {
+      "member": 10,
+      "name": "cert1",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 11,
+      "name": "cert2",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true,
+      "actual_aligned_payload_sha256": "a5903f9fa9861a84f0ca240c8619c6e5ab26e9ae83f8ff95bd4e26e96fbfbbe4",
+      "signed_payload_sha256": "a5903f9fa9861a84f0ca240c8619c6e5ab26e9ae83f8ff95bd4e26e96fbfbbe4",
+      "signed_payload_hash_matches": true,
+      "signed_header_hash_matches": true
+    },
+    {
+      "member": 13,
+      "name": "cert1",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true
+    },
+    {
+      "member": 14,
+      "name": "cert2",
+      "prefix_bytes": 0,
+      "original_der_identical": true,
+      "original_der_signature_valid": true,
+      "actual_aligned_payload_sha256": "a3207897acb6977757ec4d0fdd320af93a2651e8959ef59a4cc932d16168456a",
+      "signed_payload_sha256": "a3207897acb6977757ec4d0fdd320af93a2651e8959ef59a4cc932d16168456a",
+      "signed_payload_hash_matches": true,
+      "signed_header_hash_matches": true
+    }
+  ],
+  "native_bl2_parser_cases": [
+    {
+      "version": 3,
+      "carrier": "fenrir_lk",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 3053,
+      "last_offsets": [
+        "0x6d00c",
+        "0x6d690",
+        "0x6d80c",
+        "0x6d940",
+        "0x6d944",
+        "0x6d948",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "331a6fa6649a6f4c546715d471e96048db2e852e351e5ff96fb1c0f3dcbb2e45"
+    },
+    {
+      "version": 3,
+      "carrier": "fenrir_lk",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 30266,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "331a6fa6649a6f4c546715d471e96048db2e852e351e5ff96fb1c0f3dcbb2e45"
+    },
+    {
+      "version": 3,
+      "carrier": "fenrir_lk",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 21506,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "version": 4,
+      "carrier": "fenrir_lk",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 5525,
+      "last_offsets": [
+        "0x6d77c",
+        "0x6d788",
+        "0x6d794",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "3b3bc47ef6f6bf34944f25ea76affac7de482c62de473cfa05a0fe7899e9fcbb"
+    },
+    {
+      "version": 4,
+      "carrier": "fenrir_lk",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 28980,
+      "last_offsets": [
+        "0x6e3d4",
+        "0x6e3d8",
+        "0x6d79c",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "9badc5f9d03d1f5cfccccc81c5351866968ac6c4a11b725b8c3f248082e1b066",
+      "payload_hash": "3b3bc47ef6f6bf34944f25ea76affac7de482c62de473cfa05a0fe7899e9fcbb"
+    },
+    {
+      "version": 4,
+      "carrier": "fenrir_lk",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 18472,
+      "last_offsets": [
+        "0x6e3d4",
+        "0x6e3d8",
+        "0x6d79c",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "version": 3,
+      "carrier": "fenrir_aee",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 3053,
+      "last_offsets": [
+        "0x6d00c",
+        "0x6d690",
+        "0x6d80c",
+        "0x6d940",
+        "0x6d944",
+        "0x6d948",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "6894a1341f3c4404057130c224a1832923695c6d999806d454326ae9b200647d"
+    },
+    {
+      "version": 3,
+      "carrier": "fenrir_aee",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 30266,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "6894a1341f3c4404057130c224a1832923695c6d999806d454326ae9b200647d"
+    },
+    {
+      "version": 3,
+      "carrier": "fenrir_aee",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 21506,
+      "last_offsets": [
+        "0x6bbf0",
+        "0x6d978",
+        "0x6da94",
+        "0x6da98",
+        "0x6da9c",
+        "0x6daa0",
+        "0x6d488",
+        "0x6d48c",
+        "0x6d490",
+        "0x6d494",
+        "0x6d498",
+        "0x6d49c"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "version": 4,
+      "carrier": "fenrir_aee",
+      "mask": "0x60",
+      "returned": true,
+      "error": null,
+      "instructions": 5525,
+      "last_offsets": [
+        "0x6d77c",
+        "0x6d788",
+        "0x6d794",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "d5aaa468e291515443c497d76f7b36c81ccb7b829fc583127032b6f0adae78ed"
+    },
+    {
+      "version": 4,
+      "carrier": "fenrir_aee",
+      "mask": "0x1f4e2",
+      "returned": true,
+      "error": null,
+      "instructions": 28980,
+      "last_offsets": [
+        "0x6e3d4",
+        "0x6e3d8",
+        "0x6d79c",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "a68d2c95ebc2ee90fe4ed55b286d4579bf9808f9cc0f63d472a7613b98116800",
+      "payload_hash": "d5aaa468e291515443c497d76f7b36c81ccb7b829fc583127032b6f0adae78ed"
+    },
+    {
+      "version": 4,
+      "carrier": "fenrir_aee",
+      "mask": "0x1f400",
+      "returned": true,
+      "error": null,
+      "instructions": 18472,
+      "last_offsets": [
+        "0x6e3d4",
+        "0x6e3d8",
+        "0x6d79c",
+        "0x6d7a0",
+        "0x6d7a4",
+        "0x6d7b0",
+        "0x6d7b4",
+        "0x6d7b8",
+        "0x6d7bc",
+        "0x6d7c0",
+        "0x6d7c4",
+        "0x6d7c8"
+      ],
+      "status": "0x0",
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "aee_instruction_changes": [
+    {
+      "payload_offset": "0x13be8",
+      "whole_file_offset": "0x2572a8",
+      "old": "c8010034",
+      "new": "1f2003d5",
+      "old_instruction": "cbz w8, #0x13c20",
+      "new_instruction": "nop "
+    },
+    {
+      "payload_offset": "0x13bfc",
+      "whole_file_offset": "0x2572bc",
+      "old": "21010054",
+      "new": "1f2003d5",
+      "old_instruction": "b.ne #0x13c20",
+      "new_instruction": "nop "
+    },
+    {
+      "payload_offset": "0x16498",
+      "whole_file_offset": "0x259b58",
+      "old": "e80740b9",
+      "new": "e80f40b9",
+      "old_instruction": "ldr w8, [sp, #4]",
+      "new_instruction": "ldr w8, [sp, #0xc]"
+    },
+    {
+      "payload_offset": "0x164a0",
+      "whole_file_offset": "0x259b60",
+      "old": "81000054",
+      "new": "04000014",
+      "old_instruction": "b.ne #0x164b0",
+      "new_instruction": "b #0x164b0"
+    }
+  ],
+  "aee_cpu_cases": [
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "allowed_continuation"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "allowed_continuation"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "allowed_continuation"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": false,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "dispatcher",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 1,
+      "command_flag14_fixture": 1,
+      "command_flag18_fixture": 1,
+      "query_result_fixture": 0,
+      "observed": [
+        "handler"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "allowed_continuation"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 0,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "allowed_continuation"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 1,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "allowed_continuation"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 3,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 0,
+      "observed": [
+        "allowed_continuation"
+      ],
+      "pass_": true
+    },
+    {
+      "kind": "flash_gate",
+      "patched": true,
+      "state_fixture": 4,
+      "query_fixture": 0,
+      "command_flag14_fixture": 0,
+      "command_flag18_fixture": 0,
+      "query_result_fixture": 5,
+      "observed": [
+        "deny_log"
+      ],
+      "pass_": true
+    }
+  ],
+  "aee_cpu_case_count": 80,
+  "facts": [
+    "BL2 payload/certificates and DTB/DTBO are exact H3 originals",
+    "Main and AEE original signed DER retained; their actual signed payload digests differ",
+    "One 90-byte prefix block per modified component, versus duplicated 180-byte block in our ENG v2 main",
+    "AEE patches dispatch gates and locked-flashing denial, not AEE Root-of-Trust or lock getter"
+  ],
+  "mocks": [
+    "Parser PAC and logging only; no OID/ASN.1/hash-selection mocks",
+    "AEE command handler and query-result fixtures; bounded slices, not complete command execution"
+  ],
+  "limits": [
+    "No TEE, kernel, device flash or hardware attestation execution",
+    "Retained certificate signature valid under embedded key does not prove complete hardware trust acceptance",
+    "AEE dispatch probes deliberately test the patched gate slices; later command handler/storage checks remain",
+    "AEE flash gate keeps the original deny branch on query error; patch does not force every flash to succeed"
+  ]
+}
