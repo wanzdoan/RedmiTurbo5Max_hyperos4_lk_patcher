@@ -1,6 +1,6 @@
 # Integrity khác nhau giữa ROM H3 và H4 khi giữ cùng LK
 
-Ngày 2026-11-06, người dùng xác nhận **cùng file Policy H4 v3 MTE_OFF**, SHA256 `6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52`, cài ROM H3 thì đủ ba mức Integrity; cài ROM H4 thì không có mức nào. Trên H4 banking vẫn hoạt động đầy đủ theo báo cáo. H4 là China OS4.0.3.0.XPLCNXM đúng thư mục ROM đã dùng nghiên cứu, không root; kiểm trong Play Store. Chưa có bản chụp/nguyên văn verdict, phiên bản Google services hoặc thông tin thiết bị đọc qua ADB. Chưa chốt màn hình được dùng là Play Integrity trong tùy chọn nhà phát triển hay chứng nhận Play Protect.
+Ngày 2026-11-06, người dùng xác nhận **cùng file Policy H4 v3 MTE_OFF**, SHA256 `6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52`, cài ROM H3 thì đủ ba mức Integrity; cài ROM H4 thì không có mức nào. Trên H4 banking vẫn hoạt động đầy đủ theo báo cáo. H4 là China OS4.0.3.0.XPLCNXM đúng thư mục ROM đã dùng nghiên cứu, không root; kiểm bằng app Play Integrity API Checker. Chưa có bản chụp/nguyên văn verdict, phiên bản Google services hoặc thông tin thiết bị đọc qua ADB. Người dùng đã đính chính: không nhớ chắc lần kiểm trong Play Store, nhưng app Play Integrity API Checker hiển thị MEETS_BASIC_INTEGRITY, MEETS_DEVICE_INTEGRITY và MEETS_STRONG_INTEGRITY đều fail. Chưa có phản hồi API thô để phân biệt verdict rỗng với lỗi yêu cầu.
 
 **Đối chứng chính là cùng LK trên hai ROM**, không phải H3 LK so với H4 LK. Điều này giảm khả năng lỗi do patch LK cố định, nhưng không loại trừ tương tác của LK với metadata/secure firmware từng ROM. Chưa có kết quả chứng minh sửa Integrity; giữ nguyên ảnh đã boot và chưa tạo firmware mới.
 
@@ -20,7 +20,7 @@ Theo [Google Integrity verdicts](https://developer.android.com/google/play/integ
 
 | Bằng chứng cần đọc | Câu hỏi được giải quyết | Hướng xử lý khi xác định lỗi |
 |---|---|---|
-| Nguyên văn verdict/lỗi trong Play Store; màn hình sử dụng | Kết quả Integrity rỗng, lỗi API hay chứng nhận Play Protect? | Theo đúng lỗi và lớp kiểm tra, không đổi LK khi chưa biết |
+| Nguyên văn verdict/lỗi từ Play Integrity API Checker | Ba nhãn fail tương ứng verdict rỗng hay lỗi yêu cầu API? | Theo đúng lỗi và lớp kiểm tra, không đổi LK khi chưa biết |
 | Build fingerprint, SDK, bản vá, phiên bản Play Store/GMS | Khác biệt môi trường H4 có nhất quán không? | Sửa thành phần/cấu hình bị lỗi nếu được chứng minh |
 | Chứng thư attestation thật hoặc lỗi KeyMint/cấp chứng thư từ xa | Có chuỗi Google hợp lệ và dịch vụ tạo chứng thực hoạt động không? | Phân biệt provisioning, dịch vụ ROM và dữ liệu boot |
 | Giá trị chứng thư đối chiếu bootconfig và hash ROM | LK có truyền sai giá trị vào phần bảo mật không? | Chỉ patch LK khi tái hiện được phép truyền sai |

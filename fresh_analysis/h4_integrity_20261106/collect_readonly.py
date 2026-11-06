@@ -1,7 +1,7 @@
 """Allowlisted ADB diagnostics. No su, installation, property write or reboot.
 
 Writes a local report outside the repo. It does not request an Integrity token
-or create attestation keys. Capture the Play Store result separately on screen.
+or create attestation keys. Capture the checker result separately on screen.
 """
 import argparse
 import json
@@ -55,7 +55,7 @@ def main():
     report = dict(scope='Read-only ADB allowlist; Android props can differ from signed hardware attestation',
                   properties=props, package_metadata=packages, security_services=services,
                   services_command_ok=rc == 0,
-                  missing=['Exact Play Store Integrity verdict/error', 'Real attestation chain and KeyMint/RKP error evidence'],
+                  missing=['Exact Play Integrity API Checker verdict/error', 'Real attestation chain and KeyMint/RKP error evidence'],
                   mutations_performed=False)
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')

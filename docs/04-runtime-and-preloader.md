@@ -47,4 +47,4 @@ Ngữ cảnh trước đó là China OS4.0.3.0.XPLCNXM sạch, không root và p
 
 ### Báo cáo bổ sung: banking và Integrity với cùng LK
 
-Người dùng xác nhận banking H4 hoạt động đầy đủ. Giữ nguyên LK v3 MTE_OFF `6282d02b…`, cài ROM H3 được đủ ba mức Integrity; cài ROM H4 China OS4.0.3.0.XPLCNXM không root thì không có mức nào khi kiểm trong Play Store. Đây là báo cáo cùng LK/hai ROM, không phải so hai LK. Chưa nhận nguyên văn verdict/lỗi, phiên bản Google services hoặc đọc lại máy. [Điều tra riêng](../fresh_analysis/h4_integrity_20261106/README_VI.md) không sửa firmware hoặc thao tác thiết bị.
+Người dùng xác nhận banking H4 hoạt động đầy đủ. Giữ nguyên LK v3 MTE_OFF `6282d02b…`, cài ROM H3 được đủ ba mức Integrity; cài ROM H4 China OS4.0.3.0.XPLCNXM không root thì không có mức nào khi kiểm bằng app Play Integrity API Checker. Đây là báo cáo cùng LK/hai ROM, không phải so hai LK. Chưa nhận nguyên văn verdict/lỗi, phiên bản Google services hoặc đọc lại máy. [Điều tra riêng](../fresh_analysis/h4_integrity_20261106/README_VI.md) không sửa firmware hoặc thao tác thiết bị.
