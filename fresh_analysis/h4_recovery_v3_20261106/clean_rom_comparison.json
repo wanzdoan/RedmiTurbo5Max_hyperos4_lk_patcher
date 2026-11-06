@@ -38,6 +38,11 @@
       "sha256": "4e3c1bb4b9106d386e71c85577a11194fe6a5c04e86f67eb97a4a8aba8cffcf2"
     },
     {
+      "file": "countrycode.img",
+      "bytes": 1048576,
+      "sha256": "065d16b492631a65cd2e90dfcc6608edb168d8177b3eef1161b35142bf26ece6"
+    },
+    {
       "file": "dtbo.img",
       "bytes": 8388608,
       "sha256": "b0b093d7411ab7685165c3e0adf29379e56f2ee1f98e71c535ef1c461438d5e5"
@@ -52,12 +57,12 @@
         "pc": "0x3200000",
         "result": 0,
         "error": null,
-        "seconds": 2.553,
+        "seconds": 2.539,
         "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
         "state_fixture": 4,
         "flags": 0,
         "error_mode": 0,
-        "allocated_bytes": 84569600,
+        "allocated_bytes": 84409792,
         "events": [
           {
             "op": "read",
@@ -117,9 +122,9 @@
           },
           {
             "op": "read",
-            "name": "dtbo_a",
+            "name": "countrycode_a",
             "offset": 0,
-            "bytes": 159840
+            "bytes": 32
           },
           {
             "op": "read",
@@ -146,6 +151,12 @@
           "Custom get lock state...\n",
           "custom_get_lock_state return = %d, lock_state = %d\n"
         ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
+        ],
         "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
         "loaded_partitions": [
           {
@@ -153,8 +164,8 @@
             "bytes": 17338368
           },
           {
-            "name": "dtbo",
-            "bytes": 159840
+            "name": "countrycode",
+            "bytes": 32
           },
           {
             "name": "init_boot",
@@ -212,11 +223,11 @@
               "magic": "414e44524f494421"
             },
             "vendor_boot": {
-              "pointer": "0x538fd40",
+              "pointer": "0x5368d00",
               "magic": "564e4452424f4f54"
             },
             "init_boot": {
-              "pointer": "0x50e4d00",
+              "pointer": "0x50bdcc0",
               "magic": "414e44524f494421"
             }
           }
@@ -287,12 +298,12 @@
         "pc": "0x3200000",
         "result": 0,
         "error": null,
-        "seconds": 2.352,
+        "seconds": 2.41,
         "image_sha256": "fe60552c60d3495ad479e34e2610ab37acca064c367f8fce750989f13f4e12a0",
         "state_fixture": 4,
         "flags": 0,
         "error_mode": 0,
-        "allocated_bytes": 84569600,
+        "allocated_bytes": 84409792,
         "events": [
           {
             "op": "read",
@@ -352,9 +363,9 @@
           },
           {
             "op": "read",
-            "name": "dtbo_a",
+            "name": "countrycode_a",
             "offset": 0,
-            "bytes": 159840
+            "bytes": 32
           },
           {
             "op": "read",
@@ -381,6 +392,12 @@
           "Custom get lock state...\n",
           "custom_get_lock_state return = %d, lock_state = %d\n"
         ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
+        ],
         "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
         "loaded_partitions": [
           {
@@ -388,8 +405,8 @@
             "bytes": 17338368
           },
           {
-            "name": "dtbo",
-            "bytes": 159840
+            "name": "countrycode",
+            "bytes": 32
           },
           {
             "name": "init_boot",
@@ -453,11 +470,11 @@
               "magic": "414e44524f494421"
             },
             "vendor_boot": {
-              "pointer": "0x538fd40",
+              "pointer": "0x5368d00",
               "magic": "564e4452424f4f54"
             },
             "init_boot": {
-              "pointer": "0x50e4d00",
+              "pointer": "0x50bdcc0",
               "magic": "414e44524f494421"
             }
           }
@@ -531,12 +548,12 @@
         "pc": "0x3200000",
         "result": 3,
         "error": null,
-        "seconds": 2.277,
+        "seconds": 2.043,
         "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
         "state_fixture": 4,
         "flags": 0,
         "error_mode": 0,
-        "allocated_bytes": 20512064,
+        "allocated_bytes": 20352256,
         "events": [
           {
             "op": "read",
@@ -596,9 +613,9 @@
           },
           {
             "op": "read",
-            "name": "dtbo_a",
+            "name": "countrycode_a",
             "offset": 0,
-            "bytes": 159840
+            "bytes": 32
           },
           {
             "op": "read",
@@ -615,6 +632,108 @@
           "452",
           ": ERROR: ",
           ": Hash of data does not match digest in descriptor.\n"
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
+        ]
+      }
+    },
+    {
+      "fault": "countrycode_hash",
+      "rollback_fixture": 0,
+      "expected_result": 3,
+      "result": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 3,
+        "error": null,
+        "seconds": 2.036,
+        "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 17554624,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 17338368
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "countrycode_a",
+            "offset": 0,
+            "bytes": 32
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "avb_slot_verify.c",
+          ":",
+          "452",
+          ": ERROR: ",
+          ": Hash of data does not match digest in descriptor.\n"
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
         ]
       }
     },
@@ -627,7 +746,7 @@
         "pc": "0x3200000",
         "result": 3,
         "error": null,
-        "seconds": 0.544,
+        "seconds": 0.48,
         "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
         "state_fixture": 4,
         "flags": 0,
@@ -652,6 +771,12 @@
           "779",
           ": ERROR: ",
           ": Error verifying vbmeta image: "
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
         ]
       }
     },
@@ -664,12 +789,12 @@
         "pc": "0x3200000",
         "result": 2,
         "error": null,
-        "seconds": 2.306,
+        "seconds": 2.055,
         "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
         "state_fixture": 4,
         "flags": 0,
         "error_mode": 0,
-        "allocated_bytes": 20512000,
+        "allocated_bytes": 20352192,
         "events": [
           {
             "op": "read",
@@ -729,9 +854,9 @@
           },
           {
             "op": "read",
-            "name": "dtbo_a",
+            "name": "countrycode_a",
             "offset": 0,
-            "bytes": 159840
+            "bytes": 32
           },
           {
             "op": "read",
@@ -748,6 +873,12 @@
           "137",
           ": ERROR: ",
           ": Error loading data from partition.\n"
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
         ]
       }
     },
@@ -760,7 +891,7 @@
         "pc": "0x3200000",
         "result": 4,
         "error": null,
-        "seconds": 0.559,
+        "seconds": 0.527,
         "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
         "state_fixture": 4,
         "flags": 0,
@@ -787,6 +918,12 @@
           "914",
           ": ERROR: ",
           ": Image rollback index is less than the stored rollback index.\n"
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
         ]
       }
     }
@@ -796,7 +933,7 @@
     "Native RSA/descriptor parsing/hash comparison/filter run; SHA engine and bulk IO/copy are host backends",
     "Both loaders select identical boot/vendor_boot/init_boot buffers and produce identical AVB command lines",
     "Five root handoff packets match under certified-key and boot-state fixtures",
-    "Signature corruption, init_boot corruption, IO error and rollback64 produce correct failure results",
+    "Signature corruption, init_boot/countrycode corruption, IO error and rollback64 produce correct failure results",
     "No tested clean-ROM divergence found up to the image-buffer handoff boundary"
   ],
   "limits": [

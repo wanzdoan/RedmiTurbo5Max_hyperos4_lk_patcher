@@ -3,12 +3,12 @@
   "pc": "0x3200000",
   "result": 0,
   "error": null,
-  "seconds": 2.556,
+  "seconds": 2.539,
   "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
   "state_fixture": 4,
   "flags": 0,
   "error_mode": 0,
-  "allocated_bytes": 84569600,
+  "allocated_bytes": 84409792,
   "events": [
     {
       "op": "read",
@@ -68,9 +68,9 @@
     },
     {
       "op": "read",
-      "name": "dtbo_a",
+      "name": "countrycode_a",
       "offset": 0,
-      "bytes": 159840
+      "bytes": 32
     },
     {
       "op": "read",
@@ -97,6 +97,12 @@
     "Custom get lock state...\n",
     "custom_get_lock_state return = %d, lock_state = %d\n"
   ],
+  "requested_partitions_from_firmware": [
+    "boot",
+    "vendor_boot",
+    "init_boot",
+    "countrycode"
+  ],
   "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
   "loaded_partitions": [
     {
@@ -104,8 +110,8 @@
       "bytes": 17338368
     },
     {
-      "name": "dtbo",
-      "bytes": 159840
+      "name": "countrycode",
+      "bytes": 32
     },
     {
       "name": "init_boot",
@@ -163,11 +169,11 @@
         "magic": "414e44524f494421"
       },
       "vendor_boot": {
-        "pointer": "0x538fd40",
+        "pointer": "0x5368d00",
         "magic": "564e4452424f4f54"
       },
       "init_boot": {
-        "pointer": "0x50e4d00",
+        "pointer": "0x50bdcc0",
         "magic": "414e44524f494421"
       }
     }

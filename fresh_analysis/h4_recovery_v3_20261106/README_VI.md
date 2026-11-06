@@ -9,7 +9,7 @@ User xác nhận ROM `OS4.0.3.0.XPLCNXM` tại đường dẫn host đã cung c�
 [slot_replay.py](slot_replay.py) chạy toàn hàm `avb_slot_verify` native của main H4 v2 và ENG H3 với chính các ảnh boot/vbmeta của ROM China:
 
 - H4 entry`0xbe740`, ENG`0xbe700`, giữ function pointer AVB operations gốc, callback tin khóa và RSA/descriptor parsing/comparison native.
-- Host chỉ cung cấp đọc partition, SHA engine, heap, memcpy/memset. Các ảnh boot/vendor_boot/init_boot/dtbo và bốn vbmeta thực sự được đưa qua mã kiểm signature/hash. Không mock chữ ký hoặc trả kết quả verify cố định.
+- Host chỉ cung cấp đọc partition, SHA engine, heap, memcpy/memset. Danh sách được lấy từ pointer table firmware: boot/vendor_boot/init_boot/countrycode; bốn vbmeta thực sự được đưa qua mã kiểm signature/hash. DTBO không nằm trong danh sách caller này, không khẳng định payload DTBO được kiểm trong lượt này. Không mock chữ ký hoặc trả kết quả verify cố định.
 - Kích thước partition lấy từ scatter ROM. Đuôi chưa có bytes trong file được zero-fill như một fixture, không khẳng định đuôi phân vùng máy thật là0.
 - Trạng thái getter4, regionCN, rollback0, GUID tham chiếu, persistence không có giá trị là fixtures. PAC được thay bằng NOP trong RAM emulator; file firmware không đổi.
 - Tiếp tục chạy loader native H4`0x68d1c`/ENG`0x69824` đến điểm chọn ba buffer boot/vendor_boot/init_boot. Dừng trước copy/handoff global, không chạy kernel.
@@ -29,7 +29,7 @@ User xác nhận ROM `OS4.0.3.0.XPLCNXM` tại đường dẫn host đã cung c�
 
 Metadata chung: OS version170000, system patch202610, vendor/boot patch20261001. Không thấy khác biệt ở các trường này đủ giải thích recovery trong các đầu vào đã kiểm.
 
-Bốn đối chứng âm tính H4: sửa byte init_boot→mismatch3; sửa signature vbmeta→verification3; lỗi đọc init_boot→IO2; rollback fixture64→rollback4. Các kết quả lỗi được giữ nguyên, không gọi chúng là verify thành công. Chỉ tổng kiểm harness PASS khi mọi ca cho đúng kết quả mong đợi.
+Năm đối chứng âm tính H4: sửa byte init_boot/countrycode→mismatch3; sửa signature vbmeta→verification3; lỗi đọc init_boot→IO2; rollback fixture64→rollback4. Các kết quả lỗi được giữ nguyên, không gọi chúng là verify thành công. Chỉ tổng kiểm harness PASS khi mọi ca cho đúng kết quả mong đợi.
 
 `h4_slot_probe.json`/`eng_slot_probe.json` giữ lượt probe chẩn đoán riêng; báo cáo tổng có assertions là `clean_rom_comparison.json`. Các lần thử harness ban đầu thiếu padding hoặc backend phần cứng không được coi là lỗi LK trên máy.
 

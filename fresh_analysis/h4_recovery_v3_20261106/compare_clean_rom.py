@@ -22,13 +22,13 @@ def main():
     assert a['result']['loader']['selected_images']==b['result']['loader']['selected_images']
     assert a['result']['root_handoff']['packets']==b['result']['root_handoff']['packets']
     controls=[]
-    for fault,rollback,wanted in [('init_boot_hash',0,3),('vbmeta_signature',0,3),('init_boot_io',0,2),(None,64,4)]:
+    for fault,rollback,wanted in [('init_boot_hash',0,3),('countrycode_hash',0,3),('vbmeta_signature',0,3),('init_boot_io',0,2),(None,64,4)]:
         replay=Replay(H4.read_bytes(),'h4',fault=fault,rollback_value=rollback)
         result=replay.run()
         assert result['returned'] and result['error'] is None and result['result']==wanted,(fault,result)
         controls.append(dict(fault=fault,rollback_fixture=rollback,expected_result=wanted,result=result))
     inventory=[]
-    for name in ['MT6991_Android_scatter.txt','vbmeta.img','vbmeta_system.img','vbmeta_vendor.img','boot.img','init_boot.img','vendor_boot.img','dtbo.img']:
+    for name in ['MT6991_Android_scatter.txt','vbmeta.img','vbmeta_system.img','vbmeta_vendor.img','boot.img','init_boot.img','vendor_boot.img','countrycode.img','dtbo.img']:
         path=ROM/name;data=path.read_bytes();inventory.append(dict(file=name,bytes=len(data),sha256=sha(data)))
     report=dict(status='PASS_NATIVE_AVB_DIFFERENTIAL_NOT_PHYSICAL_BOOT',rom=str(ROM.parent),inputs=inventory,
         clean_cases=cases,negative_controls=controls,
@@ -36,7 +36,7 @@ def main():
             'Native RSA/descriptor parsing/hash comparison/filter run; SHA engine and bulk IO/copy are host backends',
             'Both loaders select identical boot/vendor_boot/init_boot buffers and produce identical AVB command lines',
             'Five root handoff packets match under certified-key and boot-state fixtures',
-            'Signature corruption, init_boot corruption, IO error and rollback64 produce correct failure results',
+            'Signature corruption, init_boot/countrycode corruption, IO error and rollback64 produce correct failure results',
             'No tested clean-ROM divergence found up to the image-buffer handoff boundary'],
         limits=['Not a full LK boot: mode selection, RAM placement, DTB/bootconfig assembly and kernel not executed',
                 'No live image readback, boot mode, BCB, pstore or recovery log',
@@ -46,6 +46,8 @@ def main():
                 'No filesystem/kernel dm-verity mount/FBE/banking/Integrity validation',
                 'Firmware files unchanged; no device access'])
     (HERE/'clean_rom_comparison.json').write_text(json.dumps(report,indent=2)+'\n')
-    print(report['status'],'2clean native slot/loader/handoff comparisons;4fault controls')
+    for item in cases:
+        (HERE/(item['kind']+'_slot_probe.json')).write_text(json.dumps(item['result'],indent=2)+'\n')
+    print(report['status'],'2clean native slot/loader/handoff comparisons;5fault controls')
 
 if __name__=='__main__':main()

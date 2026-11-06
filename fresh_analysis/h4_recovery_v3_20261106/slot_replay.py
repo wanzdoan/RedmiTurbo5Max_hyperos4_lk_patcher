@@ -27,13 +27,15 @@ PROFILES={
            getter=0x89aec,log=0x7e11c,liblog=0xc0ee8,alloc=0xc0f94,
            sha256=(0xc6bd8,0xc6c10,0xc6c54),memcpy=0x7eb20,memset=0x7ee50,hw=0x4a780,
            loader=0x68d1c,append=0x19078,suffix=0x1f790,malloc=0x7d514,config=0x21d30,config_ok=0x21e60,sbc=0x4a384,
-           copy_sink=0x10a40,free=0x7d664,sender=0xc4ce4,key_extract=0x88914,crypto_mode=0x1c6e8,smc=0x1ebf4),
+           copy_sink=0x10a40,free=0x7d664,sender=0xc4ce4,key_extract=0x88914,crypto_mode=0x1c6e8,smc=0x1ebf4,
+           requested_base=0x121958,extra_requested=0x121998),
  'eng':dict(slot=0xbe700,ops=0x1306b0,read=0xc5708,size=0xc50a8,guid=0xc5a54,
            rollback=0xc5960,write_rollback=0xc59e0,persist_read=0xc5100,persist_write=0xc53b4,
            getter=0x896e4,log=0x7ea84,liblog=0xc0ea8,alloc=0xc0f54,
            sha256=(0xc6a38,0xc6a70,0xc6ab4),memcpy=0x7f488,memset=0x7f7b8,hw=0x4b510,
            loader=0x69824,append=0x18ab8,suffix=0x1f2b0,malloc=0x7de7c,config=0x21c80,config_ok=0x21db0,sbc=0x4b114,
-           copy_sink=0x10588,free=0x7dfcc,sender=0xc4de0,key_extract=0x88578,crypto_mode=0x1c0e0,smc=0x1e714)}
+           copy_sink=0x10588,free=0x7dfcc,sender=0xc4de0,key_extract=0x88578,crypto_mode=0x1c0e0,smc=0x1e714,
+           requested_base=0x119910,extra_requested=0x119950)}
 
 
 class Replay:
@@ -50,7 +52,13 @@ class Replay:
         self.fault=fault;self.rollback_value=rollback_value
         row=members(image)[2];raw=image[row['offset']+512:row['offset']+512+row['size']]
         der=raw[-982:];self.oem_modulus=load_der_public_key(der[181:475]).public_numbers().n.to_bytes(256,'big')
-        for i,name in enumerate(('boot','vendor_boot','dtbo','init_boot')):
+        first=int.from_bytes(u.mem_read(B+c['requested_base'],8),'little')
+        self.requested_names=[self.cstr(first)]
+        for i in range(3):
+            ptr=int.from_bytes(u.mem_read(B+c['extra_requested']+8*i,8),'little')
+            name=self.cstr(ptr)
+            if (ROM/(name+'.img')).exists():self.requested_names.append(name)
+        for i,name in enumerate(self.requested_names):
             ptr=DATA+0x100+i*0x40;u.mem_write(ptr,name.encode()+b'\0');u.mem_write(DATA+i*8,struct.pack('<Q',ptr))
         u.mem_write(DATA+0x300,b'_a\0')
         self.entries={}
@@ -87,6 +95,8 @@ class Replay:
             elif self.fault=='vbmeta_signature' and plain=='vbmeta':
                 changed=bytearray(self.cache[plain]);sig=256+struct.unpack_from('>Q',changed,48)[0]
                 changed[sig]^=1;self.cache[plain]=bytes(changed)
+            elif self.fault=='countrycode_hash' and plain=='countrycode':
+                changed=bytearray(self.cache[plain]);changed[0]^=1;self.cache[plain]=bytes(changed)
         return self.cache[plain]
 
     def hook(self,u,address,size,_):
@@ -168,6 +178,7 @@ class Replay:
                     result=u.reg_read(UC_ARM64_REG_W0),error=error,seconds=round(time.time()-start,3),
                     image_sha256=sha(self.image),state_fixture=self.state,flags=self.flags,error_mode=self.mode,
                     allocated_bytes=self.heap-HEAP,events=self.events,logs=self.logs[-100:])
+        result['requested_partitions_from_firmware']=self.requested_names
         ptr=int.from_bytes(u.mem_read(DATA+0x400,8),'little')
         if result['returned'] and ptr:
             self.slotptr=ptr
