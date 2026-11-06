@@ -37,3 +37,5 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 [H4 hybrid đã boot f57 — biến thể riêng chỉ thêm MTE-off](../experiments/lk_h4_booted_hybrid_mte_off_v1/README_VI.md): source được xác nhận, output7873361e... chưa boot; không thêm HWC/chốt vùng/Fenrir/v2.
 
 [ENG stock-policy China-only, hai bản MTE](../experiments/lk_eng_stock_policy_cn_only_v1/README_VI.md): từ ENG gốc6f386, giữ HWC/kiểm China gốc, thêm China4096 cạnh ENG2048, không Global; chưa boot test.
+
+[H4 stock-policy theo nhánh stock_policy_auto_hwc trong ZIP H3](../experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md): hai biến thể normal/MTE_OFF, định danh đúng bản tham chiếu, chức năng đã port và giới hạn preloader H4. Chưa flash/boot/lock máy.

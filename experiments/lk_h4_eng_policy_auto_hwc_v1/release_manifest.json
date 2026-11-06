@@ -1,0 +1,19 @@
+{
+  "status": "OFFLINE_VALIDATED_NOT_DEVICE_BOOTED",
+  "files": [
+    {
+      "variant": "default",
+      "artifact": "lk_H4_STOCK_POLICY_AUTO_HWC_H3ENG_BL2_TEST.img",
+      "bytes": 4100080,
+      "sha256": "da05dc16e6a2e1d48a7f824a9382cf9a4dc4ce3ad1fe58387ca34519a65cbf3c"
+    },
+    {
+      "variant": "mte_off",
+      "artifact": "lk_H4_STOCK_POLICY_AUTO_HWC_H3ENG_BL2_MTE_OFF_TEST.img",
+      "bytes": 4100080,
+      "sha256": "4206c420124ec5d2e95a7e6fe22fe81b05c405abd7940a74c7e6501d8b7dc893"
+    }
+  ],
+  "new_images_device_flashed": false,
+  "stock_h4_preloader_compatibility_proven": false
+}

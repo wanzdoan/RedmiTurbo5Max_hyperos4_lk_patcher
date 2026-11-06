@@ -48,3 +48,5 @@ Cập nhật lỗi POCO H3: user báo bản8d616abb... chỉ về preloader. B�
 Theo yêu cầu quay lại đúng H4 đã boot: [biến thể H4 hybrid f57 chỉ thêm MTE-off](experiments/lk_h4_booted_hybrid_mte_off_v1/README_VI.md), SHA7873361e.... Chỉ một instruction H4 và main hash prefix thay đổi; nguồn đã boot giữ nguyên, bản mới chưa boot test.
 
 Theo yêu cầu06-11: [ENG gốc stock-policy China, MTE gốc/off](experiments/lk_eng_stock_policy_cn_only_v1/README_VI.md). Giữ HWC/flash-region China gốc, chỉ thêm trust khóa China cạnh ENG; không thêm khóa Global, không ép unlock/fakelock. Hai file mới chưa boot test.
+
+Theo đúng nhánh H3 được người dùng xác nhận trong ZIP sáu file: [H4 stock-policy + auto HWC, normal/MTE_OFF](experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md). Main/AEE/DTB H4 và bộ nạp có chữ ký ENG H3; port khóa/vùng và một số gate main, không giả locked/green. Đã kiểm offline; chưa boot/lock hoặc chứng minh dùng preloader H4, không phải bản ENG H4 đầy đủ.

@@ -121,3 +121,10 @@
 - Checkpoint449f57a/tag `before-eng-stock-policy-china-only-20261106` trước sửa; giữ user rename H4 MTE-off nguyên byte, sửa link docs theo tên rút gọn.
 - [Hai ảnh riêng](../experiments/lk_eng_stock_policy_cn_only_v1/README_VI.md) từ ENG gốc6f386: defaultSHAcfd5c474... vàMTEoffSHAacd35520..., mỗiảnh4043792bytes. Chỉ callback trust ENG2048/China4096, digestCN nằm trong callback216byte; không dùng block từ chối vùng làmdata. HWC/flash-check/lock/AVBpolicy gốc nguyênbyte. MTEoff thêmbranch34d20, prefixmain180 cập nhật.
 - Mỗiảnh348native+10DER đạt, Globalkeytrusted0, HWCgốcCNkểcảcountryGlobal. Khôngflash/chưaboottest, khôngroot/relock/OTAclaim.
+
+## 2026-11-06 — H4 stock-policy auto HWC: port chức năng, chưa boot
+
+- Người dùng làm rõ nhánh H3 tốt nhất là `stock_policy_auto_hwc` trong ZIP sáu file, có báo cáo dùng ROM/khóa/banking tốt; chưa đọc lại hash biến thể đang chạy.
+- Dựng hai ảnh riêng H4 main/AEE/DTB + signed BL2 ENG H3, nhận khóa ENG/CN/GL, mở chốt vùng đã xác định, auto HWC và normal/MTE_OFF. Giữ getter/setter, AVB flags/root handoff H4; không force khóa/green.
+- Đã kiểm offline390 trường hợp main có đối chứng/fixture +3parser +10DER mỗi ảnh. Main fastboot query-error và AEE release gates vẫn được phân biệt trong docs; không gọi là chuyển đầy đủ sang ENG chính thức.
+- Chưa flash, lock hoặc chứng minh boot với stock preloader H4; không suy từ bản H4 f57 dùng BL2 H3 release. Xem [artifact và evidence](../experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md).

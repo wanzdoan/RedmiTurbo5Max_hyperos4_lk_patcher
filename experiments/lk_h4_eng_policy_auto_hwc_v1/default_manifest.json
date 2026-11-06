@@ -1,0 +1,112 @@
+{
+  "status": "EXPERIMENTAL_FUNCTIONAL_PORT_NOT_DEVICE_BOOTED",
+  "variant": "default",
+  "artifact": "lk_H4_STOCK_POLICY_AUTO_HWC_H3ENG_BL2_TEST.img",
+  "input_h4_sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+  "input_eng_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "output_sha256": "da05dc16e6a2e1d48a7f824a9382cf9a4dc4ce3ad1fe58387ca34519a65cbf3c",
+  "bytes": 4100080,
+  "patches": [
+    {
+      "payload_offset": "0x6904c",
+      "original": "40110035",
+      "replacement": "04000014",
+      "purpose": "CN software-SKU rejection"
+    },
+    {
+      "payload_offset": "0x888d0",
+      "original": "e00200d0000c369111d6ff97a87340391f010071f4139f5adbffff17",
+      "replacement": "a82cfe171f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5",
+      "purpose": "Image-key mismatch tries both embedded CN/GL keys independent of hardware region"
+    },
+    {
+      "payload_offset": "0x87368",
+      "original": "40010034",
+      "replacement": "0a000014",
+      "purpose": "Secure-ID region mismatch only; signature/bindings retained"
+    },
+    {
+      "payload_offset": "0x68308",
+      "original": "28020034",
+      "replacement": "01000014",
+      "purpose": "oem flash_check CN/non-CN gate; RPMB gate retained"
+    },
+    {
+      "payload_offset": "0xc5978",
+      "original": "3f2303d5fd7bbca9f85f01a9f65702a9f44f03a9fd03009140008052610b00b4f40305aa250b00b4f30301aa608640b8b2edff9708701d129f0200391f05407121060054600380527112fe97f603002a600000d000983891d870fd97f80300aa1f2003d5e0633910e10313aa0240805240e4fe97f503002a80000035c00000d000f80891c8e1fe971f2003d5a0723910e10313aa0240805236e4fe97f703002a80000035a00000d000ec3791bee1fe970e71fd97e0000034d80000b4c10000d021740d91e00318aa9be5fe9760020034c80a1f121f39007161020054480a0090ff020071e9179f1abf020071ea179f1a081167391f01007128118a1a880100361f000014600100b000081391a6e1fe97e0031f2a1d0000140001009000a80f91a1e1fe97d5020034b7020034600100b0006c13919ce1fe97f6031faad40100b094461991950100f0b5aa0d9103000014df0208f1e0fdff54616a7638e00314aa91e1fe97d6060091df0e40f221ffff54e00315aa8ce1fe97f6ffff1728008052e0031f2a88020039f44f43a9f65742a9f85f41a9fd7bc4a8bf2303d5c0035fd6",
+      "replacement": "3f2303d5fd7bbca9f44f01a9f30305aa40008052d30400b4a10400b4f40301aa7f0200395f2000f123040054280040b90809c05a1f012071e00000541f054071c10200545f2010f1a103005401408052040000145f2008f1210300540120805280220091e28300918c7bff9760010035b4020010e0830091e10314aa020480523ce4fe97e000003494820091c80400109f0208eb01ffff540000805204000014280080526802003900008052f44f41a9fd7bc4a8bf2303d5c0035fd640008052fbffff1707ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b5568a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e798f1f2bdeed4ab83d5df6a879170d32ef97cf332894d5f00c668634f38c49cb00000000e3530391e803403948010034e80340b9085d001208011b320801133269cc8d521f01096b43e10650490200106300899ae043049101198052c28b1b50e4c30291e503039106e7fe97a000f837e0430491624dfd97e04304919e39fd1740d20850e1580e104220805285e1fe97faffff17474c4f42414c0000",
+      "purpose": "ENG/CN/GL key callback plus isolated late HWC code"
+    },
+    {
+      "payload_offset": "0x13b68",
+      "original": "e0430491e1031f2a",
+      "replacement": "f303039116000014",
+      "purpose": "Keep early hardware copy and version pointer; defer HWC emission until countrycode read"
+    },
+    {
+      "payload_offset": "0x13b70",
+      "original": "02198052b7ac01946392009173420091420700b042483191e0430491e4c3029101198052e50313aad9ae01948000f837e043049135150094070000142006009000181591610600f0217018914220805257a90194",
+      "replacement": "e003049101337f7002208052dbab019400010034e0030491613a7f7002208052d6ab01941f000071f4039f5a2ed30114140080522cd301141f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5",
+      "purpose": "Reuse unreachable old HWC emission block for CN/GL image-key fallback"
+    },
+    {
+      "payload_offset": "0x1410c",
+      "original": "600700d00008009113000014",
+      "replacement": "ff7f00a980f7765013000014",
+      "purpose": "Clear partial countrycode on failed/short read"
+    },
+    {
+      "payload_offset": "0x1416c",
+      "original": "e0430491",
+      "replacement": "4dc60214",
+      "purpose": "Emit one HWC then resume original H4 flow"
+    },
+    {
+      "payload_offset": "0xa09c",
+      "original": "c8010034",
+      "replacement": "1f2003d5",
+      "purpose": "Debug-like main command secure flag gate"
+    },
+    {
+      "payload_offset": "0xa0b0",
+      "original": "21010054",
+      "replacement": "1f2003d5",
+      "purpose": "Debug-like main command locked flag gate"
+    },
+    {
+      "payload_offset": "0xce68",
+      "original": "21010054",
+      "replacement": "09000014",
+      "purpose": "Allow flash entry while locked; query errors retained"
+    },
+    {
+      "payload_offset": "0xd250",
+      "original": "81000054",
+      "replacement": "04000014",
+      "purpose": "Allow erase entry while locked; query errors retained"
+    }
+  ],
+  "origins": {
+    "main": "H4 release with declared patches",
+    "BL2": "Original signed H3 ENG triple",
+    "AEE_DTB_DTBO": "H4 unchanged"
+  },
+  "reference": "ZIP stock_policy_auto_hwc; user reports working, exact live variant/hash not read back",
+  "reference_hashes": [
+    "fe60552c60d3495ad479e34e2610ab37acca064c367f8fce750989f13f4e12a0",
+    "b2535248b59fd65c8bb855d6bfa49b86ffbef31bcc7b647df0e8ca34a73df606"
+  ],
+  "stored_lock_getter_setter_avb_flags_root_handoff_unchanged": true,
+  "force_unlock_or_fakelock": false,
+  "hardware_cache_unchanged": true,
+  "mte": "Original H4",
+  "limits": [
+    "Functional patch port, not full H4 ENG firmware or original recovered source",
+    "H4 main/AEE release paths still exist; only listed main fastboot gates opened, query errors retained",
+    "Top-level trust only known ENG/CN/GL keys; unknown keys/model/layout/rollback can fail",
+    "Modified init_boot can still fail locked verification; no fake green or root hash bypass",
+    "No device flash/lock, stock preloader H4 boot, banking, OTA or Integrity verified",
+    "HWC mapping changes outgoing bootarg only, not hardware binding or persistent region",
+    "Signed BL2 triple retained but physical preloader acceptance not established"
+  ]
+}

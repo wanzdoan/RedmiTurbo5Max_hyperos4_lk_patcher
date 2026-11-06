@@ -82,3 +82,7 @@ Quy trình, hashes và giới hạn nằm trong [README biến thể](../experim
 ## Sáu file ENG all-region và biến thể MTE-off (2026-11-05)
 
 Chạy `build_mte_off.py`, `validate_mte_off.py`, `package_six.py` tại `experiments/lk_h3_eng_mte_off_v1`; xem [docs bộ sáu file](../experiments/lk_h3_eng_mte_off_v1/README_VI.md). Kiểm final bytes: unlocked534/fakelockv2647/stock-policy208 ca main, mỗi ảnh10DER+3parser. Bộ probe MTE nền ở `fresh_analysis/mte_research/probe_mte.py` có48 ca LK và168 ca preloader; không cần raw boot-LUN riêng để chạy các test ba file off, nhưng raw đó cần cho replay preloader nền. Gói ZIP chứa đúng6 ảnh, SHA256SUMS và manifest; package script kiểm CRC/hash và tạo ZIP tái lập. Không flash/boot test.
+
+## H4 stock-policy auto HWC dùng bộ nạp ENG H3 (2026-11-06)
+
+Xem [quy trình và giới hạn](../experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md). Chạy `build_port.py`, `validate_port.py`, `validate_behavior.py`, `package_release.py` trong thư mục thử nghiệm đó. Mỗi ảnh có390 trường hợp main có đối chứng/fixture,3parser ENG và10DER; normal và MTE_OFF có report/hash riêng. Không chạy builder H4 force-unlock cũ để tái tạo nhánh này. Đối chiếu getter/setter native không phải thực hiện relock máy; chưa xác nhận preloader H4 hoặc boot thực tế.
