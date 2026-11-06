@@ -90,3 +90,7 @@ Xem [quy trình và giới hạn](../experiments/lk_h4_eng_policy_auto_hwc_v1/RE
 ## H4 recovery-fix v2 (2026-11-06)
 
 [Quy trình](../experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md): `build_fix.py`, `validate_fix.py`, `validate_regression.py`, `package_release.py` tại thư mục v2. Regression dùng API probes v1 với bytes v2, ghi report v2 riêng; không ghi đè artifacts/probes cũ. Gate Secure ID bị bỏ ở một boot call site, verifier gốc kiểm riêng vẫn có kết quả/lỗi như trước. Mocks không phải trạng thái/token/provisioning máy thật.
+
+## V3: đối chứng signed BL2 và unlocked (2026-11-06)
+
+[Quy trình](../experiments/lk_h4_policy_bl2_control_v3/README_VI.md): `build_controls.py`, `validate_controls.py`, `package_release.py`. Hai policy giữ nguyên main v2, do đó main CPU evidence kế thừa qua byte identity; chạy mới parser/DER/preloader và AVB/loader với đúng ảnh cuối. Unlocked control chạy getter force3 thật, tách rõ khỏi policy. Whole AVB replay/negative controls ở `fresh_analysis/h4_recovery_v3_20261106/compare_clean_rom.py`; fixtures không thay thế dữ liệu bảo mật/boot trên máy.

@@ -1,0 +1,29 @@
+{
+  "status": "OFFLINE_COMPARISON_NOT_RUNTIME_FIX",
+  "files": [
+    {
+      "variant": "policy_default",
+      "artifact": "lk_H4_POLICY_V3_BOOTED_RELEASE_BL2_TEST.img",
+      "sha256": "8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664",
+      "bytes": 4083424,
+      "stored_lock_policy": true,
+      "forced_unlocked_control": false
+    },
+    {
+      "variant": "policy_mte_off",
+      "artifact": "lk_H4_POLICY_V3_BOOTED_RELEASE_BL2_MTE_OFF_TEST.img",
+      "sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+      "bytes": 4083424,
+      "stored_lock_policy": true,
+      "forced_unlocked_control": false
+    },
+    {
+      "variant": "unlocked_diagnostic_eng_mte_off",
+      "artifact": "diagnostic/lk_H4_V3_UNLOCKED_ENG_BL2_MTE_OFF_CONTROL.img",
+      "sha256": "52aab5273eb49ab733e461c991ac0bc6ce0d1dde94912c0516e452f2ae7f2779",
+      "bytes": 4100080,
+      "stored_lock_policy": false,
+      "forced_unlocked_control": true
+    }
+  ]
+}

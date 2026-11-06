@@ -1,0 +1,1422 @@
+{
+  "status": "PASS_OFFLINE_DIFFERENTIAL_CONTROLS_NOT_RUNTIME_FIX",
+  "variants": [
+    {
+      "variant": "policy_default",
+      "output_sha256": "8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664",
+      "bytes": 4083424,
+      "deterministic_rebuild": true,
+      "wrong_input_rejected": true,
+      "main_exact_v2": true,
+      "certificates": [
+        {
+          "index": 1,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 2,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 4,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 5,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 7,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 8,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 10,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 11,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 13,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 14,
+          "retained_der_signature_valid": true
+        }
+      ],
+      "native_preloader_cert": {
+        "return_status": 0,
+        "native_entries": {
+          "0xa5c68": 1,
+          "0xa6760": 1,
+          "0xa6100": 1,
+          "0x9c700": 1
+        },
+        "backends": [
+          {
+            "backend": "SHA256",
+            "length": 645,
+            "digest": "da50377c1a78fa51c116681284f8a3318d445870b6189fc7af6182f7b55d4c62"
+          },
+          {
+            "backend": "RSA_public_exponentiation",
+            "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "f4c57550739b6635aa00ce50ec159d323f32cbbd129712cc29ee70f33250580b"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "bf2c4148c3ca80597e71ab40f40e5d958779151482866a1e5d6268ef94e13858"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "78b318a0e6b6570981b69afa6effe6fe9a05faa9fa9dc9eddf3223a024fae818"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "c77906e2132a83140970cf2b80493c3c5123254013e9a46da39e7d7d77bf9902"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "fb92d8d5e3598e450c47d349911b6a39f80db74da36297dffffa4d690612bc29"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "4bc82dba2f760e285e1456644980b09a507290daf674184cf7f10aa429546313"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "c96e8e81ced5ba6bea3933a046c9d8438a2a7b946e03c4e9a8f707d72fdaae7b"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 72,
+            "digest": "94a9f0fba13e817d9b4a98f3b65dfbec7451c52a54f303ddff7e3dfa3bdf7641"
+          },
+          {
+            "backend": "SHA256",
+            "length": 512,
+            "digest": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d"
+          },
+          {
+            "backend": "SHA256",
+            "length": 1079264,
+            "digest": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6"
+          }
+        ],
+        "content_checks": [
+          {
+            "component": "header",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d"
+          },
+          {
+            "component": "payload",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6"
+          }
+        ],
+        "extracted_header_hash": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+        "extracted_payload_hash": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+        "linked_base": "0x2000f00",
+        "crypto_success_unconditionally_mocked": false
+      },
+      "native_locator": {
+        "status": "0x0",
+        "member_offset": "0x13acb0",
+        "header_reads": [
+          {
+            "offset": "0x0",
+            "bytes": 512
+          },
+          {
+            "offset": "0x139d50",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13a620",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13acb0",
+            "bytes": 512
+          }
+        ],
+        "storage": "read-only host fixture; no phone access"
+      },
+      "bl2_main_parsers": [
+        {
+          "version": 3,
+          "carrier": "policy_default",
+          "mask": "0x60",
+          "returned": true,
+          "error": null,
+          "instructions": 3053,
+          "last_offsets": [
+            "0x6d00c",
+            "0x6d690",
+            "0x6d80c",
+            "0x6d940",
+            "0x6d944",
+            "0x6d948",
+            "0x6d488",
+            "0x6d48c",
+            "0x6d490",
+            "0x6d494",
+            "0x6d498",
+            "0x6d49c"
+          ],
+          "status": "0x0",
+          "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+          "payload_hash": "5ef9984a3bebfb74151f75d09a86b98b875b94b4594094e979653752abeb7a2b"
+        },
+        {
+          "version": 3,
+          "carrier": "policy_default",
+          "mask": "0x1f4e2",
+          "returned": true,
+          "error": null,
+          "instructions": 31954,
+          "last_offsets": [
+            "0x6bbf0",
+            "0x6d978",
+            "0x6da94",
+            "0x6da98",
+            "0x6da9c",
+            "0x6daa0",
+            "0x6d488",
+            "0x6d48c",
+            "0x6d490",
+            "0x6d494",
+            "0x6d498",
+            "0x6d49c"
+          ],
+          "status": "0x0",
+          "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+          "payload_hash": "5ef9984a3bebfb74151f75d09a86b98b875b94b4594094e979653752abeb7a2b"
+        },
+        {
+          "version": 3,
+          "carrier": "policy_default",
+          "mask": "0x1f400",
+          "returned": true,
+          "error": null,
+          "instructions": 22772,
+          "last_offsets": [
+            "0x6bbf0",
+            "0x6d978",
+            "0x6da94",
+            "0x6da98",
+            "0x6da9c",
+            "0x6daa0",
+            "0x6d488",
+            "0x6d48c",
+            "0x6d490",
+            "0x6d494",
+            "0x6d498",
+            "0x6d49c"
+          ],
+          "status": "0x0",
+          "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "native_slot": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 0,
+        "error": null,
+        "seconds": 2.227,
+        "image_sha256": "8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 84409792,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 17338368
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "countrycode_a",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "op": "read",
+            "name": "init_boot_a",
+            "offset": 0,
+            "bytes": 2797568
+          },
+          {
+            "op": "read",
+            "name": "vendor_boot_a",
+            "offset": 0,
+            "bytes": 64053248
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 256
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n"
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
+        ],
+        "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
+        "loaded_partitions": [
+          {
+            "name": "boot",
+            "bytes": 17338368
+          },
+          {
+            "name": "countrycode",
+            "bytes": 32
+          },
+          {
+            "name": "init_boot",
+            "bytes": 2797568
+          },
+          {
+            "name": "vendor_boot",
+            "bytes": 64053248
+          }
+        ]
+      },
+      "native_loader": {
+        "reached_copy_sink": true,
+        "returned": false,
+        "pc": "0xffff000090710a40",
+        "lr": "0xffff00009076919c",
+        "result": 67187328,
+        "error": null,
+        "cmdlines": [
+          "root=/dev/ram",
+          "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing"
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n",
+          "vbmeta image name : %s\n",
+          "vbmeta",
+          "vbmeta image name : %s\n",
+          "boot",
+          "vbmeta image name : %s\n",
+          "vbmeta_system",
+          "vbmeta image name : %s\n",
+          "vbmeta_vendor",
+          "[AVB] sbc_enabled : %d\n",
+          "[AVB] vbmeta ep check end.\n",
+          "vbmeta image name : %s\n",
+          "vbmeta",
+          "[AVB] sku_str = %s\n",
+          "CN",
+          "[AVB]efuse sku : CN\n",
+          "[AVB]vbmeta sku match!\n",
+          "%s:%d: boot image header loaded\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: invalid boot image header\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: init_boot image header loaded\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: vendor_boot image header loaded\n",
+          "load_bootinfo_from_hdr"
+        ],
+        "selected_images": {
+          "boot": {
+            "pointer": "0x4013280",
+            "magic": "414e44524f494421"
+          },
+          "vendor_boot": {
+            "pointer": "0x5368d00",
+            "magic": "564e4452424f4f54"
+          },
+          "init_boot": {
+            "pointer": "0x50bdcc0",
+            "magic": "414e44524f494421"
+          }
+        }
+      },
+      "root_handoff": {
+        "packets": [
+          [
+            3254780192,
+            3143834368857189383,
+            266533083359413030,
+            841689993845602023,
+            6248098876963179926,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            1,
+            0,
+            170000,
+            202610,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            3043334007330460818,
+            219752957756201505,
+            8102013409162474938,
+            4804065662260752230,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            20261001,
+            20261001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+        "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+      },
+      "status": "PASS_OFFLINE_CONTROL_NOT_DEVICE_BOOT"
+    },
+    {
+      "variant": "policy_mte_off",
+      "output_sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+      "bytes": 4083424,
+      "deterministic_rebuild": true,
+      "wrong_input_rejected": true,
+      "main_exact_v2": true,
+      "certificates": [
+        {
+          "index": 1,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 2,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 4,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 5,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 7,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 8,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 10,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 11,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 13,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 14,
+          "retained_der_signature_valid": true
+        }
+      ],
+      "native_preloader_cert": {
+        "return_status": 0,
+        "native_entries": {
+          "0xa5c68": 1,
+          "0xa6760": 1,
+          "0xa6100": 1,
+          "0x9c700": 1
+        },
+        "backends": [
+          {
+            "backend": "SHA256",
+            "length": 645,
+            "digest": "da50377c1a78fa51c116681284f8a3318d445870b6189fc7af6182f7b55d4c62"
+          },
+          {
+            "backend": "RSA_public_exponentiation",
+            "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "f4c57550739b6635aa00ce50ec159d323f32cbbd129712cc29ee70f33250580b"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "bf2c4148c3ca80597e71ab40f40e5d958779151482866a1e5d6268ef94e13858"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "78b318a0e6b6570981b69afa6effe6fe9a05faa9fa9dc9eddf3223a024fae818"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "c77906e2132a83140970cf2b80493c3c5123254013e9a46da39e7d7d77bf9902"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "fb92d8d5e3598e450c47d349911b6a39f80db74da36297dffffa4d690612bc29"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "4bc82dba2f760e285e1456644980b09a507290daf674184cf7f10aa429546313"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "c96e8e81ced5ba6bea3933a046c9d8438a2a7b946e03c4e9a8f707d72fdaae7b"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 72,
+            "digest": "94a9f0fba13e817d9b4a98f3b65dfbec7451c52a54f303ddff7e3dfa3bdf7641"
+          },
+          {
+            "backend": "SHA256",
+            "length": 512,
+            "digest": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d"
+          },
+          {
+            "backend": "SHA256",
+            "length": 1079264,
+            "digest": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6"
+          }
+        ],
+        "content_checks": [
+          {
+            "component": "header",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d"
+          },
+          {
+            "component": "payload",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6"
+          }
+        ],
+        "extracted_header_hash": "bcc0ea16b1c821568983fce0b66f179c31d1e0f9b9322b6d2163de4a1e233f9d",
+        "extracted_payload_hash": "59bbceaf0eb56f8b2d247580ff7453851b36403a5c902f1557de8487fdf28da6",
+        "linked_base": "0x2000f00",
+        "crypto_success_unconditionally_mocked": false
+      },
+      "native_locator": {
+        "status": "0x0",
+        "member_offset": "0x13acb0",
+        "header_reads": [
+          {
+            "offset": "0x0",
+            "bytes": 512
+          },
+          {
+            "offset": "0x139d50",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13a620",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13acb0",
+            "bytes": 512
+          }
+        ],
+        "storage": "read-only host fixture; no phone access"
+      },
+      "bl2_main_parsers": [
+        {
+          "version": 3,
+          "carrier": "policy_mte_off",
+          "mask": "0x60",
+          "returned": true,
+          "error": null,
+          "instructions": 3053,
+          "last_offsets": [
+            "0x6d00c",
+            "0x6d690",
+            "0x6d80c",
+            "0x6d940",
+            "0x6d944",
+            "0x6d948",
+            "0x6d488",
+            "0x6d48c",
+            "0x6d490",
+            "0x6d494",
+            "0x6d498",
+            "0x6d49c"
+          ],
+          "status": "0x0",
+          "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+          "payload_hash": "b2862e74a91646632984628bcb80b38d2dae775e9716fbfd1e2abfe17d56ca1a"
+        },
+        {
+          "version": 3,
+          "carrier": "policy_mte_off",
+          "mask": "0x1f4e2",
+          "returned": true,
+          "error": null,
+          "instructions": 31954,
+          "last_offsets": [
+            "0x6bbf0",
+            "0x6d978",
+            "0x6da94",
+            "0x6da98",
+            "0x6da9c",
+            "0x6daa0",
+            "0x6d488",
+            "0x6d48c",
+            "0x6d490",
+            "0x6d494",
+            "0x6d498",
+            "0x6d49c"
+          ],
+          "status": "0x0",
+          "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+          "payload_hash": "b2862e74a91646632984628bcb80b38d2dae775e9716fbfd1e2abfe17d56ca1a"
+        },
+        {
+          "version": 3,
+          "carrier": "policy_mte_off",
+          "mask": "0x1f400",
+          "returned": true,
+          "error": null,
+          "instructions": 22772,
+          "last_offsets": [
+            "0x6bbf0",
+            "0x6d978",
+            "0x6da94",
+            "0x6da98",
+            "0x6da9c",
+            "0x6daa0",
+            "0x6d488",
+            "0x6d48c",
+            "0x6d490",
+            "0x6d494",
+            "0x6d498",
+            "0x6d49c"
+          ],
+          "status": "0x0",
+          "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "native_slot": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 0,
+        "error": null,
+        "seconds": 2.196,
+        "image_sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 84409792,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 17338368
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "countrycode_a",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "op": "read",
+            "name": "init_boot_a",
+            "offset": 0,
+            "bytes": 2797568
+          },
+          {
+            "op": "read",
+            "name": "vendor_boot_a",
+            "offset": 0,
+            "bytes": 64053248
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 256
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n"
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
+        ],
+        "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
+        "loaded_partitions": [
+          {
+            "name": "boot",
+            "bytes": 17338368
+          },
+          {
+            "name": "countrycode",
+            "bytes": 32
+          },
+          {
+            "name": "init_boot",
+            "bytes": 2797568
+          },
+          {
+            "name": "vendor_boot",
+            "bytes": 64053248
+          }
+        ]
+      },
+      "native_loader": {
+        "reached_copy_sink": true,
+        "returned": false,
+        "pc": "0xffff000090710a40",
+        "lr": "0xffff00009076919c",
+        "result": 67187328,
+        "error": null,
+        "cmdlines": [
+          "root=/dev/ram",
+          "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing"
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n",
+          "vbmeta image name : %s\n",
+          "vbmeta",
+          "vbmeta image name : %s\n",
+          "boot",
+          "vbmeta image name : %s\n",
+          "vbmeta_system",
+          "vbmeta image name : %s\n",
+          "vbmeta_vendor",
+          "[AVB] sbc_enabled : %d\n",
+          "[AVB] vbmeta ep check end.\n",
+          "vbmeta image name : %s\n",
+          "vbmeta",
+          "[AVB] sku_str = %s\n",
+          "CN",
+          "[AVB]efuse sku : CN\n",
+          "[AVB]vbmeta sku match!\n",
+          "%s:%d: boot image header loaded\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: invalid boot image header\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: init_boot image header loaded\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: vendor_boot image header loaded\n",
+          "load_bootinfo_from_hdr"
+        ],
+        "selected_images": {
+          "boot": {
+            "pointer": "0x4013280",
+            "magic": "414e44524f494421"
+          },
+          "vendor_boot": {
+            "pointer": "0x5368d00",
+            "magic": "564e4452424f4f54"
+          },
+          "init_boot": {
+            "pointer": "0x50bdcc0",
+            "magic": "414e44524f494421"
+          }
+        }
+      },
+      "root_handoff": {
+        "packets": [
+          [
+            3254780192,
+            3143834368857189383,
+            266533083359413030,
+            841689993845602023,
+            6248098876963179926,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            1,
+            0,
+            170000,
+            202610,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            3043334007330460818,
+            219752957756201505,
+            8102013409162474938,
+            4804065662260752230,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            20261001,
+            20261001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+        "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+      },
+      "status": "PASS_OFFLINE_CONTROL_NOT_DEVICE_BOOT"
+    },
+    {
+      "variant": "unlocked_diagnostic_eng_mte_off",
+      "output_sha256": "52aab5273eb49ab733e461c991ac0bc6ce0d1dde94912c0516e452f2ae7f2779",
+      "bytes": 4100080,
+      "deterministic_rebuild": true,
+      "wrong_input_rejected": true,
+      "main_exact_v2": false,
+      "certificates": [
+        {
+          "index": 1,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 2,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 4,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 5,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 7,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 8,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 10,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 11,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 13,
+          "retained_der_signature_valid": true
+        },
+        {
+          "index": 14,
+          "retained_der_signature_valid": true
+        }
+      ],
+      "native_preloader_cert": {
+        "return_status": 0,
+        "native_entries": {
+          "0xa5c68": 1,
+          "0xa6760": 1,
+          "0xa6100": 1,
+          "0x9c700": 1
+        },
+        "backends": [
+          {
+            "backend": "SHA256",
+            "length": 645,
+            "digest": "85958b0573f026c630d7ad6be0c1b8d15e55d45e4754337f480b51c204c56ba8"
+          },
+          {
+            "backend": "RSA_public_exponentiation",
+            "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "8370c79eb691533ba1c808a557df720d296cd5eaf67f8241139a811b0055c5f5"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "dad9feab37214f7efc054b9c3f54568262b2a1687b655d3088866839a99194d1"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "cd3096f79e94ac310c1de1ef07a701b7fb903350b6f2b7dd9680346603f7eae4"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "f6ce435cabee991e42581d3fc06dd53607a4f372bef75c20a66b465778cceaaa"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "95b327baf5cb682d00446055c0a2d6eec87a2b5888dd7da094aa9601122ae53b"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "335eb59569dc70591956361bf76f194fb4248a177001e808f9d27cb7f91538af"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "fb003ee53463ac084bdf8bed327313da78c6bfff1ad650450aba0f23862a6d04"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 72,
+            "digest": "210fa7fa36b5fb86eea47ae6c0c3243cc80c8e8cb9e9e2060abd3cfca4f0363d"
+          },
+          {
+            "backend": "SHA256",
+            "length": 512,
+            "digest": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8"
+          },
+          {
+            "backend": "SHA256",
+            "length": 1095920,
+            "digest": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631"
+          }
+        ],
+        "content_checks": [
+          {
+            "component": "header",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8"
+          },
+          {
+            "component": "payload",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631"
+          }
+        ],
+        "extracted_header_hash": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8",
+        "extracted_payload_hash": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631",
+        "linked_base": "0x2000f00",
+        "crypto_success_unconditionally_mocked": false
+      },
+      "native_locator": {
+        "status": "0x0",
+        "member_offset": "0x13acb0",
+        "header_reads": [
+          {
+            "offset": "0x0",
+            "bytes": 512
+          },
+          {
+            "offset": "0x139d50",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13a620",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13acb0",
+            "bytes": 512
+          }
+        ],
+        "storage": "read-only host fixture; no phone access"
+      },
+      "bl2_main_parsers": [
+        {
+          "kind": "parser",
+          "mask": "0x60",
+          "sboot_mock": null,
+          "helper_status_mock": null,
+          "result": 0,
+          "policy_path": [],
+          "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+          "payload_hash": "f6a6dc1d9200b9e068f110e8072663484f206883217ce667e69087805eda22f4"
+        },
+        {
+          "kind": "parser",
+          "mask": "0x1f4e2",
+          "sboot_mock": null,
+          "helper_status_mock": null,
+          "result": 0,
+          "policy_path": [],
+          "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+          "payload_hash": "f6a6dc1d9200b9e068f110e8072663484f206883217ce667e69087805eda22f4"
+        },
+        {
+          "kind": "parser",
+          "mask": "0x1f400",
+          "sboot_mock": null,
+          "helper_status_mock": null,
+          "result": 0,
+          "policy_path": [],
+          "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "native_slot": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 0,
+        "error": null,
+        "seconds": 2.241,
+        "image_sha256": "52aab5273eb49ab733e461c991ac0bc6ce0d1dde94912c0516e452f2ae7f2779",
+        "state_fixture": 3,
+        "flags": 1,
+        "error_mode": 0,
+        "allocated_bytes": 143875456,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "size",
+            "name": "boot_a",
+            "size": 67108864
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 67108864
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "size",
+            "name": "countrycode_a",
+            "size": 1048576
+          },
+          {
+            "op": "read",
+            "name": "countrycode_a",
+            "offset": 0,
+            "bytes": 1048576
+          },
+          {
+            "op": "size",
+            "name": "init_boot_a",
+            "size": 8388608
+          },
+          {
+            "op": "read",
+            "name": "init_boot_a",
+            "offset": 0,
+            "bytes": 8388608
+          },
+          {
+            "op": "size",
+            "name": "vendor_boot_a",
+            "size": 67108864
+          },
+          {
+            "op": "read",
+            "name": "vendor_boot_a",
+            "offset": 0,
+            "bytes": 67108864
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 256
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n"
+        ],
+        "requested_partitions_from_firmware": [
+          "boot",
+          "vendor_boot",
+          "init_boot",
+          "countrycode"
+        ],
+        "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=unlocked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
+        "loaded_partitions": [
+          {
+            "name": "boot",
+            "bytes": 67108864
+          },
+          {
+            "name": "countrycode",
+            "bytes": 1048576
+          },
+          {
+            "name": "init_boot",
+            "bytes": 8388608
+          },
+          {
+            "name": "vendor_boot",
+            "bytes": 67108864
+          }
+        ]
+      },
+      "native_loader": {
+        "reached_copy_sink": true,
+        "returned": false,
+        "pc": "0xffff000090710a40",
+        "lr": "0xffff00009076919c",
+        "result": 67187328,
+        "error": null,
+        "cmdlines": [
+          "root=/dev/ram",
+          "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=unlocked androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing"
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n",
+          "vbmeta image name : %s\n",
+          "vbmeta",
+          "vbmeta image name : %s\n",
+          "boot",
+          "vbmeta image name : %s\n",
+          "vbmeta_system",
+          "vbmeta image name : %s\n",
+          "vbmeta_vendor",
+          "[AVB] sbc_enabled : %d\n",
+          "[AVB] vbmeta ep check end.\n",
+          "vbmeta image name : %s\n",
+          "vbmeta",
+          "[AVB] sku_str = %s\n",
+          "CN",
+          "[AVB]efuse sku : CN\n",
+          "[AVB]vbmeta sku match!\n",
+          "%s:%d: boot image header loaded\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: invalid boot image header\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: init_boot image header loaded\n",
+          "load_bootinfo_from_hdr",
+          "%s:%d: vendor_boot image header loaded\n",
+          "load_bootinfo_from_hdr"
+        ],
+        "selected_images": {
+          "boot": {
+            "pointer": "0x4013280",
+            "magic": "414e44524f494421"
+          },
+          "vendor_boot": {
+            "pointer": "0x8934cc0",
+            "magic": "564e4452424f4f54"
+          },
+          "init_boot": {
+            "pointer": "0x8134c80",
+            "magic": "414e44524f494421"
+          }
+        }
+      },
+      "root_handoff": {
+        "packets": [
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            2,
+            170000,
+            202610,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            3043334007330460818,
+            219752957756201505,
+            8102013409162474938,
+            4804065662260752230,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            20261001,
+            20261001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+        "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+      },
+      "status": "PASS_OFFLINE_CONTROL_NOT_DEVICE_BOOT"
+    }
+  ],
+  "limits": [
+    "Main-only native replay does not execute the swapped BL2 or its hardware handoff",
+    "Preloader certificate/native hash boundaries use explicit trusted-key/crypto/heap fixtures",
+    "Original v2 main CPU evidence carries by exact byte identity for policy variants; not a new boot success",
+    "Stored-state4/rollback0/CN/GUID/storage-tail/persistence fixtures do not represent measured device state",
+    "Unlocked diagnostic runs actual force3 getter; does not write persistent unlock state",
+    "Kernel, DTB/bootconfig, hardware initialization, Android/FBE not executed"
+  ]
+}

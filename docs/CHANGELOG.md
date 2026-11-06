@@ -141,3 +141,10 @@
 - Phát hiện caller H4 `0x14714` gọi Secure-ID checker sau AVB, lỗi gọi recovery; caller ENG H3 không có block tương ứng. V1 chỉ mở chốt vùng bên trong, vẫn giữ gate tổng này.
 - V2 đổi riêng instruction payload0x147ac `b.eq` thành `b` tới0x147d4 và cập nhật hash prefix; giữ getter/setter/AVB/root handoff và mọi chức năng v1. Đây là bỏ một vendor hardware-binding gate tại call site, không sửa provisioning.
 - Mỗi ảnh:96cặp caller,8cặp checker gốc;8ENG control chung. Hồi quy390trường hợp main +3parser +10DER mỗi ảnh, cùng native audit BL2 trên stock preloader H4. Chưa flash/boot bản sửa; chưa chứng minh nguyên nhân recovery thực. [Docs và file](../experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md).
+
+## 2026-11-06 — V2 không sửa được recovery; kiểm AVB toàn hàm và đối chứng BL2 v3
+
+- User báo v2 fastboot unlocked:no, cho flash, vẫn recovery; China OS4.0.3.0 sạch không root, ENG H3 boot cùng ROM. Không có máy/log/readback; tiếp tục offline theo yêu cầu.
+- Chạy native avb_slot_verify + loader đến chọn image buffers, danh sách yêu cầu lấy từ pointer table firmware gồm boot/vendor_boot/init_boot/countrycode. H4 v2 và H3 ENG đều qua fixtures locked4/rollback0/CN; cmdline và5packet root handoff khớp với OEM-key/SMC fixtures.5đối chứng hash/signature/IO/rollback lỗi đúng. Chưa kiểm full hardware/kernel/FBE.
+- Bản unlocked H4 f57 dùng BL2 H3 thương mại, v2 dùng ENG BL2: đây là biến số thứ hai ngoài trạng thái khóa. Hai v3 policy giữ nguyên main/cert v2, chỉ đổi BL2 triple sang đúng donor f57; normal8ac64a98...,off6282d02b.... Control unlocked ENG/off52aab527... tách trong diagnostic.
+- Kiểm DER/parser/preloader auth thành phần và native AVB/loader trên từng ảnh; không nâng thành boot thành công. Giữ mọi firmware cũ nguyên byte, không thêm bypass chữ ký/hash. [Docs](../experiments/lk_h4_policy_bl2_control_v3/README_VI.md).

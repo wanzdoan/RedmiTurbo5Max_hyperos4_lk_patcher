@@ -43,3 +43,5 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 [Native audit preloader H4 với H4 stock-policy mới và ENG H3](../fresh_analysis/h4_preloader_lk_acceptance_20261106/README_VI.md): kiểm locator/chứng chỉ/hash có đối chứng lỗi; chưa phải chấp nhận hoặc boot trên thiết bị.
 
 [H4 ENG policy v2 — ứng viên sửa recovery khi locked](../experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md): user báo v1 MTE_OFF vào recovery trên China/Global; native replay xác định gate Secure ID tại boot caller H4 khác ENG H3. V2 giữ riêng, chưa boot test.
+
+[Phân tích sau v2 vẫn recovery](../fresh_analysis/h4_recovery_v3_20261106/README_VI.md): AVB slot/loader native trên ROM China thật, cùng cmdline/packet dưới fixtures; chưa biết nguyên nhân máy thật. [V3 tách biến số bộ nạp/trạng thái khóa](../experiments/lk_h4_policy_bl2_control_v3/README_VI.md): main v2 giữ nguyên, đổi riêng signed BL2 về bộ của H4 f57 đã boot; diagnostic unlocked riêng, chưa flash.

@@ -1,0 +1,21 @@
+{
+  "status": "DIAGNOSTIC_CONTROL_NOT_RUNTIME_FIX_CONFIRMED",
+  "variant": "policy_mte_off",
+  "artifact": "lk_H4_POLICY_V3_BOOTED_RELEASE_BL2_MTE_OFF_TEST.img",
+  "input_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+  "donor_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "output_sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+  "bytes": 4083424,
+  "change": "Only signed BL2/cert1/cert2 triple and member offsets",
+  "main_and_main_certificate_records_exact_v2": true,
+  "forced_unlock_control": false,
+  "persistent_lock_write_performed": false,
+  "bl2_origin": "Exact signed H3 release triple from boot-confirmed f57 image",
+  "limits": [
+    "Comparison experiment; actual recovery cause unknown and no phone test",
+    "Policy variants preserve v2 stored-state getter and all v2 main bytes including earlier Secure-ID call-site skip",
+    "Unlocked diagnostic reports state3 at getter; never use it as locked/banking/Integrity evidence",
+    "No extra signature/hash/rollback bypass added",
+    "No preloader, RPMB, efuse, slot, partition or phone setting changed by builder"
+  ]
+}

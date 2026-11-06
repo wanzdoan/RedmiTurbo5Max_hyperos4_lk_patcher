@@ -1,0 +1,209 @@
+{
+  "status": "PASS_NATIVE_REFERENCE_NOT_NEW_DEVICE_TEST",
+  "sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "native_slot": {
+    "returned": true,
+    "pc": "0x3200000",
+    "result": 0,
+    "error": null,
+    "seconds": 2.514,
+    "image_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+    "state_fixture": 3,
+    "flags": 1,
+    "error_mode": 0,
+    "allocated_bytes": 143875456,
+    "events": [
+      {
+        "op": "read",
+        "name": "vbmeta_a",
+        "offset": 0,
+        "bytes": 65536
+      },
+      {
+        "op": "rollback",
+        "index": 0,
+        "value": 0
+      },
+      {
+        "op": "read",
+        "name": "boot_a",
+        "offset": 67108800,
+        "bytes": 64
+      },
+      {
+        "op": "read",
+        "name": "boot_a",
+        "offset": 17338368,
+        "bytes": 2432
+      },
+      {
+        "op": "rollback",
+        "index": 3,
+        "value": 0
+      },
+      {
+        "op": "size",
+        "name": "boot_a",
+        "size": 67108864
+      },
+      {
+        "op": "read",
+        "name": "boot_a",
+        "offset": 0,
+        "bytes": 67108864
+      },
+      {
+        "op": "read",
+        "name": "vbmeta_system_a",
+        "offset": 0,
+        "bytes": 65536
+      },
+      {
+        "op": "rollback",
+        "index": 2,
+        "value": 0
+      },
+      {
+        "op": "read",
+        "name": "vbmeta_vendor_a",
+        "offset": 0,
+        "bytes": 65536
+      },
+      {
+        "op": "rollback",
+        "index": 4,
+        "value": 0
+      },
+      {
+        "op": "size",
+        "name": "countrycode_a",
+        "size": 1048576
+      },
+      {
+        "op": "read",
+        "name": "countrycode_a",
+        "offset": 0,
+        "bytes": 1048576
+      },
+      {
+        "op": "size",
+        "name": "init_boot_a",
+        "size": 8388608
+      },
+      {
+        "op": "read",
+        "name": "init_boot_a",
+        "offset": 0,
+        "bytes": 8388608
+      },
+      {
+        "op": "size",
+        "name": "vendor_boot_a",
+        "size": 67108864
+      },
+      {
+        "op": "read",
+        "name": "vendor_boot_a",
+        "offset": 0,
+        "bytes": 67108864
+      },
+      {
+        "op": "read",
+        "name": "vbmeta_a",
+        "offset": 0,
+        "bytes": 256
+      }
+    ],
+    "logs": [
+      "use CN avb pubkey\n",
+      "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+      "[AVB] lk_avb_key = avb_key_cn\n",
+      "\ufffdm`^\u00074\ufffd\ufffd<\ufffd\ufffd\ufffd9\u000b\b,\ufffd\u01d81%\u0015\ufffd\u001a\u001d\ufffd\ufffd=\ufffd\ufffd\u0007\ufc93*\ufffd\u0006k26U}\u007fboy\u0012\ufffd\ufffd\ufffd_\ufffdN\ufffd\ufffd\ufffd4\ufffd\ufffd\u021b\ufffd\u049b\ufffd\ufffd\u000e",
+      "Custom get lock state...\n",
+      "custom_get_lock_state return = %d, lock_state = %d\n"
+    ],
+    "requested_partitions_from_firmware": [
+      "boot",
+      "vendor_boot",
+      "init_boot",
+      "countrycode"
+    ],
+    "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=unlocked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
+    "loaded_partitions": [
+      {
+        "name": "boot",
+        "bytes": 67108864
+      },
+      {
+        "name": "countrycode",
+        "bytes": 1048576
+      },
+      {
+        "name": "init_boot",
+        "bytes": 8388608
+      },
+      {
+        "name": "vendor_boot",
+        "bytes": 67108864
+      }
+    ]
+  },
+  "native_loader": {
+    "reached_copy_sink": true,
+    "returned": false,
+    "pc": "0xffff000090710a40",
+    "lr": "0xffff00009076919c",
+    "result": 67187328,
+    "error": null,
+    "cmdlines": [
+      "root=/dev/ram",
+      "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=unlocked androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing"
+    ],
+    "logs": [
+      "use CN avb pubkey\n",
+      "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+      "[AVB] lk_avb_key = avb_key_cn\n",
+      "\ufffdm`^\u00074\ufffd\ufffd<\ufffd\ufffd\ufffd9\u000b\b,\ufffd\u01d81%\u0015\ufffd\u001a\u001d\ufffd\ufffd=\ufffd\ufffd\u0007\ufc93*\ufffd\u0006k26U}\u007fboy\u0012\ufffd\ufffd\ufffd_\ufffdN\ufffd\ufffd\ufffd4\ufffd\ufffd\u021b\ufffd\u049b\ufffd\ufffd\u000e",
+      "Custom get lock state...\n",
+      "custom_get_lock_state return = %d, lock_state = %d\n",
+      "vbmeta image name : %s\n",
+      "vbmeta",
+      "vbmeta image name : %s\n",
+      "boot",
+      "vbmeta image name : %s\n",
+      "vbmeta_system",
+      "vbmeta image name : %s\n",
+      "vbmeta_vendor",
+      "[AVB] sbc_enabled : %d\n",
+      "[AVB] vbmeta ep check end.\n",
+      "vbmeta image name : %s\n",
+      "vbmeta",
+      "[AVB] sku_str = %s\n",
+      "CN",
+      "[AVB]efuse sku : CN\n",
+      "[AVB]vbmeta sku match!\n",
+      "%s:%d: boot image header loaded\n",
+      "load_bootinfo_from_hdr",
+      "%s:%d: invalid boot image header\n",
+      "load_bootinfo_from_hdr",
+      "%s:%d: init_boot image header loaded\n",
+      "load_bootinfo_from_hdr",
+      "%s:%d: vendor_boot image header loaded\n",
+      "load_bootinfo_from_hdr"
+    ],
+    "selected_images": {
+      "boot": {
+        "pointer": "0x4013280",
+        "magic": "414e44524f494421"
+      },
+      "vendor_boot": {
+        "pointer": "0x8934cc0",
+        "magic": "564e4452424f4f54"
+      },
+      "init_boot": {
+        "pointer": "0x8134c80",
+        "magic": "414e44524f494421"
+      }
+    }
+  }
+}

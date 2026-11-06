@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-06",
+  "prior_v2_user_report": {
+    "android_boot": false,
+    "recovery": true,
+    "fastboot_unlocked": "no",
+    "flash_allowed": true,
+    "rom": "China OS4.0.3.0.XPLCNXM",
+    "root": false,
+    "h3_eng_with_same_rom_boots": true,
+    "device_readback_or_failure_log_available": false
+  },
+  "constraint": "User has no phone available; offline only",
+  "v3_variants": {"physically_flashed": false, "android_boot_confirmed": false, "recovery_fixed_confirmed": false, "banking_or_integrity_tested": false},
+  "controlled_variables": {
+    "policy_normal_and_off": "Main v2 exact, only boot-confirmed signed release BL2 triple replaces ENG BL2",
+    "diagnostic_unlocked_off": "Same ENG BL2 as v2, only force3 getter and main prefix changed"
+  },
+  "cause_of_recovery": "unresolved; both clean-ROM main AVB/loader paths pass explicit offline fixtures",
+  "agent_device_actions": "none"
+}
