@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-06",
+  "scope": "Offline build/validation only; no new device actions",
+  "files": {
+    "locked_default": {
+      "sha256": "8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664",
+      "exact_retained_v3_source": true,
+      "user_boot_report_available": false
+    },
+    "locked_off": {
+      "sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+      "exact_retained_v3_source": true,
+      "historical_user_boot_and_banking_report_available": true,
+      "report_source": "../lk_h4_policy_bl2_control_v3/runtime_confirmation.json"
+    },
+    "unlocked_default": {
+      "sha256": "3b06a144aef5e2afbcf117c09b5fd8fa6412cde692e547442e3e840224227d83",
+      "new_image_user_boot_report_available": false
+    },
+    "unlocked_off": {
+      "sha256": "ccfb3b0059fab66622a8b3555c760a22621ace7a651f86824e233341988aae6e",
+      "new_image_user_boot_report_available": false
+    }
+  },
+  "unlocked_source_success_is_not_new_image_confirmation": true,
+  "actual_global_rom_boot_root_banking_integrity_ota_test_performed": false,
+  "device_actions": "none"
+}

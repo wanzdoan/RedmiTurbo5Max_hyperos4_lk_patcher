@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — Sửa thiếu auto HWC/all-region ở unlocked, bộ v2 riêng
+
+- Bộ trước chỉ có auto HWC trên locked; người dùng yêu cầu cả unlocked. [Bộ v2](../experiments/lk_h4_all_region_four_files_v2/README_VI.md) giữ hai locked nguyên byte, tạo unlocked DEFAULT `3b06a144…` và OFF `ccfb3b00…` từ nền policy v3 với getter H4 unlocked f57.
+- Chỉ getter16byte/prefix thay so với locked tương ứng, giữ mọi chốt vùng/HWC/khóa và signed BL2 thương mại; không fakelock. Kiểm632 ca main và mỗi unlocked10DER/3parser/preloader boundary/native slot-loader; chưa có boot test hai unlocked mới.
+- Tag trước sửa `before-h4-unlocked-auto-hwc-v2-20261106` tại `cca22c1` đã push; toàn bộ ảnh/bundle cũ giữ nguyên, không flash máy.
+
+
 ## 2026-11-06 — Bổ sung locked MTE_DEFAULT, đủ bốn file H4
 
 - Thêm bản locked auto HWC/MTE_DEFAULT nguyên byte v3 normal SHA8ac64a98…, chưa có xác nhận boot; DEFAULT theo cấu hình gốc, không ép bật MTE.

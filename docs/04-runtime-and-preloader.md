@@ -61,3 +61,8 @@ Người dùng yêu cầu gác fakelock, dùng locked tự nhận vùng và unlo
 
 
 Bổ sung locked auto HWC/MTE_DEFAULT SHA256 `8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664` nguyên byte v3 normal vào bộ bốn file. Chưa có báo cáo boot đúng hash normal; báo cáo thành công bản locked OFF6282… không được dùng thay. MTE_DEFAULT giữ điều kiện gốc, chưa xác nhận MTE thực tế trong kernel.
+
+
+### Sửa bộ bốn file: unlocked cũng auto HWC/all-region
+
+Theo người dùng làm rõ yêu cầu, [bộ v2](../experiments/lk_h4_all_region_four_files_v2/README_VI.md) tạo hai unlocked mới: DEFAULT `3b06a144aef5e2afbcf117c09b5fd8fa6412cde692e547442e3e840224227d83`, OFF `ccfb3b0059fab66622a8b3555c760a22621ace7a651f86824e233341988aae6e`. Cả hai giữ HWC/chốt vùng, BL2/AEE/DTBs của nền locked v3 tương ứng; chỉ getter16byte và hash prefix đổi. Hai ảnh này chưa có user boot report; không kế thừa boot/banking/stock-preloader success từ nguồn. Hai locked vẫn nguyên hash8ac64a98…/6282d02b…. Không dùng unlocked v1 `f57…`/`787…` để mô tả auto HWC vì chúng chưa có phần mở rộng này. Không flash máy trong tác vụ.

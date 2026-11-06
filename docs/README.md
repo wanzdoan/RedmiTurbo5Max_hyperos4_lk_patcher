@@ -57,3 +57,6 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 
 
 Bộ locked/unlocked đã [bổ sung locked MTE_DEFAULT, đủ bốn file](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md), SHA8ac64a98… giữ nguyên v3 normal; chưa có xác nhận boot normal. Tổng174 ca native HWC/key/MTE; ZIP ba file cũ giữ nguyên.
+
+
+[Bộ đúng yêu cầu sau sửa: cả locked/unlocked H4 đều all-region/auto HWC](../experiments/lk_h4_all_region_four_files_v2/README_VI.md). V2 bốn file, hai unlocked mới DEFAULT/OFF, hai locked giữ nguyên. Sửa thiếu sót unlocked v1 chưa có auto HWC. 632 ca main native và các kiểm DER/parser/preloader/AVB/loader; hai unlocked mới chưa được xác nhận boot.

@@ -66,3 +66,6 @@ Theo yêu cầu quay lại locked/unlocked: [bộ H4 ba file](experiments/lk_h4_
 
 
 Bổ sung theo yêu cầu: [bộ H4 bốn file](experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) đã có thêm locked auto HWC + MTE_DEFAULT, SHA256 `8ac64a98…`, nguyên byte v3 normal. Cả locked và unlocked đều có DEFAULT/OFF; DEFAULT theo điều kiện MTE gốc, không ép ON. Bản locked normal chưa có xác nhận boot. ZIP ba file cũ giữ nguyên; ZIP bốn file tách tên riêng.
+
+
+**Bộ sửa mới nhất: [H4 all-region/auto HWC trên cả bốn file](experiments/lk_h4_all_region_four_files_v2/README_VI.md).** Bộ trước thiếu auto HWC ở unlocked; v2 giữ nguyên hai locked, tạo lại hai unlocked từ nền v3 tương ứng và getter H4 unlocked. Unlocked DEFAULT `3b06a144…`, OFF `ccfb3b00…`; cả hai có HWC/chốt vùng như locked, không fakelock, chưa có boot test. 632 ca main native + DER/parser/AVB/loader đã kiểm offline. Bộ trước giữ nguyên để khôi phục.

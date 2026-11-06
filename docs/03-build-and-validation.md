@@ -107,3 +107,8 @@ Xem [quy trình và giới hạn](../experiments/lk_h4_eng_policy_auto_hwc_v1/RE
 
 
 Bổ sung locked MTE_DEFAULT vào bộ trên: cùng lệnh tái tạo tạo **bốn file**, `package_release.py` xuất `lk_h4_locked_unlocked_four_files.zip` và giữ ZIP ba file cũ. Kiểm174 ca (72HWC/6key/96MTE); so cả cặp locked và unlocked chỉ khác nhánh MTE/prefix, khóa nguồn v3 normal bằng SHA8ac64a98…. Không có firmware patch mới hoặc lượt boot mới.
+
+
+## H4 all-region bốn file v2 — sửa nhánh unlocked (2026-11-06)
+
+[Quy trình](../experiments/lk_h4_all_region_four_files_v2/README_VI.md): `build_all_region.py`, `validate_all_region.py`, `package_release.py` tại `experiments/lk_h4_all_region_four_files_v2`. Hai locked nguyên byte v3; hai unlocked từ đúng nền locked chỉ thay getter16byte của H4 unlocked f57 và prefix180, vì vậy giữ toàn bộ auto HWC/chốt vùng/BL2 thương mại của v3. Kiểm632 ca main:288HWC/24key/96MTE/92unlock/100region/32flashgate. Mỗi unlocked mới thêm10DER+3releaseparser, native stock-preloader boundary và whole AVB slot/loader trên China H4 sạch. Chuỗi/mode/IO/hardware/secure-world fixtures không thay kiểm thiết bị; giữ public/root packet unlocked, không fake.
