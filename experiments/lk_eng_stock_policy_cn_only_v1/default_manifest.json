@@ -1,0 +1,36 @@
+{
+  "status": "EXPERIMENTAL_STOCK_POLICY_CN_ONLY_NOT_DEVICE_BOOTED",
+  "variant": "default",
+  "artifact": "lk_ENG_STOCK_POLICY_CHINA_ONLY_TEST.img",
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "output_sha256": "cfd5c47422590843371f2e2b119491ba13aebe800f0850a8214bf69d6010c7c9",
+  "bytes": 4043792,
+  "patches": [
+    {
+      "payload_offset": "0xc5888",
+      "whole_file_offset": "0xc5a88",
+      "bytes": 216,
+      "old": "3f2303d5fd7bbda9f65701a9f44f02a9fd03009140008052610500b4f40305aa250500b4f30301aa608640b8dfedff9708701d129f0200391f012071610300541f2003d5e0723510e10313aa02208052dee6fe9740030034200100d00068029167e4fe97f6031faa940100d094ba119175010090b53a019103000014df0204f1a0010054616a7638e00314aa5ce4fe97d6060091df0e40f221ffff54e00315aa57e4fe97f6ffff17200100d00004029153e4fe97e0031f2a030000142800805288020039f44f42a9f65741a9fd7bc3a8bf2303d5c0035fd6",
+      "new": "3f2303d5fd7bbca9f44f01a9f30305aa40008052330400b4010400b47f0200395f2000f1a3030054280040b90809c05af40301aa1f012071c00100541f054071a10200545f2010f1010300548022009101408052e2830091907cff97c0010035e08300916102001002048052060000145f2008f1a1010054802200912171351002208052d1e6fe9760000035280080526802003900008052f44f41a9fd7bc4a8bf2303d5c0035fd640008052fbffff178a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e1f2003d51f2003d5",
+      "purpose": "Original ENG2048 or stock China4096 only; Global not added"
+    }
+  ],
+  "china_modulus_sha256": "8a0ecaf46f057182eebfd3ce7f7ff04c7e97d9898e54a0df20ed3d9a0f9bef1e",
+  "original_eng_key_preserved": true,
+  "global_key_trust_added": false,
+  "hwc_code_unchanged": true,
+  "hwc_policy": "Original hardware HWC; CN on China hardware",
+  "china_flash_region_check_unchanged": true,
+  "original_lock_getter_setter_and_avb_policy_unchanged": true,
+  "force_unlock_or_fakelock_added": false,
+  "non_main_members_and_original_der_unchanged": true,
+  "mte_policy": "Original",
+  "device_flashed": false,
+  "device_boot_tested": false,
+  "limits": [
+    "Stock policy follows stored state; no real lock/unlock operation performed",
+    "Original unlocked-mode allowances or factory/config bypasses are unchanged",
+    "Modified init_boot may be refused under locked verification; root/OTA/Integrity not proved",
+    "MTE-off is kernel-facing, not reversal of earlier preloader execution"
+  ]
+}

@@ -115,3 +115,9 @@
 - Input f57d19c9... đúng artifact user từng báo chạy; giữ nguyên source vàruntime report. Checkpointc84149f/tag `before-h4-booted-hybrid-mte-off-20261105` đã push trước sửa.
 - [Bản riêng](../experiments/lk_h4_booted_hybrid_mte_off_v1/README_VI.md) SHA7873361e63ade5e6840d985c23c44bbb01fe449e7f89fd3ebbdba0d3d244e2a4,4083424bytes. H4branch34740/file34940 b.eq→b34784; chỉmainprefix180 đổi kèm theo. Unlock16byte/H3BL2/H4AEE-DTB/DER nguyênbyte.
 - 48MTE+328unlockcontrols+3H3BL2parser=379native và10DER đạt. Không thêm region/HWC/fakelock; không flash, bản mới chưa boot test.
+
+## 2026-11-06 — ENG stock-policy China, không mở HWC/khóa Global
+
+- Checkpoint449f57a/tag `before-eng-stock-policy-china-only-20261106` trước sửa; giữ user rename H4 MTE-off nguyên byte, sửa link docs theo tên rút gọn.
+- [Hai ảnh riêng](../experiments/lk_eng_stock_policy_cn_only_v1/README_VI.md) từ ENG gốc6f386: defaultSHAcfd5c474... vàMTEoffSHAacd35520..., mỗiảnh4043792bytes. Chỉ callback trust ENG2048/China4096, digestCN nằm trong callback216byte; không dùng block từ chối vùng làmdata. HWC/flash-check/lock/AVBpolicy gốc nguyênbyte. MTEoff thêmbranch34d20, prefixmain180 cập nhật.
+- Mỗiảnh348native+10DER đạt, Globalkeytrusted0, HWCgốcCNkểcảcountryGlobal. Khôngflash/chưaboottest, khôngroot/relock/OTAclaim.

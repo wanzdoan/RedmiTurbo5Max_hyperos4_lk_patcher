@@ -1,0 +1,24 @@
+{
+  "status": "TWO_CHINA_STOCK_POLICY_IMAGES_NOT_DEVICE_BOOTED",
+  "input_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "images": [
+    {
+      "variant": "default",
+      "artifact": "lk_ENG_STOCK_POLICY_CHINA_ONLY_TEST.img",
+      "sha256": "cfd5c47422590843371f2e2b119491ba13aebe800f0850a8214bf69d6010c7c9",
+      "bytes": 4043792,
+      "native_cpu_cases": 348,
+      "device_boot_tested": false
+    },
+    {
+      "variant": "mte_off",
+      "artifact": "lk_ENG_STOCK_POLICY_CHINA_ONLY_MTE_OFF_TEST.img",
+      "sha256": "acd35520ae9d2e0ac6511c6b28ece743793b24c240370b077dde6539e7f7c525",
+      "bytes": 4043792,
+      "native_cpu_cases": 348,
+      "device_boot_tested": false
+    }
+  ],
+  "hwc": "Unchanged original hardware HWC",
+  "global_key_added": false
+}

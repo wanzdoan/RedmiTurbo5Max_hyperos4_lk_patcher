@@ -35,3 +35,5 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 [Audit lỗi POCO H3 và chốt CN/Global còn thiếu](../experiments/lk_fenrir_cn_global_gates_v2/README_VI.md): bản HWC-only8d616... bị user báo chỉ về preloader; bốn chốt vùng đã tái hiện/sửa offline, chưa boot test e6bd99c9....
 
 [H4 hybrid đã boot f57 — biến thể riêng chỉ thêm MTE-off](../experiments/lk_h4_booted_hybrid_mte_off_v1/README_VI.md): source được xác nhận, output7873361e... chưa boot; không thêm HWC/chốt vùng/Fenrir/v2.
+
+[ENG stock-policy China-only, hai bản MTE](../experiments/lk_eng_stock_policy_cn_only_v1/README_VI.md): từ ENG gốc6f386, giữ HWC/kiểm China gốc, thêm China4096 cạnh ENG2048, không Global; chưa boot test.
