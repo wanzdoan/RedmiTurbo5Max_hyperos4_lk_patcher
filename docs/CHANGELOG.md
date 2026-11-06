@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — Điều tra Integrity H4 khi cùng LK đạt đủ trên H3
+
+- Người dùng xác nhận banking H4 đầy đủ, H4 China không root; cùng LK v3 MTE_OFF trên H3 đạt đủ ba mức nhưng H4 không có mức nào trong Play Store.
+- [Audit mới](../fresh_analysis/h4_integrity_20261106/README_VI.md): sender nguyên byte stock, bốn ca native metadata/state fixtures đạt; không phải attestation thực hoặc verdict Google.
+- Giữ firmware nguyên byte; chưa có dữ liệu ADB/verdict/chứng thư để xác định lỗi và chưa tạo patch. Đã push tag checkpoint `before-h4-integrity-investigation-20261106` tại `4f1bcd5`.
+
+
 ## 2026-11-06 — Người dùng xác nhận Policy H4 v3 MTE_OFF boot
 
 - Chốt đúng biến thể `6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52` đã vào Android; normal và diagnostic vẫn chưa có báo cáo boot.

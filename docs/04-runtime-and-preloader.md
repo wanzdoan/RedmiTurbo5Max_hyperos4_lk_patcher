@@ -43,3 +43,8 @@ Người dùng báo “lần này đã lên rồi” và chọn rõ **Policy v3 
 V2 MTE_OFF trước đó bị recovery, trong khi v3 giữ main/cert main nguyên byte v2, chỉ thay bộ ba BL2/chứng chỉ bằng đúng bộ H3 thương mại từ H4 unlocked f57 đã boot. Kết quả giúp khoanh vùng khác biệt tương thích bộ nạp/bàn giao, chưa chỉ ra cơ chế nội bộ gây lỗi. Đây vẫn là main H4 đã patch + BL2 H3 thương mại, không phải H4 ENG đầy đủ.
 
 Ngữ cảnh trước đó là China OS4.0.3.0.XPLCNXM sạch, không root và preloader ENG `75e93936…`; người dùng chưa xác nhận lại cấu hình này trong báo cáo boot mới. Không kế thừa kết quả stock preloader H4 của f57 sang v3. Chưa có báo cáo mới về fastboot locked, banking/Integrity, OTA, Global, root, reboot nhiều lần hoặc MTE thực tế. Normal và diagnostic unlocked chưa được xác nhận boot. Agent không flash hay thao tác thiết bị.
+
+
+### Báo cáo bổ sung: banking và Integrity với cùng LK
+
+Người dùng xác nhận banking H4 hoạt động đầy đủ. Giữ nguyên LK v3 MTE_OFF `6282d02b…`, cài ROM H3 được đủ ba mức Integrity; cài ROM H4 China OS4.0.3.0.XPLCNXM không root thì không có mức nào khi kiểm trong Play Store. Đây là báo cáo cùng LK/hai ROM, không phải so hai LK. Chưa nhận nguyên văn verdict/lỗi, phiên bản Google services hoặc đọc lại máy. [Điều tra riêng](../fresh_analysis/h4_integrity_20261106/README_VI.md) không sửa firmware hoặc thao tác thiết bị.

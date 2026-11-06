@@ -51,5 +51,20 @@
       "repeated reboot",
       "effective kernel MTE state"
     ]
+  },
+  "subsequent_user_report": {
+    "date": "2026-11-06",
+    "same_lk_rom_comparison": true,
+    "lk_sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+    "h3_rom_integrity_user_report": "all three levels",
+    "h4_rom_integrity_user_report": "none of the three levels",
+    "h4_banking_user_report": "all banking apps/functions used by user work",
+    "h4_rom": "China OS4.0.3.0.XPLCNXM",
+    "h4_root_user_report": false,
+    "test_location_user_report": "Google Play Store",
+    "exact_verdict_or_error_received": false,
+    "device_readback_received": false,
+    "preloader_reconfirmed": false,
+    "investigation": "../../fresh_analysis/h4_integrity_20261106/README_VI.md"
   }
 }

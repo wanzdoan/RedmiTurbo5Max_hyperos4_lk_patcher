@@ -1,0 +1,294 @@
+{
+  "status": "PASS_BOUNDED_NATIVE_PACKET_AUDIT_NOT_INTEGRITY_TEST",
+  "policy_sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+  "stock_sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+  "sender_payload_range": [
+    "0xc4ce4",
+    "0xc4edc"
+  ],
+  "sender_exact_stock": true,
+  "cases": [
+    {
+      "os_version_fixture": 160000,
+      "stored_state_fixture": 3,
+      "native_handoff": {
+        "packets": [
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            2,
+            160000,
+            202610,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            506097522914230528,
+            1084818905618843912,
+            1663540288323457296,
+            2242261671028070680,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            20261001,
+            20261001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+        "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+      }
+    },
+    {
+      "os_version_fixture": 160000,
+      "stored_state_fixture": 4,
+      "native_handoff": {
+        "packets": [
+          [
+            3254780192,
+            3143834368857189383,
+            266533083359413030,
+            841689993845602023,
+            6248098876963179926,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            1,
+            0,
+            160000,
+            202610,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            506097522914230528,
+            1084818905618843912,
+            1663540288323457296,
+            2242261671028070680,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            20261001,
+            20261001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+        "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+      }
+    },
+    {
+      "os_version_fixture": 170000,
+      "stored_state_fixture": 3,
+      "native_handoff": {
+        "packets": [
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            2,
+            170000,
+            202610,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            506097522914230528,
+            1084818905618843912,
+            1663540288323457296,
+            2242261671028070680,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            20261001,
+            20261001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+        "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+      }
+    },
+    {
+      "os_version_fixture": 170000,
+      "stored_state_fixture": 4,
+      "native_handoff": {
+        "packets": [
+          [
+            3254780192,
+            3143834368857189383,
+            266533083359413030,
+            841689993845602023,
+            6248098876963179926,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            1,
+            0,
+            170000,
+            202610,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            506097522914230528,
+            1084818905618843912,
+            1663540288323457296,
+            2242261671028070680,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            20261001,
+            20261001,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3254780192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+        "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+      }
+    }
+  ],
+  "supplied_h4_headers": [
+    {
+      "file": "boot.img",
+      "sha256": "b9991f92caa9450b089465e83af9e792ca3856540ac4227a138f0a3bb6fc8c32",
+      "header_version": 4,
+      "os_version_raw": 0,
+      "os_version": [
+        0,
+        0,
+        0
+      ],
+      "patch_year": null,
+      "patch_month": null,
+      "note": "Zero version fields in modern headers are not an attestation failure diagnosis"
+    },
+    {
+      "file": "init_boot.img",
+      "sha256": "3d2062ae64992885cb4cfba19bac2699d1e07d7b7df91a8f0a770a493622b70a",
+      "header_version": 4,
+      "os_version_raw": 0,
+      "os_version": [
+        0,
+        0,
+        0
+      ],
+      "patch_year": null,
+      "patch_month": null,
+      "note": "Zero version fields in modern headers are not an attestation failure diagnosis"
+    }
+  ],
+  "observations": [
+    "Native sender forwards both synthetic OS versions without clamping or rejection",
+    "Stored-state fixture changes lock/boot-state packet fields as expected",
+    "This sender is unchanged from stock H4; no regression found in the tested packet assembly"
+  ],
+  "limits": [
+    "Only packet assembly/software SHA runs natively; key extraction, stored-state getter, boot-state and secure-monitor response are fixtures",
+    "No actual certificate chain, KeyMint/RKP, Google verdict or phone readback",
+    "Android16/17 fixture cases do not execute real H3/H4 ROMs or their trusted worlds",
+    "Earlier slot replay also injects OEM key and boot state; it cannot establish authentic attestation",
+    "No firmware patch justified by these results alone"
+  ]
+}

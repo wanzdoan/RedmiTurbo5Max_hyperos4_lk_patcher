@@ -34,7 +34,7 @@ Chỉ thay16byte getter của v2 bằng đúng patch state3 của f57 và tính 
 
 [ZIP ba file và evidence](lk_h4_v3_bl2_comparison_bundle.zip). Thư mục `diagnostic` trong ZIP tách control unlocked khỏi hai ảnh policy.
 
-Bản policy MTE_OFF này là mốc đã boot mới; giữ nguyên tên và bytes khi cập nhật tài liệu. Chưa có kiểm tra mới về trạng thái khóa fastboot, banking, Play Integrity, OTA, ROM Global, preloader H4 stock hoặc trạng thái MTE thực tế trong kernel. Cấu hình China H4 sạch và preloader ENG là ngữ cảnh từ báo cáo trước, chưa được xác nhận lại ở lần boot thành công.
+Bản policy MTE_OFF này là mốc đã boot mới; giữ nguyên tên và bytes khi cập nhật tài liệu. Bổ sung 2026-11-06: người dùng báo banking hoạt động đầy đủ; cùng file LK này đạt cả ba mức Integrity khi cài ROM H3, nhưng không đạt mức nào trên H4 China sạch không root, kiểm trong Play Store. [Nghiên cứu riêng](../../fresh_analysis/h4_integrity_20261106/README_VI.md) chưa có verdict/log hoặc ADB để xác định nguyên nhân. Chưa có kiểm tra mới về trạng thái khóa fastboot, OTA, ROM Global, preloader H4 stock hoặc trạng thái MTE thực tế trong kernel. Cấu hình China H4 sạch và preloader ENG là ngữ cảnh từ báo cáo trước, chưa được xác nhận lại ở lần boot thành công.
 
 ## Kiểm offline mạnh hơn đợt trước
 
