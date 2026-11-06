@@ -23,6 +23,13 @@
       "user_android_boot_report_available": false,
       "report_source": "../lk_h4_booted_hybrid_mte_off_v1/runtime_confirmation.json",
       "new_device_test": false
+    },
+    "locked_auto_hwc_mte_default": {
+      "sha256": "8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664",
+      "user_android_boot_report_available": false,
+      "report_source": "../lk_h4_policy_bl2_control_v3/runtime_confirmation.json",
+      "new_device_test": false,
+      "scope": "Exact retained v3 normal image; successful MTE_OFF report is not a boot confirmation for normal"
     }
   },
   "runtime_mte_or_global_rom_validation_performed": false,

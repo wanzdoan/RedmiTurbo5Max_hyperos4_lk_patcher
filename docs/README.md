@@ -54,3 +54,6 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 
 
 [Bộ hiện hành: H4 locked tự nhận vùng và unlocked hai chế độ MTE](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md): ba file giữ nguyên bytes từ nguồn, locked dùng v3 MTE_OFF đã boot; unlocked DEFAULT/OFF tách riêng. DEFAULT theo cấu hình gốc, không ép ON. Gác fakelock theo yêu cầu; giữ toàn bộ lịch sử.
+
+
+Bộ locked/unlocked đã [bổ sung locked MTE_DEFAULT, đủ bốn file](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md), SHA8ac64a98… giữ nguyên v3 normal; chưa có xác nhận boot normal. Tổng174 ca native HWC/key/MTE; ZIP ba file cũ giữ nguyên.

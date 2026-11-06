@@ -2,6 +2,13 @@
   "status": "PASS_EXACT_SELECTION_AND_TARGETED_NATIVE_CHECKS_NOT_NEW_DEVICE_TEST",
   "identities": [
     {
+      "variant": "locked_auto_hwc_mte_default",
+      "sha256": "8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664",
+      "bytes": 4083424,
+      "exact_source_identity": true,
+      "wrong_input_rejected": true
+    },
+    {
       "variant": "locked_auto_hwc_mte_off",
       "sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
       "bytes": 4083424,
@@ -26,7 +33,7 @@
   "native_counts": {
     "locked_hwc": 72,
     "known_and_corrupted_keys": 6,
-    "mte": 72
+    "mte": 96
   },
   "locked_hwc_cases": [
     {
@@ -1680,6 +1687,298 @@
   ],
   "mte_cases": [
     {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x0",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x0",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x1",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x1",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x2",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x2",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x3",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x3",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan=off"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x4",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x4",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x5",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x5",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x6",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x6",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x7",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x7",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x405",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x405",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x407",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0x407",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=16"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0xf07",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0xf07",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0xffffffff",
+      "reserved_memory_present": false,
+      "emitted_bootargs": [
+        "arm64.nomte"
+      ],
+      "booker_low_nibble": 14,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
+      "variant": "locked_auto_hwc_mte_default",
+      "mte_off": false,
+      "bits_fixture": "0xffffffff",
+      "reserved_memory_present": true,
+      "emitted_bootargs": [
+        "kasan.stacktrace=on kasan.stack_ring_size=524288",
+        "kasan.page_alloc.sample=32768"
+      ],
+      "booker_low_nibble": 15,
+      "original_mte_info_preserved": true,
+      "code_ram_modified": false
+    },
+    {
       "variant": "locked_auto_hwc_mte_off",
       "mte_off": true,
       "bits_fixture": "0x0",
@@ -2549,6 +2848,7 @@
     }
   ],
   "unlocked_pair_only_mte_branch_and_prefix_differ": true,
+  "locked_pair_only_mte_branch_and_prefix_differ": true,
   "all_signed_bl2_triples_identical": true,
   "limits": [
     "No new firmware bytes compared with retained sources; prior DER/parser/AVB evidence carries by exact identity",

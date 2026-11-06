@@ -104,3 +104,6 @@ Xem [quy trình và giới hạn](../experiments/lk_h4_eng_policy_auto_hwc_v1/RE
 ## Bộ locked/unlocked H4 ba file (2026-11-06)
 
 [Thư mục và nguồn](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md): chạy `build_bundle.py`, `validate_selection.py`, `package_release.py`. Chỉ chọn/copy đúng hash nguồn, không patch lại. 150 ca mục tiêu gồm72HWC/6key/72MTE; mọi DER/parser/AVB từ nguồn áp dụng qua exact byte identity. Kiểm ZIP CRC/hash/tái lập, hashes các ảnh nguồn vẫn nguyên. Không cần chạy lại toàn bộ main/AVB cho một bộ sao chép nguyên byte.
+
+
+Bổ sung locked MTE_DEFAULT vào bộ trên: cùng lệnh tái tạo tạo **bốn file**, `package_release.py` xuất `lk_h4_locked_unlocked_four_files.zip` và giữ ZIP ba file cũ. Kiểm174 ca (72HWC/6key/96MTE); so cả cặp locked và unlocked chỉ khác nhánh MTE/prefix, khóa nguồn v3 normal bằng SHA8ac64a98…. Không có firmware patch mới hoặc lượt boot mới.

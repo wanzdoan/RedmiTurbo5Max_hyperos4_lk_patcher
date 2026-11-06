@@ -58,3 +58,6 @@ Người dùng yêu cầu tạm gác điều tra Integrity và chuyển cơ ch�
 ### Quay lại bộ locked/unlocked H4
 
 Người dùng yêu cầu gác fakelock, dùng locked tự nhận vùng và unlocked hai chế độ MTE. [Bộ ba file](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) giữ nguyên hash nguồn: locked v3 off `6282d02b…` đã có auto HWC, unlocked DEFAULT `f57d19c9…` và unlocked OFF `7873361e…`. Hai hash đầu có báo cáo boot lịch sử; bản unlocked OFF chưa có xác nhận boot. Không có lượt thử mới và không chuyển báo cáo stock H4 preloader của f57 sang ảnh khác. [Runtime metadata](../experiments/lk_h4_locked_unlocked_bundle_v1/runtime_confirmation.json) ghi riêng từng nguồn.
+
+
+Bổ sung locked auto HWC/MTE_DEFAULT SHA256 `8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664` nguyên byte v3 normal vào bộ bốn file. Chưa có báo cáo boot đúng hash normal; báo cáo thành công bản locked OFF6282… không được dùng thay. MTE_DEFAULT giữ điều kiện gốc, chưa xác nhận MTE thực tế trong kernel.

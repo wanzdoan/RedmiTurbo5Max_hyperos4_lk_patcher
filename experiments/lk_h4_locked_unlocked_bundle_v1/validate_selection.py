@@ -45,7 +45,7 @@ def main():
             keys.append(dict(key=label,corrupted=corrupted,trusted=memory[0x700]))
     mte=[]
     for kind,image in images.items():
-        off=kind!='unlocked_mte_default'
+        off=kind.endswith('_off')
         for bits,reserved in itertools.product(tuple(range(8))+(0x405,0x407,0xf07,0xffffffff),(False,True)):
             mte.append(dict(variant=kind,**mte_case(image,bits,reserved,off)))
     default=images['unlocked_mte_default'];off=images['unlocked_mte_off']
@@ -54,6 +54,9 @@ def main():
     assert len(default)==len(off) and all(a==b or i in allowed for i,(a,b) in enumerate(zip(default,off)))
     assert default[512+0x89aec:512+0x89afc]==off[512+0x89aec:512+0x89afc]==bytes.fromhex('68008052080000b900008052c0035fd6')
     assert locked[512+0x89aec:512+0x89afc]!=default[512+0x89aec:512+0x89afc]
+    locked_default=images['locked_auto_hwc_mte_default']
+    assert len(locked_default)==len(locked) and all(a==b or i in allowed for i,(a,b) in enumerate(zip(locked_default,locked)))
+    assert locked_default[512+0x89aec:512+0x89afc]==locked[512+0x89aec:512+0x89afc]
     ref=members(locked)
     for image in images.values():
         row=members(image)
@@ -61,7 +64,8 @@ def main():
     report=dict(status='PASS_EXACT_SELECTION_AND_TARGETED_NATIVE_CHECKS_NOT_NEW_DEVICE_TEST',
         identities=identities,native_counts=dict(locked_hwc=len(hwc),known_and_corrupted_keys=len(keys),mte=len(mte)),
         locked_hwc_cases=hwc,locked_key_cases=keys,mte_cases=mte,
-        unlocked_pair_only_mte_branch_and_prefix_differ=True,all_signed_bl2_triples_identical=True,
+        unlocked_pair_only_mte_branch_and_prefix_differ=True,
+        locked_pair_only_mte_branch_and_prefix_differ=True,all_signed_bl2_triples_identical=True,
         limits=['No new firmware bytes compared with retained sources; prior DER/parser/AVB evidence carries by exact identity',
                 'Native targeted tests use hardware/storage/formatter and crypto mode fixtures; no physical flash/boot test performed',
                 'CN/non-CN routing is HWC selection, not independent hardware SKU identity or proof every regional ROM boots',

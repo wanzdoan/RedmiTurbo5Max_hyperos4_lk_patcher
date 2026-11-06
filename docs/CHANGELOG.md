@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — Bổ sung locked MTE_DEFAULT, đủ bốn file H4
+
+- Thêm bản locked auto HWC/MTE_DEFAULT nguyên byte v3 normal SHA8ac64a98…, chưa có xác nhận boot; DEFAULT theo cấu hình gốc, không ép bật MTE.
+- Bộ locked/unlocked có hai chế độ DEFAULT/OFF mỗi nhánh, kiểm174 ca native và byte identity. ZIP bốn file có tên riêng; ba ảnh và ZIP bàn giao trước giữ nguyên.
+- Checkpoint `before-h4-four-file-bundle-20261106` tại `9b2da2b` đã push trước sửa; không flash thiết bị.
+
+
 ## 2026-11-06 — Quay lại locked/unlocked H4, tách bộ ba file
 
 - Theo yêu cầu gác fakelock, bàn giao [locked policy auto HWC/MTE_OFF và unlocked DEFAULT/OFF](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) bằng bản sao nguyên byte nguồn `6282d02b…`/`f57d19c9…`/`7873361e…`. Locked v3 đã có tự nhận vùng; không patch lại hoặc đổi bytes nguồn đã boot.

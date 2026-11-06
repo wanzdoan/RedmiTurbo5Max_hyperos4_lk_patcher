@@ -63,3 +63,6 @@ Theo yêu cầu tạm dừng nhánh Integrity: [H4 fakelock v1, auto HWC + MTE_O
 
 
 Theo yêu cầu quay lại locked/unlocked: [bộ H4 ba file](experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) gồm locked policy v3 auto HWC/all-region + MTE_OFF (`6282d02b…`), unlocked MTE mặc định (`f57d19c9…`) và unlocked ép MTE_OFF (`7873361e…`). Các file là bản sao nguyên byte nguồn đã lưu, không có fakelock; MTE mặc định không đồng nghĩa ép bật trên mọi preloader. Đã kiểm byte identity và150 ca native HWC/key/MTE, không có lượt flash/boot mới.
+
+
+Bổ sung theo yêu cầu: [bộ H4 bốn file](experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) đã có thêm locked auto HWC + MTE_DEFAULT, SHA256 `8ac64a98…`, nguyên byte v3 normal. Cả locked và unlocked đều có DEFAULT/OFF; DEFAULT theo điều kiện MTE gốc, không ép ON. Bản locked normal chưa có xác nhận boot. ZIP ba file cũ giữ nguyên; ZIP bốn file tách tên riêng.

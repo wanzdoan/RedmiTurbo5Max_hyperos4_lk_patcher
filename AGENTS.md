@@ -69,3 +69,6 @@
 
 
 - 2026-11-06 latest: user bỏ qua fakelock, quay về H4 locked/unlocked; locked thêm tự nhận all-region, unlocked MTE ON/OFF. Bộ experiments/lk_h4_locked_unlocked_bundle_v1 gồm3copy nguyênbyte: locked/lk_H4_LOCKED_POLICY_AUTO_HWC_MTE_OFF.img SHA6282d02b… (v3đãboot,đãcóautoHWC), unlocked/lk_H4_UNLOCKED_MTE_DEFAULT.img SHAf57d19c9… (đãboot), unlocked/lk_H4_UNLOCKED_MTE_OFF.img SHA7873361e… (chưauserboottest). Khôngpatchlạiảnhđãchạy/khôngfakelock. DEFAULTlàchínhsáchMTEgốc,khôngépONmọicấuhình;OFFépnhánharm64.nomte,khôngsửapreloader. Lockedgetterlưubền,khôngtựlockthiếtbị;cn→CN,nonemptykhác→GLOBAL,thiếu/lỗi→hwHWC;knownENG/CN/GLkeys. 150native(72HWC+6key+72MTE) vàbyteidentity/ZIPchecks;khônglượtdevice/testmới. Checkpointbefore-h4-locked-unlocked-bundle-v1-20261106 tại6ac0224đãpush;fakelock/Integritygáclại,giữlịchsử.
+
+
+- Bổ sung cùngngày theo user: bộ lk_h4_locked_unlocked_bundle_v1 đủ4file, thêm locked/lk_H4_LOCKED_POLICY_AUTO_HWC_MTE_DEFAULT.img SHA256 8ac64a981d880b943992ba19dac927665e045e28d47b88c8f77bc664b4b2b664 nguyênbyte v3normal; chưaboottestnormal. DEFAULTkhôngforceON;locked/unlockedđềuDEFAULT+OFF. 174native(72HWC+6key+96MTE),hai cặp chỉkhácMTEbranch/prefix. ZIPmớilk_h4_locked_unlocked_four_files.zip, giữZIP3filecũnguyênbyte. Checkpointbefore-h4-four-file-bundle-20261106 tại9b2da2bđãpush;khôngflash/đổiảnhnguồn.

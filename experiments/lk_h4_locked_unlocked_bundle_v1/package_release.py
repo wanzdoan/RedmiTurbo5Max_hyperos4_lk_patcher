@@ -1,4 +1,4 @@
-"""Deterministic three-image bundle; no firmware mutation."""
+"""Deterministic four-image bundle; preserve the earlier three-image ZIP."""
 import zipfile
 from build_bundle import *
 
@@ -14,7 +14,7 @@ def main():
     names += ['README_VI.md','release_manifest.json','runtime_confirmation.json','validation.json']
     (HERE/'SHA256SUMS.txt').write_text(''.join(sha((HERE/name).read_bytes())+'  '+name+'\n' for name in names),encoding='utf-8')
     names.append('SHA256SUMS.txt')
-    target=HERE/'lk_h4_locked_unlocked_three_files.zip'
+    target=HERE/'lk_h4_locked_unlocked_four_files.zip'
     with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for name in names:
             info=zipfile.ZipInfo(name,(2026,11,6,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED
