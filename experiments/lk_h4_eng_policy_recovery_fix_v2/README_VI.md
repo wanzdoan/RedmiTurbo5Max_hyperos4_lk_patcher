@@ -1,6 +1,6 @@
 # H4 ENG policy v2 — bỏ riêng gate Secure ID trước boot như ENG H3
 
-**Ứng viên sửa lỗi recovery, chưa boot test.** User báo v1 MTE_OFF vào recovery trên ROM China và Global; chưa có log hoặc readback LK. Mô phỏng đã tái hiện một đường lỗi đúng với khác biệt ENG/release: H4 kiểm Secure ID sau AVB và gọi recovery khi checker lỗi, còn ENG H3 không có lời gọi đó tại boot caller. Chưa chứng minh đó là nguyên nhân thực trên điện thoại.
+**User đã báo v2 vẫn vào recovery; đây không phải bản fix runtime thành công.** Cùng ROM China H4 sạch, không root, đổi ENG H3 thì vào Android; fastboot của v2 báo `unlocked:no`, vẫn cho flash. Chưa có log/readback và user yêu cầu tiếp tục offline. [Đối chiếu AVB mở rộng sau thất bại](../../fresh_analysis/h4_recovery_v3_20261106/README_VI.md) cho thấy hai main đều xác minh/nạp ảnh ROM sạch trong các fixtures đã kiểm. Mô phỏng Secure-ID trước đây chỉ tái hiện một đường có thể gây recovery, không chứng minh đó là nguyên nhân thật.
 
 ## File mới, giữ nguyên v1
 

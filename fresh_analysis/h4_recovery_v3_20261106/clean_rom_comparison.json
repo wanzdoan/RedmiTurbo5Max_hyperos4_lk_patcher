@@ -1,0 +1,811 @@
+{
+  "status": "PASS_NATIVE_AVB_DIFFERENTIAL_NOT_PHYSICAL_BOOT",
+  "rom": "D:\\dash_images_OS4.0.3.0.XPLCNXM_20261021.0000.00_17.0_cn_658e7c4052_2\\dash_images_OS4.0.3.0.XPLCNXM_17.0",
+  "inputs": [
+    {
+      "file": "MT6991_Android_scatter.txt",
+      "bytes": 92222,
+      "sha256": "1562d3f3422e1da176b9d5d2ce2aa3b2fb0350c2fed002a2b0d154e056b769a7"
+    },
+    {
+      "file": "vbmeta.img",
+      "bytes": 12288,
+      "sha256": "8b0dc701039cf5b4755313f5d5382855553038d78228aeac18a0559762a52fe7"
+    },
+    {
+      "file": "vbmeta_system.img",
+      "bytes": 4096,
+      "sha256": "cc65dc902c10b0e74fe7425f1c8f0d28529a3bbb31e4751a5b06a3559359509e"
+    },
+    {
+      "file": "vbmeta_vendor.img",
+      "bytes": 4096,
+      "sha256": "6839873a8740e25fd2704513585ac3acd63489d7145185f1e71868ec5d7587b2"
+    },
+    {
+      "file": "boot.img",
+      "bytes": 67108864,
+      "sha256": "b9991f92caa9450b089465e83af9e792ca3856540ac4227a138f0a3bb6fc8c32"
+    },
+    {
+      "file": "init_boot.img",
+      "bytes": 8388608,
+      "sha256": "3d2062ae64992885cb4cfba19bac2699d1e07d7b7df91a8f0a770a493622b70a"
+    },
+    {
+      "file": "vendor_boot.img",
+      "bytes": 67108864,
+      "sha256": "4e3c1bb4b9106d386e71c85577a11194fe6a5c04e86f67eb97a4a8aba8cffcf2"
+    },
+    {
+      "file": "dtbo.img",
+      "bytes": 8388608,
+      "sha256": "b0b093d7411ab7685165c3e0adf29379e56f2ee1f98e71c535ef1c461438d5e5"
+    }
+  ],
+  "clean_cases": [
+    {
+      "kind": "h4",
+      "scenario": "clean_locked",
+      "result": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 0,
+        "error": null,
+        "seconds": 2.553,
+        "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 84569600,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 17338368
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "dtbo_a",
+            "offset": 0,
+            "bytes": 159840
+          },
+          {
+            "op": "read",
+            "name": "init_boot_a",
+            "offset": 0,
+            "bytes": 2797568
+          },
+          {
+            "op": "read",
+            "name": "vendor_boot_a",
+            "offset": 0,
+            "bytes": 64053248
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 256
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n"
+        ],
+        "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
+        "loaded_partitions": [
+          {
+            "name": "boot",
+            "bytes": 17338368
+          },
+          {
+            "name": "dtbo",
+            "bytes": 159840
+          },
+          {
+            "name": "init_boot",
+            "bytes": 2797568
+          },
+          {
+            "name": "vendor_boot",
+            "bytes": 64053248
+          }
+        ],
+        "loader": {
+          "reached_copy_sink": true,
+          "returned": false,
+          "pc": "0xffff000090710a40",
+          "lr": "0xffff00009076919c",
+          "result": 67187328,
+          "error": null,
+          "cmdlines": [
+            "root=/dev/ram",
+            "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing"
+          ],
+          "logs": [
+            "use CN avb pubkey\n",
+            "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+            "Custom get lock state...\n",
+            "custom_get_lock_state return = %d, lock_state = %d\n",
+            "vbmeta image name : %s\n",
+            "vbmeta",
+            "vbmeta image name : %s\n",
+            "boot",
+            "vbmeta image name : %s\n",
+            "vbmeta_system",
+            "vbmeta image name : %s\n",
+            "vbmeta_vendor",
+            "[AVB] sbc_enabled : %d\n",
+            "[AVB] vbmeta ep check end.\n",
+            "vbmeta image name : %s\n",
+            "vbmeta",
+            "[AVB] sku_str = %s\n",
+            "CN",
+            "[AVB]efuse sku : CN\n",
+            "[AVB]vbmeta sku match!\n",
+            "%s:%d: boot image header loaded\n",
+            "load_bootinfo_from_hdr",
+            "%s:%d: invalid boot image header\n",
+            "load_bootinfo_from_hdr",
+            "%s:%d: init_boot image header loaded\n",
+            "load_bootinfo_from_hdr",
+            "%s:%d: vendor_boot image header loaded\n",
+            "load_bootinfo_from_hdr"
+          ],
+          "selected_images": {
+            "boot": {
+              "pointer": "0x4013280",
+              "magic": "414e44524f494421"
+            },
+            "vendor_boot": {
+              "pointer": "0x538fd40",
+              "magic": "564e4452424f4f54"
+            },
+            "init_boot": {
+              "pointer": "0x50e4d00",
+              "magic": "414e44524f494421"
+            }
+          }
+        },
+        "root_handoff": {
+          "packets": [
+            [
+              3254780192,
+              3143834368857189383,
+              266533083359413030,
+              841689993845602023,
+              6248098876963179926,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              1,
+              0,
+              170000,
+              202610,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              3043334007330460818,
+              219752957756201505,
+              8102013409162474938,
+              4804065662260752230,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              20261001,
+              20261001,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+          "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+        }
+      }
+    },
+    {
+      "kind": "eng",
+      "scenario": "clean_locked",
+      "result": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 0,
+        "error": null,
+        "seconds": 2.352,
+        "image_sha256": "fe60552c60d3495ad479e34e2610ab37acca064c367f8fce750989f13f4e12a0",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 84569600,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 17338368
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "dtbo_a",
+            "offset": 0,
+            "bytes": 159840
+          },
+          {
+            "op": "read",
+            "name": "init_boot_a",
+            "offset": 0,
+            "bytes": 2797568
+          },
+          {
+            "op": "read",
+            "name": "vendor_boot_a",
+            "offset": 0,
+            "bytes": 64053248
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 256
+          }
+        ],
+        "logs": [
+          "use Factory avb pubkey\n",
+          "AVB0",
+          "Custom get lock state...\n",
+          "custom_get_lock_state return = %d, lock_state = %d\n"
+        ],
+        "cmdline": "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=18816 androidboot.vbmeta.digest=9254ccc727183c2a215a669926b80c03bab594f244227070662fb44c4478ab42 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing",
+        "loaded_partitions": [
+          {
+            "name": "boot",
+            "bytes": 17338368
+          },
+          {
+            "name": "dtbo",
+            "bytes": 159840
+          },
+          {
+            "name": "init_boot",
+            "bytes": 2797568
+          },
+          {
+            "name": "vendor_boot",
+            "bytes": 64053248
+          }
+        ],
+        "loader": {
+          "reached_copy_sink": true,
+          "returned": false,
+          "pc": "0xffff000090710588",
+          "lr": "0xffff000090769a60",
+          "result": 67187328,
+          "error": null,
+          "cmdlines": [
+            "root=/dev/ram",
+            "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing"
+          ],
+          "logs": [
+            "use Factory avb pubkey\n",
+            "AVB0",
+            "Custom get lock state...\n",
+            "custom_get_lock_state return = %d, lock_state = %d\n",
+            "%s is found in idx 0x%x, val = %s\n",
+            "com.android.build.boot.security_patch",
+            "2026-10-01",
+            "%s is found in idx 0x%x, val = %s\n",
+            "com.android.build.system.os_version",
+            "17",
+            "%s is found in idx 0x%x, val = %s\n",
+            "com.android.build.system.security_patch",
+            "2026-10-01",
+            "%s is found in idx 0x%x, val = %s\n",
+            "com.android.build.vendor.security_patch",
+            "2026-10-01",
+            "[AVB] bypass check ep rom in factory build\n",
+            "2026-10-01",
+            "[AVB] bypass check region img key in userdebug build\n",
+            "2026-10-01",
+            "%s:%d: boot image header loaded\n",
+            "load_bootinfo_from_hdr",
+            "2026-10-01",
+            "%s:%d: invalid boot image header\n",
+            "load_bootinfo_from_hdr",
+            "2026-10-01",
+            "%s:%d: init_boot image header loaded\n",
+            "load_bootinfo_from_hdr",
+            "2026-10-01",
+            "%s:%d: vendor_boot image header loaded\n",
+            "load_bootinfo_from_hdr",
+            "2026-10-01",
+            "[AVB] cmdline = %s\n",
+            "androidboot.vbmeta.device=PARTUUID=00000000-0000-0000-0000-000000000001 androidboot.vbmeta.public_key_digest=4928d8d72d6986bd220f51b777d64e98fcc4d4ecdce6c0f50625cc77ec9043ac androidboot.vbmeta.avb_version=1.2 androidboot.vbmeta.device_state=locked androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing"
+          ],
+          "selected_images": {
+            "boot": {
+              "pointer": "0x4013280",
+              "magic": "414e44524f494421"
+            },
+            "vendor_boot": {
+              "pointer": "0x538fd40",
+              "magic": "564e4452424f4f54"
+            },
+            "init_boot": {
+              "pointer": "0x50e4d00",
+              "magic": "414e44524f494421"
+            }
+          }
+        },
+        "root_handoff": {
+          "packets": [
+            [
+              3254780192,
+              3143834368857189383,
+              266533083359413030,
+              841689993845602023,
+              6248098876963179926,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              1,
+              0,
+              170000,
+              202610,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              3043334007330460818,
+              219752957756201505,
+              8102013409162474938,
+              4804065662260752230,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              20261001,
+              20261001,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3254780192,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "oem_modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556",
+          "scope": "Native packet assembly/software SHA; actual OEM key cache and SMC result are fixtures"
+        }
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "fault": "init_boot_hash",
+      "rollback_fixture": 0,
+      "expected_result": 3,
+      "result": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 3,
+        "error": null,
+        "seconds": 2.277,
+        "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 20512064,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 17338368
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "dtbo_a",
+            "offset": 0,
+            "bytes": 159840
+          },
+          {
+            "op": "read",
+            "name": "init_boot_a",
+            "offset": 0,
+            "bytes": 2797568
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "avb_slot_verify.c",
+          ":",
+          "452",
+          ": ERROR: ",
+          ": Hash of data does not match digest in descriptor.\n"
+        ]
+      }
+    },
+    {
+      "fault": "vbmeta_signature",
+      "rollback_fixture": 0,
+      "expected_result": 3,
+      "result": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 3,
+        "error": null,
+        "seconds": 0.544,
+        "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 71232,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          }
+        ],
+        "logs": [
+          "avb_rsa.c",
+          ":",
+          "279",
+          ": ERROR: ",
+          "Padding check failed.\n",
+          "avb_slot_verify.c",
+          ":",
+          "779",
+          ": ERROR: ",
+          ": Error verifying vbmeta image: "
+        ]
+      }
+    },
+    {
+      "fault": "init_boot_io",
+      "rollback_fixture": 0,
+      "expected_result": 2,
+      "result": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 2,
+        "error": null,
+        "seconds": 2.306,
+        "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 20512000,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 67108800,
+            "bytes": 64
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 17338368,
+            "bytes": 2432
+          },
+          {
+            "op": "rollback",
+            "index": 3,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "boot_a",
+            "offset": 0,
+            "bytes": 17338368
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_system_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 2,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "vbmeta_vendor_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 4,
+            "value": 0
+          },
+          {
+            "op": "read",
+            "name": "dtbo_a",
+            "offset": 0,
+            "bytes": 159840
+          },
+          {
+            "op": "read",
+            "name": "init_boot_a",
+            "offset": 0,
+            "bytes": 2797568
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "avb_slot_verify.c",
+          ":",
+          "137",
+          ": ERROR: ",
+          ": Error loading data from partition.\n"
+        ]
+      }
+    },
+    {
+      "fault": null,
+      "rollback_fixture": 64,
+      "expected_result": 4,
+      "result": {
+        "returned": true,
+        "pc": "0x3200000",
+        "result": 4,
+        "error": null,
+        "seconds": 0.559,
+        "image_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+        "state_fixture": 4,
+        "flags": 0,
+        "error_mode": 0,
+        "allocated_bytes": 72320,
+        "events": [
+          {
+            "op": "read",
+            "name": "vbmeta_a",
+            "offset": 0,
+            "bytes": 65536
+          },
+          {
+            "op": "rollback",
+            "index": 0,
+            "value": 64
+          }
+        ],
+        "logs": [
+          "use CN avb pubkey\n",
+          "If secureboot is not enabled, mismatch between the region information and reality is not an issue.\n",
+          "avb_slot_verify.c",
+          ":",
+          "914",
+          ": ERROR: ",
+          ": Image rollback index is less than the stored rollback index.\n"
+        ]
+      }
+    }
+  ],
+  "observations": [
+    "Both exact firmware mains validate the same signed China ROM with locked4 fixture and flags0",
+    "Native RSA/descriptor parsing/hash comparison/filter run; SHA engine and bulk IO/copy are host backends",
+    "Both loaders select identical boot/vendor_boot/init_boot buffers and produce identical AVB command lines",
+    "Five root handoff packets match under certified-key and boot-state fixtures",
+    "Signature corruption, init_boot corruption, IO error and rollback64 produce correct failure results",
+    "No tested clean-ROM divergence found up to the image-buffer handoff boundary"
+  ],
+  "limits": [
+    "Not a full LK boot: mode selection, RAM placement, DTB/bootconfig assembly and kernel not executed",
+    "No live image readback, boot mode, BCB, pstore or recovery log",
+    "Rollback0, stored lock4, hardware CN, GUID, absent persistence and zero-filled partition tails are fixtures",
+    "Root OEM-key extraction and secure-monitor reply are fixtures, real trusted-world validation unmeasured",
+    "This test invokes main directly and cannot distinguish BL2/preloader handoff compatibility",
+    "No filesystem/kernel dm-verity mount/FBE/banking/Integrity validation",
+    "Firmware files unchanged; no device access"
+  ]
+}

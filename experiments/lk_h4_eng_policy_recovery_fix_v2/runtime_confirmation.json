@@ -12,7 +12,8 @@
     "preloader_host_file": "C:/Users/Administrator/Downloads/preloader_dash (1).bin",
     "preloader_host_sha256": "75e93936bd14914d25380767f33e55f40aefc77db5cbfaa606af4e6641591c35"
   },
-  "v2": {"flashed": false, "android_booted": false, "locked_boot_confirmed": false, "banking_or_integrity_tested": false},
+  "v2": {"flashed_by_user_report": true, "android_booted": false, "recovery_reported": true, "fastboot_reports_unlocked": "no", "fastboot_flash_allowed_reported": true, "rom": "China OS4.0.3.0.XPLCNXM", "root_reported": false, "same_rom_boots_with_h3_eng_reported": true, "device_hash_readback_verified": false, "internal_lock_or_trusted_world_verified": false, "banking_or_integrity_tested": false},
   "offline_findings": "H4 post-AVB Secure-ID gate absent at ENG H3 caller; native failure path reproduced; actual phone cause unproven",
-  "no_device_changes_performed": true
+  "agent_performed_no_device_changes": true,
+  "latest_constraint": "User has no phone available; continue offline only"
 }
