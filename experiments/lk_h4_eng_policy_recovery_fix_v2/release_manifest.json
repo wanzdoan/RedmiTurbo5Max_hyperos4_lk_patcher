@@ -1,0 +1,17 @@
+{
+  "status": "EXPERIMENTAL_NOT_DEVICE_BOOTED",
+  "files": [
+    {
+      "variant": "default",
+      "artifact": "lk_H4_ENG_POLICY_AUTO_HWC_RECOVERY_V2_TEST.img",
+      "sha256": "f93f513ef36accfd0056dd130d6bfc592ac1944820900785c059a46eed010884",
+      "bytes": 4100080
+    },
+    {
+      "variant": "mte_off",
+      "artifact": "lk_H4_ENG_POLICY_AUTO_HWC_RECOVERY_V2_MTE_OFF_TEST.img",
+      "sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+      "bytes": 4100080
+    }
+  ]
+}

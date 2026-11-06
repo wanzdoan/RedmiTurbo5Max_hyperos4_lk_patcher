@@ -1,0 +1,28 @@
+{
+  "status": "EXPERIMENTAL_CALLSITE_FIX_NOT_DEVICE_BOOTED",
+  "variant": "mte_off",
+  "input_path": "experiments\\lk_h4_eng_policy_auto_hwc_v1\\lk_H4_STOCK_POLICY_AUTO_HWC_H3ENG_BL2_MTE_OFF_TEST.img",
+  "input_sha256": "4206c420124ec5d2e95a7e6fe22fe81b05c405abd7940a74c7e6501d8b7dc893",
+  "artifact": "lk_H4_ENG_POLICY_AUTO_HWC_RECOVERY_V2_MTE_OFF_TEST.img",
+  "output_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+  "bytes": 4100080,
+  "patch": {
+    "payload_offset": "0x147ac",
+    "file_offset": "0x149ac",
+    "old": "40010054",
+    "new": "0a000014",
+    "purpose": "Skip only post-AVB Secure-ID gate absent in H3 ENG boot_linux_from_storage"
+  },
+  "original_secinfo_verifier_getter_setter_avb_and_root_handoff_unchanged": true,
+  "hwc_keys_fastboot_mte_and_bl2_from_v1_unchanged": true,
+  "physical_device_flashed": false,
+  "physical_device_android_booted": false,
+  "limits": [
+    "Bypasses one vendor hardware/provisioning identity check at the boot call site, as ENG H3 does",
+    "Does not repair Secure-ID provisioning or establish a safe real relock/OTA process",
+    "Hypothesized recovery cause; no actual device failure log or LK readback yet",
+    "AVB signature/hash/rollback checks unchanged; modified init_boot can still fail locked boot",
+    "No forced locked/unlocked/green, no RPMB/efuse/partition write added",
+    "No hardware preloader/boot/banking/Integrity proof"
+  ]
+}

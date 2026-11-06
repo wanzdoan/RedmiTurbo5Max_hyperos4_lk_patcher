@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-06",
+  "v1_user_report": {
+    "variant": "MTE_OFF",
+    "expected_artifact_sha256_from_task_context": "4206c420124ec5d2e95a7e6fe22fe81b05c405abd7940a74c7e6501d8b7dc893",
+    "device_readback_hash_verified": false,
+    "roms_reported": ["China", "Global"],
+    "exact_rom_builds": "not supplied",
+    "outcome": "recovery instead of Android; no red/error text reported",
+    "user_suspected_locked_state": true,
+    "actual_lock_state_or_failure_log_collected": false,
+    "preloader_host_file": "C:/Users/Administrator/Downloads/preloader_dash (1).bin",
+    "preloader_host_sha256": "75e93936bd14914d25380767f33e55f40aefc77db5cbfaa606af4e6641591c35"
+  },
+  "v2": {"flashed": false, "android_booted": false, "locked_boot_confirmed": false, "banking_or_integrity_tested": false},
+  "offline_findings": "H4 post-AVB Secure-ID gate absent at ENG H3 caller; native failure path reproduced; actual phone cause unproven",
+  "no_device_changes_performed": true
+}

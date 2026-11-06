@@ -1,0 +1,245 @@
+{
+  "status": "PASS_OFFLINE_NOT_DEVICE_BOOT",
+  "cases": [
+    {
+      "variant": "default",
+      "output_sha256": "f93f513ef36accfd0056dd130d6bfc592ac1944820900785c059a46eed010884",
+      "bl2_triple_unchanged": true,
+      "locator": {
+        "status": "0x0",
+        "member_offset": "0x13acb0",
+        "header_reads": [
+          {
+            "offset": "0x0",
+            "bytes": 512
+          },
+          {
+            "offset": "0x139d50",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13a620",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13acb0",
+            "bytes": 512
+          }
+        ],
+        "storage": "read-only host fixture; no phone access"
+      },
+      "certificate_and_hash": {
+        "return_status": 0,
+        "native_entries": {
+          "0xa5c68": 1,
+          "0xa6760": 1,
+          "0xa6100": 1,
+          "0x9c700": 1
+        },
+        "backends": [
+          {
+            "backend": "SHA256",
+            "length": 645,
+            "digest": "85958b0573f026c630d7ad6be0c1b8d15e55d45e4754337f480b51c204c56ba8"
+          },
+          {
+            "backend": "RSA_public_exponentiation",
+            "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "8370c79eb691533ba1c808a557df720d296cd5eaf67f8241139a811b0055c5f5"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "dad9feab37214f7efc054b9c3f54568262b2a1687b655d3088866839a99194d1"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "cd3096f79e94ac310c1de1ef07a701b7fb903350b6f2b7dd9680346603f7eae4"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "f6ce435cabee991e42581d3fc06dd53607a4f372bef75c20a66b465778cceaaa"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "95b327baf5cb682d00446055c0a2d6eec87a2b5888dd7da094aa9601122ae53b"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "335eb59569dc70591956361bf76f194fb4248a177001e808f9d27cb7f91538af"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "fb003ee53463ac084bdf8bed327313da78c6bfff1ad650450aba0f23862a6d04"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 72,
+            "digest": "210fa7fa36b5fb86eea47ae6c0c3243cc80c8e8cb9e9e2060abd3cfca4f0363d"
+          },
+          {
+            "backend": "SHA256",
+            "length": 512,
+            "digest": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8"
+          },
+          {
+            "backend": "SHA256",
+            "length": 1095920,
+            "digest": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631"
+          }
+        ],
+        "content_checks": [
+          {
+            "component": "header",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8"
+          },
+          {
+            "component": "payload",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631"
+          }
+        ],
+        "extracted_header_hash": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8",
+        "extracted_payload_hash": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631",
+        "linked_base": "0x2000f00",
+        "crypto_success_unconditionally_mocked": false
+      }
+    },
+    {
+      "variant": "mte_off",
+      "output_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+      "bl2_triple_unchanged": true,
+      "locator": {
+        "status": "0x0",
+        "member_offset": "0x13acb0",
+        "header_reads": [
+          {
+            "offset": "0x0",
+            "bytes": 512
+          },
+          {
+            "offset": "0x139d50",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13a620",
+            "bytes": 512
+          },
+          {
+            "offset": "0x13acb0",
+            "bytes": 512
+          }
+        ],
+        "storage": "read-only host fixture; no phone access"
+      },
+      "certificate_and_hash": {
+        "return_status": 0,
+        "native_entries": {
+          "0xa5c68": 1,
+          "0xa6760": 1,
+          "0xa6100": 1,
+          "0x9c700": 1
+        },
+        "backends": [
+          {
+            "backend": "SHA256",
+            "length": 645,
+            "digest": "85958b0573f026c630d7ad6be0c1b8d15e55d45e4754337f480b51c204c56ba8"
+          },
+          {
+            "backend": "RSA_public_exponentiation",
+            "modulus_sha256": "07ac65a4b324a12b2603875a6deab203e7f62a069748ae0b964de822d3b4b556"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "8370c79eb691533ba1c808a557df720d296cd5eaf67f8241139a811b0055c5f5"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "dad9feab37214f7efc054b9c3f54568262b2a1687b655d3088866839a99194d1"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "cd3096f79e94ac310c1de1ef07a701b7fb903350b6f2b7dd9680346603f7eae4"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "f6ce435cabee991e42581d3fc06dd53607a4f372bef75c20a66b465778cceaaa"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "95b327baf5cb682d00446055c0a2d6eec87a2b5888dd7da094aa9601122ae53b"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "335eb59569dc70591956361bf76f194fb4248a177001e808f9d27cb7f91538af"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 36,
+            "digest": "fb003ee53463ac084bdf8bed327313da78c6bfff1ad650450aba0f23862a6d04"
+          },
+          {
+            "backend": "SHA256_stream",
+            "length": 72,
+            "digest": "210fa7fa36b5fb86eea47ae6c0c3243cc80c8e8cb9e9e2060abd3cfca4f0363d"
+          },
+          {
+            "backend": "SHA256",
+            "length": 512,
+            "digest": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8"
+          },
+          {
+            "backend": "SHA256",
+            "length": 1095920,
+            "digest": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631"
+          }
+        ],
+        "content_checks": [
+          {
+            "component": "header",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8"
+          },
+          {
+            "component": "payload",
+            "hash_helper_return": 0,
+            "native_comparison_return": "0x0",
+            "match": true,
+            "sha256": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631"
+          }
+        ],
+        "extracted_header_hash": "0a8b4b94826546ff7d97273421b23c8cb77c8bc576c557fa969258995e8190f8",
+        "extracted_payload_hash": "ab5a5fbcc6c5260deed7b21d835732d530a6a847bae8b907b6af924f77030631",
+        "linked_base": "0x2000f00",
+        "crypto_success_unconditionally_mocked": false
+      }
+    }
+  ],
+  "limits": [
+    "Same H4 stock preloader as previous audit; live ENG75e939 fixture not emulated",
+    "Keys/mode/heap/crypto backends are explicit fixtures; no efuse/rollback/handoff test"
+  ]
+}

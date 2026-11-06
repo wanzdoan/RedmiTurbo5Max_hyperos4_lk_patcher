@@ -86,3 +86,7 @@ Chạy `build_mte_off.py`, `validate_mte_off.py`, `package_six.py` tại `experi
 ## H4 stock-policy auto HWC dùng bộ nạp ENG H3 (2026-11-06)
 
 Xem [quy trình và giới hạn](../experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md). Chạy `build_port.py`, `validate_port.py`, `validate_behavior.py`, `package_release.py` trong thư mục thử nghiệm đó. Mỗi ảnh có390 trường hợp main có đối chứng/fixture,3parser ENG và10DER; normal và MTE_OFF có report/hash riêng. Không chạy builder H4 force-unlock cũ để tái tạo nhánh này. Đối chiếu getter/setter native không phải thực hiện relock máy; chưa xác nhận preloader H4 hoặc boot thực tế.
+
+## H4 recovery-fix v2 (2026-11-06)
+
+[Quy trình](../experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md): `build_fix.py`, `validate_fix.py`, `validate_regression.py`, `package_release.py` tại thư mục v2. Regression dùng API probes v1 với bytes v2, ghi report v2 riêng; không ghi đè artifacts/probes cũ. Gate Secure ID bị bỏ ở một boot call site, verifier gốc kiểm riêng vẫn có kết quả/lỗi như trước. Mocks không phải trạng thái/token/provisioning máy thật.

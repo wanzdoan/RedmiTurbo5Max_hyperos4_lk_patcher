@@ -50,3 +50,5 @@ Theo yêu cầu quay lại đúng H4 đã boot: [biến thể H4 hybrid f57 ch�
 Theo yêu cầu06-11: [ENG gốc stock-policy China, MTE gốc/off](experiments/lk_eng_stock_policy_cn_only_v1/README_VI.md). Giữ HWC/flash-region China gốc, chỉ thêm trust khóa China cạnh ENG; không thêm khóa Global, không ép unlock/fakelock. Hai file mới chưa boot test.
 
 Theo đúng nhánh H3 được người dùng xác nhận trong ZIP sáu file: [H4 stock-policy + auto HWC, normal/MTE_OFF](experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md). Main/AEE/DTB H4 và bộ nạp có chữ ký ENG H3; port khóa/vùng và một số gate main, không giả locked/green. Đã kiểm offline; chưa boot/lock hoặc chứng minh dùng preloader H4, không phải bản ENG H4 đầy đủ.
+
+User đã thử H4 v1 MTE_OFF và báo vào recovery trên China/Global. [Ứng viên sửa v2](experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md) bỏ riêng gate Secure ID sau AVB tại boot caller vốn không có trong ENG H3; giữ khóa thật/AVB/HWC/MTE. Đã tái hiện đường lỗi bằng native replay, chưa chứng minh nguyên nhân trên máy hoặc boot bản sửa.

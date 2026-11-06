@@ -1,0 +1,774 @@
+{
+  "status": "PASS_OFFLINE_NATIVE_NOT_DEVICE_BOOT",
+  "output_sha256": "f93f513ef36accfd0056dd130d6bfc592ac1944820900785c059a46eed010884",
+  "input_h4_sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+  "input_h3_eng_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "deterministic_rebuild": true,
+  "wrong_inputs_rejected": true,
+  "counts": {
+    "key_cases": 57,
+    "policy_comparisons": 24,
+    "bl2_parsers": 3,
+    "der": 10
+  },
+  "key_cases": [
+    {
+      "key": "CN",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 1,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "CN_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "CN_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "CN_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "CN_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "CN_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "CN_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 0,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 4,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 7,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 8,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 263,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 519,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 521,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 1031,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "CN_bad_size",
+      "bits": 4096,
+      "size": 1033,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 1,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "GL_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "GL_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "GL_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "GL_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "GL_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "GL_mutated",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 0,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 4,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 7,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 8,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 263,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 519,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 521,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 1031,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "GL_bad_size",
+      "bits": 4096,
+      "size": 1033,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 1,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_mutated",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_mutated",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_mutated",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_mutated",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_mutated",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_mutated",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 0,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 4,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 7,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 8,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 263,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 519,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 521,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 1031,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "ENG_bad_size",
+      "bits": 2048,
+      "size": 1033,
+      "rc": 2,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "unknown",
+      "bits": 1024,
+      "size": 264,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "unknown",
+      "bits": 2048,
+      "size": 520,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "unknown",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": true,
+      "pass_result": true
+    },
+    {
+      "key": "unknown",
+      "bits": 8192,
+      "size": 2056,
+      "rc": 0,
+      "trusted": 0,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "null",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 2,
+      "trusted": 165,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "null",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 2,
+      "trusted": 165,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "null",
+      "bits": 4096,
+      "size": 1032,
+      "rc": 2,
+      "trusted": 165,
+      "native_memcmp": false,
+      "pass_result": true
+    },
+    {
+      "key": "digest_corruption",
+      "rc": 0,
+      "trusted": 0,
+      "pass_result": true
+    },
+    {
+      "key": "sha_failure",
+      "rc": 0,
+      "trusted": 0,
+      "pass_result": true
+    }
+  ],
+  "original_vs_output_policy": [
+    {
+      "stored_state_fixture": 0,
+      "boot_type": 0,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 0,
+      "boot_type": 1,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 0,
+      "boot_type": 2,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 0,
+      "boot_type": 4294967295,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 1,
+      "boot_type": 0,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 1,
+      "boot_type": 1,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 1,
+      "boot_type": 2,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 1,
+      "boot_type": 4294967295,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 2,
+      "boot_type": 0,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 2,
+      "boot_type": 1,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 2,
+      "boot_type": 2,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 2,
+      "boot_type": 4294967295,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 3,
+      "boot_type": 0,
+      "original_return": 0,
+      "output_return": 0,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 3,
+      "boot_type": 1,
+      "original_return": 0,
+      "output_return": 0,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 3,
+      "boot_type": 2,
+      "original_return": 0,
+      "output_return": 0,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 3,
+      "boot_type": 4294967295,
+      "original_return": 0,
+      "output_return": 0,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4,
+      "boot_type": 0,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4,
+      "boot_type": 1,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4,
+      "boot_type": 2,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4,
+      "boot_type": 4294967295,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4294967295,
+      "boot_type": 0,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4294967295,
+      "boot_type": 1,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4294967295,
+      "boot_type": 2,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    },
+    {
+      "stored_state_fixture": 4294967295,
+      "boot_type": 4294967295,
+      "original_return": 1,
+      "output_return": 1,
+      "pass_result": true
+    }
+  ],
+  "eng_bl2_parsers": [
+    {
+      "kind": "parser",
+      "mask": "0x60",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+      "payload_hash": "5ef9984a3bebfb74151f75d09a86b98b875b94b4594094e979653752abeb7a2b"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f4e2",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "c0f25a095b1b1d3bfe4eeffb430410035340fccd8240b6142cbb08cec275db81",
+      "payload_hash": "5ef9984a3bebfb74151f75d09a86b98b875b94b4594094e979653752abeb7a2b"
+    },
+    {
+      "kind": "parser",
+      "mask": "0x1f400",
+      "sboot_mock": null,
+      "helper_status_mock": null,
+      "result": 0,
+      "policy_path": [],
+      "header_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "payload_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "certificates": [
+    {
+      "index": 1,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 2,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 4,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 5,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 7,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 8,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 10,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 11,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 13,
+      "retained_der_signature_valid": true
+    },
+    {
+      "index": 14,
+      "retained_der_signature_valid": true
+    }
+  ],
+  "no_external_direct_branches_into_callback_interior": true,
+  "limitations": [
+    "PAC and logging/boot-selection helpers modeled; getter mocked for policy fixtures",
+    "Actual memcmp, AVB predicate, BL2 parser code run; no full load/auth/SoC boot",
+    "No phone flash, lock, root, OTA or Play Integrity testing",
+    "Signature math verifies retained DER, not a new OEM signature for modified main"
+  ]
+}

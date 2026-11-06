@@ -1,12 +1,12 @@
 {
   "date": "2026-11-06",
-  "scope": "User reports historical H3 stock_policy_auto_hwc branch working; no H4 candidate runtime test",
+  "scope": "H3 reference reported working; later H4 v1 MTE_OFF reported entering recovery on China and Global",
   "reference_zip": "experiments/lk_h3_eng_mte_off_v1/lk_eng_all_region_6_files.zip",
   "reference_zip_sha256": "66e55fd39ae9840c4abeea512fee0f6e68eb925914ce7c4829c5f8f3f2c5c9a6",
   "reference_branch": "stock_policy_auto_hwc",
   "user_report": {"roms_used_boot": true, "lock_worked": true, "banking_and_features_worked": true},
   "exact_running_variant_normal_or_off": "not distinguished",
   "running_reference_hash_readback_verified": false,
-  "new_h4_candidates": {"flashed": false, "booted": false, "locked": false, "stock_h4_preloader_tested": false, "banking_tested": false, "play_integrity_tested": false},
+  "new_h4_candidates": {"flashed_by_user_report": true, "tested_variant": "MTE_OFF", "android_booted": false, "recovery_reported": true, "device_lk_hash_readback_verified": false, "actual_lock_state_verified": false, "stock_h4_preloader_tested": false, "banking_tested": false, "play_integrity_tested": false, "reported_preloader_host_sha256": "75e93936bd14914d25380767f33e55f40aefc77db5cbfaa606af4e6641591c35"},
   "limits": ["A branch-level user report is not proof for all ROMs or both H4 outputs", "Prior H4 f57 boot confirmation belongs to a different BL2 donor"]
 }

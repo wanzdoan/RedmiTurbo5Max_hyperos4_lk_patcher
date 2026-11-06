@@ -134,3 +134,10 @@
 - Đúng preloader SHA104bb972...; bảy ảnh tham chiếu/new được khóa hash. Chạy coordinator cert2/ASN.1/key compare/PSS native; SHA/RSA dùng backend toán học host, không ép signature-valid.
 - 7cert2 positive,7cặp hash native,8locator,21parser BL2,21đối chứng lỗi,48policy đạt kiểm tra phạm vi; hai H4 mới và nhánh H3 stock-policy giữ cùng signed BL2 ENG triple.
 - Không thay firmware hoặc flash/lock/đọc trạng thái bảo mật điện thoại. Chưa xác nhận hardware acceptance/rollback/handoff/full boot. Docs và ZIP evidence H4 cập nhật; hashes ảnh giữ nguyên. [Evidence](../fresh_analysis/h4_preloader_lk_acceptance_20261106/README_VI.md).
+
+## 2026-11-06 — V1 H4 MTE_OFF vào recovery; ứng viên v2 bỏ gate Secure ID tại boot caller
+
+- User báo thử China và Global với preloader ENG `preloader_dash (1).bin` SHA75e93936...; chỉ vào recovery, không thông báo chữ đỏ. Chưa có log/readback hoặc actual lock-state.
+- Phát hiện caller H4 `0x14714` gọi Secure-ID checker sau AVB, lỗi gọi recovery; caller ENG H3 không có block tương ứng. V1 chỉ mở chốt vùng bên trong, vẫn giữ gate tổng này.
+- V2 đổi riêng instruction payload0x147ac `b.eq` thành `b` tới0x147d4 và cập nhật hash prefix; giữ getter/setter/AVB/root handoff và mọi chức năng v1. Đây là bỏ một vendor hardware-binding gate tại call site, không sửa provisioning.
+- Mỗi ảnh:96cặp caller,8cặp checker gốc;8ENG control chung. Hồi quy390trường hợp main +3parser +10DER mỗi ảnh, cùng native audit BL2 trên stock preloader H4. Chưa flash/boot bản sửa; chưa chứng minh nguyên nhân recovery thực. [Docs và file](../experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md).

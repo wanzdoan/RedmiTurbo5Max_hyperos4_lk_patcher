@@ -1,0 +1,6339 @@
+{
+  "status": "PASS",
+  "h4_variants": {
+    "default": {
+      "status": "PASS_NATIVE_CALLSITE_REPRODUCTION_NOT_DEVICE_FIX_CONFIRMATION",
+      "input_sha256": "da05dc16e6a2e1d48a7f824a9382cf9a4dc4ce3ad1fe58387ca34519a65cbf3c",
+      "output_sha256": "f93f513ef36accfd0056dd130d6bfc592ac1944820900785c059a46eed010884",
+      "cases": [
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        }
+      ],
+      "direct_verifier_unchanged_cases": [
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 0,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x0",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 0,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 14,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x0",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 14,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 0,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x0",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 0,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 14,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x9",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture",
+            "primary_Secure_ID_read_fixture",
+            "fallback_Secure_ID_read_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 14,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        }
+      ],
+      "paired_case_count": 96,
+      "direct_case_count": 8,
+      "actual_changed_bytes": 67,
+      "limits": [
+        "Native Secure-ID caller/predicate/error handling; state/storage/binding/UFS results are fixtures",
+        "Recovery routine stopped at entry before any write/reboot",
+        "No actual failure log, Secure-ID record or current lock state read from phone",
+        "A reproduced possible path is not proof it caused this reported recovery"
+      ]
+    },
+    "mte_off": {
+      "status": "PASS_NATIVE_CALLSITE_REPRODUCTION_NOT_DEVICE_FIX_CONFIRMATION",
+      "input_sha256": "4206c420124ec5d2e95a7e6fe22fe81b05c405abd7940a74c7e6501d8b7dc893",
+      "output_sha256": "48912f04727fede359a77dbe57dcb636cbb70f52121f7052ab00af46fbc22c53",
+      "cases": [
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 0,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 1,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 2,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 3,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 0,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture",
+              "secure_boot_fixture",
+              "primary_Secure_ID_read_fixture",
+              "fallback_Secure_ID_read_fixture",
+              "binding_compare_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 0,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 9,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 0,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        },
+        {
+          "original": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "recovery_entry",
+            "calls": [
+              "native_Secure_ID_verifier",
+              "stored_lock_state_fixture"
+            ],
+            "no_device_or_persistent_writes": true
+          },
+          "fixed": {
+            "boot_mode": 255,
+            "stored_state": 4,
+            "sbc": 14,
+            "query_error": 7,
+            "primary_error": 7,
+            "fallback_error": 0,
+            "binding_error": 1,
+            "direct_verifier": false,
+            "outcome": "continue_boot",
+            "calls": [],
+            "no_device_or_persistent_writes": true
+          }
+        }
+      ],
+      "direct_verifier_unchanged_cases": [
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 0,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x0",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 0,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 14,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x0",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 3,
+          "sbc": 14,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 0,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x0",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 0,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 14,
+          "query_error": 0,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x9",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture",
+            "secure_boot_fixture",
+            "primary_Secure_ID_read_fixture",
+            "fallback_Secure_ID_read_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        },
+        {
+          "boot_mode": 0,
+          "stored_state": 4,
+          "sbc": 14,
+          "query_error": 7,
+          "primary_error": 7,
+          "fallback_error": 9,
+          "binding_error": 1,
+          "direct_verifier": true,
+          "outcome": "return_0x7",
+          "calls": [
+            "native_Secure_ID_verifier",
+            "stored_lock_state_fixture"
+          ],
+          "no_device_or_persistent_writes": true
+        }
+      ],
+      "paired_case_count": 96,
+      "direct_case_count": 8,
+      "actual_changed_bytes": 67,
+      "limits": [
+        "Native Secure-ID caller/predicate/error handling; state/storage/binding/UFS results are fixtures",
+        "Recovery routine stopped at entry before any write/reboot",
+        "No actual failure log, Secure-ID record or current lock state read from phone",
+        "A reproduced possible path is not proof it caused this reported recovery"
+      ]
+    }
+  },
+  "h3_eng_native_control": [
+    {
+      "boot_mode": 0,
+      "stored_state": 3,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    },
+    {
+      "boot_mode": 0,
+      "stored_state": 4,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    },
+    {
+      "boot_mode": 1,
+      "stored_state": 3,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    },
+    {
+      "boot_mode": 1,
+      "stored_state": 4,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    },
+    {
+      "boot_mode": 2,
+      "stored_state": 3,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    },
+    {
+      "boot_mode": 2,
+      "stored_state": 4,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    },
+    {
+      "boot_mode": 255,
+      "stored_state": 3,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    },
+    {
+      "boot_mode": 255,
+      "stored_state": 4,
+      "sbc": 14,
+      "query_error": 0,
+      "primary_error": 7,
+      "fallback_error": 9,
+      "binding_error": 1,
+      "direct_verifier": false,
+      "outcome": "continue_boot",
+      "calls": [],
+      "no_device_or_persistent_writes": true
+    }
+  ],
+  "native_h3_eng_control_cases": 8,
+  "hardware_tested": false
+}

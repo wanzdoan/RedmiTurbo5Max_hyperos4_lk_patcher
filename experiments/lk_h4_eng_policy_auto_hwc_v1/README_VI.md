@@ -1,6 +1,6 @@
 # H4 stock-policy + HWC tự chọn vùng — bản thử dùng BL2 ENG H3
 
-Ngày2026-11-06. Chuyển các chức năng đã xác định từ nhánh **`stock_policy_auto_hwc`** trong ZIP sáu file H3 sang main H4. Đây là **bản port chức năng trên main H4 thương mại, ghép bộ nạp ENG H3**, không phải bản ENG H4 chính thức hoặc chuyển toàn bộ firmware thành ENG. **Chưa flash/boot/lock hoặc kiểm với preloader H4 trên máy.**
+Ngày2026-11-06. Chuyển các chức năng đã xác định từ nhánh **`stock_policy_auto_hwc`** trong ZIP sáu file H3 sang main H4. Đây là **bản port chức năng trên main H4 thương mại, ghép bộ nạp ENG H3**, không phải bản ENG H4 chính thức hoặc chuyển toàn bộ firmware thành ENG. **User đã thử MTE_OFF và báo vào recovery trên China/Global với preloader ENG; chưa xác nhận Android boot hoặc stock preloader H4.** Xem [ứng viên sửa riêng v2](../lk_h4_eng_policy_recovery_fix_v2/README_VI.md); giữ nguyên bytes v1 để đối chiếu.
 
 ## Hai file riêng
 
