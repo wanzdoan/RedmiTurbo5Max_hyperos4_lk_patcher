@@ -51,3 +51,6 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 
 
 [H4 fakelock v1 theo H3 ENG fakelock v2 mới nhất](../experiments/lk_h4_fakelock_v1/README_VI.md): một ảnh auto HWC/MTE_OFF riêng, dùng nền policy v3 đã boot và getter H4 unlocked; giữ BL2 H3 thương mại của v3. 426 ca main, chứng chỉ/parser, AVB/loader và ca init_boot lỗi hash được kiểm offline. Chưa boot ảnh mới; nhánh điều tra Integrity tạm dừng theo yêu cầu.
+
+
+[Bộ hiện hành: H4 locked tự nhận vùng và unlocked hai chế độ MTE](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md): ba file giữ nguyên bytes từ nguồn, locked dùng v3 MTE_OFF đã boot; unlocked DEFAULT/OFF tách riêng. DEFAULT theo cấu hình gốc, không ép ON. Gác fakelock theo yêu cầu; giữ toàn bộ lịch sử.

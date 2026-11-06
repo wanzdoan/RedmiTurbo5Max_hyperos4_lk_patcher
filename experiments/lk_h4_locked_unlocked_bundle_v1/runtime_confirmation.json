@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06",
+  "scope": "Exact-byte copies of retained images; no new device test",
+  "files": {
+    "locked_auto_hwc_mte_off": {
+      "sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+      "historical_user_android_boot": true,
+      "historical_user_banking_works": true,
+      "historical_user_h4_integrity": "All three fail per user in Play Integrity API Checker",
+      "report_source": "../lk_h4_policy_bl2_control_v3/runtime_confirmation.json",
+      "new_device_test": false
+    },
+    "unlocked_mte_default": {
+      "sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+      "historical_user_android_boot": true,
+      "historical_user_fastboot_unlocked": "yes",
+      "historical_stock_h4_preloader_success_report": true,
+      "report_source": "../../fresh_analysis/output/runtime_confirmation.json",
+      "new_device_test": false
+    },
+    "unlocked_mte_off": {
+      "sha256": "7873361e63ade5e6840d985c23c44bbb01fe449e7f89fd3ebbdba0d3d244e2a4",
+      "user_android_boot_report_available": false,
+      "report_source": "../lk_h4_booted_hybrid_mte_off_v1/runtime_confirmation.json",
+      "new_device_test": false
+    }
+  },
+  "runtime_mte_or_global_rom_validation_performed": false,
+  "device_actions": "none"
+}

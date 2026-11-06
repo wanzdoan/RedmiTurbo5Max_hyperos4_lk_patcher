@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — Quay lại locked/unlocked H4, tách bộ ba file
+
+- Theo yêu cầu gác fakelock, bàn giao [locked policy auto HWC/MTE_OFF và unlocked DEFAULT/OFF](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) bằng bản sao nguyên byte nguồn `6282d02b…`/`f57d19c9…`/`7873361e…`. Locked v3 đã có tự nhận vùng; không patch lại hoặc đổi bytes nguồn đã boot.
+- DEFAULT giữ chính sách MTE gốc, không gọi là force-ON; OFF ép đường LK xuất arm64.nomte. 150 ca native mục tiêu HWC/key/MTE đạt, DER/parser/AVB kế thừa qua byte identity. Bản unlocked OFF vẫn chưa có xác nhận boot.
+- Checkpoint `before-h4-locked-unlocked-bundle-v1-20261106` tại `6ac0224` đã push. Mọi artifact cũ giữ lại; không flash hay đổi trạng thái khóa máy.
+
+
 ## 2026-11-06 — H4 fakelock v1 theo H3 ENG fakelock v2
 
 - Theo yêu cầu tạm gác Integrity, chốt đúng tham chiếu H3 fakelock v2/auto HWC/MTE_OFF `9af2950d…` và nền H4 policy v3 off đã boot `6282d02b…`; getter16byte từ H4 unlocked f57.

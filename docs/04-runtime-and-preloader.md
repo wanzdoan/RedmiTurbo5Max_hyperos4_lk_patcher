@@ -53,3 +53,8 @@ Người dùng xác nhận banking H4 hoạt động đầy đủ. Giữ nguyên
 ### H4 fakelock v1 mới — chưa có runtime report
 
 Người dùng yêu cầu tạm gác điều tra Integrity và chuyển cơ chế H3 ENG fakelock gần nhất sang H4. [Ảnh mới](../experiments/lk_h4_fakelock_v1/README_VI.md), SHA256 `5ca64119c1aa019350d81652d800c0c87d6fefa553e8389580c1ddf15eeb6aa6`, giữ H4 policy v3 MTE_OFF `6282d02b…` làm nền và signed BL2 thương mại nguyên byte; getter force3 lấy từ H4 unlocked f57. Nội bộ unlocked, public locked/green là giá trị giả. Kết quả banking/boot của v3 không chuyển thành xác nhận cho ảnh mới. [Biên bản](../experiments/lk_h4_fakelock_v1/runtime_confirmation.json) hiện chưa có boot/root/Integrity/OTA/Keystore test. Agent không flash hoặc thao tác thiết bị.
+
+
+### Quay lại bộ locked/unlocked H4
+
+Người dùng yêu cầu gác fakelock, dùng locked tự nhận vùng và unlocked hai chế độ MTE. [Bộ ba file](../experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) giữ nguyên hash nguồn: locked v3 off `6282d02b…` đã có auto HWC, unlocked DEFAULT `f57d19c9…` và unlocked OFF `7873361e…`. Hai hash đầu có báo cáo boot lịch sử; bản unlocked OFF chưa có xác nhận boot. Không có lượt thử mới và không chuyển báo cáo stock H4 preloader của f57 sang ảnh khác. [Runtime metadata](../experiments/lk_h4_locked_unlocked_bundle_v1/runtime_confirmation.json) ghi riêng từng nguồn.

@@ -60,3 +60,6 @@ Bổ sung từ người dùng: cùng Policy H4 v3 MTE_OFF chạy đầy đủ ba
 
 
 Theo yêu cầu tạm dừng nhánh Integrity: [H4 fakelock v1, auto HWC + MTE_OFF](experiments/lk_h4_fakelock_v1/README_VI.md), SHA256 `5ca64119…`, từ H4 policy v3 MTE_OFF đã boot + getter của H4 unlocked f57, chuyển cơ chế H3 ENG fakelock v2 mới nhất `9af2950d…`. Getter nội bộ unlocked, public locked/green, cache thật giữ nguyên; bộ nạp thương mại đã boot giữ nguyên. 426 ca main native gồm 4 ca tham chiếu H3, DER/parser và AVB/loader đạt trong scope offline; ảnh mới chưa boot/root/banking/Integrity test.
+
+
+Theo yêu cầu quay lại locked/unlocked: [bộ H4 ba file](experiments/lk_h4_locked_unlocked_bundle_v1/README_VI.md) gồm locked policy v3 auto HWC/all-region + MTE_OFF (`6282d02b…`), unlocked MTE mặc định (`f57d19c9…`) và unlocked ép MTE_OFF (`7873361e…`). Các file là bản sao nguyên byte nguồn đã lưu, không có fakelock; MTE mặc định không đồng nghĩa ép bật trên mọi preloader. Đã kiểm byte identity và150 ca native HWC/key/MTE, không có lượt flash/boot mới.
