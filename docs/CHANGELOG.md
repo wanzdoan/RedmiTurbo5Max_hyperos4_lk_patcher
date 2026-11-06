@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — Người dùng xác nhận Policy H4 v3 MTE_OFF boot
+
+- Chốt đúng biến thể `6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52` đã vào Android; normal và diagnostic vẫn chưa có báo cáo boot.
+- Cập nhật [biên bản runtime](../experiments/lk_h4_policy_bl2_control_v3/runtime_confirmation.json), README và metadata/bundle; giữ nguyên bytes và tên cả ba ảnh v3, mọi artifact cũ.
+- So với v2 MTE_OFF, main/cert không đổi, bộ ba BL2 có chữ ký đổi về donor thương mại đã boot. Chưa kết luận cơ chế lỗi cụ thể hoặc xác nhận OTA/banking/Integrity/stock H4 preloader.
+
+
 ## 2026-11-04 — Tiền kiểm lock thật và OTA China
 
 - Push checkpoint `before-stock-relock-ota-research-20261104` ở`e3e27af`, giữ mọi artifact trước.

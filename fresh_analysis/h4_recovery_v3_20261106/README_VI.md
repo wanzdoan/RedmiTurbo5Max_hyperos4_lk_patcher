@@ -39,6 +39,11 @@ Năm đối chứng âm tính H4: sửa byte init_boot/countrycode→mismatch3; 
 
 Hướng thử có kiểm soát: giữ nguyên main/cert/AEE/DTB của v2, chỉ thay signed BL2 triple bằng đúng triple từ f57 đã boot; giữ normal/off riêng. Một control force-unlocked dùng BL2 ENG có thể tách thêm biến số khi có máy. Không bỏ thêm signature/hash hoặc giả green vì chưa có bằng chứng những bước đó chặn ROM sạch trong mô hình.
 
-Chưa xác định nguyên nhân thực, chưa có firmware sửa được boot xác nhận. Các bước chưa được bao phủ: mode/BCB thực, provisioning và rollback thực, mọi thiết bị/driver, bootconfig/DTB/ramdisk handoff, kernel/FBE/dm-verity, trusted world, phản hồi recovery. Kết quả fixture không thay thế kiểm thiết bị. Chỉ kiểm metadata của system/vendor, chưa đọc/kiểm mọi block của super trên máy.
+Tại thời điểm chạy phân tích offline này chưa xác định nguyên nhân thực hoặc có firmware sửa boot được xác nhận. Các bước chưa được bao phủ: mode/BCB thực, provisioning và rollback thực, mọi thiết bị/driver, bootconfig/DTB/ramdisk handoff, kernel/FBE/dm-verity, trusted world, phản hồi recovery. Kết quả fixture không thay thế kiểm thiết bị. Chỉ kiểm metadata của system/vendor, chưa đọc/kiểm mọi block của super trên máy.
 
 Tái tạo: `python fresh_analysis/h4_recovery_v3_20261106/compare_clean_rom.py`. Không dùng Python`-O`. Không patch ảnh nguồn, không flash hay ghi dữ liệu bảo mật. Checkpoint trước nghiên cứu:`before-h4-recovery-v3-investigation-20261106` tại`5d04b69`.
+
+
+## Bổ sung báo cáo máy thật ngày 2026-11-06
+
+Người dùng đã xác nhận [Policy v3 MTE_OFF](../../experiments/lk_h4_policy_bl2_control_v3/README_VI.md), SHA256 `6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52`, vào Android. Main/cert main giữ nguyên v2 MTE_OFF; thay riêng signed BL2 triple/layout bằng bộ H3 thương mại từ f57. Kết quả khoanh vùng khác biệt phía bộ nạp/bàn giao, chưa chứng minh một lệnh hay cơ chế cụ thể. Không sửa kết quả offline thành hardware PASS; [runtime_confirmation.json](../../experiments/lk_h4_policy_bl2_control_v3/runtime_confirmation.json) giữ báo cáo riêng và các giới hạn.

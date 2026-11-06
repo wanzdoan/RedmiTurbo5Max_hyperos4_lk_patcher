@@ -10,12 +10,46 @@
     "h3_eng_with_same_rom_boots": true,
     "device_readback_or_failure_log_available": false
   },
-  "constraint": "User has no phone available; offline only",
-  "v3_variants": {"physically_flashed": false, "android_boot_confirmed": false, "recovery_fixed_confirmed": false, "banking_or_integrity_tested": false},
+  "constraint": "Agent work remained offline; subsequent physical boot result supplied by user",
+  "v3_variants": {
+    "policy_mte_off": {
+      "artifact": "lk_H4_POLICY_V3_BOOTED_RELEASE_BL2_MTE_OFF_TEST.img",
+      "sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+      "physically_flashed_user_report": true,
+      "android_boot_confirmed_by_user": true,
+      "prior_recovery_symptom_resolved_user_report": true
+    },
+    "policy_default": {
+      "android_boot_confirmed_by_user": false
+    },
+    "unlocked_diagnostic_eng_mte_off": {
+      "android_boot_confirmed_by_user": false
+    }
+  },
   "controlled_variables": {
     "policy_normal_and_off": "Main v2 exact, only boot-confirmed signed release BL2 triple replaces ENG BL2",
     "diagnostic_unlocked_off": "Same ENG BL2 as v2, only force3 getter and main prefix changed"
   },
-  "cause_of_recovery": "unresolved; both clean-ROM main AVB/loader paths pass explicit offline fixtures",
-  "agent_device_actions": "none"
+  "cause_of_recovery": "Policy v3 MTE_OFF boots per user; its main/cert is byte-identical to failed v2 MTE_OFF and only signed BL2 triple/layout changes. This supports a BL2/handoff compatibility difference; exact failing internal mechanism remains unresolved.",
+  "agent_device_actions": "none",
+  "user_report": {
+    "date": "2026-11-06",
+    "messages": [
+      "lần này đã lên rồi, cập nhập tài liệu đi",
+      "Policy v3 MTE_OFF"
+    ],
+    "evidence_type": "user runtime report; exact variant selected by user, no device readback",
+    "rom_preloader_context": "Previous test report: clean China OS4.0.3.0.XPLCNXM, ENG preloader 75e93936...; not newly reconfirmed with successful boot",
+    "not_newly_verified": [
+      "fastboot lock state",
+      "root",
+      "banking",
+      "Play Integrity",
+      "OTA",
+      "stock H4 preloader",
+      "Global ROM",
+      "repeated reboot",
+      "effective kernel MTE state"
+    ]
+  }
 }

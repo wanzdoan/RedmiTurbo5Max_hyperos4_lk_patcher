@@ -14,7 +14,7 @@
 | [10 — Lock thật và OTA China](10-stock-relock-and-ota.md) | Đọc máy qua su, hash init_boot lệch, Secinfo hợp lệ và điều kiện còn thiếu trước lock |
 | [Changelog](CHANGELOG.md) | Các mốc phát hiện, boot và versioning |
 
-Ngày cập nhật: 2026-11-03. Tài liệu hiện tại ưu tiên bộ `docs`; các báo cáo reverse trong `fresh_analysis` lưu quá trình điều tra và phạm vi tại lúc chạy.
+Ngày cập nhật: 2026-11-06. Tài liệu hiện tại ưu tiên bộ `docs`; các báo cáo reverse trong `fresh_analysis` lưu quá trình điều tra và phạm vi tại lúc chạy.
 
 Quan sát binary, replay ARM64 có mô hình hóa, suy luận và báo cáo người dùng là những loại evidence riêng. Các JSON test ghi “no hardware execution” vẫn đúng đối với probe đó. [runtime_confirmation.json](../fresh_analysis/output/runtime_confirmation.json) bổ sung kết quả máy thật do người dùng xác nhận; không biến các probe cũ thành whole-device tests.
 
@@ -42,6 +42,6 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 
 [Native audit preloader H4 với H4 stock-policy mới và ENG H3](../fresh_analysis/h4_preloader_lk_acceptance_20261106/README_VI.md): kiểm locator/chứng chỉ/hash có đối chứng lỗi; chưa phải chấp nhận hoặc boot trên thiết bị.
 
-[H4 ENG policy v2 — ứng viên sửa recovery khi locked](../experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md): user báo v1 MTE_OFF vào recovery trên China/Global; native replay xác định gate Secure ID tại boot caller H4 khác ENG H3. V2 giữ riêng, chưa boot test.
+[H4 ENG policy v2 — ứng viên sửa recovery khi locked](../experiments/lk_h4_eng_policy_recovery_fix_v2/README_VI.md): user báo v1 MTE_OFF vào recovery trên China/Global; native replay xác định gate Secure ID tại boot caller H4 khác ENG H3. V2 giữ riêng; người dùng sau đó báo vẫn vào recovery.
 
-[Phân tích sau v2 vẫn recovery](../fresh_analysis/h4_recovery_v3_20261106/README_VI.md): AVB slot/loader native trên ROM China thật, cùng cmdline/packet dưới fixtures; chưa biết nguyên nhân máy thật. [V3 tách biến số bộ nạp/trạng thái khóa](../experiments/lk_h4_policy_bl2_control_v3/README_VI.md): main v2 giữ nguyên, đổi riêng signed BL2 về bộ của H4 f57 đã boot; diagnostic unlocked riêng, chưa flash.
+[Phân tích sau v2 vẫn recovery](../fresh_analysis/h4_recovery_v3_20261106/README_VI.md): AVB slot/loader native trên ROM China thật, cùng cmdline/packet dưới fixtures; chưa biết nguyên nhân máy thật. [V3 tách biến số bộ nạp/trạng thái khóa](../experiments/lk_h4_policy_bl2_control_v3/README_VI.md): main v2 giữ nguyên, đổi riêng signed BL2 về bộ của H4 f57 đã boot; diagnostic unlocked riêng. **Người dùng xác nhận Policy v3 MTE_OFF (`6282d02b…`) vào Android ngày 2026-11-06**; hai biến thể còn lại chưa có xác nhận boot.

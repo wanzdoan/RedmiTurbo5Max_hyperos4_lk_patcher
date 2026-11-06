@@ -34,3 +34,12 @@ Các kết quả tĩnh đã có trước khi dừng vẫn được giữ trong `
 Số cold boot/reboot, recovery, OTA, relock, thời gian sử dụng dài và readback fuse/RPMB chưa được ghi nhận. Thành công của bản hybrid không đồng nghĩa raw unlock state trong RPMB đã được sửa vĩnh viễn.
 
 Biên bản máy đọc được: [runtime_confirmation.json](../fresh_analysis/output/runtime_confirmation.json). ROM inventory: [rom_inventory.json](../fresh_analysis/stock_h4_preloader_review/rom_inventory.json).
+
+
+## 2026-11-06 — Policy H4 v3 MTE_OFF đã vào Android
+
+Người dùng báo “lần này đã lên rồi” và chọn rõ **Policy v3 MTE_OFF**, file [lk_H4_POLICY_V3_BOOTED_RELEASE_BL2_MTE_OFF_TEST.img](../experiments/lk_h4_policy_bl2_control_v3/lk_H4_POLICY_V3_BOOTED_RELEASE_BL2_MTE_OFF_TEST.img), SHA256 `6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52`, 4.083.424 byte. [Biên bản runtime](../experiments/lk_h4_policy_bl2_control_v3/runtime_confirmation.json) ghi nguồn xác nhận là báo cáo người dùng; không có đọc lại thiết bị/log boot trong lần cập nhật này.
+
+V2 MTE_OFF trước đó bị recovery, trong khi v3 giữ main/cert main nguyên byte v2, chỉ thay bộ ba BL2/chứng chỉ bằng đúng bộ H3 thương mại từ H4 unlocked f57 đã boot. Kết quả giúp khoanh vùng khác biệt tương thích bộ nạp/bàn giao, chưa chỉ ra cơ chế nội bộ gây lỗi. Đây vẫn là main H4 đã patch + BL2 H3 thương mại, không phải H4 ENG đầy đủ.
+
+Ngữ cảnh trước đó là China OS4.0.3.0.XPLCNXM sạch, không root và preloader ENG `75e93936…`; người dùng chưa xác nhận lại cấu hình này trong báo cáo boot mới. Không kế thừa kết quả stock preloader H4 của f57 sang v3. Chưa có báo cáo mới về fastboot locked, banking/Integrity, OTA, Global, root, reboot nhiều lần hoặc MTE thực tế. Normal và diagnostic unlocked chưa được xác nhận boot. Agent không flash hay thao tác thiết bị.

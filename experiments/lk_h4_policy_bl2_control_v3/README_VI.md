@@ -1,6 +1,8 @@
 # H4 policy v3: tách biến số locked và bộ nạp BL2
 
-**Bản đối chứng để tiếp tục tìm lỗi, chưa xác nhận sửa recovery.** User báo v2 vẫn recovery với China H4 sạch, không root; đổi ENG H3 thì boot. Fastboot v2 báo `unlocked:no` và cho flash. User không có máy ở đây, yêu cầu chỉ kiểm offline.
+**Ngày 2026-11-06: người dùng xác nhận Policy v3 MTE_OFF đã vào Android**, sau đó chọn rõ đúng biến thể `6282d02b…`. Đây là báo cáo máy thật của người dùng, không phải kết quả emulator hoặc đọc lại thiết bị. Bản normal và diagnostic unlocked chưa có xác nhận boot. Chi tiết: [runtime_confirmation.json](runtime_confirmation.json). Các manifest từng ảnh giữ nguyên metadata tại lúc build; trạng thái runtime hiện hành nằm ở biên bản riêng và release_manifest.json.
+
+Bối cảnh trước v3: User báo v2 vẫn recovery với China H4 sạch, không root; đổi ENG H3 thì boot. Fastboot v2 báo `unlocked:no` và cho flash. User không có máy ở đây, yêu cầu chỉ kiểm offline.
 
 ## Vì sao bản H4 unlocked cũ lên mà bản locked mới chưa lên?
 
@@ -13,7 +15,7 @@
 | Hai bản policy v3 này | **Main/cert main nguyên byte v2** | **Đúng bộ ba BL2/cert1/cert2 từ f57 đã boot** |
 | Control chẩn đoán riêng | V2 MTE_OFF chỉ ép getter3 | Giữ nguyên BL2 ENG của v2 |
 
-Vì vậy chưa thể nói chắc chỉ do locked. V3 policy không bỏ thêm kiểm chữ ký/hash/rollback, không sửa getter thành fake-locked. Nó chỉ loại một khác biệt so với ảnh H4 từng chạy. Chưa có chứng cứ thực tế BL2 ENG là nguyên nhân; cùng chữ ký hợp lệ không chứng minh bàn giao phần cứng tương đương.
+Kết quả v3 MTE_OFF cho thấy policy vẫn có thể boot khi dùng bộ nạp thương mại của f57. V3 policy không bỏ thêm kiểm chữ ký/hash/rollback, không sửa getter thành fake-locked. Nó chỉ loại một khác biệt so với ảnh H4 từng chạy. So với v2 MTE_OFF bị recovery, main/cert main giữ nguyên và chỉ bộ ba BL2 có chữ ký/layout đổi. Báo cáo này khoanh vùng khác biệt tương thích phía bộ nạp/bàn giao; chưa xác định lệnh hay cơ chế nội bộ gây lỗi. Chữ ký hợp lệ không chứng minh bàn giao phần cứng tương đương.
 
 ## File policy — giữ cơ chế khóa v2
 
@@ -32,7 +34,7 @@ Chỉ thay16byte getter của v2 bằng đúng patch state3 của f57 và tính 
 
 [ZIP ba file và evidence](lk_h4_v3_bl2_comparison_bundle.zip). Thư mục `diagnostic` trong ZIP tách control unlocked khỏi hai ảnh policy.
 
-Khi có kết quả thực tế sau này, việc policy với BL2 thương mại boot được còn v2 cùng main không boot sẽ là bằng chứng khoanh vùng phía bộ nạp/handoff. Nếu control unlocked ENG boot nhưng policy vẫn không, cần truy tiếp các đường theo trạng thái khóa/dữ liệu thiết bị. Nếu tất cả đều recovery thì phải xét phần main port/MTE/bootconfig/môi trường; không gọi một thay đổi bất kỳ là fix chỉ vì fastboot nhận file.
+Bản policy MTE_OFF này là mốc đã boot mới; giữ nguyên tên và bytes khi cập nhật tài liệu. Chưa có kiểm tra mới về trạng thái khóa fastboot, banking, Play Integrity, OTA, ROM Global, preloader H4 stock hoặc trạng thái MTE thực tế trong kernel. Cấu hình China H4 sạch và preloader ENG là ngữ cảnh từ báo cáo trước, chưa được xác nhận lại ở lần boot thành công.
 
 ## Kiểm offline mạnh hơn đợt trước
 
@@ -46,7 +48,7 @@ Với **ba ảnh v3 cuối**:
 - Bản tham chiếu f57 cũng được đưa qua native slot/loader với getter force3 thật. Xác nhận boot vật lý của nó vẫn là báo cáo lịch sử của user, không phải lượt thử mới.
 - Main CPU evidence v2 giữ giá trị bằng **byte identity** với hai policy; không giả vờ đã chạy lại toàn bộ390case khi không đổi main. [validation.json](validation.json) và [booted_reference_validation.json](booted_reference_validation.json) gắn hash ảnh cuối.
 
-Các mocks/giới hạn: stored lock, rollback0, hardwareCN, GUID, persistence, đuôi partition zero-fill, OEM key cache và secure-monitor đều có fixture; SHA/IO/heap/copy dùng backend host, RSA/descriptor/comparison/control native. PAC bypass trong RAM emulator, file không đổi. Native main replay **không chạy BL2 bàn giao thật**, không chạy boot mode/BCB thật, DTB/bootconfig hoàn chỉnh, kernel/FBE/verity mount hoặc trusted world. Chưa biết nguyên nhân recovery máy thật.
+Các mocks/giới hạn: stored lock, rollback0, hardwareCN, GUID, persistence, đuôi partition zero-fill, OEM key cache và secure-monitor đều có fixture; SHA/IO/heap/copy dùng backend host, RSA/descriptor/comparison/control native. PAC bypass trong RAM emulator, file không đổi. Native main replay **không chạy BL2 bàn giao thật**, không chạy boot mode/BCB thật, DTB/bootconfig hoàn chỉnh, kernel/FBE/verity mount hoặc trusted world. Lượt replay không xác định được cơ chế recovery máy thật; báo cáo boot v3 mới được ghi riêng ở trên.
 
 ## Nguồn và tái tạo
 
@@ -58,4 +60,4 @@ python experiments/lk_h4_policy_bl2_control_v3/validate_controls.py
 python experiments/lk_h4_policy_bl2_control_v3/package_release.py
 ```
 
-Không dùng Python`-O`. Checkpoint đã push trước build:`before-h4-bl2-donor-control-build-20261106` tại`a71b22e`; repo private. Không flash, reboot, lock/unlock/erase hay đổi dữ liệu máy. Không hứa banking/Integrity/OTA hoặc stock preloader tương thích từ kết quả offline.
+Không dùng Python`-O`. Checkpoint đã push trước build:`before-h4-bl2-donor-control-build-20261106` tại`a71b22e`; repo private. Không flash, reboot, lock/unlock/erase hay đổi dữ liệu máy. Kết quả boot người dùng và phạm vi offline được ghi riêng; chưa suy ra banking/Integrity/OTA hoặc tương thích stock preloader cho v3.
