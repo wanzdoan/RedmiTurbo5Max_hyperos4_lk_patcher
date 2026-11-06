@@ -111,4 +111,3 @@ def flow_case(image,automatic,country,hardware='CN',level='MP',version='1.0',suf
             'outgoing_hwc':hw_output,'outgoing_countrycode':pt,'partition_reads':len(reads),
             'hardware_copy_calls':hw_calls,'later_hwversion_pointer_preserved':True,
             'hardware_cache_and_frame_unchanged':True,'pass':True}
-
