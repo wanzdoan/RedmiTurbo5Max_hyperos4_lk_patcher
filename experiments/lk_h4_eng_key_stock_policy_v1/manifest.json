@@ -1,0 +1,128 @@
+{
+  "status": "OFFLINE_EXPERIMENT_NOT_BOOT_TESTED",
+  "artifact": "lk_H4_ENG_KEY_STOCK_POLICY_H3ENG_BL2_TEST.img",
+  "input_h4_sha256": "82b4e1f2547b501f1e61987b9251337318a72a7c091e8965c28b664b5efac95b",
+  "input_h3_eng_sha256": "6f386241b32f018e4f65459ede0364b2cd856a89bbf469dee241223b6557f71d",
+  "output_sha256": "9c4575c4be448059c114c5f2f1e1884982e3be8b3159e2d1fc43722df4c33773",
+  "bytes": 4100080,
+  "members": [
+    {
+      "offset": 0,
+      "size": 1284936,
+      "name": "lk",
+      "end": 1285456
+    },
+    {
+      "offset": 1285456,
+      "size": 1733,
+      "name": "cert1",
+      "end": 1287712
+    },
+    {
+      "offset": 1287712,
+      "size": 1162,
+      "name": "cert2",
+      "end": 1289392
+    },
+    {
+      "offset": 1289392,
+      "size": 1095920,
+      "name": "bl2_ext",
+      "end": 2385824
+    },
+    {
+      "offset": 2385824,
+      "size": 1733,
+      "name": "cert1",
+      "end": 2388080
+    },
+    {
+      "offset": 2388080,
+      "size": 982,
+      "name": "cert2",
+      "end": 2389584
+    },
+    {
+      "offset": 2389584,
+      "size": 1005488,
+      "name": "aee",
+      "end": 3395584
+    },
+    {
+      "offset": 3395584,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3397840
+    },
+    {
+      "offset": 3397840,
+      "size": 982,
+      "name": "cert2",
+      "end": 3399344
+    },
+    {
+      "offset": 3399344,
+      "size": 536097,
+      "name": "lk_main_dtb",
+      "end": 3935968
+    },
+    {
+      "offset": 3935968,
+      "size": 1733,
+      "name": "cert1",
+      "end": 3938224
+    },
+    {
+      "offset": 3938224,
+      "size": 982,
+      "name": "cert2",
+      "end": 3939728
+    },
+    {
+      "offset": 3939728,
+      "size": 156075,
+      "name": "lk_dtbo",
+      "end": 4096320
+    },
+    {
+      "offset": 4096320,
+      "size": 1733,
+      "name": "cert1",
+      "end": 4098576
+    },
+    {
+      "offset": 4098576,
+      "size": 982,
+      "name": "cert2",
+      "end": 4100080
+    }
+  ],
+  "main_callback": {
+    "payload_offset": "0xc5978",
+    "end": "0xc5b18",
+    "bytes": 416,
+    "original_sha256": "4825ded5260ccef73b60a3e8f6f92909e96de72d0982bbc6439170107d064846",
+    "sha256": "aa05a420294badeabb86783d7abf53381c6e4c480af66ba58a4d0cc2251dcf76"
+  },
+  "signed_eng_bl2_triple_sha256": "d38558bd370dfa3e0240fc3bee381760941bc5f52116d17a2346527654bcc77c",
+  "component_origin": {
+    "main": "H4; only AVB trust callback modified",
+    "BL2_and_certificates": "Original H3 ENG signed triple",
+    "AEE_DTB_DTBO": "Original H4"
+  },
+  "force_lock": false,
+  "force_unlock": false,
+  "fake_green": false,
+  "mte": "Original H4",
+  "hwc_and_flash_region": "Original H4",
+  "stock_lock_getter_setter_avb_flags_root_handoff_unchanged": true,
+  "device_flash_or_lock_performed": false,
+  "limits": [
+    "Not full H4 engineering firmware: H4 release main retains release behavior",
+    "Only CN4096 and original H3 ENG2048 accepted in top-level AVB key callback",
+    "Recovery-specific and chained AVB keys retain original H4 behavior",
+    "No bypass of modified boot hashes or signatures; locked rooted boot may fail",
+    "No real relock, preloader compatibility, boot, OTA or Play Integrity proof",
+    "Uses external main hash prefix; retained OEM DER is not re-signed"
+  ]
+}
