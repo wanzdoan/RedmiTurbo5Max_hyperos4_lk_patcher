@@ -48,3 +48,6 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 
 
 [Integrity H3/H4 với cùng Policy H4 v3 MTE_OFF](../fresh_analysis/h4_integrity_20261106/README_VI.md): user báo banking H4 hoạt động, H3 đủ ba mức Integrity và H4 không có mức nào; H4 China không root, kiểm bằng app Play Integrity API Checker. Bốn ca sender native và đối chiếu stock; chưa có verdict/ADB/chứng thư thật, chưa có bản sửa được chứng minh.
+
+
+[H4 fakelock v1 theo H3 ENG fakelock v2 mới nhất](../experiments/lk_h4_fakelock_v1/README_VI.md): một ảnh auto HWC/MTE_OFF riêng, dùng nền policy v3 đã boot và getter H4 unlocked; giữ BL2 H3 thương mại của v3. 426 ca main, chứng chỉ/parser, AVB/loader và ca init_boot lỗi hash được kiểm offline. Chưa boot ảnh mới; nhánh điều tra Integrity tạm dừng theo yêu cầu.

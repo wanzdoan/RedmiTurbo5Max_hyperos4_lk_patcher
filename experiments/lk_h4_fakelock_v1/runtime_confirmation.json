@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-06",
+  "artifact": "lk_H4_FAKELOCK_V1_AUTO_HWC_MTE_OFF_TEST.img",
+  "sha256": "5ca64119c1aa019350d81652d800c0c87d6fefa553e8389580c1ddf15eeb6aa6",
+  "device_flashed_by_agent": false,
+  "new_image_user_boot_report": null,
+  "new_image_root_banking_integrity_ota_keystore_tested": false,
+  "baseline_policy_v3_user_report": {
+    "sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+    "android_boot": true,
+    "banking_functions": "work per user",
+    "same_lk_with_h3_rom_integrity": "all three per user",
+    "same_lk_with_h4_china_rom_integrity": "all three fail per user in Play Integrity API Checker",
+    "is_report_for_new_image": false
+  },
+  "h3_reference_runtime_scope": "Latest retained H3 ENG fakelock v2 auto HWC MTE_OFF branch identified by exact hash; no new user runtime confirmation collected",
+  "integrity_investigation": "User requested to set aside the earlier investigation and build H4 fakelock; no claim this fixes Google verdicts",
+  "device_actions": "none; host build and offline validation only"
+}

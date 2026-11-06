@@ -94,3 +94,8 @@ Xem [quy trình và giới hạn](../experiments/lk_h4_eng_policy_auto_hwc_v1/RE
 ## V3: đối chứng signed BL2 và unlocked (2026-11-06)
 
 [Quy trình](../experiments/lk_h4_policy_bl2_control_v3/README_VI.md): `build_controls.py`, `validate_controls.py`, `package_release.py`. Hai policy giữ nguyên main v2, do đó main CPU evidence kế thừa qua byte identity; chạy mới parser/DER/preloader và AVB/loader với đúng ảnh cuối. Unlocked control chạy getter force3 thật, tách rõ khỏi policy. Whole AVB replay/negative controls ở `fresh_analysis/h4_recovery_v3_20261106/compare_clean_rom.py`; fixtures không thay thế dữ liệu bảo mật/boot trên máy.
+
+
+## H4 fakelock v1 trên nền policy v3 đã boot (2026-11-06)
+
+[Quy trình và scope](../experiments/lk_h4_fakelock_v1/README_VI.md): chạy `build_fakelock_h4.py`, `validate_fakelock_h4.py`, `validate_boot_policy.py`, `package_release.py` trong thư mục `experiments/lk_h4_fakelock_v1`. Builder khóa hash cả ba nguồn, giữ signed BL2/AEE/DTBs và DER, chỉ đổi main/prefix. Report chính có 402 ca main (398 H4 + 4 tham chiếu H3); report boot-policy có 24 ca caller bổ sung, tổng426; 10DER/3parser, preloader native boundary và native AVB/loader clean + corrupted init_boot. Lỗi hash vẫn return3, không gọi là verify thành công. ROM/hardware/secure-world fixtures và kết quả máy thật được tách rõ. Không chạy builder cũ để tạo ảnh mới hoặc ghi đè ảnh đã boot.

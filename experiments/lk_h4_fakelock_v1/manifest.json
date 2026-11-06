@@ -1,0 +1,119 @@
+{
+  "status": "EXPERIMENTAL_OFFLINE_ONLY_NOT_DEVICE_BOOTED",
+  "artifact": "lk_H4_FAKELOCK_V1_AUTO_HWC_MTE_OFF_TEST.img",
+  "input_sha256": "6282d02b422573b42ce789bec8fca4f37f6f26069489332d3016589088073d52",
+  "unlocked_donor_sha256": "f57d19c928b417ab082f06612038587fffadf693700e535eaa08542fa878c171",
+  "h3_reference_sha256": "9af2950d2df4d5e80905a501c0d1a823f22a97060dd287827d9c3ff7e58103a3",
+  "output_sha256": "5ca64119c1aa019350d81652d800c0c87d6fefa553e8389580c1ddf15eeb6aa6",
+  "bytes": 4083424,
+  "patches": [
+    {
+      "payload_offset": "0x89aec",
+      "whole_file_offset": "0x89cec",
+      "original": "3f2303d5ff4305d1fd7b12a9fc5713a9",
+      "replacement": "68008052080000b900008052c0035fd6",
+      "purpose": "Internal force-unlocked3 getter, exact16 bytes from boot-confirmed H4 unlocked"
+    },
+    {
+      "payload_offset": "0xc8e0",
+      "whole_file_offset": "0xcae0",
+      "original": "3f2303d5ff0301d1fd7b03a9fdc30091a01300d1bfc31fb8ffff01a9ffff00a9ff0300f943f00194a000003460060090004c3291e2f4ff9711000014a8c35fb8e9060090292134912a0600d04a391691e00300911f0d0071010580524201899a6fcb0194e0030091ff9f0039a8f4ff97800600f000e00c91e1f4ff97fd7b43a9ff030191bf2303d5c0035fd6",
+      "replacement": "3f2303d5fd7bbfa900216e10c0f4ff9740526910fd7bc1a8bf2303d5f8f4ff173f2303d5fd7bbfa9800640f9219d7450e7c90194e0000034800640f981e16230e3c90194a0000034800a40f90400001460b77b100200001440b77b10e40300aa830640f9fd7bc1a8bf2303d5c0035fd6616e64726f6964626f6f742e666c6173682e6c6f636b65643d310000",
+      "purpose": "Public OEM lks reply, getvar-only formatter and flash.locked literal within old lks function"
+    },
+    {
+      "payload_offset": "0xb0ec",
+      "whole_file_offset": "0xb2ec",
+      "original": "800a40f9",
+      "replacement": "05060094",
+      "purpose": "Single public getvar formatting; variable cache remains real"
+    },
+    {
+      "payload_offset": "0xb118",
+      "whole_file_offset": "0xb318",
+      "original": "839240a9",
+      "replacement": "fa050094",
+      "purpose": "getvar all formatting; variable cache remains real"
+    },
+    {
+      "payload_offset": "0xbc7dc",
+      "whole_file_offset": "0xbc9dc",
+      "original": "4201899a",
+      "replacement": "e2030aaa",
+      "purpose": "AVB exported cmdline locked; internal unlocked flag remains real"
+    },
+    {
+      "payload_offset": "0x69574",
+      "whole_file_offset": "0x69774",
+      "original": "3f2303d5c805009008b189b91f0d0071e80000541f2003d5497b52102879a8b82001088bbf2303d5b7befe17bf2303d5c0035fd6",
+      "replacement": "3f2303d5fd7bbfa9403a3410bebefe9760000035409ed110bbbefe97fd7bc1a8bf2303d5c0035fd61f2003d51f2003d51f2003d5",
+      "purpose": "Export green and flash.locked1; internal boot-state getter/setter unchanged"
+    },
+    {
+      "payload_offset": "0xc4db0",
+      "whole_file_offset": "0xc4fb0",
+      "original": "e82f40b9",
+      "replacement": "28008052",
+      "purpose": "Packet1 selects existing OEM-key hash instead of unlocked zero hash"
+    },
+    {
+      "payload_offset": "0xc4e10",
+      "whole_file_offset": "0xc5010",
+      "original": "e12f80b9",
+      "replacement": "210080d2",
+      "purpose": "Packet2 exported lock1; local lock word remains real"
+    },
+    {
+      "payload_offset": "0xc4e18",
+      "whole_file_offset": "0xc5018",
+      "original": "02c149b9",
+      "replacement": "02008052",
+      "purpose": "Packet2 exported boot-state0; global boot state remains real"
+    },
+    {
+      "payload_offset": "0xc9a8",
+      "whole_file_offset": "0xcba8",
+      "original": "a3c35fb8",
+      "replacement": "23008052",
+      "purpose": "Public seccfg1 formatting; original read/error path and stored word retained"
+    },
+    {
+      "payload_offset": "0x69638",
+      "whole_file_offset": "0x69838",
+      "original": "61010054",
+      "replacement": "0b000014",
+      "purpose": "Skip only orange UI warning; yellow/red verification-error handlers retained"
+    }
+  ],
+  "internal_lock_state": 3,
+  "public_fastboot": {
+    "unlocked": "no",
+    "secure": "yes",
+    "lks": 1,
+    "seccfg": 1
+  },
+  "exported_boot_values": {
+    "device_state": "locked",
+    "verifiedbootstate": "green",
+    "flash_locked": 1
+  },
+  "public_reporting_only_cache_preserved": true,
+  "root_packet_export": {
+    "lock": 1,
+    "boot_state": 0,
+    "existing_oem_key_hash": true
+  },
+  "internal_verified_boot_state_preserved": true,
+  "hwc_auto_and_known_cn_gl_eng_keys_preserved": true,
+  "mte_policy": "Inherited existing arm64.nomte path from boot-confirmed H4 MTE_OFF; not a preloader edit",
+  "bl2_origin": "Exact signed H3 commercial/release triple retained from boot-confirmed H4 v3/f57",
+  "all_other_members_and_signed_der_unchanged": true,
+  "persistent_lock_write": false,
+  "device_actions": "none",
+  "limits": [
+    "H4 release main with patches, not a complete H4 ENG build",
+    "Exported locked/green are synthetic and do not establish genuine relock or verified software",
+    "No trusted attestation chain, patch level or certification is created",
+    "No runtime boot/root/banking/Integrity/OTA/Keystore compatibility confirmation for this new image"
+  ]
+}

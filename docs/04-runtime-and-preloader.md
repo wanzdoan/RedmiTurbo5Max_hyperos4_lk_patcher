@@ -48,3 +48,8 @@ Ngữ cảnh trước đó là China OS4.0.3.0.XPLCNXM sạch, không root và p
 ### Báo cáo bổ sung: banking và Integrity với cùng LK
 
 Người dùng xác nhận banking H4 hoạt động đầy đủ. Giữ nguyên LK v3 MTE_OFF `6282d02b…`, cài ROM H3 được đủ ba mức Integrity; cài ROM H4 China OS4.0.3.0.XPLCNXM không root thì không có mức nào khi kiểm bằng app Play Integrity API Checker. Đây là báo cáo cùng LK/hai ROM, không phải so hai LK. Chưa nhận nguyên văn verdict/lỗi, phiên bản Google services hoặc đọc lại máy. [Điều tra riêng](../fresh_analysis/h4_integrity_20261106/README_VI.md) không sửa firmware hoặc thao tác thiết bị.
+
+
+### H4 fakelock v1 mới — chưa có runtime report
+
+Người dùng yêu cầu tạm gác điều tra Integrity và chuyển cơ chế H3 ENG fakelock gần nhất sang H4. [Ảnh mới](../experiments/lk_h4_fakelock_v1/README_VI.md), SHA256 `5ca64119c1aa019350d81652d800c0c87d6fefa553e8389580c1ddf15eeb6aa6`, giữ H4 policy v3 MTE_OFF `6282d02b…` làm nền và signed BL2 thương mại nguyên byte; getter force3 lấy từ H4 unlocked f57. Nội bộ unlocked, public locked/green là giá trị giả. Kết quả banking/boot của v3 không chuyển thành xác nhận cho ảnh mới. [Biên bản](../experiments/lk_h4_fakelock_v1/runtime_confirmation.json) hiện chưa có boot/root/Integrity/OTA/Keystore test. Agent không flash hoặc thao tác thiết bị.

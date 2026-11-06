@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-06 — H4 fakelock v1 theo H3 ENG fakelock v2
+
+- Theo yêu cầu tạm gác Integrity, chốt đúng tham chiếu H3 fakelock v2/auto HWC/MTE_OFF `9af2950d…` và nền H4 policy v3 off đã boot `6282d02b…`; getter16byte từ H4 unlocked f57.
+- [Ảnh H4 mới](../experiments/lk_h4_fakelock_v1/README_VI.md) SHA256 `5ca64119c1aa019350d81652d800c0c87d6fefa553e8389580c1ddf15eeb6aa6`, nội bộ unlocked/public locked-green, HWC/MTE_OFF kế thừa, giữ nguyên signed BL2 thương mại đã boot và mọi thành phần ngoài main/prefix.
+- 426 ca main gồm4H3thamchiếu, 10DER/3parser, native preloader boundary và AVB/loader có đối chứng init_boot lỗi hash; chưa flash/boot/root/Integrity test ảnh mới. Giữ các nguồn và runtime report nền riêng; tag trước sửa `before-h4-fakelock-v1-20261106` tại `adc8480` đã push.
+
+
 ## 2026-11-06 — Điều tra Integrity H4 khi cùng LK đạt đủ trên H3
 
 - Người dùng xác nhận banking H4 đầy đủ, H4 China không root; cùng LK v3 MTE_OFF trên H3 đạt đủ ba mức nhưng H4 không có mức nào trong app Play Integrity API Checker.

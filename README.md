@@ -57,3 +57,6 @@ V2 tiếp tục bị user báo recovery trên China H4 sạch, không root; ENG 
 
 
 Bổ sung từ người dùng: cùng Policy H4 v3 MTE_OFF chạy đầy đủ banking; cài ROM H3 đạt cả ba mức Integrity nhưng ROM H4 China sạch không root không đạt mức nào trong app Play Integrity API Checker. [Điều tra Integrity H4](fresh_analysis/h4_integrity_20261106/README_VI.md) đang cần verdict/dữ liệu máy; audit sender native chưa tìm thấy lỗi trong phạm vi đã kiểm, chưa tạo patch mới.
+
+
+Theo yêu cầu tạm dừng nhánh Integrity: [H4 fakelock v1, auto HWC + MTE_OFF](experiments/lk_h4_fakelock_v1/README_VI.md), SHA256 `5ca64119…`, từ H4 policy v3 MTE_OFF đã boot + getter của H4 unlocked f57, chuyển cơ chế H3 ENG fakelock v2 mới nhất `9af2950d…`. Getter nội bộ unlocked, public locked/green, cache thật giữ nguyên; bộ nạp thương mại đã boot giữ nguyên. 426 ca main native gồm 4 ca tham chiếu H3, DER/parser và AVB/loader đạt trong scope offline; ảnh mới chưa boot/root/banking/Integrity test.
