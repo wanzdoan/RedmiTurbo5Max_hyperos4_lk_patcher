@@ -81,3 +81,7 @@ Ngoài ra, file preloader ở **root ngoài** của thư mục giải nén ROM c
 Thiếu log của lần lỗi cho thấy đã qua bước nào: preloader nạp/xác thực BL2, BL2 nạp main/AEE, hay main khởi tạo phần cứng/Android. Cũng chưa có trạng thái crash/DFD và toàn bộ thành phần bảo mật của chính lần lỗi. Không tái tạo ca brick bằng cách flash trong đợt kiểm tra này.
 
 Kết quả bàn giao là bản đồ bằng chứng và giới hạn trên, không phải xác nhận stock H3/H4 đã tương thích với sáu file ENG. [Bộ sáu file](../experiments/lk_h3_eng_mte_off_v1/README_VI.md) tiếp tục giữ trạng thái chưa boot test; không sửa ảnh hoặc gắn nhãn đã chạy từ các probe offline.
+
+## 2026-11-06: native audit đúng preloader H4 với LK mới
+
+Xem [báo cáo và giới hạn](../fresh_analysis/h4_preloader_lk_acceptance_20261106/README_VI.md). Bảy ảnh gồm H4 unlocked đã boot, ENG gốc, hai H3 stock-policy, hai H4 stock-policy mới và H4 gốc. Locator, ASN.1/key comparison/PSS cert2, helper/comparator header/payload hash đạt offline với khóa cert1 tham chiếu; đối chứng lỗi bị phát hiện. Không mock kết quả chữ ký, nhưng SHA/RSA primitive dùng toán học host và khóa root thiết bị/rollback/handoff chưa đo. Không kết luận flash preloader H4 hoặc boot thật đã thành công. Firmware nguyên byte.

@@ -71,6 +71,8 @@ Không dùng Python`-O`. Mỗi ảnh có **390 trường hợp main có đối c
 
 ## Preloader H4: chưa kết luận flash dùng được
 
+Cập nhật06-11: [native audit preloader H4](../../fresh_analysis/h4_preloader_lk_acceptance_20261106/README_VI.md) đã chạy locator, coordinator cert2/so khóa/PSS và helper/comparator hash trên chính ảnh cuối. Các bước đã kiểm qua cho hai H4 mới và nhánh ENG H3; đối chứng sai chữ ký/khóa/header/payload bị phát hiện. SHA/RSA dùng backend toán học host, khóa tin cậy lấy từ cert1 đã kiểm offline. Chưa phải toàn loader/rollback/handoff hoặc chấp nhận thiết bị thật. Bytes/hashes firmware không đổi.
+
 H4 main/AEE/DTB tránh bê nguyên phần khởi tạo H3 sang, nhưng **BL2 ENG H3 vẫn là biến số chưa boot test cùng tổ hợp này**. Cùng root SPKI và chuỗi chữ ký hợp lệ trong [đối chiếu họ LK](../../fresh_analysis/eng_family_compatibility_20261105/README_VI.md) là bằng chứng hỗ trợ xác thực offline, không chứng minh ABI/handoff, rollback và phần cứng thật.
 
 Bản H4`f57d19c9...` người dùng từng xác nhận dùng preloader H4 lại dùng **BL2 H3 release**, không phải BL2 ENG của hai ảnh này. Không chuyển xác nhận đó sang đây. Chưa có bản mới được xác nhận cho phép giữ preloader H4 khi flash ROM. Không flash/lock/reboot/erase hay ghi dữ liệu bảo mật trong đợt này.

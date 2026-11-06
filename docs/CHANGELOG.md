@@ -128,3 +128,9 @@
 - Dựng hai ảnh riêng H4 main/AEE/DTB + signed BL2 ENG H3, nhận khóa ENG/CN/GL, mở chốt vùng đã xác định, auto HWC và normal/MTE_OFF. Giữ getter/setter, AVB flags/root handoff H4; không force khóa/green.
 - Đã kiểm offline390 trường hợp main có đối chứng/fixture +3parser +10DER mỗi ảnh. Main fastboot query-error và AEE release gates vẫn được phân biệt trong docs; không gọi là chuyển đầy đủ sang ENG chính thức.
 - Chưa flash, lock hoặc chứng minh boot với stock preloader H4; không suy từ bản H4 f57 dùng BL2 H3 release. Xem [artifact và evidence](../experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md).
+
+## 2026-11-06 — Kiểm đúng preloader H4 với hai LK H4 stock-policy mới
+
+- Đúng preloader SHA104bb972...; bảy ảnh tham chiếu/new được khóa hash. Chạy coordinator cert2/ASN.1/key compare/PSS native; SHA/RSA dùng backend toán học host, không ép signature-valid.
+- 7cert2 positive,7cặp hash native,8locator,21parser BL2,21đối chứng lỗi,48policy đạt kiểm tra phạm vi; hai H4 mới và nhánh H3 stock-policy giữ cùng signed BL2 ENG triple.
+- Không thay firmware hoặc flash/lock/đọc trạng thái bảo mật điện thoại. Chưa xác nhận hardware acceptance/rollback/handoff/full boot. Docs và ZIP evidence H4 cập nhật; hashes ảnh giữ nguyên. [Evidence](../fresh_analysis/h4_preloader_lk_acceptance_20261106/README_VI.md).

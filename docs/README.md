@@ -39,3 +39,5 @@ Bộ cuối 2026-11-05: [6 file ENG all-region + MTE mặc định/off](../exper
 [ENG stock-policy China-only, hai bản MTE](../experiments/lk_eng_stock_policy_cn_only_v1/README_VI.md): từ ENG gốc6f386, giữ HWC/kiểm China gốc, thêm China4096 cạnh ENG2048, không Global; chưa boot test.
 
 [H4 stock-policy theo nhánh stock_policy_auto_hwc trong ZIP H3](../experiments/lk_h4_eng_policy_auto_hwc_v1/README_VI.md): hai biến thể normal/MTE_OFF, định danh đúng bản tham chiếu, chức năng đã port và giới hạn preloader H4. Chưa flash/boot/lock máy.
+
+[Native audit preloader H4 với H4 stock-policy mới và ENG H3](../fresh_analysis/h4_preloader_lk_acceptance_20261106/README_VI.md): kiểm locator/chứng chỉ/hash có đối chứng lỗi; chưa phải chấp nhận hoặc boot trên thiết bị.
